@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Diffenator3</title>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+		crossorigin="anonymous"></script>
+	<style type="text/css">
+		@font-face {
+      font-family: "Font Before";
+      src: url();
+    }
+
+    @font-face {
+      font-family: "Font After";
+      src: url();
+    }
+
+    .font-before, .font-after {
+      font-variation-settings: "wght" 400, "wdth" 100;
+    }
+
+    .font-before {
+      font-family: "Font Before", "Adobe Notdef";
+    }
+
+    .font-after {
+      font-family: "Font After", "Adobe Notdef";
+    }
+
+	:root {
+	--node-pt-size: 40px;
+	}
+
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #b3d4f5 !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+    background-color: #ced9e4 !important;
+}
+.nav-item {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.nav-pills .nav-link{
+    background-color: #9fcaf5 !important;
+}
+h4 {
+    color: #6f7882 !important;
+}
+
+@font-face {
+    font-family: "Adobe NotDef";
+    src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+}
+
+.box-title {
+    width: 100%;
+    font-size: 8pt;
+    font-weight: 700;
+    border-top: 1px solid black;
+    padding-top: 5px;
+    margin-bottom: 10pt;
+    display: block;
+}
+
+.box {
+    margin-bottom: 20pt;
+    width: 100%;
+    float: left;
+}
+
+.box-text {}
+
+#ui-nav {
+    position: fixed;
+    right: 20px;
+    z-index: 100;
+}
+
+#font-toggle {}
+
+.ui-nav-item {
+    display: block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+    text-align: center;
+    color: white;
+    background-color: black;
+    display: block;
+    font-size: 14pt;
+    padding: 5px;
+    margin: 2px;
+}
+
+/* Stuff needed for the table differ */
+body {
+    font-family: Helvetica;
+}
+
+.node {
+    font-family: courier;
+    cursor: pointer;
+    position: relative;
+    left: 30px;
+    padding: 5px;
+    display: block;
+    border: 1px dashed grey;
+    background-color: #e9e9ee;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.attr-before {
+    color: green;
+    cursor: text;
+}
+
+.attr-after {
+    color: red;
+    cursor: text;
+}
+
+.leaf {
+    font-weight: bold;
+}
+
+.old .cell .new {
+    display: none;
+}
+
+.new .cell .old {
+    display: none;
+}
+
+.both .cell .old {
+    opacity: 0.75;
+    color: red;
+}
+
+.both .cell .new {
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    color: green;
+}
+
+.spacer {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+#ot-panel {
+    max-height: 400px;
+    overflow-y: scroll;
+    background: white;
+    padding: 10px;
+    display: none;
+   }
+
+   .cell{
+    z-index: -100;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 5pt;
+    margin: 5pt;
+    width: 50pt;
+    font-size: var(--node-pt-size);
+    line-height: calc(var(--node-pt-size) * 1.5);
+  }
+  .cell-word{
+    z-index: -100;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 5pt;
+    margin: 5pt;
+    font-size: var(--node-pt-size);
+    line-height: calc(var(--node-pt-size) * 1.5);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .cell-glyph{
+    z-index: -100;
+    float: left;
+    display: block;
+    text-align: center;
+    border-radius: 5pt;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 5pt;
+    margin: 5pt;
+    width: calc(var(--node-pt-size) * 2);
+    min-height: calc(var(--node-pt-size) * 2);
+    font-size: var(--node-pt-size);
+  }
+  .cell-glyph.font-before, .cell-word.font-before {
+    background: #eff6f2;
+  }
+  .cell-glyph.font-after, .cell-word.font-after {
+    background: #f7f4f4;
+  }
+
+  .cell-glyph:hover {
+    box-shadow: none;
+    background: #f0f0f5;
+  }
+  .cat-strings .cell {
+    clear: both;
+    position: static;
+    float: none;
+    text-align: left;
+  }
+  .codepoint {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10pt;
+    line-height: 10pt;
+  }
+  .box-title {
+    clear: both;
+  }
+  .node.closed::before {
+    content: "+";
+    margin-right: 5pt;
+  }
+  .node.open::before {
+    content: "-";
+    margin-right: 5pt;
+  }
+
+  .tooltip pre {
+    background-color: #6f7882;
+    padding: 5px;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+  .tooltip {
+    line-height: 1em;
+  }
+  .tooltip-inner {
+    max-width: 300px;
+  }
+
+  h1,h2,h3,h4,h5 {
+    clear: both;
+  }
+
+  #locationnav li {
+    white-space: wrap;
+  }
+
+  #userdefined div { width: 100%; }
+  
+/* The following rules are used in the WASM version, not in the CLI version.
+   But we keep them here so we can share them between the two versions. */
+
+   .modal-dialog {
+    max-width: 100% !important;
+    margin: 0 !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+  }
+
+  .fontdrop {
+    padding: 30px;
+    border-radius: 20px;
+    outline: 3px dashed #ffffffff;
+    outline-offset: -20px;
+  }
+
+  #fontbefore {
+    background-color: #ddffdddd;
+  }
+
+  #fontafter {
+    background-color: #ffdddddd;
+  }
+
+  .dragging {
+    background-image: linear-gradient(rgb(0 0 0/5%) 0 0);
+    outline: 5px dashed #ffffffff;
+  }
+
+  #diffkerns {
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+		</style>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+	integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+		<div id="ui-nav">
+		  <div class="ui-nav-item" id="fonttoggle">Old</div>
+		  <div class="ui-nav-item" id="fontanimate">Animate</div>
+		  <div id="axes">
+		  </div>
+		</div>
+	
+	<div class="row">
+		<div class="col-2">
+			<ul class="nav nav-pills" id="locationnav">
+			</ul>
+		</div>
+		<div class="col-9 mt-3">
+			<div id="title"></div>
+			<div id="cmapdiff"> </div>
+			<div id="main"></div>
+			<div id="userdefined">
+				<h4>User defined sample text</h4>
+				<div contenteditable="true" class="font-before cell-word">
+					You can type your own text here to see it previewed in the fonts.
+				</div>
+				<div style="clear: both"></div>
+			</div>
+			<div id="diffkerns"> </div>
+			<div id="difftable"> </div>
+		</div>
+	</div>
+	<script type="module">
+		function renderTableDiff(node, toplevel) {
+  var wrapper = $("<div> </div>");
+  if (!node) {
+    return wrapper;
+  }
+  if (Array.isArray(node) && node.length == 2) {
+    var before = $("<span/>");
+    before.addClass("attr-before");
+    before.html(" " + node[0] + " ");
+    var after = $("<span/>");
+    after.addClass("attr-after");
+    after.append(renderTableDiff(node[1], true).children());
+    wrapper.append(before);
+    wrapper.append(after);
+    return wrapper;
+  }
+  if (node.constructor != Object) {
+    var thing = $("<span/>");
+    thing.html(node);
+    wrapper.append(thing);
+    return wrapper;
+  }
+  for (const [key, value] of Object.entries(node)) {
+    var display = $("<div/>");
+    display.addClass("node");
+    if (!toplevel) {
+      display.hide();
+    }
+    display.append(key);
+    display.append(renderTableDiff(value, false).children());
+    if (display.children(".node").length > 0) {
+      display.addClass("closed");
+    }
+    wrapper.append(display);
+  }
+  return wrapper;
+}
+
+function addAGlyph(glyph, where) {
+  let title = "";
+  if (glyph.name) {
+    title = "name: " + glyph.name;
+  }
+  let cp =
+    "<br>U+" +
+    glyph.string.codePointAt(0).toString(16).padStart(4, "0").toUpperCase();
+  where.append(`
+        <div class="cell-glyph font-before">
+        <div data-toggle="tooltip" data-html="true" data-title="${glyph.differing_pixels} pixels"> ${glyph.string}
+        <div class="codepoint" data-toggle="tooltip" data-html="true" data-title="${title}">
+		${cp}
+        </div>
+        </div>
+    `);
+}
+
+function addAWord(diff, where) {
+  if (!diff.buffer_b) {
+    diff.buffer_b = diff.buffer_a;
+  }
+  where.append(`
+		<div class="cell-word font-before">
+		<span data-toggle="tooltip" data-html="true" data-title="Before: <pre>${diff.buffer_a}</pre>After: <pre>${diff.buffer_b}</pre><br>difference: ${diff.differing_pixels} pixels">
+		${diff.word}
+		</span>
+		</div>
+	`);
+}
+
+function diffTables(report) {
+  $("#difftable").empty();
+  $("#difftable").append(`<h4 class="mt-2 box-title">Table-level details</h4>`);
+  $("#difftable").append(
+    renderTableDiff({ tables: report["tables"] }, true).children()
+  );
+  $("#difftable .node").on("click", function (e) {
+    $(this).toggleClass("closed open");
+    $(this).children(".node").toggle();
+    e.stopPropagation();
+  });
+}
+function diffKerns(report) {
+  $("#diffkerns").empty();
+  $("#diffkerns").append(`<h4 class="mt-2">Modified Kerns</h4>`);
+  $("#diffkerns").append(
+    `<table class="table table-striped" id="diffkerns"><tr><th>Pair</th><th>Old</old><th>New</th></table>`
+  );
+  for (let [pair, value] of Object.entries(report["kerns"])) {
+    if (pair == "error") {
+      $("#diffkerns").append(`<p class="text-danger">Error: ${value}</p>`);
+      continue;
+    } else {
+      let row = $("<tr>");
+      row.append(`<td>${pair}</td>`);
+      row.append(`<td>${serializeKernBefore(value)}</td>`);
+      row.append(`<td>${serializeKernAfter(value)}</td>`);
+      $("#diffkerns table").append(row);
+    }
+  }
+}
+
+function serializeKernBefore(kern) {
+  if (Array.isArray(kern)) {
+    return serializeKern(kern[0], -1);
+  }
+  return serializeKern(kern, 0);
+}
+
+function serializeKernAfter(kern) {
+  if (Array.isArray(kern)) {
+    return serializeKern(kern[1], -1);
+  }
+  return serializeKern(kern, 1);
+}
+
+function serializeKern(kern, index) {
+  let string = "";
+  if (kern === null || kern === undefined) {
+    return "(null)";
+  }
+  if (kern.x) {
+    string += serializeKernValue(kern.x, index);
+  } else if (kern.y) {
+    string = "0";
+  }
+
+  if (kern.y) {
+    string += "," + serializeKernValue(kern.y, index);
+  }
+  if (!kern.x_placement && !kern.y_placement) {
+    return string;
+  }
+  string += "@";
+  if (kern.x_placement) {
+    string += serializeKernValue(kern.x_placement, index);
+  } else if (kern.y_placement) {
+    string += "0";
+  }
+  if (kern.y_placement) {
+    string += "," + serializeKernValue(kern.y_placement, index);
+  }
+  return string;
+}
+
+function serializeKernValue(kern, index) {
+  if (typeof kern == "number") {
+    return kern;
+  }
+  let string = "(";
+  let verybig = Object.entries(kern).length > 5;
+  for (let [key, value] of Object.entries(kern)) {
+    if (key == "default") {
+      string += value[index] + " ";
+    } else {
+      string += value[index] + "@" + key + " ";
+    }
+    if (verybig) {
+      string += "<br>";
+    }
+  }
+  return string.trim() + ")";
+}
+
+function cmapDiff(report) {
+  if (report.cmap_diff && (report.cmap_diff.new || report.cmap_diff.missing)) {
+    $("#cmapdiff").append(
+      `<h4 class="mt-2">Added and Removed Encoded Glyphs</h4>`
+    );
+    if (report["cmap_diff"]["new"]) {
+      $("#cmapdiff").append(`<h4 class="box-title">Added Glyphs</h4>`);
+      let added = $("<div>");
+      for (let glyph of report["cmap_diff"]["new"]) {
+        addAGlyph(glyph, added);
+      }
+      $("#cmapdiff").append(added);
+    }
+
+    if (report["cmap_diff"]["missing"]) {
+      $("#cmapdiff").append(`<h4 class="box-title">Removed Glyphs</h4>`);
+      let missing = $("<div>");
+      for (let glyph of report["cmap_diff"]["missing"]) {
+        addAGlyph(glyph, missing);
+      }
+      $("#cmapdiff").append(missing);
+    }
+  } else {
+    $("#cmapdiff").append(`<p>No changes to encoded glyphs</p>`);
+  }
+}
+
+function setupAnimation() {
+  $("#fonttoggle").click(function () {
+    if ($(this).text() == "Old") {
+      $(this).text("New");
+      $(".font-before").removeClass("font-before").addClass("font-after");
+    } else {
+      $(this).text("Old");
+      $(".font-after").removeClass("font-after").addClass("font-before");
+    }
+  });
+
+  let animationHandle;
+  function animate() {
+    $("#fonttoggle").click();
+    animationHandle = setTimeout(animate, 1000);
+  }
+  $("#fontanimate").click(function () {
+    if ($(this).text() == "Animate") {
+      $(this).text("Stop");
+      animate();
+    } else {
+      $(this).text("Animate");
+      clearTimeout(animationHandle);
+    }
+  });
+}
+
+export {
+  renderTableDiff,
+  addAGlyph,
+  addAWord,
+  cmapDiff,
+  diffTables,
+  diffKerns,
+  setupAnimation,
+};
+
+	var report = {"tables":{"GDEF":{"glyph_classes":{"threedotsaUIar":["Mark",null],"jeemUIar":["Mark",null],"meemaboveUIar":["Mark",null],"lamAlefAboveUIar":["Mark",null],"sadLamAlefMaksuraAboveUIar":["Mark",null],"qafLamAlefMaksuraAboveUIar":["Mark",null],"behThreedotsupbelowVabovear":["Base",null],"dalTwodotsverticalbelowTahabovear":["Base",null],"zainVInvertedabovear":["Base",null],"seenThreedotsbelowthreedotsar":["Base",null],"fehDotaboveDotbelowar":["Base",null],"uni06C5.isol":[null,"Base"],"uni061E":[null,"Base"],"uni0606":[null,"Base"],"uni06DB":[null,"Mark"],"uni06DA":[null,"Mark"],"uni06D8":[null,"Mark"],"uni06D9":[null,"Mark"],"uni06D6":[null,"Mark"],"uni06D7":[null,"Mark"],"uni0650.isol":[null,"Base"],"uni08BE":[null,"Base"],"uni0759":[null,"Base"],"uni08B2":[null,"Base"],"uni069C":[null,"Base"],"uni06A3.1":[null,"Base"],"uni06C4":[null,"Base"],"uni06C5":[null,"Base"],"uni06C4.fina":[null,"Base"],"uni06C5.fina":[null,"Base"]}},"GPOS":{"lookup_list":{"0":{"0":{"rules":{"0":["[uni0631.isol uni0631 uni0631.fina uni0632 uni0691 uni0692 uni0693 uni0694 uni0695 uni0696 uni0697 uni0697.fina uni0698 uni0699 uni06EF uni075B uni076B uni076C uni0771 zainVInvertedabovear uni0692.fina uni0693.fina uni0694.fina uni0695.fina uni0696.fina uni0699.fina uni06EF.fina uni075B.fina uni076B.fina uni076C.fina uni0771.fina uni0632.fina uni0691.fina uni0698.fina uniFC5C uniFC5C.fina zainVInvertedabovear.fina] [uni0627.isol uni0643.isol uni0627 uni0639.init uni0644.init uni06440627.isol uni06440622.isol uni06440623.isol uni06440625.isol uni06440671.isol uni06440672.isol uni06440673.isol uni06440671 uni0672 uni0773 uni0774 uni0643 uni06AC uni06AD uni06AE uni077F uni0675 uni06A0.init uni075D.init uni075E.init uni075F.init uni06B5.init uni06B6.init uni06B7.init uni076A.init uni08A6.init uni06440622 uni06440623 uni06440625 uni06440627 uni063A.init]' lookup lookup_1","[uni0631.isol uni0631 uni0631.fina uni0632 uni0691 uni0692 uni0693 uni0694 uni0695 uni0696 uni0697 uni0697.fina uni0698 uni0699 uni06EF uni075B uni076B uni076C uni0771 uni08B2 uni0692.fina uni0693.fina uni0694.fina uni0695.fina uni0696.fina uni0699.fina uni06EF.fina uni075B.fina uni076B.fina uni076C.fina uni0771.fina uni0632.fina uni0691.fina uni0698.fina uniFC5C uniFC5C.fina zainVInvertedabovear.fina] [uni0627.isol uni0643.isol uni0627 uni0639.init uni0644.init uni06440627.isol uni06440622.isol uni06440623.isol uni06440625.isol uni06440671.isol uni06440672.isol uni06440673.isol uni06440671 uni0672 uni0773 uni0774 uni0643 uni06AC uni06AD uni06AE uni077F uni0675 uni06A0.init uni075D.init uni075E.init uni075F.init uni06B5.init uni06B6.init uni06B7.init uni076A.init uni08A6.init uni06440622 uni06440623 uni06440625 uni06440627 uni063A.init]' lookup lookup_1"]}},"1":{"rules":{"0":["[uni0631.isol uni0631 uni0631.fina uni0632 uni0691 uni0692 uni0693 uni0694 uni0695 uni0696 uni0697 uni0697.fina uni0698 uni0699 uni06EF uni075B uni076B uni076C uni0771 zainVInvertedabovear uni0692.fina uni0693.fina uni0694.fina uni0695.fina uni0696.fina uni0699.fina uni06EF.fina uni075B.fina uni076B.fina uni076C.fina uni0771.fina uni0632.fina uni0691.fina uni0698.fina uniFC5C uniFC5C.fina zainVInvertedabovear.fina] [uni066E.init uni062F.isol uni0637.isol uni06A1.init uni066F.init uni062F uni0637 uni0637.fina uni0637.medi uni0637.init uni06A1 uni0630 uni0688 uni068C uni068E uni068F uni0690 uni06EE uni0638 uni069F uni08A3 uni0641 uni06A3 fehDotaboveDotbelowar uni06A4 uni06A5 uni06A6 uni0760 uni0761 uni08A4 uni077B.init uni067D.init uni0768.init uni0769.init uni0756.init uni069F.init uni08A3.init uni062A.init uni062B.init uni067A.init uni067F.init uni0646.init uni0626.init uni0638.init uni0641.init uni06A4.init uni06A6.init uni0642.init uni0649.init]' lookup lookup_1","[uni0631.isol uni0631 uni0631.fina uni0632 uni0691 uni0692 uni0693 uni0694 uni0695 uni0696 uni0697 uni0697.fina uni0698 uni0699 uni06EF uni075B uni076B uni076C uni0771 uni08B2 uni0692.fina uni0693.fina uni0694.fina uni0695.fina uni0696.fina uni0699.fina uni06EF.fina uni075B.fina uni076B.fina uni076C.fina uni0771.fina uni0632.fina uni0691.fina uni0698.fina uniFC5C uniFC5C.fina zainVInvertedabovear.fina] [uni066E.init uni062F.isol uni0637.isol uni06A1.init uni066F.init uni062F uni0637 uni0637.fina uni0637.medi uni0637.init uni06A1 uni0630 uni0688 uni068C uni068E uni068F uni0690 uni06EE uni0638 uni069F uni08A3 uni0641 uni06A3 uni06A3.1 uni06A4 uni06A5 uni06A6 uni0760 uni0761 uni08A4 uni077B.init uni067D.init uni0768.init uni0769.init uni0756.init uni069F.init uni08A3.init uni062A.init uni062B.init uni067A.init uni067F.init uni0646.init uni0626.init uni0638.init uni0641.init uni06A4.init uni06A6.init uni0642.init uni0649.init]' lookup lookup_1"]}},"2":{"rules":{"0":["[uni0631.isol uni0631 uni0631.fina uni0632 uni0691 uni0692 uni0693 uni0694 uni0695 uni0696 uni0697 uni0697.fina uni0698 uni0699 uni06EF uni075B uni076B uni076C uni0771 zainVInvertedabovear uni0692.fina uni0693.fina uni0694.fina uni0695.fina uni0696.fina uni0699.fina uni06EF.fina uni075B.fina uni076B.fina uni076C.fina uni0771.fina uni0632.fina uni0691.fina uni0698.fina uniFC5C uniFC5C.fina zainVInvertedabovear.fina] [uni0645.isol uni0647.isol uni062D.init uni0643.init uni0645 uni0645.init uni0647 uni0647.init uni06C1 uni06D5 uni08A7 uni0765 uni0629 uni06C0 uni06C2 uni06C3 uni0681.init uni0682.init uni0685.init uni0757.init uni0772.init uni06AC.init uni077F.init uni06AB.init uni08A7.init uni0765.init uni062E.init uni06A9.init uni06AD.init uni06BE.init uniFCD9]' lookup lookup_1","[uni0631.isol uni0631 uni0631.fina uni0632 uni0691 uni0692 uni0693 uni0694 uni0695 uni0696 uni0697 uni0697.fina uni0698 uni0699 uni06EF uni075B uni076B uni076C uni0771 uni08B2 uni0692.fina uni0693.fina uni0694.fina uni0695.fina uni0696.fina uni0699.fina uni06EF.fina uni075B.fina uni076B.fina uni076C.fina uni0771.fina uni0632.fina uni0691.fina uni0698.fina uniFC5C uniFC5C.fina zainVInvertedabovear.fina] [uni0645.isol uni0647.isol uni062D.init uni0643.init uni0645 uni0645.init uni0647 uni0647.init uni06C1 uni06D5 uni08A7 uni0765 uni0629 uni06C0 uni06C2 uni06C3 uni0681.init uni0682.init uni0685.init uni0757.init uni0772.init uni06AC.init uni077F.init uni06AB.init uni08A7.init uni0765.init uni062E.init uni06A9.init uni06AD.init uni06BE.init uniFCD9]' lookup lookup_1"]}}},"1":{"0":{"fehDotaboveDotbelowar":[{"x":-30},null],"uni06A3.1":[null,{"x":-30}]}},"2":{"1":{"zainVInvertedabovear":[{"uni0639":{"x":{"wght=100":150,"wdth=62.5,wght=100":160,"wdth=62.5":160,"wght=704.9927":180,"default":170,"wdth=62.5,wght=704.9927":200,"wdth=62.5,wght=900":150,"wght=900":160},"x_placement":{"wght=704.9927":180,"wdth=62.5":160,"wght=100":150,"wdth=62.5,wght=704.9927":200,"wdth=62.5,wght=100":160,"wdth=62.5,wght=900":150,"wght=900":160,"default":170}}},null],"uni08B2":[null,{"uni0639":{"x":{"wdth=62.5,wght=100":160,"wdth=62.5,wght=900":150,"wght=704.9927":180,"wght=900":160,"wght=100":150,"wdth=62.5":160,"wdth=62.5,wght=704.9927":200,"default":170},"x_placement":{"default":170,"wght=704.9927":180,"wdth=62.5,wght=704.9927":200,"wdth=62.5":160,"wght=900":160,"wdth=62.5,wght=100":160,"wdth=62.5,wght=900":150,"wght=100":150}}}]},"2":{"classes":{"@CLASS_L_0":{"0":["uni075B","uni0691.fina"],"1":["uniFDF3","uni0698"],"2":["uni0696","uni06460631.fina"],"3":["uni06260631.fina","uni06360631"],"4":["uni076B.fina","uni08B9.fina"],"5":["uni076C","uni06EF"],"6":["uni062B0631.fina","uni06330631.fina"],"7":["zainVInvertedabovear.fina","uni075B.fina"],"8":["uni076B","uni06360631.fina"],"9":["uni0698.isol","uni0632.fina"],"10":["uni0693","uni0698.fina"],"11":["uni08B9.fina","uni0695"],"12":["uni0697","uni0632"],"13":["uni0691","uni076C"],"14":["uni06340631.fina","uni0699.fina"],"15":["uni0632.fina","uni0632.isol"],"16":["uni0698.fina","uni076B"],"17":["uni0771.fina","uni0692.fina"],"18":["zainVInvertedabovear","uni06EF.fina"],"19":["uni0632","uniFC5C"],"20":["uni064A0631.fina","uni062B0631.fina"],"21":["uni0699","uni0694"],"22":["uni076C.fina","zainVInvertedabovear.fina"],"23":["uni06340631","uni0695.fina"],"24":["uni0691.isol","uni075B"],"25":["uni0632.isol","uni0691.isol"],"26":["uni0694","uni062A0631.fina"],"27":["uni0695","uni08B9"],"28":["uni06EF","uni076C.fina"],"30":["uni0693.fina","uni0697.fina"],"31":["uni06360631.fina","uni06330631"],"32":["uni06EF.fina","uni06260631.fina"],"33":["uni06280631.fina","uni0694.fina"],"34":["uni06360631","uni0696"],"35":["uni08B9","uni0631"],"36":["uni06460631.fina","uni076B.fina"],"37":["uni0691.fina","uni06350631"],"38":["uni0698","uni06350631.fina"],"39":["uniFC5C","uni0693"],"40":["uni0695.fina","uni0631.fina"],"41":["uni0631.fina","uni0699"],"42":["uni0696.fina","uni08B2"],"43":["uni0694.fina","uni06280631.fina"],"44":["uniFDF6","uni06340631.fina"],"45":["uni0692","uni0631.isol"],"46":["uni0631.isol","uni0696.fina"],"47":["uni0699.fina","uni0692"],"48":["uni06350631.fina","uni0771.fina"],"49":["uni06330631","uni0697"],"50":["uni075B.fina","uniFDF6"],"51":["uni06330631.fina","uni0691"],"52":["uni0631","uniFDF3"],"53":["uni0692.fina","uni06340631"],"54":["uni06350631","uni0693.fina"],"55":["uni062A0631.fina","uni064A0631.fina"],"56":["uni0697.fina","uni0698.isol"]}}}},"3":{"0":{"bases":{"uni067C":{"anchor_0":{"x":{"wdth=62.5,wght=100":[324,334],"wght=100":[474,468],"wght=704.9927":[502,505],"default":[486,484],"wght=900":[525,544],"wdth=62.5,wght=900":[508,504],"wdth=62.5":[334,361],"wdth=62.5,wght=704.9927":[442,447]},"y":[-25,{"default":-150,"wdth=62.5,wght=900":-161,"wght=704.9927":-156,"wdth=62.5,wght=100":-142,"wght=100":-154,"wght=900":-161,"wdth=62.5":-128,"wdth=62.5,wght=704.9927":-134}]}},"behThreedotsupbelowVabovear":[{"anchor_0":{"x":{"wdth=62.5":334,"wdth=62.5,wght=100":324,"default":486,"wdth=62.5,wght=704.9927":442,"wght=100":474,"wght=704.9927":497,"wght=900":524,"wdth=62.5,wght=900":508},"y":{"wdth=62.5,wght=900":-417,"default":-300,"wdth=62.5":-299,"wght=704.9927":-339,"wght=900":-384,"wdth=62.5,wght=100":-258,"wdth=62.5,wght=704.9927":-372,"wght=100":-253}}},null],"dalTwodotsverticalbelowTahabovear":[{"anchor_0":{"x":{"wdth=62.5":162,"wdth=62.5,wght=100":133,"default":227,"wdth=62.5,wght=704.9927":-275,"wght=704.9927":238,"wght=100":183,"wght=900":269,"wdth=62.5,wght=900":-306},"y":{"wdth=62.5,wght=100":-219,"wght=704.9927":-260,"wdth=62.5":-248,"wght=900":-253,"wdth=62.5,wght=900":-249,"default":-235,"wght=100":-227,"wdth=62.5,wght=704.9927":-246}}},null],"uni0693":{"anchor_0":{"x":{"wght=100":[131,235],"default":[137,249],"wdth=62.5":[120,171],"wght=900":[182,315],"wdth=62.5,wght=900":[162,245],"wdth=62.5,wght=100":[97,150],"wght=704.9927":[185,282],"wdth=62.5,wght=704.9927":[140,194]},"y":{"default":[-214,-217],"wght=100":[-217,null],"wdth=62.5,wght=100":[-217,-218],"wdth=62.5,wght=900":[null,-236]}}},"zainVInvertedabovear":[{"anchor_0":{"x":{"wght=704.9927":185,"wdth=62.5":120,"wdth=62.5,wght=900":162,"wdth=62.5,wght=100":97,"wght=900":182,"wght=100":131,"wdth=62.5,wght=704.9927":140,"default":137},"y":{"wght=100":-217,"default":-214,"wdth=62.5,wght=100":-217}}},null],"seenThreedotsbelowthreedotsar":[{"anchor_0":{"x":{"wdth=62.5,wght=100":599,"wdth=62.5,wght=900":831,"wght=704.9927":927,"wdth=62.5,wght=704.9927":768,"wght=900":1000,"wdth=62.5":663,"default":839,"wght=100":783},"y":{"wdth=62.5,wght=704.9927":-248,"wdth=62.5":-251,"wght=900":-251,"wdth=62.5,wght=100":-248,"default":-246,"wdth=62.5,wght=900":-253,"wght=100":-253}}},null],"fehDotaboveDotbelowar":[{"anchor_0":{"x":{"wght=704.9927":778,"default":759,"wdth=62.5,wght=100":548,"wdth=62.5":626,"wdth=62.5,wght=704.9927":691,"wdth=62.5,wght=900":719,"wght=100":763,"wght=900":780},"y":{"wdth=62.5,wght=900":-234,"default":-211,"wght=900":-262,"wdth=62.5,wght=100":-191,"wdth=62.5":-205,"wght=704.9927":-248,"wght=100":-187,"wdth=62.5,wght=704.9927":-246}}},null],"uni06AB":{"anchor_0":{"x":{"wdth=62.5,wght=704.9927":[384,705],"wght=704.9927":[428,800],"wght=100":[408,807],"default":[410,799],"wdth=62.5":[337,666],"wght=900":[474,879],"wdth=62.5,wght=100":[338,635],"wdth=62.5,wght=900":[null,756]},"y":[-21,{"wdth=62.5,wght=704.9927":446,"wdth=62.5,wght=100":522,"wght=704.9927":400,"wdth=62.5,wght=900":410,"wght=900":409,"default":457,"wdth=62.5":466,"wght=100":511}]}},"uni067C.init":{"anchor_0":{"x":{"wght=100":[111,94],"wght=900":[195,127],"wdth=62.5,wght=100":[97,84],"wdth=62.5,wght=704.9927":[144,114],"wdth=62.5,wght=900":[175,124],"default":[113,104],"wdth=62.5":[85,94],"wght=704.9927":[156,125]},"y":[-5,{"wght=704.9927":-132,"wght=100":-130,"wdth=62.5,wght=900":-137,"wght=900":-137,"wdth=62.5,wght=704.9927":-110,"wdth=62.5,wght=100":-118,"default":-126,"wdth=62.5":-104}]}},"uni06AB.init":{"anchor_0":{"x":{"default":[163,334],"wdth=62.5,wght=100":[137,255],"wght=900":[219,378],"wdth=62.5":[142,240],"wdth=62.5,wght=900":[189,329],"wdth=62.5,wght=704.9927":[172,293],"wght=704.9927":[197,345],"wght=100":[157,296]},"y":[0,{"wght=704.9927":400,"default":456,"wdth=62.5,wght=100":521,"wdth=62.5,wght=704.9927":446,"wght=900":409,"wdth=62.5":470,"wdth=62.5,wght=900":409,"wght=100":509}]}},"uni067C.medi":{"anchor_0":{"x":{"wdth=62.5":[122,95],"wght=900":[185,119],"wght=704.9927":[179,120],"wght=100":[174,null],"default":[170,102],"wdth=62.5,wght=100":[100,72],"wdth=62.5,wght=704.9927":[136,93],"wdth=62.5,wght=900":[145,94]},"y":[-5,{"wdth=62.5,wght=100":-110,"wght=100":-129,"wdth=62.5,wght=704.9927":-102,"default":-125,"wght=900":-133,"wdth=62.5":-96,"wght=704.9927":-127,"wdth=62.5,wght=900":-129}]}},"uni06AB.medi":{"anchor_0":{"x":{"default":[163,337],"wght=100":[157,300],"wght=704.9927":[197,346],"wght=900":[219,382],"wdth=62.5,wght=900":[179,329],"wdth=62.5,wght=704.9927":[166,291],"wdth=62.5,wght=100":[107,253],"wdth=62.5":[148,242]},"y":[0,{"wdth=62.5,wght=900":409,"default":457,"wght=704.9927":400,"wdth=62.5,wght=704.9927":445,"wdth=62.5":468,"wdth=62.5,wght=100":519,"wght=100":511,"wght=900":409}]}},"uni0693.fina":{"anchor_0":{"x":{"wght=100":[131,234],"wght=704.9927":[163,283],"wdth=62.5,wght=704.9927":[128,194],"wght=900":[180,309],"wdth=62.5,wght=100":[97,151],"wdth=62.5,wght=900":[149,245],"default":[83,241],"wdth=62.5":[85,173]},"y":{"wght=900":[-214,-219],"default":[-217,-226],"wdth=62.5,wght=704.9927":[-214,-217],"wdth=62.5,wght=900":[-214,-236],"wght=704.9927":[null,-217],"wght=100":[null,-217],"wdth=62.5,wght=100":[null,-217],"wdth=62.5":[null,-218]}}},"uni06AB.fina":{"anchor_0":{"x":{"wght=704.9927":[444,800],"default":[410,804],"wght=900":[474,870],"wdth=62.5,wght=704.9927":[384,714],"wdth=62.5":[337,665],"wdth=62.5,wght=100":[338,633],"wdth=62.5,wght=900":[null,754],"wght=100":[null,815]},"y":[-21,{"wdth=62.5":460,"wdth=62.5,wght=100":522,"wdth=62.5,wght=704.9927":444,"wdth=62.5,wght=900":409,"wght=900":411,"wght=100":513,"default":457,"wght=704.9927":400}]}},"uni06C5.isol":[null,{"anchor_0":{"x":{"default":224,"wdth=62.5,wght=704.9927":231,"wght=900":288,"wght=704.9927":261,"wdth=62.5,wght=900":258,"wdth=62.5":181,"wght=100":217,"wdth=62.5,wght=100":182},"y":{"default":-240,"wght=900":-277,"wght=704.9927":-280,"wdth=62.5,wght=704.9927":-278,"wdth=62.5,wght=900":-271}}}],"uni0650.isol":[null,{"anchor_0":{"x":{"wdth=62.5":143,"default":145,"wdth=62.5,wght=704.9927":136,"wdth=62.5,wght=900":136,"wght=900":136},"y":{"wdth=62.5":-163,"wght=900":-190,"wght=100":-180,"wdth=62.5,wght=900":-170,"wght=704.9927":-180,"default":-150,"wdth=62.5,wght=100":-180,"wdth=62.5,wght=704.9927":-181}}}],"uni08BE":[null,{"anchor_0":{"x":{"wdth=62.5,wght=704.9927":442,"wght=704.9927":497,"default":486,"wdth=62.5,wght=100":324,"wght=900":524,"wdth=62.5":334,"wght=100":474,"wdth=62.5,wght=900":508},"y":{"default":-300,"wdth=62.5":-299,"wght=900":-384,"wdth=62.5,wght=704.9927":-372,"wdth=62.5,wght=900":-417,"wght=704.9927":-339,"wdth=62.5,wght=100":-258,"wght=100":-253}}}],"uni0759":[null,{"anchor_0":{"x":{"wght=704.9927":238,"wdth=62.5,wght=704.9927":-275,"wght=900":269,"wdth=62.5,wght=100":133,"default":227,"wdth=62.5,wght=900":-306,"wght=100":183,"wdth=62.5":162},"y":{"wdth=62.5,wght=100":-219,"default":-235,"wght=900":-253,"wdth=62.5":-248,"wght=704.9927":-260,"wdth=62.5,wght=704.9927":-246,"wght=100":-227,"wdth=62.5,wght=900":-249}}}],"uni08B2":[null,{"anchor_0":{"x":{"wght=704.9927":185,"wdth=62.5,wght=704.9927":140,"wght=100":131,"wght=900":182,"wdth=62.5":120,"wdth=62.5,wght=900":162,"default":137,"wdth=62.5,wght=100":97},"y":{"wght=100":-217,"wdth=62.5,wght=100":-217,"default":-214}}}],"uni069C":[null,{"anchor_0":{"x":{"default":839,"wdth=62.5,wght=100":599,"wdth=62.5,wght=900":831,"wdth=62.5":663,"wght=100":783,"wdth=62.5,wght=704.9927":768,"wght=900":1000,"wght=704.9927":927},"y":{"wdth=62.5,wght=100":-248,"wdth=62.5":-251,"wdth=62.5,wght=704.9927":-248,"wght=900":-251,"wdth=62.5,wght=900":-253,"wght=100":-253,"default":-246}}}],"uni06A3.1":[null,{"anchor_0":{"x":{"wght=900":780,"wght=100":763,"wdth=62.5,wght=100":548,"wdth=62.5":626,"wght=704.9927":778,"default":759,"wdth=62.5,wght=704.9927":691,"wdth=62.5,wght=900":719},"y":{"wdth=62.5,wght=704.9927":-246,"wdth=62.5":-205,"wght=900":-262,"wdth=62.5,wght=100":-191,"wght=704.9927":-248,"default":-211,"wght=100":-187,"wdth=62.5,wght=900":-234}}}],"uni06C4":[null,{"anchor_0":{"x":{"default":135,"wght=900":126,"wght=704.9927":128,"wght=100":142,"wdth=62.5,wght=704.9927":148,"wdth=62.5,wght=900":130},"y":{"default":-192,"wght=100":-223,"wdth=62.5,wght=704.9927":-179,"wght=900":-162,"wght=704.9927":-177,"wdth=62.5":-186,"wdth=62.5,wght=100":-218,"wdth=62.5,wght=900":-173}}}],"uni06C5":[null,{"anchor_0":{"x":{"default":224,"wdth=62.5,wght=900":258,"wght=100":217,"wght=900":288,"wdth=62.5":181,"wght=704.9927":261,"wdth=62.5,wght=100":182,"wdth=62.5,wght=704.9927":231},"y":{"default":-240,"wght=900":-277,"wght=704.9927":-280,"wdth=62.5,wght=704.9927":-278,"wdth=62.5,wght=900":-271}}}],"uni06C4.fina":[null,{"anchor_0":{"x":{"default":136,"wght=100":142,"wdth=62.5,wght=704.9927":148,"wdth=62.5,wght=900":130,"wdth=62.5":135,"wdth=62.5,wght=100":135,"wght=704.9927":128,"wght=900":126},"y":{"wdth=62.5,wght=900":-173,"default":-195,"wght=100":-206,"wght=900":-162,"wdth=62.5,wght=100":-222,"wdth=62.5":-187,"wght=704.9927":-177,"wdth=62.5,wght=704.9927":-179}}}],"uni06420644064A":[null,{"anchor_0":{"x":{"wdth=62.5,wght=704.9927":406,"wdth=62.5":410,"wght=100":459,"wght=704.9927":444,"default":439,"wght=900":443,"wdth=62.5,wght=100":379,"wdth=62.5,wght=900":407},"y":{"default":-271,"wght=100":-276,"wght=704.9927":-298}}}],"uni06C5.fina":[null,{"anchor_0":{"x":{"wdth=62.5,wght=100":182,"wght=100":202,"wdth=62.5":195,"wdth=62.5,wght=704.9927":228,"wght=704.9927":264,"default":235,"wdth=62.5,wght=900":247,"wght=900":283},"y":{"wght=704.9927":-280,"wdth=62.5,wght=704.9927":-278,"wdth=62.5,wght=900":-271,"default":-240,"wght=900":-277}}}]}}},"4":{"0":{"bases":{"behThreedotsupbelowVabovear":[{"anchor_0":{"x":{"wdth=62.5":362,"wdth=62.5,wght=704.9927":438,"wdth=62.5,wght=900":500,"wght=704.9927":505,"default":487,"wght=100":470,"wght=900":522,"wdth=62.5,wght=100":327},"y":{"wdth=62.5,wght=100":619,"wdth=62.5,wght=900":671,"wdth=62.5,wght=704.9927":645,"wght=900":671,"default":625,"wght=704.9927":570,"wght=100":619}}},null],"dalTwodotsverticalbelowTahabovear":[{"anchor_0":{"x":{"wght=900":239,"wght=100":185,"wdth=62.5":178,"default":225,"wght=704.9927":228,"wdth=62.5,wght=100":114,"wdth=62.5,wght=900":204,"wdth=62.5,wght=704.9927":185},"y":{"wght=704.9927":892,"wdth=62.5":850,"wght=900":953,"wdth=62.5,wght=704.9927":871,"wdth=62.5,wght=900":922,"wght=100":831,"default":847,"wdth=62.5,wght=100":850}}},null],"zainVInvertedabovear":[{"anchor_0":{"x":{"wdth=62.5,wght=100":79,"default":168,"wght=704.9927":228,"wght=900":187,"wght=100":156,"wdth=62.5,wght=704.9927":103,"wdth=62.5,wght=900":139,"wdth=62.5":126},"y":{"wght=100":795,"wght=900":913,"wdth=62.5,wght=704.9927":870,"wght=704.9927":876,"default":810,"wdth=62.5,wght=900":919,"wdth=62.5":805,"wdth=62.5,wght=100":806}}},null],"seenThreedotsbelowthreedotsar":[{"anchor_0":{"x":{"wdth=62.5":648,"wght=704.9927":889,"wdth=62.5,wght=100":594,"wght=100":778,"wght=900":931,"default":824,"wdth=62.5,wght=704.9927":715,"wdth=62.5,wght=900":761},"y":{"wght=100":602,"wdth=62.5,wght=704.9927":766,"wght=704.9927":740,"wght=900":809,"wdth=62.5,wght=900":847,"default":644,"wdth=62.5,wght=100":602,"wdth=62.5":639}}},null],"fehDotaboveDotbelowar":[{"anchor_0":{"x":{"default":749,"wght=900":770,"wdth=62.5,wght=704.9927":680,"wdth=62.5":616,"wght=100":753,"wdth=62.5,wght=100":538,"wght=704.9927":772,"wdth=62.5,wght=900":712},"y":{"wdth=62.5,wght=704.9927":735,"wght=100":606,"wdth=62.5":628,"wdth=62.5,wght=900":794,"wdth=62.5,wght=100":614,"wght=704.9927":761,"wght=900":788,"default":633}}},null],"uni077A.init":{"anchor_0":{"x":{"wdth=62.5,wght=900":[114,188],"wdth=62.5,wght=100":[65,105],"wght=704.9927":[119,183],"wdth=62.5":[102,142],"wdth=62.5,wght=704.9927":[103,166],"default":[87,149],"wght=900":[123,197],"wght=100":[74,123]},"y":{"wght=704.9927":[711,464],"wght=100":[606,384],"wdth=62.5,wght=704.9927":[691,466],"default":[617,404],"wght=900":[776,519],"wdth=62.5,wght=900":[731,509],"wdth=62.5":[null,403],"wdth=62.5,wght=100":[null,363]}}},"uni077B.init":{"anchor_0":{"x":{"default":[123,149],"wght=704.9927":[159,183],"wdth=62.5,wght=100":[78,105],"wdth=62.5,wght=704.9927":[138,166],"wght=900":[167,197],"wght=100":[83,123],"wdth=62.5,wght=900":[158,188],"wdth=62.5":[134,142]},"y":{"wght=900":[783,519],"wght=704.9927":[722,464],"wdth=62.5,wght=100":[622,363],"wght=100":[619,384],"default":[625,404],"wdth=62.5,wght=704.9927":[700,466],"wdth=62.5":[622,403],"wdth=62.5,wght=900":[739,509]}}},"uni077A.medi":{"anchor_0":{"x":{"wght=900":[123,236],"wght=100":[104,205],"wdth=62.5,wght=100":[95,150],"wdth=62.5":[98,169],"wght=704.9927":[119,233],"wdth=62.5,wght=900":[114,228],"wdth=62.5,wght=704.9927":[102,193],"default":[115,196]},"y":{"default":[520,283],"wdth=62.5,wght=704.9927":[610,361],"wdth=62.5,wght=900":[628,410],"wght=900":[611,391],"wght=704.9927":[584,345],"wdth=62.5,wght=100":[null,286],"wght=100":[null,276],"wdth=62.5":[null,356]}}},"uni077B.medi":{"anchor_0":{"x":{"wdth=62.5,wght=704.9927":[137,193],"wght=900":[167,236],"wght=100":[113,205],"default":[151,196],"wght=704.9927":[159,233],"wdth=62.5,wght=100":[108,150],"wdth=62.5":[130,169],"wdth=62.5,wght=900":[158,228]},"y":{"wght=900":[618,391],"wdth=62.5,wght=900":[636,410],"wdth=62.5":[525,356],"wdth=62.5,wght=704.9927":[619,361],"wght=704.9927":[595,345],"default":[528,283],"wght=100":[533,276],"wdth=62.5,wght=100":[525,286]}}},"uni06C5.isol":[null,{"anchor_0":{"x":{"wght=900":268,"wdth=62.5":189,"wght=704.9927":253,"default":232,"wdth=62.5,wght=100":197,"wdth=62.5,wght=704.9927":221,"wdth=62.5,wght=900":238},"y":{"default":337,"wght=900":412,"wdth=62.5,wght=100":317,"wdth=62.5,wght=704.9927":384,"wdth=62.5,wght=900":412,"wght=100":317,"wght=704.9927":383}}}],"uni061E":[null,{"anchor_0":{"x":{"default":145,"wdth=62.5,wght=704.9927":191,"wght=704.9927":150,"wdth=62.5,wght=900":219,"wght=900":266},"y":{"wght=100":163,"wdth=62.5,wght=900":294,"wght=704.9927":232,"wdth=62.5,wght=704.9927":253,"wdth=62.5,wght=100":163,"default":205,"wdth=62.5":200,"wght=900":260}}}],"uni0606":[null,{"anchor_0":{"x":{"wght=900":415,"wght=100":318,"wdth=62.5":345,"wght=704.9927":391,"wdth=62.5,wght=900":406,"default":356,"wdth=62.5,wght=100":313,"wdth=62.5,wght=704.9927":380},"y":{"wdth=62.5,wght=900":834,"wdth=62.5,wght=704.9927":793,"default":694,"wght=100":699,"wght=900":816,"wght=704.9927":771,"wdth=62.5,wght=100":691,"wdth=62.5":691}}}],"uni08BE":[null,{"anchor_0":{"x":{"wdth=62.5,wght=900":500,"wght=100":470,"wdth=62.5,wght=704.9927":438,"wght=704.9927":505,"default":487,"wdth=62.5,wght=100":327,"wght=900":522,"wdth=62.5":362},"y":{"wght=900":671,"wdth=62.5,wght=100":619,"wght=704.9927":570,"default":625,"wght=100":619,"wdth=62.5,wght=704.9927":645,"wdth=62.5,wght=900":671}}}],"uni0759":[null,{"anchor_0":{"x":{"default":225,"wdth=62.5":178,"wght=100":185,"wght=704.9927":228,"wdth=62.5,wght=900":204,"wght=900":239,"wdth=62.5,wght=100":114,"wdth=62.5,wght=704.9927":185},"y":{"wght=100":831,"wght=900":953,"default":847,"wght=704.9927":892,"wdth=62.5":850,"wdth=62.5,wght=100":850,"wdth=62.5,wght=704.9927":871,"wdth=62.5,wght=900":922}}}],"uni08B2":[null,{"anchor_0":{"x":{"wght=704.9927":228,"wght=900":187,"default":168,"wdth=62.5,wght=100":79,"wdth=62.5,wght=900":139,"wdth=62.5,wght=704.9927":103,"wdth=62.5":126,"wght=100":156},"y":{"wght=100":795,"wdth=62.5,wght=704.9927":870,"wght=900":913,"wdth=62.5,wght=100":806,"wdth=62.5":805,"wght=704.9927":876,"wdth=62.5,wght=900":919,"default":810}}}],"uni069C":[null,{"anchor_0":{"x":{"wdth=62.5,wght=900":761,"wght=900":931,"wght=100":778,"wdth=62.5":648,"wdth=62.5,wght=100":594,"wght=704.9927":889,"wdth=62.5,wght=704.9927":715,"default":824},"y":{"wdth=62.5":639,"wdth=62.5,wght=704.9927":766,"default":644,"wdth=62.5,wght=100":602,"wght=704.9927":740,"wght=100":602,"wght=900":809,"wdth=62.5,wght=900":847}}}],"uni06A3.1":[null,{"anchor_0":{"x":{"default":749,"wdth=62.5,wght=100":538,"wdth=62.5,wght=704.9927":680,"wght=900":770,"wdth=62.5":616,"wght=100":753,"wght=704.9927":772,"wdth=62.5,wght=900":712},"y":{"wdth=62.5,wght=900":794,"wdth=62.5,wght=100":614,"wdth=62.5,wght=704.9927":735,"wght=100":606,"wdth=62.5":628,"default":633,"wght=900":788,"wght=704.9927":761}}}],"uni06C4":[null,{"anchor_0":{"x":{"default":232,"wght=900":268,"wdth=62.5,wght=100":197,"wght=704.9927":253,"wdth=62.5,wght=900":238,"wdth=62.5,wght=704.9927":221,"wdth=62.5":189},"y":{"wght=100":317,"default":337,"wght=704.9927":383,"wght=900":412,"wdth=62.5,wght=100":317,"wdth=62.5,wght=704.9927":384,"wdth=62.5,wght=900":412}}}],"uni06C5":[null,{"anchor_0":{"x":{"wdth=62.5,wght=900":238,"wdth=62.5":189,"wght=900":268,"wght=704.9927":253,"wdth=62.5,wght=100":197,"wdth=62.5,wght=704.9927":221,"default":232},"y":{"wght=704.9927":383,"wdth=62.5,wght=704.9927":384,"wght=100":317,"wght=900":412,"wdth=62.5,wght=900":412,"wdth=62.5,wght=100":317,"default":337}}}],"uni08AB":[null,{"anchor_0":{"x":{"wght=900":268,"wdth=62.5,wght=100":197,"wght=704.9927":253,"wdth=62.5":189,"wdth=62.5,wght=704.9927":221,"wdth=62.5,wght=900":238,"default":232},"y":{"wdth=62.5,wght=900":412,"wdth=62.5,wght=704.9927":384,"wght=100":317,"wght=704.9927":383,"wght=900":412,"wdth=62.5,wght=100":317,"default":337}}}],"uni08AB.fina":[null,{"anchor_0":{"x":{"default":232,"wght=704.9927":253,"wght=900":275,"wdth=62.5,wght=900":239,"wght=100":214,"wdth=62.5,wght=100":196,"wdth=62.5":192},"y":{"wdth=62.5,wght=704.9927":400,"default":331,"wght=900":432,"wdth=62.5,wght=900":436,"wght=100":312,"wght=704.9927":403,"wdth=62.5,wght=100":312}}}],"uni06C4.fina":[null,{"anchor_0":{"x":{"default":232,"wght=704.9927":253,"wght=900":275,"wdth=62.5":192,"wdth=62.5,wght=100":196,"wdth=62.5,wght=900":239,"wght=100":214},"y":{"wdth=62.5,wght=704.9927":400,"wdth=62.5,wght=900":436,"default":331,"wght=100":312,"wdth=62.5,wght=100":312,"wght=704.9927":403,"wght=900":432}}}],"uni06420644064A":[null,{"anchor_0":{"x":{"wdth=62.5,wght=100":185,"wdth=62.5,wght=900":165,"wdth=62.5,wght=704.9927":161,"wght=704.9927":189,"wght=100":215,"wdth=62.5":148,"default":195,"wght=900":185},"y":{"wght=900":142,"wdth=62.5,wght=704.9927":106,"wdth=62.5,wght=900":142,"default":39,"wght=704.9927":108}}}],"uni06C5.fina":[null,{"anchor_0":{"x":{"wdth=62.5":192,"wght=704.9927":253,"wght=100":214,"wdth=62.5,wght=100":196,"default":232,"wght=900":275,"wdth=62.5,wght=900":239},"y":{"wght=900":432,"wght=704.9927":403,"wdth=62.5,wght=100":312,"wdth=62.5,wght=704.9927":400,"wdth=62.5,wght=900":436,"wght=100":312,"default":331}}}]}}},"5":{"0":{"ligatures":{"uniFDFD":{"anchor_0_10":[{"x":{"wdth=62.5":885,"default":975,"wght=704.9927":1069,"wght=100":957,"wdth=62.5,wght=100":771,"wdth=62.5,wght=704.9927":1002,"wdth=62.5,wght=900":1038,"wght=900":1128},"y":0},null],"anchor_0_11":{"x":{"wdth=62.5,wght=704.9927":[847,3705],"default":[820,3645],"wght=704.9927":[914,3932],"wght=900":[973,4342],"wdth=62.5,wght=900":[883,3943],"wdth=62.5,wght=100":[646,2944],"wght=100":[802,3608],"wdth=62.5":[748,3187]},"y":[0,{"wdth=62.5,wght=900":-128,"default":-130,"wdth=62.5,wght=704.9927":-128,"wght=900":-128}]},"anchor_0_12":[{"x":{"wdth=62.5,wght=100":520,"wght=704.9927":758,"wdth=62.5,wght=704.9927":691,"wdth=62.5":610,"wdth=62.5,wght=900":727,"wght=900":817,"wght=100":646,"default":664},"y":0},null],"anchor_0_1":[null,{"x":{"default":5672,"wdth=62.5":4977,"wght=900":6761,"wdth=62.5,wght=900":6093,"wdth=62.5,wght=100":4530,"wght=100":5477,"wght=704.9927":6163,"wdth=62.5,wght=704.9927":5731},"y":3}],"anchor_0_17":[null,{"x":{"wght=900":817,"wght=100":646,"wdth=62.5":610,"wdth=62.5,wght=900":727,"wght=704.9927":758,"wdth=62.5,wght=100":520,"wdth=62.5,wght=704.9927":691,"default":664},"y":0}]},"uni06350644064A":{"anchor_0_1":{"x":{"wght=100":[697,1328],"wdth=62.5,wght=704.9927":[630,1234],"default":[704,1333],"wdth=62.5":[606,1097],"wght=900":[744,1461],"wdth=62.5,wght=900":[646,1315],"wdth=62.5,wght=100":[577,1060],"wght=704.9927":[728,1423]},"y":{"wght=900":[-4,null],"wdth=62.5,wght=704.9927":[-3,-16],"wght=704.9927":[-2,null],"wdth=62.5,wght=900":[-4,null],"default":[0,-18],"wdth=62.5":[null,-12]}},"anchor_0_2":{"x":{"wdth=62.5,wght=900":[407,646],"wght=100":[459,697],"wght=704.9927":[444,728],"default":[439,704],"wdth=62.5,wght=100":[379,577],"wdth=62.5":[410,606],"wdth=62.5,wght=704.9927":[406,630],"wght=900":[443,744]},"y":{"wght=704.9927":[-298,-2],"default":[-271,0],"wght=100":[-276,null],"wdth=62.5,wght=704.9927":[null,-3],"wght=900":[null,-4],"wdth=62.5,wght=900":[null,-4]}},"anchor_0_3":[null,{"x":{"wght=900":443,"wght=100":459,"default":439,"wdth=62.5,wght=100":379,"wdth=62.5":410,"wdth=62.5,wght=704.9927":406,"wdth=62.5,wght=900":407,"wght=704.9927":444},"y":{"default":-271,"wght=100":-276,"wght=704.9927":-298}}]}}}},"6":{"0":{"ligatures":{"uniFDFD":{"anchor_0_10":[{"x":{"wght=900":1089,"wght=100":948,"wdth=62.5,wght=704.9927":988,"wdth=62.5,wght=900":1023,"default":960,"wdth=62.5":882,"wdth=62.5,wght=100":780,"wght=704.9927":1047},"y":154},null],"anchor_0_11":{"x":{"wdth=62.5,wght=100":[655,2941],"wdth=62.5,wght=704.9927":[833,3688],"wght=704.9927":[892,3965],"wght=100":[793,3632],"wdth=62.5,wght=900":[868,3931],"wght=900":[934,4349],"default":[805,3693],"wdth=62.5":[745,3211]},"y":[154,{"default":211,"wdth=62.5,wght=900":251,"wght=900":251,"wdth=62.5,wght=704.9927":237,"wght=704.9927":235}]},"anchor_0_12":[{"x":{"wght=900":778,"wdth=62.5,wght=100":529,"wght=704.9927":736,"wght=100":637,"wdth=62.5,wght=900":712,"default":649,"wdth=62.5":607,"wdth=62.5,wght=704.9927":677},"y":154},null],"anchor_0_1":[null,{"x":{"wdth=62.5":4974,"wdth=62.5,wght=100":4539,"default":5657,"wght=704.9927":6142,"wdth=62.5,wght=704.9927":5716,"wght=100":5468,"wght=900":6722,"wdth=62.5,wght=900":6078},"y":157}],"anchor_0_17":[null,{"x":{"wdth=62.5,wght=100":529,"wdth=62.5":607,"wdth=62.5,wght=900":712,"wght=704.9927":736,"wght=100":637,"default":649,"wght=900":778,"wdth=62.5,wght=704.9927":677},"y":154}]},"uni06350644064A":{"anchor_0_1":{"x":{"wght=900":[738,1643],"wght=100":[691,1487],"wdth=62.5,wght=100":[571,1184],"default":[693,1500],"wdth=62.5":[591,1247],"wght=704.9927":[732,1599],"wdth=62.5,wght=704.9927":[634,1375],"wdth=62.5,wght=900":[640,1454]},"y":{"wght=900":[729,473],"wdth=62.5,wght=900":[739,473],"wdth=62.5":[694,364],"default":[714,369],"wdth=62.5,wght=704.9927":[738,432],"wght=704.9927":[732,435],"wght=100":[null,319],"wdth=62.5,wght=100":[null,320]}},"anchor_0_2":{"x":{"wght=100":[215,691],"wght=900":[185,738],"wdth=62.5,wght=100":[185,571],"wdth=62.5,wght=704.9927":[161,634],"wdth=62.5":[148,591],"wdth=62.5,wght=900":[165,640],"wght=704.9927":[189,732],"default":[195,693]},"y":{"wdth=62.5,wght=900":[142,739],"wght=900":[142,729],"default":[39,714],"wght=704.9927":[108,732],"wdth=62.5,wght=704.9927":[106,738],"wdth=62.5":[null,694]}},"anchor_0_3":[null,{"x":{"default":195,"wdth=62.5":148,"wdth=62.5,wght=704.9927":161,"wght=100":215,"wdth=62.5,wght=900":165,"wght=704.9927":189,"wdth=62.5,wght=100":185,"wght=900":185},"y":{"wdth=62.5,wght=704.9927":106,"default":39,"wght=900":142,"wdth=62.5,wght=900":142,"wght=704.9927":108}}]}}}}}},"GSUB":{"lookup_list":{"0":{"0":{"dalTwodotsverticalbelowTahabovear":["dalTwodotsverticalbelowTahabovear.fina",null],"zainVInvertedabovear":["zainVInvertedabovear.fina",null],"uni0759":[null,"dalTwodotsverticalbelowTahabovear.fina"],"uni08B2":[null,"zainVInvertedabovear.fina"]}},"1":{"0":{"behThreedotsupbelowVabovear":[["behThreedotsupbelowVabovear.init","behThreedotsupbelowVabovear.medi","behThreedotsupbelowVabovear.fina"],null],"seenThreedotsbelowthreedotsar":[["seenThreedotsbelowthreedotsar.init","seenThreedotsbelowthreedotsar.medi","seenThreedotsbelowthreedotsar.fina"],null],"fehDotaboveDotbelowar":[["fehDotaboveDotbelowar.init","fehDotaboveDotbelowar.medi","fehDotaboveDotbelowar.fina"],null],"uni08BE":[null,["behThreedotsupbelowVabovear.init","behThreedotsupbelowVabovear.medi","behThreedotsupbelowVabovear.fina"]],"uni069C":[null,["seenThreedotsbelowthreedotsar.init","seenThreedotsbelowthreedotsar.medi","seenThreedotsbelowthreedotsar.fina"]],"uni06A3.1":[null,["fehDotaboveDotbelowar.init","fehDotaboveDotbelowar.medi","fehDotaboveDotbelowar.fina"]]}},"4":{"0":{"behThreedotsupbelowVabovear":["behThreedotsupbelowVabovear.init",null],"seenThreedotsbelowthreedotsar":["seenThreedotsbelowthreedotsar.init",null],"fehDotaboveDotbelowar":["fehDotaboveDotbelowar.init",null],"uni08BE":[null,"behThreedotsupbelowVabovear.init"],"uni069C":[null,"seenThreedotsbelowthreedotsar.init"],"uni06A3.1":[null,"fehDotaboveDotbelowar.init"]}},"5":{"0":{"behThreedotsupbelowVabovear":["behThreedotsupbelowVabovear.medi",null],"seenThreedotsbelowthreedotsar":["seenThreedotsbelowthreedotsar.medi",null],"fehDotaboveDotbelowar":["fehDotaboveDotbelowar.medi",null],"uni08BE":[null,"behThreedotsupbelowVabovear.medi"],"uni069C":[null,"seenThreedotsbelowthreedotsar.medi"],"uni06A3.1":[null,"fehDotaboveDotbelowar.medi"]}},"6":{"0":{"behThreedotsupbelowVabovear":["behThreedotsupbelowVabovear.fina",null],"dalTwodotsverticalbelowTahabovear":["dalTwodotsverticalbelowTahabovear.fina",null],"zainVInvertedabovear":["zainVInvertedabovear.fina",null],"seenThreedotsbelowthreedotsar":["seenThreedotsbelowthreedotsar.fina",null],"fehDotaboveDotbelowar":["fehDotaboveDotbelowar.fina",null],"uni08BE":[null,"behThreedotsupbelowVabovear.fina"],"uni0759":[null,"dalTwodotsverticalbelowTahabovear.fina"],"uni08B2":[null,"zainVInvertedabovear.fina"],"uni069C":[null,"seenThreedotsbelowthreedotsar.fina"],"uni06A3.1":[null,"fehDotaboveDotbelowar.fina"]}}}},"HVAR":{"item_variation_store_offset":{"item_variation_data_offsets":{"1":{"item_count":[130,129],"delta_sets":{"error":"There are 253 changes, check manually!"}},"3":{"item_count":[120,121],"delta_sets":{"error":"There are 263 changes, check manually!"}}}},"advance_width_mapping_offset":{"map_data":{"error":"There are 304 changes, check manually!"}}},"STAT":{"offset_to_axis_value_offsets":{"axis_value_offsets":{"1":{"value_name_id":["259","260"]},"2":{"value_name_id":["260","262"]},"4":{"value_name_id":["262","266"]},"5":{"value_name_id":["263","268"]},"6":{"value_name_id":["264","270"]},"7":{"value_name_id":["265","272"]},"8":{"value_name_id":["266","274"]},"9":{"value_name_id":["267","276"]},"10":{"value_name_id":["268","277"]},"11":{"value_name_id":["269","278"]},"12":{"value_name_id":["270","279"]}}}},"cmap":{"U+069C":["seenThreedotsbelowthreedotsar","uni069C"],"U+06A3":["fehDotaboveDotbelowar","uni06A3.1"],"U+06D6":["sadLamAlefMaksuraAboveUIar","uni06D6"],"U+06D7":["qafLamAlefMaksuraAboveUIar","uni06D7"],"U+06D8":["meemaboveUIar","uni06D8"],"U+06D9":["lamAlefAboveUIar","uni06D9"],"U+06DA":["jeemUIar","uni06DA"],"U+06DB":["threedotsaUIar","uni06DB"],"U+06DE":["asteriskArtar","uni06DE"],"U+0759":["dalTwodotsverticalbelowTahabovear","uni0759"],"U+08B2":["zainVInvertedabovear","uni08B2"],"U+08BE":["behThreedotsupbelowVabovear","uni08BE"]},"fvar":{"axis_instance_arrays_offset":{"instances":{"0":{"post_script_name_id":[null,"259"]},"1":{"subfamily_name_id":["259","260"],"post_script_name_id":[null,"261"]},"2":{"subfamily_name_id":["260","262"],"post_script_name_id":[null,"263"]},"3":{"subfamily_name_id":["261","264"],"post_script_name_id":[null,"265"]},"4":{"subfamily_name_id":["262","266"],"post_script_name_id":[null,"267"]},"5":{"subfamily_name_id":["263","268"],"post_script_name_id":[null,"269"]},"6":{"subfamily_name_id":["264","270"],"post_script_name_id":[null,"271"]},"7":{"subfamily_name_id":["265","272"],"post_script_name_id":[null,"273"]},"8":{"subfamily_name_id":["266","274"],"post_script_name_id":[null,"275"]}}},"instance_size":[12,14]},"gvar":{"shared_tuples_offset":{"tuples":{"0":{"values":{"0":[-1.0,1.0]}},"2":{"values":{"1":[0.0,-1.0]}},"4":{"values":{"0":[1.0,-1.0]}},"5":{"values":{"0":[-1.0,0.0]}},"6":{"values":{"0":[0.0,-1.0],"1":[-1.0,0.0]}}}}},"head":{"checksum_adjustment":[1668703313,2966567640],"modified":[3801052044,3824610713]},"hmtx":{"asteriskArtar":[{"width":999,"lsb":39},null],"threedotsaUIar":[{"width":0,"lsb":-110},null],"jeemUIar":[{"width":0,"lsb":-114},null],"meemaboveUIar":[{"width":0,"lsb":-130},null],"lamAlefAboveUIar":[{"width":0,"lsb":-82},null],"sadLamAlefMaksuraAboveUIar":[{"width":0,"lsb":-206},null],"qafLamAlefMaksuraAboveUIar":[{"width":0,"lsb":-144},null],"behThreedotsupbelowVabovear":[{"width":993,"lsb":30},null],"dalTwodotsverticalbelowTahabovear":[{"width":477,"lsb":35},null],"zainVInvertedabovear":[{"width":367,"lsb":-25},null],"seenThreedotsbelowthreedotsar":[{"width":1209,"lsb":30},null],"fehDotaboveDotbelowar":[{"width":983,"lsb":30},null],"uni06DE":[null,{"width":999,"lsb":39}],"uni06DB":[null,{"width":0,"lsb":-110}],"uni06DA":[null,{"width":0,"lsb":-114}],"uni06D8":[null,{"width":0,"lsb":-130}],"uni06D9":[null,{"width":0,"lsb":-82}],"uni06D6":[null,{"width":0,"lsb":-206}],"uni06D7":[null,{"width":0,"lsb":-144}],"uni08BE":[null,{"width":993,"lsb":30}],"uni0759":[null,{"width":477,"lsb":35}],"uni08B2":[null,{"width":367,"lsb":-25}],"uni069C":[null,{"width":1209,"lsb":30}],"uni06A3.1":[null,{"width":983,"lsb":30}]},"name":{"256":{"en":["Weight",null]},"257":{"en":["Width",null]},"258":{"en":["Thin",null]},"259":{"en":["ExtraLight",null],"en-US":["ExtraLight","NotoSansArabicUI-Thin"]},"260":{"en":["Light",null],"en-US":["Light","ExtraLight"]},"261":{"en":["Regular",null],"en-US":["Regular","NotoSansArabicUI-ExtraLight"]},"262":{"en":["Medium",null],"en-US":["Medium","Light"]},"263":{"en":["SemiBold",null],"en-US":["SemiBold","NotoSansArabicUI-Light"]},"264":{"en":["Bold",null],"en-US":["Bold","Regular"]},"265":{"en":["ExtraBold",null],"en-US":["ExtraBold","NotoSansArabicUI-Regular"]},"266":{"en":["Black",null],"en-US":["Black","Medium"]},"267":{"en-US":["ExtraCondensed","NotoSansArabicUI-Medium"]},"268":{"en-US":["Condensed","SemiBold"]},"269":{"en-US":["SemiCondensed","NotoSansArabicUI-SemiBold"]},"270":{"en-US":["Normal","Bold"]},"271":[null,{"en-US":"NotoSansArabicUI-Bold"}],"272":[null,{"en-US":"ExtraBold"}],"273":[null,{"en-US":"NotoSansArabicUI-ExtraBold"}],"274":[null,{"en-US":"Black"}],"275":[null,{"en-US":"NotoSansArabicUI-Black"}],"276":[null,{"en-US":"ExtraCondensed"}],"277":[null,{"en-US":"Condensed"}],"278":[null,{"en-US":"SemiCondensed"}],"279":[null,{"en-US":"Normal"}]}},"kerns":{"zainVInvertedabovear/uni0639":[{"x":{"wdth=62.5,wght=100":160,"wght=900":160,"default":170,"wdth=62.5":160,"wght=100":150,"wght=704.9927":180,"wdth=62.5,wght=900":150,"wdth=62.5,wght=704.9927":200},"x_placement":{"wdth=62.5,wght=704.9927":200,"wght=900":160,"wdth=62.5":160,"wght=100":150,"wdth=62.5,wght=900":150,"wght=704.9927":180,"default":170,"wdth=62.5,wght=100":160}},null],"zainVInvertedabovear/uni062D.isol":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni062D":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni062D.fina":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni062C":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni062E":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni0681":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni0682":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni0683":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni0684":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni0685":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni0686":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni0687":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni0757":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni0758":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni076E":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni076F":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni0772":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni077C":[{"x":{"default":60,"wdth=62.5":110,"wdth=62.5,wght=100":70,"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=900":70,"wght=100":50},"x_placement":{"wdth=62.5,wght=900":40,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wght=100":50,"wght=900":70,"wdth=62.5,wght=100":70,"default":60,"wdth=62.5":110}},null],"zainVInvertedabovear/uni0639.isol":[{"x":{"wght=100":150,"wdth=62.5,wght=900":0,"default":170,"wdth=62.5,wght=100":160,"wght=900":160,"wdth=62.5,wght=704.9927":200,"wdth=62.5":160,"wght=704.9927":180},"x_placement":{"wght=900":160,"wdth=62.5":160,"wght=100":150,"wdth=62.5,wght=100":160,"wght=704.9927":180,"wdth=62.5,wght=900":0,"wdth=62.5,wght=704.9927":200,"default":170}},null],"zainVInvertedabovear/uni063A.isol":[{"x":{"wght=100":150,"wdth=62.5,wght=900":0,"default":170,"wdth=62.5,wght=100":160,"wght=900":160,"wdth=62.5,wght=704.9927":200,"wdth=62.5":160,"wght=704.9927":180},"x_placement":{"wght=900":160,"wdth=62.5":160,"wght=100":150,"wdth=62.5,wght=100":160,"wght=704.9927":180,"wdth=62.5,wght=900":0,"wdth=62.5,wght=704.9927":200,"default":170}},null],"zainVInvertedabovear/uni063A":[{"x":{"wght=100":150,"wdth=62.5,wght=900":0,"default":170,"wdth=62.5,wght=100":160,"wght=900":160,"wdth=62.5,wght=704.9927":200,"wdth=62.5":160,"wght=704.9927":180},"x_placement":{"wght=900":160,"wdth=62.5":160,"wght=100":150,"wdth=62.5,wght=100":160,"wght=704.9927":180,"wdth=62.5,wght=900":0,"wdth=62.5,wght=704.9927":200,"default":170}},null],"zainVInvertedabovear/uni06A0":[{"x":{"wght=100":150,"wdth=62.5,wght=900":0,"default":170,"wdth=62.5,wght=100":160,"wght=900":160,"wdth=62.5,wght=704.9927":200,"wdth=62.5":160,"wght=704.9927":180},"x_placement":{"wght=900":160,"wdth=62.5":160,"wght=100":150,"wdth=62.5,wght=100":160,"wght=704.9927":180,"wdth=62.5,wght=900":0,"wdth=62.5,wght=704.9927":200,"default":170}},null],"zainVInvertedabovear/uni075D":[{"x":{"wght=100":150,"wdth=62.5,wght=900":0,"default":170,"wdth=62.5,wght=100":160,"wght=900":160,"wdth=62.5,wght=704.9927":200,"wdth=62.5":160,"wght=704.9927":180},"x_placement":{"wght=900":160,"wdth=62.5":160,"wght=100":150,"wdth=62.5,wght=100":160,"wght=704.9927":180,"wdth=62.5,wght=900":0,"wdth=62.5,wght=704.9927":200,"default":170}},null],"zainVInvertedabovear/uni075E":[{"x":{"wght=100":150,"wdth=62.5,wght=900":0,"default":170,"wdth=62.5,wght=100":160,"wght=900":160,"wdth=62.5,wght=704.9927":200,"wdth=62.5":160,"wght=704.9927":180},"x_placement":{"wght=900":160,"wdth=62.5":160,"wght=100":150,"wdth=62.5,wght=100":160,"wght=704.9927":180,"wdth=62.5,wght=900":0,"wdth=62.5,wght=704.9927":200,"default":170}},null],"zainVInvertedabovear/uni075F":[{"x":{"wght=100":150,"wdth=62.5,wght=900":0,"default":170,"wdth=62.5,wght=100":160,"wght=900":160,"wdth=62.5,wght=704.9927":200,"wdth=62.5":160,"wght=704.9927":180},"x_placement":{"wght=900":160,"wdth=62.5":160,"wght=100":150,"wdth=62.5,wght=100":160,"wght=704.9927":180,"wdth=62.5,wght=900":0,"wdth=62.5,wght=704.9927":200,"default":170}},null],"uni08B2/uni0639":[null,{"x":{"default":170,"wght=900":160,"wdth=62.5":160,"wdth=62.5,wght=900":150,"wght=100":150,"wght=704.9927":180,"wdth=62.5,wght=704.9927":200,"wdth=62.5,wght=100":160},"x_placement":{"wdth=62.5":160,"wdth=62.5,wght=704.9927":200,"wght=704.9927":180,"wdth=62.5,wght=900":150,"wght=900":160,"default":170,"wdth=62.5,wght=100":160,"wght=100":150}}],"uni08B2/uni062D.isol":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni062D":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni062D.fina":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni062C":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni062E":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni0681":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni0682":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni0683":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni0684":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni0685":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni0686":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni0687":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni0757":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni0758":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni076E":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni076F":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni0772":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni077C":[null,{"x":{"wght=900":70,"wght=100":50,"wght=704.9927":70,"wdth=62.5,wght=704.9927":90,"wdth=62.5,wght=900":40,"default":60,"wdth=62.5,wght=100":70,"wdth=62.5":110},"x_placement":{"wdth=62.5,wght=900":40,"wdth=62.5,wght=704.9927":90,"default":60,"wght=100":50,"wdth=62.5,wght=100":70,"wght=704.9927":70,"wdth=62.5":110,"wght=900":70}}],"uni08B2/uni0639.isol":[null,{"x":{"default":170,"wght=900":160,"wdth=62.5,wght=100":160,"wght=100":150,"wdth=62.5,wght=704.9927":200,"wdth=62.5,wght=900":0,"wght=704.9927":180,"wdth=62.5":160},"x_placement":{"wdth=62.5":160,"wght=704.9927":180,"default":170,"wdth=62.5,wght=100":160,"wdth=62.5,wght=900":0,"wght=100":150,"wdth=62.5,wght=704.9927":200,"wght=900":160}}],"uni08B2/uni063A.isol":[null,{"x":{"default":170,"wght=900":160,"wdth=62.5,wght=100":160,"wght=100":150,"wdth=62.5,wght=704.9927":200,"wdth=62.5,wght=900":0,"wght=704.9927":180,"wdth=62.5":160},"x_placement":{"wdth=62.5":160,"wght=704.9927":180,"default":170,"wdth=62.5,wght=100":160,"wdth=62.5,wght=900":0,"wght=100":150,"wdth=62.5,wght=704.9927":200,"wght=900":160}}],"uni08B2/uni063A":[null,{"x":{"default":170,"wght=900":160,"wdth=62.5,wght=100":160,"wght=100":150,"wdth=62.5,wght=704.9927":200,"wdth=62.5,wght=900":0,"wght=704.9927":180,"wdth=62.5":160},"x_placement":{"wdth=62.5":160,"wght=704.9927":180,"default":170,"wdth=62.5,wght=100":160,"wdth=62.5,wght=900":0,"wght=100":150,"wdth=62.5,wght=704.9927":200,"wght=900":160}}],"uni08B2/uni06A0":[null,{"x":{"default":170,"wght=900":160,"wdth=62.5,wght=100":160,"wght=100":150,"wdth=62.5,wght=704.9927":200,"wdth=62.5,wght=900":0,"wght=704.9927":180,"wdth=62.5":160},"x_placement":{"wdth=62.5":160,"wght=704.9927":180,"default":170,"wdth=62.5,wght=100":160,"wdth=62.5,wght=900":0,"wght=100":150,"wdth=62.5,wght=704.9927":200,"wght=900":160}}],"uni08B2/uni075D":[null,{"x":{"default":170,"wght=900":160,"wdth=62.5,wght=100":160,"wght=100":150,"wdth=62.5,wght=704.9927":200,"wdth=62.5,wght=900":0,"wght=704.9927":180,"wdth=62.5":160},"x_placement":{"wdth=62.5":160,"wght=704.9927":180,"default":170,"wdth=62.5,wght=100":160,"wdth=62.5,wght=900":0,"wght=100":150,"wdth=62.5,wght=704.9927":200,"wght=900":160}}],"uni08B2/uni075E":[null,{"x":{"default":170,"wght=900":160,"wdth=62.5,wght=100":160,"wght=100":150,"wdth=62.5,wght=704.9927":200,"wdth=62.5,wght=900":0,"wght=704.9927":180,"wdth=62.5":160},"x_placement":{"wdth=62.5":160,"wght=704.9927":180,"default":170,"wdth=62.5,wght=100":160,"wdth=62.5,wght=900":0,"wght=100":150,"wdth=62.5,wght=704.9927":200,"wght=900":160}}],"uni08B2/uni075F":[null,{"x":{"default":170,"wght=900":160,"wdth=62.5,wght=100":160,"wght=100":150,"wdth=62.5,wght=704.9927":200,"wdth=62.5,wght=900":0,"wght=704.9927":180,"wdth=62.5":160},"x_placement":{"wdth=62.5":160,"wght=704.9927":180,"default":170,"wdth=62.5,wght=100":160,"wdth=62.5,wght=900":0,"wght=100":150,"wdth=62.5,wght=704.9927":200,"wght=900":160}}]},"cmap_diff":{}};
+		function buildLocation_statichtml(loc) {
+  // Set font styles to appropriate axis locations
+  let rule = document.styleSheets[0].cssRules[2].style;
+  let cssSetting = "";
+  let textLocation = "Default";
+  if (loc.coords) {
+    cssSetting = Object.entries(loc.coords)
+      .map(function ([axis, value]) {
+        return `"${axis}" ${value}`;
+      })
+      .join(", ");
+    textLocation = Object.entries(loc.coords)
+      .map(function ([axis, value]) {
+        return `${axis}=${value}`;
+      })
+      .join(" ");
+    rule.setProperty("font-variation-settings", cssSetting);
+  }
+
+  $("#main").empty();
+
+  $("#title").html(`<h4 class="mt-2">${textLocation}</h2>`);
+
+  if (loc.glyphs) {
+    $("#main").append("<h4>Modified Glyphs</h4>");
+    let glyphs = $("<div>");
+    for (let glyph of loc.glyphs) {
+      addAGlyph(glyph, glyphs);
+    }
+    $("#main").append(glyphs);
+  }
+
+  if (loc.words) {
+    $("#main").append("<h4>Modified Words</h4>");
+    for (let [script, words] of Object.entries(loc.words)) {
+      let scriptTitle = $(`<h6>${script}</h6>`);
+      $("#main").append(scriptTitle);
+      let worddiv = $("<div>");
+      for (let word of words) {
+        addAWord(word, worddiv);
+      }
+      $("#main").append(worddiv);
+    }
+  }
+  $('[data-toggle="tooltip"]').tooltip();
+}
+
+$(function () {
+  if (report["tables"]) {
+    diffTables(report);
+  }
+  if (report["kerns"]) {
+    diffKerns(report);
+  }
+  cmapDiff(report);
+  $('[data-toggle="tooltip"]').tooltip();
+  if (!report["locations"]) {
+    $("#title").html("<h4 class='mt-2'>No differences found</h4>");
+    $("#ui-nav").hide();
+    return;
+  }
+
+  for (var [index, loc] of report["locations"].entries()) {
+    var loc_nav = $(`<li class="nav-item">
+		<a class="nav-link text-secondary" href="#" data-index="${index}">${loc.location.replaceAll(
+      ",",
+      ",\u200b"
+    )}</a>
+	</li>`);
+    $("#locationnav").append(loc_nav);
+  }
+  $("#locationnav li a").on("click", function (e) {
+    $("#locationnav li a").removeClass("active");
+    $(this).addClass("active");
+    buildLocation_statichtml(report.locations[$(this).data("index")]);
+  });
+  $("#locationnav li a").eq(0).click();
+
+  document.styleSheets[0].cssRules[0].style.setProperty(
+    "src",
+    "url(old-NotoSansArabicUI[wdth,wght].ttf)"
+  );
+  document.styleSheets[0].cssRules[1].style.setProperty(
+    "src",
+    "url(new-NotoSansArabicUI[wdth,wght].ttf)"
+  );
+  setupAnimation();
+});
+
+	</script>
+</body>
+
+</html>
