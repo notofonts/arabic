@@ -27,16 +27,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni08E8
-	* uni08E7
-	* uni077A.init
-	* uni077B.init
-	* uni0613
-	* uni06E5
+	* uni08E9
+	* uni08F3
 	* uni077B.medi
-	* uni06D6
+	* uniFDF4
+	* uni06D7
+	* uni0616
 	* uni077A.medi
-	* uni08F3 and 6 more.
+	* uni06E5
+	* uni077A.init
+	* uni08E7 and 6 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -78,27 +78,27 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uniFBB2.001
+
+	- _874
+
+	- dotamiddlear
+
+	- space
+
 	- uni00A0
-
-	- alrahem
-
-	- threedotsdowncenterar
-
-	- uniFBBE.001
-
-	- uniFBBB.002
-
-	- uni06B6.isol
-
-	- comma
 
 	- five
 
-	- guillemotleft
+	- uni06BD.init
 
-	- uni06DD.001 
+	- bsm
 
-	- And 49 more.
+	- exclam
+
+	- eight 
+
+	- And 50 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -111,19 +111,16 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -157,30 +154,40 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* W (U+0057): B<<266.0,196.0>-<272.0,161.0>-<275.0,137.0>>/B<<275.0,137.0>-<278.0,162.0>-<284.0,196.5>> = 13.967789761532726
+	* uniFBE5 (U+FBE5): B<<590.5,17.0>-<563.0,21.0>-<543.0,26.0>>/B<<543.0,26.0>-<584.0,7.0>-<605.5,-4.0>> = 10.827453103825361
 
-	* W (U+0057): B<<489.0,505.5>-<485.0,529.0>-<483.0,542.0>>/B<<483.0,542.0>-<482.0,529.0>-<477.5,505.5>> = 13.144867617550734
+	* uniFBF6 (U+FBF6): B<<590.5,17.0>-<563.0,21.0>-<543.0,26.0>>/B<<543.0,26.0>-<584.0,7.0>-<605.5,-4.0>> = 10.827453103825361
 
-	* W (U+0057): B<<683.0,196.0>-<689.0,161.0>-<692.0,137.0>>/B<<692.0,137.0>-<695.0,162.0>-<701.0,196.5>> = 13.967789761532726
+	* uniFBF7 (U+FBF7): B<<590.5,17.0>-<563.0,21.0>-<543.0,26.0>>/B<<543.0,26.0>-<584.0,7.0>-<605.5,-4.0>> = 10.827453103825361
 
-	* Wacute (U+1E82): B<<266.0,196.0>-<272.0,161.0>-<275.0,137.0>>/B<<275.0,137.0>-<278.0,162.0>-<284.0,196.5>> = 13.967789761532726
+	* uniFBF9 (U+FBF9): B<<590.5,17.0>-<563.0,21.0>-<543.0,26.0>>/B<<543.0,26.0>-<584.0,7.0>-<605.5,-4.0>> = 10.827453103825361
 
-	* Wacute (U+1E82): B<<489.0,505.5>-<485.0,529.0>-<483.0,542.0>>/B<<483.0,542.0>-<482.0,529.0>-<477.5,505.5>> = 13.144867617550734
+	* uniFBFA (U+FBFA): B<<590.5,17.0>-<563.0,21.0>-<543.0,26.0>>/B<<543.0,26.0>-<584.0,7.0>-<605.5,-4.0>> = 10.827453103825361
 
-	* Wacute (U+1E82): B<<683.0,196.0>-<689.0,161.0>-<692.0,137.0>>/B<<692.0,137.0>-<695.0,162.0>-<701.0,196.5>> = 13.967789761532726
+	* uniFBFD (U+FBFD): B<<590.5,17.0>-<563.0,21.0>-<543.0,26.0>>/B<<543.0,26.0>-<584.0,7.0>-<605.5,-4.0>> = 10.827453103825361
 
-	* Wcircumflex (U+0174): B<<266.0,196.0>-<272.0,161.0>-<275.0,137.0>>/B<<275.0,137.0>-<278.0,162.0>-<284.0,196.5>> = 13.967789761532726
+	* uniFC03 (U+FC03): B<<590.5,17.0>-<563.0,21.0>-<543.0,26.0>>/B<<543.0,26.0>-<584.0,7.0>-<605.5,-4.0>> = 10.827453103825361
 
-	* Wcircumflex (U+0174): B<<489.0,505.5>-<485.0,529.0>-<483.0,542.0>>/B<<483.0,542.0>-<482.0,529.0>-<477.5,505.5>> = 13.144867617550734
+	* uniFC04 (U+FC04): B<<590.5,17.0>-<563.0,21.0>-<543.0,26.0>>/B<<543.0,26.0>-<584.0,7.0>-<605.5,-4.0>> = 10.827453103825361
 
-	* Wcircumflex (U+0174): B<<683.0,196.0>-<689.0,161.0>-<692.0,137.0>>/B<<692.0,137.0>-<695.0,162.0>-<701.0,196.5>> = 13.967789761532726
+	* uniFC09 (U+FC09): B<<590.5,17.0>-<563.0,21.0>-<543.0,26.0>>/B<<543.0,26.0>-<584.0,7.0>-<605.5,-4.0>> = 10.827453103825361
 
-	* Wdieresis (U+1E84): B<<266.0,196.0>-<272.0,161.0>-<275.0,137.0>>/B<<275.0,137.0>-<278.0,162.0>-<284.0,196.5>> = 13.967789761532726 
+	* uniFC0A (U+FC0A): B<<590.5,17.0>-<563.0,21.0>-<543.0,26.0>>/B<<543.0,26.0>-<584.0,7.0>-<605.5,-4.0>> = 10.827453103825361 
 
-	* And 152 more.
+	* And 142 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoNaskhArabic-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* h (U+0068): L<<101.0,122.0>--<100.0,646.0>>
+
+	* h (U+0068): L<<252.0,309.0>--<253.0,118.0>> 
+
+	* And sterling (U+00A3): L<<428.0,346.0>--<270.0,347.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[12] NotoNaskhArabic-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -188,13 +195,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni08E8
-	* uni077A.init
-	* uni077B.init
-	* uni06E5
+	* uni08F3
 	* uni077B.medi
 	* uni077A.medi
-	* uni08F3
+	* uni06E5
+	* uni077A.init
+	* uni077B.init
 	* uniFDFD and uni0608
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -242,27 +248,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uniFBB2.001
+
+	- _874
+
+	- dotamiddlear
+
+	- space
+
 	- uni00A0
-
-	- alrahem
-
-	- threedotsdowncenterar
-
-	- uniFBBE.001
-
-	- uniFBBB.002
-
-	- uni06B6.isol
-
-	- comma
 
 	- five
 
-	- guillemotleft
+	- uni06BD.init
 
-	- uni06DD.001 
+	- bsm
 
-	- And 49 more.
+	- exclam
+
+	- eight 
+
+	- And 50 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -275,19 +281,16 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -321,16 +324,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* W (U+0057): B<<476.0,548.5>-<470.0,575.0>-<468.0,587.0>>/B<<468.0,587.0>-<467.0,575.0>-<462.0,548.5>> = 14.22596389875178
-
-	* Wacute (U+1E82): B<<476.0,548.5>-<470.0,575.0>-<468.0,587.0>>/B<<468.0,587.0>-<467.0,575.0>-<462.0,548.5>> = 14.22596389875178
-
-	* Wcircumflex (U+0174): B<<476.0,548.5>-<470.0,575.0>-<468.0,587.0>>/B<<468.0,587.0>-<467.0,575.0>-<462.0,548.5>> = 14.22596389875178
-
-	* Wdieresis (U+1E84): B<<476.0,548.5>-<470.0,575.0>-<468.0,587.0>>/B<<468.0,587.0>-<467.0,575.0>-<462.0,548.5>> = 14.22596389875178
-
-	* Wgrave (U+1E80): B<<476.0,548.5>-<470.0,575.0>-<468.0,587.0>>/B<<468.0,587.0>-<467.0,575.0>-<462.0,548.5>> = 14.22596389875178
-
 	* uniFDFA (U+FDFA): B<<675.5,490.5>-<668.0,492.0>-<662.0,494.0>>/B<<662.0,494.0>-<692.0,478.0>-<702.5,470.0>> = 9.637538112930923
 
 	* uniFEF6 (U+FEF6): B<<461.0,298.0>-<458.0,343.0>-<454.0,399.0>>/L<<454.0,399.0>--<451.0,372.0>> = 10.425808525884747
@@ -345,10 +338,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
+	* h (U+0068): L<<106.0,117.0>--<105.0,649.0>>
+
 	* uni066D (U+066D): L<<21.0,283.0>--<156.0,282.0>> 
 
 	* And uni066D (U+066D): L<<243.0,282.0>--<380.0,283.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoNaskhArabic-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoNaskhArabic-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -356,13 +351,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni08E8
-	* uni077A.init
-	* uni077B.init
-	* uni06E5
+	* uni08F3
 	* uni077B.medi
 	* uni077A.medi
-	* uni08F3
+	* uni06E5
+	* uni077A.init
+	* uni077B.init
 	* uniFDFD and uni0608
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
@@ -403,27 +397,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uniFBB2.001
+
+	- _874
+
+	- dotamiddlear
+
+	- space
+
 	- uni00A0
-
-	- alrahem
-
-	- threedotsdowncenterar
-
-	- uniFBBE.001
-
-	- uniFBBB.002
-
-	- uni06B6.isol
-
-	- comma
 
 	- five
 
-	- guillemotleft
+	- uni06BD.init
 
-	- uni06DD.001 
+	- bsm
 
-	- And 49 more.
+	- exclam
+
+	- eight 
+
+	- And 50 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -436,19 +430,16 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -491,7 +482,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uniFEFA (U+FEFA): B<<458.5,282.5>-<455.0,333.0>-<450.0,405.0>>/L<<450.0,405.0>--<447.0,378.0>> = 10.312687686660533 
 
 	* And uniFEFC (U+FEFC): B<<458.5,282.5>-<455.0,333.0>-<450.0,405.0>>/L<<450.0,405.0>--<447.0,378.0>> = 10.312687686660533 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[9] NotoNaskhArabic[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoNaskhArabic[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -542,43 +533,36 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uniFBB2.001
+
+	- _874
+
+	- dotamiddlear
+
+	- space
+
 	- uni00A0
-
-	- alrahem
-
-	- threedotsdowncenterar
-
-	- uniFBBE.001
-
-	- uniFBBB.002
-
-	- uni06B6.isol
-
-	- comma
 
 	- five
 
-	- guillemotleft
+	- uni06BD.init
 
-	- uni06DD.001 
+	- bsm
 
-	- And 49 more.
+	- exclam
+
+	- eight 
+
+	- And 50 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 4 | 6 | 38 | 436 | 26 | 385 | 0 |
+| 4 | 6 | 35 | 436 | 26 | 388 | 0 |
 | 0% | 1% | 4% | 49% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:

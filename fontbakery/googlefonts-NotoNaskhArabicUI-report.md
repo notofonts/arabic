@@ -19,7 +19,7 @@ Fontbakery version: 0.8.9
 
 
 * 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[14] NotoNaskhArabicUI-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoNaskhArabicUI-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -90,25 +90,25 @@ Fontbakery version: 0.8.9
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _782
+	- guillemotright
 
-	- uni06A1.medi
-
-	- uni06BD.init
-
-	- _786
-
-	- uniFBB6.001
-
-	- _539
-
-	- one
+	- uniFC5B.fina
 
 	- threedotsdowncenterar
 
-	- colon
+	- _vabove
 
-	- uniFBBE.001 
+	- comma
+
+	- uni00A0
+
+	- dotamiddlear
+
+	- uniFC5C.fina
+
+	- uniFBB2.001
+
+	- three 
 
 	- And 49 more.
 
@@ -129,13 +129,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -192,7 +185,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* And 152 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[16] NotoNaskhArabicUI-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] NotoNaskhArabicUI-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -270,25 +263,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _782
+	- guillemotright
 
-	- uni06A1.medi
-
-	- uni06BD.init
-
-	- _786
-
-	- uniFBB6.001
-
-	- _539
-
-	- one
+	- uniFC5B.fina
 
 	- threedotsdowncenterar
 
-	- colon
+	- _vabove
 
-	- uniFBBE.001 
+	- comma
+
+	- uni00A0
+
+	- dotamiddlear
+
+	- uniFC5C.fina
+
+	- uniFBB2.001
+
+	- three 
 
 	- And 49 more.
 
@@ -309,13 +302,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -376,7 +362,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni066D (U+066D): L<<21.0,418.0>--<156.0,417.0>> 
 
 	* And uni066D (U+066D): L<<243.0,417.0>--<380.0,418.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoNaskhArabicUI-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoNaskhArabicUI-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -447,25 +433,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _782
+	- guillemotright
 
-	- uni06A1.medi
-
-	- uni06BD.init
-
-	- _786
-
-	- uniFBB6.001
-
-	- _539
-
-	- one
+	- uniFC5B.fina
 
 	- threedotsdowncenterar
 
-	- colon
+	- _vabove
 
-	- uniFBBE.001 
+	- comma
+
+	- uni00A0
+
+	- dotamiddlear
+
+	- uniFC5C.fina
+
+	- uniFBB2.001
+
+	- three 
 
 	- And 49 more.
 
@@ -486,13 +472,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -535,7 +514,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uniFEFA (U+FEFA): B<<458.5,417.5>-<455.0,468.0>-<450.0,540.0>>/L<<450.0,540.0>--<447.0,513.0>> = 10.312687686660533 
 
 	* And uniFEFC (U+FEFC): B<<458.5,417.5>-<455.0,468.0>-<450.0,540.0>>/L<<450.0,540.0>--<447.0,513.0>> = 10.312687686660533 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoNaskhArabicUI[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoNaskhArabicUI[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -614,44 +593,37 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _782
+	- guillemotright
 
-	- uni06A1.medi
-
-	- uni06BD.init
-
-	- _786
-
-	- uniFBB6.001
-
-	- _539
-
-	- one
+	- uniFC5B.fina
 
 	- threedotsdowncenterar
 
-	- colon
+	- _vabove
 
-	- uniFBBE.001 
+	- comma
+
+	- uni00A0
+
+	- dotamiddlear
+
+	- uniFC5C.fina
+
+	- uniFBB2.001
+
+	- three 
 
 	- And 49 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 4 | 14 | 43 | 439 | 26 | 369 | 0 |
-| 0% | 2% | 5% | 49% | 3% | 41% | 0% |
+| 4 | 14 | 39 | 439 | 26 | 373 | 0 |
+| 0% | 2% | 4% | 49% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

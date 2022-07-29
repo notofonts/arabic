@@ -14,7 +14,7 @@ Fontbakery version: 0.8.9
 
 
 * 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[13] NotoSansArabic-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabic-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -22,16 +22,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFD6F
-	* uniFD5E
-	* uniFCC0
-	* uniFD35
-	* uni06FC.medi
-	* uniFD68
-	* uni075E.fina
-	* uniFD66
-	* uniFCD7
-	* uni0668 and 439 more.
+	* uniFB9B
+	* uniFCAD
+	* uniFC52
+	* uniFEC2
+	* uniFDFD
+	* uni076A
+	* uni076A.fina
+	* uniFCD9
+	* uni069D.medi
+	* uni075C.init and 438 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -55,25 +55,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guillemotleft.1
-
-	- sheen_yehHamzaabovear
-
-	- sad_hehar.init
-
-	- yehHamzaabove_yehHamzaabovear
-
-	- seen_zainar
-
-	- meem_zainar.fina
-
-	- theh_yehHamzaabovear
+	- alefMaksura_zainar.fina
 
 	- peh_meemar
 
-	- alefMaksura_hehar.medi
+	- dad_hehar.medi
 
-	- dad_yehHamzaabovear 
+	- teh_yehHamzaabovear
+
+	- seen_yehHamzaabovear
+
+	- sad_yehHamzaabovear
+
+	- gaf_alefMaksuraar
+
+	- uniFEFB.isol
+
+	- sheen_zainar
+
+	- lam_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -94,13 +94,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -196,7 +189,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* And 15 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabic-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansArabic-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -204,16 +197,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFD6F
-	* uniFD5E
-	* uniFCC0
-	* uniFD35
-	* uni06FC.medi
-	* uniFD68
-	* uni075E.fina
-	* uniFD66
-	* uniFCD7
-	* uni0668 and 412 more.
+	* uniFCAD
+	* uniFC52
+	* uniFEC2
+	* uniFDFD
+	* uniFC48
+	* uni076A
+	* uni076A.fina
+	* uniFCD9
+	* uni069D.medi
+	* uniFD7E and 411 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -230,25 +223,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guillemotleft.1
-
-	- sheen_yehHamzaabovear
-
-	- sad_hehar.init
-
-	- yehHamzaabove_yehHamzaabovear
-
-	- seen_zainar
-
-	- meem_zainar.fina
-
-	- theh_yehHamzaabovear
+	- alefMaksura_zainar.fina
 
 	- peh_meemar
 
-	- alefMaksura_hehar.medi
+	- dad_hehar.medi
 
-	- dad_yehHamzaabovear 
+	- teh_yehHamzaabovear
+
+	- seen_yehHamzaabovear
+
+	- sad_yehHamzaabovear
+
+	- gaf_alefMaksuraar
+
+	- uniFEFB.isol
+
+	- sheen_zainar
+
+	- lam_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -269,13 +262,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -351,7 +337,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni0607 (U+0607): L<<614.0,383.0>--<482.0,384.0>> 
 
 	* And uni0659 (U+0659): L<<30.0,696.0>--<280.0,697.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSansArabic-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabic-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -359,16 +345,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFD6F
-	* uniFD5E
-	* uniFCC0
-	* uniFD35
-	* uni06FC.medi
-	* uniFD68
-	* uni075E.fina
-	* uniFD66
-	* uniFCD7
-	* uni0668 and 412 more.
+	* uniFCAD
+	* uniFC52
+	* uniFEC2
+	* uniFDFD
+	* uni076A
+	* uni076A.fina
+	* uniFCD9
+	* uni069D.medi
+	* uni075C.init
+	* uniFD7E and 411 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -392,25 +378,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guillemotleft.1
-
-	- sheen_yehHamzaabovear
-
-	- sad_hehar.init
-
-	- yehHamzaabove_yehHamzaabovear
-
-	- seen_zainar
-
-	- meem_zainar.fina
-
-	- theh_yehHamzaabovear
+	- alefMaksura_zainar.fina
 
 	- peh_meemar
 
-	- alefMaksura_hehar.medi
+	- dad_hehar.medi
 
-	- dad_yehHamzaabovear 
+	- teh_yehHamzaabovear
+
+	- seen_yehHamzaabovear
+
+	- sad_yehHamzaabovear
+
+	- gaf_alefMaksuraar
+
+	- uniFEFB.isol
+
+	- sheen_zainar
+
+	- lam_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -431,13 +417,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -507,7 +486,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni0659 (U+0659): L<<30.0,696.0>--<282.0,697.0>> 
 
 	* And uniFE73 (U+FE73): L<<356.0,-79.0>--<355.0,-232.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSansArabic-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabic-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -515,16 +494,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni077A.fina
 	* uniFDFD
-	* uniFDF1
-	* uni2E41
-	* uni077B.fina
-	* uni204F
 	* uniFDF0
-	* uni08E8
-	* uniFBB1
-	* uni06DE and 6 more.
+	* uniFBAF
+	* uni204F
+	* uniFDF1
+	* uni08AD
+	* uni0758.fina
+	* uni077B.fina
+	* uni077A.fina
+	* uni0608 and 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -548,25 +527,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guillemotleft.1
-
-	- sheen_yehHamzaabovear
-
-	- sad_hehar.init
-
-	- yehHamzaabove_yehHamzaabovear
-
-	- seen_zainar
-
-	- meem_zainar.fina
-
-	- theh_yehHamzaabovear
+	- alefMaksura_zainar.fina
 
 	- peh_meemar
 
-	- alefMaksura_hehar.medi
+	- dad_hehar.medi
 
-	- dad_yehHamzaabovear 
+	- teh_yehHamzaabovear
+
+	- seen_yehHamzaabovear
+
+	- sad_yehHamzaabovear
+
+	- gaf_alefMaksuraar
+
+	- uniFEFB.isol
+
+	- sheen_zainar
+
+	- lam_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -587,13 +566,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -659,7 +631,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 	* uni06E9 (U+06E9): L<<391.0,174.0>--<390.0,422.0>> 
 
 	* And uni06E9 (U+06E9): L<<423.0,404.0>--<424.0,169.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSansArabic-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabic-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -667,16 +639,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFCD7
-	* uni077A.medi
-	* uniFD94
-	* uni077A.fina
+	* uniFC52
 	* uniFDFD
-	* uniFC51
-	* uniFEEB
+	* uniFCD9
+	* uniFDF0
+	* uniFBAF
+	* uniFCD8
+	* uni204F
+	* uni08A7.init
 	* uniFDF1
-	* uni2E41
-	* uniFD93 and 31 more.
+	* uni08AD and 30 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -700,25 +672,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guillemotleft.1
-
-	- sheen_yehHamzaabovear
-
-	- sad_hehar.init
-
-	- yehHamzaabove_yehHamzaabovear
-
-	- seen_zainar
-
-	- meem_zainar.fina
-
-	- theh_yehHamzaabovear
+	- alefMaksura_zainar.fina
 
 	- peh_meemar
 
-	- alefMaksura_hehar.medi
+	- dad_hehar.medi
 
-	- dad_yehHamzaabovear 
+	- teh_yehHamzaabovear
+
+	- seen_yehHamzaabovear
+
+	- sad_yehHamzaabovear
+
+	- gaf_alefMaksuraar
+
+	- uniFEFB.isol
+
+	- sheen_zainar
+
+	- lam_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -739,13 +711,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -819,7 +784,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni0659 (U+0659): L<<30.0,668.0>--<254.0,669.0>> 
 
 	* And uni06E9 (U+06E9): L<<402.0,186.0>--<401.0,423.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSansArabic-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabic-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -827,16 +792,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFD6F
-	* uni06FC.medi
-	* uni075E.fina
-	* uniFCD7
-	* uni0668
-	* uniFCE4
-	* sad_hehar.init
-	* uni08AB.fina
-	* uniFD3B
-	* uni075D.fina and 251 more.
+	* uniFC52
+	* uniFEC2
+	* uniFDFD
+	* uni076A.fina
+	* uniFCD9
+	* uniFD7E
+	* dad_hehar.medi
+	* uni076F.fina
+	* uni08AC
+	* uniFD78 and 250 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -860,25 +825,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guillemotleft.1
-
-	- sheen_yehHamzaabovear
-
-	- sad_hehar.init
-
-	- yehHamzaabove_yehHamzaabovear
-
-	- seen_zainar
-
-	- meem_zainar.fina
-
-	- theh_yehHamzaabovear
+	- alefMaksura_zainar.fina
 
 	- peh_meemar
 
-	- alefMaksura_hehar.medi
+	- dad_hehar.medi
 
-	- dad_yehHamzaabovear 
+	- teh_yehHamzaabovear
+
+	- seen_yehHamzaabovear
+
+	- sad_yehHamzaabovear
+
+	- gaf_alefMaksuraar
+
+	- uniFEFB.isol
+
+	- sheen_zainar
+
+	- lam_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -899,13 +864,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -979,7 +937,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni066D (U+066D): L<<12.0,287.0>--<191.0,286.0>> 
 
 	* And uni066D (U+066D): L<<305.0,286.0>--<486.0,287.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabic-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansArabic-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -987,16 +945,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFCD7
-	* uniFD3B
-	* uni077A.medi
-	* uni0677.fina
-	* uniFD94
-	* uni077A.fina
-	* uniFE72
-	* uni0760.fina
-	* uniFBE3
-	* uniFDFD and 107 more.
+	* uniFC52
+	* uniFEC2
+	* uniFDFD
+	* uniFCD9
+	* uniFD7E
+	* uni076F.fina
+	* uniFEFC
+	* uniFDF0
+	* uniFBF3
+	* uniFBAF and 106 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1013,25 +971,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guillemotleft.1
-
-	- sheen_yehHamzaabovear
-
-	- sad_hehar.init
-
-	- yehHamzaabove_yehHamzaabovear
-
-	- seen_zainar
-
-	- meem_zainar.fina
-
-	- theh_yehHamzaabovear
+	- alefMaksura_zainar.fina
 
 	- peh_meemar
 
-	- alefMaksura_hehar.medi
+	- dad_hehar.medi
 
-	- dad_yehHamzaabovear 
+	- teh_yehHamzaabovear
+
+	- seen_yehHamzaabovear
+
+	- sad_yehHamzaabovear
+
+	- gaf_alefMaksuraar
+
+	- uniFEFB.isol
+
+	- sheen_zainar
+
+	- lam_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -1052,13 +1010,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -1112,7 +1063,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 	* uni0607 (U+0607): L<<602.0,383.0>--<470.0,384.0>> 
 
 	* And uni0659 (U+0659): L<<30.0,681.0>--<254.0,682.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSansArabic-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabic-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -1120,16 +1071,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFD6F
-	* uniFCC0
-	* uni06FC.medi
-	* uni075E.fina
-	* uniFD66
-	* uniFCD7
-	* uni0668
-	* uniFCE4
-	* uni06F3
-	* uniFD23 and 326 more.
+	* uniFC52
+	* uniFEC2
+	* uniFDFD
+	* uni076A
+	* uni076A.fina
+	* uniFCD9
+	* uni069D.medi
+	* uniFD7E
+	* uniFDBD
+	* dad_hehar.medi and 325 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1153,25 +1104,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guillemotleft.1
-
-	- sheen_yehHamzaabovear
-
-	- sad_hehar.init
-
-	- yehHamzaabove_yehHamzaabovear
-
-	- seen_zainar
-
-	- meem_zainar.fina
-
-	- theh_yehHamzaabovear
+	- alefMaksura_zainar.fina
 
 	- peh_meemar
 
-	- alefMaksura_hehar.medi
+	- dad_hehar.medi
 
-	- dad_yehHamzaabovear 
+	- teh_yehHamzaabovear
+
+	- seen_yehHamzaabovear
+
+	- sad_yehHamzaabovear
+
+	- gaf_alefMaksuraar
+
+	- uniFEFB.isol
+
+	- sheen_zainar
+
+	- lam_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -1192,13 +1143,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -1276,7 +1220,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni0607 (U+0607): L<<609.0,383.0>--<477.0,384.0>> 
 
 	* And uni0659 (U+0659): L<<30.0,690.0>--<270.0,691.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSansArabic-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabic-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -1284,16 +1228,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni077A.fina
 	* uniFDFD
-	* uniFDF1
-	* uni2E41
-	* uni077B.fina
-	* uni204F
 	* uniFDF0
-	* uni08E8
-	* uniFBB1
-	* uni065D and uni0608
+	* uni204F
+	* uniFDF1
+	* uni077B.fina
+	* uni077A.fina
+	* uni0608
+	* uni2E41
+	* uni065D and uniFBB1
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1315,25 +1258,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guillemotleft.1
-
-	- sheen_yehHamzaabovear
-
-	- sad_hehar.init
-
-	- yehHamzaabove_yehHamzaabovear
-
-	- seen_zainar
-
-	- meem_zainar.fina
-
-	- theh_yehHamzaabovear
+	- alefMaksura_zainar.fina
 
 	- peh_meemar
 
-	- alefMaksura_hehar.medi
+	- dad_hehar.medi
 
-	- dad_yehHamzaabovear 
+	- teh_yehHamzaabovear
+
+	- seen_yehHamzaabovear
+
+	- sad_yehHamzaabovear
+
+	- gaf_alefMaksuraar
+
+	- uniFEFB.isol
+
+	- sheen_zainar
+
+	- lam_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -1354,13 +1297,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -1458,25 +1394,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guillemotleft.1
-
-	- sheen_yehHamzaabovear
-
-	- sad_hehar.init
-
-	- yehHamzaabove_yehHamzaabovear
-
-	- seen_zainar
-
-	- meem_zainar.fina
-
-	- theh_yehHamzaabovear
+	- alefMaksura_zainar.fina
 
 	- peh_meemar
 
-	- alefMaksura_hehar.medi
+	- dad_hehar.medi
 
-	- dad_yehHamzaabovear 
+	- teh_yehHamzaabovear
+
+	- seen_yehHamzaabovear
+
+	- sad_yehHamzaabovear
+
+	- gaf_alefMaksuraar
+
+	- uniFEFB.isol
+
+	- sheen_zainar
+
+	- lam_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -1486,9 +1422,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 uni034F (U+034F), uni06D6 (U+06D6), uni06D7 (U+06D7), uni06D8 (U+06D8), uni06D9 (U+06D9), uni06DA (U+06DA) and uni06E2 (U+06E2) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -1501,7 +1435,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 10 | 4 | 111 | 1120 | 62 | 908 | 0 |
+| 10 | 4 | 102 | 1120 | 62 | 917 | 0 |
 | 0% | 0% | 5% | 51% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
