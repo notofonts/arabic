@@ -1,5 +1,5 @@
 {
-.appVersion = "1356";
+.appVersion = "3109";
 classes = (
 {
 code = "uni0660 uni0661 uni0662 uni0663 uni0664 uni0665 uni0666 uni0667 uni0668 uni0669 uni06F0 uni06F1 uni06F2 uni06F3 uni06F4 uni06F5 uni06F6 uni06F7 uni06F8 uni06F9 uni06F4.locl uni06F7.locl";
@@ -983,37 +983,8 @@ value = (
 );
 },
 {
-name = vendorID;
-value = GOOG;
-},
-{
-name = trademark;
-value = "Noto is a trademark of Google LLC.";
-},
-{
 name = "Enforce Compatibility Check";
 value = 1;
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
-name = description;
-value = "Designed by Monotype Design Team, David Williams, Mohamad Dakak and Nizar Qandah";
-},
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-}
-);
 },
 {
 name = "Use Typo Metrics";
@@ -1028,8 +999,37 @@ name = "Use Line Breaks";
 value = 1;
 },
 {
+name = vendorID;
+value = GOOG;
+},
+{
+name = trademark;
+value = "Noto is a trademark of Google LLC.";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = description;
+value = "Designed by Monotype Design Team, David Williams, Mohamad Dakak and Nizar Qandah";
+},
+{
 name = versionString;
 value = "Version 2.012";
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
 }
 );
 date = "2021-05-30 22:07:50 +0000";
@@ -1344,11 +1344,6 @@ name = liga;
 code = "# GSUB feature: Localized Forms
 # Lookups: 4
 
-  lookup locl_arabURD_arabKSH_1 {
-  # GSUB lookup 12, type 11 (Single)
-    sub [uni06F4 uni06F6 uni06F7] by [uni06F4.locl uni0666 uni06F7.locl];
-  } locl_arabURD_arabKSH_1;
-
   script latn; # Latin
   sub [uni0021 uni002E] by [uni0021.locl uni002E.locl];
 
@@ -1357,13 +1352,16 @@ code = "# GSUB feature: Localized Forms
     sub [uni06F6 uni06F7] by [uni0666 uni06F7.locl];
 
     language URD ; # Urdu
-    lookup locl_arabURD_arabKSH_1;
+	lookup locl_arabURD_arabKSH_1 {
+  		sub [uni06F4 uni06F6 uni06F7] by [uni06F4.locl uni0666 uni06F7.locl];
+	} locl_arabURD_arabKSH_1;
 
     language KSH ; # Kashmiri
     lookup locl_arabURD_arabKSH_1;
 
     language FAR ; # Farsi
-    sub [uni066B uni066C uni00AB uni00BB] by [uni066B.locl uni066B.1 uni00AB.locl uni00BB.locl];";
+    sub [uni066B uni066C uni00AB uni00BB] by [uni066B.locl uni066B.1 uni00AB.locl uni00BB.locl];
+";
 name = locl;
 },
 {
@@ -1391,8 +1389,8 @@ fontMaster = (
 {
 alignmentZones = (
 "{1069, 15}",
-"{0, 15}",
-"{0, 15}",
+"{0, -20}",
+"{0, -20}",
 "{0, -20}",
 "{-293, -15}"
 );
@@ -1466,8 +1464,8 @@ xHeight = 0;
 {
 alignmentZones = (
 "{1069, 15}",
-"{0, 15}",
-"{0, 15}",
+"{0, -20}",
+"{0, -20}",
 "{0, -20}",
 "{-293, -15}"
 );
@@ -40581,9 +40579,11 @@ position = "{381, 1068}";
 );
 components = (
 {
+alignment = -1;
 name = uniFEDF.rlig;
 },
 {
+alignment = -1;
 name = uniFBB6;
 transform = "{1, 0, 0, 1, 180, 352}";
 }
@@ -40652,7 +40652,7 @@ name = uni0644;
 },
 {
 name = uniFBB9;
-transform = "{0.9, 0, 0, 0.9, 65, -190}";
+transform = "{0.9, 0, 0, 0.9, 66, -190}";
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
@@ -40720,7 +40720,7 @@ name = uniFEDE;
 },
 {
 name = uniFBB9;
-transform = "{0.9, 0, 0, 0.9, 65, -190}";
+transform = "{0.9, 0, 0, 0.9, 66, -190}";
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
@@ -54681,7 +54681,7 @@ name = uni0649;
 },
 {
 name = uniFBB9;
-transform = "{0.9, 0, 0, 0.9, 85, -180}";
+transform = "{0.9, 0, 0, 0.9, 86, -180}";
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
@@ -54749,7 +54749,7 @@ name = uniFEF0;
 },
 {
 name = uniFBB9;
-transform = "{0.9, 0, 0, 0.9, 105, -180}";
+transform = "{0.9, 0, 0, 0.9, 106, -180}";
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
@@ -103858,6 +103858,7 @@ width = 222;
 {
 components = (
 {
+alignment = -1;
 name = uni066B;
 transform = "{1, 0, 0, 1, 0, 459}";
 }
@@ -104038,6 +104039,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = uni0660;
 transform = "{1, 0, 0, 1, 78, 0}";
 }
@@ -104128,6 +104130,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = uni0661;
 transform = "{1, 0, 0, 1, 55, 0}";
 }
@@ -104398,6 +104401,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = uni0663;
 transform = "{1, 0, 0, 1, -39, 0}";
 }
@@ -104408,6 +104412,7 @@ width = 449;
 {
 components = (
 {
+alignment = -1;
 name = uni0663;
 transform = "{1, 0, 0, 1, -34, 0}";
 }
@@ -104661,6 +104666,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = uni0665;
 transform = "{1, 0, 0, 1, 39, 0}";
 }
@@ -104671,6 +104677,7 @@ width = 449;
 {
 components = (
 {
+alignment = -1;
 name = uni0665;
 transform = "{1, 0, 0, 1, 36, 0}";
 }
@@ -104840,8 +104847,8 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = uni0667;
-transform = "{1, 0, 0, 1, 8, 0}";
 }
 );
 layerId = master01;
@@ -104851,11 +104858,10 @@ width = 449;
 components = (
 {
 name = uni0667;
-transform = "{1, 0, 0, 1, 10, 0}";
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-width = 488;
+width = 485;
 }
 );
 },
@@ -104939,8 +104945,8 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = uni0668;
-transform = "{1, 0, 0, 1, 10, 0}";
 }
 );
 layerId = master01;
@@ -104950,11 +104956,10 @@ width = 449;
 components = (
 {
 name = uni0668;
-transform = "{1, 0, 0, 1, 5, 0}";
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-width = 488;
+width = 485;
 }
 );
 },
@@ -105312,6 +105317,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = uni06F4;
 transform = "{1, 0, 0, 1, -24, 0}";
 }
@@ -105322,6 +105328,7 @@ width = 449;
 {
 components = (
 {
+alignment = -1;
 name = uni06F4;
 transform = "{1, 0, 0, 1, -24, 0}";
 }
@@ -105483,17 +105490,16 @@ name = uni06F5;
 }
 );
 layerId = master01;
-width = 449;
+width = 454;
 },
 {
 components = (
 {
 name = uni06F5;
-transform = "{1, 0, 0, 1, 10, 0}";
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-width = 488;
+width = 479;
 }
 );
 },
@@ -105617,11 +105623,12 @@ name = uni06F6;
 }
 );
 layerId = master01;
-width = 449;
+width = 444;
 },
 {
 components = (
 {
+alignment = -1;
 name = uni06F6;
 }
 );
@@ -105685,15 +105692,15 @@ layers = (
 components = (
 {
 name = uni0669;
-transform = "{1, 0, 0, 1, 1, 0}";
 }
 );
 layerId = master01;
-width = 429;
+width = 433;
 },
 {
 components = (
 {
+alignment = -1;
 name = uni0669;
 transform = "{1, 0, 0, 1, -36, 0}";
 }
@@ -134816,6 +134823,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = uni06F4.locl;
 transform = "{1, 0, 0, 1, -34, 0}";
 }
@@ -134826,6 +134834,7 @@ width = 449;
 {
 components = (
 {
+alignment = -1;
 name = uni06F4.locl;
 transform = "{1, 0, 0, 1, 24, 0}";
 }
