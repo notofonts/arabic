@@ -22,16 +22,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFB9B
-	* uniFCAD
-	* uniFC52
-	* uniFEC2
-	* uniFDFD
-	* uni076A
-	* uni076A.fina
-	* uniFCD9
-	* uni069D.medi
-	* uni075C.init and 438 more.
+	* uniFBDC
+	* uniFB66
+	* uniFEBE
+	* uniFDB6
+	* uniFD2B
+	* uni08A4.fina
+	* uniFB97
+	* uni063F
+	* uniFD69
+	* uniFC7F and 438 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -55,25 +55,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- alefMaksura_zainar.fina
+	- peh_zainar.fina
 
-	- peh_meemar
+	- noon_yehHamzaabovear
+
+	- uniFDFD.001
+
+	- guillemotleft.1
+
+	- lam_alefWavyhamzabelowar.isol
+
+	- lam_noon_meemar
+
+	- lamDotabove_alefar.isol
+
+	- uniFEF7.isol
 
 	- dad_hehar.medi
 
-	- teh_yehHamzaabovear
-
-	- seen_yehHamzaabovear
-
-	- sad_yehHamzaabovear
-
-	- gaf_alefMaksuraar
-
-	- uniFEFB.isol
-
-	- sheen_zainar
-
-	- lam_yehHamzaabovear 
+	- seenThrdotsblwthrdotsar.medi 
 
 	- And 63 more.
 
@@ -197,16 +197,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFCAD
-	* uniFC52
-	* uniFEC2
-	* uniFDFD
-	* uniFC48
-	* uni076A
-	* uni076A.fina
-	* uniFCD9
-	* uni069D.medi
-	* uniFD7E and 411 more.
+	* uniFBDC
+	* uniFEBE
+	* uniFDB6
+	* uniFD2B
+	* uni08A4.fina
+	* uniFD69
+	* uniFC7F
+	* uniFD61
+	* uniFD2C
+	* uni067E and 411 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -223,25 +223,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- alefMaksura_zainar.fina
+	- peh_zainar.fina
 
-	- peh_meemar
+	- noon_yehHamzaabovear
+
+	- uniFDFD.001
+
+	- guillemotleft.1
+
+	- lam_alefWavyhamzabelowar.isol
+
+	- lam_noon_meemar
+
+	- lamDotabove_alefar.isol
+
+	- uniFEF7.isol
 
 	- dad_hehar.medi
 
-	- teh_yehHamzaabovear
-
-	- seen_yehHamzaabovear
-
-	- sad_yehHamzaabovear
-
-	- gaf_alefMaksuraar
-
-	- uniFEFB.isol
-
-	- sheen_zainar
-
-	- lam_yehHamzaabovear 
+	- seenThrdotsblwthrdotsar.medi 
 
 	- And 63 more.
 
@@ -345,16 +345,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFCAD
-	* uniFC52
-	* uniFEC2
-	* uniFDFD
-	* uni076A
-	* uni076A.fina
-	* uniFCD9
-	* uni069D.medi
-	* uni075C.init
-	* uniFD7E and 411 more.
+	* uniFBDC
+	* uniFB66
+	* uniFEBE
+	* uniFDB6
+	* uniFD2B
+	* uni08A4.fina
+	* uniFD69
+	* uniFC7F
+	* uniFD61
+	* uniFD2C and 411 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -378,25 +378,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- alefMaksura_zainar.fina
+	- peh_zainar.fina
 
-	- peh_meemar
+	- noon_yehHamzaabovear
+
+	- uniFDFD.001
+
+	- guillemotleft.1
+
+	- lam_alefWavyhamzabelowar.isol
+
+	- lam_noon_meemar
+
+	- lamDotabove_alefar.isol
+
+	- uniFEF7.isol
 
 	- dad_hehar.medi
 
-	- teh_yehHamzaabovear
-
-	- seen_yehHamzaabovear
-
-	- sad_yehHamzaabovear
-
-	- gaf_alefMaksuraar
-
-	- uniFEFB.isol
-
-	- sheen_zainar
-
-	- lam_yehHamzaabovear 
+	- seenThrdotsblwthrdotsar.medi 
 
 	- And 63 more.
 
@@ -494,16 +494,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFDFD
-	* uniFDF0
-	* uniFBAF
-	* uni204F
-	* uniFDF1
-	* uni08AD
 	* uni0758.fina
-	* uni077B.fina
-	* uni077A.fina
-	* uni0608 and 5 more.
+	* uni065D
+	* uni0758
+	* uniFDFD
+	* uni2E41
+	* uni06DE
+	* uniFBAF
+	* uni08AD
+	* uniFBB1
+	* uniFDF0 and 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -527,25 +527,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- alefMaksura_zainar.fina
+	- peh_zainar.fina
 
-	- peh_meemar
+	- noon_yehHamzaabovear
+
+	- uniFDFD.001
+
+	- guillemotleft.1
+
+	- lam_alefWavyhamzabelowar.isol
+
+	- lam_noon_meemar
+
+	- lamDotabove_alefar.isol
+
+	- uniFEF7.isol
 
 	- dad_hehar.medi
 
-	- teh_yehHamzaabovear
-
-	- seen_yehHamzaabovear
-
-	- sad_yehHamzaabovear
-
-	- gaf_alefMaksuraar
-
-	- uniFEFB.isol
-
-	- sheen_zainar
-
-	- lam_yehHamzaabovear 
+	- seenThrdotsblwthrdotsar.medi 
 
 	- And 63 more.
 
@@ -639,16 +639,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFC52
+	* uni0758.fina
+	* uni08A7
+	* uni065D
+	* uni0758
+	* uni06FF
 	* uniFDFD
-	* uniFCD9
-	* uniFDF0
-	* uniFBAF
-	* uniFCD8
-	* uni204F
-	* uni08A7.init
-	* uniFDF1
-	* uni08AD and 30 more.
+	* uniFBAC
+	* uni2E41
+	* uni077A.medi
+	* uni06DE and 30 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -672,25 +672,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- alefMaksura_zainar.fina
+	- peh_zainar.fina
 
-	- peh_meemar
+	- noon_yehHamzaabovear
+
+	- uniFDFD.001
+
+	- guillemotleft.1
+
+	- lam_alefWavyhamzabelowar.isol
+
+	- lam_noon_meemar
+
+	- lamDotabove_alefar.isol
+
+	- uniFEF7.isol
 
 	- dad_hehar.medi
 
-	- teh_yehHamzaabovear
-
-	- seen_yehHamzaabovear
-
-	- sad_yehHamzaabovear
-
-	- gaf_alefMaksuraar
-
-	- uniFEFB.isol
-
-	- sheen_zainar
-
-	- lam_yehHamzaabovear 
+	- seenThrdotsblwthrdotsar.medi 
 
 	- And 63 more.
 
@@ -792,16 +792,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFC52
-	* uniFEC2
-	* uniFDFD
-	* uni076A.fina
-	* uniFCD9
-	* uniFD7E
-	* dad_hehar.medi
-	* uni076F.fina
-	* uni08AC
-	* uniFD78 and 250 more.
+	* uniFBDC
+	* uniFDB6
+	* uniFD2B
+	* uni08A4.fina
+	* uniFC7F
+	* uniFD2C
+	* uni06B0
+	* uniFDF5
+	* uniFCE2
+	* uni060F and 250 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -825,25 +825,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- alefMaksura_zainar.fina
+	- peh_zainar.fina
 
-	- peh_meemar
+	- noon_yehHamzaabovear
+
+	- uniFDFD.001
+
+	- guillemotleft.1
+
+	- lam_alefWavyhamzabelowar.isol
+
+	- lam_noon_meemar
+
+	- lamDotabove_alefar.isol
+
+	- uniFEF7.isol
 
 	- dad_hehar.medi
 
-	- teh_yehHamzaabovear
-
-	- seen_yehHamzaabovear
-
-	- sad_yehHamzaabovear
-
-	- gaf_alefMaksuraar
-
-	- uniFEFB.isol
-
-	- sheen_zainar
-
-	- lam_yehHamzaabovear 
+	- seenThrdotsblwthrdotsar.medi 
 
 	- And 63 more.
 
@@ -945,16 +945,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFC52
-	* uniFEC2
-	* uniFDFD
-	* uniFCD9
-	* uniFD7E
-	* uni076F.fina
-	* uniFEFC
-	* uniFDF0
-	* uniFBF3
-	* uniFBAF and 106 more.
+	* uni08A4.fina
+	* uni06B0
+	* uniFDF5
+	* uni060F
+	* uni06AB.fina
+	* uniFEF7.isol
+	* uni0689.fina
+	* uniFD74
+	* uniFC26
+	* uniFD3A and 106 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -971,25 +971,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- alefMaksura_zainar.fina
+	- peh_zainar.fina
 
-	- peh_meemar
+	- noon_yehHamzaabovear
+
+	- uniFDFD.001
+
+	- guillemotleft.1
+
+	- lam_alefWavyhamzabelowar.isol
+
+	- lam_noon_meemar
+
+	- lamDotabove_alefar.isol
+
+	- uniFEF7.isol
 
 	- dad_hehar.medi
 
-	- teh_yehHamzaabovear
-
-	- seen_yehHamzaabovear
-
-	- sad_yehHamzaabovear
-
-	- gaf_alefMaksuraar
-
-	- uniFEFB.isol
-
-	- sheen_zainar
-
-	- lam_yehHamzaabovear 
+	- seenThrdotsblwthrdotsar.medi 
 
 	- And 63 more.
 
@@ -1071,16 +1071,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFC52
-	* uniFEC2
-	* uniFDFD
-	* uni076A
-	* uni076A.fina
-	* uniFCD9
-	* uni069D.medi
-	* uniFD7E
-	* uniFDBD
-	* dad_hehar.medi and 325 more.
+	* uniFBDC
+	* uniFEBE
+	* uniFDB6
+	* uniFD2B
+	* uni08A4.fina
+	* uniFC7F
+	* uniFD2C
+	* uni063C.fina
+	* uniFD65
+	* uni06B0 and 325 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1104,25 +1104,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- alefMaksura_zainar.fina
+	- peh_zainar.fina
 
-	- peh_meemar
+	- noon_yehHamzaabovear
+
+	- uniFDFD.001
+
+	- guillemotleft.1
+
+	- lam_alefWavyhamzabelowar.isol
+
+	- lam_noon_meemar
+
+	- lamDotabove_alefar.isol
+
+	- uniFEF7.isol
 
 	- dad_hehar.medi
 
-	- teh_yehHamzaabovear
-
-	- seen_yehHamzaabovear
-
-	- sad_yehHamzaabovear
-
-	- gaf_alefMaksuraar
-
-	- uniFEFB.isol
-
-	- sheen_zainar
-
-	- lam_yehHamzaabovear 
+	- seenThrdotsblwthrdotsar.medi 
 
 	- And 63 more.
 
@@ -1228,15 +1228,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni065D
 	* uniFDFD
+	* uni2E41
+	* uniFBB1
 	* uniFDF0
-	* uni204F
-	* uniFDF1
-	* uni077B.fina
 	* uni077A.fina
 	* uni0608
-	* uni2E41
-	* uni065D and uniFBB1
+	* uni077B.fina
+	* uni204F and uniFDF1
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1258,25 +1258,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- alefMaksura_zainar.fina
+	- peh_zainar.fina
 
-	- peh_meemar
+	- noon_yehHamzaabovear
+
+	- uniFDFD.001
+
+	- guillemotleft.1
+
+	- lam_alefWavyhamzabelowar.isol
+
+	- lam_noon_meemar
+
+	- lamDotabove_alefar.isol
+
+	- uniFEF7.isol
 
 	- dad_hehar.medi
 
-	- teh_yehHamzaabovear
-
-	- seen_yehHamzaabovear
-
-	- sad_yehHamzaabovear
-
-	- gaf_alefMaksuraar
-
-	- uniFEFB.isol
-
-	- sheen_zainar
-
-	- lam_yehHamzaabovear 
+	- seenThrdotsblwthrdotsar.medi 
 
 	- And 63 more.
 
@@ -1394,25 +1394,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- alefMaksura_zainar.fina
+	- peh_zainar.fina
 
-	- peh_meemar
+	- noon_yehHamzaabovear
+
+	- uniFDFD.001
+
+	- guillemotleft.1
+
+	- lam_alefWavyhamzabelowar.isol
+
+	- lam_noon_meemar
+
+	- lamDotabove_alefar.isol
+
+	- uniFEF7.isol
 
 	- dad_hehar.medi
 
-	- teh_yehHamzaabovear
-
-	- seen_yehHamzaabovear
-
-	- sad_yehHamzaabovear
-
-	- gaf_alefMaksuraar
-
-	- uniFEFB.isol
-
-	- sheen_zainar
-
-	- lam_yehHamzaabovear 
+	- seenThrdotsblwthrdotsar.medi 
 
 	- And 63 more.
 

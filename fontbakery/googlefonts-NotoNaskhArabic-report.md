@@ -27,16 +27,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni08E9
-	* uni08F3
-	* uni077B.medi
-	* uniFDF4
-	* uni06D7
-	* uni0616
-	* uni077A.medi
+	* uni06D6
 	* uni06E5
-	* uni077A.init
-	* uni08E7 and 6 more.
+	* uni06D7
+	* uni077A.medi
+	* uni0608
+	* uniFDFD
+	* uniFDF4
+	* uni077B.medi
+	* uni08E8
+	* uni08F3 and 6 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -78,25 +78,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uniFBB2.001
+	- uni06A1.medi
 
-	- _874
+	- alrahem
 
-	- dotamiddlear
+	- _531.001
 
-	- space
+	- uni06BA.medi
 
-	- uni00A0
+	- uniFBBB.001
 
-	- five
+	- _986
 
-	- uni06BD.init
+	- _1518
 
-	- bsm
+	- uniFEB3_uniFBB6_uniFBB7
 
-	- exclam
+	- uni06DD.001
 
-	- eight 
+	- three 
 
 	- And 50 more.
 
@@ -195,13 +195,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni08F3
-	* uni077B.medi
-	* uni077A.medi
 	* uni06E5
-	* uni077A.init
-	* uni077B.init
-	* uniFDFD and uni0608
+	* uni077A.medi
+	* uni0608
+	* uniFDFD
+	* uni077B.medi
+	* uni08F3
+	* uni077A.init and uni077B.init
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -248,25 +248,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uniFBB2.001
+	- uni06A1.medi
 
-	- _874
+	- alrahem
 
-	- dotamiddlear
+	- _531.001
 
-	- space
+	- uni06BA.medi
 
-	- uni00A0
+	- uniFBBB.001
 
-	- five
+	- _986
 
-	- uni06BD.init
+	- _1518
 
-	- bsm
+	- uniFEB3_uniFBB6_uniFBB7
 
-	- exclam
+	- uni06DD.001
 
-	- eight 
+	- three 
 
 	- And 50 more.
 
@@ -351,13 +351,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni08F3
-	* uni077B.medi
-	* uni077A.medi
 	* uni06E5
-	* uni077A.init
-	* uni077B.init
-	* uniFDFD and uni0608
+	* uni077A.medi
+	* uni0608
+	* uniFDFD
+	* uni077B.medi
+	* uni08F3
+	* uni077A.init and uni077B.init
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -397,25 +397,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uniFBB2.001
+	- uni06A1.medi
 
-	- _874
+	- alrahem
 
-	- dotamiddlear
+	- _531.001
 
-	- space
+	- uni06BA.medi
 
-	- uni00A0
+	- uniFBBB.001
 
-	- five
+	- _986
 
-	- uni06BD.init
+	- _1518
 
-	- bsm
+	- uniFEB3_uniFBB6_uniFBB7
 
-	- exclam
+	- uni06DD.001
 
-	- eight 
+	- three 
 
 	- And 50 more.
 
@@ -533,25 +533,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uniFBB2.001
+	- uni06A1.medi
 
-	- _874
+	- alrahem
 
-	- dotamiddlear
+	- _531.001
 
-	- space
+	- uni06BA.medi
 
-	- uni00A0
+	- uniFBBB.001
 
-	- five
+	- _986
 
-	- uni06BD.init
+	- _1518
 
-	- bsm
+	- uniFEB3_uniFBB6_uniFBB7
 
-	- exclam
+	- uni06DD.001
 
-	- eight 
+	- three 
 
 	- And 50 more.
 
