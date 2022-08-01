@@ -6,215 +6,7 @@ code = "uni0660 uni0661 uni0662 uni0663 uni0664 uni0665 uni0666 uni0667 uni0668 
 name = tnum;
 },
 {
-code = "uni0620
-uni0622
-uni0623
-uni0624
-uni0625
-uni0626
-uni0627
-uni0628
-uni0629
-uni062A
-uni062B
-uni062C
-uni062D
-uni062E
-uni062F
-uni0630
-uni0631
-uni0632
-uni0633
-uni0634
-uni0635
-uni0636
-uni0637
-uni0638
-uni0639
-uni063A
-uni063B
-uni063C
-uni063D
-uni063E
-uni063F
-uni0641
-uni0642
-uni0643
-uni0644
-uni0645
-uni0646
-uni0647
-uni0648
-uni0649
-uni064A
-uni066E
-uni066F
-uni0671
-uni0672
-uni0673
-uni0675
-uni0676
-uni0677
-uni0678
-uni0679
-uni067A
-uni067B
-uni067C
-uni067D
-uni067E
-uni067F
-uni0680
-uni0681
-uni0682
-uni0683
-uni0684
-uni0685
-uni0686
-uni0687
-uni0688
-uni0689
-uni068A
-uni068B
-uni068C
-uni068D
-uni068E
-uni068F
-uni0690
-uni0691
-uni0692
-uni0693
-uni0694
-uni0695
-uni0696
-uni0697
-uni0698
-uni0699
-uni069A
-uni069B
-uni069C
-uni069D
-uni069E
-uni069F
-uni06A0
-uni06A1
-uni06A2
-uni06A3
-uni06A4
-uni06A5
-uni06A6
-uni06A7
-uni06A8
-uni06A9
-uni06AA
-uni06AB
-uni06AC
-uni06AD
-uni06AE
-uni06AF
-uni06B0
-uni06B1
-uni06B2
-uni06B3
-uni06B4
-uni06B5
-uni06B6
-uni06B7
-uni06B8
-uni06B9
-uni06BA
-uni06BB
-uni06BC
-uni06BD
-uni06BE
-uni06BF
-uni06C0
-uni06C1
-uni06C2
-uni06C3
-uni06C4
-uni06C5
-uni06C6
-uni06C7
-uni06C8
-uni06C9
-uni06CA
-uni06CB
-uni06CC
-uni06CD
-uni06CE
-uni06CF
-uni06D0
-uni06D1
-uni06D2
-uni06D3
-uni06D5
-uni06EE
-uni06EF
-uni06FA
-uni06FB
-uni06FC
-uni06FF
-uni0750
-uni0751
-uni0752
-uni0753
-uni0754
-uni0755
-uni0756
-uni0757
-uni0758
-uni0759
-uni075A
-uni075B
-uni075C
-uni075D
-uni075E
-uni075F
-uni0760
-uni0761
-uni0762
-uni0763
-uni0764
-uni0765
-uni0766
-uni0767
-uni0768
-uni0769
-uni076A
-uni076B
-uni076C
-uni076D
-uni076E
-uni076F
-uni0770
-uni0771
-uni0772
-uni0773
-uni0774
-uni0775
-uni0776
-uni0777
-uni0778
-uni0779
-uni077A
-uni077B
-uni077C
-uni077D
-uni077E
-uni077F
-uni08A0
-uni08A2
-uni08A3
-uni08A4
-uni08A5
-uni08A6
-uni08A8
-uni08AA
-uni08AB
-uni063C
-uniFD3D
-uni08A7
-uni08A9";
+code = "uni0620\012uni0622\012uni0623\012uni0624\012uni0625\012uni0626\012uni0627\012uni0628\012uni0629\012uni062A\012uni062B\012uni062C\012uni062D\012uni062E\012uni062F\012uni0630\012uni0631\012uni0632\012uni0633\012uni0634\012uni0635\012uni0636\012uni0637\012uni0638\012uni0639\012uni063A\012uni063B\012uni063C\012uni063D\012uni063E\012uni063F\012uni0641\012uni0642\012uni0643\012uni0644\012uni0645\012uni0646\012uni0647\012uni0648\012uni0649\012uni064A\012uni066E\012uni066F\012uni0671\012uni0672\012uni0673\012uni0675\012uni0676\012uni0677\012uni0678\012uni0679\012uni067A\012uni067B\012uni067C\012uni067D\012uni067E\012uni067F\012uni0680\012uni0681\012uni0682\012uni0683\012uni0684\012uni0685\012uni0686\012uni0687\012uni0688\012uni0689\012uni068A\012uni068B\012uni068C\012uni068D\012uni068E\012uni068F\012uni0690\012uni0691\012uni0692\012uni0693\012uni0694\012uni0695\012uni0696\012uni0697\012uni0698\012uni0699\012uni069A\012uni069B\012uni069C\012uni069D\012uni069E\012uni069F\012uni06A0\012uni06A1\012uni06A2\012uni06A3\012uni06A4\012uni06A5\012uni06A6\012uni06A7\012uni06A8\012uni06A9\012uni06AA\012uni06AB\012uni06AC\012uni06AD\012uni06AE\012uni06AF\012uni06B0\012uni06B1\012uni06B2\012uni06B3\012uni06B4\012uni06B5\012uni06B6\012uni06B7\012uni06B8\012uni06B9\012uni06BA\012uni06BB\012uni06BC\012uni06BD\012uni06BE\012uni06BF\012uni06C0\012uni06C1\012uni06C2\012uni06C3\012uni06C4\012uni06C5\012uni06C6\012uni06C7\012uni06C8\012uni06C9\012uni06CA\012uni06CB\012uni06CC\012uni06CD\012uni06CE\012uni06CF\012uni06D0\012uni06D1\012uni06D2\012uni06D3\012uni06D5\012uni06EE\012uni06EF\012uni06FA\012uni06FB\012uni06FC\012uni06FF\012uni0750\012uni0751\012uni0752\012uni0753\012uni0754\012uni0755\012uni0756\012uni0757\012uni0758\012uni0759\012uni075A\012uni075B\012uni075C\012uni075D\012uni075E\012uni075F\012uni0760\012uni0761\012uni0762\012uni0763\012uni0764\012uni0765\012uni0766\012uni0767\012uni0768\012uni0769\012uni076A\012uni076B\012uni076C\012uni076D\012uni076E\012uni076F\012uni0770\012uni0771\012uni0772\012uni0773\012uni0774\012uni0775\012uni0776\012uni0777\012uni0778\012uni0779\012uni077A\012uni077B\012uni077C\012uni077D\012uni077E\012uni077F\012uni08A0\012uni08A2\012uni08A3\012uni08A4\012uni08A5\012uni08A6\012uni08A8\012uni08AA\012uni08AB\012uni063C\012uniFD3D\012uni08A7\012uni08A9";
 name = fina;
 },
 {
@@ -222,362 +14,11 @@ code = "uni0660.4 uni0661.5 uni0662.tnum uni0663.6 uni0664.tnum uni0665.7 uni066
 name = tnum2;
 },
 {
-code = "uni0620.fina
-uniFE82
-uniFE84
-uniFE86
-uniFE88
-uniFE8A
-uniFE8E
-uniFE90
-uniFE94
-uniFE96
-uniFE9A
-uniFE9E
-uniFEA2
-uniFEA6
-uniFEAA
-uniFEAC
-uniFEAE
-uniFEB0
-uniFEB2
-uniFEB6
-uniFEBA
-uniFEBE
-uniFEC2
-uniFEC6
-uniFECA
-uniFECE
-uni063B.fina
-uni063C.fina
-uni063D.fina
-uni063E.fina
-uni063F.fina
-uniFED2
-uniFED6
-uniFEDA
-uniFEDE
-uniFEE2
-uniFEE6
-uniFEEA
-uniFEEE
-uniFEF0
-uniFEF2
-uni066E.fina
-uni066F.fina
-uniFB51
-uni0672.fina
-uni0673.fina
-uni0675.fina
-uni0676.fina
-uni0677.fina
-uni0678.fina
-uniFB67
-uniFB5F
-uniFB53
-uni067C.fina
-uni067D.fina
-uniFB57
-uniFB63
-uniFB5B
-uni0681.fina
-uni0682.fina
-uniFB77
-uniFB73
-uni0685.fina
-uniFB7B
-uniFB7F
-uniFB89
-uni0689.fina
-uni068A.fina
-uni068B.fina
-uniFB85
-uniFB83
-uniFB87
-uni068F.fina
-uni0690.fina
-uniFB8D
-uni0692.fina
-uni0693.fina
-uni0694.fina
-uni0695.fina
-uni0696.fina
-uni0697.fina
-uniFB8B
-uni0699.fina
-uni069A.fina
-uni069B.fina
-uni069C.fina
-uni069D.fina
-uni069E.fina
-uni069F.fina
-uni06A0.fina
-uni06A1.fina
-uni06A2.fina
-uni06A3.fina
-uniFB6B
-uni06A5.fina
-uniFB6F
-uni06A7.fina
-uni06A8.fina
-uniFB8F
-uni06AA.fina
-uni06AB.fina
-uni06AC.fina
-uniFBD4
-uni06AE.fina
-uniFB93
-uni06B0.fina
-uniFB9B
-uni06B2.fina
-uniFB97
-uni06B4.fina
-uni06B5.fina
-uni06B6.fina
-uni06B7.fina
-uni06B8.fina
-uni06B9.fina
-uniFB9F
-uniFBA1
-uni06BC.fina
-uni06BD.fina
-uniFBAB
-uni06BF.fina
-uniFBA5
-uniFBA7
-uni06C2.fina
-uni06C3.fina
-uni06C4.fina
-uniFBE1
-uniFBDA
-uniFBD8
-uniFBDC
-uniFBE3
-uni06CA.fina
-uniFBDF
-uniFBFD
-uni06CD.fina
-uni06CE.fina
-uni06CF.fina
-uniFBE5
-uni06D1.fina
-uniFBAF
-uniFBB1
-uniFEEA
-uni06EE.fina
-uni06EF.fina
-uni06FA.fina
-uni06FB.fina
-uni06FC.fina
-uni06FF.fina
-uni0750.fina
-uni0751.fina
-uni0752.fina
-uni0753.fina
-uni0754.fina
-uni0755.fina
-uni0756.fina
-uni0757.fina
-uni0758.fina
-uni0759.fina
-uni075A.fina
-uni075B.fina
-uni075C.fina
-uni075D.fina
-uni075E.fina
-uni075F.fina
-uni0760.fina
-uni0761.fina
-uni0762.fina
-uni0763.fina
-uni0764.fina
-uni0765.fina
-uni0766.fina
-uni0767.fina
-uni0768.fina
-uni0769.fina
-uni076A.fina
-uni076B.fina
-uni076C.fina
-uni076D.fina
-uni076E.fina
-uni076F.fina
-uni0770.fina
-uni0771.fina
-uni0772.fina 
-uni0773.fina
-uni0774.fina
-uni0775.fina
-uni0776.fina
-uni0777.fina
-uni0778.fina
-uni0779.fina
-uni077A.fina
-uni077B.fina
-uni077C.fina 
-uni077D.fina
-uni077E.fina
-uni077F.fina
-uni08A0.fina
-uni08A2.fina
-uni08A3.fina
-uni08A4.fina 
-uni08A5.fina
-uni08A6.fina
-uni08A8.fina
-uni08AA.fina
-uni08AB.fina
-uni063C.fina
-uniFD3C
-uni08A7.fina
-uni08A9.fina";
+code = "uni0620.fina\012uniFE82\012uniFE84\012uniFE86\012uniFE88\012uniFE8A\012uniFE8E\012uniFE90\012uniFE94\012uniFE96\012uniFE9A\012uniFE9E\012uniFEA2\012uniFEA6\012uniFEAA\012uniFEAC\012uniFEAE\012uniFEB0\012uniFEB2\012uniFEB6\012uniFEBA\012uniFEBE\012uniFEC2\012uniFEC6\012uniFECA\012uniFECE\012uni063B.fina\012uni063C.fina\012uni063D.fina\012uni063E.fina\012uni063F.fina\012uniFED2\012uniFED6\012uniFEDA\012uniFEDE\012uniFEE2\012uniFEE6\012uniFEEA\012uniFEEE\012uniFEF0\012uniFEF2\012uni066E.fina\012uni066F.fina\012uniFB51\012uni0672.fina\012uni0673.fina\012uni0675.fina\012uni0676.fina\012uni0677.fina\012uni0678.fina\012uniFB67\012uniFB5F\012uniFB53\012uni067C.fina\012uni067D.fina\012uniFB57\012uniFB63\012uniFB5B\012uni0681.fina\012uni0682.fina\012uniFB77\012uniFB73\012uni0685.fina\012uniFB7B\012uniFB7F\012uniFB89\012uni0689.fina\012uni068A.fina\012uni068B.fina\012uniFB85\012uniFB83\012uniFB87\012uni068F.fina\012uni0690.fina\012uniFB8D\012uni0692.fina\012uni0693.fina\012uni0694.fina\012uni0695.fina\012uni0696.fina\012uni0697.fina\012uniFB8B\012uni0699.fina\012uni069A.fina\012uni069B.fina\012uni069C.fina\012uni069D.fina\012uni069E.fina\012uni069F.fina\012uni06A0.fina\012uni06A1.fina\012uni06A2.fina\012uni06A3.fina\012uniFB6B\012uni06A5.fina\012uniFB6F\012uni06A7.fina\012uni06A8.fina\012uniFB8F\012uni06AA.fina\012uni06AB.fina\012uni06AC.fina\012uniFBD4\012uni06AE.fina\012uniFB93\012uni06B0.fina\012uniFB9B\012uni06B2.fina\012uniFB97\012uni06B4.fina\012uni06B5.fina\012uni06B6.fina\012uni06B7.fina\012uni06B8.fina\012uni06B9.fina\012uniFB9F\012uniFBA1\012uni06BC.fina\012uni06BD.fina\012uniFBAB\012uni06BF.fina\012uniFBA5\012uniFBA7\012uni06C2.fina\012uni06C3.fina\012uni06C4.fina\012uniFBE1\012uniFBDA\012uniFBD8\012uniFBDC\012uniFBE3\012uni06CA.fina\012uniFBDF\012uniFBFD\012uni06CD.fina\012uni06CE.fina\012uni06CF.fina\012uniFBE5\012uni06D1.fina\012uniFBAF\012uniFBB1\012uniFEEA\012uni06EE.fina\012uni06EF.fina\012uni06FA.fina\012uni06FB.fina\012uni06FC.fina\012uni06FF.fina\012uni0750.fina\012uni0751.fina\012uni0752.fina\012uni0753.fina\012uni0754.fina\012uni0755.fina\012uni0756.fina\012uni0757.fina\012uni0758.fina\012uni0759.fina\012uni075A.fina\012uni075B.fina\012uni075C.fina\012uni075D.fina\012uni075E.fina\012uni075F.fina\012uni0760.fina\012uni0761.fina\012uni0762.fina\012uni0763.fina\012uni0764.fina\012uni0765.fina\012uni0766.fina\012uni0767.fina\012uni0768.fina\012uni0769.fina\012uni076A.fina\012uni076B.fina\012uni076C.fina\012uni076D.fina\012uni076E.fina\012uni076F.fina\012uni0770.fina\012uni0771.fina\012uni0772.fina \012uni0773.fina\012uni0774.fina\012uni0775.fina\012uni0776.fina\012uni0777.fina\012uni0778.fina\012uni0779.fina\012uni077A.fina\012uni077B.fina\012uni077C.fina \012uni077D.fina\012uni077E.fina\012uni077F.fina\012uni08A0.fina\012uni08A2.fina\012uni08A3.fina\012uni08A4.fina \012uni08A5.fina\012uni08A6.fina\012uni08A8.fina\012uni08AA.fina\012uni08AB.fina\012uni063C.fina\012uniFD3C\012uni08A7.fina\012uni08A9.fina";
 name = fina2;
 },
 {
-code = "uni0620.medi
-uniFE8C
-uniFE92
-uniFE98
-uniFE9C
-uniFEA0
-uniFEA4
-uniFEA8
-uniFEB4
-uniFEB8
-uniFEBC
-uniFEC0
-uniFEC4
-uniFEC8
-uniFECC
-uniFED0
-uni063B.medi
-uni063C.medi
-uni063D.medi
-uni063E.medi
-uni063F.medi
-uniFED4
-uniFED8
-uniFEDC
-uni0644.medi
-uniFEE4
-uniFEE8
-uniFEEC
-uniFBE9
-uniFEF4
-uni066E.medi
-uni066F.medi
-uni0678.medi
-uniFB69
-uniFB61
-uniFB55
-uni067C.medi
-uni067D.medi
-uniFB59
-uniFB65
-uniFB5D
-uni0681.medi
-uni0682.medi
-uniFB79
-uniFB75
-uni0685.medi
-uniFB7D
-uniFB81
-uni069A.medi
-uni069B.medi
-uni069C.medi
-uni069D.medi
-uni069E.medi
-uni069F.medi
-uni06A0.medi
-uni066F.medi
-uni06A2.medi
-uni06A3.medi
-uniFB6D
-uni06A5.medi
-uniFB71
-uniFED4
-uniFB6D
-uniFB91
-uni06AA.medi
-uni06AB.medi
-uni06AC.medi
-uniFBD6
-uni063C.medi
-uniFB95
-uni06B0.medi
-uniFB9D
-uni06B2.medi
-uniFB99
-uni06B4.medi
-uni06B5.medi
-uni06B6.medi
-uni06B7.medi
-uni06B8.medi
-uni06B9.medi
-uniFBE9
-uniFB69
-uni06BC.medi
-uniFB59
-uniFBAD
-uniFBA9
-uni06BF.medi
-uni06C2.medi
-uniFBFF
-uni06CE.medi
-uniFBE7
-uniFB59
-uni06FA.medi
-uni06FB.medi
-uni06FC.medi
-uni06FF.medi
-uni0750.medi
-uni0751.medi
-uni0752.medi
-uni0753.medi
-uni0754.medi
-uni0755.medi
-uni0756.medi
-uni0757.medi
-uni0758.medi
-uniFB7D
-uni075C.medi
-uni075D.medi
-uni075E.medi
-uni075F.medi
-uni0760.medi
-uni0761.medi
-uni0762.medi
-uni0763.medi
-uni0764.medi
-uni0765.medi
-uni0766.medi
-uni0767.medi
-uni0768.medi
-uni0769.medi
-uni076A.medi
-uni076D.medi
-uni076E.medi
-uni076F.medi
-uni0770.medi
-uni0772.medi
-uni0775.medi
-uni0776.medi
-uni0777.medi
-uni077A.medi
-uni077B.medi
-uni077C.medi
-uni077D.medi
-uni077E.medi
-uni077F.medi
-uni08A0.medi
-uni08A2.medi
-uni08A3.medi
-uni08A4.medi
-uni08A5.medi
-uni08A6.medi
-uni08A8.medi
-uni08A7.medi
-uni08A9.medi";
+code = "uni0620.medi\012uniFE8C\012uniFE92\012uniFE98\012uniFE9C\012uniFEA0\012uniFEA4\012uniFEA8\012uniFEB4\012uniFEB8\012uniFEBC\012uniFEC0\012uniFEC4\012uniFEC8\012uniFECC\012uniFED0\012uni063B.medi\012uni063C.medi\012uni063D.medi\012uni063E.medi\012uni063F.medi\012uniFED4\012uniFED8\012uniFEDC\012uni0644.medi\012uniFEE4\012uniFEE8\012uniFEEC\012uniFBE9\012uniFEF4\012uni066E.medi\012uni066F.medi\012uni0678.medi\012uniFB69\012uniFB61\012uniFB55\012uni067C.medi\012uni067D.medi\012uniFB59\012uniFB65\012uniFB5D\012uni0681.medi\012uni0682.medi\012uniFB79\012uniFB75\012uni0685.medi\012uniFB7D\012uniFB81\012uni069A.medi\012uni069B.medi\012uni069C.medi\012uni069D.medi\012uni069E.medi\012uni069F.medi\012uni06A0.medi\012uni066F.medi\012uni06A2.medi\012uni06A3.medi\012uniFB6D\012uni06A5.medi\012uniFB71\012uniFED4\012uniFB6D\012uniFB91\012uni06AA.medi\012uni06AB.medi\012uni06AC.medi\012uniFBD6\012uni063C.medi\012uniFB95\012uni06B0.medi\012uniFB9D\012uni06B2.medi\012uniFB99\012uni06B4.medi\012uni06B5.medi\012uni06B6.medi\012uni06B7.medi\012uni06B8.medi\012uni06B9.medi\012uniFBE9\012uniFB69\012uni06BC.medi\012uniFB59\012uniFBAD\012uniFBA9\012uni06BF.medi\012uni06C2.medi\012uniFBFF\012uni06CE.medi\012uniFBE7\012uniFB59\012uni06FA.medi\012uni06FB.medi\012uni06FC.medi\012uni06FF.medi\012uni0750.medi\012uni0751.medi\012uni0752.medi\012uni0753.medi\012uni0754.medi\012uni0755.medi\012uni0756.medi\012uni0757.medi\012uni0758.medi\012uniFB7D\012uni075C.medi\012uni075D.medi\012uni075E.medi\012uni075F.medi\012uni0760.medi\012uni0761.medi\012uni0762.medi\012uni0763.medi\012uni0764.medi\012uni0765.medi\012uni0766.medi\012uni0767.medi\012uni0768.medi\012uni0769.medi\012uni076A.medi\012uni076D.medi\012uni076E.medi\012uni076F.medi\012uni0770.medi\012uni0772.medi\012uni0775.medi\012uni0776.medi\012uni0777.medi\012uni077A.medi\012uni077B.medi\012uni077C.medi\012uni077D.medi\012uni077E.medi\012uni077F.medi\012uni08A0.medi\012uni08A2.medi\012uni08A3.medi\012uni08A4.medi\012uni08A5.medi\012uni08A6.medi\012uni08A8.medi\012uni08A7.medi\012uni08A9.medi";
 name = medi;
 },
 {
@@ -589,150 +30,7 @@ code = "uni0601 uni06DD uni0600 uni0602 uni0603 uni0604";
 name = ccmp;
 },
 {
-code = "uni0620
-uni0626
-uni0628
-uni062A
-uni062B
-uni062C
-uni062D
-uni062E
-uni0633
-uni0634
-uni0635
-uni0636
-uni0637
-uni0638
-uni0639
-uni063A
-uni063B
-uni063C
-uni063D
-uni063E
-uni063F
-uni0641
-uni0642
-uni0643
-uni0644
-uni0645
-uni0646
-uni0647
-uni0649
-uni064A
-uni066E
-uni066F
-uni0678
-uni0679
-uni067A
-uni067B
-uni067C
-uni067D
-uni067E
-uni067F
-uni0680
-uni0681
-uni0682
-uni0683
-uni0684
-uni0685
-uni0686
-uni0687
-uni069A
-uni069B
-uni069C
-uni069D
-uni069E
-uni069F
-uni06A0
-uni06A1
-uni06A2
-uni06A3
-uni06A4
-uni06A5
-uni06A6
-uni06A7
-uni06A8
-uni06A9
-uni06AA
-uni06AB
-uni06AC
-uni06AD
-uni06AE
-uni06AF
-uni06B0
-uni06B1
-uni06B2
-uni06B3
-uni06B4
-uni06B5
-uni06B6
-uni06B7
-uni06B8
-uni06B9
-uni06BA
-uni06BB
-uni06BC
-uni06BD
-uni06BE
-uni06C1
-uni06BF
-uni06C2
-uni06CC
-uni06CE
-uni06D0
-uni06D1
-uni06FA
-uni06FB
-uni06FC
-uni06FF
-uni0750
-uni0751
-uni0752
-uni0753
-uni0754
-uni0755
-uni0756
-uni0757
-uni0758
-uni0686
-uni075C
-uni075D
-uni075E
-uni075F
-uni0760
-uni0761
-uni0762
-uni0763
-uni0764
-uni0765
-uni0766
-uni0767
-uni0768
-uni0769
-uni076A
-uni076D
-uni076E
-uni076F
-uni0770
-uni0772
-uni0775
-uni0776
-uni0777
-uni077A
-uni077B
-uni077C
-uni077D
-uni077E
-uni077F
-uni08A0
-uni08A2
-uni08A3
-uni08A4
-uni08A5
-uni08A6
-uni08A8
-uni08A7
-uni08A9";
+code = "uni0620\012uni0626\012uni0628\012uni062A\012uni062B\012uni062C\012uni062D\012uni062E\012uni0633\012uni0634\012uni0635\012uni0636\012uni0637\012uni0638\012uni0639\012uni063A\012uni063B\012uni063C\012uni063D\012uni063E\012uni063F\012uni0641\012uni0642\012uni0643\012uni0644\012uni0645\012uni0646\012uni0647\012uni0649\012uni064A\012uni066E\012uni066F\012uni0678\012uni0679\012uni067A\012uni067B\012uni067C\012uni067D\012uni067E\012uni067F\012uni0680\012uni0681\012uni0682\012uni0683\012uni0684\012uni0685\012uni0686\012uni0687\012uni069A\012uni069B\012uni069C\012uni069D\012uni069E\012uni069F\012uni06A0\012uni06A1\012uni06A2\012uni06A3\012uni06A4\012uni06A5\012uni06A6\012uni06A7\012uni06A8\012uni06A9\012uni06AA\012uni06AB\012uni06AC\012uni06AD\012uni06AE\012uni06AF\012uni06B0\012uni06B1\012uni06B2\012uni06B3\012uni06B4\012uni06B5\012uni06B6\012uni06B7\012uni06B8\012uni06B9\012uni06BA\012uni06BB\012uni06BC\012uni06BD\012uni06BE\012uni06C1\012uni06BF\012uni06C2\012uni06CC\012uni06CE\012uni06D0\012uni06D1\012uni06FA\012uni06FB\012uni06FC\012uni06FF\012uni0750\012uni0751\012uni0752\012uni0753\012uni0754\012uni0755\012uni0756\012uni0757\012uni0758\012uni0686\012uni075C\012uni075D\012uni075E\012uni075F\012uni0760\012uni0761\012uni0762\012uni0763\012uni0764\012uni0765\012uni0766\012uni0767\012uni0768\012uni0769\012uni076A\012uni076D\012uni076E\012uni076F\012uni0770\012uni0772\012uni0775\012uni0776\012uni0777\012uni077A\012uni077B\012uni077C\012uni077D\012uni077E\012uni077F\012uni08A0\012uni08A2\012uni08A3\012uni08A4\012uni08A5\012uni08A6\012uni08A8\012uni08A7\012uni08A9";
 name = init_medi;
 },
 {
@@ -740,170 +38,11 @@ code = "uni0660 uni0661 uni0662 uni0663 uni0664 uni0665 uni0666 uni0667 uni0668 
 name = ccmp2;
 },
 {
-code = "uni0620.init
-uniFE8B
-uniFE91
-uniFE97
-uniFE9B
-uniFE9F
-uniFEA3
-uniFEA7
-uniFEB3
-uniFEB7
-uniFEBB
-uniFEBF
-uniFEC3
-uniFEC7
-uniFECB
-uniFECF
-uni063B.init
-uni063C.init
-uni063D.init
-uni063E.init
-uni063F.init
-uniFED3
-uniFED7
-uniFEDB
-uni0644.init
-uniFEE3
-uniFEE7
-uniFEEB
-uniFBE8
-uniFEF3
-uni066E.init
-uni066F.init
-uni0678.init
-uniFB68
-uniFB60
-uniFB54
-uni067C.init
-uni067D.init
-uniFB58
-uniFB64
-uniFB5C
-uni0681.init
-uni0682.inti
-uniFB78
-uniFB74
-uni0685.init
-uniFB7C
-uniFB80
-uni069A.init
-uni069B.init
-uni069C.init
-uni069D.init
-uni069E.init
-uni069F.init
-uni06A0.init
-uni066F.init
-uni06A2.init
-uni06A3.init
-uniFB6C
-uni06A5.init
-uniFB70
-uniFED3
-uniFB6C
-uniFB90
-uni06AA.init
-uni06AB.init
-uni06AC.init
-uniFBD5
-uni063C.init
-uniFB94
-uni06B0.init
-uniFB9C
-uni06B2.init
-uniFB98
-uni06B4.init
-uni06B5.init
-uni06B6.init
-uni06B7.init
-uni06B8.init
-uni06B9.init
-uniFBE8
-uniFB68
-uni06BC.init
-uniFB58
-uniFBAC
-uniFBA8
-uni06BF.init
-uni06C2.init
-uniFBFE
-uni06CE.init
-uniFBE6
-uniFB58
-uni06FA.init
-uni06FB.init
-uni06FC.init
-uni06FF.init
-uni0750.init
-uni0751.init
-uni0752.init
-uni0753.init
-uni0754.init
-uni0755.init
-uni0756.init
-uni0757.init
-uni0758.init
-uniFB7C
-uni075C.init
-uni075D.init
-uni075E.init
-uni075F.init
-uni0760.init
-uni0761.init
-uni0762.init
-uni0763.init
-uni0764.init
-uni0765.init
-uni0766.init
-uni0767.init
-uni0768.init
-uni0769.init
-uni076A.init
-uni076D.init
-uni076E.init
-uni076F.init
-uni0770.init
-uni0772.init
-uni0775.init
-uni0776.init
-uni0777.init
-uni077A.init
-uni077B.init
-uni077C.init
-uni077D.init
-uni077E.init
-uni077F.init
-uni08A0.init
-uni08A2.init
-uni08A3.init
-uni08A4.init
-uni08A5.init
-uni08A6.init
-uni08A8.init
-uni08A7.init
-uni08A9.init";
+code = "uni0620.init\012uniFE8B\012uniFE91\012uniFE97\012uniFE9B\012uniFE9F\012uniFEA3\012uniFEA7\012uniFEB3\012uniFEB7\012uniFEBB\012uniFEBF\012uniFEC3\012uniFEC7\012uniFECB\012uniFECF\012uni063B.init\012uni063C.init\012uni063D.init\012uni063E.init\012uni063F.init\012uniFED3\012uniFED7\012uniFEDB\012uni0644.init\012uniFEE3\012uniFEE7\012uniFEEB\012uniFBE8\012uniFEF3\012uni066E.init\012uni066F.init\012uni0678.init\012uniFB68\012uniFB60\012uniFB54\012uni067C.init\012uni067D.init\012uniFB58\012uniFB64\012uniFB5C\012uni0681.init\012uni0682.inti\012uniFB78\012uniFB74\012uni0685.init\012uniFB7C\012uniFB80\012uni069A.init\012uni069B.init\012uni069C.init\012uni069D.init\012uni069E.init\012uni069F.init\012uni06A0.init\012uni066F.init\012uni06A2.init\012uni06A3.init\012uniFB6C\012uni06A5.init\012uniFB70\012uniFED3\012uniFB6C\012uniFB90\012uni06AA.init\012uni06AB.init\012uni06AC.init\012uniFBD5\012uni063C.init\012uniFB94\012uni06B0.init\012uniFB9C\012uni06B2.init\012uniFB98\012uni06B4.init\012uni06B5.init\012uni06B6.init\012uni06B7.init\012uni06B8.init\012uni06B9.init\012uniFBE8\012uniFB68\012uni06BC.init\012uniFB58\012uniFBAC\012uniFBA8\012uni06BF.init\012uni06C2.init\012uniFBFE\012uni06CE.init\012uniFBE6\012uniFB58\012uni06FA.init\012uni06FB.init\012uni06FC.init\012uni06FF.init\012uni0750.init\012uni0751.init\012uni0752.init\012uni0753.init\012uni0754.init\012uni0755.init\012uni0756.init\012uni0757.init\012uni0758.init\012uniFB7C\012uni075C.init\012uni075D.init\012uni075E.init\012uni075F.init\012uni0760.init\012uni0761.init\012uni0762.init\012uni0763.init\012uni0764.init\012uni0765.init\012uni0766.init\012uni0767.init\012uni0768.init\012uni0769.init\012uni076A.init\012uni076D.init\012uni076E.init\012uni076F.init\012uni0770.init\012uni0772.init\012uni0775.init\012uni0776.init\012uni0777.init\012uni077A.init\012uni077B.init\012uni077C.init\012uni077D.init\012uni077E.init\012uni077F.init\012uni08A0.init\012uni08A2.init\012uni08A3.init\012uni08A4.init\012uni08A5.init\012uni08A6.init\012uni08A8.init\012uni08A7.init\012uni08A9.init";
 name = init;
 },
 {
-code = "uniFB51
-uniFE82
-uniFE84
-uniFE88
-uniFE8E
-uni0672.fina
-uni0673.fina
-uni0675.fina
-uni0773.fina
-uni0774.fina
-uni0644.medi
-uni06B5.medi
-uni06B6.medi
-uni06B7.medi
-uni06B8.medi
-uni076A.medi
-uni08A6.medi";
+code = "uniFB51\012uniFE82\012uniFE84\012uniFE88\012uniFE8E\012uni0672.fina\012uni0673.fina\012uni0675.fina\012uni0773.fina\012uni0774.fina\012uni0644.medi\012uni06B5.medi\012uni06B6.medi\012uni06B7.medi\012uni06B8.medi\012uni076A.medi\012uni08A6.medi";
 name = rlig3;
 },
 {
@@ -911,43 +50,11 @@ code = "_971 _972 uni0660.ccmp uni0661.ccmp uni0662.ccmp uni0663.ccmp uni0664.cc
 name = ccmp5;
 },
 {
-code = "uniFB51
-uniFE82
-uniFE84
-uniFE88
-uniFE8E
-uni0672.fina
-uni0673.fina
-uni0675.fina
-uni0773.fina
-uni0774.fina
-uni0644.init
-uni06B5.init
-uni06B6.init
-uni06B7.init
-uni06B8.init
-uni076A.init
-uni08A6.init";
+code = "uniFB51\012uniFE82\012uniFE84\012uniFE88\012uniFE8E\012uni0672.fina\012uni0673.fina\012uni0675.fina\012uni0773.fina\012uni0774.fina\012uni0644.init\012uni06B5.init\012uni06B6.init\012uni06B7.init\012uni06B8.init\012uni076A.init\012uni08A6.init";
 name = rlig;
 },
 {
-code = "uni0671.rlig
-uniFE82.rlig
-uniFE84.rlig
-uniFE88.rlig
-uniFE8E.rlig
-uni0672.fina.rlig
-uni0673.fina.rlig
-uni0675.fina.rlig
-uni0773.fina.rlig
-uni0774.fina.rlig
-uni0644.rlig
-uni06B5.rlig
-uni06B6.rlig
-uni06B7.rlig
-uni06B8.rlig
-uni076A.rlig
-uni08A6.rlig";
+code = "uni0671.rlig\012uniFE82.rlig\012uniFE84.rlig\012uniFE88.rlig\012uniFE8E.rlig\012uni0672.fina.rlig\012uni0673.fina.rlig\012uni0675.fina.rlig\012uni0773.fina.rlig\012uni0774.fina.rlig\012uni0644.rlig\012uni06B5.rlig\012uni06B6.rlig\012uni06B7.rlig\012uni06B8.rlig\012uni076A.rlig\012uni08A6.rlig";
 name = rlig2;
 },
 {
@@ -955,27 +62,11 @@ code = "uni0660.ccmp uni0661.ccmp uni0662.ccmp uni0663.ccmp uni0664.ccmp uni0665
 name = ccmp3;
 },
 {
-code = "_1028
-_1025
-_1029
-_1031
-_1008
-_1026
-_1027
-_1030
-_1033
-_1040
-uniFEE0.rlig
-uniFEE0_uni065A.rlig
-uni06B6.medi.rlig
-uni06B7.medi.rlig
-uni06B8.medi.rlig
-_1024
-_1023";
+code = "_1028\012_1025\012_1029\012_1031\012_1008\012_1026\012_1027\012_1030\012_1033\012_1040\012uniFEE0.rlig\012uniFEE0_uni065A.rlig\012uni06B6.medi.rlig\012uni06B7.medi.rlig\012uni06B8.medi.rlig\012_1024\012_1023";
 name = rlig4;
 }
 );
-copyright = "Copyright 2019-2021 Google LLC. All Rights Reserved.";
+copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)";
 customParameters = (
 {
 name = fsType;
@@ -1008,11 +99,11 @@ value = "Noto is a trademark of Google LLC.";
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = description;
@@ -1020,7 +111,7 @@ value = "Designed by Monotype Design Team, David Williams, Mohamad Dakak and Niz
 },
 {
 name = versionString;
-value = "Version 2.012";
+value = "Version 2.013";
 },
 {
 name = Axes;
@@ -1040,348 +131,54 @@ familyName = "Noto Naskh Arabic UI";
 featurePrefixes = (
 {
 automatic = 1;
-code = "languagesystem DFLT dflt;
-
-languagesystem arab dflt;
-languagesystem arab SND;
-languagesystem arab URD;
-languagesystem arab KSH;
-languagesystem arab FAR;
-
-languagesystem latn dflt;
-";
+code = "languagesystem DFLT dflt;\012\012languagesystem arab dflt;\012languagesystem arab SND;\012languagesystem arab URD;\012languagesystem arab KSH;\012languagesystem arab FAR;\012\012languagesystem latn dflt;\012";
 name = Languagesystems;
 },
 {
-code = "###
-# OpenType Layout feature definitions
-# Format: Adobe FDK for OpenType (AFDKO) version 2.5
-# Generated on: 2019-12-6 10:8
-# Generated by: Fontlab
-# Tool options: fea-inline-lookups: yes, fea-inline-classes: 0, fea-additional-tables: yes, fea-table-overrides: no
-# Font PostScript name: NotoNaskhArabic
-# Font copyright: Copyright 2014 Google Inc. All Rights Reserved.
-#
-# Totals:
-# Languagesystems: 6
-# GSUB lookups: 23
-# GSUB features: 8 (ccmp, fina, init, liga, locl, medi, rlig, tnum)
-# GPOS lookups: 8
-# GPOS features: 2 (mark, mkmk)
-
-#
-# Languagesystem definitions
-#
-
-# Latin default
-# Arabic default
-# Arabic Farsi
-# Arabic Kashmiri
-# Arabic Sindhi
-# Arabic Urdu
-
-#
-# Lookup definitions
-#
-
-lookup rlig_arab_3 {
-# GSUB lookup 9, type 11 (Single)
-  sub @rlig by @rlig2;
-} rlig_arab_3;
-
-lookup rlig_arab_4 {
-# GSUB lookup 10, type 11 (Single)
-  sub @rlig3 by @rlig4;
-} rlig_arab_4;
-
-lookup ccmp_arab_5 {
-# GSUB lookup 17, type 11 (Single)
-  sub @ccmp by [uni0601.13 uni06DD.17 uni0600.ccmp uni0602.ccmp uni0603.ccmp uni0604.ccmp];
-} ccmp_arab_5;
-
-lookup ccmp_arab_6 {
-# GSUB lookup 18, type 11 (Single)
-  sub @ccmp2 by @ccmp3;
-} ccmp_arab_6;
-
-lookup ccmp_arab_8 {
-# GSUB lookup 19, type 12 (Multiple)
-  sub uni0660.ccmp by _1485 uni0660.ccmp;
-  sub uni0661.ccmp by _1485 uni0661.ccmp;
-  sub uni0662.ccmp by _1485 uni0662.ccmp;
-  sub uni0663.ccmp by _1485 uni0663.ccmp;
-  sub uni0664.ccmp by _1485 uni0664.ccmp;
-  sub uni0665.ccmp by _1485 uni0665.ccmp;
-  sub uni0666.ccmp by _1485 uni0666.ccmp;
-  sub uni0667.ccmp by _1485 uni0667.ccmp;
-  sub uni0668.ccmp by _1485 uni0668.ccmp;
-  sub uni0669.ccmp by _1485 uni0669.ccmp;
-  sub uni06F4.ccmp by _1485 uni06F4.ccmp;
-  sub uni06F5.ccmp by _1485 uni06F5.ccmp;
-  sub uni06F6.ccmp by _1485 uni06F6.ccmp;
-  sub _971 by _1485 _971;
-  sub _972 by _1485 _972;
-  sub uni0030.ccmp by _1485 uni0030.ccmp;
-  sub uni0031.ccmp by _1485 uni0031.ccmp;
-  sub uni0032.ccmp by _1485 uni0032.ccmp;
-  sub uni0033.ccmp by _1485 uni0033.ccmp;
-  sub uni0034.ccmp by _1485 uni0034.ccmp;
-  sub uni0035.ccmp by _1485 uni0035.ccmp;
-  sub uni0036.ccmp by _1485 uni0036.ccmp;
-  sub uni0037.ccmp by _1485 uni0037.ccmp;
-  sub uni0038.ccmp by _1485 uni0038.ccmp;
-  sub uni0039.ccmp by _1485 uni0039.ccmp;
-} ccmp_arab_8;
-#
-# Feature definitions
-#";
+code = "###\012# OpenType Layout feature definitions\012# Format: Adobe FDK for OpenType (AFDKO) version 2.5\012# Generated on: 2019-12-6 10:8\012# Generated by: Fontlab\012# Tool options: fea-inline-lookups: yes, fea-inline-classes: 0, fea-additional-tables: yes, fea-table-overrides: no\012# Font PostScript name: NotoNaskhArabic\012# Font copyright: Copyright 2014 Google Inc. All Rights Reserved.\012#\012# Totals:\012# Languagesystems: 6\012# GSUB lookups: 23\012# GSUB features: 8 (ccmp, fina, init, liga, locl, medi, rlig, tnum)\012# GPOS lookups: 8\012# GPOS features: 2 (mark, mkmk)\012\012#\012# Languagesystem definitions\012#\012\012# Latin default\012# Arabic default\012# Arabic Farsi\012# Arabic Kashmiri\012# Arabic Sindhi\012# Arabic Urdu\012\012#\012# Lookup definitions\012#\012\012lookup rlig_arab_3 {\012# GSUB lookup 9, type 11 (Single)\012  sub @rlig by @rlig2;\012} rlig_arab_3;\012\012lookup rlig_arab_4 {\012# GSUB lookup 10, type 11 (Single)\012  sub @rlig3 by @rlig4;\012} rlig_arab_4;\012\012lookup ccmp_arab_5 {\012# GSUB lookup 17, type 11 (Single)\012  sub @ccmp by [uni0601.13 uni06DD.17 uni0600.ccmp uni0602.ccmp uni0603.ccmp uni0604.ccmp];\012} ccmp_arab_5;\012\012lookup ccmp_arab_6 {\012# GSUB lookup 18, type 11 (Single)\012  sub @ccmp2 by @ccmp3;\012} ccmp_arab_6;\012\012lookup ccmp_arab_8 {\012# GSUB lookup 19, type 12 (Multiple)\012  sub uni0660.ccmp by _1485 uni0660.ccmp;\012  sub uni0661.ccmp by _1485 uni0661.ccmp;\012  sub uni0662.ccmp by _1485 uni0662.ccmp;\012  sub uni0663.ccmp by _1485 uni0663.ccmp;\012  sub uni0664.ccmp by _1485 uni0664.ccmp;\012  sub uni0665.ccmp by _1485 uni0665.ccmp;\012  sub uni0666.ccmp by _1485 uni0666.ccmp;\012  sub uni0667.ccmp by _1485 uni0667.ccmp;\012  sub uni0668.ccmp by _1485 uni0668.ccmp;\012  sub uni0669.ccmp by _1485 uni0669.ccmp;\012  sub uni06F4.ccmp by _1485 uni06F4.ccmp;\012  sub uni06F5.ccmp by _1485 uni06F5.ccmp;\012  sub uni06F6.ccmp by _1485 uni06F6.ccmp;\012  sub _971 by _1485 _971;\012  sub _972 by _1485 _972;\012  sub uni0030.ccmp by _1485 uni0030.ccmp;\012  sub uni0031.ccmp by _1485 uni0031.ccmp;\012  sub uni0032.ccmp by _1485 uni0032.ccmp;\012  sub uni0033.ccmp by _1485 uni0033.ccmp;\012  sub uni0034.ccmp by _1485 uni0034.ccmp;\012  sub uni0035.ccmp by _1485 uni0035.ccmp;\012  sub uni0036.ccmp by _1485 uni0036.ccmp;\012  sub uni0037.ccmp by _1485 uni0037.ccmp;\012  sub uni0038.ccmp by _1485 uni0038.ccmp;\012  sub uni0039.ccmp by _1485 uni0039.ccmp;\012} ccmp_arab_8;\012#\012# Feature definitions\012#";
 name = Prefix;
 }
 );
 features = (
 {
 automatic = 1;
-code = "feature fina;
-feature init;
-feature medi;
-feature locl;
-feature tnum;
-";
+code = "feature fina;\012feature init;\012feature medi;\012feature locl;\012feature tnum;\012";
 name = aalt;
 },
 {
-code = "# GSUB feature: Glyph Composition / Decomposition
-# Lookups: 6
-
-  lookup ccmp_arab_9 {
-  # GSUB lookup 21, type 14 (Ligature)
-    lookupflag IgnoreMarks;
-    sub uni0600.ccmp _1485 _1485 by _1485__1485;
-    sub uni0600.ccmp _1485 by _982;
-    sub uni0601.13 _1485 _1485 _1485 by uni0601.16;
-    sub uni0601.13 _1485 _1485 by uni0601.15;
-    sub uni0601.13 _1485 by uni0601.14;
-    sub uni0602.ccmp _1485 _1485 by _991;
-    sub uni0602.ccmp _1485 by _990;
-    sub uni0603.ccmp _1485 _1485 by _995;
-    sub uni0603.ccmp _1485 by _994;
-    sub uni0604.ccmp _1485 _1485 _1485 by _1485__1485__1485;
-    sub uni0604.ccmp _1485 _1485 by _999;
-    sub uni0604.ccmp _1485 by _998;
-    sub uni06DD.17 _1485 _1485 by uni06DD.19;
-    sub uni06DD.17 _1485 by uni06DD.18;
-  } ccmp_arab_9;
-
-  script arab; # Arabic
-  sub uni0623 by uni0627 uni0654;
-  sub uni0625 by uni0627 uni0655;
-  sub uni064B uni0651 by uni064B_uni0651;
-  sub uni064B uni0654 by uni064B_uni0654;
-  sub uni064C uni0651 by uni064C_uni0651;
-  sub uni064C uni0654 by uni064C_uni0654;
-  sub uni064D uni0651 by uni064D_uni0651;
-  sub uni064D uni0655 by uni064D_uni0655;
-  sub uni064E uni0651 by uni064E_uni0651;
-  sub uni064E uni0654 by uni064E_uni0654;
-  sub uni064F uni0651 by uni064F_uni0651;
-  sub uni064F uni0654 by uni064F_uni0654;
-  sub uni0650 uni0651 by uni0650_uni0651;
-  sub uni0650 uni0655 by uni0650_uni0655;
-  sub uni0651 uni064B by uni064B_uni0651;
-  sub uni0651 uni064C by uni064C_uni0651;
-  sub uni0651 uni064D by uni064D_uni0651;
-  sub uni0651 uni064E by uni064E_uni0651;
-  sub uni0651 uni064F by uni064F_uni0651;
-  sub uni0651 uni0650 by uni0650_uni0651;
-  sub uni0651 uni0670 by uni0651_uni0670;
-  sub uni0654 uni064B by uni064B_uni0654;
-  sub uni0654 uni064C by uni064C_uni0654;
-  sub uni0654 uni064E by uni064E_uni0654;
-  sub uni0654 uni064F by uni064F_uni0654;
-  sub uni0654 uni0652 by uni0654_uni0652;
-  sub uni0655 uni064D by uni064D_uni0655;
-  sub uni0655 uni0650 by uni0650_uni0655;
-  sub uni0670 uni0651 by uni0651_uni0670;
-  sub uni0652 uni0654 by uni0654_uni0652;
-  sub uni0627 uni0654 by uni0623;
-  sub uni0627 uni0655 by uni0625;
-  sub @ccmp' lookup ccmp_arab_5 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6;
-  sub @ccmp' lookup ccmp_arab_5 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6;
-  sub @ccmp' lookup ccmp_arab_5 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6;
-  sub @ccmp' lookup ccmp_arab_5 @ccmp2' lookup ccmp_arab_6;
-  sub [uni0600.ccmp uni0601.13 uni0602.ccmp uni0603.ccmp uni0604.ccmp uni06DD.17] @ccmp5 @ccmp4' lookup ccmp_arab_8;
-  sub _1485 @ccmp5 @ccmp4' lookup ccmp_arab_8;
-  lookup ccmp_arab_9;
-    language SND ; # Sindhi
-    language URD ; # Urdu
-    language KSH ; # Kashmiri
-    language FAR ; # Farsi";
+code = "# GSUB feature: Glyph Composition / Decomposition\012# Lookups: 6\012\012  lookup ccmp_arab_9 {\012  # GSUB lookup 21, type 14 (Ligature)\012    lookupflag IgnoreMarks;\012    sub uni0600.ccmp _1485 _1485 by _1485__1485;\012    sub uni0600.ccmp _1485 by _982;\012    sub uni0601.13 _1485 _1485 _1485 by uni0601.16;\012    sub uni0601.13 _1485 _1485 by uni0601.15;\012    sub uni0601.13 _1485 by uni0601.14;\012    sub uni0602.ccmp _1485 _1485 by _991;\012    sub uni0602.ccmp _1485 by _990;\012    sub uni0603.ccmp _1485 _1485 by _995;\012    sub uni0603.ccmp _1485 by _994;\012    sub uni0604.ccmp _1485 _1485 _1485 by _1485__1485__1485;\012    sub uni0604.ccmp _1485 _1485 by _999;\012    sub uni0604.ccmp _1485 by _998;\012    sub uni06DD.17 _1485 _1485 by uni06DD.19;\012    sub uni06DD.17 _1485 by uni06DD.18;\012  } ccmp_arab_9;\012\012  script arab; # Arabic\012  sub uni0623 by uni0627 uni0654;\012  sub uni0625 by uni0627 uni0655;\012  sub uni064B uni0651 by uni064B_uni0651;\012  sub uni064B uni0654 by uni064B_uni0654;\012  sub uni064C uni0651 by uni064C_uni0651;\012  sub uni064C uni0654 by uni064C_uni0654;\012  sub uni064D uni0651 by uni064D_uni0651;\012  sub uni064D uni0655 by uni064D_uni0655;\012  sub uni064E uni0651 by uni064E_uni0651;\012  sub uni064E uni0654 by uni064E_uni0654;\012  sub uni064F uni0651 by uni064F_uni0651;\012  sub uni064F uni0654 by uni064F_uni0654;\012  sub uni0650 uni0651 by uni0650_uni0651;\012  sub uni0650 uni0655 by uni0650_uni0655;\012  sub uni0651 uni064B by uni064B_uni0651;\012  sub uni0651 uni064C by uni064C_uni0651;\012  sub uni0651 uni064D by uni064D_uni0651;\012  sub uni0651 uni064E by uni064E_uni0651;\012  sub uni0651 uni064F by uni064F_uni0651;\012  sub uni0651 uni0650 by uni0650_uni0651;\012  sub uni0651 uni0670 by uni0651_uni0670;\012  sub uni0654 uni064B by uni064B_uni0654;\012  sub uni0654 uni064C by uni064C_uni0654;\012  sub uni0654 uni064E by uni064E_uni0654;\012  sub uni0654 uni064F by uni064F_uni0654;\012  sub uni0654 uni0652 by uni0654_uni0652;\012  sub uni0655 uni064D by uni064D_uni0655;\012  sub uni0655 uni0650 by uni0650_uni0655;\012  sub uni0670 uni0651 by uni0651_uni0670;\012  sub uni0652 uni0654 by uni0654_uni0652;\012  sub uni0627 uni0654 by uni0623;\012  sub uni0627 uni0655 by uni0625;\012  sub @ccmp' lookup ccmp_arab_5 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6;\012  sub @ccmp' lookup ccmp_arab_5 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6;\012  sub @ccmp' lookup ccmp_arab_5 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6;\012  sub @ccmp' lookup ccmp_arab_5 @ccmp2' lookup ccmp_arab_6;\012  sub [uni0600.ccmp uni0601.13 uni0602.ccmp uni0603.ccmp uni0604.ccmp uni06DD.17] @ccmp5 @ccmp4' lookup ccmp_arab_8;\012  sub _1485 @ccmp5 @ccmp4' lookup ccmp_arab_8;\012  lookup ccmp_arab_9;\012    language SND ; # Sindhi\012    language URD ; # Urdu\012    language KSH ; # Kashmiri\012    language FAR ; # Farsi";
 name = ccmp;
 },
 {
-code = "# GSUB feature: Terminal Forms
-# Lookups: 1
-
-  script arab; # Arabic
-  sub @fina by @fina2;
-    language SND ; # Sindhi
-    language URD ; # Urdu
-    language KSH ; # Kashmiri
-    language FAR ; # Farsi";
+code = "# GSUB feature: Terminal Forms\012# Lookups: 1\012\012  script arab; # Arabic\012  sub @fina by @fina2;\012    language SND ; # Sindhi\012    language URD ; # Urdu\012    language KSH ; # Kashmiri\012    language FAR ; # Farsi";
 name = fina;
 },
 {
-code = "# GSUB feature: Initial Forms
-# Lookups: 1
-
-  script arab; # Arabic
-  sub @init_medi by @init;
-    language SND ; # Sindhi
-    language URD ; # Urdu
-    language KSH ; # Kashmiri
-    language FAR ; # Farsi";
+code = "# GSUB feature: Initial Forms\012# Lookups: 1\012\012  script arab; # Arabic\012  sub @init_medi by @init;\012    language SND ; # Sindhi\012    language URD ; # Urdu\012    language KSH ; # Kashmiri\012    language FAR ; # Farsi";
 name = init;
 },
 {
-code = "# GSUB feature: Medial Forms
-# Lookups: 1
-
-  script arab; # Arabic
-  sub @init_medi by @medi;
-    language SND ; # Sindhi
-    language URD ; # Urdu
-    language KSH ; # Kashmiri
-    language FAR ; # Farsi";
+code = "# GSUB feature: Medial Forms\012# Lookups: 1\012\012  script arab; # Arabic\012  sub @init_medi by @medi;\012    language SND ; # Sindhi\012    language URD ; # Urdu\012    language KSH ; # Kashmiri\012    language FAR ; # Farsi";
 name = medi;
 },
 {
-code = "# GSUB feature: Required Ligatures
-# Lookups: 2
-
-  lookup rlig_arab_2 {
-  # GSUB lookup 8, type 15 (Context)
-    lookupflag IgnoreMarks;
-    sub [uni0644.init uni06B5.init uni06B6.init uni06B7.init uni06B8.init uni076A.init uni08A6.init]' lookup rlig_arab_3 [uniFB51 uniFE82 uniFE84 uniFE88 uniFE8E uni0672.fina uni0673.fina uni0675.fina uni0773.fina uni0774.fina]' lookup rlig_arab_3;
-    sub [uni0644.medi uni06B5.medi uni06B6.medi uni06B7.medi uni06B8.medi uni076A.medi uni08A6.medi]' lookup rlig_arab_4 [uniFB51 uniFE82 uniFE84 uniFE88 uniFE8E uni0672.fina uni0673.fina uni0675.fina uni0773.fina uni0774.fina]' lookup rlig_arab_4;
-  } rlig_arab_2;
-
-  lookup rlig_arab_1 {
-  # GSUB lookup 7, type 14 (Ligature)
-    lookupflag IgnoreMarks;
-    sub uni0644.init uniFB51 by uniFEDF_uniFB51;
-    sub uni0644.init uniFE82 by uniFEF5;
-    sub uni0644.init uniFE84 by uniFEF7;
-    sub uni0644.init uniFE88 by uniFEF9;
-    sub uni0644.init uniFE8E by uniFEFB;
-    sub uni0644.init uni0672.fina by _670;
-    sub uni0644.init uni0673.fina by uniFEFB_uni065F;
-    sub uni0644.init uni0675.fina by uniFEFB_uni0654;
-    sub uni0644.medi uniFB51 by uniFEE0_uniFB51;
-    sub uni0644.medi uniFE82 by uniFEF6;
-    sub uni0644.medi uniFE84 by uniFEF8;
-    sub uni0644.medi uniFE88 by uniFEFA;
-    sub uni0644.medi uniFE8E by uniFEFC;
-    sub uni0644.medi uni0672.fina by _671;
-    sub uni0644.medi uni0673.fina by uniFEFC_uni065F;
-    sub uni0644.medi uni0675.fina by uniFEFC_uni0675;
-    sub uni06B5.init uniFE8E by uniFEFB_uni065A;
-    sub uni06B5.medi uniFE8E by uniFEFC_uni065A;
-    sub uni06B6.init uniFE8E by uni06B6_uni0627;
-    sub uni06B6.medi uniFE8E by uniFEFC_uniFBB2;
-    sub uni06B7.init uniFE8E by uniFEFB_uniFBB6;
-    sub uni06B7.medi uniFE8E by uniFEFC_uniFBB6;
-    sub uni06B8.init uniFE8E by uniFEFB_uniFBB7;
-    sub uni06B8.medi uniFE8E by uniFEFC_uniFBB7;
-    sub uni076A.init uniFE8E by _778;
-    sub uni076A.medi uniFE8E by _779;
-    sub uniFEE0 uni0773.fina by uniFEFC_uni0773;
-    sub uniFEE0 uni0774.fina by uniFEFC_uni0774;
-    sub uni06B5.medi uni0675.fina by uni06B5_uni0675;
-    sub uni06B5.medi uni0773.fina by uni06B5_uni0773;
-    sub uni06B5.medi uni0774.fina by uni06B5_uni0774;
-    sub uni06B8.medi uni0675.fina by uni06B8_uni0675;
-    sub uni06B8.medi uni0773.fina by uni06B8_uni0773;
-    sub uni06B8.medi uni0774.fina by uni06B8_uni0774;
-    sub uni06B6.medi uni0675.fina by uni06B6_uni0675;
-    sub uni06B6.medi uni0773.fina by uni06B6_uni0773;
-    sub uni06B6.medi uni0774.fina by uni06B6_uni0774;
-    sub uni06B7.medi uni0675.fina by uni06B7_uni0675;
-    sub uni06B7.medi uni0773.fina by uni06B7_uni0773;
-    sub uni06B7.medi uni0774.fina by uni06B7_uni0774;
-  } rlig_arab_1;
-
-  script arab; # Arabic
-  lookup rlig_arab_1;
-  lookup rlig_arab_2;
-    language SND ; # Sindhi
-    language URD ; # Urdu
-    language KSH ; # Kashmiri
-    language FAR ; # Fa";
+code = "# GSUB feature: Required Ligatures\012# Lookups: 2\012\012  lookup rlig_arab_2 {\012  # GSUB lookup 8, type 15 (Context)\012    lookupflag IgnoreMarks;\012    sub [uni0644.init uni06B5.init uni06B6.init uni06B7.init uni06B8.init uni076A.init uni08A6.init]' lookup rlig_arab_3 [uniFB51 uniFE82 uniFE84 uniFE88 uniFE8E uni0672.fina uni0673.fina uni0675.fina uni0773.fina uni0774.fina]' lookup rlig_arab_3;\012    sub [uni0644.medi uni06B5.medi uni06B6.medi uni06B7.medi uni06B8.medi uni076A.medi uni08A6.medi]' lookup rlig_arab_4 [uniFB51 uniFE82 uniFE84 uniFE88 uniFE8E uni0672.fina uni0673.fina uni0675.fina uni0773.fina uni0774.fina]' lookup rlig_arab_4;\012  } rlig_arab_2;\012\012  lookup rlig_arab_1 {\012  # GSUB lookup 7, type 14 (Ligature)\012    lookupflag IgnoreMarks;\012    sub uni0644.init uniFB51 by uniFEDF_uniFB51;\012    sub uni0644.init uniFE82 by uniFEF5;\012    sub uni0644.init uniFE84 by uniFEF7;\012    sub uni0644.init uniFE88 by uniFEF9;\012    sub uni0644.init uniFE8E by uniFEFB;\012    sub uni0644.init uni0672.fina by _670;\012    sub uni0644.init uni0673.fina by uniFEFB_uni065F;\012    sub uni0644.init uni0675.fina by uniFEFB_uni0654;\012    sub uni0644.medi uniFB51 by uniFEE0_uniFB51;\012    sub uni0644.medi uniFE82 by uniFEF6;\012    sub uni0644.medi uniFE84 by uniFEF8;\012    sub uni0644.medi uniFE88 by uniFEFA;\012    sub uni0644.medi uniFE8E by uniFEFC;\012    sub uni0644.medi uni0672.fina by _671;\012    sub uni0644.medi uni0673.fina by uniFEFC_uni065F;\012    sub uni0644.medi uni0675.fina by uniFEFC_uni0675;\012    sub uni06B5.init uniFE8E by uniFEFB_uni065A;\012    sub uni06B5.medi uniFE8E by uniFEFC_uni065A;\012    sub uni06B6.init uniFE8E by uni06B6_uni0627;\012    sub uni06B6.medi uniFE8E by uniFEFC_uniFBB2;\012    sub uni06B7.init uniFE8E by uniFEFB_uniFBB6;\012    sub uni06B7.medi uniFE8E by uniFEFC_uniFBB6;\012    sub uni06B8.init uniFE8E by uniFEFB_uniFBB7;\012    sub uni06B8.medi uniFE8E by uniFEFC_uniFBB7;\012    sub uni076A.init uniFE8E by _778;\012    sub uni076A.medi uniFE8E by _779;\012    sub uniFEE0 uni0773.fina by uniFEFC_uni0773;\012    sub uniFEE0 uni0774.fina by uniFEFC_uni0774;\012    sub uni06B5.medi uni0675.fina by uni06B5_uni0675;\012    sub uni06B5.medi uni0773.fina by uni06B5_uni0773;\012    sub uni06B5.medi uni0774.fina by uni06B5_uni0774;\012    sub uni06B8.medi uni0675.fina by uni06B8_uni0675;\012    sub uni06B8.medi uni0773.fina by uni06B8_uni0773;\012    sub uni06B8.medi uni0774.fina by uni06B8_uni0774;\012    sub uni06B6.medi uni0675.fina by uni06B6_uni0675;\012    sub uni06B6.medi uni0773.fina by uni06B6_uni0773;\012    sub uni06B6.medi uni0774.fina by uni06B6_uni0774;\012    sub uni06B7.medi uni0675.fina by uni06B7_uni0675;\012    sub uni06B7.medi uni0773.fina by uni06B7_uni0773;\012    sub uni06B7.medi uni0774.fina by uni06B7_uni0774;\012  } rlig_arab_1;\012\012  script arab; # Arabic\012  lookup rlig_arab_1;\012  lookup rlig_arab_2;\012    language SND ; # Sindhi\012    language URD ; # Urdu\012    language KSH ; # Kashmiri\012    language FAR ; # Fa";
 name = rlig;
 },
 {
-code = "# GSUB feature: Standard Ligatures
-# Lookups: 2
-
-  lookup liga_arab_2 {
-  # GSUB lookup 23, type 14 (Ligature)
-    lookupflag IgnoreMarks;
-    sub uniFEDF uniFEE0 uniFEEA by uniFEDF_uniFEE0_uniFEEA;
-    sub uniFEDF uniFEE0 uniFBA7 by uniFEDF_uniFEE0_uniFEEA;
-  } liga_arab_2;
-
-  script arab; # Arabic
-  sub uni0627 uniFEDF uniFEE0 uni0651_uni0670 uniFEEA by uniFDF2;
-  sub uni0627 uniFEDF uniFEE0 uni0651_uni0670 uniFBA7 by uniFDF2;
-  lookup liga_arab_2;
-    language SND ; # Sindhi
-    language URD ; # Urdu
-    language KSH ; # Kashmiri
-    language FAR ; # Farsi";
+code = "# GSUB feature: Standard Ligatures\012# Lookups: 2\012\012  lookup liga_arab_2 {\012  # GSUB lookup 23, type 14 (Ligature)\012    lookupflag IgnoreMarks;\012    sub uniFEDF uniFEE0 uniFEEA by uniFEDF_uniFEE0_uniFEEA;\012    sub uniFEDF uniFEE0 uniFBA7 by uniFEDF_uniFEE0_uniFEEA;\012  } liga_arab_2;\012\012  script arab; # Arabic\012  sub uni0627 uniFEDF uniFEE0 uni0651_uni0670 uniFEEA by uniFDF2;\012  sub uni0627 uniFEDF uniFEE0 uni0651_uni0670 uniFBA7 by uniFDF2;\012  lookup liga_arab_2;\012    language SND ; # Sindhi\012    language URD ; # Urdu\012    language KSH ; # Kashmiri\012    language FAR ; # Farsi";
 name = liga;
 },
 {
-code = "# GSUB feature: Localized Forms
-# Lookups: 4
-
-  script latn; # Latin
-  sub [uni0021 uni002E] by [uni0021.locl uni002E.locl];
-
-  script arab; # Arabic
-    language SND ; # Sindhi
-    sub [uni06F6 uni06F7] by [uni0666 uni06F7.locl];
-
-    language URD ; # Urdu
-	lookup locl_arabURD_arabKSH_1 {
-  		sub [uni06F4 uni06F6 uni06F7] by [uni06F4.locl uni0666 uni06F7.locl];
-	} locl_arabURD_arabKSH_1;
-
-    language KSH ; # Kashmiri
-    lookup locl_arabURD_arabKSH_1;
-
-    language FAR ; # Farsi
-    sub [uni066B uni066C uni00AB uni00BB] by [uni066B.locl uni066B.1 uni00AB.locl uni00BB.locl];
-";
+code = "# GSUB feature: Localized Forms\012# Lookups: 4\012\012  script latn; # Latin\012  sub [uni0021 uni002E] by [uni0021.locl uni002E.locl];\012\012  script arab; # Arabic\012    language SND ; # Sindhi\012    sub [uni06F6 uni06F7] by [uni0666 uni06F7.locl];\012\012    language URD ; # Urdu\012	lookup locl_arabURD_arabKSH_1 {\012  		sub [uni06F4 uni06F6 uni06F7] by [uni06F4.locl uni0666 uni06F7.locl];\012	} locl_arabURD_arabKSH_1;\012\012    language KSH ; # Kashmiri\012    lookup locl_arabURD_arabKSH_1;\012\012    language FAR ; # Farsi\012    sub [uni066B uni066C uni00AB uni00BB] by [uni066B.locl uni066B.1 uni00AB.locl uni00BB.locl];\012";
 name = locl;
 },
 {
-code = "# GSUB feature: Tabular Figures
-# Lookups: 1
-
-  script arab; # Arabic
-  sub @tnum by @tnum2;
-    language SND ; # Sindhi
-    language URD ; # Urdu
-    language KSH ; # Kashmiri
-    language FAR ; # Farsi";
+code = "# GSUB feature: Tabular Figures\012# Lookups: 1\012\012  script arab; # Arabic\012  sub @tnum by @tnum2;\012    language SND ; # Sindhi\012    language URD ; # Urdu\012    language KSH ; # Kashmiri\012    language FAR ; # Farsi";
 name = tnum;
 },
 {
-code = "lookup dlig_RTL {
-lookupflag IgnoreMarks RightToLeft;
-	sub uniFEDF uniFEE0 uniFEEA by uniFEDF_uniFEE0_uniFEEA;
-} dlig_RTL;
-";
+code = "lookup dlig_RTL {\012lookupflag IgnoreMarks RightToLeft;\012	sub uniFEDF uniFEE0 uniFEEA by uniFEDF_uniFEE0_uniFEEA;\012} dlig_RTL;\012";
 name = dlig;
 }
 );
@@ -1457,7 +254,6 @@ value = 50;
 );
 descender = -293;
 id = master01;
-visible = 1;
 weightValue = 400;
 xHeight = 0;
 },
@@ -1532,7 +328,6 @@ value = 50;
 );
 descender = -293;
 id = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-visible = 1;
 weight = Bold;
 weightValue = 700;
 xHeight = 0;
@@ -141157,5 +139952,5 @@ userData = {
 UFOFormat = 2;
 };
 versionMajor = 2;
-versionMinor = 12;
+versionMinor = 13;
 }
