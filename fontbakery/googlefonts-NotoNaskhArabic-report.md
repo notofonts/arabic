@@ -27,16 +27,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni06D6
-	* uni06E5
+	* uni0613
+	* uni08E7
 	* uni06D7
-	* uni077A.medi
-	* uni0608
-	* uniFDFD
-	* uniFDF4
 	* uni077B.medi
+	* uni077A.init
+	* uni077A.medi
+	* uniFDF4
+	* uni08E9
 	* uni08E8
-	* uni08F3 and 6 more.
+	* uni0616 and 6 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -78,25 +78,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni06A1.medi
-
-	- alrahem
-
-	- _531.001
+	- _786
 
 	- uni06BA.medi
 
-	- uniFBBB.001
+	- space
 
-	- _986
+	- _uniFBB3.001
 
-	- _1518
+	- alrhman
 
-	- uniFEB3_uniFBB6_uniFBB7
+	- uniFDF2.001
 
-	- uni06DD.001
+	- _539
 
-	- three 
+	- eight
+
+	- threedotsdowncenterar
+
+	- _uniFBB2.001 
 
 	- And 50 more.
 
@@ -195,13 +195,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni06E5
+	* uni077B.medi
+	* uni077A.init
 	* uni077A.medi
 	* uni0608
-	* uniFDFD
-	* uni077B.medi
 	* uni08F3
-	* uni077A.init and uni077B.init
+	* uniFDFD
+	* uni077B.init and uni06E5
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -248,25 +248,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni06A1.medi
-
-	- alrahem
-
-	- _531.001
+	- _786
 
 	- uni06BA.medi
 
-	- uniFBBB.001
+	- space
 
-	- _986
+	- _uniFBB3.001
 
-	- _1518
+	- alrhman
 
-	- uniFEB3_uniFBB6_uniFBB7
+	- uniFDF2.001
 
-	- uni06DD.001
+	- _539
 
-	- three 
+	- eight
+
+	- threedotsdowncenterar
+
+	- _uniFBB2.001 
 
 	- And 50 more.
 
@@ -351,13 +351,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni06E5
+	* uni077B.medi
+	* uni077A.init
 	* uni077A.medi
 	* uni0608
-	* uniFDFD
-	* uni077B.medi
 	* uni08F3
-	* uni077A.init and uni077B.init
+	* uniFDFD
+	* uni077B.init and uni06E5
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -397,25 +397,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni06A1.medi
-
-	- alrahem
-
-	- _531.001
+	- _786
 
 	- uni06BA.medi
 
-	- uniFBBB.001
+	- space
 
-	- _986
+	- _uniFBB3.001
 
-	- _1518
+	- alrhman
 
-	- uniFEB3_uniFBB6_uniFBB7
+	- uniFDF2.001
 
-	- uni06DD.001
+	- _539
 
-	- three 
+	- eight
+
+	- threedotsdowncenterar
+
+	- _uniFBB2.001 
 
 	- And 50 more.
 
@@ -533,25 +533,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni06A1.medi
-
-	- alrahem
-
-	- _531.001
+	- _786
 
 	- uni06BA.medi
 
-	- uniFBBB.001
+	- space
 
-	- _986
+	- _uniFBB3.001
 
-	- _1518
+	- alrhman
 
-	- uniFEB3_uniFBB6_uniFBB7
+	- uniFDF2.001
 
-	- uni06DD.001
+	- _539
 
-	- three 
+	- eight
+
+	- threedotsdowncenterar
+
+	- _uniFBB2.001 
 
 	- And 50 more.
 

@@ -19,10 +19,48 @@ Fontbakery version: 0.8.9
 
 
 * 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[12] NotoNaskhArabicUI-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoNaskhArabicUI-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x2026 (HORIZONTAL ELLIPSIS)
+
+
+	- 0x002A (ASTERISK)
+
+
+	- 0x0023 (NUMBER SIGN)
+
+
+	- 0x002F (SOLIDUS)
+
+
+	- 0x005C (REVERSE SOLIDUS)
+
+
+	- 0x002D (HYPHEN-MINUS)
+
+
+	- 0x0028 (LEFT PARENTHESIS)
+
+
+	- 0x0029 (RIGHT PARENTHESIS)
+
+
+	- 0x007B (LEFT CURLY BRACKET)
+
+
+	- 0x007D (RIGHT CURLY BRACKET)
+ 
+
+	- And 304 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Naskh Arabic UI [code: render-own-name]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -33,35 +71,13 @@ Fontbakery version: 0.8.9
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni0654 
+	- uni065B 
 
-	- And uni065B [code: unattached-dotted-circle-marks]
+	- And uni0654 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- uniFEDF + uniFEE0
-
-	- uniFEE0 + uniFBA7
-
-	- uniFBA7 + uniFEE0
-
-	- uniFEE0 + uniFEEA
-
-	- uni0627 + uniFEDF
-
-	- uniFEE0 + uni0651_uni0670
-
-	- uni0651_uni0670 + uniFBA7
-
-	- uniFBA7 + uniFEDF 
-
-	- And uni0651_uni0670 + uniFEEA [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -75,49 +91,34 @@ Fontbakery version: 0.8.9
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni06BD.init
+
+	- _uniFBB2.001
+
+	- uni06BA.medi
+
 	- uni06BD.medi
-
-	- exclam
-
-	- _540
-
-	- uniFBB2.001
-
-	- dotamiddlear
-
-	- alrahem
-
-	- period
-
-	- two
 
 	- _539
 
-	- uni00A0 
+	- uniFC5B.fina
 
-	- And 50 more.
+	- threedotsdowncenterar
+
+	- alrhman
+
+	- uniFEA4_uniFBBD
+
+	- _twodotstah 
+
+	- And 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
- [code: contour-count]
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -171,23 +172,51 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uniFC0A (U+FC0A): B<<590.5,152.0>-<563.0,156.0>-<543.0,161.0>>/B<<543.0,161.0>-<584.0,142.0>-<605.5,131.0>> = 10.827453103825361 
 
-	* And 142 more.
+	* And 137 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoNaskhArabicUI-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+* 🔥 **FAIL** Missing required codepoints:
 
-	* h (U+0068): L<<101.0,122.0>--<100.0,646.0>>
-
-	* h (U+0068): L<<252.0,309.0>--<253.0,118.0>> 
-
-	* And sterling (U+00A3): L<<428.0,346.0>--<270.0,347.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoNaskhArabicUI-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	- 0x2026 (HORIZONTAL ELLIPSIS)
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+	- 0x002A (ASTERISK)
+
+
+	- 0x0023 (NUMBER SIGN)
+
+
+	- 0x002F (SOLIDUS)
+
+
+	- 0x005C (REVERSE SOLIDUS)
+
+
+	- 0x002D (HYPHEN-MINUS)
+
+
+	- 0x0028 (LEFT PARENTHESIS)
+
+
+	- 0x0029 (RIGHT PARENTHESIS)
+
+
+	- 0x007B (LEFT CURLY BRACKET)
+
+
+	- 0x007D (RIGHT CURLY BRACKET)
+ 
+
+	- And 304 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Naskh Arabic UI Medium [code: render-own-name]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -198,35 +227,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni0654 
+	- uni065B 
 
-	- And uni065B [code: unattached-dotted-circle-marks]
+	- And uni0654 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- uniFEDF + uniFEE0
-
-	- uniFEE0 + uniFBA7
-
-	- uniFBA7 + uniFEE0
-
-	- uniFEE0 + uniFEEA
-
-	- uni0627 + uniFEDF
-
-	- uniFEE0 + uni0651_uni0670
-
-	- uni0651_uni0670 + uniFBA7
-
-	- uniFBA7 + uniFEDF 
-
-	- And uni0651_uni0670 + uniFEEA [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -247,49 +254,34 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni06BD.init
+
+	- _uniFBB2.001
+
+	- uni06BA.medi
+
 	- uni06BD.medi
-
-	- exclam
-
-	- _540
-
-	- uniFBB2.001
-
-	- dotamiddlear
-
-	- alrahem
-
-	- period
-
-	- two
 
 	- _539
 
-	- uni00A0 
+	- uniFC5B.fina
 
-	- And 50 more.
+	- threedotsdowncenterar
+
+	- alrhman
+
+	- uniFEA4_uniFBBD
+
+	- _twodotstah 
+
+	- And 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
- [code: contour-count]
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -337,15 +329,51 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* h (U+0068): L<<106.0,117.0>--<105.0,649.0>>
-
 	* uni066D (U+066D): L<<21.0,418.0>--<156.0,417.0>> 
 
 	* And uni066D (U+066D): L<<243.0,417.0>--<380.0,418.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoNaskhArabicUI-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoNaskhArabicUI-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x2026 (HORIZONTAL ELLIPSIS)
+
+
+	- 0x002A (ASTERISK)
+
+
+	- 0x0023 (NUMBER SIGN)
+
+
+	- 0x002F (SOLIDUS)
+
+
+	- 0x005C (REVERSE SOLIDUS)
+
+
+	- 0x002D (HYPHEN-MINUS)
+
+
+	- 0x0028 (LEFT PARENTHESIS)
+
+
+	- 0x0029 (RIGHT PARENTHESIS)
+
+
+	- 0x007B (LEFT CURLY BRACKET)
+
+
+	- 0x007D (RIGHT CURLY BRACKET)
+ 
+
+	- And 304 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Naskh Arabic UI [code: render-own-name]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -356,35 +384,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni0654 
+	- uni065B 
 
-	- And uni065B [code: unattached-dotted-circle-marks]
+	- And uni0654 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- uniFEDF + uniFEE0
-
-	- uniFEE0 + uniFBA7
-
-	- uniFBA7 + uniFEE0
-
-	- uniFEE0 + uniFEEA
-
-	- uni0627 + uniFEDF
-
-	- uniFEE0 + uni0651_uni0670
-
-	- uni0651_uni0670 + uniFBA7
-
-	- uniFBA7 + uniFEDF 
-
-	- And uni0651_uni0670 + uniFEEA [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -398,49 +404,34 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni06BD.init
+
+	- _uniFBB2.001
+
+	- uni06BA.medi
+
 	- uni06BD.medi
-
-	- exclam
-
-	- _540
-
-	- uniFBB2.001
-
-	- dotamiddlear
-
-	- alrahem
-
-	- period
-
-	- two
 
 	- _539
 
-	- uni00A0 
+	- uniFC5B.fina
 
-	- And 50 more.
+	- threedotsdowncenterar
+
+	- alrhman
+
+	- uniFEA4_uniFBBD
+
+	- _twodotstah 
+
+	- And 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
-
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
- [code: contour-count]
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -483,14 +474,52 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uniFEFA (U+FEFA): B<<458.5,417.5>-<455.0,468.0>-<450.0,540.0>>/L<<450.0,540.0>--<447.0,513.0>> = 10.312687686660533 
 
 	* And uniFEFC (U+FEFC): B<<458.5,417.5>-<455.0,468.0>-<450.0,540.0>>/L<<450.0,540.0>--<447.0,513.0>> = 10.312687686660533 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoNaskhArabicUI[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoNaskhArabicUI[wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x2026 (HORIZONTAL ELLIPSIS)
+
+
+	- 0x002A (ASTERISK)
+
+
+	- 0x0023 (NUMBER SIGN)
+
+
+	- 0x002F (SOLIDUS)
+
+
+	- 0x005C (REVERSE SOLIDUS)
+
+
+	- 0x002D (HYPHEN-MINUS)
+
+
+	- 0x0028 (LEFT PARENTHESIS)
+
+
+	- 0x0029 (RIGHT PARENTHESIS)
+
+
+	- 0x007B (LEFT CURLY BRACKET)
+
+
+	- 0x007D (RIGHT CURLY BRACKET)
+ 
+
+	- And 304 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure variable fonts include an avar table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mandatory_avar_table">com.google.fonts/check/mandatory_avar_table</a>)</summary><div>
 
 
 * 🔥 **FAIL** This variable font does not have an avar table. [code: missing-avar]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
+
+
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render Noto Naskh Arabic UI [code: render-own-name]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -501,9 +530,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni0654 
+	- uni065B 
 
-	- And uni065B [code: unattached-dotted-circle-marks]
+	- And uni0654 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
@@ -512,28 +541,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- uniFEDF + uniFEE0
-
-	- uniFEE0 + uniFBA7
-
-	- uniFBA7 + uniFEE0
-
-	- uniFEE0 + uniFEEA
-
-	- uni0627 + uniFEDF
-
-	- uniFEE0 + uni0651_uni0670
-
-	- uni0651_uni0670 + uniFBA7
-
-	- uniFBA7 + uniFEDF 
-
-	- And uni0651_uni0670 + uniFEEA [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -547,37 +554,41 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- uni06BD.init
+
+	- _uniFBB2.001
+
+	- uni06BA.medi
+
 	- uni06BD.medi
-
-	- exclam
-
-	- _540
-
-	- uniFBB2.001
-
-	- dotamiddlear
-
-	- alrahem
-
-	- period
-
-	- two
 
 	- _539
 
-	- uni00A0 
+	- uniFC5B.fina
 
-	- And 50 more.
+	- threedotsdowncenterar
+
+	- alrhman
+
+	- uniFEA4_uniFBBD
+
+	- _twodotstah 
+
+	- And 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 4 | 14 | 32 | 439 | 26 | 380 | 0 |
-| 0% | 2% | 4% | 49% | 3% | 42% | 0% |
+| 0 | 22 | 28 | 443 | 26 | 376 | 0 |
+| 0% | 2% | 3% | 49% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
