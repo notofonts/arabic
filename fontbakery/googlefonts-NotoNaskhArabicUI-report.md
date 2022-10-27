@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.9
+Fontbakery version: 0.8.10
 
 <details><summary><b>[4] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> All tabular figures must have the same width across the RIBBI-family. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/tnum_horizontal_metrics">com.google.fonts/check/family/tnum_horizontal_metrics</a>)</summary><div>
 
@@ -54,7 +54,7 @@ Fontbakery version: 0.8.9
 	- 0x007D (RIGHT CURLY BRACKET)
  
 
-	- And 304 more.
+	- And 302 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
@@ -71,9 +71,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -91,25 +91,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni06BD.init
+	- _1518
 
-	- _uniFBB2.001
-
-	- uni06BA.medi
-
-	- uni06BD.medi
+	- _531.001
 
 	- _539
 
-	- uniFC5B.fina
+	- _540
 
-	- threedotsdowncenterar
+	- _782
 
-	- alrhman
+	- _786
 
-	- uniFEA4_uniFBBD
+	- _874
 
-	- _twodotstah 
+	- _986
+
+	- _twodotstah
+
+	- _uniFBB2.001 
 
 	- And 32 more.
 
@@ -210,7 +210,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	- 0x007D (RIGHT CURLY BRACKET)
  
 
-	- And 304 more.
+	- And 302 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
@@ -227,9 +227,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -254,25 +254,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni06BD.init
+	- _1518
 
-	- _uniFBB2.001
-
-	- uni06BA.medi
-
-	- uni06BD.medi
+	- _531.001
 
 	- _539
 
-	- uniFC5B.fina
+	- _540
 
-	- threedotsdowncenterar
+	- _782
 
-	- alrhman
+	- _786
 
-	- uniFEA4_uniFBBD
+	- _874
 
-	- _twodotstah 
+	- _986
+
+	- _twodotstah
+
+	- _uniFBB2.001 
 
 	- And 32 more.
 
@@ -367,7 +367,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	- 0x007D (RIGHT CURLY BRACKET)
  
 
-	- And 304 more.
+	- And 302 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
@@ -384,9 +384,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -404,25 +404,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni06BD.init
+	- _1518
 
-	- _uniFBB2.001
-
-	- uni06BA.medi
-
-	- uni06BD.medi
+	- _531.001
 
 	- _539
 
-	- uniFC5B.fina
+	- _540
 
-	- threedotsdowncenterar
+	- _782
 
-	- alrhman
+	- _786
 
-	- uniFEA4_uniFBBD
+	- _874
 
-	- _twodotstah 
+	- _986
+
+	- _twodotstah
+
+	- _uniFBB2.001 
 
 	- And 32 more.
 
@@ -474,7 +474,19 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uniFEFA (U+FEFA): B<<458.5,417.5>-<455.0,468.0>-<450.0,540.0>>/L<<450.0,540.0>--<447.0,513.0>> = 10.312687686660533 
 
 	* And uniFEFC (U+FEFC): B<<458.5,417.5>-<455.0,468.0>-<450.0,540.0>>/L<<450.0,540.0>--<447.0,513.0>> = 10.312687686660533 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoNaskhArabicUI[wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoNaskhArabicUI[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -509,13 +521,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	- 0x007D (RIGHT CURLY BRACKET)
  
 
-	- And 304 more.
+	- And 302 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure variable fonts include an avar table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mandatory_avar_table">com.google.fonts/check/mandatory_avar_table</a>)</summary><div>
-
-
-* 🔥 **FAIL** This variable font does not have an avar table. [code: missing-avar]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
 
 
@@ -530,17 +538,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni065B 
+	- uni0654 
 
-	- And uni0654 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
-
-
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 264. [code: invalid-default-instance-subfamily-nameid:264]
+	- And uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure variable fonts include an avar table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mandatory_avar_table">com.google.fonts/check/mandatory_avar_table</a>)</summary><div>
+
+
+* ⚠ **WARN** This variable font does not have an avar table. [code: missing-avar]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -554,25 +562,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni06BD.init
+	- _1518
 
-	- _uniFBB2.001
-
-	- uni06BA.medi
-
-	- uni06BD.medi
+	- _531.001
 
 	- _539
 
-	- uniFC5B.fina
+	- _540
 
-	- threedotsdowncenterar
+	- _782
 
-	- alrhman
+	- _786
 
-	- uniFEA4_uniFBBD
+	- _874
 
-	- _twodotstah 
+	- _986
+
+	- _twodotstah
+
+	- _uniFBB2.001 
 
 	- And 32 more.
 
@@ -587,8 +595,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 22 | 28 | 443 | 26 | 376 | 0 |
-| 0% | 2% | 3% | 49% | 3% | 42% | 0% |
+| 3 | 20 | 29 | 429 | 26 | 356 | 0 |
+| 0% | 2% | 3% | 50% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

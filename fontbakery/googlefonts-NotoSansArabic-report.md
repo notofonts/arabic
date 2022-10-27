@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.9
+Fontbakery version: 0.8.10
 
 <details><summary><b>[3] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
@@ -14,24 +14,20 @@ Fontbakery version: 0.8.9
 
 
 * 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabic-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansArabic-Black.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFEEE
-	* uni06FF.medi
-	* uniFDF4
-	* uni06FF
-	* uniFE94
-	* uniFD35
-	* uniFD8D
-	* uniFD82
-	* uniFEC3
-	* uniFC7C and 438 more.
+	* alefMaksura_hehar.init
+	* alefMaksura_hehar.medi
+	* dad_hehar.init
+	* dad_hehar.medi
+	* fehDotMovedbelowar
+	* fehDotMovedbelowar.fina
+	* fehDotMovedbelowar.medi
+	* hehAlefabovear.init.fina
+	* lamDotabove_alefar.fina
+	* lamDotabove_alefar.isol and 438 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -55,25 +51,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- lam_theh_meemar
+	- alefMaksura_hehar.init
 
-	- lam_yeh_meemar
-
-	- uniFEF5.isol
-
-	- uniFEFB.isol
-
-	- alefMaksura_rehar.fina
-
-	- lam_noon_meemar
-
-	- feh_yehHamzaabovear
+	- alefMaksura_hehar.medi
 
 	- alefMaksura_meemar
 
-	- khah_yehHamzaabovear
+	- alefMaksura_noonar.fina
 
-	- lamVabove_alefar.isol 
+	- alefMaksura_rehar.fina
+
+	- alefMaksura_zainar.fina
+
+	- beh_yehHamzaabovear
+
+	- dad_hehar.init
+
+	- dad_hehar.medi
+
+	- dad_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -189,24 +185,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* And 15 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansArabic-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSansArabic-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFEEE
-	* uni06FF.medi
-	* uniFDF4
-	* uni06FF
-	* uniFE94
-	* uniFD35
-	* uniFD8D
-	* uniFD82
-	* uniFEC3
-	* uniFC7C and 411 more.
+	* alefMaksura_hehar.init
+	* alefMaksura_hehar.medi
+	* dad_hehar.init
+	* dad_hehar.medi
+	* fehDotMovedbelowar.fina
+	* fehDotMovedbelowar.medi
+	* hehAlefabovear.init.fina
+	* lamDotabove_alefar.fina
+	* lamDotabove_alefar.isol
+	* lamThreedotsabove_alefar.fina and 411 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -223,25 +215,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- lam_theh_meemar
+	- alefMaksura_hehar.init
 
-	- lam_yeh_meemar
-
-	- uniFEF5.isol
-
-	- uniFEFB.isol
-
-	- alefMaksura_rehar.fina
-
-	- lam_noon_meemar
-
-	- feh_yehHamzaabovear
+	- alefMaksura_hehar.medi
 
 	- alefMaksura_meemar
 
-	- khah_yehHamzaabovear
+	- alefMaksura_noonar.fina
 
-	- lamVabove_alefar.isol 
+	- alefMaksura_rehar.fina
+
+	- alefMaksura_zainar.fina
+
+	- beh_yehHamzaabovear
+
+	- dad_hehar.init
+
+	- dad_hehar.medi
+
+	- dad_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -337,24 +329,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni0607 (U+0607): L<<614.0,383.0>--<482.0,384.0>> 
 
 	* And uni0659 (U+0659): L<<30.0,696.0>--<280.0,697.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabic-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansArabic-ExtraBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFEEE
-	* uni06FF.medi
-	* uniFDF4
-	* uni06FF
-	* uniFE94
-	* uniFD35
-	* uniFD8D
-	* uniFD82
-	* uniFEC3
-	* uniFC7C and 411 more.
+	* alefMaksura_hehar.init
+	* alefMaksura_hehar.medi
+	* dad_hehar.init
+	* dad_hehar.medi
+	* fehDotMovedbelowar.fina
+	* fehDotMovedbelowar.medi
+	* hehAlefabovear.init.fina
+	* lamDotabove_alefar.fina
+	* lamDotabove_alefar.isol
+	* lamThreedotsabove_alefar.fina and 411 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -378,25 +366,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- lam_theh_meemar
+	- alefMaksura_hehar.init
 
-	- lam_yeh_meemar
-
-	- uniFEF5.isol
-
-	- uniFEFB.isol
-
-	- alefMaksura_rehar.fina
-
-	- lam_noon_meemar
-
-	- feh_yehHamzaabovear
+	- alefMaksura_hehar.medi
 
 	- alefMaksura_meemar
 
-	- khah_yehHamzaabovear
+	- alefMaksura_noonar.fina
 
-	- lamVabove_alefar.isol 
+	- alefMaksura_rehar.fina
+
+	- alefMaksura_zainar.fina
+
+	- beh_yehHamzaabovear
+
+	- dad_hehar.init
+
+	- dad_hehar.medi
+
+	- dad_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -486,24 +474,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni0659 (U+0659): L<<30.0,696.0>--<282.0,697.0>> 
 
 	* And uniFE73 (U+FE73): L<<356.0,-79.0>--<355.0,-232.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabic-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansArabic-ExtraLight.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0608
 	* uni065D
-	* uniFDF0
-	* uni08AD
 	* uni06DE
-	* uniFBAF
-	* uni077B.fina
 	* uni0758
-	* uni2E41
-	* uniFDFD
-	* uni077A.fina and 5 more.
+	* uni0758.fina
+	* uni077A.fina
+	* uni077B.fina
+	* uni08AD
+	* uni204F
+	* uni2E41 and 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -527,25 +511,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- lam_theh_meemar
+	- alefMaksura_hehar.init
 
-	- lam_yeh_meemar
-
-	- uniFEF5.isol
-
-	- uniFEFB.isol
-
-	- alefMaksura_rehar.fina
-
-	- lam_noon_meemar
-
-	- feh_yehHamzaabovear
+	- alefMaksura_hehar.medi
 
 	- alefMaksura_meemar
 
-	- khah_yehHamzaabovear
+	- alefMaksura_noonar.fina
 
-	- lamVabove_alefar.isol 
+	- alefMaksura_rehar.fina
+
+	- alefMaksura_zainar.fina
+
+	- beh_yehHamzaabovear
+
+	- dad_hehar.init
+
+	- dad_hehar.medi
+
+	- dad_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -631,24 +615,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 	* uni06E9 (U+06E9): L<<391.0,174.0>--<390.0,422.0>> 
 
 	* And uni06E9 (U+06E9): L<<423.0,404.0>--<424.0,169.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabic-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansArabic-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni06FF
-	* uniFC52
+	* uni0608
 	* uni065D
-	* uni077A.init
-	* uni08A7.fina
-	* uni08A7.init
 	* uni06BE
-	* uniFC53
-	* uniFDF0
-	* uni08AD and 30 more.
+	* uni06DB
+	* uni06DD
+	* uni06DE
+	* uni06FF
+	* uni06FF.init
+	* uni0758
+	* uni0758.fina and 30 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -672,25 +652,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- lam_theh_meemar
+	- alefMaksura_hehar.init
 
-	- lam_yeh_meemar
-
-	- uniFEF5.isol
-
-	- uniFEFB.isol
-
-	- alefMaksura_rehar.fina
-
-	- lam_noon_meemar
-
-	- feh_yehHamzaabovear
+	- alefMaksura_hehar.medi
 
 	- alefMaksura_meemar
 
-	- khah_yehHamzaabovear
+	- alefMaksura_noonar.fina
 
-	- lamVabove_alefar.isol 
+	- alefMaksura_rehar.fina
+
+	- alefMaksura_zainar.fina
+
+	- beh_yehHamzaabovear
+
+	- dad_hehar.init
+
+	- dad_hehar.medi
+
+	- dad_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -784,24 +764,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni0659 (U+0659): L<<30.0,668.0>--<254.0,669.0>> 
 
 	* And uni06E9 (U+06E9): L<<402.0,186.0>--<401.0,423.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabic-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansArabic-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFEEE
-	* uni06FF.medi
-	* uniFDF4
-	* uni06FF
-	* uniFEC3
-	* uniFC7C
-	* uniFC52
-	* uniFEF9
-	* uni08A6.init
-	* hehAlefabovear.init.fina and 250 more.
+	* dad_hehar.init
+	* dad_hehar.medi
+	* fehDotMovedbelowar.fina
+	* fehDotMovedbelowar.medi
+	* hehAlefabovear.init.fina
+	* lamDotabove_alefar.fina
+	* lamDotabove_alefar.isol
+	* lamThreedotsabove_alefar.fina
+	* lamThreedotsabove_alefar.isol
+	* lamThreedotsbelow_alefar.fina and 250 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -825,25 +801,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- lam_theh_meemar
+	- alefMaksura_hehar.init
 
-	- lam_yeh_meemar
-
-	- uniFEF5.isol
-
-	- uniFEFB.isol
-
-	- alefMaksura_rehar.fina
-
-	- lam_noon_meemar
-
-	- feh_yehHamzaabovear
+	- alefMaksura_hehar.medi
 
 	- alefMaksura_meemar
 
-	- khah_yehHamzaabovear
+	- alefMaksura_noonar.fina
 
-	- lamVabove_alefar.isol 
+	- alefMaksura_rehar.fina
+
+	- alefMaksura_zainar.fina
+
+	- beh_yehHamzaabovear
+
+	- dad_hehar.init
+
+	- dad_hehar.medi
+
+	- dad_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -937,24 +913,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni066D (U+066D): L<<12.0,287.0>--<191.0,286.0>> 
 
 	* And uni066D (U+066D): L<<305.0,286.0>--<486.0,287.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansArabic-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSansArabic-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni06FF
-	* uniFC52
-	* uniFEF9
-	* uni08A6.init
+	* fehDotMovedbelowar.fina
 	* hehAlefabovear.init.fina
-	* uniFED2
-	* uni060F
-	* uni06AB
-	* uni065D
-	* uni077A.init and 106 more.
+	* lamDotabove_alefar.fina
+	* lamThreedotsabove_alefar.fina
+	* lamThreedotsbelow_alefar.fina
+	* lamVabove_alefar.fina
+	* lamVabove_alefar.isol
+	* lam_alefWaslaar.fina
+	* lam_alefWavyhamzaabovear.fina
+	* lam_alefWavyhamzabelowar.fina and 106 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -971,25 +943,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- lam_theh_meemar
+	- alefMaksura_hehar.init
 
-	- lam_yeh_meemar
-
-	- uniFEF5.isol
-
-	- uniFEFB.isol
-
-	- alefMaksura_rehar.fina
-
-	- lam_noon_meemar
-
-	- feh_yehHamzaabovear
+	- alefMaksura_hehar.medi
 
 	- alefMaksura_meemar
 
-	- khah_yehHamzaabovear
+	- alefMaksura_noonar.fina
 
-	- lamVabove_alefar.isol 
+	- alefMaksura_rehar.fina
+
+	- alefMaksura_zainar.fina
+
+	- beh_yehHamzaabovear
+
+	- dad_hehar.init
+
+	- dad_hehar.medi
+
+	- dad_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -1063,24 +1035,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 	* uni0607 (U+0607): L<<602.0,383.0>--<470.0,384.0>> 
 
 	* And uni0659 (U+0659): L<<30.0,681.0>--<254.0,682.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabic-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansArabic-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uniFEEE
-	* uni06FF.medi
-	* uniFDF4
-	* uni06FF
-	* uniFE94
-	* uniFD8D
-	* uniFEC3
-	* uniFC7C
-	* uniFC52
-	* uniFEF9 and 325 more.
+	* alefMaksura_hehar.init
+	* alefMaksura_hehar.medi
+	* dad_hehar.init
+	* dad_hehar.medi
+	* fehDotMovedbelowar.fina
+	* fehDotMovedbelowar.medi
+	* hehAlefabovear.init.fina
+	* lamDotabove_alefar.fina
+	* lamDotabove_alefar.isol
+	* lamThreedotsabove_alefar.fina and 325 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1104,25 +1072,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- lam_theh_meemar
+	- alefMaksura_hehar.init
 
-	- lam_yeh_meemar
-
-	- uniFEF5.isol
-
-	- uniFEFB.isol
-
-	- alefMaksura_rehar.fina
-
-	- lam_noon_meemar
-
-	- feh_yehHamzaabovear
+	- alefMaksura_hehar.medi
 
 	- alefMaksura_meemar
 
-	- khah_yehHamzaabovear
+	- alefMaksura_noonar.fina
 
-	- lamVabove_alefar.isol 
+	- alefMaksura_rehar.fina
+
+	- alefMaksura_zainar.fina
+
+	- beh_yehHamzaabovear
+
+	- dad_hehar.init
+
+	- dad_hehar.medi
+
+	- dad_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -1220,23 +1188,19 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni0607 (U+0607): L<<609.0,383.0>--<477.0,384.0>> 
 
 	* And uni0659 (U+0659): L<<30.0,690.0>--<270.0,691.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabic-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansArabic-Thin.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0608
 	* uni065D
-	* uniFDF0
-	* uni077B.fina
-	* uni2E41
-	* uniFDFD
 	* uni077A.fina
+	* uni077B.fina
+	* uni204F
+	* uni2E41
 	* uniFBB1
-	* uniFDF1
-	* uni0608 and uni204F
+	* uniFDF0
+	* uniFDF1 and uniFDFD
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1258,25 +1222,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- lam_theh_meemar
+	- alefMaksura_hehar.init
 
-	- lam_yeh_meemar
-
-	- uniFEF5.isol
-
-	- uniFEFB.isol
-
-	- alefMaksura_rehar.fina
-
-	- lam_noon_meemar
-
-	- feh_yehHamzaabovear
+	- alefMaksura_hehar.medi
 
 	- alefMaksura_meemar
 
-	- khah_yehHamzaabovear
+	- alefMaksura_noonar.fina
 
-	- lamVabove_alefar.isol 
+	- alefMaksura_rehar.fina
+
+	- alefMaksura_zainar.fina
+
+	- beh_yehHamzaabovear
+
+	- dad_hehar.init
+
+	- dad_hehar.medi
+
+	- dad_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -1372,14 +1336,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni06E9 (U+06E9): L<<384.0,166.0>--<383.0,422.0>> 
 
 	* And uni06E9 (U+06E9): L<<407.0,409.0>--<408.0,161.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] NotoSansArabic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSansArabic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
 
 
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 283. [code: invalid-default-instance-subfamily-nameid:283]
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1394,25 +1362,25 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- lam_theh_meemar
+	- alefMaksura_hehar.init
 
-	- lam_yeh_meemar
-
-	- uniFEF5.isol
-
-	- uniFEFB.isol
-
-	- alefMaksura_rehar.fina
-
-	- lam_noon_meemar
-
-	- feh_yehHamzaabovear
+	- alefMaksura_hehar.medi
 
 	- alefMaksura_meemar
 
-	- khah_yehHamzaabovear
+	- alefMaksura_noonar.fina
 
-	- lamVabove_alefar.isol 
+	- alefMaksura_rehar.fina
+
+	- alefMaksura_zainar.fina
+
+	- beh_yehHamzaabovear
+
+	- dad_hehar.init
+
+	- dad_hehar.medi
+
+	- dad_yehHamzaabovear 
 
 	- And 63 more.
 
@@ -1435,7 +1403,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 10 | 4 | 102 | 1120 | 62 | 917 | 0 |
+| 3 | 3 | 102 | 1088 | 62 | 877 | 0 |
 | 0% | 0% | 5% | 51% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
