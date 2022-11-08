@@ -40,13 +40,13 @@ Fontbakery version: 0.8.10
 	* uni0608
 	* uni0613
 	* uni0616
-	* uni06D6
-	* uni06D7
-	* uni06E5
-	* uni077A.init
-	* uni077A.medi
-	* uni077B.init
-	* uni077B.medi and 6 more.
+	* uni0674
+	* uni0675
+	* uni0676
+	* uni0677
+	* uni0678
+	* uni0678.init
+	* uni06D6 and 12 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -216,12 +216,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* uni0608
+	* uni0674
+	* uni0675
+	* uni0676
+	* uni0677
+	* uni0678
+	* uni0678.init
 	* uni06E5
 	* uni077A.init
-	* uni077A.medi
-	* uni077B.init
-	* uni077B.medi
-	* uni08F3 and uniFDFD
+	* uni077A.medi and 4 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -382,12 +387,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* uni0608
+	* uni0674
+	* uni0675
+	* uni0676
+	* uni0677
+	* uni0678
+	* uni0678.init
 	* uni06E5
 	* uni077A.init
-	* uni077A.medi
-	* uni077B.init
-	* uni077B.medi
-	* uni08F3 and uniFDFD
+	* uni077A.medi and 4 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 

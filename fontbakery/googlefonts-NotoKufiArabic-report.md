@@ -39,7 +39,11 @@ Fontbakery version: 0.8.10
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0675
 	* uni0675.fina
+	* uni0676
+	* uni0677
+	* uni0678
 	* uni067C
 	* uni067C.fina
 	* uni067C.init
@@ -163,7 +167,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0675
 	* uni0675.fina
+	* uni0676
+	* uni0677
+	* uni0678
 	* uni067C
 	* uni067C.fina
 	* uni067C.init
@@ -280,7 +288,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0675
 	* uni0675.fina
+	* uni0676
+	* uni0677
+	* uni0678
 	* uni067C
 	* uni067C.fina
 	* uni067C.init
@@ -387,7 +399,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* Uogonek (U+0172): L<<678.0,714.0>--<677.0,268.0>> 
 
 	* And uni06BC (U+06BC): L<<706.0,499.0>--<705.0,46.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] NotoKufiArabic-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoKufiArabic-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -408,6 +420,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * 🔥 **FAIL** Noto Kufi Arabic Regular: OS/2 sTypoDescender is -738 when it should be -615 [code: bad-typo-descender]
 * 🔥 **FAIL** Noto Kufi Arabic Regular: hhea Ascender is 1374 when it should be 1282 [code: bad-hhea-ascender]
 * 🔥 **FAIL** Noto Kufi Arabic Regular: hhea Descender is -738 when it should be -615 [code: bad-hhea-descender]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0675
+	* uni0676
+	* uni0677 and uni0678
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -500,7 +519,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0675
 	* uni0675.fina
+	* uni0676
+	* uni0677 and uni0678
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -593,7 +615,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0675
 	* uni0675.fina
+	* uni0676
+	* uni0677
+	* uni0678
 	* uni067C
 	* uni067C.fina
 	* uni067C.init
@@ -703,7 +729,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0675
 	* uni0675.fina
+	* uni0676
+	* uni0677
+	* uni0678
 	* uni067C
 	* uni067C.fina
 	* uni067C.init
@@ -763,7 +793,11 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0675
 	* uni0675.fina
+	* uni0676
+	* uni0677
+	* uni0678
 	* uni067C
 	* uni067C.fina
 	* uni067C.init
@@ -858,7 +892,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* Wgrave (U+1E80): B<<258.0,184.5>-<264.0,152.0>-<267.0,127.0>>/B<<267.0,127.0>-<270.0,153.0>-<276.0,185.5>> = 13.424718067808929 
 
 	* And Wgrave (U+1E80): B<<678.0,183.5>-<684.0,151.0>-<687.0,127.0>>/B<<687.0,127.0>-<690.0,152.0>-<696.0,184.5>> = 13.967789761532726 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[8] NotoKufiArabic-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoKufiArabic-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -879,6 +913,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * 🔥 **FAIL** Noto Kufi Arabic Regular: OS/2 sTypoDescender is -738 when it should be -615 [code: bad-typo-descender]
 * 🔥 **FAIL** Noto Kufi Arabic Regular: hhea Ascender is 1374 when it should be 1282 [code: bad-hhea-ascender]
 * 🔥 **FAIL** Noto Kufi Arabic Regular: hhea Descender is -738 when it should be -615 [code: bad-hhea-descender]
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+
+
+* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni0675
+	* uni0676
+	* uni0677 and uni0678
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -995,7 +1036,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 13 | 13 | 59 | 1090 | 62 | 898 | 0 |
+| 13 | 13 | 61 | 1090 | 62 | 896 | 0 |
 | 1% | 1% | 3% | 51% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
