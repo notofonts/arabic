@@ -1,0 +1,11 @@
+{
+  "tests": [{
+    "input": "؆؇؆؇",
+    "features": {
+      "dlig": true
+    },
+    "expectation": "uni0607=3+622|uni0606=2+622|uni0607=1+622|uni0606=0+622",
+    "only": "NotoSansArabic-Regular.ttf",
+    "note": "Issue #13"
+  }]
+}
