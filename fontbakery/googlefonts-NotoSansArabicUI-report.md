@@ -14,15 +14,7 @@ Fontbakery version: 0.8.10
 
 
 * 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[14] NotoSansArabicUI-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Black.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Bold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraLight.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Light.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Medium.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Regular.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-SemiBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Thin.ttf', 'fonts/NotoSansArabicUI/googlefonts/variable-ttf/NotoSansArabicUI-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -208,15 +200,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* And 15 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSansArabicUI-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Black.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Bold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraLight.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Light.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Medium.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Regular.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-SemiBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Thin.ttf', 'fonts/NotoSansArabicUI/googlefonts/variable-ttf/NotoSansArabicUI-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansArabicUI-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -375,15 +359,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni0607 (U+0607): L<<614.0,383.0>--<482.0,384.0>> 
 
 	* And uni0659 (U+0659): L<<30.0,696.0>--<280.0,697.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSansArabicUI-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Black.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Bold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraLight.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Light.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Medium.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Regular.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-SemiBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Thin.ttf', 'fonts/NotoSansArabicUI/googlefonts/variable-ttf/NotoSansArabicUI-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -545,15 +521,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni0659 (U+0659): L<<30.0,696.0>--<282.0,697.0>> 
 
 	* And uniFE73 (U+FE73): L<<356.0,-79.0>--<355.0,-232.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSansArabicUI-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Black.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Bold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraLight.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Light.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Medium.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Regular.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-SemiBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Thin.ttf', 'fonts/NotoSansArabicUI/googlefonts/variable-ttf/NotoSansArabicUI-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -701,15 +669,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 	* uni06E9 (U+06E9): L<<391.0,174.0>--<390.0,422.0>> 
 
 	* And uni06E9 (U+06E9): L<<423.0,404.0>--<424.0,169.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSansArabicUI-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Black.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Bold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraLight.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Light.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Medium.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Regular.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-SemiBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Thin.ttf', 'fonts/NotoSansArabicUI/googlefonts/variable-ttf/NotoSansArabicUI-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -875,15 +835,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni0659 (U+0659): L<<30.0,668.0>--<254.0,669.0>> 
 
 	* And uni06E9 (U+06E9): L<<402.0,186.0>--<401.0,423.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSansArabicUI-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Black.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Bold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraLight.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Light.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Medium.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Regular.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-SemiBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Thin.ttf', 'fonts/NotoSansArabicUI/googlefonts/variable-ttf/NotoSansArabicUI-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -1049,15 +1001,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni066D (U+066D): L<<12.0,287.0>--<191.0,286.0>> 
 
 	* And uni066D (U+066D): L<<305.0,286.0>--<486.0,287.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSansArabicUI-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Black.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Bold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraLight.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Light.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Medium.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Regular.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-SemiBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Thin.ttf', 'fonts/NotoSansArabicUI/googlefonts/variable-ttf/NotoSansArabicUI-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansArabicUI-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -1192,15 +1136,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 	* uni0607 (U+0607): L<<602.0,383.0>--<470.0,384.0>> 
 
 	* And uni0659 (U+0659): L<<30.0,681.0>--<254.0,682.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSansArabicUI-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Black.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Bold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraLight.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Light.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Medium.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Regular.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-SemiBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Thin.ttf', 'fonts/NotoSansArabicUI/googlefonts/variable-ttf/NotoSansArabicUI-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -1370,15 +1306,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni0607 (U+0607): L<<609.0,383.0>--<477.0,384.0>> 
 
 	* And uni0659 (U+0659): L<<30.0,690.0>--<270.0,691.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSansArabicUI-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Black.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Bold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraLight.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Light.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Medium.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Regular.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-SemiBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Thin.ttf', 'fonts/NotoSansArabicUI/googlefonts/variable-ttf/NotoSansArabicUI-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -1546,7 +1474,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni06E9 (U+06E9): L<<384.0,166.0>--<383.0,422.0>> 
 
 	* And uni06E9 (U+06E9): L<<407.0,409.0>--<408.0,161.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSansArabicUI-MM[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-MM[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -1562,14 +1490,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * 🔥 **FAIL** Expected "NotoSansArabicUI[wdth,wght].ttf. Got NotoSansArabicUI-MM[wdth,wght].ttf. [code: bad-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Black.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Bold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-ExtraLight.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Light.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Medium.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Regular.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-SemiBold.ttf', 'fonts/NotoSansArabicUI/googlefonts/ttf/NotoSansArabicUI-Thin.ttf', 'fonts/NotoSansArabicUI/googlefonts/variable-ttf/NotoSansArabicUI-MM[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1662,8 +1582,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 44 | 94 | 1107 | 62 | 825 | 0 |
-| 0% | 2% | 4% | 52% | 3% | 39% | 0% |
+| 3 | 24 | 94 | 1097 | 62 | 855 | 0 |
+| 0% | 1% | 4% | 51% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
