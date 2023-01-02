@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.10
+Fontbakery version: 0.8.11a8
 
 <details><summary><b>[3] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
@@ -14,7 +14,11 @@ Fontbakery version: 0.8.10
 
 
 * 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansArabicUI-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -200,7 +204,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* And 15 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansArabicUI-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -359,7 +367,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni0607 (U+0607): L<<614.0,383.0>--<482.0,384.0>> 
 
 	* And uni0659 (U+0659): L<<30.0,696.0>--<280.0,697.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansArabicUI-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -521,7 +533,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni0659 (U+0659): L<<30.0,696.0>--<282.0,697.0>> 
 
 	* And uniFE73 (U+FE73): L<<356.0,-79.0>--<355.0,-232.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansArabicUI-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -669,7 +685,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 	* uni06E9 (U+06E9): L<<391.0,174.0>--<390.0,422.0>> 
 
 	* And uni06E9 (U+06E9): L<<423.0,404.0>--<424.0,169.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansArabicUI-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -835,7 +855,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni0659 (U+0659): L<<30.0,668.0>--<254.0,669.0>> 
 
 	* And uni06E9 (U+06E9): L<<402.0,186.0>--<401.0,423.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansArabicUI-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -1001,7 +1025,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni066D (U+066D): L<<12.0,287.0>--<191.0,286.0>> 
 
 	* And uni066D (U+066D): L<<305.0,286.0>--<486.0,287.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansArabicUI-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -1136,7 +1164,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 	* uni0607 (U+0607): L<<602.0,383.0>--<470.0,384.0>> 
 
 	* And uni0659 (U+0659): L<<30.0,681.0>--<254.0,682.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansArabicUI-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -1306,7 +1338,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* uni0607 (U+0607): L<<609.0,383.0>--<477.0,384.0>> 
 
 	* And uni0659 (U+0659): L<<30.0,690.0>--<270.0,691.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansArabicUI-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1213, but got 1069 instead [code: ascent]
@@ -1474,7 +1510,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni06E9 (U+06E9): L<<384.0,166.0>--<383.0,422.0>> 
 
 	* And uni06E9 (U+06E9): L<<407.0,409.0>--<408.0,161.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansArabicUI-MM[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansArabicUI-MM[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -1490,6 +1526,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * 🔥 **FAIL** Expected "NotoSansArabicUI[wdth,wght].ttf. Got NotoSansArabicUI-MM[wdth,wght].ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1565,6 +1605,28 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
+
+
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 5 start point differs in glyph 'uniFD3E' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d7017f50>
+
+	- Contour 5 start point differs in glyph 'uniFD3E' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c310>
+
+	- Contour 2 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c050>
+
+	- Contour 3 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c050>
+
+	- Contour 2 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c450>
+
+	- Contour 3 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c450>
+
+	- Contour 2 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c050>
+
+	- Contour 3 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c050>
+
+	- Contour 2 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c450> 
+
+	- And Contour 3 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c450> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -1578,12 +1640,13 @@ Use -F or --full-lists to disable shortening of long lists.
 
 Use -F or --full-lists to disable shortening of long lists. [code: non-mark-chars]
 </div></details><br></div></details>
+
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 24 | 94 | 1097 | 62 | 855 | 0 |
-| 0% | 1% | 4% | 51% | 3% | 40% | 0% |
+| 3 | 34 | 95 | 1125 | 62 | 876 | 0 |
+| 0% | 2% | 4% | 51% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
