@@ -1510,7 +1510,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni06E9 (U+06E9): L<<384.0,166.0>--<383.0,422.0>> 
 
 	* And uni06E9 (U+06E9): L<<407.0,409.0>--<408.0,161.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSansArabicUI-MM[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansArabicUI[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -1522,10 +1522,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
-
-
-* 🔥 **FAIL** Expected "NotoSansArabicUI[wdth,wght].ttf. Got NotoSansArabicUI-MM[wdth,wght].ttf. [code: bad-filename]
 </div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -1608,25 +1604,25 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 5 start point differs in glyph 'uniFD3E' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d7017f50>
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 5 start point differs in glyph 'uniFD3E' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c26ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c3f8d0>
 
-	- Contour 5 start point differs in glyph 'uniFD3E' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c310>
+	- Contour 5 start point differs in glyph 'uniFD3E' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c26ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c3fc50>
 
-	- Contour 2 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c050>
+	- Contour 2 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c26ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c3f910>
 
-	- Contour 3 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c050>
+	- Contour 3 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c26ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c3f910>
 
-	- Contour 2 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c450>
+	- Contour 2 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c26ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c3fd90>
 
-	- Contour 3 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c450>
+	- Contour 3 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c26ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c3fd90>
 
-	- Contour 2 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c050>
+	- Contour 2 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c26ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c3f910>
 
-	- Contour 3 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c050>
+	- Contour 3 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c26ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c3f910>
 
-	- Contour 2 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c450> 
+	- Contour 2 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c26ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c3fd90> 
 
-	- And Contour 3 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d71ff5d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f94d701c450> [code: interpolation-issues]
+	- And Contour 3 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c26ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4532c3fd90> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -1645,7 +1641,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 34 | 95 | 1125 | 62 | 876 | 0 |
+| 3 | 33 | 95 | 1125 | 62 | 877 | 0 |
 | 0% | 2% | 4% | 51% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:

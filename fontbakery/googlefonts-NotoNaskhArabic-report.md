@@ -545,7 +545,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uni0602' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8b7fd56a10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8b7fd561d0> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uni0602' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f50a4032bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f50a4032e10> [code: interpolation-issues]
 </div></details><br></div></details>
 
 ### Summary
