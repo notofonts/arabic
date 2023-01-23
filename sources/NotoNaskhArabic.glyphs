@@ -2,7 +2,7 @@
 .appVersion = "3169";
 DisplayStrings = (
 "/gafRing-ar/gaf-ar",
-"/keheh-ar/gaf-ar"
+"/vabove-ar/vabove-ar.near"
 );
 classes = (
 {
@@ -257,6 +257,11 @@ lookup decomposition {
   sub dalDotbelow-ar by dal-ar dotbelow-ar;
   sub dalDotbelowTah-ar by dal-ar dotbelow-ar tahabove-ar;
   sub dalThreedotsbelow-ar by dal-ar threedotsdownbelow-ar;
+  sub dalThreedotsdown-ar by dal-ar threedotsdownabove-ar;
+  sub dalFourdots-ar by dal-ar fourdotsabove-ar;
+  sub dalVinvertedabove-ar by dal-ar vinvertedabove-ar;
+  sub dalTwodotsverticalbelowTah-ar by dal-ar twodotsverticalbelow-ar tahabove-ar;
+  sub dalVinvertedbelow-ar by dal-ar vinvertedbelow-ar;
 
   # Heh family
   sub hehgoalHamzaabove-ar by hehgoal-ar hamzaabove-ar.twentypercent;
@@ -285,7 +290,7 @@ lookup decomposition {
   sub tehThreedotsupbelow-ar by teh-ar threedotsupbelow-ar;
   sub tehRing-ar by teh-ar ring-ar;
   sub behThreedotshorizontalbelow-ar by behDotless-ar threedotshorizontalbelow-ar;
-  sub behVabove-ar by behDotless-ar vabove-ar;
+  sub behVabove-ar by behDotless-ar vabove-ar.near;
   sub behVbelow-ar by behDotless-ar vbelow-ar;
   sub behVinvertedbelow-ar by behDotless-ar vinvertedbelow-ar;
   sub behThreedotsupabove-ar by beh-ar threedotsupabove-ar;
@@ -349,7 +354,7 @@ lookup decomposition {
   sub kafDotabove-ar by kaf-ar dotabove-ar;
 
   # Reh family
-  sub rehv-ar by reh-ar vabove-ar;
+  sub rehv-ar by reh-ar vabove-ar.near;
   sub rehVbelow-ar by reh-ar vbelow-ar;
   sub zainVinvertedabove-ar by zain-ar vinvertedabove-ar;
   sub rehTwodots-ar by reh-ar twodotshorizontalabove-ar;
@@ -502,7 +507,7 @@ sub yehHamzaabove_meem-ar by yehHamzaabove_meem-ar.init;
 sub yehKashmiri-ar by yehKashmiri-ar.init;
 sub yehThreeabove-farsi by yehThreeabove-farsi.init;
 sub yehTwoabove-farsi by yehTwoabove-farsi.init;
-sub yehVabove-ar by yeh-ar.init vabove-ar;
+sub yehVabove-ar by yeh-ar.init vabove-ar.near;
 sub zah-ar by zah-ar.init;
 sub zah_meem-ar by zah_meem-ar.init;
 ";
@@ -605,7 +610,7 @@ sub yehHamzaabove_meem-ar by yehHamzaabove_meem-ar.medi;
 sub yehKashmiri-ar by yehKashmiri-ar.medi;
 sub yehThreeabove-farsi by yehThreeabove-farsi.medi;
 sub yehTwoabove-farsi by yehTwoabove-farsi.medi;
-sub yehVabove-ar by yeh-ar.medi vabove-ar;
+sub yehVabove-ar by yeh-ar.medi vabove-ar.near;
 sub zah-ar by zah-ar.medi;
 sub zah_meem-ar by zah_meem-ar.medi;
 
@@ -643,12 +648,7 @@ sub dad_reh-ar by dad_reh-ar.fina;
 sub dad_yeh-ar by dad_yeh-ar.fina;
 sub dahal-ar by dahal-ar.fina;
 sub dal-ar by dal-ar.fina;
-sub dalFourdots-ar by dalFourdots-ar.fina;
 sub dalRing-ar by dalRing-ar.fina;
-sub dalThreedotsdown-ar by dalThreedotsdown-ar.fina;
-sub dalTwodotsverticalbelowTah-ar by dalTwodotsverticalbelowTah-ar.fina;
-sub dalVinvertedabove-ar by dalVinvertedabove-ar.fina;
-sub dalVinvertedbelow-ar by dalVinvertedbelow-ar.fina;
 sub ddahal-ar by ddahal-ar.fina;
 sub ddal-ar by ddal-ar.fina;
 sub dul-ar by dul-ar.fina;
@@ -813,7 +813,7 @@ sub yehTail-ar by yehTail-ar.fina;
 sub yehThreeabove-farsi by yehThreeabove-farsi.fina;
 sub yehThreedotsbelow-ar by yehThreedotsbelow-ar.fina;
 sub yehTwoabove-farsi by yehTwoabove-farsi.fina;
-sub yehVabove-ar by alefMaksura-ar.fina vabove-ar;
+sub yehVabove-ar by alefMaksura-ar.fina vabove-ar.near;
 sub yu-ar by yu-ar.fina;
 sub zah-ar by zah-ar.fina;
 sub zain-ar by zain-ar.fina;
@@ -12015,73 +12015,6 @@ width = 435;
 unicode = 068F;
 },
 {
-glyphname = "dalThreedotsdown-ar.fina";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{214, -100}";
-},
-{
-name = bottom.dot;
-position = "{215, -21}";
-},
-{
-name = top.far;
-position = "{217, 638}";
-},
-{
-name = top.near;
-position = "{217, 638}";
-}
-);
-components = (
-{
-name = "dal-ar.fina";
-},
-{
-name = "threedotsdownabove-ar";
-transform = "{1, 0, 0, 1, -2, 96}";
-}
-);
-layerId = master01;
-width = 474;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{236, -100}";
-},
-{
-name = bottom.dot;
-position = "{237, -18}";
-},
-{
-name = top.far;
-position = "{216, 692}";
-},
-{
-name = top.near;
-position = "{216, 692}";
-}
-);
-components = (
-{
-name = "dal-ar.fina";
-},
-{
-name = "threedotsdownabove-ar";
-transform = "{1, 0, 0, 1, -10, 115}";
-}
-);
-layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-width = 485;
-}
-);
-},
-{
 glyphname = "dalFourdots-ar";
 layers = (
 {
@@ -12153,73 +12086,6 @@ width = 458;
 unicode = 0690;
 },
 {
-glyphname = "dalFourdots-ar.fina";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{214, -100}";
-},
-{
-name = bottom.dot;
-position = "{215, -21}";
-},
-{
-name = top.far;
-position = "{213, 663}";
-},
-{
-name = top.near;
-position = "{213, 663}";
-}
-);
-components = (
-{
-name = "dal-ar.fina";
-},
-{
-name = "fourdotsabove-ar";
-transform = "{1, 0, 0, 1, 40, 143}";
-}
-);
-layerId = master01;
-width = 474;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{236, -100}";
-},
-{
-name = bottom.dot;
-position = "{237, -18}";
-},
-{
-name = top.far;
-position = "{211, 724}";
-},
-{
-name = top.near;
-position = "{211, 724}";
-}
-);
-components = (
-{
-name = "dal-ar.fina";
-},
-{
-name = "fourdotsabove-ar";
-transform = "{1, 0, 0, 1, 17, 68}";
-}
-);
-layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-width = 485;
-}
-);
-},
-{
 glyphname = "dalVinvertedabove-ar";
 layers = (
 {
@@ -12288,75 +12154,6 @@ width = 435;
 }
 );
 unicode = 06EE;
-},
-{
-glyphname = "dalVinvertedabove-ar.fina";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{214, -100}";
-},
-{
-name = bottom.dot;
-position = "{215, -21}";
-},
-{
-name = top.far;
-position = "{226, 638}";
-},
-{
-name = top.near;
-position = "{227, 406}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "dal-ar.fina";
-},
-{
-name = "vinvertedabove-ar";
-transform = "{1, 0, 0, 1, 123, 110}";
-}
-);
-layerId = master01;
-width = 474;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{236, -100}";
-},
-{
-name = bottom.dot;
-position = "{237, -18}";
-},
-{
-name = top.far;
-position = "{219, 685}";
-},
-{
-name = top.near;
-position = "{226, 456}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "dal-ar.fina";
-},
-{
-name = "vinvertedabove-ar";
-transform = "{1, 0, 0, 1, 117, 154}";
-}
-);
-layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-width = 485;
-}
-);
 },
 {
 glyphname = "dalTwodotsverticalbelowTah-ar";
@@ -12440,84 +12237,6 @@ width = 435;
 unicode = 0759;
 },
 {
-glyphname = "dalTwodotsverticalbelowTah-ar.fina";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{228, -293}";
-},
-{
-name = bottom.dot;
-position = "{215, -21}";
-},
-{
-name = top.far;
-position = "{244, 682}";
-},
-{
-name = top.near;
-position = "{227, 406}";
-}
-);
-components = (
-{
-name = "dal-ar.fina";
-},
-{
-alignment = 1;
-name = "twodotsverticalbelow-ar";
-transform = "{1, 0, 0, 1, 98, 25}";
-},
-{
-name = "tahabove-ar";
-transform = "{1, 0, 0, 1, 68, -287}";
-}
-);
-layerId = master01;
-width = 474;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{254, -284}";
-},
-{
-name = bottom.dot;
-position = "{237, -18}";
-},
-{
-name = top.far;
-position = "{230, 722}";
-},
-{
-name = top.near;
-position = "{226, 456}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "dal-ar.fina";
-},
-{
-alignment = 1;
-name = "twodotsverticalbelow-ar";
-transform = "{1, 0, 0, 1, 136, 30}";
-},
-{
-name = "tahabove-ar";
-transform = "{1, 0, 0, 1, 53, -247}";
-}
-);
-layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-width = 485;
-}
-);
-},
-{
 glyphname = "dalVinvertedbelow-ar";
 layers = (
 {
@@ -12586,75 +12305,6 @@ width = 435;
 }
 );
 unicode = 075A;
-},
-{
-glyphname = "dalVinvertedbelow-ar.fina";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{217, -242}";
-},
-{
-name = bottom.dot;
-position = "{215, -21}";
-},
-{
-name = top.far;
-position = "{226, 587}";
-},
-{
-name = top.near;
-position = "{227, 406}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "dal-ar.fina";
-},
-{
-name = "vinvertedbelow-ar";
-transform = "{1, 0, 0, 1, 105, 29}";
-}
-);
-layerId = master01;
-width = 474;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{243, -225}";
-},
-{
-name = bottom.dot;
-position = "{237, -18}";
-},
-{
-name = top.far;
-position = "{229, 637}";
-},
-{
-name = top.near;
-position = "{226, 456}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "dal-ar.fina";
-},
-{
-name = "vinvertedbelow-ar";
-transform = "{1, 0, 0, 1, 126, 39}";
-}
-);
-layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-width = 485;
-}
-);
 },
 {
 glyphname = "dalThreedotsbelow-ar";
@@ -105428,6 +105078,118 @@ layers = (
 {
 anchors = (
 {
+name = _top.far;
+position = "{156, 341}";
+},
+{
+name = top.far;
+position = "{154, 613}";
+},
+{
+name = top.near;
+position = "{154, 613}";
+}
+);
+layerId = master01;
+paths = (
+{
+closed = 1;
+nodes = (
+"154 393 OFFCURVE",
+"173 399 OFFCURVE",
+"186 407 CURVE",
+"197 441 OFFCURVE",
+"210 473 OFFCURVE",
+"225 503 CURVE SMOOTH",
+"235 522 OFFCURVE",
+"240 534 OFFCURVE",
+"240 539 CURVE SMOOTH",
+"240 559 OFFCURVE",
+"229 569 OFFCURVE",
+"217 570 CURVE",
+"203 552 OFFCURVE",
+"173 485 OFFCURVE",
+"166 443 CURVE",
+"159 460 OFFCURVE",
+"151 477 OFFCURVE",
+"141 495 CURVE SMOOTH",
+"123 531 OFFCURVE",
+"104 556 OFFCURVE",
+"81 556 CURVE SMOOTH",
+"75 556 OFFCURVE",
+"68 555 OFFCURVE",
+"61 553 CURVE SMOOTH",
+"45 548 LINE",
+"81 499 OFFCURVE",
+"105 445 OFFCURVE",
+"131 390 CURVE"
+);
+}
+);
+width = 288;
+},
+{
+anchors = (
+{
+name = _top.far;
+position = "{156, 353}";
+},
+{
+name = top.far;
+position = "{154, 610}";
+},
+{
+name = top.near;
+position = "{154, 610}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+paths = (
+{
+closed = 1;
+nodes = (
+"154 402 OFFCURVE",
+"173 408 OFFCURVE",
+"186 416 CURVE",
+"197 450 OFFCURVE",
+"210 481 OFFCURVE",
+"225 512 CURVE SMOOTH",
+"235 531 OFFCURVE",
+"240 543 OFFCURVE",
+"240 547 CURVE SMOOTH",
+"240 568 OFFCURVE",
+"229 578 OFFCURVE",
+"217 579 CURVE",
+"203 561 OFFCURVE",
+"173 493 OFFCURVE",
+"166 452 CURVE",
+"159 469 OFFCURVE",
+"151 486 OFFCURVE",
+"141 504 CURVE SMOOTH",
+"123 540 OFFCURVE",
+"104 564 OFFCURVE",
+"81 564 CURVE SMOOTH",
+"75 564 OFFCURVE",
+"68 563 OFFCURVE",
+"61 562 CURVE SMOOTH",
+"45 557 LINE",
+"81 508 OFFCURVE",
+"105 454 OFFCURVE",
+"131 398 CURVE"
+);
+}
+);
+width = 288;
+}
+);
+unicode = 065A;
+},
+{
+glyphname = "vabove-ar.near";
+layers = (
+{
+anchors = (
+{
 name = _top.near;
 position = "{156, 341}";
 },
@@ -105520,7 +105282,7 @@ nodes = (
 "104 564 OFFCURVE",
 "81 564 CURVE SMOOTH",
 "75 564 OFFCURVE",
-"68 563 OFFCURVE",
+"68 564 OFFCURVE",
 "61 562 CURVE SMOOTH",
 "45 557 LINE",
 "81 508 OFFCURVE",
@@ -105532,7 +105294,6 @@ nodes = (
 width = 288;
 }
 );
-unicode = 065A;
 },
 {
 glyphname = "vbelow-ar";
