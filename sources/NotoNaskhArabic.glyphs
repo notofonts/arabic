@@ -2,7 +2,7 @@
 .appVersion = "3169";
 DisplayStrings = (
 "/gafRing-ar/gaf-ar",
-"/hamzabetween-ar/hamzaabove-ar/space/alef-ar.fina.001/alef-ar.fina.rlig/lam-ar.medi.rlig"
+"/hamzabetween-ar/hamzaabove-ar/space/alef-ar.fina.rlig/lam-ar.medi.rlig"
 );
 classes = (
 {
@@ -1545,115 +1545,6 @@ width = 288;
 unicode = FE8E;
 },
 {
-glyphname = "alef-ar.fina.001";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{166, -100}";
-},
-{
-name = bottom.dot;
-position = "{166, -48}";
-},
-{
-name = top.far;
-position = "{118, 720}";
-},
-{
-name = top.near;
-position = "{118, 720}";
-}
-);
-layerId = master01;
-paths = (
-{
-closed = 1;
-nodes = (
-"307 0 OFFCURVE",
-"310 3 OFFCURVE",
-"310 8 CURVE SMOOTH",
-"310 68 LINE SMOOTH",
-"310 73 OFFCURVE",
-"307 76 OFFCURVE",
-"302 76 CURVE SMOOTH",
-"264 76 OFFCURVE",
-"189 85 OFFCURVE",
-"158 102 CURVE",
-"156 169 LINE SMOOTH",
-"150 375 OFFCURVE",
-"150 515 OFFCURVE",
-"144 671 CURVE",
-"117 653 OFFCURVE",
-"95 634 OFFCURVE",
-"76 615 CURVE",
-"98 312 OFFCURVE",
-"109 182 OFFCURVE",
-"120 87 CURVE SMOOTH",
-"126 33 OFFCURVE",
-"223 0 OFFCURVE",
-"302 0 CURVE SMOOTH"
-);
-}
-);
-width = 293;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{174, -110}";
-},
-{
-name = bottom.dot;
-position = "{174, -48}";
-},
-{
-name = top.far;
-position = "{138, 729}";
-},
-{
-name = top.near;
-position = "{138, 729}";
-}
-);
-layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-paths = (
-{
-closed = 1;
-nodes = (
-"332 9 OFFCURVE",
-"335 12 OFFCURVE",
-"335 17 CURVE SMOOTH",
-"335 119 LINE SMOOTH",
-"335 124 OFFCURVE",
-"333 127 OFFCURVE",
-"329 127 CURVE SMOOTH",
-"292 127 OFFCURVE",
-"237 133 OFFCURVE",
-"213 153 CURVE",
-"210 231 LINE SMOOTH",
-"204 381 OFFCURVE",
-"200 530 OFFCURVE",
-"195 680 CURVE",
-"154 661 OFFCURVE",
-"114 639 OFFCURVE",
-"76 614 CURVE",
-"86 537 OFFCURVE",
-"116 222 OFFCURVE",
-"124 159 CURVE SMOOTH",
-"133 74 OFFCURVE",
-"206 9 OFFCURVE",
-"327 9 CURVE SMOOTH"
-);
-}
-);
-width = 318;
-}
-);
-},
-{
 glyphname = "alef-ar.fina.rlig";
 layers = (
 {
@@ -2928,15 +2819,42 @@ position = "{123, 750}";
 );
 components = (
 {
-name = "alef-ar.fina.001";
-},
-{
 alignment = -1;
 name = "hamzaabove-ar";
 transform = "{1, 0, 0, 1, 190, 34}";
 }
 );
 layerId = master01;
+paths = (
+{
+closed = 1;
+nodes = (
+"307 0 OFFCURVE",
+"310 3 OFFCURVE",
+"310 8 CURVE SMOOTH",
+"310 68 LINE SMOOTH",
+"310 73 OFFCURVE",
+"307 76 OFFCURVE",
+"302 76 CURVE SMOOTH",
+"264 76 OFFCURVE",
+"189 85 OFFCURVE",
+"158 102 CURVE",
+"156 169 LINE SMOOTH",
+"150 375 OFFCURVE",
+"150 515 OFFCURVE",
+"144 671 CURVE",
+"117 653 OFFCURVE",
+"95 634 OFFCURVE",
+"76 615 CURVE",
+"98 312 OFFCURVE",
+"109 182 OFFCURVE",
+"120 87 CURVE SMOOTH",
+"126 33 OFFCURVE",
+"223 0 OFFCURVE",
+"302 0 CURVE SMOOTH"
+);
+}
+);
 width = 293;
 },
 {
@@ -2960,15 +2878,42 @@ position = "{146, 750}";
 );
 components = (
 {
-name = "alef-ar.fina.001";
-},
-{
 alignment = -1;
 name = "hamzaabove-ar";
 transform = "{1, 0, 0, 1, 237, 57}";
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+paths = (
+{
+closed = 1;
+nodes = (
+"332 9 OFFCURVE",
+"335 12 OFFCURVE",
+"335 17 CURVE SMOOTH",
+"335 119 LINE SMOOTH",
+"335 124 OFFCURVE",
+"333 127 OFFCURVE",
+"329 127 CURVE SMOOTH",
+"292 127 OFFCURVE",
+"237 133 OFFCURVE",
+"213 153 CURVE",
+"210 231 LINE SMOOTH",
+"204 381 OFFCURVE",
+"200 530 OFFCURVE",
+"195 680 CURVE",
+"154 661 OFFCURVE",
+"114 639 OFFCURVE",
+"76 614 CURVE",
+"86 537 OFFCURVE",
+"116 222 OFFCURVE",
+"124 159 CURVE SMOOTH",
+"133 74 OFFCURVE",
+"206 9 OFFCURVE",
+"327 9 CURVE SMOOTH"
+);
+}
+);
 width = 318;
 }
 );
@@ -7112,7 +7057,7 @@ name = "behDotless-ar";
 },
 {
 name = "vabove-ar";
-transform = "{1, 0, 0, 1, 209, -64}";
+transform = "{1, 0, 0, 1, 209, 127}";
 }
 );
 layerId = master01;
@@ -7144,7 +7089,7 @@ name = "behDotless-ar";
 },
 {
 name = "vabove-ar";
-transform = "{1, 0, 0, 1, 209, -46}";
+transform = "{1, 0, 0, 1, 209, 145}";
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
@@ -13044,7 +12989,7 @@ name = "reh-ar";
 },
 {
 name = "vabove-ar";
-transform = "{1, 0, 0, 1, 49, 4}";
+transform = "{1, 0, 0, 1, 45, 197}";
 }
 );
 layerId = master01;
@@ -13080,7 +13025,7 @@ name = "reh-ar";
 },
 {
 name = "vabove-ar";
-transform = "{1, 0, 0, 1, 47, 36}";
+transform = "{1, 0, 0, 1, 43, 239}";
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
@@ -36287,7 +36232,7 @@ alignment = -1;
 name = "waw-ar";
 },
 {
-name = "vabove-ar";
+name = "vabove-ar.near";
 transform = "{1, 0, 0, 1, 100, 5}";
 }
 );
@@ -36315,7 +36260,7 @@ alignment = -1;
 name = "waw-ar";
 },
 {
-name = "vabove-ar";
+name = "vabove-ar.near";
 transform = "{1, 0, 0, 1, 113, 26}";
 }
 );
@@ -36349,7 +36294,7 @@ alignment = -1;
 name = "waw-ar.fina";
 },
 {
-name = "vabove-ar";
+name = "vabove-ar.near";
 transform = "{1, 0, 0, 1, 100, 5}";
 }
 );
@@ -36377,7 +36322,7 @@ alignment = -1;
 name = "waw-ar.fina";
 },
 {
-name = "vabove-ar";
+name = "vabove-ar.near";
 transform = "{1, 0, 0, 1, 113, 46}";
 }
 );
@@ -45492,19 +45437,15 @@ layers = (
 {
 anchors = (
 {
-name = bottom_one;
-position = "{389, -100}";
-},
-{
-name = bottom_two;
+name = bottom;
 position = "{152, -100}";
 },
 {
-name = top_one;
-position = "{375, 737}";
+name = top.far;
+position = "{69, 587}";
 },
 {
-name = top_two;
+name = top.near;
 position = "{64, 592}";
 }
 );
@@ -45602,19 +45543,15 @@ width = 518;
 {
 anchors = (
 {
-name = bottom_one;
-position = "{419, -110}";
-},
-{
-name = bottom_two;
+name = bottom;
 position = "{152, -110}";
 },
 {
-name = top_one;
-position = "{376, 737}";
+name = top.far;
+position = "{61, 624}";
 },
 {
-name = top_two;
+name = top.near;
 position = "{64, 622}";
 }
 );
@@ -45711,6 +45648,8 @@ width = 546;
 }
 );
 unicode = FEFB;
+category = Letter;
+subCategory = Other;
 },
 {
 glyphname = "lam_alef-ar.fina";
@@ -45718,16 +45657,8 @@ layers = (
 {
 anchors = (
 {
-name = bottom_one;
-position = "{497, -100}";
-},
-{
 name = bottom_two;
 position = "{166, -100}";
-},
-{
-name = top_one;
-position = "{453, 720}";
 },
 {
 name = top_two;
@@ -45825,16 +45756,8 @@ width = 610;
 {
 anchors = (
 {
-name = bottom_one;
-position = "{497, -110}";
-},
-{
 name = bottom_two;
 position = "{166, -110}";
-},
-{
-name = top_one;
-position = "{453, 720}";
 },
 {
 name = top_two;
@@ -45943,6 +45866,678 @@ width = 631;
 }
 );
 unicode = FEFC;
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "lam_alefHamzaabove-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{152, -100}";
+},
+{
+name = top.far;
+position = "{55, 782}";
+},
+{
+name = top.near;
+position = "{55, 782}";
+}
+);
+components = (
+{
+name = "lam_alef-ar";
+},
+{
+name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, -2, 109}";
+}
+);
+layerId = master01;
+userData = {
+com.typemytype.robofont.guides = (
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.1;
+x = 530;
+y = 0;
+}
+);
+};
+width = 518;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{152, -110}";
+},
+{
+name = top.far;
+position = "{53, 878}";
+},
+{
+name = top.near;
+position = "{53, 876}";
+}
+);
+components = (
+{
+name = "lam_alef-ar";
+},
+{
+name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, -12, 165}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+userData = {
+com.typemytype.robofont.guides = (
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.1;
+x = 559;
+y = 0;
+}
+);
+};
+width = 546;
+}
+);
+unicode = FEF7;
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "lam_alefHamzaabove-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{166, -100}";
+},
+{
+name = top.far;
+position = "{80, 770}";
+},
+{
+name = top.near;
+position = "{80, 770}";
+},
+{
+name = top_two;
+position = "{64, 752}";
+}
+);
+components = (
+{
+name = "lam_alef-ar.fina";
+},
+{
+name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, 23, 64}";
+}
+);
+layerId = master01;
+userData = {
+com.typemytype.robofont.guides = (
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.1;
+x = 624;
+y = 0;
+}
+);
+};
+width = 610;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{166, -110}";
+},
+{
+name = top.far;
+position = "{76, 773}";
+},
+{
+name = top.near;
+position = "{76, 773}";
+},
+{
+name = top_two;
+position = "{64, 762}";
+}
+);
+components = (
+{
+name = "lam_alef-ar.fina";
+},
+{
+name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, 6, 65}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+userData = {
+com.typemytype.robofont.guides = (
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.1;
+x = 646;
+y = 0;
+}
+);
+};
+width = 631;
+}
+);
+unicode = FEF8;
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "lam_alefHamzabelow-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{180, -238}";
+},
+{
+name = top.far;
+position = "{65, 589}";
+},
+{
+name = top.near;
+position = "{64, 592}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "lam_alef-ar";
+},
+{
+name = "hamzabelow-ar";
+transform = "{1, 0, 0, 1, 70, -105}";
+}
+);
+layerId = master01;
+userData = {
+com.typemytype.robofont.guides = (
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.1;
+x = 530;
+y = 0;
+}
+);
+};
+width = 518;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{167, -235}";
+},
+{
+name = top.far;
+position = "{65, 629}";
+},
+{
+name = top.near;
+position = "{64, 622}";
+}
+);
+components = (
+{
+name = "lam_alef-ar";
+},
+{
+name = "hamzabelow-ar";
+transform = "{1, 0, 0, 1, 69, -135}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+userData = {
+com.typemytype.robofont.guides = (
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.1;
+x = 559;
+y = 0;
+}
+);
+};
+width = 546;
+}
+);
+unicode = FEF9;
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "lam_alefHamzabelow-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{204, -238}";
+},
+{
+name = top.far;
+position = "{80, 580}";
+},
+{
+name = top.near;
+position = "{89, 580}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "lam_alef-ar.fina";
+},
+{
+name = "hamzabelow-ar";
+transform = "{1, 0, 0, 1, 112, -97}";
+}
+);
+layerId = master01;
+userData = {
+com.typemytype.robofont.guides = (
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.1;
+x = 624;
+y = 0;
+}
+);
+};
+width = 610;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{201, -235}";
+},
+{
+name = top.far;
+position = "{94, 578}";
+},
+{
+name = top.near;
+position = "{89, 580}";
+}
+);
+components = (
+{
+name = "lam_alef-ar.fina";
+},
+{
+name = "hamzabelow-ar";
+transform = "{1, 0, 0, 1, 112, -106}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+userData = {
+com.typemytype.robofont.guides = (
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.1;
+x = 646;
+y = 0;
+}
+);
+};
+width = 631;
+}
+);
+unicode = FEFA;
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "lam_alefMadda-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{152, -100}";
+},
+{
+name = top.far;
+position = "{95, 688}";
+},
+{
+name = top.near;
+position = "{95, 688}";
+},
+{
+name = top_two;
+position = "{96, 696}";
+}
+);
+components = (
+{
+name = "lam_alef-ar";
+},
+{
+name = "madda-ar";
+transform = "{1, 0, 0, 1, -3, 70}";
+}
+);
+layerId = master01;
+userData = {
+com.typemytype.robofont.guides = (
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.1;
+x = 530;
+y = 0;
+}
+);
+};
+width = 518;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{152, -110}";
+},
+{
+name = top.far;
+position = "{95, 718}";
+},
+{
+name = top.near;
+position = "{95, 718}";
+},
+{
+name = top_two;
+position = "{96, 723}";
+}
+);
+components = (
+{
+name = "lam_alef-ar";
+},
+{
+name = "madda-ar";
+transform = "{1, 0, 0, 1, -3, 91}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+userData = {
+com.typemytype.robofont.guides = (
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.1;
+x = 559;
+y = 0;
+}
+);
+};
+width = 546;
+}
+);
+unicode = FEF5;
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "lam_alefMadda-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{166, -100}";
+},
+{
+name = top.far;
+position = "{100, 676}";
+},
+{
+name = top.near;
+position = "{100, 676}";
+},
+{
+name = top_two;
+position = "{101, 684}";
+}
+);
+components = (
+{
+name = "lam_alef-ar.fina";
+},
+{
+name = "madda-ar";
+transform = "{1, 0, 0, 1, 32, 28}";
+}
+);
+layerId = master01;
+userData = {
+com.typemytype.robofont.guides = (
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.1;
+x = 624;
+y = 0;
+}
+);
+};
+width = 610;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{166, -110}";
+},
+{
+name = top.far;
+position = "{100, 676}";
+},
+{
+name = top.near;
+position = "{100, 676}";
+},
+{
+name = top_two;
+position = "{101, 681}";
+}
+);
+components = (
+{
+name = "lam_alef-ar.fina";
+},
+{
+name = "madda-ar";
+transform = "{1, 0, 0, 1, 32, 19}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+userData = {
+com.typemytype.robofont.guides = (
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.1;
+x = 646;
+y = 0;
+}
+);
+};
+width = 631;
+}
+);
+unicode = FEF6;
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "lam_alefMaksura-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{294, -315}";
+},
+{
+name = bottom.dot;
+position = "{294, -268}";
+},
+{
+name = top.far;
+position = "{324, 234}";
+},
+{
+name = top.near;
+position = "{148, 74}";
+}
+);
+components = (
+{
+name = "lam-ar.init";
+transform = "{1, 0, 0, 1, 687, 0}";
+},
+{
+name = "alefMaksura-ar.fina";
+}
+);
+layerId = master01;
+width = 899;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{308, -311}";
+},
+{
+name = bottom.dot;
+position = "{308, -256}";
+},
+{
+name = top.far;
+position = "{325, 278}";
+},
+{
+name = top.near;
+position = "{148, 104}";
+}
+);
+components = (
+{
+name = "lam-ar.init";
+transform = "{1, 0, 0, 1, 690, 0}";
+},
+{
+name = "alefMaksura-ar.fina";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 907;
+}
+);
+unicode = FC43;
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "lam_alefMaksura-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{294, -315}";
+},
+{
+name = bottom.dot;
+position = "{294, -268}";
+},
+{
+name = top.far;
+position = "{324, 234}";
+},
+{
+name = top.near;
+position = "{148, 74}";
+}
+);
+components = (
+{
+name = "lam-ar.medi";
+transform = "{1, 0, 0, 1, 687, 0}";
+},
+{
+name = "alefMaksura-ar.fina";
+}
+);
+layerId = master01;
+width = 932;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{308, -311}";
+},
+{
+name = bottom.dot;
+position = "{308, -256}";
+},
+{
+name = top.far;
+position = "{325, 278}";
+},
+{
+name = top.near;
+position = "{148, 104}";
+}
+);
+components = (
+{
+name = "lam-ar.medi";
+transform = "{1, 0, 0, 1, 690, 0}";
+},
+{
+name = "alefMaksura-ar.fina";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 935;
+}
+);
+unicode = FC86;
+category = Letter;
+subCategory = Other;
 },
 {
 glyphname = "lam_alef-ar.fina_alefTwoabove-ar";
@@ -46125,628 +46720,6 @@ y = 0;
 width = 631;
 }
 );
-},
-{
-glyphname = "lam_alefHamzaabove-ar";
-layers = (
-{
-anchors = (
-{
-name = bottom_one;
-position = "{389, -100}";
-},
-{
-name = bottom_two;
-position = "{152, -100}";
-},
-{
-name = top.far;
-position = "{55, 782}";
-},
-{
-name = top.near;
-position = "{55, 782}";
-},
-{
-name = top_one;
-position = "{375, 737}";
-},
-{
-name = top_two;
-position = "{53, 768}";
-}
-);
-components = (
-{
-name = "lam_alef-ar";
-},
-{
-name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, -2, 76}";
-}
-);
-layerId = master01;
-userData = {
-com.typemytype.robofont.guides = (
-{
-isGlobal = 0;
-magnetic = 5;
-name = caret.1;
-x = 530;
-y = 0;
-}
-);
-};
-width = 518;
-},
-{
-anchors = (
-{
-name = bottom_one;
-position = "{419, -110}";
-},
-{
-name = bottom_two;
-position = "{152, -110}";
-},
-{
-name = top.far;
-position = "{53, 775}";
-},
-{
-name = top.near;
-position = "{53, 775}";
-},
-{
-name = top_one;
-position = "{376, 737}";
-},
-{
-name = top_two;
-position = "{53, 778}";
-}
-);
-components = (
-{
-name = "lam_alef-ar";
-},
-{
-name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, -17, 67}";
-}
-);
-layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-userData = {
-com.typemytype.robofont.guides = (
-{
-isGlobal = 0;
-magnetic = 5;
-name = caret.1;
-x = 559;
-y = 0;
-}
-);
-};
-width = 546;
-}
-);
-unicode = FEF7;
-},
-{
-glyphname = "lam_alefHamzaabove-ar.fina";
-layers = (
-{
-anchors = (
-{
-name = bottom_one;
-position = "{497, -100}";
-},
-{
-name = bottom_two;
-position = "{166, -100}";
-},
-{
-name = top.far;
-position = "{80, 770}";
-},
-{
-name = top.near;
-position = "{80, 770}";
-},
-{
-name = top_one;
-position = "{453, 720}";
-},
-{
-name = top_two;
-position = "{64, 752}";
-}
-);
-components = (
-{
-name = "lam_alef-ar.fina";
-},
-{
-name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 23, 64}";
-}
-);
-layerId = master01;
-userData = {
-com.typemytype.robofont.guides = (
-{
-isGlobal = 0;
-magnetic = 5;
-name = caret.1;
-x = 624;
-y = 0;
-}
-);
-};
-width = 610;
-},
-{
-anchors = (
-{
-name = bottom_one;
-position = "{497, -110}";
-},
-{
-name = bottom_two;
-position = "{166, -110}";
-},
-{
-name = top.far;
-position = "{76, 773}";
-},
-{
-name = top.near;
-position = "{76, 773}";
-},
-{
-name = top_one;
-position = "{453, 720}";
-},
-{
-name = top_two;
-position = "{64, 762}";
-}
-);
-components = (
-{
-name = "lam_alef-ar.fina";
-},
-{
-name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 6, 65}";
-}
-);
-layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-userData = {
-com.typemytype.robofont.guides = (
-{
-isGlobal = 0;
-magnetic = 5;
-name = caret.1;
-x = 646;
-y = 0;
-}
-);
-};
-width = 631;
-}
-);
-unicode = FEF8;
-},
-{
-glyphname = "lam_alefHamzabelow-ar";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{180, -238}";
-},
-{
-name = bottom_one;
-position = "{389, -100}";
-},
-{
-name = bottom_two;
-position = "{173, -245}";
-},
-{
-name = top_one;
-position = "{375, 737}";
-},
-{
-name = top_two;
-position = "{64, 592}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "lam_alef-ar";
-},
-{
-name = "hamzabelow-ar";
-transform = "{1, 0, 0, 1, 88, -97}";
-}
-);
-layerId = master01;
-userData = {
-com.typemytype.robofont.guides = (
-{
-isGlobal = 0;
-magnetic = 5;
-name = caret.1;
-x = 530;
-y = 0;
-}
-);
-};
-width = 518;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{167, -235}";
-},
-{
-name = bottom_one;
-position = "{419, -110}";
-},
-{
-name = bottom_two;
-position = "{163, -245}";
-},
-{
-name = top_one;
-position = "{376, 737}";
-},
-{
-name = top_two;
-position = "{64, 622}";
-}
-);
-components = (
-{
-name = "lam_alef-ar";
-},
-{
-name = "hamzabelow-ar";
-transform = "{1, 0, 0, 1, 78, -106}";
-}
-);
-layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-userData = {
-com.typemytype.robofont.guides = (
-{
-isGlobal = 0;
-magnetic = 5;
-name = caret.1;
-x = 559;
-y = 0;
-}
-);
-};
-width = 546;
-}
-);
-unicode = FEF9;
-},
-{
-glyphname = "lam_alefHamzabelow-ar.fina";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{204, -238}";
-},
-{
-name = bottom_one;
-position = "{497, -100}";
-},
-{
-name = bottom_two;
-position = "{204, -233}";
-},
-{
-name = top_one;
-position = "{453, 720}";
-},
-{
-name = top_two;
-position = "{89, 580}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "lam_alef-ar.fina";
-},
-{
-name = "hamzabelow-ar";
-transform = "{1, 0, 0, 1, 112, -97}";
-}
-);
-layerId = master01;
-userData = {
-com.typemytype.robofont.guides = (
-{
-isGlobal = 0;
-magnetic = 5;
-name = caret.1;
-x = 624;
-y = 0;
-}
-);
-};
-width = 610;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{201, -235}";
-},
-{
-name = bottom_one;
-position = "{497, -110}";
-},
-{
-name = bottom_two;
-position = "{208, -232}";
-},
-{
-name = top_one;
-position = "{453, 720}";
-},
-{
-name = top_two;
-position = "{89, 580}";
-}
-);
-components = (
-{
-name = "lam_alef-ar.fina";
-},
-{
-name = "hamzabelow-ar";
-transform = "{1, 0, 0, 1, 112, -106}";
-}
-);
-layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-userData = {
-com.typemytype.robofont.guides = (
-{
-isGlobal = 0;
-magnetic = 5;
-name = caret.1;
-x = 646;
-y = 0;
-}
-);
-};
-width = 631;
-}
-);
-unicode = FEFA;
-},
-{
-glyphname = "lam_alefMadda-ar";
-layers = (
-{
-anchors = (
-{
-name = bottom_one;
-position = "{389, -100}";
-},
-{
-name = bottom_two;
-position = "{152, -100}";
-},
-{
-name = top.far;
-position = "{95, 688}";
-},
-{
-name = top.near;
-position = "{95, 688}";
-},
-{
-name = top_one;
-position = "{375, 737}";
-},
-{
-name = top_two;
-position = "{96, 696}";
-}
-);
-components = (
-{
-name = "lam_alef-ar";
-},
-{
-name = "madda-ar";
-transform = "{1, 0, 0, 1, 27, 40}";
-}
-);
-layerId = master01;
-userData = {
-com.typemytype.robofont.guides = (
-{
-isGlobal = 0;
-magnetic = 5;
-name = caret.1;
-x = 530;
-y = 0;
-}
-);
-};
-width = 518;
-},
-{
-anchors = (
-{
-name = bottom_one;
-position = "{419, -110}";
-},
-{
-name = bottom_two;
-position = "{152, -110}";
-},
-{
-name = top.far;
-position = "{95, 718}";
-},
-{
-name = top.near;
-position = "{95, 718}";
-},
-{
-name = top_one;
-position = "{376, 737}";
-},
-{
-name = top_two;
-position = "{96, 723}";
-}
-);
-components = (
-{
-name = "lam_alef-ar";
-},
-{
-name = "madda-ar";
-transform = "{1, 0, 0, 1, 27, 61}";
-}
-);
-layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-userData = {
-com.typemytype.robofont.guides = (
-{
-isGlobal = 0;
-magnetic = 5;
-name = caret.1;
-x = 559;
-y = 0;
-}
-);
-};
-width = 546;
-}
-);
-unicode = FEF5;
-},
-{
-glyphname = "lam_alefMadda-ar.fina";
-layers = (
-{
-anchors = (
-{
-name = bottom_one;
-position = "{497, -100}";
-},
-{
-name = bottom_two;
-position = "{166, -100}";
-},
-{
-name = top.far;
-position = "{100, 676}";
-},
-{
-name = top.near;
-position = "{100, 676}";
-},
-{
-name = top_one;
-position = "{453, 720}";
-},
-{
-name = top_two;
-position = "{101, 684}";
-}
-);
-components = (
-{
-name = "lam_alef-ar.fina";
-},
-{
-name = "madda-ar";
-transform = "{1, 0, 0, 1, 32, 28}";
-}
-);
-layerId = master01;
-userData = {
-com.typemytype.robofont.guides = (
-{
-isGlobal = 0;
-magnetic = 5;
-name = caret.1;
-x = 624;
-y = 0;
-}
-);
-};
-width = 610;
-},
-{
-anchors = (
-{
-name = bottom_one;
-position = "{497, -110}";
-},
-{
-name = bottom_two;
-position = "{166, -110}";
-},
-{
-name = top.far;
-position = "{100, 676}";
-},
-{
-name = top.near;
-position = "{100, 676}";
-},
-{
-name = top_one;
-position = "{453, 720}";
-},
-{
-name = top_two;
-position = "{101, 681}";
-}
-);
-components = (
-{
-name = "lam_alef-ar.fina";
-},
-{
-name = "madda-ar";
-transform = "{1, 0, 0, 1, 32, 19}";
-}
-);
-layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-userData = {
-com.typemytype.robofont.guides = (
-{
-isGlobal = 0;
-magnetic = 5;
-name = caret.1;
-x = 646;
-y = 0;
-}
-);
-};
-width = 631;
-}
-);
-unicode = FEF6;
 },
 {
 glyphname = "beh_jeem-ar";
@@ -48231,142 +48204,6 @@ width = 982;
 }
 );
 unicode = FC6F;
-},
-{
-glyphname = "lam_alefMaksura-ar";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{294, -315}";
-},
-{
-name = bottom.dot;
-position = "{294, -268}";
-},
-{
-name = top.far;
-position = "{324, 234}";
-},
-{
-name = top.near;
-position = "{148, 74}";
-}
-);
-components = (
-{
-name = "lam-ar.init";
-transform = "{1, 0, 0, 1, 687, 0}";
-},
-{
-name = "alefMaksura-ar.fina";
-}
-);
-layerId = master01;
-width = 899;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{308, -311}";
-},
-{
-name = bottom.dot;
-position = "{308, -256}";
-},
-{
-name = top.far;
-position = "{325, 278}";
-},
-{
-name = top.near;
-position = "{148, 104}";
-}
-);
-components = (
-{
-name = "lam-ar.init";
-transform = "{1, 0, 0, 1, 690, 0}";
-},
-{
-name = "alefMaksura-ar.fina";
-}
-);
-layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-width = 907;
-}
-);
-unicode = FC43;
-},
-{
-glyphname = "lam_alefMaksura-ar.fina";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{294, -315}";
-},
-{
-name = bottom.dot;
-position = "{294, -268}";
-},
-{
-name = top.far;
-position = "{324, 234}";
-},
-{
-name = top.near;
-position = "{148, 74}";
-}
-);
-components = (
-{
-name = "lam-ar.medi";
-transform = "{1, 0, 0, 1, 687, 0}";
-},
-{
-name = "alefMaksura-ar.fina";
-}
-);
-layerId = master01;
-width = 932;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{308, -311}";
-},
-{
-name = bottom.dot;
-position = "{308, -256}";
-},
-{
-name = top.far;
-position = "{325, 278}";
-},
-{
-name = top.near;
-position = "{148, 104}";
-}
-);
-components = (
-{
-name = "lam-ar.medi";
-transform = "{1, 0, 0, 1, 690, 0}";
-},
-{
-name = "alefMaksura-ar.fina";
-}
-);
-layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-width = 935;
-}
-);
-unicode = FC86;
 },
 {
 glyphname = "teh_jeem-ar";
@@ -90946,7 +90783,7 @@ nodes = (
 );
 }
 );
-width = 112;
+width = 1644;
 },
 {
 annotations = (
@@ -91058,7 +90895,7 @@ nodes = (
 );
 }
 );
-width = 125;
+width = 1648;
 }
 );
 unicode = 0601;
@@ -91321,7 +91158,7 @@ nodes = (
 );
 }
 );
-width = 50;
+width = 1082;
 },
 {
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
@@ -91413,7 +91250,7 @@ nodes = (
 );
 }
 );
-width = 64;
+width = 1280;
 }
 );
 unicode = 0603;
@@ -110570,59 +110407,6 @@ width = 0;
 unicode = 08FE;
 },
 {
-glyphname = "hamzabetween-ar";
-layers = (
-{
-anchors = (
-{
-name = _top.between;
-position = "{66, 483}";
-},
-{
-name = top.far;
-position = "{60, 699}";
-},
-{
-name = top.near;
-position = "{60, 697}";
-}
-);
-components = (
-{
-name = _hamza;
-}
-);
-layerId = master01;
-width = 0;
-},
-{
-anchors = (
-{
-name = _top.between;
-position = "{76, 457}";
-},
-{
-name = top.far;
-position = "{60, 690}";
-},
-{
-name = top.near;
-position = "{60, 689}";
-}
-);
-components = (
-{
-name = _hamza;
-}
-);
-layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
-width = 0;
-}
-);
-category = Mark;
-subCategory = Nonspacing;
-},
-{
 glyphname = "kasra-ar.isol";
 layers = (
 {
@@ -111689,6 +111473,59 @@ nodes = (
 }
 );
 width = 258;
+}
+);
+category = Mark;
+subCategory = Nonspacing;
+},
+{
+glyphname = "hamzabetween-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.between;
+position = "{66, 483}";
+},
+{
+name = top.far;
+position = "{60, 699}";
+},
+{
+name = top.near;
+position = "{60, 697}";
+}
+);
+components = (
+{
+name = _hamza;
+}
+);
+layerId = master01;
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.between;
+position = "{76, 457}";
+},
+{
+name = top.far;
+position = "{60, 690}";
+},
+{
+name = top.near;
+position = "{60, 689}";
+}
+);
+components = (
+{
+name = _hamza;
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 0;
 }
 );
 category = Mark;
