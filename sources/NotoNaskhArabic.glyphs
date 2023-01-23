@@ -2,7 +2,7 @@
 .appVersion = "3169";
 DisplayStrings = (
 "/gafRing-ar/gaf-ar",
-"/vabove-ar/vabove-ar.near"
+"/hamzabetween-ar/hamzaabove-ar/space/alef-ar.fina.001/alef-ar.fina.rlig/lam-ar.medi.rlig"
 );
 classes = (
 {
@@ -230,7 +230,13 @@ feature tnum;
 name = aalt;
 },
 {
-code = "lookup abovemarkligatures {
+code = "
+lookup liaadama { # See issue #26
+  lookupflag UseMarkFilteringSet [hamzaabove-ar];
+  sub lam-ar kashida-ar' hamzaabove-ar' alef-ar by hamzabetween-ar;
+} liaadama;
+
+lookup abovemarkligatures {
   lookupflag UseMarkFilteringSet [@abovemarks @tonemarks];
   ignore sub @abovemarks' @abovemarks' @tonemarks;
   sub @abovemarks' lookup markligatures @abovemarks';
@@ -28453,6 +28459,10 @@ name = bottom;
 position = "{389, -100}";
 },
 {
+name = top.between;
+position = "{226, 554}";
+},
+{
 name = top.far;
 position = "{375, 737}";
 },
@@ -28514,6 +28524,10 @@ position = "{418, 488}";
 {
 name = bottom;
 position = "{419, -110}";
+},
+{
+name = top.between;
+position = "{226, 554}";
 },
 {
 name = top.far;
@@ -28922,6 +28936,10 @@ name = bottom;
 position = "{497, -100}";
 },
 {
+name = top.between;
+position = "{308, 524}";
+},
+{
 name = top.far;
 position = "{453, 720}";
 },
@@ -29005,6 +29023,10 @@ position = "{466, 530}";
 {
 name = bottom;
 position = "{497, -110}";
+},
+{
+name = top.between;
+position = "{308, 524}";
 },
 {
 name = top.far;
@@ -110546,6 +110568,59 @@ width = 0;
 }
 );
 unicode = 08FE;
+},
+{
+glyphname = "hamzabetween-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.between;
+position = "{66, 483}";
+},
+{
+name = top.far;
+position = "{60, 699}";
+},
+{
+name = top.near;
+position = "{60, 697}";
+}
+);
+components = (
+{
+name = _hamza;
+}
+);
+layerId = master01;
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.between;
+position = "{76, 457}";
+},
+{
+name = top.far;
+position = "{60, 690}";
+},
+{
+name = top.near;
+position = "{60, 689}";
+}
+);
+components = (
+{
+name = _hamza;
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 0;
+}
+);
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "kasra-ar.isol";
