@@ -2,7 +2,9 @@
 .appVersion = "3169";
 DisplayStrings = (
 "/gafRing-ar/gaf-ar",
-"/hamzabetween-ar/hamzaabove-ar/space/alef-ar.fina.rlig/lam-ar.medi.rlig"
+"/hamzabetween-ar/hamzaabove-ar/space/alef-ar.fina.rlig/lam-ar.medi.rlig",
+"/qafDotabove-ar",
+"/yeh-ar.fina"
 );
 classes = (
 {
@@ -283,6 +285,7 @@ lookup decomposition {
 
   # Qaf/Fe family
   sub qafThreedotsabove-ar by qafDotless-ar threedotsupabove-ar;
+  sub qafDotabove-ar by qafDotless-ar dotabove-ar;
   sub fehDotbelow-ar by feh-ar dotbelow-ar;
   sub fehThreedotsbelow-ar by fehDotless-ar threedotsdownbelow-ar;
   sub fehDotbelowThreedotsabove-ar by fehDotless-ar dotbelow-ar threedotsupabove-ar;
@@ -324,7 +327,6 @@ lookup decomposition {
   sub lamDotabove-ar by lam-ar dotabove-ar;
   sub behTwodotsbelowDotabove-ar by behDotless-ar twodotshorizontalbelow-ar dotabove-ar;
   sub tchehDotabove-ar by tcheh-ar dotabove-ar;
-  sub yehTwodotsbelowHamzaabove-ar by yeh-ar hamzaabove-ar;
   sub lamThreedotsabove-ar by lam-ar threedotsupabove-ar;
   sub lamThreedotsbelow-ar by lam-ar threedotsdownbelow-ar;
   sub lamVabove-ar by lam-ar smallvabove-ar;
@@ -513,6 +515,7 @@ sub yehHamzaabove_meem-ar by yehHamzaabove_meem-ar.init;
 sub yehKashmiri-ar by yehKashmiri-ar.init;
 sub yehThreeabove-farsi by yehThreeabove-farsi.init;
 sub yehTwoabove-farsi by yehTwoabove-farsi.init;
+sub yehThreedotsbelow-ar by behDotless-ar.init threedotsdownbelow-ar;
 sub yehVabove-ar by yeh-ar.init vabove-ar.near;
 sub zah-ar by zah-ar.init;
 sub zah_meem-ar by zah_meem-ar.init;
@@ -615,6 +618,7 @@ sub yehHamzaabove-ar by yehHamzaabove-ar.medi;
 sub yehHamzaabove_meem-ar by yehHamzaabove_meem-ar.medi;
 sub yehKashmiri-ar by yehKashmiri-ar.medi;
 sub yehThreeabove-farsi by yehThreeabove-farsi.medi;
+sub yehThreedotsbelow-ar by behDotless-ar.medi threedotsdownbelow-ar;
 sub yehTwoabove-farsi by yehTwoabove-farsi.medi;
 sub yehVabove-ar by yeh-ar.medi vabove-ar.near;
 sub zah-ar by zah-ar.medi;
@@ -817,9 +821,9 @@ sub yehHamzaabove_yu-ar by yehHamzaabove_yu-ar.fina;
 sub yehKashmiri-ar by yehKashmiri-ar.fina;
 sub yehTail-ar by yehTail-ar.fina;
 sub yehThreeabove-farsi by yehThreeabove-farsi.fina;
-sub yehThreedotsbelow-ar by yehThreedotsbelow-ar.fina;
 sub yehTwoabove-farsi by yehTwoabove-farsi.fina;
 sub yehVabove-ar by alefMaksura-ar.fina vabove-ar.near;
+sub yehThreedotsbelow-ar by alefMaksura-ar.fina threedotsdownbelow-ar;
 sub yu-ar by yu-ar.fina;
 sub zah-ar by zah-ar.fina;
 sub zain-ar by zain-ar.fina;
