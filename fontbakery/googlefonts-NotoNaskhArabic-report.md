@@ -1,12 +1,12 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.11a8
+Fontbakery version: 0.8.11a9
 
-<details><summary><b>[4] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> All tabular figures must have the same width across the RIBBI-family. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/tnum_horizontal_metrics">com.google.fonts/check/family/tnum_horizontal_metrics</a>)</summary><div>
+<details><summary><b>[5] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> All tabular figures must have the same width across the RIBBI-family. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/tnum_horizontal_metrics">com.google.fonts/check/family/tnum_horizontal_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The most common tabular glyph width is 488. But there are other tabular glyphs with different widths such as the following ones:
-	{449: ['uni0662.tnum', 'uni0664.tnum', 'uni0666.tnum', 'uni0669.tnum']}. [code: inconsistent-widths]
+* 🔥 **FAIL** The most common tabular glyph width is 449. But there are other tabular glyphs with different widths such as the following ones:
+	{488: ['uni0662.tnum', 'uni0664.tnum', 'uni0666.tnum', 'uni0669.tnum']}. [code: inconsistent-widths]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
@@ -19,6 +19,10 @@ Fontbakery version: 0.8.11a8
 
 
 * 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that OS/2.fsSelection bold & italic settings are unique for each NameID1 (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.adobe.fonts/check/family/bold_italic_unique_for_nameid1">com.adobe.fonts/check/family/bold_italic_unique_for_nameid1</a>)</summary><div>
+
+
+* 🔥 **FAIL** Family 'Noto Naskh Arabic' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
 </div></details><br></div></details><details><summary><b>[11] NotoNaskhArabic-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -53,7 +57,7 @@ Fontbakery version: 0.8.11a8
 
 	- uniFBA7 + uniFEDF 
 
-	- And uni0651_uni0670 + uniFEEA [code: lacks-kern-info]
+	- uni0651_uni0670 + uniFEEA [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -87,7 +91,7 @@ Fontbakery version: 0.8.11a8
 
 	- _uniFBB2.001 
 
-	- And 50 more.
+	- 50 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -108,7 +112,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
@@ -135,7 +139,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uniFBC1 (U+FBC1): L<<143.0,-85.0>--<143.0,-99.0>> -> L<<143.0,-99.0>--<146.0,-150.0>> 
 
-	* And 17 more.
+	* 17 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -163,7 +167,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uniFC0A (U+FC0A): B<<590.5,17.0>-<563.0,21.0>-<543.0,26.0>>/B<<543.0,26.0>-<584.0,7.0>-<605.5,-4.0>> = 10.827453103825361 
 
-	* And 142 more.
+	* 142 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -175,7 +179,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	* h (U+0068): L<<252.0,309.0>--<253.0,118.0>> 
 
-	* And sterling (U+00A3): L<<428.0,346.0>--<270.0,347.0>> [code: found-semi-vertical]
+	* sterling (U+00A3): L<<428.0,346.0>--<270.0,347.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[12] NotoNaskhArabic-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -210,7 +214,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 	- uniFBA7 + uniFEDF 
 
-	- And uni0651_uni0670 + uniFEEA [code: lacks-kern-info]
+	- uni0651_uni0670 + uniFEEA [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -251,7 +255,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- _uniFBB2.001 
 
-	- And 50 more.
+	- 50 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -272,7 +276,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
@@ -299,7 +303,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni08A0 (U+08A0): L<<278.0,-85.0>--<294.0,-81.0>> -> L<<294.0,-81.0>--<309.0,-78.0>> 
 
-	* And 18 more.
+	* 18 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -315,7 +319,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uniFEFA (U+FEFA): B<<461.0,298.0>-<458.0,343.0>-<454.0,399.0>>/L<<454.0,399.0>--<451.0,372.0>> = 10.425808525884747 
 
-	* And uniFEFC (U+FEFC): B<<461.0,298.0>-<458.0,343.0>-<454.0,399.0>>/L<<454.0,399.0>--<451.0,372.0>> = 10.425808525884747 [code: found-jaggy-segments]
+	* uniFEFC (U+FEFC): B<<461.0,298.0>-<458.0,343.0>-<454.0,399.0>>/L<<454.0,399.0>--<451.0,372.0>> = 10.425808525884747 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -325,7 +329,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni066D (U+066D): L<<21.0,283.0>--<156.0,282.0>> 
 
-	* And uni066D (U+066D): L<<243.0,282.0>--<380.0,283.0>> [code: found-semi-vertical]
+	* uni066D (U+066D): L<<243.0,282.0>--<380.0,283.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[10] NotoNaskhArabic-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
@@ -360,7 +364,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	- uniFBA7 + uniFEDF 
 
-	- And uni0651_uni0670 + uniFEEA [code: lacks-kern-info]
+	- uni0651_uni0670 + uniFEEA [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -394,7 +398,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	- _uniFBB2.001 
 
-	- And 50 more.
+	- 50 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -415,7 +419,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
@@ -442,7 +446,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni06DB (U+06DB): L<<10.0,725.0>--<33.0,748.0>> -> L<<33.0,748.0>--<53.0,769.0>> 
 
-	* And 19 more.
+	* 19 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -458,7 +462,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uniFEFA (U+FEFA): B<<458.5,282.5>-<455.0,333.0>-<450.0,405.0>>/L<<450.0,405.0>--<447.0,378.0>> = 10.312687686660533 
 
-	* And uniFEFC (U+FEFC): B<<458.5,282.5>-<455.0,333.0>-<450.0,405.0>>/L<<450.0,405.0>--<447.0,378.0>> = 10.312687686660533 [code: found-jaggy-segments]
+	* uniFEFC (U+FEFC): B<<458.5,282.5>-<455.0,333.0>-<450.0,405.0>>/L<<450.0,405.0>--<447.0,378.0>> = 10.312687686660533 [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[11] NotoNaskhArabic[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -500,7 +504,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	- uniFBA7 + uniFEDF 
 
-	- And uni0651_uni0670 + uniFEEA [code: lacks-kern-info]
+	- uni0651_uni0670 + uniFEEA [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure variable fonts include an avar table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mandatory_avar_table">com.google.fonts/check/mandatory_avar_table</a>)</summary><div>
 
 
@@ -538,22 +542,22 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	- _uniFBB2.001 
 
-	- And 50 more.
+	- 50 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uni0602' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f50a4032bd0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f50a4032e10> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uni0602' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fbbeb18ed90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fbbeacc2b90> [code: interpolation-issues]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 8 | 37 | 432 | 26 | 381 | 0 |
-| 0% | 1% | 4% | 49% | 3% | 43% | 0% |
+| 3 | 9 | 37 | 427 | 26 | 385 | 0 |
+| 0% | 1% | 4% | 48% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

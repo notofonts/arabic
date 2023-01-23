@@ -1,12 +1,12 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.11a8
+Fontbakery version: 0.8.11a9
 
-<details><summary><b>[4] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> All tabular figures must have the same width across the RIBBI-family. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/tnum_horizontal_metrics">com.google.fonts/check/family/tnum_horizontal_metrics</a>)</summary><div>
+<details><summary><b>[5] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> All tabular figures must have the same width across the RIBBI-family. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/tnum_horizontal_metrics">com.google.fonts/check/family/tnum_horizontal_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** The most common tabular glyph width is 488. But there are other tabular glyphs with different widths such as the following ones:
-	{449: ['uni0662.tnum', 'uni0664.tnum', 'uni0666.tnum', 'uni0669.tnum']}. [code: inconsistent-widths]
+* 🔥 **FAIL** The most common tabular glyph width is 449. But there are other tabular glyphs with different widths such as the following ones:
+	{488: ['uni0662.tnum', 'uni0664.tnum', 'uni0666.tnum', 'uni0669.tnum']}. [code: inconsistent-widths]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
@@ -19,6 +19,10 @@ Fontbakery version: 0.8.11a8
 
 
 * 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that OS/2.fsSelection bold & italic settings are unique for each NameID1 (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.adobe.fonts/check/family/bold_italic_unique_for_nameid1">com.adobe.fonts/check/family/bold_italic_unique_for_nameid1</a>)</summary><div>
+
+
+* 🔥 **FAIL** Family 'Noto Naskh Arabic UI' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
 </div></details><br></div></details><details><summary><b>[12] NotoNaskhArabicUI-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -54,7 +58,7 @@ Fontbakery version: 0.8.11a8
 	- 0x007D (RIGHT CURLY BRACKET)
  
 
-	- And 302 more.
+	- 302 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
@@ -77,7 +81,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- uni0654 
 
-	- And uni065B [code: unattached-dotted-circle-marks]
+	- uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -115,7 +119,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- _uniFBB2.001 
 
-	- And 32 more.
+	- 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -148,7 +152,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uniFBC1 (U+FBC1): L<<143.0,50.0>--<143.0,36.0>> -> L<<143.0,36.0>--<146.0,-15.0>> 
 
-	* And 17 more.
+	* 17 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -176,7 +180,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uniFC0A (U+FC0A): B<<590.5,152.0>-<563.0,156.0>-<543.0,161.0>>/B<<543.0,161.0>-<584.0,142.0>-<605.5,131.0>> = 10.827453103825361 
 
-	* And 137 more.
+	* 137 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[14] NotoNaskhArabicUI-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
@@ -214,7 +218,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	- 0x007D (RIGHT CURLY BRACKET)
  
 
-	- And 302 more.
+	- 302 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
@@ -237,7 +241,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- uni0654 
 
-	- And uni065B [code: unattached-dotted-circle-marks]
+	- uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -282,7 +286,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- _uniFBB2.001 
 
-	- And 32 more.
+	- 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -315,7 +319,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni06DB (U+06DB): L<<9.0,722.0>--<33.0,746.0>> -> L<<33.0,746.0>--<54.0,768.0>> 
 
-	* And 19 more.
+	* 19 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -331,7 +335,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uniFEFA (U+FEFA): B<<461.0,433.0>-<458.0,478.0>-<454.0,534.0>>/L<<454.0,534.0>--<451.0,507.0>> = 10.425808525884747 
 
-	* And uniFEFC (U+FEFC): B<<461.0,433.0>-<458.0,478.0>-<454.0,534.0>>/L<<454.0,534.0>--<451.0,507.0>> = 10.425808525884747 [code: found-jaggy-segments]
+	* uniFEFC (U+FEFC): B<<461.0,433.0>-<458.0,478.0>-<454.0,534.0>>/L<<454.0,534.0>--<451.0,507.0>> = 10.425808525884747 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -339,7 +343,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uni066D (U+066D): L<<21.0,418.0>--<156.0,417.0>> 
 
-	* And uni066D (U+066D): L<<243.0,417.0>--<380.0,418.0>> [code: found-semi-vertical]
+	* uni066D (U+066D): L<<243.0,417.0>--<380.0,418.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[12] NotoNaskhArabicUI-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -375,7 +379,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	- 0x007D (RIGHT CURLY BRACKET)
  
 
-	- And 302 more.
+	- 302 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
@@ -398,7 +402,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- uni0654 
 
-	- And uni065B [code: unattached-dotted-circle-marks]
+	- uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -436,7 +440,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- _uniFBB2.001 
 
-	- And 32 more.
+	- 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -469,7 +473,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni06DB (U+06DB): L<<11.0,724.0>--<34.0,747.0>> -> L<<34.0,747.0>--<54.0,768.0>> 
 
-	* And 19 more.
+	* 19 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -485,7 +489,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* uniFEFA (U+FEFA): B<<458.5,417.5>-<455.0,468.0>-<450.0,540.0>>/L<<450.0,540.0>--<447.0,513.0>> = 10.312687686660533 
 
-	* And uniFEFC (U+FEFC): B<<458.5,417.5>-<455.0,468.0>-<450.0,540.0>>/L<<450.0,540.0>--<447.0,513.0>> = 10.312687686660533 [code: found-jaggy-segments]
+	* uniFEFC (U+FEFC): B<<458.5,417.5>-<455.0,468.0>-<450.0,540.0>>/L<<450.0,540.0>--<447.0,513.0>> = 10.312687686660533 [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[15] NotoNaskhArabicUI[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -533,7 +537,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	- 0x007D (RIGHT CURLY BRACKET)
  
 
-	- And 302 more.
+	- 302 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
@@ -556,7 +560,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- uni0654 
 
-	- And uni065B [code: unattached-dotted-circle-marks]
+	- uni065B [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
 
 
@@ -598,14 +602,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 	- _uniFBB2.001 
 
-	- And 32 more.
+	- 32 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uni0602' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f10a43ffe50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f10a43fd350> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uni0602' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa69baa1a50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa69baa2190> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -616,7 +620,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 24 | 30 | 439 | 26 | 365 | 0 |
+| 3 | 25 | 30 | 435 | 26 | 368 | 0 |
 | 0% | 3% | 3% | 49% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
