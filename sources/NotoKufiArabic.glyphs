@@ -3,7 +3,8 @@
 DisplayStrings = (
 "/alefHamzaabove-ar.fina/alefHamzabelow-ar/alefWasla-ar/alefMadda-ar",
 "/lam_alef-ar",
-"/wavyhamzaabove-ar/space/hamzaabove-ar"
+"/vabove-ar/lam-ar.init",
+"/threedotsdownabove-ar/dal-ar/space/space/hamzabelow-ar"
 );
 classes = (
 {
@@ -96,7 +97,7 @@ code = "script arab;\012language URD;\012lookup locl_arab_0 {\012	sub four-persi
 name = locl;
 },
 {
-code = "\012lookup liaadama { # See issue #26\012  lookupflag UseMarkFilteringSet [hamzaabove-ar];\012  sub lam-ar kashida-ar' hamzaabove-ar' alef-ar by hamzabetween-ar;\012} liaadama;\012\012lookup ccmp_arab_1 {\012	lookupflag 0;\012  sub fathatan-ar shadda-ar by fathatan_shadda-ar;\012  sub fathatan-ar hamzaabove-ar by fathatan_hamzaabove-ar;\012  sub dammatan-ar shadda-ar by dammatan_shadda-ar;\012  sub dammatan-ar hamzaabove-ar by dammatan_hamzaabove-ar;\012  sub kasratan-ar shadda-ar by kasratan_shadda-ar;\012  sub kasratan-ar hamzabelow-ar by kasratan_hamzabelow-ar;\012  sub fatha-ar shadda-ar by fatha_shadda-ar;\012  sub fatha-ar hamzaabove-ar by fatha_hamzaabove-ar;\012  sub damma-ar shadda-ar by damma_shadda-ar;\012  sub damma-ar hamzaabove-ar by damma_hamzaabove-ar;\012  sub kasra-ar shadda-ar by kasra_shadda-ar;\012  sub kasra-ar hamzabelow-ar by kasra_hamzabelow-ar;\012  sub shadda-ar fathatan-ar by fathatan_shadda-ar;\012  sub shadda-ar dammatan-ar by dammatan_shadda-ar;\012  sub shadda-ar kasratan-ar by kasratan_shadda-ar;\012  sub shadda-ar fatha-ar by fatha_shadda-ar;\012  sub shadda-ar damma-ar by damma_shadda-ar;\012  sub shadda-ar kasra-ar by kasra_shadda-ar;\012  sub shadda-ar alefabove-ar by shadda_alefabove-ar;\012  sub hamzaabove-ar fathatan-ar by fathatan_hamzaabove-ar;\012  sub hamzaabove-ar dammatan-ar by dammatan_hamzaabove-ar;\012  sub hamzaabove-ar fatha-ar by fatha_hamzaabove-ar;\012  sub hamzaabove-ar damma-ar by damma_hamzaabove-ar;\012  sub hamzaabove-ar sukun-ar by hamzaabove_sukun-ar;\012  sub hamzabelow-ar kasratan-ar by kasratan_hamzabelow-ar;\012  sub hamzabelow-ar kasra-ar by kasra_hamzabelow-ar;\012  sub sukun-ar hamzaabove-ar by hamzaabove_sukun-ar;\012  sub alefabove-ar shadda-ar by shadda_alefabove-ar;\012\012} ccmp_arab_1;\012\012lookup decomposition {\012  # Alef family\012  sub alefHamzaabove-ar by alef-ar.short hamzaabove-ar;\012  sub alefHamzabelow-ar by alef-ar hamzabelow-ar;\012  sub alefMadda-ar by alef-ar.short madda-ar;\012  sub alefWavyhamzaabove-ar by alef-ar.short wavyhamzaabove-ar;\012  sub alefWavyhamzabelow-ar by alef-ar wavyhamzabelow-ar;\012  #sub alefFathatan-ar by alef-ar fathatan-ar;\012  sub highhamzaAlef-ar by highhamza-ar alef-ar;\012  sub alefWasla-ar by alef-ar.short wasla-ar;\012\012  # Ain family\012  sub ainThreedots-ar by ain-ar threedotsupabove-ar;\012  sub ainThreedotsdownabove-ar by ain-ar threedotsdownabove-ar;\012  sub ainTwodotshorizontalabove-ar by ain-ar twodotshorizontalabove-ar;\012  sub ainTwodotsverticalabove-ar by ain-ar twodotsverticalabove-ar;\012#  sub ghainThreedotsabove-ar by ghain-ar threedotsupabove-ar;\012\012  # Dal family\012  sub dalDotbelow-ar by dal-ar dotbelow-ar;\012  sub dalDotbelowTah-ar by dal-ar dotbelow-ar tahabove-ar;\012#  sub dalThreedotsbelow-ar by dal-ar threedotsdownbelow-ar;\012  sub dalThreedotsdown-ar by dal-ar threedotsdownabove-ar;\012  sub dalFourdots-ar by dal-ar fourdotsabove-ar;\012  sub dalVinvertedabove-ar by dal-ar vinvertedabove-ar;\012  sub dalTwodotsverticalbelowTah-ar by dal-ar twodotsverticalbelow-ar tahabove-ar;\012  sub dalVinvertedbelow-ar by dal-ar vinvertedbelow-ar;\012\012  # Heh family\012#  sub hehgoalHamzaabove-ar by hehgoal-ar hamzaabove-ar.twentypercent;\012  sub hehVinvertedabove-ar by hehDoachashmee-ar vinvertedabove-ar;\012\012  # Jeem family\012  sub hahHamzaabove-ar by hah-ar hamzaabove-ar;\012  sub hahTahabove-ar by hah-ar tahabove-ar;\012  sub hahTwodotsverticalabove-ar by hah-ar twodotsverticalabove-ar;\012  sub hahTwodotshorizontalabove-ar by hah-ar twodotshorizontalabove-ar;\012  sub hahThreedotsabove-ar by hah-ar threedotsupabove-ar;\012#  sub jeemTwodotsabove-ar by jeem-ar twodotshorizontalabove-ar;\012\012  # Qaf/Fe family\012  sub qafThreedotsabove-ar by qafDotless-ar threedotsupabove-ar;\012  sub qafDotabove-ar by qafDotless-ar dotabove-ar;\012  sub fehDotbelow-ar by feh-ar dotbelow-ar;\012  sub fehThreedotsbelow-ar by fehDotless-ar threedotsdownbelow-ar;\012  #sub fehDotbelowThreedotsabove-ar by fehDotless-ar dotbelow-ar threedotsupabove-ar;\012  sub fehTwodotsbelow-ar by fehDotless-ar twodotshorizontalbelow-ar;\012  sub fehThreedotsupbelow-ar by fehDotless-ar threedotsupbelow-ar;\012  sub fehDotmovedbelow-ar by fehDotless-ar dotbelow-ar;\012  #sub qafDotbelow-ar by qaf-ar dotbelow-ar;\012  #sub qafThreedotsaboveAfrican-ar by qafAfrican-ar threedotsupabove-ar;\012  #sub jeemThreedotsabove-ar by jeem-ar threedotsupabove-ar;\012  #sub qafDotmovedbelow-ar by qafDotless-ar dotbelow-ar;\012  #sub lamTahabove-ar by lam-ar tahabove-ar;\012\012  # Beh family\012  sub tehThreedotsdown-ar by behDotless-ar threedotsdownabove-ar;\012  sub tehThreedotsupbelow-ar by teh-ar threedotsupbelow-ar;\012#  sub tehRing-ar by teh-ar ring-ar;\012  sub behThreedotshorizontalbelow-ar by behDotless-ar threedotshorizontalbelow-ar;\012  #sub behVabove-ar by behDotless-ar vabove-ar.near;\012  #sub behVbelow-ar by behDotless-ar vbelow-ar;\012  sub behVinvertedbelow-ar by behDotless-ar vinvertedbelow-ar;\012  sub behThreedotsupabove-ar by beh-ar threedotsupabove-ar;\012  sub behThreedotsupbelow-ar by behDotless-ar threedotsupbelow-ar;\012  #sub behhamzaabove-ar by beh-ar hamzaabove-ar;\012  sub noonTahabove-ar by noon-ar tahabove-ar;\012  #sub noonVabove-ar by noonghunna-ar dotinsidevabove-ar;\012  #sub yehTwodotsbelowHamzaabove-ar by yeh-ar hamzaabove-ar;\012  sub yehTwodotsbelowDotabove-ar by yeh-ar dotabove-ar;\012  sub yehVinverted-farsi by yeh-farsi vinvertedabove-ar;\012  sub yehTwodotsabove-farsi by yeh-farsi twodotshorizontalabove-ar;\012  sub yehThreedotsabove-farsi by yeh-farsi threedotsupabove-ar;\012  #sub pehVabove-ar by peh-ar vabove-ar.near;\012  #sub tehVabove-ar by teh-ar vabove-ar;\012  #sub ttehVabove-ar by tteh-ar vabove-ar;\012  #sub tchehVabove-ar by tcheh-ar vabove-ar.near;\012  #sub noonVinvertedabove-ar by noonghunna-ar vinvertedabove-ar;\012\012  # Seen family\012  sub sheenDotbelow-ar by sheen-ar dotbelow-ar;\012  sub sheenThreedotsbelow-ar by sheen-ar threedotsdownbelow-ar;\012  sub seenFourdotsabove-ar by seen-ar fourdotsabove-ar;\012  sub seenDotbelowDotabove-ar by seen-ar dotbelow-ar dotabove-ar;\012  sub seenThreedotsbelow-ar by seen-ar threedotsdownbelow-ar;\012  sub seenVinvertedabove-ar by seen-ar vinvertedabove-ar;\012  #sub seenTahTwodotshorizontalabove-ar by seen-ar _twodotstah;\012  #sub seenTwodotsverticalabove-ar by seen-ar twodotsverticalabove-ar;\012\012  # Lam family\012  sub lamDotabove-ar by lam-ar dotabove-ar;\012  sub behTwodotsbelowDotabove-ar by behDotless-ar twodotshorizontalbelow-ar dotabove-ar;\012  sub tchehDotabove-ar by tcheh-ar dotabove-ar;\012  sub lamThreedotsabove-ar by lam-ar threedotsupabove-ar;\012  sub lamThreedotsbelow-ar by lam-ar threedotsdownbelow-ar;\012  #sub lamVabove-ar by lam-ar smallvabove-ar;\012  #sub lamBar-ar by lam-ar bar-ar;\012  #sub lamDoublebar-ar by lam-ar doubleBar-ar;\012\012  # Sad family\012  sub sadTwodotsbelow-ar by sad-ar twodotshorizontalbelow-ar;\012  sub sadThreedots-ar by sad-ar threedotsupabove-ar;\012  #sub sadThreedotsbelow-ar by sad-ar threedotsdownbelow-ar;\012  sub dadDotbelow-ar by dad-ar dotbelow-ar;\012\012  # Meem family\012  sub meemDotabove-ar by meem-ar dotabove-ar;\012  sub meemDotbelow-ar by meem-ar dotbelow-ar;\012  sub meemThreedotsabove-ar by meem-ar threedotsupabove-ar;\012\012  # Tah family\012  #sub tahTwodotsabove-ar by tah-ar twodotshorizontalabove-ar;\012  sub tahThreedots-ar by tah-ar threedotsupabove-ar;\012  #sub tahDotbelow-ar by tah-ar dotbelow-ar;\012  #sub tahThreedotsbelow-ar by tah-ar threedotsdownbelow-ar;\012\012  # Kaf family\012  #sub kehehDotabove-ar by keheh-ar dotabove-ar.small;\012  sub kehehTwodotshorizontalabove-ar by keheh-ar twodotshorizontalabove-ar.diagonal;\012  #sub kehehTwodotsverticalbelow-ar by keheh-ar twodotsverticalbelow-ar;\012  sub kehehThreedotsabove-ar by keheh-ar threedotsupabove-ar.diagonal;\012  sub kehehThreedotsbelow-ar by keheh-ar threedotsdownbelow-ar;\012  sub kehehThreedotsupbelow-ar by keheh-ar threedotsupbelow-ar;\012  sub gafThreedots-ar by gaf-ar threedotsupabove-ar.diagonal;\012  sub kafThreedotsbelow-ar by kaf-ar threedotsdownbelow-ar;\012#  sub gafRing-ar by gaf-ar ring-ar;\012#  sub kafRing-ar by keheh-ar ring-ar;\012  sub gafTwodotsbelow-ar by gaf-ar twodotshorizontalbelow-ar;\012  sub kafDotabove-ar by kaf-ar dotabove-ar;\012#  sub kafDotbelow-ar by kaf-ar dotbelow-ar;\012#  sub kehehVabove-ar by keheh-ar vabove-ar;\012\012  # Reh family\012#  sub rehv-ar by reh-ar vabove-ar.near;\012#  sub rehVbelow-ar by reh-ar vbelow-ar;\012#  sub zainVinvertedabove-ar by zain-ar vinvertedabove-ar;\012  sub rehTwodots-ar by reh-ar twodotshorizontalabove-ar;\012  sub jeh-ar by reh-ar threedotsupabove-ar;\012  sub rehFourdots-ar by reh-ar fourdotsabove-ar;\012  sub rehTwodotsverticalabove-ar by reh-ar twodotsverticalabove-ar;\012\012  # Waw family\012  sub wawDotabove-ar by waw-ar dotabove-ar;\012  sub wawTwodots-ar by waw-ar twodotshorizontalabove-ar;\012} decomposition;\012";
+code = "\012lookup liaadama { # See issue #26\012  lookupflag UseMarkFilteringSet [hamzaabove-ar];\012  sub lam-ar kashida-ar' hamzaabove-ar' alef-ar by hamzabetween-ar;\012} liaadama;\012\012lookup ccmp_arab_1 {\012	lookupflag 0;\012  sub fathatan-ar shadda-ar by fathatan_shadda-ar;\012  sub fathatan-ar hamzaabove-ar by fathatan_hamzaabove-ar;\012  sub dammatan-ar shadda-ar by dammatan_shadda-ar;\012  sub dammatan-ar hamzaabove-ar by dammatan_hamzaabove-ar;\012  sub kasratan-ar shadda-ar by kasratan_shadda-ar;\012  sub kasratan-ar hamzabelow-ar by kasratan_hamzabelow-ar;\012  sub fatha-ar shadda-ar by fatha_shadda-ar;\012  sub fatha-ar hamzaabove-ar by fatha_hamzaabove-ar;\012  sub damma-ar shadda-ar by damma_shadda-ar;\012  sub damma-ar hamzaabove-ar by damma_hamzaabove-ar;\012  sub kasra-ar shadda-ar by kasra_shadda-ar;\012  sub kasra-ar hamzabelow-ar by kasra_hamzabelow-ar;\012  sub shadda-ar fathatan-ar by fathatan_shadda-ar;\012  sub shadda-ar dammatan-ar by dammatan_shadda-ar;\012  sub shadda-ar kasratan-ar by kasratan_shadda-ar;\012  sub shadda-ar fatha-ar by fatha_shadda-ar;\012  sub shadda-ar damma-ar by damma_shadda-ar;\012  sub shadda-ar kasra-ar by kasra_shadda-ar;\012  sub shadda-ar alefabove-ar by shadda_alefabove-ar;\012  sub hamzaabove-ar fathatan-ar by fathatan_hamzaabove-ar;\012  sub hamzaabove-ar dammatan-ar by dammatan_hamzaabove-ar;\012  sub hamzaabove-ar fatha-ar by fatha_hamzaabove-ar;\012  sub hamzaabove-ar damma-ar by damma_hamzaabove-ar;\012  sub hamzaabove-ar sukun-ar by hamzaabove_sukun-ar;\012  sub hamzabelow-ar kasratan-ar by kasratan_hamzabelow-ar;\012  sub hamzabelow-ar kasra-ar by kasra_hamzabelow-ar;\012  sub sukun-ar hamzaabove-ar by hamzaabove_sukun-ar;\012  sub alefabove-ar shadda-ar by shadda_alefabove-ar;\012\012} ccmp_arab_1;\012\012lookup decomposition {\012  # Alef family\012  sub alefHamzaabove-ar by alef-ar.short hamzaabove-ar;\012  sub alefHamzabelow-ar by alef-ar hamzabelow-ar;\012  sub alefMadda-ar by alef-ar.short madda-ar;\012  sub alefWavyhamzaabove-ar by alef-ar.short wavyhamzaabove-ar;\012  sub alefWavyhamzabelow-ar by alef-ar wavyhamzabelow-ar;\012  #sub alefFathatan-ar by alef-ar fathatan-ar;\012  sub highhamzaAlef-ar by highhamza-ar alef-ar;\012  sub alefWasla-ar by alef-ar.short wasla-ar;\012\012  # Ain family\012  sub ainThreedots-ar by ain-ar threedotsupabove-ar;\012  sub ainThreedotsdownabove-ar by ain-ar threedotsdownabove-ar;\012  sub ainTwodotshorizontalabove-ar by ain-ar twodotshorizontalabove-ar;\012  sub ainTwodotsverticalabove-ar by ain-ar twodotsverticalabove-ar;\012#  sub ghainThreedotsabove-ar by ghain-ar threedotsupabove-ar;\012\012  # Dal family\012  sub dalDotbelow-ar by dal-ar dotbelow-ar;\012  sub dalDotbelowTah-ar by dal-ar dotbelow-ar tahabove-ar;\012#  sub dalThreedotsbelow-ar by dal-ar threedotsdownbelow-ar;\012  sub dalThreedotsdown-ar by dal-ar threedotsdownabove-ar;\012  sub dalFourdots-ar by dal-ar fourdotsabove-ar;\012  sub dalVinvertedabove-ar by dal-ar vinvertedabove-ar;\012  sub dalTwodotsverticalbelowTah-ar by dal-ar twodotsverticalbelow-ar tahabove-ar;\012  sub dalVinvertedbelow-ar by dal-ar vinvertedbelow-ar;\012\012  # Heh family\012#  sub hehgoalHamzaabove-ar by hehgoal-ar hamzaabove-ar.twentypercent;\012  sub hehVinvertedabove-ar by hehDoachashmee-ar vinvertedabove-ar;\012\012  # Jeem family\012  sub hahHamzaabove-ar by hah-ar hamzaabove-ar;\012  sub hahTahabove-ar by hah-ar tahabove-ar;\012  sub hahTwodotsverticalabove-ar by hah-ar twodotsverticalabove-ar;\012  sub hahTwodotshorizontalabove-ar by hah-ar twodotshorizontalabove-ar;\012  sub hahThreedotsabove-ar by hah-ar threedotsupabove-ar;\012#  sub jeemTwodotsabove-ar by jeem-ar twodotshorizontalabove-ar;\012\012  # Qaf/Fe family\012  sub qafThreedotsabove-ar by qafDotless-ar threedotsupabove-ar;\012  sub qafDotabove-ar by qafDotless-ar dotabove-ar;\012  sub fehDotbelow-ar by feh-ar dotbelow-ar;\012  sub fehThreedotsbelow-ar by fehDotless-ar threedotsdownbelow-ar;\012  #sub fehDotbelowThreedotsabove-ar by fehDotless-ar dotbelow-ar threedotsupabove-ar;\012  sub fehTwodotsbelow-ar by fehDotless-ar twodotshorizontalbelow-ar;\012  sub fehThreedotsupbelow-ar by fehDotless-ar threedotsupbelow-ar;\012  sub fehDotmovedbelow-ar by fehDotless-ar dotbelow-ar;\012  #sub qafDotbelow-ar by qaf-ar dotbelow-ar;\012  #sub qafThreedotsaboveAfrican-ar by qafAfrican-ar threedotsupabove-ar;\012  #sub jeemThreedotsabove-ar by jeem-ar threedotsupabove-ar;\012  #sub qafDotmovedbelow-ar by qafDotless-ar dotbelow-ar;\012  #sub lamTahabove-ar by lam-ar tahabove-ar;\012\012  # Beh family\012  sub tehThreedotsdown-ar by behDotless-ar threedotsdownabove-ar;\012  sub tehThreedotsupbelow-ar by teh-ar threedotsupbelow-ar;\012#  sub tehRing-ar by teh-ar ring-ar;\012  sub behThreedotshorizontalbelow-ar by behDotless-ar threedotshorizontalbelow-ar;\012  #sub behVabove-ar by behDotless-ar vabove-ar.near;\012  #sub behVbelow-ar by behDotless-ar vbelow-ar;\012  sub behVinvertedbelow-ar by behDotless-ar vinvertedbelow-ar;\012  sub behThreedotsupabove-ar by beh-ar threedotsupabove-ar;\012  sub behThreedotsupbelow-ar by behDotless-ar threedotsupbelow-ar;\012  #sub behhamzaabove-ar by beh-ar hamzaabove-ar;\012  sub noonTahabove-ar by noon-ar tahabove-ar;\012  #sub noonVabove-ar by noonghunna-ar dotinsidevabove-ar;\012  #sub yehTwodotsbelowHamzaabove-ar by yeh-ar hamzaabove-ar;\012  sub yehTwodotsbelowDotabove-ar by yeh-ar dotabove-ar;\012  sub yehVinverted-farsi by yeh-farsi vinvertedabove-ar;\012  sub yehTwodotsabove-farsi by yeh-farsi twodotshorizontalabove-ar;\012  sub yehThreedotsabove-farsi by yeh-farsi threedotsupabove-ar;\012  #sub pehVabove-ar by peh-ar vabove-ar.near;\012  #sub tehVabove-ar by teh-ar vabove-ar;\012  #sub ttehVabove-ar by tteh-ar vabove-ar;\012  #sub tchehVabove-ar by tcheh-ar vabove-ar.near;\012  #sub noonVinvertedabove-ar by noonghunna-ar vinvertedabove-ar;\012\012  # Seen family\012  sub sheenDotbelow-ar by sheen-ar dotbelow-ar;\012  sub sheenThreedotsbelow-ar by sheen-ar threedotsdownbelow-ar;\012  sub seenFourdotsabove-ar by seen-ar fourdotsabove-ar;\012  sub seenDotbelowDotabove-ar by seen-ar dotbelow-ar dotabove-ar;\012  sub seenThreedotsbelow-ar by seen-ar threedotsdownbelow-ar;\012  sub seenVinvertedabove-ar by seen-ar vinvertedabove-ar;\012  #sub seenTahTwodotshorizontalabove-ar by seen-ar _twodotstah;\012  #sub seenTwodotsverticalabove-ar by seen-ar twodotsverticalabove-ar;\012\012  # Lam family\012  sub lamDotabove-ar by lam-ar dotabove-ar;\012  sub behTwodotsbelowDotabove-ar by behDotless-ar twodotshorizontalbelow-ar dotabove-ar;\012  sub tchehDotabove-ar by tcheh-ar dotabove-ar;\012  sub lamThreedotsabove-ar by lam-ar threedotsupabove-ar;\012  sub lamThreedotsbelow-ar by lam-ar threedotsdownbelow-ar;\012  sub lamVabove-ar by lam-ar vabove-ar;\012  sub lamBar-ar by lam-ar bar-ar;\012  #sub lamDoublebar-ar by lam-ar doubleBar-ar;\012\012  # Sad family\012  sub sadTwodotsbelow-ar by sad-ar twodotshorizontalbelow-ar;\012  sub sadThreedots-ar by sad-ar threedotsupabove-ar;\012  #sub sadThreedotsbelow-ar by sad-ar threedotsdownbelow-ar;\012  sub dadDotbelow-ar by dad-ar dotbelow-ar;\012\012  # Meem family\012  sub meemDotabove-ar by meem-ar dotabove-ar;\012  sub meemDotbelow-ar by meem-ar dotbelow-ar;\012  sub meemThreedotsabove-ar by meem-ar threedotsupabove-ar;\012\012  # Tah family\012  #sub tahTwodotsabove-ar by tah-ar twodotshorizontalabove-ar;\012  sub tahThreedots-ar by tah-ar threedotsupabove-ar;\012  #sub tahDotbelow-ar by tah-ar dotbelow-ar;\012  #sub tahThreedotsbelow-ar by tah-ar threedotsdownbelow-ar;\012\012  # Kaf family\012  #sub kehehDotabove-ar by keheh-ar dotabove-ar.small;\012  sub kehehTwodotshorizontalabove-ar by keheh-ar twodotshorizontalabove-ar.diagonal;\012  #sub kehehTwodotsverticalbelow-ar by keheh-ar twodotsverticalbelow-ar;\012  sub kehehThreedotsabove-ar by keheh-ar threedotsupabove-ar.diagonal;\012  sub kehehThreedotsbelow-ar by keheh-ar threedotsdownbelow-ar;\012  sub kehehThreedotsupbelow-ar by keheh-ar threedotsupbelow-ar;\012  sub gafThreedots-ar by gaf-ar threedotsupabove-ar.diagonal;\012  sub kafThreedotsbelow-ar by kaf-ar threedotsdownbelow-ar;\012#  sub gafRing-ar by gaf-ar ring-ar;\012#  sub kafRing-ar by keheh-ar ring-ar;\012  sub gafTwodotsbelow-ar by gaf-ar twodotshorizontalbelow-ar;\012  sub kafDotabove-ar by kaf-ar dotabove-ar;\012#  sub kafDotbelow-ar by kaf-ar dotbelow-ar;\012#  sub kehehVabove-ar by keheh-ar vabove-ar;\012\012  # Reh family\012#  sub rehv-ar by reh-ar vabove-ar.near;\012#  sub rehVbelow-ar by reh-ar vbelow-ar;\012#  sub zainVinvertedabove-ar by zain-ar vinvertedabove-ar;\012  sub rehTwodots-ar by reh-ar twodotshorizontalabove-ar;\012  sub jeh-ar by reh-ar threedotsupabove-ar;\012  sub rehFourdots-ar by reh-ar fourdotsabove-ar;\012  sub rehTwodotsverticalabove-ar by reh-ar twodotsverticalabove-ar;\012\012  # Waw family\012  sub wawDotabove-ar by waw-ar dotabove-ar;\012  sub wawTwodots-ar by waw-ar twodotshorizontalabove-ar;\012} decomposition;\012";
 name = ccmp;
 },
 {
@@ -116,7 +117,7 @@ code = "lookup rlig_arab_0 {\012	lookupflag IgnoreMarks RightToLeft;\012	script 
 name = rlig;
 },
 {
-code = "lookup dlig_RTL {\012lookupflag IgnoreMarks RightToLeft;\012	sub lamBar-ar.init alef-ar.fina by lamBar_alef-ar.isol;\012	sub lamBar-ar.medi alef-ar.fina by lamBar_alef-ar.fina;\012#	sub lamVabove-ar.init alef-ar.fina by lamVabove_alef-ar.isol;\012#	sub lamVabove-ar.medi alef-ar.fina by lamVabove_alef-ar.fina;\012#	sub lam-ar.init alef-ar.fina by lam_alef-ar.isol;\012#	sub lamVabove-ar.init alef-ar.fina by lamVabove_alef-ar.isol;\012#	sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar.isol;\012	sub lamVabove-ar.init alefMadda-ar.fina by lamVaboveMadda_alef-ar.isol;\012#	sub lam-ar.init alefHamzabelow-ar.fina by lam_alefHamzabelow-ar.isol;\012#	sub lam-ar.init alefMadda-ar.fina by lam_alefMadda-ar.isol;\012#	sub lam-ar.init alefWasla-ar.fina by lam_alefWasla-ar.isol;\012#	sub lam-ar.init highhamzaAlef-ar.fina by lam_highhamzaAlef-ar.isol;\012#	sub lam-ar.medi highhamzaAlef-ar.fina by lam_highhamzaAlef-ar.fina;\012	sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;\012} dlig_RTL;\012";
+code = "lookup dlig_RTL {\012lookupflag IgnoreMarks RightToLeft;\012#	sub lamVabove-ar.init alef-ar.fina by lamVabove_alef-ar.isol;\012#	sub lamVabove-ar.medi alef-ar.fina by lamVabove_alef-ar.fina;\012#	sub lam-ar.init alef-ar.fina by lam_alef-ar.isol;\012#	sub lamVabove-ar.init alef-ar.fina by lamVabove_alef-ar.isol;\012#	sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar.isol;\012	sub lamVabove-ar.init alefMadda-ar.fina by lamVaboveMadda_alef-ar.isol;\012#	sub lam-ar.init alefHamzabelow-ar.fina by lam_alefHamzabelow-ar.isol;\012#	sub lam-ar.init alefMadda-ar.fina by lam_alefMadda-ar.isol;\012#	sub lam-ar.init alefWasla-ar.fina by lam_alefWasla-ar.isol;\012#	sub lam-ar.init highhamzaAlef-ar.fina by lam_highhamzaAlef-ar.isol;\012#	sub lam-ar.medi highhamzaAlef-ar.fina by lam_highhamzaAlef-ar.fina;\012	sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;\012} dlig_RTL;\012";
 name = dlig;
 }
 );
@@ -913,13 +914,13 @@ unicode = 0627;
 },
 {
 glyphname = "alef-ar.fina";
-lastChange = "2023-02-28 10:12:44 +0000";
+lastChange = "2023-02-28 14:34:04 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{225, -78}";
+position = "{180, -78}";
 },
 {
 name = top.near;
@@ -971,7 +972,7 @@ width = 369;
 anchors = (
 {
 name = bottom;
-position = "{195, -78}";
+position = "{142, -78}";
 },
 {
 name = top.near;
@@ -1022,7 +1023,7 @@ width = 316;
 anchors = (
 {
 name = bottom;
-position = "{165, -78}";
+position = "{124, -78}";
 },
 {
 name = top.near;
@@ -1089,7 +1090,7 @@ note = uni0627.fina;
 },
 {
 glyphname = "alef-ar.short";
-lastChange = "2023-02-28 12:58:59 +0000";
+lastChange = "2023-02-28 14:23:01 +0000";
 layers = (
 {
 anchors = (
@@ -1107,7 +1108,7 @@ position = "{175, 445}";
 },
 {
 name = top.near;
-position = "{175, 750}";
+position = "{185, 750}";
 },
 {
 name = topleft;
@@ -1211,7 +1212,7 @@ position = "{110, 445}";
 },
 {
 name = top.near;
-position = "{110, 780}";
+position = "{111, 780}";
 },
 {
 name = topleft;
@@ -1248,7 +1249,7 @@ position = "{195, 445}";
 },
 {
 name = top.near;
-position = "{195, 750}";
+position = "{201, 750}";
 },
 {
 name = topleft;
@@ -18393,7 +18394,7 @@ unicode = 0631;
 },
 {
 glyphname = "reh-ar.fina";
-lastChange = "2021-05-30 08:37:35 +0000";
+lastChange = "2023-02-28 14:36:45 +0000";
 layers = (
 {
 anchors = (
@@ -18403,7 +18404,7 @@ position = "{98, -293}";
 },
 {
 name = top.near;
-position = "{259, 561}";
+position = "{278, 561}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -18477,7 +18478,7 @@ position = "{98, -293}";
 },
 {
 name = top.near;
-position = "{183, 548}";
+position = "{198, 548}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -18551,7 +18552,7 @@ position = "{64, -293}";
 },
 {
 name = top.near;
-position = "{159, 551}";
+position = "{164, 551}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -18598,7 +18599,7 @@ position = "{171, -323}";
 },
 {
 name = top.near;
-position = "{310, 570}";
+position = "{332, 570}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
@@ -18960,7 +18961,7 @@ unicode = 0691;
 },
 {
 glyphname = "rreh-ar.fina";
-lastChange = "2020-10-22 17:53:25 +0000";
+lastChange = "2023-02-28 14:38:18 +0000";
 layers = (
 {
 anchors = (
@@ -18979,7 +18980,7 @@ name = "reh-ar.fina";
 },
 {
 name = "tahabove-ar";
-transform = "{1, 0, 0, 1, 259, -5}";
+transform = "{1, 0, 0, 1, 278, -5}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -19002,7 +19003,7 @@ name = "reh-ar.fina";
 },
 {
 name = "tahabove-ar";
-transform = "{1, 0, 0, 1, 198, -33}";
+transform = "{1, 0, 0, 1, 213, -33}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -28524,7 +28525,7 @@ note = uni0639.fina;
 },
 {
 glyphname = "ain-ar.medi";
-lastChange = "2021-05-28 09:25:49 +0000";
+lastChange = "2023-02-28 13:58:49 +0000";
 layers = (
 {
 anchors = (
@@ -28534,7 +28535,7 @@ position = "{244, -78}";
 },
 {
 name = top.near;
-position = "{271, 593}";
+position = "{312, 593}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -28651,7 +28652,7 @@ position = "{244, -78}";
 },
 {
 name = top.near;
-position = "{271, 572}";
+position = "{306, 572}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -28774,7 +28775,7 @@ position = "{284, -78}";
 },
 {
 name = top.near;
-position = "{271, 570}";
+position = "{305, 570}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -28857,7 +28858,7 @@ position = "{284, -68}";
 },
 {
 name = top.near;
-position = "{271, 611}";
+position = "{315, 611}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
@@ -43188,10 +43189,14 @@ note = uni06B3.init;
 },
 {
 glyphname = "lam-ar";
-lastChange = "2021-05-30 08:44:15 +0000";
+lastChange = "2023-02-28 14:08:49 +0000";
 layers = (
 {
 anchors = (
+{
+name = bar;
+position = "{561, 488}";
+},
 {
 name = bottom;
 position = "{342, -322}";
@@ -43261,6 +43266,10 @@ width = 776;
 },
 {
 anchors = (
+{
+name = bar;
+position = "{515, 513}";
+},
 {
 name = bottom;
 position = "{342, -322}";
@@ -43332,6 +43341,10 @@ width = 687;
 {
 anchors = (
 {
+name = bar;
+position = "{468, 537}";
+},
+{
 name = bottom;
 position = "{291, -322}";
 },
@@ -43376,6 +43389,10 @@ width = 598;
 },
 {
 anchors = (
+{
+name = bar;
+position = "{592, 472}";
+},
 {
 name = bottom;
 position = "{352, -322}";
@@ -43425,10 +43442,14 @@ unicode = 0644;
 },
 {
 glyphname = "lam-ar.fina";
-lastChange = "2021-05-28 09:37:11 +0000";
+lastChange = "2023-02-28 14:10:03 +0000";
 layers = (
 {
 anchors = (
+{
+name = bar;
+position = "{561, 488}";
+},
 {
 name = bottom;
 position = "{342, -322}";
@@ -43518,6 +43539,10 @@ width = 801;
 {
 anchors = (
 {
+name = bar;
+position = "{515, 513}";
+},
+{
 name = bottom;
 position = "{342, -322}";
 },
@@ -43605,6 +43630,10 @@ width = 692;
 {
 anchors = (
 {
+name = bar;
+position = "{468, 537}";
+},
+{
 name = bottom;
 position = "{291, -322}";
 },
@@ -43661,6 +43690,10 @@ width = 613;
 },
 {
 anchors = (
+{
+name = bar;
+position = "{592, 472}";
+},
 {
 name = bottom;
 position = "{342, -322}";
@@ -43721,10 +43754,14 @@ note = uni0644.fina;
 },
 {
 glyphname = "lam-ar.medi";
-lastChange = "2021-05-31 15:43:51 +0000";
+lastChange = "2023-02-28 14:11:35 +0000";
 layers = (
 {
 anchors = (
+{
+name = bar;
+position = "{171, 489}";
+},
 {
 name = bottom;
 position = "{186, -78}";
@@ -43790,6 +43827,10 @@ width = 394;
 {
 anchors = (
 {
+name = bar;
+position = "{140, 514}";
+},
+{
 name = bottom;
 position = "{154, -78}";
 },
@@ -43854,6 +43895,10 @@ width = 341;
 {
 anchors = (
 {
+name = bar;
+position = "{109, 532}";
+},
+{
 name = bottom;
 position = "{156, -78}";
 },
@@ -43894,6 +43939,10 @@ width = 308;
 },
 {
 anchors = (
+{
+name = bar;
+position = "{192, 472}";
+},
 {
 name = bottom;
 position = "{185, -78}";
@@ -43938,10 +43987,14 @@ note = uni0644.medi;
 },
 {
 glyphname = "lam-ar.init";
-lastChange = "2021-05-28 09:36:54 +0000";
+lastChange = "2023-02-28 14:12:59 +0000";
 layers = (
 {
 anchors = (
+{
+name = bar;
+position = "{171, 489}";
+},
 {
 name = bottom;
 position = "{112, -78}";
@@ -43995,6 +44048,10 @@ width = 369;
 {
 anchors = (
 {
+name = bar;
+position = "{140, 513}";
+},
+{
 name = bottom;
 position = "{112, -78}";
 },
@@ -44047,6 +44104,10 @@ width = 316;
 {
 anchors = (
 {
+name = bar;
+position = "{109, 532}";
+},
+{
 name = bottom;
 position = "{122, -78}";
 },
@@ -44079,6 +44140,10 @@ width = 283;
 },
 {
 anchors = (
+{
+name = bar;
+position = "{192, 472}";
+},
 {
 name = bottom;
 position = "{158, -78}";
@@ -64469,7 +64534,7 @@ unicode = 0678;
 },
 {
 glyphname = "highhamzaYeh-ar.fina";
-lastChange = "2021-05-30 07:30:50 +0000";
+lastChange = "2023-02-28 14:26:05 +0000";
 layers = (
 {
 anchors = (
@@ -64488,7 +64553,7 @@ name = "alefMaksura-ar.fina";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 225, -437}";
+transform = "{1, 0, 0, 1, 215, -437}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -64511,7 +64576,7 @@ name = "alefMaksura-ar.fina";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 225, -425}";
+transform = "{1, 0, 0, 1, 215, -425}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -64558,7 +64623,7 @@ name = "alefMaksura-ar.fina";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 225, -437}";
+transform = "{1, 0, 0, 1, 245, -447}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
@@ -66646,862 +66711,6 @@ note = uni076A;
 unicode = 076A;
 },
 {
-glyphname = "lamBar-ar.fina";
-lastChange = "2021-05-28 10:17:07 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{342, -318}";
-},
-{
-name = top.near;
-position = "{244, 732}";
-}
-);
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
-{
-closed = 1;
-nodes = (
-"374 435 LINE",
-"527 435 LINE",
-"527 39 LINE SMOOTH",
-"527 -62 OFFCURVE",
-"480 -120 OFFCURVE",
-"377 -120 CURVE SMOOTH",
-"347 -120 LINE SMOOTH",
-"267 -120 OFFCURVE",
-"214 -58 OFFCURVE",
-"214 39 CURVE SMOOTH",
-"214 107 OFFCURVE",
-"227 190 OFFCURVE",
-"248 261 CURVE",
-"116 261 LINE",
-"84 198 OFFCURVE",
-"65 116 OFFCURVE",
-"65 40 CURVE SMOOTH",
-"65 -126 OFFCURVE",
-"166 -240 OFFCURVE",
-"337 -240 CURVE SMOOTH",
-"381 -240 LINE SMOOTH",
-"565 -240 OFFCURVE",
-"663 -160 OFFCURVE",
-"675 0 CURVE",
-"806 0 LINE SMOOTH",
-"809 0 OFFCURVE",
-"811 2 OFFCURVE",
-"811 5 CURVE SMOOTH",
-"811 116 LINE SMOOTH",
-"811 119 OFFCURVE",
-"809 120 OFFCURVE",
-"806 120 CURVE SMOOTH",
-"676 120 LINE",
-"676 435 LINE",
-"748 435 LINE",
-"748 542 LINE",
-"676 542 LINE",
-"676 760 LINE",
-"527 760 LINE",
-"527 542 LINE",
-"374 542 LINE"
-);
-}
-);
-userData = {
-assembly = "NPUSHB[ ]	/* 44 values pushed */
-29 22 15 4 8 8 1 36 5 36 0 22 4 39 11 40 7 38 0 38 72 89 4 0 25 0 25 0 18 2 18 32 70 89 18 27 15 8 70 89 15 18 2 0 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MIAP[1]	/* MoveIndirectAbsPt */
-MIAP[1]	/* MoveIndirectAbsPt */
-CALL[ ]	/* CallFunction */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-RTG[ ]	/* RoundToGrid */
-MIAP[1]	/* MoveIndirectAbsPt */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-RTG[ ]	/* RoundToGrid */
-MDAP[1]	/* MoveDirectAbsPt */
-MDAP[1]	/* MoveDirectAbsPt */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP2[ ]	/* SetRefPoint2 */
-SLOOP[ ]	/* SetLoopVariable */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 801;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{338, -320}";
-},
-{
-name = top.near;
-position = "{244, 732}";
-}
-);
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
-{
-closed = 1;
-nodes = (
-"374 485 LINE",
-"502 485 LINE",
-"502 8 LINE SMOOTH",
-"502 -110 OFFCURVE",
-"450 -162 OFFCURVE",
-"334 -162 CURVE SMOOTH",
-"285 -162 LINE SMOOTH",
-"202 -162 OFFCURVE",
-"155 -97 OFFCURVE",
-"155 16 CURVE SMOOTH",
-"155 116 OFFCURVE",
-"166 195 OFFCURVE",
-"189 252 CURVE",
-"106 252 LINE",
-"79 188 OFFCURVE",
-"65 99 OFFCURVE",
-"65 16 CURVE SMOOTH",
-"65 -144 OFFCURVE",
-"142 -240 OFFCURVE",
-"266 -240 CURVE SMOOTH",
-"338 -240 LINE SMOOTH",
-"507 -240 OFFCURVE",
-"587 -159 OFFCURVE",
-"587 0 CURVE",
-"697 0 LINE SMOOTH",
-"700 0 OFFCURVE",
-"702 2 OFFCURVE",
-"702 5 CURVE SMOOTH",
-"702 74 LINE SMOOTH",
-"702 77 OFFCURVE",
-"700 78 OFFCURVE",
-"697 78 CURVE SMOOTH",
-"587 78 LINE",
-"587 485 LINE",
-"656 485 LINE",
-"656 542 LINE",
-"587 542 LINE",
-"587 760 LINE",
-"502 760 LINE",
-"502 542 LINE",
-"374 542 LINE"
-);
-}
-);
-userData = {
-assembly = "NPUSHB[ ]	/* 49 values pushed */
-28 22 8 15 15 35 4 1 1 35 6 35 37 22 4 38 11 39 4 7 72 89 4 4 1 1 36 72 89 1 26 1 26 3 18 18 32 70 89 18 27 15 8 70 89 15 18 3 0 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MIAP[1]	/* MoveIndirectAbsPt */
-MIAP[1]	/* MoveIndirectAbsPt */
-CALL[ ]	/* CallFunction */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-RTG[ ]	/* RoundToGrid */
-MIAP[1]	/* MoveIndirectAbsPt */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-RTG[ ]	/* RoundToGrid */
-MDAP[1]	/* MoveDirectAbsPt */
-MDAP[1]	/* MoveDirectAbsPt */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-RTG[ ]	/* RoundToGrid */
-MDAP[1]	/* MoveDirectAbsPt */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP2[ ]	/* SetRefPoint2 */
-SLOOP[ ]	/* SetLoopVariable */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 692;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{291, -322}";
-},
-{
-name = top.near;
-position = "{264, 732}";
-}
-);
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
-{
-closed = 1;
-nodes = (
-"372 527 LINE",
-"474 527 LINE",
-"474 0 LINE SMOOTH",
-"474 -166 OFFCURVE",
-"420 -216 OFFCURVE",
-"302 -216 CURVE SMOOTH",
-"240 -216 LINE SMOOTH",
-"124 -216 OFFCURVE",
-"89 -140 OFFCURVE",
-"89 15 CURVE SMOOTH",
-"89 98 OFFCURVE",
-"104 186 OFFCURVE",
-"125 242 CURVE",
-"103 243 LINE",
-"77 178 OFFCURVE",
-"65 81 OFFCURVE",
-"65 7 CURVE SMOOTH",
-"65 -156 OFFCURVE",
-"114 -240 OFFCURVE",
-"236 -240 CURVE SMOOTH",
-"301 -240 LINE SMOOTH",
-"441 -240 OFFCURVE",
-"498 -172 OFFCURVE",
-"498 0 CURVE",
-"588 0 LINE SMOOTH",
-"591 0 OFFCURVE",
-"593 2 OFFCURVE",
-"593 5 CURVE SMOOTH",
-"593 20 LINE SMOOTH",
-"593 23 OFFCURVE",
-"591 24 OFFCURVE",
-"588 24 CURVE SMOOTH",
-"498 24 LINE",
-"498 527 LINE",
-"564 527 LINE",
-"564 547 LINE",
-"498 547 LINE",
-"498 760 LINE",
-"474 760 LINE",
-"474 547 LINE",
-"372 547 LINE"
-);
-}
-);
-width = 583;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{345, -317}";
-},
-{
-name = top.near;
-position = "{244, 732}";
-}
-);
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
-{
-closed = 1;
-nodes = (
-"374 402 LINE",
-"544 402 LINE",
-"544 67 LINE SMOOTH",
-"544 -31 OFFCURVE",
-"501 -92 OFFCURVE",
-"410 -92 CURVE SMOOTH",
-"373 -92 LINE SMOOTH",
-"301 -92 OFFCURVE",
-"253 -38 OFFCURVE",
-"253 54 CURVE SMOOTH",
-"253 101 OFFCURVE",
-"267 187 OFFCURVE",
-"287 267 CURVE",
-"123 267 LINE",
-"87 205 OFFCURVE",
-"65 128 OFFCURVE",
-"65 56 CURVE SMOOTH",
-"65 -124 OFFCURVE",
-"169 -240 OFFCURVE",
-"369 -240 CURVE SMOOTH",
-"414 -240 LINE SMOOTH",
-"605 -240 OFFCURVE",
-"715 -161 OFFCURVE",
-"734 0 CURVE",
-"879 0 LINE SMOOTH",
-"882 0 OFFCURVE",
-"884 2 OFFCURVE",
-"884 5 CURVE SMOOTH",
-"884 144 LINE SMOOTH",
-"884 147 OFFCURVE",
-"882 148 OFFCURVE",
-"879 148 CURVE SMOOTH",
-"735 148 LINE",
-"735 402 LINE",
-"809 402 LINE",
-"809 542 LINE",
-"735 542 LINE",
-"735 760 LINE",
-"544 760 LINE",
-"544 542 LINE",
-"374 542 LINE"
-);
-}
-);
-width = 873.66667;
-}
-);
-note = uni076A.fina;
-},
-{
-glyphname = "lamBar-ar.medi";
-lastChange = "2021-05-28 10:17:14 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{146, -78}";
-},
-{
-name = top.near;
-position = "{156, 830}";
-}
-);
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
-{
-closed = 1;
-nodes = (
-"0 435 LINE",
-"120 435 LINE",
-"120 120 LINE",
-"-5 120 LINE SMOOTH",
-"-8 120 OFFCURVE",
-"-10 119 OFFCURVE",
-"-10 116 CURVE SMOOTH",
-"-10 5 LINE SMOOTH",
-"-10 2 OFFCURVE",
-"-8 0 OFFCURVE",
-"-5 0 CURVE SMOOTH",
-"399 0 LINE SMOOTH",
-"402 0 OFFCURVE",
-"404 2 OFFCURVE",
-"404 5 CURVE SMOOTH",
-"404 116 LINE SMOOTH",
-"404 119 OFFCURVE",
-"402 120 OFFCURVE",
-"399 120 CURVE SMOOTH",
-"269 120 LINE",
-"269 435 LINE",
-"342 435 LINE",
-"342 542 LINE",
-"269 542 LINE",
-"269 760 LINE",
-"120 760 LINE",
-"120 542 LINE",
-"0 542 LINE"
-);
-}
-);
-userData = {
-assembly = "NPUSHB[ ]	/* 34 values pushed */
-4 8 8 1 21 6 21 23 3 24 11 25 18 24 8 20 15 20 70 89 7 23 0 23 72 89 4 0 0 2 15 18 2 0 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MIAP[1]	/* MoveIndirectAbsPt */
-MIAP[1]	/* MoveIndirectAbsPt */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-MDAP[1]	/* MoveDirectAbsPt */
-SHP[1]	/* ShiftPointByLastPoint */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP2[ ]	/* SetRefPoint2 */
-SLOOP[ ]	/* SetLoopVariable */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 394;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{146, -78}";
-},
-{
-name = top.near;
-position = "{156, 830}";
-}
-);
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
-{
-closed = 1;
-nodes = (
-"-1 485 LINE",
-"127 485 LINE",
-"127 78 LINE",
-"-5 78 LINE SMOOTH",
-"-8 78 OFFCURVE",
-"-10 77 OFFCURVE",
-"-10 74 CURVE SMOOTH",
-"-10 5 LINE SMOOTH",
-"-10 2 OFFCURVE",
-"-8 0 OFFCURVE",
-"-5 0 CURVE SMOOTH",
-"346 0 LINE SMOOTH",
-"349 0 OFFCURVE",
-"351 2 OFFCURVE",
-"351 5 CURVE SMOOTH",
-"351 74 LINE SMOOTH",
-"351 77 OFFCURVE",
-"349 78 OFFCURVE",
-"346 78 CURVE SMOOTH",
-"216 78 LINE",
-"216 485 LINE",
-"281 485 LINE",
-"281 542 LINE",
-"216 542 LINE",
-"216 760 LINE",
-"127 760 LINE",
-"127 542 LINE",
-"-1 542 LINE"
-);
-}
-);
-userData = {
-assembly = "NPUSHB[ ]	/* 39 values pushed */
-4 1 1 8 21 6 21 24 11 25 23 18 24 14 9 70 89 14 18 1 22 72 89 1 1 4 4 7 72 89 4 4 3 14 21 11 18 3 0 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MIAP[1]	/* MoveIndirectAbsPt */
-MIAP[1]	/* MoveIndirectAbsPt */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-MDAP[1]	/* MoveDirectAbsPt */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-RTG[ ]	/* RoundToGrid */
-MDAP[1]	/* MoveDirectAbsPt */
-CALL[ ]	/* CallFunction */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-RTG[ ]	/* RoundToGrid */
-MIAP[1]	/* MoveIndirectAbsPt */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 341;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{146, -78}";
-},
-{
-name = top.near;
-position = "{154, 830}";
-}
-);
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
-{
-closed = 1;
-nodes = (
-"-2 522 LINE",
-"139 522 LINE",
-"139 24 LINE",
-"-5 24 LINE SMOOTH",
-"-8 24 OFFCURVE",
-"-10 23 OFFCURVE",
-"-10 20 CURVE SMOOTH",
-"-10 5 LINE SMOOTH",
-"-10 2 OFFCURVE",
-"-8 0 OFFCURVE",
-"-5 0 CURVE SMOOTH",
-"293 0 LINE SMOOTH",
-"296 0 OFFCURVE",
-"298 2 OFFCURVE",
-"298 5 CURVE SMOOTH",
-"298 20 LINE SMOOTH",
-"298 23 OFFCURVE",
-"296 24 OFFCURVE",
-"293 24 CURVE SMOOTH",
-"163 24 LINE",
-"163 522 LINE",
-"220 522 LINE",
-"220 542 LINE",
-"163 542 LINE",
-"163 760 LINE",
-"139 760 LINE",
-"139 542 LINE",
-"-2 542 LINE"
-);
-}
-);
-width = 288;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{196, -78}";
-},
-{
-name = top.near;
-position = "{206, 830}";
-}
-);
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
-{
-closed = 1;
-nodes = (
-"1 402 LINE",
-"115 402 LINE",
-"115 148 LINE",
-"-5 148 LINE SMOOTH",
-"-8 148 OFFCURVE",
-"-10 147 OFFCURVE",
-"-10 144 CURVE SMOOTH",
-"-10 5 LINE SMOOTH",
-"-10 2 OFFCURVE",
-"-8 0 OFFCURVE",
-"-5 0 CURVE SMOOTH",
-"434 0 LINE SMOOTH",
-"438 0 OFFCURVE",
-"439 2 OFFCURVE",
-"439 5 CURVE SMOOTH",
-"439 144 LINE SMOOTH",
-"439 147 OFFCURVE",
-"438 148 OFFCURVE",
-"434 148 CURVE SMOOTH",
-"304 148 LINE",
-"304 402 LINE",
-"383 402 LINE",
-"383 542 LINE",
-"304 542 LINE",
-"304 760 LINE",
-"115 760 LINE",
-"115 542 LINE",
-"1 542 LINE"
-);
-}
-);
-width = 429.33333;
-}
-);
-note = uni076A.medi;
-},
-{
-glyphname = "lamBar-ar.init";
-lastChange = "2021-05-28 10:16:50 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{112, -78}";
-},
-{
-name = top.near;
-position = "{156, 830}";
-}
-);
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
-{
-closed = 1;
-nodes = (
-"0 435 LINE",
-"120 435 LINE",
-"120 120 LINE",
-"-5 120 LINE SMOOTH",
-"-8 120 OFFCURVE",
-"-10 119 OFFCURVE",
-"-10 116 CURVE SMOOTH",
-"-10 5 LINE SMOOTH",
-"-10 2 OFFCURVE",
-"-8 0 OFFCURVE",
-"-5 0 CURVE SMOOTH",
-"269 0 LINE",
-"269 435 LINE",
-"342 435 LINE",
-"342 542 LINE",
-"269 542 LINE",
-"269 760 LINE",
-"120 760 LINE",
-"120 542 LINE",
-"0 542 LINE"
-);
-}
-);
-userData = {
-assembly = "NPUSHB[ ]	/* 31 values pushed */
-4 8 8 1 15 0 15 5 3 19 12 18 7 17 0 17 72 89 4 0 0 9 2 9 14 70 89 9 18 2 0 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MIAP[1]	/* MoveIndirectAbsPt */
-MIAP[1]	/* MoveIndirectAbsPt */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-IP[ ]	/* InterpolatePts */
-RTG[ ]	/* RoundToGrid */
-MDAP[1]	/* MoveDirectAbsPt */
-SHP[1]	/* ShiftPointByLastPoint */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP2[ ]	/* SetRefPoint2 */
-SLOOP[ ]	/* SetLoopVariable */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 369;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{112, -78}";
-},
-{
-name = top.near;
-position = "{156, 830}";
-}
-);
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
-{
-closed = 1;
-nodes = (
-"-1 485 LINE",
-"127 485 LINE",
-"127 78 LINE",
-"-5 78 LINE SMOOTH",
-"-8 78 OFFCURVE",
-"-10 77 OFFCURVE",
-"-10 74 CURVE SMOOTH",
-"-10 5 LINE SMOOTH",
-"-10 2 OFFCURVE",
-"-8 0 OFFCURVE",
-"-5 0 CURVE SMOOTH",
-"216 0 LINE",
-"216 485 LINE",
-"281 485 LINE",
-"281 542 LINE",
-"216 542 LINE",
-"216 760 LINE",
-"127 760 LINE",
-"127 542 LINE",
-"-1 542 LINE"
-);
-}
-);
-userData = {
-assembly = "NPUSHB[ ]	/* 34 values pushed */
-4 1 1 8 15 6 15 19 12 0 18 4 7 72 89 4 4 1 1 16 72 89 1 1 3 8 8 15 70 89 8 18 3 0 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MIAP[1]	/* MoveIndirectAbsPt */
-MIAP[1]	/* MoveIndirectAbsPt */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-IP[ ]	/* InterpolatePts */
-RTG[ ]	/* RoundToGrid */
-MDAP[1]	/* MoveDirectAbsPt */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-RTG[ ]	/* RoundToGrid */
-MDAP[1]	/* MoveDirectAbsPt */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 316;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{112, -78}";
-},
-{
-name = top.near;
-position = "{136, 830}";
-}
-);
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
-{
-closed = 1;
-nodes = (
-"-2 522 LINE",
-"139 522 LINE",
-"139 24 LINE",
-"-5 24 LINE SMOOTH",
-"-8 24 OFFCURVE",
-"-10 23 OFFCURVE",
-"-10 20 CURVE SMOOTH",
-"-10 5 LINE SMOOTH",
-"-10 2 OFFCURVE",
-"-8 0 OFFCURVE",
-"-5 0 CURVE SMOOTH",
-"163 0 LINE",
-"163 522 LINE",
-"220 522 LINE",
-"220 542 LINE",
-"163 542 LINE",
-"163 760 LINE",
-"139 760 LINE",
-"139 542 LINE",
-"-2 542 LINE"
-);
-}
-);
-width = 263;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{162, -78}";
-},
-{
-name = top.near;
-position = "{206, 830}";
-}
-);
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
-{
-closed = 1;
-nodes = (
-"1 402 LINE",
-"115 402 LINE",
-"115 148 LINE",
-"-5 148 LINE SMOOTH",
-"-8 148 OFFCURVE",
-"-10 147 OFFCURVE",
-"-10 144 CURVE SMOOTH",
-"-10 5 LINE SMOOTH",
-"-10 2 OFFCURVE",
-"-8 0 OFFCURVE",
-"-5 0 CURVE SMOOTH",
-"304 0 LINE",
-"304 402 LINE",
-"383 402 LINE",
-"383 542 LINE",
-"304 542 LINE",
-"304 760 LINE",
-"115 760 LINE",
-"115 542 LINE",
-"1 542 LINE"
-);
-}
-);
-width = 404.33333;
-}
-);
-note = uni076A.init;
-},
-{
 glyphname = "seenTwodotshorizontalabove-ar";
 lastChange = "2020-10-22 20:09:14 +0000";
 layers = (
@@ -69041,10 +68250,14 @@ unicode = 06E6;
 },
 {
 glyphname = "lam_alef-ar";
-lastChange = "2023-02-28 13:43:08 +0000";
+lastChange = "2023-02-28 14:28:15 +0000";
 layers = (
 {
 anchors = (
+{
+name = bar_1;
+position = "{521, 489}";
+},
 {
 name = bottom_1;
 position = "{565, -80}";
@@ -69144,6 +68357,10 @@ width = 714;
 {
 anchors = (
 {
+name = bar_1;
+position = "{510, 513}";
+},
+{
 name = bottom_1;
 position = "{565, -81}";
 },
@@ -69177,7 +68394,7 @@ position = "{515, 838}";
 },
 {
 name = top.near_2;
-position = "{147, 724}";
+position = "{148, 714}";
 },
 {
 name = top_2_ligComponent_2;
@@ -69242,6 +68459,10 @@ width = 674;
 {
 anchors = (
 {
+name = bar_1;
+position = "{499, 532}";
+},
+{
 name = bottom_1;
 position = "{565, -82}";
 },
@@ -69275,11 +68496,11 @@ position = "{517, 845}";
 },
 {
 name = top.near_2;
-position = "{144, 734}";
+position = "{180, 709}";
 },
 {
 name = top_2_ligComponent_2;
-position = "{146, 713}";
+position = "{181, 713}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -69310,6 +68531,10 @@ width = 634;
 },
 {
 anchors = (
+{
+name = bar_1;
+position = "{552, 472}";
+},
 {
 name = bottom_1;
 position = "{565, -79}";
@@ -69344,11 +68569,11 @@ position = "{512, 826}";
 },
 {
 name = top.near_2;
-position = "{152, 707}";
+position = "{162, 697}";
 },
 {
 name = top_2_ligComponent_2;
-position = "{146, 713}";
+position = "{147, 712}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
@@ -69383,10 +68608,14 @@ unicode = FEFB;
 },
 {
 glyphname = "lam_alef-ar.fina";
-lastChange = "2021-05-28 10:19:14 +0000";
+lastChange = "2023-02-28 14:28:28 +0000";
 layers = (
 {
 anchors = (
+{
+name = bar_1;
+position = "{531, 489}";
+},
 {
 name = bottom_1;
 position = "{562, -85}";
@@ -69484,6 +68713,10 @@ width = 749;
 },
 {
 anchors = (
+{
+name = bar_1;
+position = "{520, 513}";
+},
 {
 name = bottom_1;
 position = "{569, -71}";
@@ -69583,6 +68816,10 @@ width = 709;
 {
 anchors = (
 {
+name = bar_1;
+position = "{516, 532}";
+},
+{
 name = bottom_1;
 position = "{576, -57}";
 },
@@ -69649,6 +68886,10 @@ width = 669;
 },
 {
 anchors = (
+{
+name = bar_1;
+position = "{552, 472}";
+},
 {
 name = bottom_1;
 position = "{557, -94}";
@@ -70012,768 +69253,6 @@ width = 741;
 );
 note = uni06440623.isol;
 unicode = FEF7;
-},
-{
-glyphname = "lamBar_alef-ar.fina";
-lastChange = "2021-05-28 10:20:23 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom_1;
-position = "{562, -81}";
-},
-{
-name = bottom_2;
-position = "{226, -80}";
-},
-{
-name = bottom_2_ligComponent_1;
-position = "{566, -78}";
-},
-{
-name = bottom_2_ligComponent_2;
-position = "{225, -78}";
-},
-{
-name = caret_1;
-position = "{374.5, 0}";
-},
-{
-name = top.far_2;
-position = "{518, 830}";
-},
-{
-name = top.near_1;
-position = "{519, 832}";
-},
-{
-name = top.near_2;
-position = "{145, 708}";
-},
-{
-name = top_2_ligComponent_2;
-position = "{146, 713}";
-}
-);
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
-{
-closed = 1;
-nodes = (
-"370 435 LINE",
-"475 435 LINE",
-"475 120 LINE",
-"372 120 LINE",
-"253 625 LINE",
-"97 625 LINE",
-"226 120 LINE",
-"45 120 LINE",
-"45 0 LINE",
-"754 0 LINE SMOOTH",
-"757 0 OFFCURVE",
-"759 2 OFFCURVE",
-"759 5 CURVE SMOOTH",
-"759 116 LINE SMOOTH",
-"759 119 OFFCURVE",
-"757 120 OFFCURVE",
-"754 120 CURVE SMOOTH",
-"624 120 LINE",
-"624 435 LINE",
-"694 435 LINE",
-"694 542 LINE",
-"624 542 LINE",
-"624 760 LINE",
-"475 760 LINE",
-"475 542 LINE",
-"370 542 LINE"
-);
-}
-);
-userData = {
-assembly = "NPUSHB[ ]	/* 42 values pushed */
-19 18 20 17 4 8 8 1 21 5 21 0 17 18 16 6 24 11 25 20 8 16 15 16 70 89 7 23 0 23 72 89 4 0 18 0 18 2 15 18 2 0 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MIAP[1]	/* MoveIndirectAbsPt */
-MIAP[1]	/* MoveIndirectAbsPt */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-MDAP[1]	/* MoveDirectAbsPt */
-MDAP[1]	/* MoveDirectAbsPt */
-SHP[1]	/* ShiftPointByLastPoint */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP2[ ]	/* SetRefPoint2 */
-SLOOP[ ]	/* SetLoopVariable */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 749;
-},
-{
-anchors = (
-{
-name = bottom_1;
-position = "{569, -71}";
-},
-{
-name = bottom_2;
-position = "{224, -78}";
-},
-{
-name = bottom_2_ligComponent_1;
-position = "{566, -78}";
-},
-{
-name = bottom_2_ligComponent_2;
-position = "{225, -78}";
-},
-{
-name = caret_1;
-position = "{354.5, 0}";
-},
-{
-name = top.far_2;
-position = "{518, 830}";
-},
-{
-name = top.near_1;
-position = "{522, 835}";
-},
-{
-name = top.near_2;
-position = "{144, 713}";
-},
-{
-name = top_2_ligComponent_2;
-position = "{146, 713}";
-}
-);
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
-{
-closed = 1;
-nodes = (
-"371 485 LINE",
-"495 485 LINE",
-"495 78 LINE",
-"362 78 LINE",
-"233 625 LINE",
-"140 625 LINE",
-"269 78 LINE",
-"45 78 LINE",
-"45 0 LINE",
-"714 0 LINE SMOOTH",
-"717 0 OFFCURVE",
-"719 2 OFFCURVE",
-"719 5 CURVE SMOOTH",
-"719 74 LINE SMOOTH",
-"719 77 OFFCURVE",
-"717 78 OFFCURVE",
-"714 78 CURVE SMOOTH",
-"584 78 LINE",
-"584 485 LINE",
-"653 485 LINE",
-"653 542 LINE",
-"584 542 LINE",
-"584 760 LINE",
-"495 760 LINE",
-"495 542 LINE",
-"371 542 LINE"
-);
-}
-);
-userData = {
-assembly = "NPUSHB[ ]	/* 46 values pushed */
-4 1 1 8 21 20 17 19 18 16 18 17 23 21 6 6 24 11 25 21 8 17 15 17 70 89 1 22 72 89 1 1 4 4 7 72 89 19 4 19 4 3 15 18 3 0 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MIAP[1]	/* MoveIndirectAbsPt */
-MIAP[1]	/* MoveIndirectAbsPt */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-MDAP[1]	/* MoveDirectAbsPt */
-MDAP[1]	/* MoveDirectAbsPt */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-RTG[ ]	/* RoundToGrid */
-MDAP[1]	/* MoveDirectAbsPt */
-CALL[ ]	/* CallFunction */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP2[ ]	/* SetRefPoint2 */
-SLOOP[ ]	/* SetLoopVariable */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 709;
-},
-{
-anchors = (
-{
-name = bottom_1;
-position = "{576, -61}";
-},
-{
-name = bottom_2;
-position = "{222, -76}";
-},
-{
-name = bottom_2_ligComponent_1;
-position = "{566, -78}";
-},
-{
-name = bottom_2_ligComponent_2;
-position = "{225, -78}";
-},
-{
-name = caret_1;
-position = "{335, 0}";
-},
-{
-name = top.far_2;
-position = "{518, 830}";
-},
-{
-name = top.near_1;
-position = "{525, 838}";
-},
-{
-name = top.near_2;
-position = "{143, 718}";
-},
-{
-name = top_2_ligComponent_2;
-position = "{146, 713}";
-}
-);
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
-{
-closed = 1;
-nodes = (
-"372 522 LINE",
-"520 522 LINE",
-"520 24 LINE",
-"351 24 LINE",
-"213 625 LINE",
-"187 625 LINE",
-"327 24 LINE",
-"45 24 LINE",
-"45 0 LINE",
-"674 0 LINE SMOOTH",
-"677 0 OFFCURVE",
-"679 2 OFFCURVE",
-"679 5 CURVE SMOOTH",
-"679 20 LINE SMOOTH",
-"679 23 OFFCURVE",
-"677 24 OFFCURVE",
-"674 24 CURVE SMOOTH",
-"544 24 LINE",
-"544 522 LINE",
-"612 522 LINE",
-"612 542 LINE",
-"544 542 LINE",
-"544 760 LINE",
-"520 760 LINE",
-"520 542 LINE",
-"372 542 LINE"
-);
-}
-);
-width = 669;
-},
-{
-anchors = (
-{
-name = bottom_1;
-position = "{566, -82}";
-},
-{
-name = bottom_2;
-position = "{215, -80}";
-},
-{
-name = bottom_2_ligComponent_1;
-position = "{566, -78}";
-},
-{
-name = bottom_2_ligComponent_2;
-position = "{225, -78}";
-},
-{
-name = caret_1;
-position = "{370, 0}";
-},
-{
-name = top.far_2;
-position = "{547, 864}";
-},
-{
-name = top.near_1;
-position = "{544, 868}";
-},
-{
-name = top.near_2;
-position = "{152, 724}";
-},
-{
-name = top_2_ligComponent_2;
-position = "{146, 713}";
-}
-);
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
-{
-closed = 1;
-nodes = (
-"369 402 LINE",
-"462 402 LINE",
-"462 148 LINE",
-"379 148 LINE",
-"266 625 LINE",
-"68 625 LINE",
-"197 148 LINE",
-"45 148 LINE",
-"45 0 LINE",
-"781 0 LINE SMOOTH",
-"784 0 OFFCURVE",
-"786 2 OFFCURVE",
-"786 5 CURVE SMOOTH",
-"786 144 LINE SMOOTH",
-"786 147 OFFCURVE",
-"784 148 OFFCURVE",
-"781 148 CURVE SMOOTH",
-"653 148 LINE",
-"653 402 LINE",
-"721 402 LINE",
-"721 542 LINE",
-"653 542 LINE",
-"653 760 LINE",
-"462 760 LINE",
-"462 542 LINE",
-"369 542 LINE"
-);
-}
-);
-width = 776;
-}
-);
-note = uni076A0627.fina;
-},
-{
-glyphname = "lamBar_alef-ar.isol";
-lastChange = "2021-05-28 10:20:18 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom_1;
-position = "{535, 0}";
-},
-{
-name = bottom_2;
-position = "{178, 0}";
-},
-{
-name = bottom_2_ligComponent_1;
-position = "{566, -78}";
-},
-{
-name = bottom_2_ligComponent_2;
-position = "{225, -78}";
-},
-{
-name = caret_1;
-position = "{357, 0}";
-},
-{
-name = top.far_2;
-position = "{518, 830}";
-},
-{
-name = top.near_1;
-position = "{535, 890}";
-},
-{
-name = top.near_2;
-position = "{178, 890}";
-},
-{
-name = top_2_ligComponent_2;
-position = "{146, 713}";
-}
-);
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
-{
-closed = 1;
-nodes = (
-"370 435 LINE",
-"475 435 LINE",
-"475 236 LINE SMOOTH",
-"475 155 OFFCURVE",
-"446 120 OFFCURVE",
-"379 120 CURVE SMOOTH",
-"372 120 LINE",
-"253 625 LINE",
-"97 625 LINE",
-"226 120 LINE",
-"45 120 LINE",
-"45 0 LINE",
-"412 0 LINE SMOOTH",
-"544 0 OFFCURVE",
-"624 88 OFFCURVE",
-"624 224 CURVE SMOOTH",
-"624 435 LINE",
-"694 435 LINE",
-"694 542 LINE",
-"624 542 LINE",
-"624 760 LINE",
-"475 760 LINE",
-"475 542 LINE",
-"370 542 LINE"
-);
-}
-);
-userData = {
-assembly = "NPUSHB[ ]	/* 40 values pushed */
-4 8 8 1 21 17 14 16 15 13 15 14 0 21 6 6 25 24 18 13 12 13 70 89 7 23 0 23 72 89 4 0 15 0 15 2 12 18 2 0 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MIAP[1]	/* MoveIndirectAbsPt */
-MIAP[1]	/* MoveIndirectAbsPt */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-MDAP[1]	/* MoveDirectAbsPt */
-MDAP[1]	/* MoveDirectAbsPt */
-SHP[1]	/* ShiftPointByLastPoint */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-SLOOP[ ]	/* SetLoopVariable */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 714;
-},
-{
-anchors = (
-{
-name = bottom_1;
-position = "{569, -71}";
-},
-{
-name = bottom_2;
-position = "{224, -78}";
-},
-{
-name = bottom_2_ligComponent_1;
-position = "{566, -78}";
-},
-{
-name = bottom_2_ligComponent_2;
-position = "{225, -78}";
-},
-{
-name = caret_1;
-position = "{337, 0}";
-},
-{
-name = top.far_2;
-position = "{518, 830}";
-},
-{
-name = top.near_1;
-position = "{522, 835}";
-},
-{
-name = top.near_2;
-position = "{144, 713}";
-},
-{
-name = top_2_ligComponent_2;
-position = "{146, 713}";
-}
-);
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
-{
-closed = 1;
-nodes = (
-"371 485 LINE",
-"495 485 LINE",
-"495 194 LINE SMOOTH",
-"495 117 OFFCURVE",
-"460 78 OFFCURVE",
-"389 78 CURVE SMOOTH",
-"362 78 LINE",
-"233 625 LINE",
-"140 625 LINE",
-"269 78 LINE",
-"45 78 LINE",
-"45 0 LINE",
-"399 0 LINE SMOOTH",
-"511 0 OFFCURVE",
-"584 71 OFFCURVE",
-"584 182 CURVE SMOOTH",
-"584 485 LINE",
-"653 485 LINE",
-"653 542 LINE",
-"584 542 LINE",
-"584 760 LINE",
-"495 760 LINE",
-"495 542 LINE",
-"371 542 LINE"
-);
-}
-);
-userData = {
-assembly = "NPUSHB[ ]	/* 44 values pushed */
-4 1 1 8 20 17 14 16 15 13 15 14 0 20 6 6 24 23 18 14 11 14 70 89 1 21 72 89 1 1 4 4 7 72 89 16 4 16 4 3 11 18 3 0 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MIAP[1]	/* MoveIndirectAbsPt */
-MIAP[1]	/* MoveIndirectAbsPt */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-MDAP[1]	/* MoveDirectAbsPt */
-MDAP[1]	/* MoveDirectAbsPt */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-RTG[ ]	/* RoundToGrid */
-MDAP[1]	/* MoveDirectAbsPt */
-CALL[ ]	/* CallFunction */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-SLOOP[ ]	/* SetLoopVariable */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 674;
-},
-{
-anchors = (
-{
-name = bottom_1;
-position = "{565, -82}";
-},
-{
-name = bottom_2;
-position = "{214, -82}";
-},
-{
-name = bottom_2_ligComponent_1;
-position = "{566, -78}";
-},
-{
-name = bottom_2_ligComponent_2;
-position = "{225, -78}";
-},
-{
-name = caret_1;
-position = "{317, 0}";
-},
-{
-name = top.far_2;
-position = "{518, 830}";
-},
-{
-name = top.near_1;
-position = "{517, 845}";
-},
-{
-name = top.near_2;
-position = "{144, 734}";
-},
-{
-name = top_2_ligComponent_2;
-position = "{146, 713}";
-}
-);
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
-{
-closed = 1;
-nodes = (
-"372 522 LINE",
-"520 522 LINE",
-"520 152 LINE SMOOTH",
-"520 71 OFFCURVE",
-"477 24 OFFCURVE",
-"391 24 CURVE SMOOTH",
-"352 24 LINE",
-"213 625 LINE",
-"187 625 LINE",
-"328 24 LINE",
-"45 24 LINE",
-"45 0 LINE",
-"388 0 LINE SMOOTH",
-"483 0 OFFCURVE",
-"544 51 OFFCURVE",
-"544 149 CURVE SMOOTH",
-"544 522 LINE",
-"612 522 LINE",
-"612 542 LINE",
-"544 542 LINE",
-"544 760 LINE",
-"520 760 LINE",
-"520 542 LINE",
-"372 542 LINE"
-);
-}
-);
-width = 634;
-},
-{
-anchors = (
-{
-name = bottom_1;
-position = "{566, -82}";
-},
-{
-name = bottom_2;
-position = "{215, -80}";
-},
-{
-name = bottom_2_ligComponent_1;
-position = "{566, -78}";
-},
-{
-name = bottom_2_ligComponent_2;
-position = "{225, -78}";
-},
-{
-name = caret_1;
-position = "{370, 0}";
-},
-{
-name = top.far_2;
-position = "{547, 864}";
-},
-{
-name = top.near_1;
-position = "{544, 868}";
-},
-{
-name = top.near_2;
-position = "{152, 724}";
-},
-{
-name = top_2_ligComponent_2;
-position = "{146, 713}";
-}
-);
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
-{
-closed = 1;
-nodes = (
-"369 402 LINE",
-"462 402 LINE",
-"462 264 LINE SMOOTH",
-"462 180 OFFCURVE",
-"436 148 OFFCURVE",
-"383 148 CURVE SMOOTH",
-"379 148 LINE",
-"266 625 LINE",
-"68 625 LINE",
-"197 148 LINE",
-"45 148 LINE",
-"45 0 LINE",
-"421 0 LINE SMOOTH",
-"567 0 OFFCURVE",
-"653 99 OFFCURVE",
-"653 252 CURVE SMOOTH",
-"653 402 LINE",
-"721 402 LINE",
-"721 542 LINE",
-"653 542 LINE",
-"653 760 LINE",
-"462 760 LINE",
-"462 542 LINE",
-"369 542 LINE"
-);
-}
-);
-width = 741;
-}
-);
-note = uni076A0627.isol;
 },
 {
 glyphname = "allah-ar";
@@ -91315,7 +89794,7 @@ note = twodots_alt1.above;
 },
 {
 glyphname = "twodotshorizontalbelow-ar";
-lastChange = "2023-02-28 13:24:24 +0000";
+lastChange = "2023-02-28 13:57:56 +0000";
 layers = (
 {
 anchors = (
@@ -91325,7 +89804,7 @@ position = "{5, -104}";
 },
 {
 name = bottom;
-position = "{3, -425}";
+position = "{3, -290}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -91388,7 +89867,7 @@ position = "{0, -74}";
 },
 {
 name = bottom;
-position = "{-2, -381}";
+position = "{-2, -248}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -91451,7 +89930,7 @@ position = "{0, -81}";
 },
 {
 name = bottom;
-position = "{-2, -291}";
+position = "{-7, -189}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -91501,7 +89980,7 @@ position = "{0, -123}";
 },
 {
 name = bottom;
-position = "{-2, -446}";
+position = "{-2, -329}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
@@ -91548,7 +90027,7 @@ note = twodots.below;
 },
 {
 glyphname = "threedotsdownabove-ar";
-lastChange = "2023-02-28 11:07:49 +0000";
+lastChange = "2023-02-28 14:39:21 +0000";
 layers = (
 {
 anchors = (
@@ -91558,7 +90037,7 @@ position = "{0, 545}";
 },
 {
 name = top.near;
-position = "{0, 873}";
+position = "{0, 917}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -91641,7 +90120,7 @@ position = "{0, 545}";
 },
 {
 name = top.near;
-position = "{0, 835}";
+position = "{-3, 885}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -91724,7 +90203,7 @@ position = "{-3, 610}";
 },
 {
 name = top.near;
-position = "{0, 771}";
+position = "{0, 795}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -91791,7 +90270,7 @@ position = "{0, 545}";
 },
 {
 name = top.near;
-position = "{0, 890}";
+position = "{0, 932}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
@@ -94696,13 +93175,13 @@ note = wasla;
 },
 {
 glyphname = "wavyhamzaabove-ar";
-lastChange = "2023-02-28 13:47:05 +0000";
+lastChange = "2023-02-28 14:33:20 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top.near;
-position = "{0, 717}";
+position = "{-1, 748}";
 },
 {
 name = top.near;
@@ -94789,7 +93268,7 @@ width = 0;
 anchors = (
 {
 name = _top.near;
-position = "{0, 711}";
+position = "{2, 747}";
 },
 {
 name = top.near;
@@ -94876,7 +93355,7 @@ width = 0;
 anchors = (
 {
 name = _top.near;
-position = "{0, 724}";
+position = "{0, 748}";
 },
 {
 name = top.near;
@@ -94945,7 +93424,7 @@ width = 0;
 anchors = (
 {
 name = _top.near;
-position = "{0, 734}";
+position = "{0, 767}";
 },
 {
 name = top.near;
@@ -95015,9 +93494,19 @@ note = wavyhamza_above;
 },
 {
 glyphname = "wavyhamzabelow-ar";
-lastChange = "2023-02-27 12:24:11 +0000";
+lastChange = "2023-02-28 14:32:07 +0000";
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+position = "{-2, -50}";
+},
+{
+name = bottom;
+position = "{0, -286}";
+}
+);
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 paths = (
 {
@@ -95096,6 +93585,16 @@ IUP[0]	/* InterpolateUntPts */";
 width = 0;
 },
 {
+anchors = (
+{
+name = _bottom;
+position = "{2, -59}";
+},
+{
+name = bottom;
+position = "{0, -300}";
+}
+);
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 paths = (
 {
@@ -95172,6 +93671,16 @@ IUP[0]	/* InterpolateUntPts */";
 width = 0;
 },
 {
+anchors = (
+{
+name = _bottom;
+position = "{-1, -74}";
+},
+{
+name = bottom;
+position = "{1, -264}";
+}
+);
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 paths = (
 {
@@ -95231,6 +93740,16 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = _bottom;
+position = "{-2, -43}";
+},
+{
+name = bottom;
+position = "{0, -303}";
+}
+);
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 paths = (
 {
@@ -95582,17 +94101,17 @@ unicode = 0656;
 },
 {
 glyphname = "hamzaabove-ar";
-lastChange = "2023-02-28 13:18:42 +0000";
+lastChange = "2023-02-28 14:32:40 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top.near;
-position = "{0, 759}";
+position = "{10, 759}";
 },
 {
 name = top.near;
-position = "{7, 1029}";
+position = "{-3, 1039}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -95654,11 +94173,11 @@ width = 0;
 anchors = (
 {
 name = _top.near;
-position = "{0, 747}";
+position = "{10, 747}";
 },
 {
 name = top.near;
-position = "{-3, 982}";
+position = "{-5, 999}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -95722,11 +94241,11 @@ width = 0;
 anchors = (
 {
 name = _top.near;
-position = "{0, 742}";
+position = "{10, 742}";
 },
 {
 name = top.near;
-position = "{-7, 961}";
+position = "{-7, 971}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -95771,11 +94290,11 @@ width = 0;
 anchors = (
 {
 name = _top.near;
-position = "{0, 759}";
+position = "{18, 758}";
 },
 {
 name = top.near;
-position = "{14, 1041}";
+position = "{4, 1051}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
@@ -95822,7 +94341,7 @@ unicode = 0654;
 },
 {
 glyphname = "hamzaabove_sukun-ar";
-lastChange = "2021-06-01 08:28:36 +0000";
+lastChange = "2023-02-28 14:22:00 +0000";
 layers = (
 {
 anchors = (
@@ -95842,7 +94361,7 @@ transform = "{1, 0, 0, 1, 0, -43}";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 1, 244}";
+transform = "{1, 0, 0, 1, -9, 244}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -96360,7 +94879,7 @@ unicode = 064B;
 },
 {
 glyphname = "fathatan_hamzaabove-ar";
-lastChange = "2023-02-28 12:54:57 +0000";
+lastChange = "2023-02-28 14:26:05 +0000";
 layers = (
 {
 anchors = (
@@ -96380,7 +94899,7 @@ transform = "{1, 0, 0, 1, 0, -52}";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 0, 230}";
+transform = "{1, 0, 0, 1, -10, 230}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -96404,7 +94923,7 @@ transform = "{1, 0, 0, 1, 0, -10}";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 0, 274}";
+transform = "{1, 0, 0, 1, -10, 274}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -96428,7 +94947,7 @@ transform = "{1, 0, 0, 1, -1, -10}";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, -1, 269}";
+transform = "{1, 0, 0, 1, -11, 269}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -97825,7 +96344,7 @@ unicode = 064E;
 },
 {
 glyphname = "fatha_hamzaabove-ar";
-lastChange = "2023-02-28 12:55:25 +0000";
+lastChange = "2023-02-28 14:26:05 +0000";
 layers = (
 {
 anchors = (
@@ -97845,7 +96364,7 @@ transform = "{1, 0, 0, 1, 0, -20}";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 0, 149}";
+transform = "{1, 0, 0, 1, -10, 149}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -97869,7 +96388,7 @@ transform = "{1, 0, 0, 1, 0, 86}";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 0, 257}";
+transform = "{1, 0, 0, 1, -10, 257}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -98334,7 +96853,7 @@ unicode = 064F;
 },
 {
 glyphname = "damma_hamzaabove-ar";
-lastChange = "2023-02-28 12:52:32 +0000";
+lastChange = "2023-02-28 14:26:05 +0000";
 layers = (
 {
 anchors = (
@@ -98354,7 +96873,7 @@ transform = "{1, 0, 0, 1, 0, -45}";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 0, 235}";
+transform = "{1, 0, 0, 1, -10, 235}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -98378,7 +96897,7 @@ transform = "{1, 0, 0, 1, 0, -8}";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 0, 270}";
+transform = "{1, 0, 0, 1, -10, 270}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -100691,9 +99210,19 @@ unicode = 065B;
 },
 {
 glyphname = "vinvertedbelow-ar";
-lastChange = "2023-02-28 09:58:15 +0000";
+lastChange = "2023-02-28 14:38:17 +0000";
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+position = "{-1, -81}";
+},
+{
+name = bottom;
+position = "{-6, -300}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -100705,6 +99234,16 @@ layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 300;
 },
 {
+anchors = (
+{
+name = _bottom;
+position = "{-1, -81}";
+},
+{
+name = bottom;
+position = "{-6, -300}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -100716,6 +99255,16 @@ layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 300;
 },
 {
+anchors = (
+{
+name = _bottom;
+position = "{-1, -81}";
+},
+{
+name = bottom;
+position = "{-6, -337}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -100727,6 +99276,16 @@ layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 300;
 },
 {
+anchors = (
+{
+name = _bottom;
+position = "{-1, -81}";
+},
+{
+name = bottom;
+position = "{-6, -339}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -106499,6 +105058,99 @@ width = 0;
 );
 note = uni06ED;
 unicode = 06ED;
+},
+{
+glyphname = "bar-ar";
+lastChange = "2023-02-28 14:19:39 +0000";
+layers = (
+{
+anchors = (
+{
+name = _bar;
+position = "{0, 537}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"96 527 LINE",
+"96 547 LINE",
+"-96 547 LINE",
+"-96 527 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bar;
+position = "{0, 513}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"141 485 LINE",
+"141 542 LINE",
+"-141 542 LINE",
+"-141 485 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bar;
+position = "{0, 488}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"187 435 LINE",
+"187 542 LINE",
+"-187 542 LINE",
+"-187 435 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bar;
+position = "{0, 472}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"217 402 LINE",
+"217 542 LINE",
+"-218 542 LINE",
+"-218 402 LINE"
+);
+}
+);
+width = 0;
+}
+);
+script = arabic;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "hamzabetween-ar";
