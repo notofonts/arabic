@@ -7,7 +7,8 @@ DisplayStrings = (
 "ڧ",
 "؁ࢉࢍࢌڟ࣐ࣇࢵࣅࣄࣃࣂࣁࣀࢿࢾࢽࢼࢻࢴﻲ",
 "؁ع",
-"/zero-ar.ccmp/one-ar.ccmp/two-ar.ccmp/three-ar.ccmp/four-ar.ccmp ﺎ/alef-ar.fina.small/alefTwoabove-ar.fina/six-ar.ccmp/seven-ar.ccmp/eight-ar.ccmp/nine-ar.ccmp/four-persian.ccmp/five-persian.ccmp/six-persian.ccmp/six-persian.locl.ccmp/seven-persian.locl.ccmp/zero.ccmp/one.ccmp/two.ccmp/three.ccmp/four.ccmp/five.ccmp/six.ccmp/seven.ccmp/eight.ccmp/nine.ccmp"
+"/zero-ar.ccmp/one-ar.ccmp/two-ar.ccmp/three-ar.ccmp/four-ar.ccmp ﺎ/alef-ar.fina.small/alefTwoabove-ar.fina/six-ar.ccmp/seven-ar.ccmp/eight-ar.ccmp/nine-ar.ccmp/four-persian.ccmp/five-persian.ccmp/six-persian.ccmp/six-persian.locl.ccmp/seven-persian.locl.ccmp/zero.ccmp/one.ccmp/two.ccmp/three.ccmp/four.ccmp/five.ccmp/six.ccmp/seven.ccmp/eight.ccmp/nine.ccmp",
+"؇"
 );
 axes = (
 {
@@ -92300,8 +92301,9 @@ shapes = (
 ref = "radical-ar";
 },
 {
-pos = (153,253);
+pos = (209,400);
 ref = "four-ar.ccmp";
+scale = (0.5,0.5);
 }
 );
 width = 538;
@@ -92313,8 +92315,9 @@ shapes = (
 ref = "radical-ar";
 },
 {
-pos = (137,257);
+pos = (194,419);
 ref = "four-ar.ccmp";
+scale = (0.5,0.5);
 }
 );
 width = 538;
