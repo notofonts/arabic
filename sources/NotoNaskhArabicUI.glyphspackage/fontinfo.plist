@@ -991,12 +991,16 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
+name = "Use Line Breaks";
+value = 1;
+},
+{
 name = "Disable Last Change";
 value = 1;
 },
 {
-name = "Use Line Breaks";
-value = 1;
+name = "Write DisplayStrings";
+value = 0;
 },
 {
 name = vendorID;

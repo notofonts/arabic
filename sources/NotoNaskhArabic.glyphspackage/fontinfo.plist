@@ -193,16 +193,20 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
-name = "Write lastChange";
-value = 0;
+name = "Propagate Anchors";
+value = 1;
 },
 {
 name = "Use Line Breaks";
 value = 1;
 },
 {
-name = "Propagate Anchors";
-value = 1;
+name = "Write lastChange";
+value = 0;
+},
+{
+name = "Write DisplayStrings";
+value = 0;
 }
 );
 date = "2021-06-02 21:08:18 +0000";
