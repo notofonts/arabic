@@ -1,0 +1,77 @@
+{
+glyphname = uni0031.ccmp;
+layers = (
+{
+anchors = (
+{
+name = _b._958;
+position = "{98, 175}";
+},
+{
+name = _b._958_2;
+position = "{97, 175}";
+}
+);
+layerId = master01;
+paths = (
+{
+closed = 1;
+nodes = (
+"138 267 LINE",
+"138 541 LINE",
+"96 541 LINE",
+"22 482 LINE",
+"42 450 LINE",
+"66 470 OFFCURVE",
+"80 482 OFFCURVE",
+"84 485 CURVE SMOOTH",
+"89 489 OFFCURVE",
+"94 494 OFFCURVE",
+"100 500 CURVE",
+"98 477 OFFCURVE",
+"98 457 OFFCURVE",
+"98 444 CURVE SMOOTH",
+"98 267 LINE"
+);
+}
+);
+width = 252;
+},
+{
+anchors = (
+{
+name = _b._958;
+position = "{108, 148}";
+},
+{
+name = _b._958_2;
+position = "{108, 148}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+paths = (
+{
+closed = 1;
+nodes = (
+"164 268 LINE",
+"164 541 LINE",
+"110 541 LINE",
+"26 468 LINE",
+"57 429 LINE",
+"64 434 OFFCURVE",
+"71 441 OFFCURVE",
+"78 448 CURVE SMOOTH",
+"87 456 OFFCURVE",
+"94 464 OFFCURVE",
+"100 472 CURVE",
+"98 447 OFFCURVE",
+"98 431 OFFCURVE",
+"98 407 CURVE SMOOTH",
+"98 268 LINE"
+);
+}
+);
+width = 273;
+}
+);
+}

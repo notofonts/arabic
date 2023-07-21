@@ -1,0 +1,76 @@
+{
+glyphname = "noonTwodotsbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (269,-471);
+},
+{
+name = bottom.dot;
+pos = (268,-273);
+},
+{
+name = top.far;
+pos = (275,416);
+},
+{
+name = top.near;
+pos = (275,416);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "noonghunna-ar";
+},
+{
+pos = (75,-88);
+ref = "dotabove-ar";
+},
+{
+pos = (86,-245);
+ref = "twodotshorizontalbelow-ar";
+}
+);
+width = 586;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (269,-454);
+},
+{
+name = bottom.dot;
+pos = (268,-256);
+},
+{
+name = top.far;
+pos = (282,439);
+},
+{
+name = top.near;
+pos = (282,439);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "noonghunna-ar";
+},
+{
+pos = (82,-109);
+ref = "dotabove-ar";
+},
+{
+pos = (86,-208);
+ref = "twodotshorizontalbelow-ar";
+}
+);
+width = 604;
+}
+);
+unicode = 1895;
+}

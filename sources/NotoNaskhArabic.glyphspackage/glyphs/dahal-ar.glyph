@@ -1,0 +1,68 @@
+{
+glyphname = "dahal-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (208,-100);
+},
+{
+name = bottom.dot;
+pos = (209,-21);
+},
+{
+name = top.far;
+pos = (210,642);
+},
+{
+name = top.near;
+pos = (210,642);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "dal-ar";
+},
+{
+pos = (1,119);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 414;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (214,-100);
+},
+{
+name = bottom.dot;
+pos = (215,-18);
+},
+{
+name = top.far;
+pos = (217,696);
+},
+{
+name = top.near;
+pos = (217,696);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "dal-ar";
+},
+{
+pos = (25,119);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 435;
+}
+);
+unicode = (1676,64388);
+}

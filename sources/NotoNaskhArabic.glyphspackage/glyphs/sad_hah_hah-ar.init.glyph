@@ -1,0 +1,76 @@
+{
+glyphname = "sad_hah_hah-ar.init";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (313,-100);
+},
+{
+name = bottom.dot;
+pos = (353,-8);
+},
+{
+name = top.far;
+pos = (299,576);
+},
+{
+name = top.near;
+pos = (298,365);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (1332,0);
+ref = "sad-ar.init";
+},
+{
+pos = (666,0);
+ref = "hah-ar.medi";
+},
+{
+ref = "hah-ar.medi";
+}
+);
+width = 2118;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (313,-110);
+},
+{
+name = bottom.dot;
+pos = (343,12);
+},
+{
+name = top.far;
+pos = (299,596);
+},
+{
+name = top.near;
+pos = (298,395);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+pos = (1314,0);
+ref = "sad-ar.init";
+},
+{
+pos = (657,0);
+ref = "hah-ar.medi";
+},
+{
+ref = "hah-ar.medi";
+}
+);
+width = 2109;
+}
+);
+unicode = 64869;
+}

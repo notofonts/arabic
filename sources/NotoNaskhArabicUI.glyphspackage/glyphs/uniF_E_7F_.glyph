@@ -1,0 +1,64 @@
+{
+glyphname = uniFE7F;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{99, 35}";
+},
+{
+name = top;
+position = "{99, 587}";
+},
+{
+name = top3;
+position = "{100, 731}";
+}
+);
+components = (
+{
+alignment = -1;
+name = uni0640;
+},
+{
+alignment = -1;
+name = uni0652;
+transform = "{1, 0, 0, 1, 34, 0}";
+}
+);
+layerId = master01;
+width = 210;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{99, 0}";
+},
+{
+name = top;
+position = "{99, 596}";
+},
+{
+name = top3;
+position = "{105, 739}";
+}
+);
+components = (
+{
+alignment = -1;
+name = uni0640;
+},
+{
+alignment = -1;
+name = uni0652;
+transform = "{1, 0, 0, 1, 39, 0}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 210;
+}
+);
+unicode = FE7F;
+}

@@ -1,0 +1,72 @@
+{
+glyphname = "lamBar-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (268,-328);
+},
+{
+name = bottom.dot;
+pos = (268,-273);
+},
+{
+name = top.far;
+pos = (434,720);
+},
+{
+name = top.near;
+pos = (434,669);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = "lam-ar";
+},
+{
+alignment = -1;
+pos = (301,-20);
+ref = "bar-ar.wide";
+}
+);
+width = 595;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (268,-311);
+},
+{
+name = bottom.dot;
+pos = (268,-256);
+},
+{
+name = top.far;
+pos = (430,729);
+},
+{
+name = top.near;
+pos = (432,669);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+ref = "lam-ar";
+},
+{
+alignment = -1;
+pos = (326,-48);
+ref = "bar-ar.wide";
+}
+);
+width = 634;
+}
+);
+unicode = 1898;
+}

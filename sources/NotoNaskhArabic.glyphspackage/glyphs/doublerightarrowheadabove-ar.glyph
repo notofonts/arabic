@@ -1,0 +1,66 @@
+{
+glyphname = "doublerightarrowheadabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (-47,436);
+},
+{
+name = top.far;
+pos = (77,627);
+},
+{
+name = top.near;
+pos = (77,627);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (-47,0);
+ref = "rightarrowheadabove-ar";
+},
+{
+alignment = -1;
+pos = (77,-16);
+ref = "rightarrowheadabove-ar";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (-47,444);
+},
+{
+name = top.far;
+pos = (77,636);
+},
+{
+name = top.near;
+pos = (77,636);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+pos = (-47,0);
+ref = "rightarrowheadabove-ar";
+},
+{
+alignment = -1;
+pos = (77,-16);
+ref = "rightarrowheadabove-ar";
+}
+);
+width = 0;
+}
+);
+unicode = 2299;
+}

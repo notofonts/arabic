@@ -1,0 +1,68 @@
+{
+glyphname = uniFBED;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{234, 35}";
+},
+{
+name = bottom.dot;
+position = "{585, 104}";
+},
+{
+name = top;
+position = "{235, 563}";
+},
+{
+name = top.dot;
+position = "{235, 372}";
+}
+);
+components = (
+{
+name = uniFE8C;
+transform = "{1, 0, 0, 1, 425, 0}";
+},
+{
+name = uniFBA7;
+}
+);
+layerId = master01;
+width = 717;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{245, 25}";
+},
+{
+name = bottom.dot;
+position = "{599, 97}";
+},
+{
+name = top;
+position = "{238, 591}";
+},
+{
+name = top.dot;
+position = "{238, 410}";
+}
+);
+components = (
+{
+name = uniFE8C;
+transform = "{1, 0, 0, 1, 431, 0}";
+},
+{
+name = uniFBA7;
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 723;
+}
+);
+unicode = FBED;
+}

@@ -1,0 +1,45 @@
+{
+glyphname = "dotamiddle-ar";
+layers = (
+{
+anchors = (
+{
+name = _center;
+position = "{185, 81}";
+},
+{
+name = top;
+position = "{140, 207}";
+}
+);
+components = (
+{
+name = uniFBB2;
+transform = "{1, 0, 0, 1, -60, -450}";
+}
+);
+layerId = master01;
+width = 386;
+},
+{
+anchors = (
+{
+name = _center;
+position = "{171, 81}";
+},
+{
+name = top;
+position = "{123, 217}";
+}
+);
+components = (
+{
+name = uniFBB2;
+transform = "{1, 0, 0, 1, -77, -487}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 377;
+}
+);
+}

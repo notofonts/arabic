@@ -1,0 +1,76 @@
+{
+glyphname = "sheen_jeem-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (321,-334);
+},
+{
+name = bottom.dot;
+pos = (998,-31);
+},
+{
+name = center;
+pos = (335,-36);
+},
+{
+name = top.far;
+pos = (342,561);
+},
+{
+name = top.near;
+pos = (342,360);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (666,0);
+ref = "sheen-ar.medi";
+},
+{
+ref = "jeem-ar.fina";
+}
+);
+width = 1329;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (340,-340);
+},
+{
+name = bottom.dot;
+pos = (1088,-38);
+},
+{
+name = center;
+pos = (365,-20);
+},
+{
+name = top.far;
+pos = (342,596);
+},
+{
+name = top.near;
+pos = (342,373);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+pos = (724,0);
+ref = "sheen-ar.medi";
+},
+{
+ref = "jeem-ar.fina";
+}
+);
+width = 1421;
+}
+);
+unicode = 64805;
+}

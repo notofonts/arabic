@@ -1,0 +1,59 @@
+{
+glyphname = uni063C.init;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{208, -132}";
+},
+{
+name = bottom.dot;
+position = "{197, 104}";
+},
+{
+name = top;
+position = "{109, 721}";
+}
+);
+components = (
+{
+name = uniFEDB;
+},
+{
+name = uniFBB9;
+transform = "{1, 0, 0, 1, -11, 17}";
+}
+);
+layerId = master01;
+width = 415;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{223, -135}";
+},
+{
+name = bottom.dot;
+position = "{212, 97}";
+},
+{
+name = top;
+position = "{109, 747}";
+}
+);
+components = (
+{
+name = uniFEDB;
+},
+{
+name = uniFBB9;
+transform = "{1, 0, 0, 1, -13, 20}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 443;
+}
+);
+}

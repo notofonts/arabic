@@ -1,0 +1,64 @@
+{
+glyphname = "alefThreeabove-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (136,-100);
+},
+{
+name = top.far;
+pos = (118,716);
+},
+{
+name = top.near;
+pos = (118,716);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = "alef-ar.fina.small";
+},
+{
+alignment = -1;
+pos = (-72,-46);
+ref = "threeabove-ar";
+}
+);
+width = 253;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (136,-110);
+},
+{
+name = top.far;
+pos = (118,804);
+},
+{
+name = top.near;
+pos = (118,804);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+pos = (8,0);
+ref = "alef-ar.fina.small";
+},
+{
+alignment = -1;
+pos = (-97,22);
+ref = "threeabove-ar";
+}
+);
+width = 253;
+}
+);
+}

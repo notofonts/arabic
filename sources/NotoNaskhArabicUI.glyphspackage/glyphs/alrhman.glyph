@@ -1,0 +1,121 @@
+{
+glyphname = alrhman;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{200, -328}";
+},
+{
+name = bottom.dot;
+position = "{200, -273}";
+},
+{
+name = center;
+position = "{1760, 81}";
+},
+{
+name = top;
+position = "{207, 416}";
+},
+{
+name = top.dot;
+position = "{210, 180}";
+}
+);
+components = (
+{
+alignment = -1;
+name = uniFEA3;
+transform = "{1, 0, 0, 1, 954, 0}";
+},
+{
+alignment = -1;
+name = uniFEE4;
+transform = "{1, 0, 0, 1, 529, 0}";
+},
+{
+alignment = -1;
+name = uni0627;
+transform = "{1, 0, 0, 1, 2138, 0}";
+},
+{
+alignment = -1;
+name = uniFEDF;
+transform = "{1, 0, 0, 1, 1991, 0}";
+},
+{
+alignment = -1;
+name = uniFEAE;
+transform = "{1, 0, 0, 1, 1575, 0}";
+},
+{
+alignment = -1;
+name = uniFEE6;
+transform = "{1, 0, 0, 1, -68, 0}";
+}
+);
+layerId = master01;
+width = 2316;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{186, -311}";
+},
+{
+name = bottom.dot;
+position = "{186, -256}";
+},
+{
+name = center;
+position = "{1782, 81}";
+},
+{
+name = top;
+position = "{214, 439}";
+},
+{
+name = top.dot;
+position = "{217, 193}";
+}
+);
+components = (
+{
+alignment = -1;
+name = uniFEA3;
+transform = "{1, 0, 0, 1, 962, 0}";
+},
+{
+alignment = -1;
+name = uniFEE4;
+transform = "{1, 0, 0, 1, 539, 0}";
+},
+{
+alignment = -1;
+name = uni0627;
+transform = "{1, 0, 0, 1, 2164, 0}";
+},
+{
+alignment = -1;
+name = uniFEDF;
+transform = "{1, 0, 0, 1, 2017, 0}";
+},
+{
+alignment = -1;
+name = uniFEAE;
+transform = "{1, 0, 0, 1, 1611, 0}";
+},
+{
+alignment = -1;
+name = uniFEE6;
+transform = "{1, 0, 0, 1, -68, 0}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 2389;
+}
+);
+}

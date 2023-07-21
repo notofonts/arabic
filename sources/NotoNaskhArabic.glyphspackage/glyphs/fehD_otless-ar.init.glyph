@@ -1,0 +1,75 @@
+{
+glyphname = "fehDotless-ar.init";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (227,-100);
+},
+{
+name = bottom.dot;
+pos = (227,-31);
+},
+{
+name = top.far;
+pos = (183,609);
+},
+{
+name = top.near;
+pos = (189,468);
+}
+);
+background = {
+anchors = (
+{
+name = bottom.dot;
+pos = (628,-31);
+},
+{
+name = top;
+pos = (625,538);
+},
+{
+name = top.dot;
+pos = (625,407);
+}
+);
+};
+layerId = master01;
+shapes = (
+{
+ref = "qafDotless-ar.init";
+}
+);
+width = 420;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (222,-110);
+},
+{
+name = bottom.dot;
+pos = (224,-28);
+},
+{
+name = top.far;
+pos = (217,616);
+},
+{
+name = top.near;
+pos = (219,466);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "qafDotless-ar.init";
+}
+);
+width = 427;
+}
+);
+}

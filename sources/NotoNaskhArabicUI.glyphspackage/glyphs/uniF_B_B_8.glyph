@@ -1,0 +1,44 @@
+{
+glyphname = uniFBB8;
+layers = (
+{
+anchors = (
+{
+name = _top.dot;
+position = "{229, 445}";
+},
+{
+name = top;
+position = "{219, 677}";
+}
+);
+components = (
+{
+name = _uniFBB8;
+}
+);
+layerId = master01;
+width = 425;
+},
+{
+anchors = (
+{
+name = _top.dot;
+position = "{236, 476}";
+},
+{
+name = top;
+position = "{226, 712}";
+}
+);
+components = (
+{
+name = _uniFBB8;
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 478;
+}
+);
+unicode = FBB8;
+}

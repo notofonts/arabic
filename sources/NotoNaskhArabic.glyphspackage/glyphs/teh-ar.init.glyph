@@ -1,0 +1,76 @@
+{
+glyphname = "teh-ar.init";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (140,-100);
+},
+{
+name = bottom.dot;
+pos = (140,-31);
+},
+{
+name = ring;
+pos = (138,47);
+},
+{
+name = top.far;
+pos = (129,623);
+},
+{
+name = top.near;
+pos = (129,623);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "behDotless-ar.init";
+},
+{
+pos = (-80,100);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 275;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (143,-110);
+},
+{
+name = bottom.dot;
+pos = (141,-38);
+},
+{
+name = ring;
+pos = (158,46);
+},
+{
+name = top.far;
+pos = (131,663);
+},
+{
+name = top.near;
+pos = (131,663);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "behDotless-ar.init";
+},
+{
+pos = (-61,86);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 275;
+}
+);
+unicode = 65175;
+}

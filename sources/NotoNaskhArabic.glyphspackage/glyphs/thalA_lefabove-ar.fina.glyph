@@ -1,0 +1,77 @@
+{
+glyphname = "thalAlefabove-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (214,-100);
+},
+{
+name = bottom.dot;
+pos = (215,-21);
+},
+{
+name = top.far;
+pos = (222,882);
+},
+{
+name = top.near;
+pos = (222,882);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "dal-ar.fina";
+},
+{
+alignment = 1;
+pos = (24,138);
+ref = "dotabove-ar";
+},
+{
+pos = (214,211);
+ref = "alefabove-ar";
+}
+);
+width = 474;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (236,-100);
+},
+{
+name = bottom.dot;
+pos = (237,-18);
+},
+{
+name = top.far;
+pos = (221,942);
+},
+{
+name = top.near;
+pos = (221,942);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "dal-ar.fina";
+},
+{
+alignment = 1;
+pos = (23,154);
+ref = "dotabove-ar";
+},
+{
+pos = (212,264);
+ref = "alefabove-ar";
+}
+);
+width = 485;
+}
+);
+}

@@ -1,0 +1,40 @@
+{
+glyphname = "ttehVabove-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "behDotless-ar";
+},
+{
+pos = (206,-416);
+ref = "tahabove-ar";
+},
+{
+pos = (226,212);
+ref = "vabove-ar";
+}
+);
+width = 772;
+},
+{
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "behDotless-ar";
+},
+{
+pos = (192,-396);
+ref = "tahabove-ar";
+},
+{
+pos = (213,220);
+ref = "vabove-ar";
+}
+);
+width = 806;
+}
+);
+unicode = 2240;
+}

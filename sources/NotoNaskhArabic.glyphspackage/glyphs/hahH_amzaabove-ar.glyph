@@ -1,0 +1,58 @@
+{
+glyphname = "hahHamzaabove-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (346,-336);
+},
+{
+name = center;
+pos = (375,-6);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = "hah-ar";
+},
+{
+anchor = top.dot;
+pos = (269,-141);
+ref = "hamzaabove-ar";
+scale = (1.1,1.1);
+}
+);
+width = 636;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (373,-337);
+},
+{
+name = center;
+pos = (385,-1);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+ref = "hah-ar";
+},
+{
+anchor = top.dot;
+pos = (251,-135);
+ref = "hamzaabove-ar";
+scale = (1.2,1.2);
+}
+);
+width = 655;
+}
+);
+unicode = 1665;
+}

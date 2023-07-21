@@ -1,0 +1,41 @@
+{
+glyphname = "threedotsupcenter-ar";
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (216,-159);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (432,-298);
+ref = "_threedotsupbelow-ar";
+}
+);
+width = 425;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (222,-189);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (454,-307);
+ref = "_threedotsupbelow-ar";
+}
+);
+width = 425;
+}
+);
+}

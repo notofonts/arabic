@@ -1,0 +1,70 @@
+{
+glyphname = "alefMadda-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (166,-100);
+},
+{
+name = bottom.dot;
+pos = (166,-48);
+},
+{
+name = top.far;
+pos = (119,816);
+},
+{
+name = top.near;
+pos = (119,816);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "alef-ar.fina";
+},
+{
+pos = (51,171);
+ref = "madda-ar";
+}
+);
+width = 253;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (174,-110);
+},
+{
+name = bottom.dot;
+pos = (174,-48);
+},
+{
+name = top.far;
+pos = (139,825);
+},
+{
+name = top.near;
+pos = (139,825);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+ref = "alef-ar.fina";
+},
+{
+alignment = -1;
+pos = (71,134);
+ref = "madda-ar";
+}
+);
+width = 288;
+}
+);
+unicode = 65154;
+}

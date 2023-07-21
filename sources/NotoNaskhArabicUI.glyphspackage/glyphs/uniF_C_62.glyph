@@ -1,0 +1,47 @@
+{
+glyphname = uniFC62;
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{89, 827}";
+},
+{
+name = top3;
+position = "{87, 1069}";
+}
+);
+components = (
+{
+name = uni0650_uni0651;
+transform = "{1, 0, 0, 1, 20, 328}";
+}
+);
+layerId = master01;
+width = 195;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{89, 828}";
+},
+{
+name = top3;
+position = "{87, 1069}";
+}
+);
+components = (
+{
+name = uni0650_uni0651;
+transform = "{1, 0, 0, 1, 20, 320}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 195;
+}
+);
+unicode = FC62;
+subCategory = Spacing;
+}

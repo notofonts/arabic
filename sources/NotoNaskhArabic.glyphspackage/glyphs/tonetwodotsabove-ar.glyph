@@ -1,0 +1,56 @@
+{
+glyphname = "tonetwodotsabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.far;
+pos = (2,645);
+},
+{
+name = top.far;
+pos = (1,767);
+},
+{
+name = top.near;
+pos = (1,767);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (-210,288);
+ref = _tonetwodots;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.far;
+pos = (1,563);
+},
+{
+name = top.far;
+pos = (0,788);
+},
+{
+name = top.near;
+pos = (0,788);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+pos = (-198,253);
+ref = _tonetwodots;
+}
+);
+width = 0;
+}
+);
+unicode = 2283;
+}

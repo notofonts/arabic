@@ -1,0 +1,68 @@
+{
+glyphname = "kaf_lam-ar.medi";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (126,-100);
+},
+{
+name = bottom.dot;
+pos = (126,-31);
+},
+{
+name = top.far;
+pos = (99,720);
+},
+{
+name = top.near;
+pos = (90,669);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (245,0);
+ref = "kaf-ar.medi";
+},
+{
+ref = "lam-ar.medi";
+}
+);
+width = 704;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (125,-110);
+},
+{
+name = bottom.dot;
+pos = (125,-38);
+},
+{
+name = top.far;
+pos = (99,729);
+},
+{
+name = top.near;
+pos = (91,669);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+pos = (245,0);
+ref = "kaf-ar.medi";
+},
+{
+ref = "lam-ar.medi";
+}
+);
+width = 712;
+}
+);
+unicode = 64747;
+}

@@ -1,0 +1,71 @@
+{
+glyphname = "ainTwodotsverticalabove-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (365,-342);
+},
+{
+name = center;
+pos = (371,-24);
+},
+{
+name = top.far;
+pos = (217,789);
+},
+{
+name = top.near;
+pos = (217,789);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "ain-ar";
+},
+{
+pos = (105,239);
+ref = "twodotsverticalabove-ar";
+}
+);
+width = 604;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (383,-342);
+},
+{
+name = center;
+pos = (392,-40);
+},
+{
+name = top.far;
+pos = (239,792);
+},
+{
+name = top.near;
+pos = (239,792);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+pos = (18,0);
+ref = "ain-ar";
+},
+{
+alignment = 1;
+pos = (143,119);
+ref = "twodotsverticalabove-ar";
+}
+);
+width = 622;
+}
+);
+unicode = 1887;
+}

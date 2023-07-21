@@ -1,0 +1,68 @@
+{
+glyphname = "teheh-ar.medi";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (190,-100);
+},
+{
+name = bottom.dot;
+pos = (190,-31);
+},
+{
+name = top.far;
+pos = (185,524);
+},
+{
+name = top.near;
+pos = (185,524);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "behDotless-ar.wide";
+},
+{
+pos = (12,4);
+ref = "fourdotsabove-ar";
+}
+);
+width = 360;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (200,-110);
+},
+{
+name = bottom.dot;
+pos = (198,-38);
+},
+{
+name = top.far;
+pos = (180,571);
+},
+{
+name = top.near;
+pos = (180,571);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "behDotless-ar.wide";
+},
+{
+pos = (-14,-85);
+ref = "fourdotsabove-ar";
+}
+);
+width = 360;
+}
+);
+unicode = 64357;
+}

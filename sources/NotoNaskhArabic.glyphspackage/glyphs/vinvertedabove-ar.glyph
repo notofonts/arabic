@@ -1,0 +1,56 @@
+{
+glyphname = "vinvertedabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.near;
+pos = (104,296);
+},
+{
+name = top.far;
+pos = (103,528);
+},
+{
+name = top.near;
+pos = (103,528);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (-30,0);
+ref = "vinverted-ar";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.near;
+pos = (109,302);
+},
+{
+name = top.far;
+pos = (102,531);
+},
+{
+name = top.near;
+pos = (102,531);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+pos = (-30,0);
+ref = "vinverted-ar";
+}
+);
+width = 0;
+}
+);
+unicode = 1627;
+}
