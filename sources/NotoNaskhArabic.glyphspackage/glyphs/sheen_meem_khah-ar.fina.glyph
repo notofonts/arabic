@@ -27,6 +27,7 @@ pos = (342,360);
 layerId = master01;
 shapes = (
 {
+alignment = 1;
 pos = (1079,0);
 ref = "sheen-ar.medi";
 },
@@ -35,6 +36,7 @@ pos = (666,0);
 ref = "meem-ar.medi";
 },
 {
+alignment = 1;
 ref = "khah-ar.fina";
 }
 );
@@ -66,6 +68,7 @@ pos = (342,373);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
+alignment = 1;
 pos = (1137,0);
 ref = "sheen-ar.medi";
 },
@@ -74,6 +77,7 @@ pos = (724,0);
 ref = "meem-ar.medi";
 },
 {
+alignment = 1;
 ref = "khah-ar.fina";
 }
 );

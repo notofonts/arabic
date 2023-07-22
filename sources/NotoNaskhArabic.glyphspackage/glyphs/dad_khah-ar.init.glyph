@@ -23,10 +23,12 @@ pos = (298,365);
 layerId = master01;
 shapes = (
 {
+alignment = 1;
 pos = (666,0);
 ref = "dad-ar.init";
 },
 {
+alignment = 1;
 ref = "khah-ar.medi";
 }
 );
@@ -54,10 +56,12 @@ pos = (298,395);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
+alignment = 1;
 pos = (657,0);
 ref = "dad-ar.init";
 },
 {
+alignment = 1;
 ref = "khah-ar.medi";
 }
 );
