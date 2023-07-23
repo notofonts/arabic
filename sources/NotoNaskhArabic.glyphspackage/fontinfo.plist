@@ -487,6 +487,11 @@ lookup decomposition {
   # Waw family
   sub wawDotabove-ar by waw-ar dotabove-ar;
   sub wawTwodots-ar by waw-ar twodotshorizontalabove-ar;
+  sub highhamzaWaw-ar by highhamza-ar waw-ar;
+  sub uHamzaabove-ar by highhamza-ar u-ar;
+
+  # Yeh family
+  sub highhamzaYeh-ar by highhamza-ar alefMaksura-ar;
 } decomposition;
 ";
 tag = ccmp;
@@ -517,7 +522,6 @@ sub hahThreedotsupbelow-ar by hah-ar.init threedotsupbelow-ar;
 sub heh-ar by heh-ar.init;
 sub hehDoachashmee-ar by hehDoachashmee-ar.init;
 sub hehgoal-ar by hehgoal-ar.init;
-sub highhamzaYeh-ar by highhamzaYeh-ar.init;
 sub jeem-ar by jeem-ar.init;
 sub kaf-ar by kaf-ar.init;
 sub kafswash-ar by kafswash-ar.init;
