@@ -123,33 +123,30 @@ name = numbers_small_uniq;
 },
 {
 code = "alef-ar.fina
-alefTwoabove-ar.fina
-alefThreeabove-ar.fina
+alef-ar.short.fina
 lam-ar.init
 ";
 name = rlig;
 },
 {
 code = "alef-ar.fina.rlig
-alefTwoabove-ar.fina.rlig
-alefThreeabove-ar.fina.rlig
+alef-ar.fina.rlig
 lam-ar.init.rlig
 ";
 name = rlig2;
 },
 {
 code = "alef-ar.fina
-alefTwoabove-ar.fina
-alefThreeabove-ar.fina
+alef-ar.short.fina
 lam-ar.medi
 ";
 name = rlig3;
 },
 {
 code = "alef-ar.fina.rlig.2
-alefTwoabove-ar.fina.rlig.2
-alefThreeabove-ar.fina.rlig.2
-lam-ar.medi.rlig";
+alef-ar.fina.rlig.2
+lam-ar.medi.rlig
+";
 name = rlig4;
 },
 {
@@ -355,6 +352,8 @@ lookup decomposition {
   sub alefWavyhamzabelow-ar by alef-ar wavyhamzabelow-ar;
   sub highhamzaAlef-ar by highhamza-ar alef-ar;
   sub alefWasla-ar by alef-ar wasla-ar;
+  sub alefTwoabove-ar by alef-ar.short twoabove-ar;
+  sub alefThreeabove-ar by alef-ar.short threeabove-ar;
 
   # Ain family
   sub ainThreedots-ar by ain-ar threedotsupabove-ar;
@@ -662,12 +661,11 @@ code = "sub ae-ar by heh-ar.fina;
 sub ain-ar by ain-ar.fina;
 sub ainThreedotsbelow-ar by ain-ar.fina threedotsdowncenter-ar;
 sub alef-ar by alef-ar.fina;
+sub alef-ar.short by alef-ar.short.fina;
 sub alefHamzaabove-ar by alefHamzaabove-ar.fina;
 sub alefHamzabelow-ar by alefHamzabelow-ar.fina;
 sub alefMadda-ar by alefMadda-ar.fina;
 sub alefMaksura-ar by alefMaksura-ar.fina;
-sub alefThreeabove-ar by alefThreeabove-ar.fina;
-sub alefTwoabove-ar by alefTwoabove-ar.fina;
 sub alefWasla-ar by alefWasla-ar.fina;
 sub beeh-ar by beeh-ar.fina;
 sub beh-ar by beh-ar.fina;
@@ -793,8 +791,8 @@ sub lam-ar.init highhamza-ar' alef-ar.fina by hamzaabove-ar;
   lookup rlig_arab_2 {
   # GSUB lookup 8, type 15 (Context)
     lookupflag IgnoreMarks;
-    sub lam-ar.init' lookup rlig_arab_3 [alef-ar.fina highhamzaAlef-ar.fina alefTwoabove-ar.fina alefThreeabove-ar.fina]' lookup rlig_arab_3;
-    sub lam-ar.medi' lookup rlig_arab_4 [alef-ar.fina highhamzaAlef-ar.fina alefTwoabove-ar.fina alefThreeabove-ar.fina]' lookup rlig_arab_4;
+    sub lam-ar.init' lookup rlig_arab_3 [alef-ar.fina alef-ar.short.fina highhamzaAlef-ar.fina]' lookup rlig_arab_3;
+    sub lam-ar.medi' lookup rlig_arab_4 [alef-ar.fina alef-ar.short.fina highhamzaAlef-ar.fina]' lookup rlig_arab_4;
   } rlig_arab_2;
 
   lookup rlig_arab_1 {
@@ -802,8 +800,6 @@ sub lam-ar.init highhamza-ar' alef-ar.fina by hamzaabove-ar;
     lookupflag IgnoreMarks;
     sub lam-ar.init alef-ar.fina by lam_alef-ar;
     sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
-    sub lam-ar.medi alefTwoabove-ar.fina by lam_alef-ar.fina_alefTwoabove-ar;
-    sub lam-ar.medi alefThreeabove-ar.fina by lam_alef-ar.fina_alefThreeabove-ar;
   } rlig_arab_1;
 ";
 tag = rlig;
