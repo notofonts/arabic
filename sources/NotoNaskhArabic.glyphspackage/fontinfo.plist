@@ -74,8 +74,8 @@ seven-ar.ccmp
 eight-ar.ccmp
 nine-ar.ccmp
 #
-six-persian.locl.ccmp
-seven-persian.locl.ccmp
+six-persian.ccmp.locl
+seven-persian.ccmp.locl
 # Latin
 zero.ccmp
 one.ccmp
@@ -105,8 +105,8 @@ nine-ar.ccmp
 four-persian.ccmp
 five-persian.ccmp
 six-persian.ccmp
-six-persian.locl.ccmp
-seven-persian.locl.ccmp
+six-persian.ccmp.locl
+seven-persian.ccmp.locl
 # Latin
 zero.ccmp
 one.ccmp
@@ -133,7 +133,7 @@ name = rlig;
 code = "alef-ar.fina.rlig
 alefTwoabove-ar.fina.rlig
 alefThreeabove-ar.fina.rlig
-lam-ar.rlig
+lam-ar.init.rlig
 ";
 name = rlig2;
 },
@@ -336,7 +336,7 @@ tag = aalt;
 code = "
 lookup liaadama { # See issue #26
   lookupflag UseMarkFilteringSet [hamzaabove-ar];
-  sub lam-ar kashida-ar' hamzaabove-ar' alef-ar by hamzabetween-ar;
+  sub lam-ar kashida-ar' hamzaabove-ar' alef-ar by hamzafloating-ar;
 } liaadama;
 
 lookup abovemarkligatures {
@@ -397,7 +397,7 @@ lookup decomposition {
   sub qafDotbelow-ar by qaf-ar dotbelow-ar;
   sub qafThreedotsaboveAfrican-ar by qafAfrican-ar threedotsupabove-ar;
   sub jeemThreedotsabove-ar by jeem-ar threedotsupabove-ar;
-  sub qafDotmovedbelow-ar by qafDotless-ar dotbelow-ar;
+  sub qafDotbelowNoDotAbove-ar by qafDotless-ar dotbelow-ar;
   sub lamTahabove-ar by lam-ar tahabove-ar;
 
   # Beh family
@@ -431,7 +431,7 @@ lookup decomposition {
   sub seenDotbelowDotabove-ar by seen-ar dotbelow-ar dotabove-ar;
   sub seenThreedotsbelow-ar by seen-ar threedotsdownbelow-ar;
   sub seenVinvertedabove-ar by seen-ar vinvertedabove-ar;
-  sub seenTahTwodotshorizontalabove-ar by seen-ar _twodotstah;
+  sub seenTahTwodotshorizontalabove-ar by seen-ar twodotstahabove-ar;
   sub seenTwodotsverticalabove-ar by seen-ar twodotsverticalabove-ar;
 
   # Lam family
@@ -1291,9 +1291,6 @@ key = versionString;
 value = "Version 2.016";
 }
 );
-settings = {
-disablesNiceNames = 1;
-};
 unitsPerEm = 1000;
 userData = {
 UFOFormat = 2;
