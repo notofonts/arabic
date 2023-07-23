@@ -599,7 +599,6 @@ sub hahTahbelow-ar by hah-ar.medi tahbelow-ar;
 sub heh-ar by heh-ar.medi;
 sub hehDoachashmee-ar by hehDoachashmee-ar.medi;
 sub hehgoal-ar by hehgoal-ar.medi;
-sub highhamzaYeh-ar by highhamzaYeh-ar.medi;
 sub jeem-ar by jeem-ar.medi;
 sub kaf-ar by kaf-ar.medi;
 sub kafswash-ar by kafswash-ar.medi;
@@ -696,9 +695,6 @@ sub heh-ar by heh-ar.fina;
 sub hehDoachashmee-ar by hehDoachashmee-ar.fina;
 sub hehgoal-ar by hehgoal-ar.fina;
 sub hehHamzaabove-ar by hehHamzaabove-ar.fina;
-sub highhamzaAlef-ar by highhamzaAlef-ar.fina;
-sub highhamzaWaw-ar by highhamzaWaw-ar.fina;
-sub highhamzaYeh-ar by highhamzaYeh-ar.fina;
 sub jeem-ar by jeem-ar.fina;
 sub kaf-ar by kaf-ar.fina;
 sub kafswash-ar by kafswash-ar.fina;
@@ -755,7 +751,6 @@ sub theh-ar by theh-ar.fina;
 sub tteh-ar by tteh-ar.fina;
 sub tteheh-ar by tteheh-ar.fina;
 sub u-ar by u-ar.fina;
-sub uHamzaabove-ar by uHamzaabove-ar.fina;
 sub ve-ar by ve-ar.fina;
 sub veh-ar by veh-ar.fina;
 sub waw-ar by waw-ar.fina;
@@ -791,8 +786,8 @@ sub lam-ar.init highhamza-ar' alef-ar.fina by hamzaabove-ar;
   lookup rlig_arab_2 {
   # GSUB lookup 8, type 15 (Context)
     lookupflag IgnoreMarks;
-    sub lam-ar.init' lookup rlig_arab_3 [alef-ar.fina alef-ar.short.fina highhamzaAlef-ar.fina]' lookup rlig_arab_3;
-    sub lam-ar.medi' lookup rlig_arab_4 [alef-ar.fina alef-ar.short.fina highhamzaAlef-ar.fina]' lookup rlig_arab_4;
+    sub lam-ar.init' lookup rlig_arab_3 [alef-ar.fina alef-ar.short.fina]' lookup rlig_arab_3;
+    sub lam-ar.medi' lookup rlig_arab_4 [alef-ar.fina alef-ar.short.fina]' lookup rlig_arab_4;
   } rlig_arab_2;
 
   lookup rlig_arab_1 {
