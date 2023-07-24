@@ -12,6 +12,10 @@ name = bottom.dot;
 pos = (294,-268);
 },
 {
+name = top.digit;
+pos = (302,177);
+},
+{
 name = top.far;
 pos = (324,148);
 },
@@ -94,6 +98,10 @@ name = bottom.dot;
 pos = (308,-256);
 },
 {
+name = top.digit;
+pos = (314,133);
+},
+{
 name = top.far;
 pos = (325,144);
 },
@@ -166,5 +174,5 @@ nodes = (
 width = 690;
 }
 );
-unicode = 65264;
+unicode = (65264,64509);
 }

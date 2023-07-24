@@ -173,6 +173,30 @@ tonetwodotsbelow-ar
 toneloopbelow-ar
 ";
 name = tonemarks;
+},
+{
+code = "twodotshorizontalabove-ar
+twodotstahabove-ar
+threedotsupabove-ar
+threedotsdownabove-ar
+fourdotsabove-ar
+vabove-ar
+vabove-ar.near
+vinvertedabove-ar
+twoabove-ar
+threeabove-ar
+tahabove-ar
+twodotshorizontalbelow-ar
+threedotshorizontalbelow-ar
+threedotsupbelow-ar
+threedotsdownbelow-ar
+fourdotsbelow-ar
+vbelow-ar
+vinvertedbelow-ar
+fourbelow-ar
+tahbelow-ar
+";
+name = widemarks;
 }
 );
 customParameters = (
@@ -383,6 +407,7 @@ lookup decomposition {
   sub hahTwodotshorizontalabove-ar by hah-ar twodotshorizontalabove-ar;
   sub hahThreedotsabove-ar by hah-ar threedotsupabove-ar;
   sub jeemTwodotsabove-ar by jeem-ar twodotshorizontalabove-ar;
+  sub hahFourbelow-ar by hah-ar fourcenter-ar;
 
   # Qaf/Fe family
   sub qafThreedotsabove-ar by qafDotless-ar threedotsupabove-ar;
@@ -432,6 +457,7 @@ lookup decomposition {
   sub seenVinvertedabove-ar by seen-ar vinvertedabove-ar;
   sub seenTahTwodotshorizontalabove-ar by seen-ar twodotstahabove-ar;
   sub seenTwodotsverticalabove-ar by seen-ar twodotsverticalabove-ar;
+  sub seenFourabove-ar by seen-ar fourabove-ar;
 
   # Lam family
   sub lamDotabove-ar by lam-ar dotabove-ar;
@@ -489,17 +515,33 @@ lookup decomposition {
   sub wawTwodots-ar by waw-ar twodotshorizontalabove-ar;
   sub highhamzaWaw-ar by highhamza-ar waw-ar;
   sub uHamzaabove-ar by highhamza-ar u-ar;
+  sub wawTwoabove-ar by waw-ar twoabove-ar;
+  sub wawThreeabove-ar by waw-ar threeabove-ar;
 
   # Yeh family
+  sub yeh-ar by alefMaksura-ar twodotshorizontalbelow-ar;
   sub highhamzaYeh-ar by highhamza-ar alefMaksura-ar;
+  sub yehTwoabove-farsi by yeh-farsi twoabove-ar;
+  sub yehThreeabove-farsi by yeh-farsi threeabove-ar;
+  sub yehFourbelow-farsi by alefMaksura-ar fourbelow-ar;
+
+  # Bari Ye family
+  sub yehbarreeHamzaabove-ar by yehbarree-ar hamzaabove-ar;
+  sub yehbarreeThreeabove-ar by yehbarree-ar threeabove-ar;
+  sub yehbarreeTwoabove-ar by yehbarree-ar twoabove-ar;
 } decomposition;
 ";
 tag = ccmp;
 },
 {
+code = "sub yeh-farsi by alefMaksura-ar;
+";
+tag = isol;
+},
+{
 code = "sub ain-ar by ain-ar.init;
 sub ainThreedotsbelow-ar by ain-ar.init threedotsdownbelow-ar;
-sub alefMaksura-ar by alefMaksura-ar.init;
+sub alefMaksura-ar by behDotless-ar.init;
 sub beeh-ar by beeh-ar.init;
 sub beh-ar by beh-ar.init;
 sub behDotless-ar by behDotless-ar.init;
@@ -515,7 +557,6 @@ sub ghain-ar by ghain-ar.init;
 sub ghainDotbelow-ar by ghain-ar.init dotbelow-ar;
 sub gueh-ar by gueh-ar.init;
 sub hah-ar by hah-ar.init;
-sub hahFourbelow-ar by hahFourbelow-ar.init;
 sub hahTahbelow-ar by hah-ar.init tahbelow-ar;
 sub hahTahTwodotshorizontalbelow-ar by hahTahTwodotshorizontalbelow-ar.init;
 sub hahThreedotsupbelow-ar by hah-ar.init threedotsupbelow-ar;
@@ -548,7 +589,6 @@ sub qafDotless-ar by qafDotless-ar.init;
 sub rnoon-ar by behDotless-ar.init tahabove-ar;
 sub sad-ar by sad-ar.init;
 sub seen-ar by seen-ar.init;
-sub seenFourabove-ar by seenFourabove-ar.init;
 sub sheen-ar by sheen-ar.init;
 sub tah-ar by tah-ar.init;
 sub tcheh-ar by tcheh-ar.init;
@@ -560,24 +600,22 @@ sub tteh-ar by tteh-ar.init;
 sub tteheh-ar by tteheh-ar.init;
 sub veh-ar by veh-ar.init;
 sub yeh-ar by yeh-ar.init;
-sub yeh-farsi by yeh-farsi.init;
-sub yehbarreeThreeabove-ar by yehbarreeThreeabove-ar.init;
-sub yehbarreeTwoabove-ar by yehbarreeTwoabove-ar.init;
-sub yehFourbelow-farsi by yehFourbelow-farsi.init;
+sub yeh-farsi by behDotless-ar.init twodotshorizontalbelow-ar;
 sub yehHamzaabove-ar by yehHamzaabove-ar.init;
 sub yehKashmiri-ar by yehKashmiri-ar.init;
-sub yehThreeabove-farsi by yehThreeabove-farsi.init;
-sub yehTwoabove-farsi by yehTwoabove-farsi.init;
 sub yehThreedotsbelow-ar by behDotless-ar.init threedotsdownbelow-ar;
 sub yehVabove-ar by yeh-ar.init vabove-ar.near;
+sub yehbarree-ar by behDotless-ar.init twodotshorizontalbelow-ar;
 sub zah-ar by zah-ar.init;
+
+sub fourcenter-ar by fourbelow-ar;
 ";
 tag = init;
 },
 {
 code = "sub ain-ar by ain-ar.medi;
 sub ainThreedotsbelow-ar by ain-ar.medi threedotsdownbelow-ar;
-sub alefMaksura-ar by alefMaksura-ar.medi;
+sub alefMaksura-ar by behDotless-ar.medi;
 sub beeh-ar by beeh-ar.medi;
 sub beh-ar by beh-ar.medi;
 sub behDotless-ar by behDotless-ar.medi;
@@ -596,7 +634,6 @@ sub ghain-ar by ghain-ar.medi;
 sub ghainDotbelow-ar by ghain-ar.medi dotbelow-ar;
 sub gueh-ar by gueh-ar.medi;
 sub hah-ar by hah-ar.medi;
-sub hahFourbelow-ar by hahFourbelow-ar.medi;
 sub hahTahTwodotshorizontalbelow-ar by hahTahTwodotshorizontalbelow-ar.medi;
 sub hahThreedotsupbelow-ar by hah-ar.medi threedotsupbelow-ar;
 sub hahTahbelow-ar by hah-ar.medi tahbelow-ar;
@@ -630,7 +667,6 @@ sub qafDotless-ar by qafDotless-ar.medi;
 sub rnoon-ar by behDotless-ar.medi tahabove-ar;
 sub sad-ar by sad-ar.medi;
 sub seen-ar by seen-ar.medi; # dotabovespacer-ar;
-sub seenFourabove-ar by seenFourabove-ar.medi;
 sub shadda-ar by shadda-ar.medi;
 sub sheen-ar by sheen-ar.medi;
 sub sukun-ar by sukun-ar.medi;
@@ -644,18 +680,16 @@ sub tteh-ar by tteh-ar.medi;
 sub tteheh-ar by tteheh-ar.medi;
 sub veh-ar by veh-ar.medi;
 sub yeh-ar by yeh-ar.medi;
-sub yeh-farsi by yeh-farsi.medi;
-sub yehbarreeThreeabove-ar by yehbarreeThreeabove-ar.medi;
-sub yehbarreeTwoabove-ar by yehbarreeTwoabove-ar.medi;
-sub yehFourbelow-farsi by yehFourbelow-farsi.medi;
+sub yeh-farsi by behDotless-ar.medi twodotshorizontalbelow-ar;
 sub yehHamzaabove-ar by yehHamzaabove-ar.medi;
 sub yehHamzaabove_meem-ar by yehHamzaabove_meem-ar.medi;
 sub yehKashmiri-ar by yehKashmiri-ar.medi;
-sub yehThreeabove-farsi by yehThreeabove-farsi.medi;
 sub yehThreedotsbelow-ar by behDotless-ar.medi threedotsdownbelow-ar;
-sub yehTwoabove-farsi by yehTwoabove-farsi.medi;
 sub yehVabove-ar by yeh-ar.medi vabove-ar.near;
+sub yehbarree-ar by behDotless-ar.medi twodotshorizontalbelow-ar;
 sub zah-ar by zah-ar.medi;
+
+sub fourcenter-ar by fourbelow-ar;
 ";
 tag = medi;
 },
@@ -691,7 +725,6 @@ sub ghain-ar by ghain-ar.fina;
 sub ghainDotbelow-ar by ghain-ar.fina dotcenter-ar;
 sub gueh-ar by gueh-ar.fina;
 sub hah-ar by hah-ar.fina;
-sub hahFourbelow-ar by hahFourbelow-ar.fina;
 sub hahTahbelow-ar by hah-ar.fina tahcenter-ar;
 sub hahTahTwodotshorizontalbelow-ar by hahTahTwodotshorizontalbelow-ar.fina;
 sub hahThreedotsupbelow-ar by hah-ar.fina threedotsupcenter-ar;
@@ -741,7 +774,6 @@ sub rnoon-ar by rnoon-ar.fina;
 sub rreh-ar by rreh-ar.fina;
 sub sad-ar by sad-ar.fina;
 sub seen-ar by seen-ar.fina;
-sub seenFourabove-ar by seenFourabove-ar.fina;
 sub sheen-ar by sheen-ar.fina;
 sub tah-ar by tah-ar.fina;
 sub tcheh-ar by tcheh-ar.fina;
@@ -761,20 +793,14 @@ sub waw-ar by waw-ar.fina;
 sub wawDotcenter-ar by wawDotcenter-ar.fina;
 sub wawHamzaabove-ar by wawHamzaabove-ar.fina;
 sub wawring-ar by wawring-ar.fina;
-sub wawThreeAbove-ar by wawThreeAbove-ar.fina;
-sub wawTwoabove-ar by wawTwoabove-ar.fina;
 sub yeh-ar by yeh-ar.fina;
-sub yeh-farsi by yeh-farsi.fina;
+sub yeh-farsi by alefMaksura-ar.fina;
 sub yehbarree-ar by yehbarree-ar.fina;
 sub yehbarreeHamzaabove-ar by yehbarreeHamzaabove-ar.fina;
-sub yehbarreeThreeabove-ar by yehbarreeThreeabove-ar.fina;
-sub yehbarreeTwoabove-ar by yehbarreeTwoabove-ar.fina;
 sub yehFourbelow-farsi by yehFourbelow-farsi.fina;
 sub yehHamzaabove-ar by yehHamzaabove-ar.fina;
 sub yehKashmiri-ar by yehKashmiri-ar.fina;
 sub yehTail-ar by yehTail-ar.fina;
-sub yehThreeabove-farsi by yehThreeabove-farsi.fina;
-sub yehTwoabove-farsi by yehTwoabove-farsi.fina;
 sub yehVabove-ar by alefMaksura-ar.fina vabove-ar.near;
 sub yehThreedotsbelow-ar by alefMaksura-ar.fina threedotsdownbelow-ar;
 sub yu-ar by yu-ar.fina;
@@ -784,7 +810,15 @@ sub zain-ar by zain-ar.fina;
 tag = fina;
 },
 {
-code = "sub lam-ar [bar-ar doubleBar-ar]' by [bar-ar.wide doubleBar-ar.wide];
+code = "lookup wide_beh {
+  lookupflag UseMarkFilteringSet @widemarks;
+  sub [behDotless-ar.init behDotless-ar.medi]'
+       @widemarks
+   by [behDotless-ar.init.wide behDotless-ar.medi.wide]
+  ;
+} wide_beh;
+
+sub lam-ar [bar-ar doubleBar-ar]' by [bar-ar.wide doubleBar-ar.wide];
 sub lam-ar.init highhamza-ar' alef-ar.fina by hamzaabove-ar;
 
   lookup rlig_arab_2 {

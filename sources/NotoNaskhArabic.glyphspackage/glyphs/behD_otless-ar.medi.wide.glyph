@@ -1,5 +1,5 @@
 {
-glyphname = "behDotless-ar.wide";
+glyphname = "behDotless-ar.medi.wide";
 layers = (
 {
 anchors = (
@@ -10,6 +10,10 @@ pos = (190,-100);
 {
 name = bottom.dot;
 pos = (190,-31);
+},
+{
+name = top.digit;
+pos = (176,349);
 },
 {
 name = top.far;
@@ -78,6 +82,10 @@ pos = (200,-110);
 {
 name = bottom.dot;
 pos = (198,-38);
+},
+{
+name = top.digit;
+pos = (179,328);
 },
 {
 name = top.far;

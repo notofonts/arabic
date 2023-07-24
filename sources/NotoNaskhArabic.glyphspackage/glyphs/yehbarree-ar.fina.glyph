@@ -8,6 +8,10 @@ name = bottom;
 pos = (334,-253);
 },
 {
+name = top.digit;
+pos = (185,229);
+},
+{
 name = top.far;
 pos = (228,238);
 },
@@ -71,6 +75,10 @@ anchors = (
 {
 name = bottom;
 pos = (324,-244);
+},
+{
+name = top.digit;
+pos = (168,201);
 },
 {
 name = top.far;

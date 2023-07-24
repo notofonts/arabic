@@ -874,6 +874,7 @@
   <glyph
       name="alefMaksura-ar.fina"
       unicode="FEF0"
+      unicode2="FBFD"
       production="uni0649.fina"
       script="arabic"
       category="Letter"
@@ -3305,7 +3306,7 @@
       decompose="waw-ar, twoabove-ar"
   />
   <glyph
-      name="wawThreeAbove-ar"
+      name="wawThreeabove-ar"
       unicode="0779"
       production="uni0779"
       script="arabic"
@@ -3649,6 +3650,7 @@
   <glyph
       name="yeh-ar.init"
       unicode="FEF3"
+      unicode2="FBFE"
       production="uniFEF3"
       script="arabic"
       category="Presentation Forms"
@@ -3656,18 +3658,6 @@
       direction="RTL"
       anchors="bottom, bottom.dot, top.far, top.near"
       sortName="arPo0001"
-      decompose="behDotless-ar.init.wide, twodotshorizontalbelow-ar"
-  />
-  <glyph
-      name="yeh-farsi.init"
-      unicode="FBFE"
-      production="uniFBFE"
-      script="arabic"
-      category="Presentation Forms"
-      subCategory="Other"
-      direction="RTL"
-      anchors="bottom, bottom.dot, top.far, top.near"
-      sortName="arPo0002"
       decompose="behDotless-ar.init.wide, twodotshorizontalbelow-ar"
   />
   <glyph
@@ -5408,6 +5398,7 @@
   <glyph
       name="yeh-ar.medi"
       unicode="FEF4"
+      unicode2="FBFF"
       production="uniFEF4"
       script="arabic"
       category="Presentation Forms"
@@ -5415,18 +5406,6 @@
       direction="RTL"
       anchors="bottom, bottom.dot, top.far, top.near"
       sortName="arPo0043"
-      decompose="behDotless-ar.wide, twodotshorizontalbelow-ar"
-  />
-  <glyph
-      name="yeh-farsi.medi"
-      unicode="FBFF"
-      production="uniFBFF"
-      script="arabic"
-      category="Presentation Forms"
-      subCategory="Other"
-      direction="RTL"
-      anchors="bottom, bottom.dot, top.far, top.near"
-      sortName="arPo0044"
       decompose="behDotless-ar.wide, twodotshorizontalbelow-ar"
   />
   <glyph
@@ -8230,7 +8209,7 @@
       decompose="waw-ar.fina, twoabove-ar"
   />
   <glyph
-      name="wawThreeAbove-ar.fina"
+      name="wawThreeabove-ar.fina"
       production="uni0779.fina"
       script="arabic"
       category="Letter"
