@@ -379,12 +379,30 @@ lookup decomposition {
   sub alefTwoabove-ar by alef-ar.short twoabove-ar;
   sub alefThreeabove-ar by alef-ar.short threeabove-ar;
 
-  # Ain family
-  sub ainThreedots-ar by ain-ar threedotsupabove-ar;
-  sub ainThreedotsdownabove-ar by ain-ar threedotsdownabove-ar;
-  sub ainTwodotshorizontalabove-ar by ain-ar twodotshorizontalabove-ar;
-  sub ainTwodotsverticalabove-ar by ain-ar twodotsverticalabove-ar;
-  sub ghainThreedotsabove-ar by ghain-ar threedotsupabove-ar;
+  # Beh family
+  sub tehThreedotsdown-ar by behDotless-ar threedotsdownabove-ar;
+  sub tehThreedotsupbelow-ar by teh-ar threedotsupbelow-ar;
+  sub tehRing-ar by teh-ar ring-ar;
+  sub behThreedotshorizontalbelow-ar by behDotless-ar threedotshorizontalbelow-ar;
+  sub behVabove-ar by behDotless-ar vabove-ar.near;
+  sub behVbelow-ar by behDotless-ar vbelow-ar;
+  sub behVinvertedbelow-ar by behDotless-ar vinvertedbelow-ar;
+  sub behThreedotsupabove-ar by beh-ar threedotsupabove-ar;
+  sub behThreedotsupbelow-ar by behDotless-ar threedotsupbelow-ar;
+  sub behhamzaabove-ar by beh-ar hamzaabove-ar;
+  sub pehVabove-ar by peh-ar vabove-ar.near;
+  sub tehVabove-ar by teh-ar vabove-ar;
+  sub ttehVabove-ar by tteh-ar vabove-ar;
+  sub tchehVabove-ar by tcheh-ar vabove-ar.near;
+
+  # Jeem family
+  sub hahHamzaabove-ar by hah-ar hamzaabove-ar;
+  sub hahTahabove-ar by hah-ar tahabove-ar;
+  sub hahTwodotsverticalabove-ar by hah-ar twodotsverticalabove-ar;
+  sub hahTwodotshorizontalabove-ar by hah-ar twodotshorizontalabove-ar;
+  sub hahThreedotsabove-ar by hah-ar threedotsupabove-ar;
+  sub jeemTwodotsabove-ar by jeem-ar twodotshorizontalabove-ar;
+  sub hahFourbelow-ar by hah-ar fourcenter-ar;
 
   # Dal family
   sub dalDotbelow-ar by dal-ar dotbelow-ar;
@@ -396,18 +414,43 @@ lookup decomposition {
   sub dalTwodotsverticalbelowTah-ar by dal-ar twodotsverticalbelow-ar tahabove-ar;
   sub dalVinvertedbelow-ar by dal-ar vinvertedbelow-ar;
 
-  # Heh family
-  sub hehgoalHamzaabove-ar by hehgoal-ar hamzaabove-ar.twentypercent;
-  sub hehVinvertedabove-ar by hehDoachashmee-ar vinvertedabove-ar;
+  # Reh family
+  sub rehv-ar by reh-ar vabove-ar.near;
+  sub rehVbelow-ar by reh-ar vbelow-ar;
+  sub zainVinvertedabove-ar by zain-ar vinvertedabove-ar;
+  sub rehTwodots-ar by reh-ar twodotshorizontalabove-ar;
+  sub jeh-ar by reh-ar threedotsupabove-ar;
+  sub rehFourdots-ar by reh-ar fourdotsabove-ar;
 
-  # Jeem family
-  sub hahHamzaabove-ar by hah-ar hamzaabove-ar;
-  sub hahTahabove-ar by hah-ar tahabove-ar;
-  sub hahTwodotsverticalabove-ar by hah-ar twodotsverticalabove-ar;
-  sub hahTwodotshorizontalabove-ar by hah-ar twodotshorizontalabove-ar;
-  sub hahThreedotsabove-ar by hah-ar threedotsupabove-ar;
-  sub jeemTwodotsabove-ar by jeem-ar twodotshorizontalabove-ar;
-  sub hahFourbelow-ar by hah-ar fourcenter-ar;
+  # Seen family
+  sub sheenDotbelow-ar by sheen-ar dotbelow-ar;
+  sub sheenThreedotsbelow-ar by sheen-ar threedotsdownbelow-ar;
+  sub seenFourdotsabove-ar by seen-ar fourdotsabove-ar;
+  sub seenDotbelowDotabove-ar by seen-ar dotbelow-ar dotabove-ar;
+  sub seenThreedotsbelow-ar by seen-ar threedotsdownbelow-ar;
+  sub seenVinvertedabove-ar by seen-ar vinvertedabove-ar;
+  sub seenTahTwodotshorizontalabove-ar by seen-ar twodotstahabove-ar;
+  sub seenTwodotsverticalabove-ar by seen-ar twodotsverticalabove-ar;
+  sub seenFourabove-ar by seen-ar fourabove-ar;
+
+  # Sad family
+  sub sadTwodotsbelow-ar by sad-ar twodotshorizontalbelow-ar;
+  sub sadThreedots-ar by sad-ar threedotsupabove-ar;
+  sub sadThreedotsbelow-ar by sad-ar threedotsdownbelow-ar;
+  sub dadDotbelow-ar by dad-ar dotbelow-ar;
+
+  # Tah family
+  sub tahTwodotsabove-ar by tah-ar twodotshorizontalabove-ar;
+  sub tahThreedots-ar by tah-ar threedotsupabove-ar;
+  sub tahDotbelow-ar by tah-ar dotbelow-ar;
+  sub tahThreedotsbelow-ar by tah-ar threedotsdownbelow-ar;
+
+  # Ain family
+  sub ainThreedots-ar by ain-ar threedotsupabove-ar;
+  sub ainThreedotsdownabove-ar by ain-ar threedotsdownabove-ar;
+  sub ainTwodotshorizontalabove-ar by ain-ar twodotshorizontalabove-ar;
+  sub ainTwodotsverticalabove-ar by ain-ar twodotsverticalabove-ar;
+  sub ghainThreedotsabove-ar by ghain-ar threedotsupabove-ar;
 
   # Qaf/Fe family
   sub qafThreedotsabove-ar by qafDotless-ar threedotsupabove-ar;
@@ -423,68 +466,6 @@ lookup decomposition {
   sub jeemThreedotsabove-ar by jeem-ar threedotsupabove-ar;
   sub qafDotbelowNoDotAbove-ar by qafDotless-ar dotbelow-ar;
   sub lamTahabove-ar by lam-ar tahabove-ar;
-
-  # Beh family
-  sub tehThreedotsdown-ar by behDotless-ar threedotsdownabove-ar;
-  sub tehThreedotsupbelow-ar by teh-ar threedotsupbelow-ar;
-  sub tehRing-ar by teh-ar ring-ar;
-  sub behThreedotshorizontalbelow-ar by behDotless-ar threedotshorizontalbelow-ar;
-  sub behVabove-ar by behDotless-ar vabove-ar.near;
-  sub behVbelow-ar by behDotless-ar vbelow-ar;
-  sub behVinvertedbelow-ar by behDotless-ar vinvertedbelow-ar;
-  sub behThreedotsupabove-ar by beh-ar threedotsupabove-ar;
-  sub behThreedotsupbelow-ar by behDotless-ar threedotsupbelow-ar;
-  sub behhamzaabove-ar by beh-ar hamzaabove-ar;
-  sub noonTahabove-ar by noon-ar tahabove-ar;
-  sub noonVabove-ar by noonghunna-ar dotinsidevabove-ar;
-  sub yehTwodotsbelowHamzaabove-ar by yeh-ar hamzaabove-ar;
-  sub yehTwodotsbelowDotabove-ar by yeh-ar dotabove-ar;
-  sub yehVinverted-farsi by yeh-farsi vinvertedabove-ar;
-  sub yehTwodotsabove-farsi by yeh-farsi twodotshorizontalabove-ar;
-  sub yehThreedotsabove-farsi by yeh-farsi threedotsupabove-ar;
-  sub pehVabove-ar by peh-ar vabove-ar.near;
-  sub tehVabove-ar by teh-ar vabove-ar;
-  sub ttehVabove-ar by tteh-ar vabove-ar;
-  sub tchehVabove-ar by tcheh-ar vabove-ar.near;
-  sub noonVinvertedabove-ar by noonghunna-ar vinvertedabove-ar;
-
-  # Seen family
-  sub sheenDotbelow-ar by sheen-ar dotbelow-ar;
-  sub sheenThreedotsbelow-ar by sheen-ar threedotsdownbelow-ar;
-  sub seenFourdotsabove-ar by seen-ar fourdotsabove-ar;
-  sub seenDotbelowDotabove-ar by seen-ar dotbelow-ar dotabove-ar;
-  sub seenThreedotsbelow-ar by seen-ar threedotsdownbelow-ar;
-  sub seenVinvertedabove-ar by seen-ar vinvertedabove-ar;
-  sub seenTahTwodotshorizontalabove-ar by seen-ar twodotstahabove-ar;
-  sub seenTwodotsverticalabove-ar by seen-ar twodotsverticalabove-ar;
-  sub seenFourabove-ar by seen-ar fourabove-ar;
-
-  # Lam family
-  sub lamDotabove-ar by lam-ar dotabove-ar;
-  sub behTwodotsbelowDotabove-ar by behDotless-ar twodotshorizontalbelow-ar dotabove-ar;
-  sub tchehDotabove-ar by tcheh-ar dotabove-ar;
-  sub lamThreedotsabove-ar by lam-ar threedotsupabove-ar;
-  sub lamThreedotsbelow-ar by lam-ar threedotsdownbelow-ar;
-  sub lamVabove-ar by lam-ar smallvabove-ar;
-  sub lamBar-ar by lam-ar bar-ar;
-  sub lamDoublebar-ar by lam-ar doubleBar-ar;
-
-  # Sad family
-  sub sadTwodotsbelow-ar by sad-ar twodotshorizontalbelow-ar;
-  sub sadThreedots-ar by sad-ar threedotsupabove-ar;
-  sub sadThreedotsbelow-ar by sad-ar threedotsdownbelow-ar;
-  sub dadDotbelow-ar by dad-ar dotbelow-ar;
-
-  # Meem family
-  sub meemDotabove-ar by meem-ar dotabove-ar;
-  sub meemDotbelow-ar by meem-ar dotbelow-ar;
-  sub meemThreedotsabove-ar by meem-ar threedotsupabove-ar;
-
-  # Tah family
-  sub tahTwodotsabove-ar by tah-ar twodotshorizontalabove-ar;
-  sub tahThreedots-ar by tah-ar threedotsupabove-ar;
-  sub tahDotbelow-ar by tah-ar dotbelow-ar;
-  sub tahThreedotsbelow-ar by tah-ar threedotsdownbelow-ar;
 
   # Kaf family
   sub kehehDotabove-ar by keheh-ar dotabove-ar.small;
@@ -502,13 +483,29 @@ lookup decomposition {
   sub kafDotbelow-ar by kaf-ar dotbelow-ar;
   sub kehehVabove-ar by keheh-ar vabove-ar;
 
-  # Reh family
-  sub rehv-ar by reh-ar vabove-ar.near;
-  sub rehVbelow-ar by reh-ar vbelow-ar;
-  sub zainVinvertedabove-ar by zain-ar vinvertedabove-ar;
-  sub rehTwodots-ar by reh-ar twodotshorizontalabove-ar;
-  sub jeh-ar by reh-ar threedotsupabove-ar;
-  sub rehFourdots-ar by reh-ar fourdotsabove-ar;
+  # Lam family
+  sub lamDotabove-ar by lam-ar dotabove-ar;
+  sub behTwodotsbelowDotabove-ar by behDotless-ar twodotshorizontalbelow-ar dotabove-ar;
+  sub tchehDotabove-ar by tcheh-ar dotabove-ar;
+  sub lamThreedotsabove-ar by lam-ar threedotsupabove-ar;
+  sub lamThreedotsbelow-ar by lam-ar threedotsdownbelow-ar;
+  sub lamVabove-ar by lam-ar smallvabove-ar;
+  sub lamBar-ar by lam-ar bar-ar;
+  sub lamDoublebar-ar by lam-ar doubleBar-ar;
+
+  # Meem family
+  sub meemDotabove-ar by meem-ar dotabove-ar;
+  sub meemDotbelow-ar by meem-ar dotbelow-ar;
+  sub meemThreedotsabove-ar by meem-ar threedotsupabove-ar;
+
+  # Noon family
+  sub noonTahabove-ar by noon-ar tahabove-ar;
+  sub noonVabove-ar by noonghunna-ar dotinsidevabove-ar;
+  sub noonVinvertedabove-ar by noonghunna-ar vinvertedabove-ar;
+
+  # Heh family
+  sub hehgoalHamzaabove-ar by hehgoal-ar hamzaabove-ar.twentypercent;
+  sub hehVinvertedabove-ar by hehDoachashmee-ar vinvertedabove-ar;
 
   # Waw family
   sub wawDotabove-ar by waw-ar dotabove-ar;
@@ -524,6 +521,11 @@ lookup decomposition {
   sub yehTwoabove-farsi by yeh-farsi twoabove-ar;
   sub yehThreeabove-farsi by yeh-farsi threeabove-ar;
   sub yehFourbelow-farsi by alefMaksura-ar fourbelow-ar;
+  sub yehTwodotsbelowHamzaabove-ar by yeh-ar hamzaabove-ar;
+  sub yehTwodotsbelowDotabove-ar by yeh-ar dotabove-ar;
+  sub yehVinverted-farsi by yeh-farsi vinvertedabove-ar;
+  sub yehTwodotsabove-farsi by yeh-farsi twodotshorizontalabove-ar;
+  sub yehThreedotsabove-farsi by yeh-farsi threedotsupabove-ar;
 
   # Bari Ye family
   sub yehbarreeHamzaabove-ar by yehbarree-ar hamzaabove-ar;
