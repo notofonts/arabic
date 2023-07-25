@@ -1,0 +1,68 @@
+{
+glyphname = "beheh-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (421,-273);
+},
+{
+name = bottom.dot;
+pos = (408,-31);
+},
+{
+name = top.far;
+pos = (375,468);
+},
+{
+name = top.near;
+pos = (375,277);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "behDotless-ar.fina";
+},
+{
+pos = (235,15);
+ref = "fourdotsbelow-ar";
+}
+);
+width = 817;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (435,-294);
+},
+{
+name = bottom.dot;
+pos = (408,-38);
+},
+{
+name = top.far;
+pos = (375,498);
+},
+{
+name = top.near;
+pos = (385,307);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "behDotless-ar.fina";
+},
+{
+pos = (217,10);
+ref = "fourdotsbelow-ar";
+}
+);
+width = 817;
+}
+);
+unicode = 64347;
+}

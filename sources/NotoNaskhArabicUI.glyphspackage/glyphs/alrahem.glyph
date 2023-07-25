@@ -1,0 +1,125 @@
+{
+glyphname = alrahem;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{1424.662, 35}";
+},
+{
+name = bottom.dot;
+position = "{661, 104}";
+},
+{
+name = center;
+position = "{2904, 216}";
+},
+{
+name = top;
+position = "{1424.662, 587}";
+},
+{
+name = top.dot;
+position = "{670, 402}";
+}
+);
+components = (
+{
+alignment = -1;
+name = uniFEA3;
+transform = "{1, 0, 0, 1, 2095, 0}";
+},
+{
+alignment = -1;
+name = uni0627;
+transform = "{1, 0, 0, 1, 3281, 0}";
+},
+{
+alignment = -1;
+name = uniFEDF;
+transform = "{1, 0, 0, 1, 3134, 0}";
+},
+{
+alignment = -1;
+name = uniFEAE;
+transform = "{1, 0, 0, 1, 2719, 0}";
+},
+{
+name = uniFEE2;
+transform = "{1, 0, 0, 1, -68, 0}";
+},
+{
+name = uniFBFF;
+transform = "{1, 0, 0, 1, 471, 0}";
+},
+{
+name = uni0640;
+transform = "{5.94608, 0, 0, 1, 836, 0}";
+}
+);
+layerId = master01;
+width = 3459;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{1434.662, 0}";
+},
+{
+name = bottom.dot;
+position = "{669, 97}";
+},
+{
+name = center;
+position = "{2940, 216}";
+},
+{
+name = top;
+position = "{1434.662, 596}";
+},
+{
+name = top.dot;
+position = "{666, 438}";
+}
+);
+components = (
+{
+alignment = -1;
+name = uniFEA3;
+transform = "{1, 0, 0, 1, 2145, 0}";
+},
+{
+alignment = -1;
+name = uni0627;
+transform = "{1, 0, 0, 1, 3321, 0}";
+},
+{
+alignment = -1;
+name = uniFEDF;
+transform = "{1, 0, 0, 1, 3174, 0}";
+},
+{
+alignment = -1;
+name = uniFEAE;
+transform = "{1, 0, 0, 1, 2769, 0}";
+},
+{
+name = uniFEE2;
+transform = "{1, 0, 0, 1, -68, 0}";
+},
+{
+name = uniFBFF;
+transform = "{1, 0, 0, 1, 471, 0}";
+},
+{
+name = uni0640;
+transform = "{5.94608, 0, 0, 1, 846, 0}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 3556;
+}
+);
+}

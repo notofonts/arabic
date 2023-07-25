@@ -1,0 +1,75 @@
+{
+glyphname = "rehHamzaabove-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (116,-258);
+},
+{
+name = bottom.dot;
+pos = (116,-212);
+},
+{
+name = center;
+pos = (185,81);
+},
+{
+name = top.far;
+pos = (196,566);
+},
+{
+name = top.near;
+pos = (205,345);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "reh-ar.fina";
+},
+{
+pos = (139,-138);
+ref = "hamzaabove-ar";
+}
+);
+width = 404;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (102,-258);
+},
+{
+name = bottom.dot;
+pos = (102,-208);
+},
+{
+name = center;
+pos = (171,81);
+},
+{
+name = top.far;
+pos = (193,624);
+},
+{
+name = top.near;
+pos = (203,389);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "reh-ar.fina";
+},
+{
+pos = (127,-68);
+ref = "hamzaabove-ar";
+}
+);
+width = 395;
+}
+);
+}

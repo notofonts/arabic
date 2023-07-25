@@ -1,0 +1,46 @@
+{
+glyphname = "toneloopbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (4,-118);
+},
+{
+name = bottom;
+pos = (2,-315);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (0,-811);
+ref = "toneloopabove-ar";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (4,-118);
+},
+{
+name = bottom;
+pos = (2,-324);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+pos = (0,-811);
+ref = "toneloopabove-ar";
+}
+);
+width = 0;
+}
+);
+unicode = 2287;
+}

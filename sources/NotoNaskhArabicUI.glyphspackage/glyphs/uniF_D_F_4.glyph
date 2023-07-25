@@ -1,0 +1,132 @@
+{
+glyphname = uniFDF4;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{214, 35}";
+},
+{
+name = bottom.dot;
+position = "{215, 114}";
+},
+{
+name = top;
+position = "{226, 722}";
+},
+{
+name = top.dot;
+position = "{227, 541}";
+},
+{
+name = top3;
+position = "{650, 823}";
+}
+);
+components = (
+{
+name = uniFEE3;
+transform = "{1, 0, 0, 1, 1553, 0}";
+},
+{
+name = uniFEA4;
+transform = "{1, 0, 0, 1, 887, 0}";
+},
+{
+alignment = -1;
+name = uni064F;
+transform = "{1, 0, 0, 1, 1722, 111}";
+},
+{
+alignment = -1;
+name = uni0651;
+transform = "{1, 0, 0, 1, 596, 95}";
+},
+{
+alignment = -1;
+name = uni064E;
+transform = "{1, 0, 0, 1, 1108, 89}";
+},
+{
+alignment = -1;
+name = uni064E;
+transform = "{1, 0, 0, 1, 569, 206}";
+},
+{
+name = uniFEE4;
+transform = "{1, 0, 0, 1, 474, 0}";
+},
+{
+name = uniFEAA;
+}
+);
+layerId = master01;
+width = 2009;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{236, 35}";
+},
+{
+name = bottom.dot;
+position = "{237, 117}";
+},
+{
+name = top;
+position = "{229, 772}";
+},
+{
+name = top.dot;
+position = "{226, 591}";
+},
+{
+name = top3;
+position = "{668, 798}";
+}
+);
+components = (
+{
+name = uniFEE3;
+transform = "{1, 0, 0, 1, 1555, 0}";
+},
+{
+name = uniFEA4;
+transform = "{1, 0, 0, 1, 898, 0}";
+},
+{
+alignment = -1;
+name = uni064F;
+transform = "{1, 0, 0, 1, 1735, 73}";
+},
+{
+alignment = -1;
+name = uni0651;
+transform = "{1, 0, 0, 1, 614, 61}";
+},
+{
+alignment = -1;
+name = uni064E;
+transform = "{1, 0, 0, 1, 1078, 55}";
+},
+{
+alignment = -1;
+name = uni064E;
+transform = "{1, 0, 0, 1, 585, 169}";
+},
+{
+name = uniFEE4;
+transform = "{1, 0, 0, 1, 485, 0}";
+},
+{
+name = uniFEAA;
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 2028;
+}
+);
+unicode = FDF4;
+}

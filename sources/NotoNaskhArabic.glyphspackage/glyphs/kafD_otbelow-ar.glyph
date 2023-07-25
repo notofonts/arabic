@@ -1,0 +1,32 @@
+{
+glyphname = "kafDotbelow-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "kaf-ar";
+},
+{
+pos = (82,-13);
+ref = "dotbelow-ar";
+}
+);
+width = 558;
+},
+{
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "kaf-ar";
+},
+{
+pos = (113,-8);
+ref = "dotbelow-ar";
+}
+);
+width = 618;
+}
+);
+unicode = 2228;
+}

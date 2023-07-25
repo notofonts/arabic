@@ -1,0 +1,68 @@
+{
+glyphname = "yehTwodotsabove-farsi";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (274,-315);
+},
+{
+name = bottom.dot;
+pos = (274,-268);
+},
+{
+name = top.far;
+pos = (138,310);
+},
+{
+name = top.near;
+pos = (138,310);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "alefMaksura-ar";
+},
+{
+pos = (-71,-213);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 618;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (288,-311);
+},
+{
+name = bottom.dot;
+pos = (288,-256);
+},
+{
+name = top.far;
+pos = (136,344);
+},
+{
+name = top.near;
+pos = (136,344);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "alefMaksura-ar";
+},
+{
+pos = (-56,-233);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 636;
+}
+);
+unicode = 1598;
+}

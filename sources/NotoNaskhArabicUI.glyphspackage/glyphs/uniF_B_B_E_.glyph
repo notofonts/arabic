@@ -1,0 +1,44 @@
+{
+glyphname = uniFBBE;
+layers = (
+{
+anchors = (
+{
+name = _bottom.dot;
+position = "{117, 95}";
+},
+{
+name = bottom;
+position = "{130, -183}";
+}
+);
+components = (
+{
+name = _uniFBBE;
+}
+);
+layerId = master01;
+width = 252;
+},
+{
+anchors = (
+{
+name = _bottom.dot;
+position = "{101, 95}";
+},
+{
+name = bottom;
+position = "{118, -179}";
+}
+);
+components = (
+{
+name = _uniFBBE;
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 229;
+}
+);
+unicode = FBBE;
+}

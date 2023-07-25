@@ -1,0 +1,44 @@
+{
+glyphname = uniFBB3;
+layers = (
+{
+anchors = (
+{
+name = _bottom.dot;
+position = "{182, 117}";
+},
+{
+name = bottom;
+position = "{183, -91}";
+}
+);
+components = (
+{
+name = _uniFBB3;
+}
+);
+layerId = master01;
+width = 425;
+},
+{
+anchors = (
+{
+name = _bottom.dot;
+position = "{182, 105}";
+},
+{
+name = bottom;
+position = "{183, -111}";
+}
+);
+components = (
+{
+name = _uniFBB3;
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 425;
+}
+);
+unicode = FBB3;
+}

@@ -1,0 +1,54 @@
+{
+glyphname = uni060D;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 1;
+nodes = (
+"98 74 OFFCURVE",
+"147 150 OFFCURVE",
+"228 230 CURVE",
+"210 290 LINE",
+"185 264 OFFCURVE",
+"157 233 OFFCURVE",
+"131 199 CURVE SMOOTH",
+"83 136 OFFCURVE",
+"41 68 OFFCURVE",
+"41 25 CURVE SMOOTH",
+"41 8 OFFCURVE",
+"52 -11 OFFCURVE",
+"69 -16 CURVE"
+);
+}
+);
+width = 300;
+},
+{
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+paths = (
+{
+closed = 1;
+nodes = (
+"104 66 OFFCURVE",
+"153 142 OFFCURVE",
+"233 222 CURVE",
+"202 325 LINE",
+"166 288 OFFCURVE",
+"135 251 OFFCURVE",
+"109 215 CURVE SMOOTH",
+"56 143 OFFCURVE",
+"29 77 OFFCURVE",
+"29 37 CURVE SMOOTH",
+"29 4 OFFCURVE",
+"44 -16 OFFCURVE",
+"75 -25 CURVE"
+);
+}
+);
+width = 300;
+}
+);
+unicode = 060D;
+}

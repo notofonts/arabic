@@ -1,0 +1,61 @@
+{
+glyphname = "ve-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (193,-252);
+},
+{
+name = top.far;
+pos = (253,602);
+},
+{
+name = top.near;
+pos = (253,602);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "waw-ar";
+},
+{
+pos = (37,59);
+ref = "threedotsupabove-ar";
+}
+);
+width = 468;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (195,-245);
+},
+{
+name = top.far;
+pos = (262,646);
+},
+{
+name = top.near;
+pos = (262,646);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "waw-ar";
+},
+{
+alignment = 1;
+pos = (64,38);
+ref = "threedotsupabove-ar";
+}
+);
+width = 497;
+}
+);
+unicode = (1739,64478);
+}

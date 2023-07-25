@@ -1,0 +1,68 @@
+{
+glyphname = "sad_meem-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (340,-100);
+},
+{
+name = bottom.dot;
+pos = (339,-31);
+},
+{
+name = top.far;
+pos = (279,552);
+},
+{
+name = top.near;
+pos = (280,361);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (528,0);
+ref = "sad-ar.init";
+},
+{
+ref = "meem-ar.fina";
+}
+);
+width = 1314;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (374,-110);
+},
+{
+name = bottom.dot;
+pos = (374,-38);
+},
+{
+name = top.far;
+pos = (298,526);
+},
+{
+name = top.near;
+pos = (300,385);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+pos = (555,0);
+ref = "sad-ar.init";
+},
+{
+ref = "meem-ar.fina";
+}
+);
+width = 1350;
+}
+);
+unicode = 64545;
+}

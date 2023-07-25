@@ -1,0 +1,46 @@
+{
+glyphname = "shadda-ar.isol";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (103,448);
+},
+{
+name = top3;
+pos = (88,603);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (34,10);
+ref = "shadda-ar";
+}
+);
+width = 195;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (103,457);
+},
+{
+name = top3;
+pos = (88,612);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+pos = (34,10);
+ref = "shadda-ar";
+}
+);
+width = 195;
+}
+);
+unicode = 65148;
+}

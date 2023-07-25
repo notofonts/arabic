@@ -1,0 +1,76 @@
+{
+glyphname = "dadDotbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (773,-239);
+},
+{
+name = bottom.dot;
+pos = (772,-31);
+},
+{
+name = top.far;
+pos = (726,631);
+},
+{
+name = top.near;
+pos = (726,631);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "sad-ar";
+},
+{
+pos = (526,127);
+ref = "dotabove-ar";
+},
+{
+pos = (590,-13);
+ref = "dotbelow-ar";
+}
+);
+width = 1096;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (793,-254);
+},
+{
+name = bottom.dot;
+pos = (792,-38);
+},
+{
+name = top.far;
+pos = (746,661);
+},
+{
+name = top.near;
+pos = (746,661);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "sad-ar";
+},
+{
+pos = (546,113);
+ref = "dotabove-ar";
+},
+{
+pos = (610,-8);
+ref = "dotbelow-ar";
+}
+);
+width = 1131;
+}
+);
+unicode = 1787;
+}

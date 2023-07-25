@@ -1,0 +1,68 @@
+{
+glyphname = "sheen-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (722,-100);
+},
+{
+name = bottom.dot;
+pos = (722,-31);
+},
+{
+name = top.far;
+pos = (716,531);
+},
+{
+name = top.near;
+pos = (716,531);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "seen-ar.fina";
+},
+{
+pos = (500,-12);
+ref = "threedotsupabove-ar";
+}
+);
+width = 1017;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (742,-110);
+},
+{
+name = bottom.dot;
+pos = (742,-38);
+},
+{
+name = top.far;
+pos = (708,604);
+},
+{
+name = top.near;
+pos = (708,604);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "seen-ar.fina";
+},
+{
+pos = (510,-4);
+ref = "threedotsupabove-ar";
+}
+);
+width = 1039;
+}
+);
+unicode = 65206;
+}

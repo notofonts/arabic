@@ -1,0 +1,71 @@
+{
+glyphname = "hahFourbelow-ar.init";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (421,-301);
+},
+{
+name = bottom.dot;
+pos = (353,-8);
+},
+{
+name = top.far;
+pos = (299,576);
+},
+{
+name = top.near;
+pos = (298,365);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = "hah-ar.init";
+},
+{
+alignment = -1;
+pos = (306,-709);
+ref = "fourbelow-ar";
+}
+);
+width = 636;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (420,-269);
+},
+{
+name = bottom.dot;
+pos = (353,12);
+},
+{
+name = top.far;
+pos = (299,596);
+},
+{
+name = top.near;
+pos = (298,395);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+ref = "hah-ar.init";
+},
+{
+alignment = -1;
+pos = (306,-694);
+ref = "fourbelow-ar";
+}
+);
+width = 649;
+}
+);
+}

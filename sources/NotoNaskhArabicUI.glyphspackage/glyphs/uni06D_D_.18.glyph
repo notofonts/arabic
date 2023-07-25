@@ -1,0 +1,74 @@
+{
+glyphname = uni06DD.18;
+layers = (
+{
+anchors = (
+{
+name = b._958_2_ligComponent_1;
+position = "{471, 238}";
+},
+{
+name = b._958_2_ligComponent_2;
+position = "{745, 238}";
+}
+);
+components = (
+{
+alignment = 1;
+name = uni06DD;
+}
+);
+layerId = master01;
+userData = {
+com.typemytype.robofont.guides = (
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.1;
+x = 1245;
+y = 0;
+}
+);
+};
+width = 189;
+},
+{
+anchors = (
+{
+name = b._958_2_ligComponent_1;
+position = "{498, 238}";
+},
+{
+name = b._958_2_ligComponent_2;
+position = "{772, 238}";
+}
+);
+components = (
+{
+alignment = 1;
+name = uni06DD;
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+userData = {
+com.typemytype.robofont.guides = (
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.1;
+x = 830;
+y = 0;
+},
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.2;
+x = 1660;
+y = 0;
+}
+);
+};
+width = 189;
+}
+);
+}

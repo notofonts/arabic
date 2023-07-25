@@ -1,0 +1,78 @@
+{
+glyphname = "rehVbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (118,-451);
+},
+{
+name = bottom.dot;
+pos = (116,-212);
+},
+{
+name = center;
+pos = (185,81);
+},
+{
+name = top.far;
+pos = (201,538);
+},
+{
+name = top.near;
+pos = (205,345);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = "reh-ar";
+},
+{
+pos = (-13,-132);
+ref = "vbelow-ar";
+}
+);
+width = 372;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (104,-437);
+},
+{
+name = bottom.dot;
+pos = (102,-208);
+},
+{
+name = center;
+pos = (171,81);
+},
+{
+name = top.far;
+pos = (199,592);
+},
+{
+name = top.near;
+pos = (203,389);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+ref = "reh-ar";
+},
+{
+pos = (-27,-128);
+ref = "vbelow-ar";
+}
+);
+width = 377;
+}
+);
+unicode = 1685;
+}

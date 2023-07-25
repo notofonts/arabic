@@ -1,0 +1,68 @@
+{
+glyphname = "beh_heh-ar.medi";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (233,-253);
+},
+{
+name = bottom.dot;
+pos = (541,-31);
+},
+{
+name = top.far;
+pos = (229,608);
+},
+{
+name = top.near;
+pos = (540,267);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (381,0);
+ref = "beh-ar.medi";
+},
+{
+ref = "heh-ar.medi";
+}
+);
+width = 673;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (243,-244);
+},
+{
+name = bottom.dot;
+pos = (565,-38);
+},
+{
+name = top.far;
+pos = (229,641);
+},
+{
+name = top.near;
+pos = (550,303);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+pos = (397,0);
+ref = "beh-ar.medi";
+},
+{
+ref = "heh-ar.medi";
+}
+);
+width = 689;
+}
+);
+unicode = 64738;
+}

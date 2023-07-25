@@ -1,0 +1,78 @@
+{
+glyphname = uniFC5C;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{116, -123}";
+},
+{
+name = bottom.dot;
+position = "{116, -57}";
+},
+{
+name = center;
+position = "{185, 216}";
+},
+{
+name = top;
+position = "{199, 913}";
+},
+{
+name = top.dot;
+position = "{205, 480}";
+}
+);
+components = (
+{
+alignment = -1;
+name = uni0631;
+},
+{
+name = uni0670;
+transform = "{1, 0, 0, 1, 190, 109}";
+}
+);
+layerId = master01;
+width = 372;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{102, -123}";
+},
+{
+name = bottom.dot;
+position = "{102, -63}";
+},
+{
+name = center;
+position = "{171, 216}";
+},
+{
+name = top;
+position = "{197, 967}";
+},
+{
+name = top.dot;
+position = "{203, 524}";
+}
+);
+components = (
+{
+alignment = -1;
+name = uni0631;
+},
+{
+name = uni0670;
+transform = "{1, 0, 0, 1, 188, 154}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 377;
+}
+);
+unicode = FC5C;
+}

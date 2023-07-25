@@ -1,0 +1,68 @@
+{
+glyphname = "ghain-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (285,-342);
+},
+{
+name = center;
+pos = (302,-85);
+},
+{
+name = top.far;
+pos = (248,622);
+},
+{
+name = top.near;
+pos = (248,622);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "ain-ar.fina";
+},
+{
+pos = (48,118);
+ref = "dotabove-ar";
+}
+);
+width = 477;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (335,-342);
+},
+{
+name = center;
+pos = (319,-80);
+},
+{
+name = top.far;
+pos = (263,671);
+},
+{
+name = top.near;
+pos = (263,671);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "ain-ar.fina";
+},
+{
+pos = (63,123);
+ref = "dotabove-ar";
+}
+);
+width = 477;
+}
+);
+unicode = 65230;
+}

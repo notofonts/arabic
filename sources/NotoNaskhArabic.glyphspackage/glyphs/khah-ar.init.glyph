@@ -1,0 +1,68 @@
+{
+glyphname = "khah-ar.init";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (313,-100);
+},
+{
+name = bottom.dot;
+pos = (353,-8);
+},
+{
+name = top.far;
+pos = (295,601);
+},
+{
+name = top.near;
+pos = (295,601);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "hah-ar.init";
+},
+{
+pos = (95,97);
+ref = "dotabove-ar";
+}
+);
+width = 636;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (313,-110);
+},
+{
+name = bottom.dot;
+pos = (353,12);
+},
+{
+name = top.far;
+pos = (295,641);
+},
+{
+name = top.near;
+pos = (295,641);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "hah-ar.init";
+},
+{
+pos = (95,93);
+ref = "dotabove-ar";
+}
+);
+width = 649;
+}
+);
+unicode = 65191;
+}

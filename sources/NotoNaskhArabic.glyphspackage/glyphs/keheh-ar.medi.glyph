@@ -1,0 +1,68 @@
+{
+glyphname = "keheh-ar.medi";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (198,-100);
+},
+{
+name = bottom.dot;
+pos = (197,-31);
+},
+{
+name = ring;
+pos = (263,546);
+},
+{
+name = top.far;
+pos = (110,577);
+},
+{
+name = top.near;
+pos = (110,577);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "kaf-ar.medi";
+}
+);
+width = 459;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (214,-110);
+},
+{
+name = bottom.dot;
+pos = (212,-38);
+},
+{
+name = ring;
+pos = (272,536);
+},
+{
+name = top.far;
+pos = (110,614);
+},
+{
+name = top.near;
+pos = (110,614);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "kaf-ar.medi";
+}
+);
+width = 467;
+}
+);
+unicode = 64401;
+}

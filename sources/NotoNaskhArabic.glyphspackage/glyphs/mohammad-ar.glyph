@@ -1,0 +1,132 @@
+{
+glyphname = "mohammad-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (214,-100);
+},
+{
+name = bottom.dot;
+pos = (215,-21);
+},
+{
+name = top.far;
+pos = (226,587);
+},
+{
+name = top.near;
+pos = (227,406);
+},
+{
+name = top3;
+pos = (650,688);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (1553,0);
+ref = "meem-ar.init";
+},
+{
+pos = (887,0);
+ref = "hah-ar.medi";
+},
+{
+alignment = -1;
+pos = (1722,111);
+ref = "damma-ar";
+},
+{
+alignment = -1;
+pos = (596,95);
+ref = "shadda-ar";
+},
+{
+alignment = -1;
+pos = (1108,89);
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+pos = (569,206);
+ref = "fatha-ar";
+},
+{
+pos = (474,0);
+ref = "meem-ar.medi";
+},
+{
+ref = "dal-ar.fina";
+}
+);
+width = 2009;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (236,-100);
+},
+{
+name = bottom.dot;
+pos = (237,-18);
+},
+{
+name = top.far;
+pos = (229,637);
+},
+{
+name = top.near;
+pos = (226,456);
+},
+{
+name = top3;
+pos = (668,663);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+pos = (1555,0);
+ref = "meem-ar.init";
+},
+{
+pos = (898,0);
+ref = "hah-ar.medi";
+},
+{
+alignment = -1;
+pos = (1735,73);
+ref = "damma-ar";
+},
+{
+alignment = -1;
+pos = (614,61);
+ref = "shadda-ar";
+},
+{
+alignment = -1;
+pos = (1078,55);
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+pos = (585,169);
+ref = "fatha-ar";
+},
+{
+pos = (485,0);
+ref = "meem-ar.medi";
+},
+{
+ref = "dal-ar.fina";
+}
+);
+width = 2028;
+}
+);
+unicode = 65012;
+}

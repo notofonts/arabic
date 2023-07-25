@@ -1,0 +1,69 @@
+{
+glyphname = "kafTwodotshorizontalabove-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (366,-100);
+},
+{
+name = bottom.dot;
+pos = (366,-31);
+},
+{
+name = top.far;
+pos = (358,570);
+},
+{
+name = top.near;
+pos = (358,570);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = "kaf-ar.fina";
+},
+{
+pos = (357,-197);
+ref = "tonetwodotsabove-ar";
+}
+);
+width = 736;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (355,-110);
+},
+{
+name = bottom.dot;
+pos = (355,-38);
+},
+{
+name = top.far;
+pos = (353,610);
+},
+{
+name = top.near;
+pos = (353,610);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+ref = "kaf-ar.fina";
+},
+{
+pos = (353,-85);
+ref = "tonetwodotsabove-ar";
+}
+);
+width = 745;
+}
+);
+}

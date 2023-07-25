@@ -1,0 +1,46 @@
+{
+glyphname = uni08F9;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{1, 59}";
+},
+{
+name = bottom;
+position = "{6, -135}";
+}
+);
+components = (
+{
+name = uni08F7;
+transform = "{1, 0, 0, 1, 0, -689}";
+}
+);
+layerId = master01;
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{1, 66}";
+},
+{
+name = bottom;
+position = "{6, -128}";
+}
+);
+components = (
+{
+name = uni08F7;
+transform = "{1, 0, 0, 1, 0, -689}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+width = 0;
+}
+);
+unicode = 08F9;
+}

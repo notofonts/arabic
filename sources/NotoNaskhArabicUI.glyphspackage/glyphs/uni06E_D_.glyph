@@ -1,0 +1,128 @@
+{
+glyphname = uni06ED;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{0, 35}";
+},
+{
+name = bottom3;
+position = "{15, -192}";
+}
+);
+layerId = master01;
+paths = (
+{
+closed = 1;
+nodes = (
+"-47 -204 OFFCURVE",
+"-38 -197 OFFCURVE",
+"-33 -191 CURVE",
+"-35 -174 OFFCURVE",
+"-37 -156 OFFCURVE",
+"-41 -135 CURVE SMOOTH",
+"-47 -99 LINE",
+"-12 -87 OFFCURVE",
+"13 -85 OFFCURVE",
+"54 -85 CURVE",
+"68 -46 LINE",
+"40 -23 OFFCURVE",
+"23 22 OFFCURVE",
+"0 22 CURVE SMOOTH",
+"-21 22 OFFCURVE",
+"-38 5 OFFCURVE",
+"-52 -30 CURVE",
+"-40 -35 LINE",
+"-28 -20 OFFCURVE",
+"-18 -12 OFFCURVE",
+"-9 -12 CURVE SMOOTH",
+"-5 -12 OFFCURVE",
+"-1 -14 OFFCURVE",
+"4 -18 CURVE SMOOTH",
+"8 -23 OFFCURVE",
+"15 -31 OFFCURVE",
+"24 -45 CURVE",
+"33 -53 LINE",
+"-8 -55 OFFCURVE",
+"-9 -56 OFFCURVE",
+"-51 -67 CURVE",
+"-59 -87 OFFCURVE",
+"-63 -100 OFFCURVE",
+"-63 -105 CURVE SMOOTH",
+"-63 -115 OFFCURVE",
+"-63 -129 OFFCURVE",
+"-61 -146 CURVE SMOOTH",
+"-59 -164 OFFCURVE",
+"-58 -185 OFFCURVE",
+"-58 -212 CURVE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{0, 44}";
+},
+{
+name = bottom3;
+position = "{15, -183}";
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+paths = (
+{
+closed = 1;
+nodes = (
+"-46 -200 OFFCURVE",
+"-38 -196 OFFCURVE",
+"-28 -188 CURVE",
+"-30 -171 OFFCURVE",
+"-32 -153 OFFCURVE",
+"-36 -131 CURVE SMOOTH",
+"-42 -98 LINE",
+"-8 -86 OFFCURVE",
+"16 -85 OFFCURVE",
+"58 -85 CURVE",
+"73 -42 LINE",
+"45 -21 OFFCURVE",
+"28 28 OFFCURVE",
+"0 28 CURVE SMOOTH",
+"-24 28 OFFCURVE",
+"-43 9 OFFCURVE",
+"-58 -28 CURVE",
+"-38 -36 LINE",
+"-25 -19 OFFCURVE",
+"-15 -12 OFFCURVE",
+"-9 -12 CURVE SMOOTH",
+"-7 -12 OFFCURVE",
+"-4 -14 OFFCURVE",
+"0 -17 CURVE SMOOTH",
+"4 -21 OFFCURVE",
+"10 -29 OFFCURVE",
+"20 -43 CURVE",
+"24 -47 LINE",
+"-11 -49 OFFCURVE",
+"-9 -49 OFFCURVE",
+"-56 -63 CURVE",
+"-64 -84 OFFCURVE",
+"-68 -97 OFFCURVE",
+"-68 -102 CURVE SMOOTH",
+"-68 -112 OFFCURVE",
+"-68 -126 OFFCURVE",
+"-66 -143 CURVE SMOOTH",
+"-64 -161 OFFCURVE",
+"-63 -182 OFFCURVE",
+"-63 -209 CURVE"
+);
+}
+);
+width = 0;
+}
+);
+unicode = 06ED;
+}

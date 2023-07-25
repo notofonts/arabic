@@ -1,0 +1,92 @@
+{
+category = Letter;
+glyphname = "lam_alefHamzaabove-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (166,-100);
+},
+{
+name = top.far;
+pos = (80,770);
+},
+{
+name = top.near;
+pos = (80,770);
+},
+{
+name = top_two;
+pos = (64,752);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "lam_alef-ar.fina";
+},
+{
+pos = (23,64);
+ref = "hamzaabove-ar";
+}
+);
+userData = {
+com.typemytype.robofont.guides = (
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.1;
+x = 624;
+y = 0;
+}
+);
+};
+width = 610;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (166,-110);
+},
+{
+name = top.far;
+pos = (76,773);
+},
+{
+name = top.near;
+pos = (76,773);
+},
+{
+name = top_two;
+pos = (64,762);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "lam_alef-ar.fina";
+},
+{
+pos = (6,65);
+ref = "hamzaabove-ar";
+}
+);
+userData = {
+com.typemytype.robofont.guides = (
+{
+isGlobal = 0;
+magnetic = 5;
+name = caret.1;
+x = 646;
+y = 0;
+}
+);
+};
+width = 631;
+}
+);
+subCategory = Other;
+unicode = 65272;
+}

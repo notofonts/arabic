@@ -1,0 +1,70 @@
+{
+glyphname = "kafRing-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (450,-100);
+},
+{
+name = bottom.dot;
+pos = (450,-31);
+},
+{
+name = ring;
+pos = (554,550);
+},
+{
+name = top.far;
+pos = (355,575);
+},
+{
+name = top.near;
+pos = (355,575);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = "keheh-ar";
+}
+);
+width = 687;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (442,-110);
+},
+{
+name = bottom.dot;
+pos = (442,-38);
+},
+{
+name = ring;
+pos = (601,556);
+},
+{
+name = top.far;
+pos = (355,602);
+},
+{
+name = top.near;
+pos = (355,602);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+ref = "keheh-ar";
+}
+);
+width = 741;
+}
+);
+unicode = 1707;
+}

@@ -1,0 +1,68 @@
+{
+glyphname = "peheh-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (388,-100);
+},
+{
+name = bottom.dot;
+pos = (648,-11);
+},
+{
+name = top.far;
+pos = (605,742);
+},
+{
+name = top.near;
+pos = (605,742);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "fehdotless-ar";
+},
+{
+pos = (432,222);
+ref = "fourdotsabove-ar";
+}
+);
+width = 848;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (412,-110);
+},
+{
+name = bottom.dot;
+pos = (637,-28);
+},
+{
+name = top.far;
+pos = (607,803);
+},
+{
+name = top.near;
+pos = (607,803);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "fehdotless-ar";
+},
+{
+pos = (413,147);
+ref = "fourdotsabove-ar";
+}
+);
+width = 848;
+}
+);
+unicode = (1702,64366);
+}
