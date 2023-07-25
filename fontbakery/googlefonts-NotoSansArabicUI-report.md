@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.11b0
+Fontbakery version: 0.8.13
 
 <details><summary><b>[4] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
@@ -55,6 +55,12 @@ Fontbakery version: 0.8.11b0
 	- 109 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -70,15 +76,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedotsupbelowVabovear.medi, dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.init and seenThreedotsbelowthreedotsar.medi [code: legacy-long-names]
+dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.medi, seenThreedotsbelowthreedotsar.init, behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init and behThreedotsupbelowVabovear.medi [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- guillemotleft.1
-
-	- guillemotright.1
 
 	- lamDotabove_alefar.isol
 
@@ -94,9 +96,13 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 	- lam_alefWavyhamzaabovear.isol
 
-	- lam_alefWavyhamzabelowar.isol 
+	- lam_alefWavyhamzabelowar.isol
 
-	- 7 more.
+	- lam_yehbarreear.fina
+
+	- uni221B0607.pt 
+
+	- 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -131,10 +137,6 @@ minus
 	 U+FBB2, U+FBB3, U+FBB4, U+FBB5, U+FBB6, U+FBB7, U+FBB8, U+FBB9, U+FBBA, U+FBBB and 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: non-mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -254,6 +256,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 	- 109 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -262,15 +270,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedotsupbelowVabovear.medi, dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.init and seenThreedotsbelowthreedotsar.medi [code: legacy-long-names]
+dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.medi, seenThreedotsbelowthreedotsar.init, behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init and behThreedotsupbelowVabovear.medi [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- guillemotleft.1
-
-	- guillemotright.1
 
 	- lamDotabove_alefar.isol
 
@@ -286,9 +290,13 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 	- lam_alefWavyhamzaabovear.isol
 
-	- lam_alefWavyhamzabelowar.isol 
+	- lam_alefWavyhamzabelowar.isol
 
-	- 7 more.
+	- lam_yehbarreear.fina
+
+	- uni221B0607.pt 
+
+	- 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -323,10 +331,6 @@ minus
 	 U+FBB2, U+FBB3, U+FBB4, U+FBB5, U+FBB6, U+FBB7, U+FBB8, U+FBB9, U+FBBA, U+FBBB and 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: non-mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -426,6 +430,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	- 109 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -441,15 +451,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedotsupbelowVabovear.medi, dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.init and seenThreedotsbelowthreedotsar.medi [code: legacy-long-names]
+dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.medi, seenThreedotsbelowthreedotsar.init, behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init and behThreedotsupbelowVabovear.medi [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- guillemotleft.1
-
-	- guillemotright.1
 
 	- lamDotabove_alefar.isol
 
@@ -465,9 +471,13 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 	- lam_alefWavyhamzaabovear.isol
 
-	- lam_alefWavyhamzabelowar.isol 
+	- lam_alefWavyhamzabelowar.isol
 
-	- 7 more.
+	- lam_yehbarreear.fina
+
+	- uni221B0607.pt 
+
+	- 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -502,10 +512,6 @@ minus
 	 U+FBB2, U+FBB3, U+FBB4, U+FBB5, U+FBB6, U+FBB7, U+FBB8, U+FBB9, U+FBBA, U+FBBB and 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: non-mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -601,6 +607,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	- 109 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -616,15 +628,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedotsupbelowVabovear.medi, dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.init and seenThreedotsbelowthreedotsar.medi [code: legacy-long-names]
+dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.medi, seenThreedotsbelowthreedotsar.init, behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init and behThreedotsupbelowVabovear.medi [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- guillemotleft.1
-
-	- guillemotright.1
 
 	- lamDotabove_alefar.isol
 
@@ -640,9 +648,13 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 	- lam_alefWavyhamzaabovear.isol
 
-	- lam_alefWavyhamzabelowar.isol 
+	- lam_alefWavyhamzabelowar.isol
 
-	- 7 more.
+	- lam_yehbarreear.fina
+
+	- uni221B0607.pt 
+
+	- 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -677,10 +689,6 @@ minus
 	 U+FBB2, U+FBB3, U+FBB4, U+FBB5, U+FBB6, U+FBB7, U+FBB8, U+FBB9, U+FBBA, U+FBBB and 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: non-mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -762,6 +770,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 	- 109 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -777,15 +791,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedotsupbelowVabovear.medi, dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.init and seenThreedotsbelowthreedotsar.medi [code: legacy-long-names]
+dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.medi, seenThreedotsbelowthreedotsar.init, behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init and behThreedotsupbelowVabovear.medi [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- guillemotleft.1
-
-	- guillemotright.1
 
 	- lamDotabove_alefar.isol
 
@@ -801,9 +811,13 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 	- lam_alefWavyhamzaabovear.isol
 
-	- lam_alefWavyhamzabelowar.isol 
+	- lam_alefWavyhamzabelowar.isol
 
-	- 7 more.
+	- lam_yehbarreear.fina
+
+	- uni221B0607.pt 
+
+	- 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -838,10 +852,6 @@ minus
 	 U+FBB2, U+FBB3, U+FBB4, U+FBB5, U+FBB6, U+FBB7, U+FBB8, U+FBB9, U+FBBA, U+FBBB and 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: non-mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -941,6 +951,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	- 109 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -956,15 +972,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedotsupbelowVabovear.medi, dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.init and seenThreedotsbelowthreedotsar.medi [code: legacy-long-names]
+dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.medi, seenThreedotsbelowthreedotsar.init, behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init and behThreedotsupbelowVabovear.medi [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- guillemotleft.1
-
-	- guillemotright.1
 
 	- lamDotabove_alefar.isol
 
@@ -980,9 +992,13 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 	- lam_alefWavyhamzaabovear.isol
 
-	- lam_alefWavyhamzabelowar.isol 
+	- lam_alefWavyhamzabelowar.isol
 
-	- 7 more.
+	- lam_yehbarreear.fina
+
+	- uni221B0607.pt 
+
+	- 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1017,10 +1033,6 @@ minus
 	 U+FBB2, U+FBB3, U+FBB4, U+FBB5, U+FBB6, U+FBB7, U+FBB8, U+FBB9, U+FBBA, U+FBBB and 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: non-mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1120,6 +1132,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	- 109 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1128,15 +1146,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedotsupbelowVabovear.medi, dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.init and seenThreedotsbelowthreedotsar.medi [code: legacy-long-names]
+dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.medi, seenThreedotsbelowthreedotsar.init, behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init and behThreedotsupbelowVabovear.medi [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- guillemotleft.1
-
-	- guillemotright.1
 
 	- lamDotabove_alefar.isol
 
@@ -1152,9 +1166,13 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 	- lam_alefWavyhamzaabovear.isol
 
-	- lam_alefWavyhamzabelowar.isol 
+	- lam_alefWavyhamzabelowar.isol
 
-	- 7 more.
+	- lam_yehbarreear.fina
+
+	- uni221B0607.pt 
+
+	- 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1189,10 +1207,6 @@ minus
 	 U+FBB2, U+FBB3, U+FBB4, U+FBB5, U+FBB6, U+FBB7, U+FBB8, U+FBB9, U+FBBA, U+FBBB and 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: non-mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1268,6 +1282,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 	- 109 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1283,15 +1303,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedotsupbelowVabovear.medi, dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.init and seenThreedotsbelowthreedotsar.medi [code: legacy-long-names]
+dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.medi, seenThreedotsbelowthreedotsar.init, behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init and behThreedotsupbelowVabovear.medi [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- guillemotleft.1
-
-	- guillemotright.1
 
 	- lamDotabove_alefar.isol
 
@@ -1307,9 +1323,13 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 	- lam_alefWavyhamzaabovear.isol
 
-	- lam_alefWavyhamzabelowar.isol 
+	- lam_alefWavyhamzabelowar.isol
 
-	- 7 more.
+	- lam_yehbarreear.fina
+
+	- uni221B0607.pt 
+
+	- 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1344,10 +1364,6 @@ minus
 	 U+FBB2, U+FBB3, U+FBB4, U+FBB5, U+FBB6, U+FBB7, U+FBB8, U+FBB9, U+FBBA, U+FBBB and 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: non-mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1451,6 +1467,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	- 109 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1466,15 +1488,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedotsupbelowVabovear.medi, dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.init and seenThreedotsbelowthreedotsar.medi [code: legacy-long-names]
+dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.medi, seenThreedotsbelowthreedotsar.init, behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init and behThreedotsupbelowVabovear.medi [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- guillemotleft.1
-
-	- guillemotright.1
 
 	- lamDotabove_alefar.isol
 
@@ -1490,9 +1508,13 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 	- lam_alefWavyhamzaabovear.isol
 
-	- lam_alefWavyhamzabelowar.isol 
+	- lam_alefWavyhamzabelowar.isol
 
-	- 7 more.
+	- lam_yehbarreear.fina
+
+	- uni221B0607.pt 
+
+	- 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -1527,10 +1549,6 @@ minus
 	 U+FBB2, U+FBB3, U+FBB4, U+FBB5, U+FBB6, U+FBB7, U+FBB8, U+FBB9, U+FBBA, U+FBBB and 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: non-mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1595,7 +1613,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni06E9 (U+06E9): L<<384.0,166.0>--<383.0,422.0>> 
 
 	* uni06E9 (U+06E9): L<<407.0,409.0>--<408.0,161.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSansArabicUI[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] NotoSansArabicUI[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -1644,6 +1666,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	- 109 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
 
 
@@ -1656,15 +1684,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedotsupbelowVabovear.medi, dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.init and seenThreedotsbelowthreedotsar.medi [code: legacy-long-names]
+dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.medi, seenThreedotsbelowthreedotsar.init, behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init and behThreedotsupbelowVabovear.medi [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- guillemotleft.1
-
-	- guillemotright.1
 
 	- lamDotabove_alefar.isol
 
@@ -1680,34 +1704,38 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 	- lam_alefWavyhamzaabovear.isol
 
-	- lam_alefWavyhamzabelowar.isol 
+	- lam_alefWavyhamzabelowar.isol
 
-	- 7 more.
+	- lam_yehbarreear.fina
+
+	- uni221B0607.pt 
+
+	- 5 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 5 start point differs in glyph 'uniFD3E' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa426d8eb50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa42ae2eb10>
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 2 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c875ef6d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c84303150>
 
-	- Contour 5 start point differs in glyph 'uniFD3E' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa426d8eb50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa42ae2ee90>
+	- Contour 3 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c875ef6d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c84303150>
 
-	- Contour 2 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa426d8eb50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa42ae2ebd0>
+	- Contour 2 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c875ef6d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c84302e10>
 
-	- Contour 3 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa426d8eb50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa42ae2ebd0>
+	- Contour 3 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c875ef6d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c84302e10>
 
-	- Contour 2 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa426d8eb50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa42ae2f090>
+	- Contour 2 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c875ef6d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c84303150>
 
-	- Contour 3 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa426d8eb50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa42ae2f090>
+	- Contour 3 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c875ef6d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c84303150>
 
-	- Contour 2 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa426d8eb50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa42ae2ebd0>
+	- Contour 2 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c875ef6d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c84302e10>
 
-	- Contour 3 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa426d8eb50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa42ae2ebd0>
+	- Contour 3 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c875ef6d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c84302e10>
 
-	- Contour 2 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa426d8eb50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa42ae2f090> 
+	- Contour 5 start point differs in glyph 'uniFD3E' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c875ef6d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c843031d0> 
 
-	- Contour 3 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa426d8eb50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fa42ae2f090> [code: interpolation-issues]
+	- Contour 5 start point differs in glyph 'uniFD3E' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c875ef6d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f1c843024d0> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -1717,11 +1745,6 @@ The following math glyphs have a different width, though:
 Width = 322:
 minus
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 jeemUIar (U+06DA), lamAlefAboveUIar (U+06D9), meemaboveUIar (U+06D8), qafLamAlefMaksuraAboveUIar (U+06D7), sadLamAlefMaksuraAboveUIar (U+06D6), threedotsaUIar (U+06DB) and uni034F (U+034F) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -1735,8 +1758,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 34 | 105 | 1150 | 62 | 902 | 0 |
-| 0% | 2% | 5% | 51% | 3% | 40% | 0% |
+| 4 | 44 | 95 | 1161 | 62 | 941 | 0 |
+| 0% | 2% | 4% | 50% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.11b0
+Fontbakery version: 0.8.13
 
 <details><summary><b>[4] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
@@ -18,10 +18,16 @@ Fontbakery version: 0.8.11b0
 
 
 * 🔥 **FAIL** Family 'Noto Naskh Arabic' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
-</div></details><br></div></details><details><summary><b>[13] NotoNaskhArabic-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoNaskhArabic-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -80,8 +86,6 @@ twodotshorizontalabovear.diagonal [code: legacy-long-names]
 
 	- twodotsverticalbelowar.001
 
-	- uni00A0
-
 	- uni0602.ccmp
 
 	- uni0697.fina 
@@ -128,6 +132,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
+	* tahbelowar.spacing (U+FBC1): L<<143.0,-85.0>--<143.0,-99.0>> -> L<<143.0,-99.0>--<146.0,-150.0>>
+
 	* uni0616 (U+0616): L<<18.0,564.0>--<18.0,604.0>> -> L<<18.0,604.0>--<15.0,676.0>>
 
 	* uni0616 (U+0616): L<<18.0,604.0>--<15.0,676.0>> -> L<<15.0,676.0>--<8.0,773.0>>
@@ -144,11 +150,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 	* uni06D9 (U+06D9): L<<58.0,825.0>--<58.0,819.0>> -> L<<58.0,819.0>--<60.0,783.0>>
 
-	* uni06DB (U+06DB): L<<5.0,717.0>--<31.0,743.0>> -> L<<31.0,743.0>--<55.0,768.0>>
+	* uni06DB (U+06DB): L<<5.0,717.0>--<31.0,743.0>> -> L<<31.0,743.0>--<55.0,768.0>> 
 
-	* uniFBD4 (U+FBD4): L<<358.0,567.0>--<384.0,593.0>> -> L<<384.0,593.0>--<408.0,618.0>> 
-
-	* 22 more.
+	* 23 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -189,24 +193,30 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* h (U+0068): L<<252.0,309.0>--<253.0,118.0>> 
 
 	* sterling (U+00A3): L<<428.0,346.0>--<270.0,347.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoNaskhArabic-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] NotoNaskhArabic-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* Euro
 	* exclamdown
-	* uni0607
 	* uni0660.ccmp
 	* uni0661.ccmp
 	* uni0662.ccmp
 	* uni0663.ccmp
 	* uni0664.ccmp
 	* uni0665.ccmp
-	* uni0666.ccmp and 14 more.
+	* uni0666.ccmp
+	* uni0667.ccmp and 13 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -258,8 +268,6 @@ twodotshorizontalabovear.diagonal [code: legacy-long-names]
 
 	- twodotsverticalbelowar.001
 
-	- uni00A0
-
 	- uni0602.ccmp
 
 	- uni0697.fina 
@@ -306,6 +314,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
+	* tahbelowar.spacing (U+FBC1): L<<143.0,-91.0>--<143.0,-105.0>> -> L<<143.0,-105.0>--<146.0,-156.0>>
+
 	* uni0616 (U+0616): L<<20.0,567.0>--<20.0,604.0>> -> L<<20.0,604.0>--<17.0,675.0>>
 
 	* uni0616 (U+0616): L<<20.0,604.0>--<17.0,675.0>> -> L<<17.0,675.0>--<10.0,772.0>>
@@ -322,11 +332,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 	* uni06AD (U+FBD3): L<<250.0,539.0>--<274.0,563.0>> -> L<<274.0,563.0>--<296.0,586.0>>
 
-	* uni06DB (U+06DB): L<<8.0,722.0>--<32.0,746.0>> -> L<<32.0,746.0>--<54.0,769.0>>
+	* uni06DB (U+06DB): L<<8.0,722.0>--<32.0,746.0>> -> L<<32.0,746.0>--<54.0,769.0>> 
 
-	* uni08A0 (U+08A0): L<<278.0,-85.0>--<294.0,-81.0>> -> L<<294.0,-81.0>--<309.0,-78.0>> 
-
-	* 24 more.
+	* 25 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -353,24 +361,30 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni066D (U+066D): L<<21.0,283.0>--<156.0,282.0>> 
 
 	* uni066D (U+066D): L<<243.0,282.0>--<380.0,283.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoNaskhArabic-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoNaskhArabic-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* Euro
 	* exclamdown
-	* uni0607
 	* uni0660.ccmp
 	* uni0661.ccmp
 	* uni0662.ccmp
 	* uni0663.ccmp
 	* uni0664.ccmp
 	* uni0665.ccmp
-	* uni0666.ccmp and 10 more.
+	* uni0666.ccmp
+	* uni0667.ccmp and 9 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -415,8 +429,6 @@ twodotshorizontalabovear.diagonal [code: legacy-long-names]
 
 	- twodotsverticalbelowar.001
 
-	- uni00A0
-
 	- uni0602.ccmp
 
 	- uni0697.fina 
@@ -463,6 +475,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
+	* tahbelowar.spacing (U+FBC1): L<<143.0,-94.0>--<143.0,-108.0>> -> L<<143.0,-108.0>--<146.0,-159.0>>
+
 	* uni0616 (U+0616): L<<21.0,569.0>--<21.0,604.0>> -> L<<21.0,604.0>--<18.0,675.0>>
 
 	* uni0616 (U+0616): L<<21.0,604.0>--<18.0,675.0>> -> L<<18.0,675.0>--<11.0,772.0>>
@@ -479,11 +493,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 	* uni06AD (U+FBD3): L<<241.0,525.0>--<264.0,548.0>> -> L<<264.0,548.0>--<284.0,569.0>>
 
-	* uni06D9 (U+06D9): L<<60.0,827.0>--<61.0,819.0>> -> L<<61.0,819.0>--<63.0,765.0>>
+	* uni06D9 (U+06D9): L<<60.0,827.0>--<61.0,819.0>> -> L<<61.0,819.0>--<63.0,765.0>> 
 
-	* uni06DB (U+06DB): L<<10.0,725.0>--<33.0,748.0>> -> L<<33.0,748.0>--<53.0,769.0>> 
-
-	* 23 more.
+	* 24 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -500,7 +512,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uniFEFA (U+FEFA): B<<458.5,282.5>-<455.0,333.0>-<450.0,405.0>>/L<<450.0,405.0>--<447.0,378.0>> = 10.312687686660533 
 
 	* uniFEFC (U+FEFC): B<<458.5,282.5>-<455.0,333.0>-<450.0,405.0>>/L<<450.0,405.0>--<447.0,378.0>> = 10.312687686660533 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoNaskhArabic[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] NotoNaskhArabic[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check the OS/2 usWeightClass is appropriate for the font's best SubFamily name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -516,12 +532,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* exclamdown
-	* uni0607
 	* uni0660.ccmp
 	* uni0661.ccmp
 	* uni0662.ccmp
@@ -529,7 +550,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* uni0664.ccmp
 	* uni0665.ccmp
 	* uni0666.ccmp
-	* uni0667.ccmp and 8 more.
+	* uni0667.ccmp
+	* uni0668.ccmp and 7 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -578,8 +600,6 @@ twodotshorizontalabovear.diagonal [code: legacy-long-names]
 
 	- twodotsverticalbelowar.001
 
-	- uni00A0
-
 	- uni0602.ccmp
 
 	- uni0697.fina 
@@ -589,7 +609,7 @@ twodotshorizontalabovear.diagonal [code: legacy-long-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uni0602' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f402e79a1d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f402d4832d0> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uni0602' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f443a8b60d0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f443aaa9b10> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -612,8 +632,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: non-mark-char
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 8 | 46 | 438 | 26 | 391 | 0 |
-| 0% | 1% | 5% | 48% | 3% | 43% | 0% |
+| 4 | 12 | 46 | 443 | 26 | 402 | 0 |
+| 0% | 1% | 5% | 47% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
