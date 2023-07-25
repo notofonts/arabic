@@ -8,6 +8,46 @@ width = 221;
 {
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 width = 221;
+},
+{
+anchors = (
+{
+name = _tail;
+pos = (244,69);
+}
+);
+associatedMasterId = master01;
+layerId = "0F21020E-E63F-48DA-89FF-535451DC5B25";
+name = "26 Jul 23 at 02:06";
+shapes = (
+{
+closed = 1;
+nodes = (
+(248,-24,l),
+(248,4,o),
+(256,38,o),
+(268,76,c),
+(235,92,l),
+(172,60,o),
+(93,19,o),
+(80,4,cs),
+(71,-7,o),
+(70,-13,o),
+(68,-30,cs),
+(68,-41,o),
+(71,-51,o),
+(77,-61,c),
+(131,-32,o),
+(183,-3,o),
+(236,25,c)
+);
+},
+{
+pos = (135,0);
+ref = "alefMaksura-ar";
+}
+);
+width = 221;
 }
 );
 unicode = (32,160);

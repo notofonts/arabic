@@ -12,6 +12,10 @@ name = bottom.dot;
 pos = (294,-268);
 },
 {
+name = tail;
+pos = (107,65);
+},
+{
 name = top.digit;
 pos = (302,177);
 },
@@ -21,7 +25,7 @@ pos = (324,148);
 },
 {
 name = top.near;
-pos = (335,152);
+pos = (148,74);
 }
 );
 layerId = master01;
@@ -98,6 +102,10 @@ name = bottom.dot;
 pos = (308,-256);
 },
 {
+name = tail;
+pos = (104,65);
+},
+{
 name = top.digit;
 pos = (314,133);
 },
@@ -107,7 +115,7 @@ pos = (325,144);
 },
 {
 name = top.near;
-pos = (317,159);
+pos = (148,104);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";

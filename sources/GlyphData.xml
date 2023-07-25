@@ -3368,7 +3368,7 @@
       category="Letter"
       anchors="bottom, bottom.dot, top.far, top.near"
       sortName="arL0304"
-      decompose="yeh-farsi, twodotshorizontalabove-ar"
+      decompose="alefMaksura-ar, twodotshorizontalabove-ar"
   />
   <glyph
       name="yehThreedotsabove-farsi"
@@ -3378,7 +3378,7 @@
       category="Letter"
       anchors="bottom, bottom.dot, top.far, top.near"
       sortName="arL0305"
-      decompose="yeh-farsi, threedotsupabove-ar"
+      decompose="alefMaksura-ar, threedotsupabove-ar"
   />
   <glyph
       name="yeh-ar"
@@ -3456,7 +3456,7 @@
       category="Letter"
       anchors="bottom, bottom.dot, top.far, top.near"
       sortName="arL0312"
-      decompose="yeh-farsi, twoabove-ar"
+      decompose="alefMaksura-ar, twoabove-ar"
   />
   <glyph
       name="yehThreeabove-farsi"
@@ -3466,7 +3466,7 @@
       category="Letter"
       anchors="bottom, bottom.dot, top.far, top.near"
       sortName="arL0313"
-      decompose="yeh-farsi, threeabove-ar"
+      decompose="alefMaksura-ar, threeabove-ar"
   />
   <glyph
       name="yehFourbelow-farsi"
@@ -3476,7 +3476,7 @@
       category="Letter"
       anchors="bottom, bottom.dot, top.far, top.near"
       sortName="arL0314"
-      decompose="yeh-farsi, fourbelow-ar"
+      decompose="alefMaksura-ar, fourbelow-ar"
   />
   <glyph
       name="yehTwodotsbelowHamzaabove-ar"
@@ -3487,7 +3487,7 @@
       direction="RTL"
       anchors="bottom, bottom.dot, top.far, top.near"
       sortName="arL0315"
-      decompose="yeh-ar, hamzaabove-ar"
+      decompose="alefMaksura-ar, twodotshorizontalbelow-ar, hamzaabove-ar"
   />
   <glyph
       name="yehTwodotsbelowDotabove-ar"
@@ -3498,7 +3498,7 @@
       direction="RTL"
       anchors="bottom, bottom.dot, top.far, top.near"
       sortName="arL0316"
-      decompose="yeh-ar, dotabove-ar"
+      decompose="alefMaksura-ar, twodotshorizontalbelow-ar, dotabove-ar"
   />
   <glyph
       name="yehTwodotsbelowNoonabove-ar"
@@ -3508,7 +3508,7 @@
       category="Letter"
       direction="RTL"
       sortName="arL0317"
-      decompose="yeh-ar, noonabove-ar"
+      decompose="alefMaksura-ar, twodotshorizontalbelow-ar, noonabove-ar"
   />
   <glyph
       name="yehbarreeHamzaabove-ar"

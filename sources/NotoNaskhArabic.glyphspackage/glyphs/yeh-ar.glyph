@@ -2,24 +2,6 @@
 glyphname = "yeh-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (275,-466);
-},
-{
-name = bottom.dot;
-pos = (274,-268);
-},
-{
-name = top.dot;
-pos = (148,74);
-},
-{
-name = top.near;
-pos = (204,234);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -33,24 +15,6 @@ ref = "twodotshorizontalbelow-ar";
 width = 618;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (289,-454);
-},
-{
-name = bottom.dot;
-pos = (288,-256);
-},
-{
-name = top.dot;
-pos = (148,104);
-},
-{
-name = top.near;
-pos = (214,277);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {

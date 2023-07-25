@@ -1,5 +1,5 @@
 {
-.appVersion = "3207";
+.appVersion = "3208";
 .formatVersion = 3;
 axes = (
 {
@@ -374,7 +374,6 @@ lookup decomposition {
   sub alefMadda-ar by alef-ar madda-ar;
   sub alefWavyhamzaabove-ar by alef-ar wavyhamzaabove-ar;
   sub alefWavyhamzabelow-ar by alef-ar wavyhamzabelow-ar;
-  sub highhamzaAlef-ar by highhamza-ar alef-ar;
   sub alefWasla-ar by alef-ar wasla-ar;
   sub alefTwoabove-ar by alef-ar.short twoabove-ar;
   sub alefThreeabove-ar by alef-ar.short threeabove-ar;
@@ -518,27 +517,36 @@ lookup decomposition {
   # Waw family
   sub wawDotabove-ar by waw-ar dotabove-ar;
   sub wawTwodots-ar by waw-ar twodotshorizontalabove-ar;
-  sub highhamzaWaw-ar by highhamza-ar waw-ar;
-  sub uHamzaabove-ar by highhamza-ar u-ar;
   sub wawTwoabove-ar by waw-ar twoabove-ar;
   sub wawThreeabove-ar by waw-ar threeabove-ar;
 
   # Yeh family
   sub yeh-ar by alefMaksura-ar twodotshorizontalbelow-ar;
-  sub highhamzaYeh-ar by highhamza-ar alefMaksura-ar;
-  sub yehTwoabove-farsi by yeh-farsi twoabove-ar;
-  sub yehThreeabove-farsi by yeh-farsi threeabove-ar;
-  sub yehFourbelow-farsi by alefMaksura-ar fourbelow-ar;
-  sub yehTwodotsbelowHamzaabove-ar by yeh-ar hamzaabove-ar;
-  sub yehTwodotsbelowDotabove-ar by yeh-ar dotabove-ar;
+  sub yehHamzaabove-ar by alefMaksura-ar hamzaabove-ar;
+  sub yehKashmiri-ar by alefMaksura-ar ring-ar;
+  sub yehVabove-ar by yeh-farsi vabove-ar.near;
   sub yehVinverted-farsi by yeh-farsi vinvertedabove-ar;
   sub yehTwodotsabove-farsi by yeh-farsi twodotshorizontalabove-ar;
   sub yehThreedotsabove-farsi by yeh-farsi threedotsupabove-ar;
+  sub yehTwoabove-farsi by yeh-farsi twoabove-ar;
+  sub yehThreeabove-farsi by yeh-farsi threeabove-ar;
+  sub yehFourbelow-farsi by alefMaksura-ar fourbelow-ar;
+  sub e-ar by alefMaksura-ar twodotsverticalbelow-ar;
+  sub yehThreedotsbelow-ar by alefMaksura-ar threedotsdownbelow-ar;
+  sub yehTwodotsbelowHamzaabove-ar by alefMaksura-ar twodotshorizontalbelow-ar hamzaabove-ar;
+  sub yehTwodotsbelowDotabove-ar by alefMaksura-ar twodotshorizontalbelow-ar dotabove-ar;
+  sub yehTail-ar by alefMaksura-ar tail-ar;
 
   # Bari Ye family
   sub yehbarreeHamzaabove-ar by yehbarree-ar hamzaabove-ar;
   sub yehbarreeThreeabove-ar by yehbarree-ar threeabove-ar;
   sub yehbarreeTwoabove-ar by yehbarree-ar twoabove-ar;
+
+  # High hamza
+  sub highhamzaAlef-ar by highhamza-ar alef-ar;
+  sub highhamzaWaw-ar by highhamza-ar waw-ar;
+  sub uHamzaabove-ar by highhamza-ar u-ar;
+  sub highhamzaYeh-ar by highhamza-ar alefMaksura-ar;
 } decomposition;
 ";
 tag = ccmp;
@@ -599,12 +607,7 @@ sub tah-ar by tah-ar.init;
 sub tcheh-ar by tcheh-ar.init;
 sub tcheheh-ar by tcheheh-ar.init;
 sub veh-ar by veh-ar.init;
-sub yeh-ar by yeh-ar.init;
 sub yeh-farsi by behDotless-ar.init twodotshorizontalbelow-ar;
-sub yehHamzaabove-ar by yehHamzaabove-ar.init;
-sub yehKashmiri-ar by yehKashmiri-ar.init;
-sub yehThreedotsbelow-ar by behDotless-ar.init threedotsdownbelow-ar;
-sub yehVabove-ar by yeh-ar.init vabove-ar.near;
 sub yehbarree-ar by behDotless-ar.init twodotshorizontalbelow-ar;
 sub zah-ar by zah-ar.init;
 
@@ -670,14 +673,7 @@ sub tah-ar by tah-ar.medi;
 sub tcheh-ar by tcheh-ar.medi;
 sub tcheheh-ar by tcheheh-ar.medi;
 sub veh-ar by veh-ar.medi;
-sub yeh-ar by yeh-ar.medi;
 sub yeh-farsi by behDotless-ar.medi twodotshorizontalbelow-ar;
-sub yehHamzaabove-ar by yehHamzaabove-ar.medi;
-sub yehHamzaabove_meem-ar by yehHamzaabove_meem-ar.medi;
-sub yehKashmiri-ar by yehKashmiri-ar.medi;
-sub yehThreedotsbelow-ar by behDotless-ar.medi threedotsdownbelow-ar;
-sub yehVabove-ar by yeh-ar.medi vabove-ar.near;
-sub yehbarree-ar by behDotless-ar.medi twodotshorizontalbelow-ar;
 sub zah-ar by zah-ar.medi;
 
 sub fourcenter-ar by fourbelow-ar;
@@ -775,16 +771,9 @@ sub waw-ar by waw-ar.fina;
 sub wawDotcenter-ar by wawDotcenter-ar.fina;
 sub wawHamzaabove-ar by wawHamzaabove-ar.fina;
 sub wawring-ar by wawring-ar.fina;
-sub yeh-ar by yeh-ar.fina;
 sub yeh-farsi by alefMaksura-ar.fina;
 sub yehbarree-ar by yehbarree-ar.fina;
 sub yehbarreeHamzaabove-ar by yehbarreeHamzaabove-ar.fina;
-sub yehFourbelow-farsi by yehFourbelow-farsi.fina;
-sub yehHamzaabove-ar by yehHamzaabove-ar.fina;
-sub yehKashmiri-ar by yehKashmiri-ar.fina;
-sub yehTail-ar by yehTail-ar.fina;
-sub yehVabove-ar by alefMaksura-ar.fina vabove-ar.near;
-sub yehThreedotsbelow-ar by alefMaksura-ar.fina threedotsdownbelow-ar;
 sub yu-ar by yu-ar.fina;
 sub zah-ar by zah-ar.fina;
 sub zain-ar by zain-ar.fina;
@@ -998,6 +987,7 @@ numberValues = (
 1300,
 0
 );
+visible = 1;
 },
 {
 axesValues = (
