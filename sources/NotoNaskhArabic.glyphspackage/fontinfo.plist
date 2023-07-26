@@ -176,7 +176,7 @@ name = tonemarks;
 },
 {
 code = "twodotshorizontalabove-ar
-twodotstahabove-ar
+twodotshorizontalabove_tahabove-ar
 threedotsupabove-ar
 threedotsdownabove-ar
 fourdotsabove-ar
@@ -201,7 +201,7 @@ name = widemarks;
 {
 code = "dotcenter-ar
 twodotshorizontalcenter-ar
-twodotstahcenter-ar
+twodotshorizontalcenter_tahabove-ar
 twodotsverticalcenter-ar
 threedotsupcenter-ar
 threedotsdowncenter-ar
@@ -214,7 +214,7 @@ name = dotcenter;
 {
 code = "dotbelow-ar
 twodotshorizontalbelow-ar
-twodotstahbelow-ar
+twodotshorizontalbelow_tahabove-ar
 twodotsverticalbelow-ar
 threedotsupbelow-ar
 threedotsdownbelow-ar
@@ -447,7 +447,7 @@ lookup decomposition {
   sub dyeh-ar by hah-ar twodotsverticalcenter-ar;
   sub hahThreedotsupbelow-ar by hah-ar threedotsupcenter-ar;
   sub hahTahbelow-ar by hah-ar tahcenter-ar;
-  sub hahTahTwodotshorizontalbelow-ar by hah-ar twodotstahcenter-ar;
+  sub hahTahTwodotshorizontalbelow-ar by hah-ar twodotshorizontalcenter_tahabove-ar;
   sub hahFourbelow-ar by hah-ar fourcenter-ar;
   sub jeemTwodotsabove-ar by hah-ar dotcenter-ar twodotshorizontalabove-ar;
   sub jeemThreedotsabove-ar by hah-ar dotcenter-ar threedotsupabove-ar;
@@ -479,7 +479,7 @@ lookup decomposition {
   sub seenDotbelowDotabove-ar by seen-ar dotbelow-ar dotabove-ar;
   sub seenThreedotsbelow-ar by seen-ar threedotsdownbelow-ar;
   sub seenVinvertedabove-ar by seen-ar vinvertedabove-ar;
-  sub seenTahTwodotshorizontalabove-ar by seen-ar twodotstahabove-ar;
+  sub seenTahTwodotshorizontalabove-ar by seen-ar twodotshorizontalabove_tahabove-ar;
   sub seenTwodotsverticalabove-ar by seen-ar twodotsverticalabove-ar;
   sub seenFourabove-ar by seen-ar fourabove-ar;
 
@@ -547,7 +547,7 @@ lookup decomposition {
 
   # Noon family
   sub noonTahabove-ar by noon-ar tahabove-ar;
-  sub noonVabove-ar by noonghunna-ar dotinsidevabove-ar;
+  sub noonVabove-ar by noonghunna-ar dotabove_vabove-ar;
   sub noonVinvertedabove-ar by noonghunna-ar vinvertedabove-ar;
 
   # Heh family
