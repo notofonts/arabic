@@ -503,18 +503,21 @@ lookup decomposition {
   sub ghainThreedotsabove-ar by ghain-ar threedotsupabove-ar;
 
   # Qaf/Fe family
-  sub qafThreedotsabove-ar by qafDotless-ar threedotsupabove-ar;
-  sub qafDotabove-ar by qafDotless-ar dotabove-ar;
-  sub fehDotbelow-ar by feh-ar dotbelow-ar;
+  sub feh-ar by fehDotless-ar dotabove-ar;
+  sub veh-ar by fehDotless-ar threedotsupabove-ar;
+  sub fehDotmovedbelow-ar by fehDotless-ar dotbelow-ar;
+  sub fehDotbelow-ar by fehDotless-ar dotabove-ar dotbelow-ar;
   sub fehThreedotsbelow-ar by fehDotless-ar threedotsdownbelow-ar;
-  sub fehDotbelowThreedotsabove-ar by fehDotless-ar dotbelow-ar threedotsupabove-ar;
+  sub peheh-ar by fehDotless-ar fourdotsabove-ar;
   sub fehTwodotsbelow-ar by fehDotless-ar twodotshorizontalbelow-ar;
   sub fehThreedotsupbelow-ar by fehDotless-ar threedotsupbelow-ar;
-  sub fehDotmovedbelow-ar by fehDotless-ar dotbelow-ar;
-  sub qafDotbelow-ar by qaf-ar dotbelow-ar;
-  sub qafThreedotsaboveAfrican-ar by qafAfrican-ar threedotsupabove-ar;
+  sub fehDotbelowThreedotsabove-ar by fehDotless-ar threedotsupabove-ar dotbelow-ar;
+
+  sub qaf-ar by qafDotless-ar twodotshorizontalabove-ar;
+  sub qafDotabove-ar by qafDotless-ar dotabove-ar;
+  sub qafThreedotsabove-ar by qafDotless-ar threedotsupabove-ar;
+  sub qafDotbelow-ar by qafDotless-ar twodotshorizontalabove-ar dotbelow-ar;
   sub qafDotbelowNoDotAbove-ar by qafDotless-ar dotbelow-ar;
-  sub lamTahabove-ar by lam-ar tahabove-ar;
 
   # Kaf family
   sub kehehDotabove-ar by keheh-ar dotabove-ar.small;
@@ -539,6 +542,7 @@ lookup decomposition {
   sub lamVabove-ar by lam-ar smallvabove-ar;
   sub lamBar-ar by lam-ar bar-ar;
   sub lamDoublebar-ar by lam-ar doubleBar-ar;
+  sub lamTahabove-ar by lam-ar tahabove-ar;
 
   # Meem family
   sub meemDotabove-ar by meem-ar dotabove-ar;
@@ -597,7 +601,10 @@ lookup decomposition {
 tag = ccmp;
 },
 {
-code = "sub noonThreedotsabove-ar by noonghunna-ar threedotsupabove-ar;
+code = "sub fehAfrican-ar by fehDotless-ar;
+sub qafAfrican-ar by qafDotless-ar;
+sub qafThreedotsaboveAfrican-ar by qafDotless-ar threedotsupabove-ar;
+sub noonThreedotsabove-ar by noonghunna-ar threedotsupabove-ar;
 sub noonAfrican-ar by noonghunna-ar;
 sub yeh-farsi by alefMaksura-ar;
 ";
@@ -611,9 +618,11 @@ sub behDotless-ar by behDotless-ar.init;
 sub dad-ar by dad-ar.init;
 sub dyeh-ar by dyeh-ar.init;
 sub e-ar by e-ar.init;
-sub feh-ar by feh-ar.init;
-sub fehAfrican-ar by fehDotless-ar.init dotbelow-ar;
 sub fehDotless-ar by fehDotless-ar.init;
+sub fehAfrican-ar by fehDotless-ar.init dotbelow-ar;
+sub qafDotless-ar by fehDotless-ar.init;
+sub qafAfrican-ar by fehDotless-ar.init dotabove-ar;
+sub qafThreedotsaboveAfrican-ar by fehDotless-ar.init dotabove_threedotsupabove-ar;
 sub gaf-ar by gaf-ar.init;
 sub ghain-ar by ghain-ar.init;
 sub ghainDotbelow-ar by ghain-ar.init dotbelow-ar;
@@ -634,9 +643,6 @@ sub noonghunna-ar by noonghunna-ar.init;
 sub noonThreedotsabove-ar by behDotless-ar.init threedotsdownbelow-ar;
 sub noonAfrican-ar by behDotless-ar.init dotabove-ar;
 sub nyeh-ar by nyeh-ar.init;
-sub qaf-ar by qaf-ar.init;
-sub qafAfrican-ar by feh-ar.init;
-sub qafDotless-ar by qafDotless-ar.init;
 sub sad-ar by sad-ar.init;
 sub seen-ar by seen-ar.init;
 sub sheen-ar by sheen-ar.init;
@@ -661,9 +667,11 @@ sub dyeh-ar by dyeh-ar.medi;
 sub e-ar by e-ar.medi;
 sub fatha-ar by fatha-ar.medi;
 sub fathatan-ar by fathatan-ar.medi;
-sub feh-ar by feh-ar.medi;
-sub fehAfrican-ar by fehDotless-ar.medi dotbelow-ar;
 sub fehDotless-ar by fehDotless-ar.medi;
+sub fehAfrican-ar by fehDotless-ar.medi dotbelow-ar;
+sub qafDotless-ar by fehDotless-ar.medi;
+sub qafAfrican-ar by fehDotless-ar.medi dotabove-ar;
+sub qafThreedotsaboveAfrican-ar by fehDotless-ar.medi dotabove_threedotsupabove-ar;
 sub gaf-ar by gaf-ar.medi;
 sub ghain-ar by ghain-ar.medi;
 sub ghainDotbelow-ar by ghain-ar.medi dotbelow-ar;
@@ -685,10 +693,6 @@ sub noonghunna-ar by noonghunna-ar.medi;
 sub noonThreedotsabove-ar by behDotless-ar.medi threedotsdownbelow-ar;
 sub noonAfrican-ar by behDotless-ar.medi dotabove-ar;
 sub nyeh-ar by nyeh-ar.medi;
-sub peheh-ar by peheh-ar.medi;
-sub qaf-ar by qaf-ar.medi;
-sub qafAfrican-ar by feh-ar.medi;
-sub qafDotless-ar by qafDotless-ar.medi;
 sub sad-ar by sad-ar.medi;
 sub seen-ar by seen-ar.medi; # dotabovespacer-ar;
 sub shadda-ar by shadda-ar.medi;
@@ -724,9 +728,11 @@ sub ddal-ar by ddal-ar.fina;
 sub dul-ar by dul-ar.fina;
 sub dyeh-ar by dyeh-ar.fina;
 sub e-ar by e-ar.fina;
-sub feh-ar by feh-ar.fina;
-sub fehAfrican-ar by fehDotless-ar.fina;
 sub fehDotless-ar by fehDotless-ar.fina;
+sub fehAfrican-ar by fehDotless-ar.fina;
+sub qafDotless-ar by qafDotless-ar.fina;
+sub qafAfrican-ar by qafDotless-ar.fina;
+sub qafThreedotsaboveAfrican-ar by qafDotless-ar.fina threedotsupabove-ar;
 sub gaf-ar by gaf-ar.fina;
 sub ghain-ar by ghain-ar.fina;
 sub ghainDotbelow-ar by ghain-ar.fina dotcenter-ar;
@@ -751,12 +757,6 @@ sub noonAfrican-ar by noonghunna-ar.fina;
 sub noonThreedotsabove-ar by noonghunna-ar.fina threedotsupabove-ar;
 sub nyeh-ar by nyeh-ar.fina;
 sub oe-ar by oe-ar.fina;
-sub peheh-ar by peheh-ar.fina;
-sub qaf-ar by qaf-ar.fina;
-sub qafAfrican-ar by qafDotless-ar.fina;
-sub qafDotabove-ar by qafDotabove-ar.fina;
-sub qafDotless-ar by qafDotless-ar.fina;
-sub qafThreedotsabove-ar by qafThreedotsabove-ar.fina;
 sub reh-ar by reh-ar.fina;
 sub rehDotbelow-ar by rehDotbelow-ar.fina;
 sub rehDotbelowdotabove-ar by rehDotbelowdotabove-ar.fina;

@@ -1,5 +1,5 @@
 {
-glyphname = "dotabove_tahabove-ar";
+glyphname = "dotabove_threedotsupabove-ar";
 layers = (
 {
 anchors = (
@@ -9,11 +9,11 @@ pos = (203,268);
 },
 {
 name = top.far;
-pos = (180,714);
+pos = (196,624);
 },
 {
 name = top.near;
-pos = (180,714);
+pos = (196,624);
 }
 );
 layerId = master01;
@@ -24,8 +24,9 @@ ref = "dotabove-ar";
 },
 {
 alignment = -1;
-pos = (22,-251);
-ref = "tahabove-ar";
+pos = (-2,132);
+ref = "threedotsupabove-ar";
+scale = (0.9,0.9);
 }
 );
 width = 425;
@@ -38,11 +39,11 @@ pos = (203,302);
 },
 {
 name = top.far;
-pos = (187,771);
+pos = (194,691);
 },
 {
 name = top.near;
-pos = (187,771);
+pos = (194,691);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
@@ -53,8 +54,9 @@ ref = "dotabove-ar";
 },
 {
 alignment = -1;
-pos = (14,-205);
-ref = "tahabove-ar";
+pos = (14,137);
+ref = "threedotsupabove-ar";
+scale = (0.9,0.9);
 }
 );
 width = 425;

@@ -2,28 +2,10 @@
 glyphname = "veh-ar.medi";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (198,-100);
-},
-{
-name = bottom.dot;
-pos = (197,-31);
-},
-{
-name = top.far;
-pos = (201,634);
-},
-{
-name = top.near;
-pos = (201,634);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "qafDotless-ar.medi";
+ref = "fehDotless-ar.medi";
 },
 {
 pos = (-15,91);
@@ -33,28 +15,10 @@ ref = "threedotsupabove-ar";
 width = 387;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (214,-110);
-},
-{
-name = bottom.dot;
-pos = (212,-38);
-},
-{
-name = top.far;
-pos = (223,695);
-},
-{
-name = top.near;
-pos = (223,695);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-ref = "qafDotless-ar.medi";
+ref = "fehDotless-ar.medi";
 },
 {
 pos = (25,87);
