@@ -222,6 +222,17 @@ fourbelow-ar
 tahbelow-ar
 ";
 name = dotcenter.below;
+},
+{
+code = "twodotshorizontalabove-ar.diagonal
+threedotsupabove-ar.diagonal";
+name = dotdiagonal;
+},
+{
+code = "twodotshorizontalabove-ar.small
+threedotsupabove-ar.small
+";
+name = dotdiagonal.small;
 }
 );
 customParameters = (
@@ -529,20 +540,24 @@ lookup decomposition {
   sub qafDotbelowNoDotAbove-ar by qafDotless-ar dotbelow-ar;
 
   # Kaf family
+  sub kafThreedotsbelow-ar by kaf-ar threedotsdownbelow-ar;
+  sub ng-ar by kaf-ar threedotsupabove-ar.diagonal;
+  sub kafDotabove-ar by kaf-ar dotabove-ar;
+  sub kafTwodotshorizontalabove-ar by kaf-ar twodotshorizontalabove-ar.diagonal;
+  sub kafDotbelow-ar by kaf-ar dotbelow-ar;
+  sub kafRing-ar by keheh-ar ringcenter-ar;
   sub kehehDotabove-ar by keheh-ar dotabove-ar.small;
   sub kehehTwodotshorizontalabove-ar by keheh-ar twodotshorizontalabove-ar.diagonal;
-  sub kehehTwodotsverticalbelow-ar by keheh-ar twodotsverticalbelow-ar;
   sub kehehThreedotsabove-ar by keheh-ar threedotsupabove-ar.diagonal;
-  sub kehehThreedotsbelow-ar by keheh-ar threedotsdownbelow-ar;
   sub kehehThreedotsupbelow-ar by keheh-ar threedotsupbelow-ar;
-  sub gafThreedots-ar by gaf-ar threedotsupabove-ar.diagonal;
-  sub kafThreedotsbelow-ar by kaf-ar threedotsdownbelow-ar;
-  sub gafRing-ar by gaf-ar ring-ar;
-  sub kafRing-ar by keheh-ar ring-ar;
-  sub gafTwodotsbelow-ar by gaf-ar twodotshorizontalbelow-ar;
-  sub kafDotabove-ar by kaf-ar dotabove-ar;
-  sub kafDotbelow-ar by kaf-ar dotbelow-ar;
+  sub kehehThreedotsbelow-ar by keheh-ar threedotsdownbelow-ar;
   sub kehehVabove-ar by keheh-ar vabove-ar;
+  sub kehehTwodotsverticalbelow-ar by keheh-ar twodotsverticalbelow-ar;
+  sub gafRing-ar by gaf-ar ringcenter-ar;
+  sub gafThreedots-ar by gaf-ar threedotsupabove-ar.diagonal;
+  sub gafTwodotsbelow-ar by gaf-ar twodotshorizontalbelow-ar;
+  sub ngoeh-ar by gaf-ar twodotshorizontalabove-ar.diagonal;
+  sub gueh-ar by gaf-ar twodotsverticalbelow-ar;
 
   # Lam family
   sub lamDotabove-ar by lam-ar dotabove-ar;
@@ -622,6 +637,8 @@ tag = ccmp;
 code = "sub fehAfrican-ar by fehDotless-ar;
 sub qafAfrican-ar by qafDotless-ar;
 sub qafThreedotsaboveAfrican-ar by qafDotless-ar threedotsupabove-ar;
+sub kaf-ar by kafDotless-ar miniKeheh-ar;
+sub gaf-ar by keheh-ar gafsarkashabove-ar;
 sub noonThreedotsabove-ar by noonghunna-ar threedotsupabove-ar;
 sub noonAfrican-ar by noonghunna-ar;
 sub yeh-farsi by alefMaksura-ar;
@@ -641,22 +658,19 @@ sub fehAfrican-ar by fehDotless-ar.init dotbelow-ar;
 sub qafDotless-ar by fehDotless-ar.init;
 sub qafAfrican-ar by fehDotless-ar.init dotabove-ar;
 sub qafThreedotsaboveAfrican-ar by fehDotless-ar.init dotabove_threedotsupabove-ar;
-sub gaf-ar by gaf-ar.init;
 sub ghain-ar by ghain-ar.init;
 sub ghainDotbelow-ar by ghain-ar.init dotbelow-ar;
-sub gueh-ar by gueh-ar.init;
 sub hah-ar by hah-ar.init;
 sub heh-ar by heh-ar.init;
 sub hehDoachashmee-ar by hehDoachashmee-ar.init;
 sub hehgoal-ar by hehgoal-ar.init;
+sub kaf-ar by kaf-ar.init;
 sub kafswash-ar by kafswash-ar.init;
-sub kafTwodotshorizontalabove-ar by kafTwodotshorizontalabove-ar.init;
-sub keheh-ar by keheh-ar.init;
+sub keheh-ar by kaf-ar.init;
+sub gaf-ar by kaf-ar.init gafsarkashabove-ar;
 sub khah-ar by khah-ar.init;
 sub lam-ar by lam-ar.init;
 sub meem-ar by meem-ar.init;
-sub ng-ar by ng-ar.init;
-sub ngoeh-ar by ngoeh-ar.init;
 sub noonghunna-ar by noonghunna-ar.init;
 sub noonThreedotsabove-ar by behDotless-ar.init threedotsdownbelow-ar;
 sub noonAfrican-ar by behDotless-ar.init dotabove-ar;
@@ -690,23 +704,19 @@ sub fehAfrican-ar by fehDotless-ar.medi dotbelow-ar;
 sub qafDotless-ar by fehDotless-ar.medi;
 sub qafAfrican-ar by fehDotless-ar.medi dotabove-ar;
 sub qafThreedotsaboveAfrican-ar by fehDotless-ar.medi dotabove_threedotsupabove-ar;
-sub gaf-ar by gaf-ar.medi;
 sub ghain-ar by ghain-ar.medi;
 sub ghainDotbelow-ar by ghain-ar.medi dotbelow-ar;
-sub gueh-ar by gueh-ar.medi;
 sub hah-ar by hah-ar.medi;
 sub heh-ar by heh-ar.medi;
 sub hehDoachashmee-ar by hehDoachashmee-ar.medi;
 sub hehgoal-ar by hehgoal-ar.medi;
 sub kaf-ar by kaf-ar.medi;
 sub kafswash-ar by kafswash-ar.medi;
-sub kafTwodotshorizontalabove-ar by kafTwodotshorizontalabove-ar.medi;
 sub kasra-ar by kasra-ar.medi;
-sub keheh-ar by keheh-ar.medi;
+sub keheh-ar by kaf-ar.medi;
+sub gaf-ar by kaf-ar.medi gafsarkashabove-ar.wide;
 sub lam-ar by lam-ar.medi;
 sub meem-ar by meem-ar.medi;
-sub ng-ar by ng-ar.medi;
-sub ngoeh-ar by ngoeh-ar.medi;
 sub noonghunna-ar by noonghunna-ar.medi;
 sub noonThreedotsabove-ar by behDotless-ar.medi threedotsdownbelow-ar;
 sub noonAfrican-ar by behDotless-ar.medi dotabove-ar;
@@ -751,24 +761,21 @@ sub fehAfrican-ar by fehDotless-ar.fina;
 sub qafDotless-ar by qafDotless-ar.fina;
 sub qafAfrican-ar by qafDotless-ar.fina;
 sub qafThreedotsaboveAfrican-ar by qafDotless-ar.fina threedotsupabove-ar;
-sub gaf-ar by gaf-ar.fina;
 sub ghain-ar by ghain-ar.fina;
 sub ghainDotbelow-ar by ghain-ar.fina dotcenter-ar;
-sub gueh-ar by gueh-ar.fina;
 sub hah-ar by hah-ar.fina;
 sub heh-ar by heh-ar.fina;
 sub hehDoachashmee-ar by hehDoachashmee-ar.fina;
 sub hehgoal-ar by hehgoal-ar.fina;
 sub hehHamzaabove-ar by hehHamzaabove-ar.fina;
-sub kaf-ar by kaf-ar.fina;
+sub kaf-ar by kafDotless-ar.fina miniKeheh-ar;
 sub kafswash-ar by kafswash-ar.fina;
 sub kafTwodotshorizontalabove-ar by kafTwodotshorizontalabove-ar.fina;
 sub keheh-ar by keheh-ar.fina;
+sub gaf-ar by keheh-ar.fina gafsarkashabove-ar.wide;
 sub kirghizoe-ar by kirghizoe-ar.fina;
 sub lam-ar by lam-ar.fina;
 sub meem-ar by meem-ar.fina;
-sub ng-ar by ng-ar.fina;
-sub ngoeh-ar by ngoeh-ar.fina;
 sub noonghunna-ar by noonghunna-ar.fina;
 sub noonAfrican-ar by noonghunna-ar.fina;
 sub noonThreedotsabove-ar by noonghunna-ar.fina threedotsupabove-ar;
@@ -802,6 +809,15 @@ code = "lookup wide_beh {
   ;
 } wide_beh;
 
+lookup kaf_dots {
+  lookupflag 0;
+  sub  miniKeheh-ar
+       @dotdiagonal'
+   by  @dotdiagonal.small
+  ;
+} kaf_dots;
+
+lookupflag 0;
 sub lam-ar [bar-ar doubleBar-ar]' by [bar-ar.wide doubleBar-ar.wide];
 sub lam-ar.init highhamza-ar' alef-ar.fina by hamzaabove-ar;
 

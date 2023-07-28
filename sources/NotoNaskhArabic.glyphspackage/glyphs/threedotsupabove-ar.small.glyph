@@ -1,0 +1,39 @@
+{
+glyphname = "threedotsupabove-ar.small";
+layers = (
+{
+anchors = (
+{
+name = _top.near;
+pos = (94,681);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (95,0);
+ref = "threedotsabove-ar";
+}
+);
+width = 188;
+},
+{
+anchors = (
+{
+name = _top.near;
+pos = (99,671);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+pos = (100,0);
+ref = "threedotsabove-ar";
+}
+);
+width = 202;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+}

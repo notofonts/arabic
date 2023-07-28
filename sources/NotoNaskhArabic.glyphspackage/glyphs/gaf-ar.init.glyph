@@ -2,75 +2,27 @@
 glyphname = "gaf-ar.init";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (198,-100);
-},
-{
-name = bottom.dot;
-pos = (197,-31);
-},
-{
-name = ring;
-pos = (263,546);
-},
-{
-name = top.far;
-pos = (83,705);
-},
-{
-name = top.near;
-pos = (83,705);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = "kaf-ar.init";
 },
 {
-alignment = -1;
-pos = (171,-82);
-ref = "sarkash-ar";
+pos = (-28,-82);
+ref = "gafsarkashabove-ar";
 }
 );
 width = 415;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (214,-110);
-},
-{
-name = bottom.dot;
-pos = (212,-38);
-},
-{
-name = ring;
-pos = (272,536);
-},
-{
-name = top.far;
-pos = (83,705);
-},
-{
-name = top.near;
-pos = (83,705);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = -1;
 ref = "kaf-ar.init";
 },
 {
-alignment = -1;
-pos = (228,1);
-ref = "sarkash-ar";
+pos = (29,-2);
+ref = "gafsarkashabove-ar";
 }
 );
 width = 443;

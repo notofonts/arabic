@@ -2,24 +2,6 @@
 glyphname = "kehehThreedotsupbelow-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (460,-282);
-},
-{
-name = bottom.dot;
-pos = (450,-31);
-},
-{
-name = top.far;
-pos = (355,575);
-},
-{
-name = top.near;
-pos = (355,575);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -33,24 +15,6 @@ ref = "threedotsupbelow-ar";
 width = 722;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (454,-286);
-},
-{
-name = bottom.dot;
-pos = (442,-38);
-},
-{
-name = top.far;
-pos = (355,602);
-},
-{
-name = top.near;
-pos = (355,602);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {

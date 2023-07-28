@@ -2,24 +2,6 @@
 glyphname = "ng-ar.fina";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (366,-100);
-},
-{
-name = bottom.dot;
-pos = (366,-31);
-},
-{
-name = top.far;
-pos = (358,630);
-},
-{
-name = top.near;
-pos = (358,630);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -33,24 +15,6 @@ ref = "threedotsabove-ar";
 width = 736;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (355,-110);
-},
-{
-name = bottom.dot;
-pos = (355,-38);
-},
-{
-name = top.far;
-pos = (353,660);
-},
-{
-name = top.near;
-pos = (353,660);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
