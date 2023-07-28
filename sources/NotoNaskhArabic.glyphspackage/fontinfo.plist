@@ -181,7 +181,6 @@ threedotsupabove-ar
 threedotsdownabove-ar
 fourdotsabove-ar
 #vabove-ar
-#vabove-ar.near
 #vinvertedabove-ar
 twoabove-ar
 threeabove-ar
@@ -414,7 +413,7 @@ lookup decomposition {
   sub tehVabove-ar by behDotless-ar twodotshorizontalabove-ar vabove-ar;
   sub theh-ar by behDotless-ar threedotsupabove-ar;
   sub peh-ar by behDotless-ar threedotsdownbelow-ar;
-  sub pehVabove-ar by behDotless-ar vabove-ar.near threedotsdownbelow-ar;
+  sub pehVabove-ar by behDotless-ar vabove-ar threedotsdownbelow-ar;
   sub beeh-ar by behDotless-ar twodotsverticalbelow-ar;
   sub beheh-ar by behDotless-ar fourdotsbelow-ar;
   sub tehThreedotsdown-ar by behDotless-ar threedotsdownabove-ar;
@@ -428,7 +427,7 @@ lookup decomposition {
   sub tehThreedotsupbelow-ar by behDotless-ar twodotshorizontalabove-ar threedotsupbelow-ar;
   sub behTwodotsbelowDotabove-ar by behDotless-ar dotabove-ar twodotshorizontalbelow-ar;
   sub behVinvertedbelow-ar by behDotless-ar vinvertedbelow-ar;
-  sub behVabove-ar by behDotless-ar vabove-ar.near;
+  sub behVabove-ar by behDotless-ar vabove-ar;
   sub behVbelow-ar by behDotless-ar vbelow-ar;
   sub behhamzaabove-ar by behDotless-ar hamzaabove-ar dotbelow-ar;
   sub tehRing-ar by behDotless-ar twodotshorizontalabove-ar ringbelow-ar;
@@ -452,7 +451,7 @@ lookup decomposition {
   sub jeemTwodotsabove-ar by hah-ar dotcenter-ar twodotshorizontalabove-ar;
   sub jeemThreedotsabove-ar by hah-ar dotcenter-ar threedotsupabove-ar;
   sub tchehDotabove-ar by hah-ar threedotsdowncenter-ar dotabove-ar;
-  sub tchehVabove-ar by hah-ar threedotsdowncenter-ar vabove-ar.near;
+  sub tchehVabove-ar by hah-ar threedotsdowncenter-ar vabove-ar;
 
   # Dal family
   sub dalDotbelow-ar by dal-ar dotbelow-ar;
@@ -468,7 +467,7 @@ lookup decomposition {
   sub zain-ar by reh-ar dotabove-ar;
   sub jeh-ar by reh-ar threedotsupabove-ar;
   sub rreh-ar by reh-ar tahabove-ar;
-  sub rehv-ar by reh-ar vabove-ar.near;
+  sub rehv-ar by reh-ar vabove-ar;
   sub rehRing-ar by reh-ar ringbelow-ar;
   sub rehDotbelow-ar by reh-ar dotbelow-ar;
   sub rehVbelow-ar by reh-ar vbelow-ar;
@@ -583,7 +582,7 @@ lookup decomposition {
   sub yeh-ar by alefMaksura-ar twodotshorizontalbelow-ar;
   sub yehHamzaabove-ar by alefMaksura-ar hamzaabove-ar;
   sub yehKashmiri-ar by alefMaksura-ar ring-ar;
-  sub yehVabove-ar by yeh-farsi vabove-ar.near;
+  sub yehVabove-ar by yeh-farsi vabove-ar;
   sub yehVinverted-farsi by yeh-farsi vinvertedabove-ar;
   sub yehTwodotsabove-farsi by yeh-farsi twodotshorizontalabove-ar;
   sub yehThreedotsabove-farsi by yeh-farsi threedotsupabove-ar;
