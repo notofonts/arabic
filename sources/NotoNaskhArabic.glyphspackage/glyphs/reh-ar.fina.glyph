@@ -4,6 +4,10 @@ layers = (
 {
 anchors = (
 {
+name = bar;
+pos = (229,-25);
+},
+{
 name = bottom;
 pos = (116,-258);
 },
@@ -13,7 +17,11 @@ pos = (116,-212);
 },
 {
 name = center;
-pos = (185,81);
+pos = (139,95);
+},
+{
+name = ring;
+pos = (204,-146);
 },
 {
 name = top.far;
@@ -81,6 +89,10 @@ width = 404;
 {
 anchors = (
 {
+name = bar;
+pos = (229,-16);
+},
+{
 name = bottom;
 pos = (102,-258);
 },
@@ -90,7 +102,11 @@ pos = (102,-208);
 },
 {
 name = center;
-pos = (171,81);
+pos = (131,91);
+},
+{
+name = ring;
+pos = (226,-126);
 },
 {
 name = top.far;

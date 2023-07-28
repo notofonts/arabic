@@ -465,12 +465,22 @@ lookup decomposition {
   sub dalVinvertedbelow-ar by dal-ar vinvertedbelow-ar;
 
   # Reh family
-  sub rehv-ar by reh-ar vabove-ar.near;
-  sub rehVbelow-ar by reh-ar vbelow-ar;
-  sub zainVinvertedabove-ar by zain-ar vinvertedabove-ar;
-  sub rehTwodots-ar by reh-ar twodotshorizontalabove-ar;
+  sub zain-ar by reh-ar dotabove-ar;
   sub jeh-ar by reh-ar threedotsupabove-ar;
+  sub rreh-ar by reh-ar tahabove-ar;
+  sub rehv-ar by reh-ar vabove-ar.near;
+  sub rehRing-ar by reh-ar ringbelow-ar;
+  sub rehDotbelow-ar by reh-ar dotbelow-ar;
+  sub rehVbelow-ar by reh-ar vbelow-ar;
+  sub rehDotbelowdotabove-ar by reh-ar dotcenter-ar dotbelow-ar;
+  sub rehTwodots-ar by reh-ar twodotshorizontalabove-ar;
   sub rehFourdots-ar by reh-ar fourdotsabove-ar;
+  sub rehVinvertedabove-ar by reh-ar vinvertedabove-ar;
+  sub rehStroke-ar by reh-ar bar-ar.wide;
+  sub rehTwodotsverticalabove-ar by reh-ar twodotsverticalabove-ar;
+  sub rehHamzaabove-ar by reh-ar hamzaabove-ar;
+  sub rehTwodotshorizontalaboveTahabove-ar by reh-ar twodotshorizontalabove_tahabove-ar;
+  sub zainVinvertedabove-ar by reh-ar dotabove_vinvertedabove-ar;
 
   # Seen family
   sub sheenDotbelow-ar by sheen-ar dotbelow-ar;
@@ -758,16 +768,7 @@ sub noonThreedotsabove-ar by noonghunna-ar.fina threedotsupabove-ar;
 sub nyeh-ar by nyeh-ar.fina;
 sub oe-ar by oe-ar.fina;
 sub reh-ar by reh-ar.fina;
-sub rehDotbelow-ar by rehDotbelow-ar.fina;
-sub rehDotbelowdotabove-ar by rehDotbelowdotabove-ar.fina;
-sub rehHamzaabove-ar by rehHamzaabove-ar.fina;
 sub rehLoop-ar by rehLoop-ar.fina;
-sub rehRing-ar by rehRing-ar.fina;
-sub rehStroke-ar by rehStroke-ar.fina;
-sub rehTwodotshorizontalaboveTahabove-ar by rehTwodotshorizontalaboveTahabove-ar.fina;
-sub rehTwodotsverticalabove-ar by rehTwodotsverticalabove-ar.fina;
-sub rehVinvertedabove-ar by rehVinvertedabove-ar.fina;
-sub rreh-ar by rreh-ar.fina;
 sub sad-ar by sad-ar.fina;
 sub seen-ar by seen-ar.fina;
 sub sheen-ar by sheen-ar.fina;
@@ -787,7 +788,6 @@ sub yehbarree-ar by yehbarree-ar.fina;
 sub yehbarreeHamzaabove-ar by yehbarreeHamzaabove-ar.fina;
 sub yu-ar by yu-ar.fina;
 sub zah-ar by zah-ar.fina;
-sub zain-ar by zain-ar.fina;
 ";
 tag = fina;
 },
