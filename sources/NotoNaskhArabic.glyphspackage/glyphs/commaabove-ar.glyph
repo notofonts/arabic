@@ -1,0 +1,59 @@
+{
+glyphname = "commaabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.near;
+pos = (136,346);
+},
+{
+name = top.far;
+pos = (160,667);
+},
+{
+name = top.near;
+pos = (160,667);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (246,568);
+ref = "comma-ar";
+scale = (0.8,0.8);
+}
+);
+width = 300;
+},
+{
+anchors = (
+{
+name = _top.near;
+pos = (149,379);
+},
+{
+name = top.far;
+pos = (170,697);
+},
+{
+name = top.near;
+pos = (170,697);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (285,620);
+ref = "comma-ar";
+scale = (0.8,0.8);
+}
+);
+width = 300;
+}
+);
+}

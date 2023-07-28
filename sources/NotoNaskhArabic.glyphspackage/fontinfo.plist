@@ -573,10 +573,19 @@ lookup decomposition {
   sub hehVinvertedabove-ar by hehDoachashmee-ar vinvertedabove-ar;
 
   # Waw family
-  sub wawDotabove-ar by waw-ar dotabove-ar;
+  sub wawHamzaabove-ar by waw-ar hamzaabove-ar;
+  sub wawring-ar by waw-ar ringcenter-ar;
   sub wawTwodots-ar by waw-ar twodotshorizontalabove-ar;
+  sub wawDotabove-ar by waw-ar dotabove-ar;
+ #sub kirghizoe-ar by waw-ar bar-ar.wide;
+  sub oe-ar by waw-ar vabove-ar;
+  sub u-ar by waw-ar commaabove-ar;
+  sub yu-ar by waw-ar alefabove-ar;
+  sub kirghizyu-ar by waw-ar vinvertedabove-ar;
+  sub ve-ar by waw-ar threedotsupabove-ar;
   sub wawTwoabove-ar by waw-ar twoabove-ar;
   sub wawThreeabove-ar by waw-ar threeabove-ar;
+ #sub wawDotcenter-ar by waw-ar dotcenter-ar;
 
   # Yeh family
   sub yeh-ar by alefMaksura-ar twodotshorizontalbelow-ar;
@@ -756,7 +765,6 @@ sub kafswash-ar by kafswash-ar.fina;
 sub kafTwodotshorizontalabove-ar by kafTwodotshorizontalabove-ar.fina;
 sub keheh-ar by keheh-ar.fina;
 sub kirghizoe-ar by kirghizoe-ar.fina;
-sub kirghizyu-ar by kirghizyu-ar.fina;
 sub lam-ar by lam-ar.fina;
 sub meem-ar by meem-ar.fina;
 sub ng-ar by ng-ar.fina;
@@ -765,7 +773,6 @@ sub noonghunna-ar by noonghunna-ar.fina;
 sub noonAfrican-ar by noonghunna-ar.fina;
 sub noonThreedotsabove-ar by noonghunna-ar.fina threedotsupabove-ar;
 sub nyeh-ar by nyeh-ar.fina;
-sub oe-ar by oe-ar.fina;
 sub reh-ar by reh-ar.fina;
 sub rehLoop-ar by rehLoop-ar.fina;
 sub sad-ar by sad-ar.fina;
@@ -775,17 +782,13 @@ sub tah-ar by tah-ar.fina;
 sub tehMarbuta-ar by tehMarbuta-ar.fina;
 sub tehMarbutagoal-ar by tehMarbutagoal-ar.fina;
 sub thal-ar by thal-ar.fina;
-sub u-ar by u-ar.fina;
 sub ve-ar by ve-ar.fina;
 sub veh-ar by veh-ar.fina;
 sub waw-ar by waw-ar.fina;
 sub wawDotcenter-ar by wawDotcenter-ar.fina;
-sub wawHamzaabove-ar by wawHamzaabove-ar.fina;
-sub wawring-ar by wawring-ar.fina;
 sub yeh-farsi by alefMaksura-ar.fina;
 sub yehbarree-ar by yehbarree-ar.fina;
 sub yehbarreeHamzaabove-ar by yehbarreeHamzaabove-ar.fina;
-sub yu-ar by yu-ar.fina;
 sub zah-ar by zah-ar.fina;
 ";
 tag = fina;

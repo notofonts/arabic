@@ -1,0 +1,37 @@
+{
+glyphname = "ringcenter-ar";
+layers = (
+{
+anchors = (
+{
+name = _ring;
+pos = (64,518);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = "ring-ar";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _ring;
+pos = (69,532);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = 1;
+ref = "ring-ar";
+}
+);
+width = 0;
+}
+);
+}
