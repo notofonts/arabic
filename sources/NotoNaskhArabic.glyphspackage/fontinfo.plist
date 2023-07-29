@@ -596,7 +596,10 @@ lookup decomposition {
   sub noonVinvertedabove-ar by noonghunna-ar vinvertedabove-ar;
 
   # Heh family
+  sub tehMarbuta-ar by ae-ar twodotshorizontalabove-ar;
+  sub hehHamzaabove-ar by ae-ar hamzaabove-ar.twentypercent;
   sub hehgoalHamzaabove-ar by hehgoal-ar hamzaabove-ar.twentypercent;
+  sub tehMarbutagoal-ar by hehgoal-ar twodotshorizontalabove-ar;
   sub hehVinvertedabove-ar by hehDoachashmee-ar vinvertedabove-ar;
 
   # Waw family
@@ -670,7 +673,7 @@ sub qafThreedotsaboveAfrican-ar by fehDotless-ar.init dotabove_threedotsupabove-
 sub ghainDotbelow-ar by ghain-ar.init dotbelow-ar;
 sub hah-ar by hah-ar.init;
 sub heh-ar by heh-ar.init;
-sub hehDoachashmee-ar by hehDoachashmee-ar.init;
+sub hehDoachashmee-ar by heh-ar.init;
 sub hehgoal-ar by hehgoal-ar.init;
 sub kaf-ar by kaf-ar.init;
 sub kafswash-ar by kafswash-ar.init;
@@ -740,7 +743,6 @@ sub hah-ar by hah-ar.fina;
 sub heh-ar by heh-ar.fina;
 sub hehDoachashmee-ar by hehDoachashmee-ar.fina;
 sub hehgoal-ar by hehgoal-ar.fina;
-sub hehHamzaabove-ar by hehHamzaabove-ar.fina;
 sub kaf-ar by kafDotless-ar.fina miniKeheh-ar;
 sub kafswash-ar by kafswash-ar.fina;
 sub keheh-ar by keheh-ar.fina;
@@ -756,8 +758,6 @@ sub rehLoop-ar by rehLoop-ar.fina;
 sub sad-ar by sad-ar.fina;
 sub seen-ar by seen-ar.fina;
 sub tah-ar by tah-ar.fina;
-sub tehMarbuta-ar by tehMarbuta-ar.fina;
-sub tehMarbutagoal-ar by tehMarbutagoal-ar.fina;
 sub waw-ar by waw-ar.fina;
 sub wawDotcenter-ar by wawDotcenter-ar.fina;
 sub alefMaksura-ar by alefMaksura-ar.fina;
