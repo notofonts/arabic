@@ -575,7 +575,7 @@ lookup decomposition {
   sub lamDotabove-ar by lam-ar dotabove-ar;
   sub lamThreedotsabove-ar by lam-ar threedotsupabove-ar;
   sub lamThreedotsbelow-ar by lam-ar threedotsdownbelow-ar;
-  sub lamVabove-ar by lam-ar smallvabove-ar;
+  sub lamVabove-ar by lam-ar vabove-ar;
   sub lamBar-ar by lam-ar bar-ar;
   sub lamDoublebar-ar by lam-ar doubleBar-ar;
   sub lamTahabove-ar by lam-ar tahabove-ar;
