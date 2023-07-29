@@ -511,10 +511,11 @@ lookup decomposition {
   sub seenThreedotsbelow-ar by seen-ar threedotsdownbelow-ar;
 
   # Sad family
-  sub sadTwodotsbelow-ar by sad-ar twodotshorizontalbelow-ar;
+  sub dad-ar by sad-ar dotabove-ar;
+  sub dadDotbelow-ar by sad-ar dotabove-ar dotbelow-ar;
   sub sadThreedots-ar by sad-ar threedotsupabove-ar;
+  sub sadTwodotsbelow-ar by sad-ar twodotshorizontalbelow-ar;
   sub sadThreedotsbelow-ar by sad-ar threedotsdownbelow-ar;
-  sub dadDotbelow-ar by dad-ar dotbelow-ar;
 
   # Tah family
   sub tahTwodotsabove-ar by tah-ar twodotshorizontalabove-ar;
@@ -657,7 +658,6 @@ code = "sub ain-ar by ain-ar.init;
 sub ainThreedotsbelow-ar by ain-ar.init threedotsdownbelow-ar;
 sub alefMaksura-ar by behDotless-ar.init;
 sub behDotless-ar by behDotless-ar.init;
-sub dad-ar by dad-ar.init;
 sub fehDotless-ar by fehDotless-ar.init;
 sub fehAfrican-ar by fehDotless-ar.init dotbelow-ar;
 sub qafDotless-ar by fehDotless-ar.init;
@@ -694,7 +694,6 @@ code = "sub ain-ar by ain-ar.medi;
 sub ainThreedotsbelow-ar by ain-ar.medi threedotsdownbelow-ar;
 sub alefMaksura-ar by behDotless-ar.medi;
 sub behDotless-ar by behDotless-ar.medi;
-sub dad-ar by dad-ar.medi;
 sub fehDotless-ar by fehDotless-ar.medi;
 sub fehAfrican-ar by fehDotless-ar.medi dotbelow-ar;
 sub qafDotless-ar by fehDotless-ar.medi;
@@ -732,7 +731,6 @@ sub ainThreedotsbelow-ar by ain-ar.fina threedotsdowncenter-ar;
 sub alef-ar by alef-ar.fina;
 sub alef-ar.short by alef-ar.short.fina;
 sub behDotless-ar by behDotless-ar.fina;
-sub dad-ar by dad-ar.fina;
 sub dal-ar by dal-ar.fina;
 sub fehDotless-ar by fehDotless-ar.fina;
 sub fehAfrican-ar by fehDotless-ar.fina;
