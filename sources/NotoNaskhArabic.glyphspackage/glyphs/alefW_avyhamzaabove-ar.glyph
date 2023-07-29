@@ -5,12 +5,10 @@ layers = (
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = "alef-ar";
 },
 {
-alignment = -1;
-pos = (85,190);
+pos = (84,199);
 ref = "wavyhamzaabove-ar";
 }
 );
@@ -20,12 +18,10 @@ width = 238;
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = -1;
 ref = "alef-ar";
 },
 {
-alignment = -1;
-pos = (106,197);
+pos = (105,207);
 ref = "wavyhamzaabove-ar";
 }
 );
