@@ -793,13 +793,6 @@ sub lam-ar.init highhamza-ar' alef-ar.fina by hamzaabove-ar;
     sub lam-ar.init' lookup rlig_arab_3 [alef-ar.fina alef-ar.short.fina]' lookup rlig_arab_3;
     sub lam-ar.medi' lookup rlig_arab_4 [alef-ar.fina alef-ar.short.fina]' lookup rlig_arab_4;
   } rlig_arab_2;
-
-  lookup rlig_arab_1 {
-  # GSUB lookup 7, type 14 (Ligature)
-    lookupflag IgnoreMarks;
-    sub lam-ar.init alef-ar.fina by lam_alef-ar;
-    sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
-  } rlig_arab_1;
 ";
 tag = rlig;
 },
