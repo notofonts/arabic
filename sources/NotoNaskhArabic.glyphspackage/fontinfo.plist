@@ -518,8 +518,9 @@ lookup decomposition {
   sub sadThreedotsbelow-ar by sad-ar threedotsdownbelow-ar;
 
   # Tah family
-  sub tahTwodotsabove-ar by tah-ar twodotshorizontalabove-ar;
+  sub zah-ar by tah-ar dotabove-ar;
   sub tahThreedots-ar by tah-ar threedotsupabove-ar;
+  sub tahTwodotsabove-ar by tah-ar twodotshorizontalabove-ar;
   sub tahDotbelow-ar by tah-ar dotbelow-ar;
   sub tahThreedotsbelow-ar by tah-ar threedotsdownbelow-ar;
 
@@ -683,7 +684,6 @@ sub seen-ar by seen-ar.init;
 sub tah-ar by tah-ar.init;
 sub yeh-farsi by behDotless-ar.init twodotshorizontalbelow-ar;
 sub yehbarree-ar by behDotless-ar.init twodotshorizontalbelow-ar;
-sub zah-ar by zah-ar.init;
 
 lookup dotcenter_below;
 ";
@@ -718,7 +718,6 @@ sub sad-ar by sad-ar.medi;
 sub seen-ar by seen-ar.medi;
 sub tah-ar by tah-ar.medi;
 sub yeh-farsi by behDotless-ar.medi twodotshorizontalbelow-ar;
-sub zah-ar by zah-ar.medi;
 
 lookup dotcenter_below;
 ";
@@ -767,7 +766,6 @@ sub alefMaksura-ar by alefMaksura-ar.fina;
 sub yeh-farsi by alefMaksura-ar.fina;
 sub yehbarree-ar by yehbarree-ar.fina;
 sub yehbarreeHamzaabove-ar by yehbarreeHamzaabove-ar.fina;
-sub zah-ar by zah-ar.fina;
 ";
 tag = fina;
 },
