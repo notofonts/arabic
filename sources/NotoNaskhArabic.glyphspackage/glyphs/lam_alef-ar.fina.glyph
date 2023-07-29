@@ -2,16 +2,6 @@
 glyphname = "lam_alef-ar.fina";
 layers = (
 {
-anchors = (
-{
-name = bottom_two;
-pos = (166,-100);
-},
-{
-name = top_two;
-pos = (89,580);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -101,16 +91,6 @@ y = 0;
 width = 610;
 },
 {
-anchors = (
-{
-name = bottom_two;
-pos = (166,-110);
-},
-{
-name = top_two;
-pos = (89,580);
-}
-);
 background = {
 anchors = (
 {
