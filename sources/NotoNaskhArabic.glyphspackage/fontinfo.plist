@@ -465,14 +465,20 @@ lookup decomposition {
   sub tchehVabove-ar by hah-ar threedotsdowncenter-ar vabove-ar;
 
   # Dal family
+  sub thal-ar by dal-ar dotabove-ar;
+  sub ddal-ar by dal-ar tahabove-ar;
+  sub dahal-ar by dal-ar twodotshorizontalabove-ar;
+  sub ddahal-ar by dal-ar twodotshorizontalbelow-ar;
+  sub dul-ar by dal-ar threedotsupabove-ar;
+  sub dalRing-ar by dal-ar ringbelow-ar;
   sub dalDotbelow-ar by dal-ar dotbelow-ar;
-  sub dalDotbelowTah-ar by dal-ar dotbelow-ar tahabove-ar;
-  sub dalThreedotsbelow-ar by dal-ar threedotsdownbelow-ar;
+  sub dalDotbelowTah-ar by dal-ar tahabove-ar dotbelow-ar;
   sub dalThreedotsdown-ar by dal-ar threedotsdownabove-ar;
   sub dalFourdots-ar by dal-ar fourdotsabove-ar;
   sub dalVinvertedabove-ar by dal-ar vinvertedabove-ar;
-  sub dalTwodotsverticalbelowTah-ar by dal-ar twodotsverticalbelow-ar tahabove-ar;
+  sub dalTwodotsverticalbelowTah-ar by dal-ar tahabove-ar twodotsverticalbelow-ar;
   sub dalVinvertedbelow-ar by dal-ar vinvertedbelow-ar;
+  sub dalThreedotsbelow-ar by dal-ar threedotsdownbelow-ar;
 
   # Reh family
   sub zain-ar by reh-ar dotabove-ar;
@@ -748,12 +754,7 @@ sub alefMaksura-ar by alefMaksura-ar.fina;
 sub alefWasla-ar by alefWasla-ar.fina;
 sub behDotless-ar by behDotless-ar.fina;
 sub dad-ar by dad-ar.fina;
-sub dahal-ar by dahal-ar.fina;
 sub dal-ar by dal-ar.fina;
-sub dalRing-ar by dalRing-ar.fina;
-sub ddahal-ar by ddahal-ar.fina;
-sub ddal-ar by ddal-ar.fina;
-sub dul-ar by dul-ar.fina;
 sub dyeh-ar by dyeh-ar.fina;
 sub e-ar by e-ar.fina;
 sub fehDotless-ar by fehDotless-ar.fina;

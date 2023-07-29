@@ -2,24 +2,6 @@
 glyphname = "thal-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (208,-100);
-},
-{
-name = bottom.dot;
-pos = (209,-21);
-},
-{
-name = top.far;
-pos = (220,642);
-},
-{
-name = top.near;
-pos = (220,642);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -33,24 +15,6 @@ ref = "dotabove-ar";
 width = 414;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (214,-100);
-},
-{
-name = bottom.dot;
-pos = (215,-18);
-},
-{
-name = top.far;
-pos = (229,701);
-},
-{
-name = top.near;
-pos = (229,701);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
