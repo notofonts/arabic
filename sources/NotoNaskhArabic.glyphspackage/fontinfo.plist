@@ -525,11 +525,14 @@ lookup decomposition {
   sub tahThreedotsbelow-ar by tah-ar threedotsdownbelow-ar;
 
   # Ain family
+  sub ghain-ar by ain-ar dotabove-ar;
+  sub ghainDotbelow-ar by ain-ar dotabove-ar dotcenter-ar;
+  sub ainThreedotsbelow-ar by ain-ar threedotsdowncenter-ar;
   sub ainThreedots-ar by ain-ar threedotsupabove-ar;
-  sub ainThreedotsdownabove-ar by ain-ar threedotsdownabove-ar;
   sub ainTwodotshorizontalabove-ar by ain-ar twodotshorizontalabove-ar;
+  sub ainThreedotsdownabove-ar by ain-ar threedotsdownabove-ar;
   sub ainTwodotsverticalabove-ar by ain-ar twodotsverticalabove-ar;
-  sub ghainThreedotsabove-ar by ghain-ar threedotsupabove-ar;
+  sub ghainThreedotsabove-ar by ain-ar dotabove_threedotsupabove-ar;
 
   # Qaf/Fe family
   sub feh-ar by fehDotless-ar dotabove-ar;
@@ -664,7 +667,6 @@ sub fehAfrican-ar by fehDotless-ar.init dotbelow-ar;
 sub qafDotless-ar by fehDotless-ar.init;
 sub qafAfrican-ar by fehDotless-ar.init dotabove-ar;
 sub qafThreedotsaboveAfrican-ar by fehDotless-ar.init dotabove_threedotsupabove-ar;
-sub ghain-ar by ghain-ar.init;
 sub ghainDotbelow-ar by ghain-ar.init dotbelow-ar;
 sub hah-ar by hah-ar.init;
 sub heh-ar by heh-ar.init;
@@ -699,8 +701,6 @@ sub fehAfrican-ar by fehDotless-ar.medi dotbelow-ar;
 sub qafDotless-ar by fehDotless-ar.medi;
 sub qafAfrican-ar by fehDotless-ar.medi dotabove-ar;
 sub qafThreedotsaboveAfrican-ar by fehDotless-ar.medi dotabove_threedotsupabove-ar;
-sub ghain-ar by ghain-ar.medi;
-sub ghainDotbelow-ar by ghain-ar.medi dotbelow-ar;
 sub hah-ar by hah-ar.medi;
 sub heh-ar by heh-ar.medi;
 sub hehDoachashmee-ar by hehDoachashmee-ar.medi;
@@ -736,8 +736,6 @@ sub fehAfrican-ar by fehDotless-ar.fina;
 sub qafDotless-ar by qafDotless-ar.fina;
 sub qafAfrican-ar by qafDotless-ar.fina;
 sub qafThreedotsaboveAfrican-ar by qafDotless-ar.fina threedotsupabove-ar;
-sub ghain-ar by ghain-ar.fina;
-sub ghainDotbelow-ar by ghain-ar.fina dotcenter-ar;
 sub hah-ar by hah-ar.fina;
 sub heh-ar by heh-ar.fina;
 sub hehDoachashmee-ar by hehDoachashmee-ar.fina;
