@@ -1,92 +1,115 @@
 {
+direction = RTL;
 export = 0;
 glyphname = bsm;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (1636,-95);
-},
-{
-name = bottom.dot;
-pos = (2084,-25.818);
-},
-{
-name = top.far;
-pos = (1636,457);
-},
-{
-name = top.near;
-pos = (2111,278.389);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
-pos = (2424,5);
+alignment = 1;
+pos = (2451,0);
 ref = "beh-ar.init";
 },
 {
-pos = (-68,5);
-ref = "meem-ar.fina";
+pos = (2503,-201);
+ref = "kasra-ar";
 },
 {
-alignment = -1;
-pos = (1752,5);
+pos = (1788,0);
 ref = "seen-ar.medi";
 },
 {
-pos = (489,5);
+pos = (2065,-272);
+ref = "jazm-ar";
+},
+{
+pos = (1578,0);
 ref = "kashida-ar";
-scale = (5.9461,1);
+},
+{
+pos = (1368,0);
+ref = "kashida-ar";
+},
+{
+pos = (1158,0);
+ref = "kashida-ar";
+},
+{
+pos = (948,0);
+ref = "kashida-ar";
+},
+{
+pos = (738,0);
+ref = "kashida-ar";
+},
+{
+pos = (528,0);
+ref = "kashida-ar";
+},
+{
+ref = "meem-ar.fina";
+},
+{
+pos = (251,-62);
+ref = "kasra-ar";
 }
 );
-width = 2649;
+width = 2726;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (1636,-95);
-},
-{
-name = bottom.dot;
-pos = (2084,-26);
-},
-{
-name = top.far;
-pos = (1636,457);
-},
-{
-name = top.near;
-pos = (2111,278);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = -1;
-pos = (2514,5);
+alignment = 1;
+pos = (2512,0);
 ref = "beh-ar.init";
 },
 {
-pos = (-68,5);
-ref = "meem-ar.fina";
+pos = (2559,-218);
+ref = "kasra-ar";
 },
 {
-alignment = -1;
-pos = (1812,5);
+pos = (1815,0);
 ref = "seen-ar.medi";
 },
 {
-pos = (509,5);
+pos = (2092,-208);
+ref = "jazm-ar";
+},
+{
+pos = (1605,0);
 ref = "kashida-ar";
-scale = (5.9461,1);
+},
+{
+pos = (1395,0);
+ref = "kashida-ar";
+},
+{
+pos = (1185,0);
+ref = "kashida-ar";
+},
+{
+pos = (975,0);
+ref = "kashida-ar";
+},
+{
+pos = (765,0);
+ref = "kashida-ar";
+},
+{
+pos = (555,0);
+ref = "kashida-ar";
+},
+{
+ref = "meem-ar.fina";
+},
+{
+pos = (279,-74);
+ref = "kasra-ar";
 }
 );
-width = 2751;
+width = 2787;
 }
 );
 }

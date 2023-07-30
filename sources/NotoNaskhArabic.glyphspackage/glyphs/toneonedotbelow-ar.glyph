@@ -5,42 +5,70 @@ layers = (
 anchors = (
 {
 name = _bottom;
-pos = (4,-118);
+pos = (54,-21);
 },
 {
 name = bottom;
-pos = (2,-257);
+pos = (52,-160);
 }
 );
 layerId = master01;
 shapes = (
 {
-pos = (0,-870);
-ref = "toneonedotabove-ar";
+closed = 1;
+nodes = (
+(74,-122,o),
+(91,-103,o),
+(103,-86,c),
+(85,-71,o),
+(68,-55,o),
+(52,-37,c),
+(43,-49,o),
+(25,-67,o),
+(0,-93,c),
+(13,-108,o),
+(31,-124,o),
+(54,-142,c)
+);
 }
 );
-width = 0;
+width = 103;
 },
 {
 anchors = (
 {
 name = _bottom;
-pos = (0,-101);
+pos = (62,-3);
 },
 {
 name = bottom;
-pos = (1,-270);
+pos = (63,-172);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-pos = (0,-870);
-ref = "toneonedotabove-ar";
+closed = 1;
+nodes = (
+(80,-132,o),
+(111,-101,o),
+(120,-88,c),
+(100,-71,o),
+(83,-56,o),
+(62,-33,c),
+(47,-51,o),
+(22,-73,o),
+(0,-94,c),
+(18,-112,o),
+(40,-131,o),
+(63,-147,c)
+);
 }
 );
-width = 0;
+width = 120;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
 unicode = 2285;
 }

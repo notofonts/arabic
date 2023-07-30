@@ -5,31 +5,35 @@ layers = (
 anchors = (
 {
 name = _center;
-pos = (195,-121);
+pos = (149,0);
 }
 );
 layerId = master01;
 shapes = (
 {
-ref = "_twodotshorizontalbelow-ar";
+pos = (0,-821);
+ref = "twodotshorizontalabove-ar";
 }
 );
-width = 425;
+width = 277;
 },
 {
 anchors = (
 {
 name = _center;
-pos = (179,-147);
+pos = (140,0);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-ref = "_twodotshorizontalbelow-ar";
+pos = (0,-809);
+ref = "twodotshorizontalabove-ar";
 }
 );
-width = 425;
+width = 264;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
 }

@@ -3,9 +3,10 @@ glyphname = "waslaSymbol-ar";
 layers = (
 {
 layerId = master01;
+metricLeft = "=12";
 shapes = (
 {
-pos = (63,0);
+pos = (12,0);
 ref = "wasla-ar";
 }
 );
@@ -13,9 +14,10 @@ width = 221;
 },
 {
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+metricLeft = "=4";
 shapes = (
 {
-pos = (64,0);
+pos = (4,0);
 ref = "wasla-ar";
 }
 );

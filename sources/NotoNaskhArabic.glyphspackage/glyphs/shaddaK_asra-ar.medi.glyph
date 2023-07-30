@@ -5,13 +5,11 @@ layers = (
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = "kashida-ar";
 },
 {
-alignment = -1;
-pos = (34,93);
-ref = "kasra_shadda-ar";
+pos = (22,-397);
+ref = "shadda_kasra-ar";
 }
 );
 width = 210;
@@ -23,8 +21,8 @@ shapes = (
 ref = "kashida-ar";
 },
 {
-pos = (30,-12);
-ref = "kasra_shadda-ar";
+pos = (28,-391);
+ref = "shadda_kasra-ar";
 }
 );
 width = 210;

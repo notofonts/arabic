@@ -304,32 +304,32 @@ name = Prefix;
 {
 code = "lookup markligatures {
   # This needs to be contextualised on not having tone marks following
-  sub fathatan-ar shadda-ar by fathatan_shadda-ar;
-  sub fathatan-ar hamzaabove-ar by fathatan_hamzaabove-ar;
-  sub dammatan-ar shadda-ar by dammatan_shadda-ar;
-  sub dammatan-ar hamzaabove-ar by dammatan_hamzaabove-ar;
-  sub kasratan-ar shadda-ar by kasratan_shadda-ar;
-  sub kasratan-ar hamzabelow-ar by kasratan_hamzabelow-ar;
-  sub fatha-ar shadda-ar by fatha_shadda-ar;
-  sub fatha-ar hamzaabove-ar by fatha_hamzaabove-ar;
-  sub damma-ar shadda-ar by damma_shadda-ar;
-  sub damma-ar hamzaabove-ar by damma_hamzaabove-ar;
-  sub kasra-ar shadda-ar by kasra_shadda-ar;
-  sub kasra-ar hamzabelow-ar by kasra_hamzabelow-ar;
-  sub shadda-ar fathatan-ar by fathatan_shadda-ar;
-  sub shadda-ar dammatan-ar by dammatan_shadda-ar;
-  sub shadda-ar kasratan-ar by kasratan_shadda-ar;
-  sub shadda-ar fatha-ar by fatha_shadda-ar;
-  sub shadda-ar damma-ar by damma_shadda-ar;
-  sub shadda-ar kasra-ar by kasra_shadda-ar;
+  sub fathatan-ar shadda-ar by shadda_fathatan-ar;
+  sub fathatan-ar hamzaabove-ar by hamzaabove_fathatan-ar;
+  sub dammatan-ar shadda-ar by shadda_dammatan-ar;
+  sub dammatan-ar hamzaabove-ar by hamzaabove_dammatan-ar;
+  sub kasratan-ar shadda-ar by shadda_kasratan-ar;
+  sub kasratan-ar hamzabelow-ar by hamzabelow_kasratan-ar;
+  sub fatha-ar shadda-ar by shadda_fatha-ar;
+  sub fatha-ar hamzaabove-ar by hamzaabove_fatha-ar;
+  sub damma-ar shadda-ar by shadda_damma-ar;
+  sub damma-ar hamzaabove-ar by hamzaabove_damma-ar;
+  sub kasra-ar shadda-ar by shadda_kasra-ar;
+  sub kasra-ar hamzabelow-ar by hamzabelow_kasra-ar;
+  sub shadda-ar fathatan-ar by shadda_fathatan-ar;
+  sub shadda-ar dammatan-ar by shadda_dammatan-ar;
+  sub shadda-ar kasratan-ar by shadda_kasratan-ar;
+  sub shadda-ar fatha-ar by shadda_fatha-ar;
+  sub shadda-ar damma-ar by shadda_damma-ar;
+  sub shadda-ar kasra-ar by shadda_kasra-ar;
   sub shadda-ar alefabove-ar by shadda_alefabove-ar;
-  sub hamzaabove-ar fathatan-ar by fathatan_hamzaabove-ar;
-  sub hamzaabove-ar dammatan-ar by dammatan_hamzaabove-ar;
-  sub hamzaabove-ar fatha-ar by fatha_hamzaabove-ar;
-  sub hamzaabove-ar damma-ar by damma_hamzaabove-ar;
+  sub hamzaabove-ar fathatan-ar by hamzaabove_fathatan-ar;
+  sub hamzaabove-ar dammatan-ar by hamzaabove_dammatan-ar;
+  sub hamzaabove-ar fatha-ar by hamzaabove_fatha-ar;
+  sub hamzaabove-ar damma-ar by hamzaabove_damma-ar;
   sub hamzaabove-ar sukun-ar by hamzaabove_sukun-ar;
-  sub hamzabelow-ar kasratan-ar by kasratan_hamzabelow-ar;
-  sub hamzabelow-ar kasra-ar by kasra_hamzabelow-ar;
+  sub hamzabelow-ar kasratan-ar by hamzabelow_kasratan-ar;
+  sub hamzabelow-ar kasra-ar by hamzabelow_kasra-ar;
   sub sukun-ar hamzaabove-ar by hamzaabove_sukun-ar;
   sub alefabove-ar shadda-ar by shadda_alefabove-ar;
 
@@ -398,7 +398,7 @@ tag = aalt;
 code = "
 lookup liaadama { # See issue #26
   lookupflag UseMarkFilteringSet [hamzaabove-ar];
-  sub lam-ar kashida-ar' hamzaabove-ar' alef-ar by hamzafloating-ar;
+  sub lam-ar kashida-ar' hamzaabove-ar' alef-ar by hamzaabove-ar.between;
 } liaadama;
 
 lookup abovemarkligatures {
@@ -947,6 +947,18 @@ Location = 400;
 );
 }
 );
+guides = (
+{
+locked = 1;
+name = top;
+pos = (0,748);
+},
+{
+locked = 1;
+name = bottom;
+pos = (0,-37);
+}
+);
 id = master01;
 metricValues = (
 {
@@ -975,7 +987,6 @@ numberValues = (
 1300,
 0
 );
-visible = 1;
 },
 {
 axesValues = (
@@ -1030,6 +1041,18 @@ Axis = Weight;
 Location = 700;
 }
 );
+}
+);
+guides = (
+{
+locked = 1;
+name = top;
+pos = (0,738);
+},
+{
+locked = 1;
+name = bottom;
+pos = (0,-33);
 }
 );
 iconName = Bold;

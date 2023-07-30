@@ -5,59 +5,61 @@ layers = (
 anchors = (
 {
 name = _top.near;
-pos = (203,268);
+pos = (128,693);
 },
 {
 name = top.far;
-pos = (180,714);
+pos = (105,1139);
 },
 {
 name = top.near;
-pos = (180,714);
+pos = (105,1139);
 }
 );
 layerId = master01;
 shapes = (
 {
-alignment = 1;
+pos = (54,0);
 ref = "dotabove-ar";
 },
 {
 alignment = -1;
-pos = (22,-251);
+pos = (0,171);
 ref = "tahabove-ar";
 }
 );
-width = 425;
+width = 222;
 },
 {
 anchors = (
 {
 name = _top.near;
-pos = (203,302);
+pos = (135,684);
 },
 {
 name = top.far;
-pos = (187,771);
+pos = (119,1153);
 },
 {
 name = top.near;
-pos = (187,771);
+pos = (119,1153);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = 1;
+pos = (54,0);
 ref = "dotabove-ar";
 },
 {
 alignment = -1;
-pos = (14,-205);
+pos = (0,181);
 ref = "tahabove-ar";
 }
 );
-width = 425;
+width = 220;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
 }

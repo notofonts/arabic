@@ -5,57 +5,61 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (56,584);
+pos = (64,730);
 },
 {
 name = _top.near;
-pos = (58,583);
+pos = (66,729);
 },
 {
 name = top.far;
-pos = (57,881);
+pos = (65,1027);
 },
 {
 name = top.near;
-pos = (57,881);
+pos = (65,1027);
 }
 );
 layerId = master01;
 shapes = (
 {
-ref = _hamza;
+pos = (0,-149);
+ref = "hamzaabove-ar";
 scale = (1.2,1.2);
 }
 );
-width = 0;
+width = 154;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (85,560);
+pos = (73,698);
 },
 {
 name = _top.near;
-pos = (79,565);
+pos = (67,703);
 },
 {
 name = top.far;
-pos = (70,859);
+pos = (58,997);
 },
 {
 name = top.near;
-pos = (70,859);
+pos = (58,997);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-ref = _hamza;
+pos = (0,-147);
+ref = "hamzaabove-ar";
 scale = (1.2,1.2);
 }
 );
-width = 0;
+width = 155;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
 }
