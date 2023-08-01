@@ -649,6 +649,12 @@ lookup decomposition {
 tag = ccmp;
 },
 {
+automatic = 1;
+code = "sub radical by radical.rtlm;
+";
+tag = rtlm;
+},
+{
 code = "sub fehAfrican-ar by fehDotless-ar;
 sub qafAfrican-ar by qafDotless-ar;
 sub qafThreedotsaboveAfrican-ar by qafDotless-ar threedotsupabove-ar;

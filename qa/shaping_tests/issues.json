@@ -15,6 +15,11 @@
       "expectation": "uni06F7.urdu=2+459|uni0666=1+504|uni06F4=0+492",
       "only": "NotoSansArabic-Regular.ttf",
       "note": "Issue #5"
+    },
+    {
+      "input": "√١٢٣",
+      "expectation": "uni0663=3+478|uni0662=2+413|uni0661=1+316|uni221A.rtlm=0+538",
+      "only": "NotoSansArabic-Regular.ttf"
     }
   ]
 }

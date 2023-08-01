@@ -15238,13 +15238,30 @@
       sortName="arS0010"
   />
 <glyph
+      name="radical"
+      unicode="221A"
+      production="uni221A"
+      script="arabic"
+      category="Symbol"
+      direction="LTR"
+      sortName="arS0011"
+  />
+<glyph
+      name="radical.rtlm"
+      production="uni221A.rtlm"
+      script="arabic"
+      category="Symbol"
+      direction="LTR"
+      sortName="arS0012"
+  />
+<glyph
       name="cuberoot-ar"
       unicode="0606"
       production="uni0606"
       script="arabic"
       category="Symbol"
-      direction="RTL"
-      sortName="arS0011"
+      direction="LTR"
+      sortName="arS0013"
   />
 <glyph
       name="fourthroot-ar"
@@ -15252,8 +15269,8 @@
       production="uni0607"
       script="arabic"
       category="Symbol"
-      direction="RTL"
-      sortName="arS0012"
+      direction="LTR"
+      sortName="arS0014"
   />
 <glyph
       name="dottedCircle"
@@ -15262,7 +15279,7 @@
       script="arabic"
       category="Symbol"
       anchors="bottom, bottom.dot, top.far, top.near"
-      sortName="arS0013"
+      sortName="arS0015"
   />
 <glyph
       name="allah-ar"
@@ -15272,14 +15289,14 @@
       category="Symbol"
       direction="RTL"
       anchors="bottom, bottom.dot, bottom_1, bottom_2, bottom_3, bottom_4, top.far, top.near, top_1, top_2, top_3, top_4"
-      sortName="arS0014"
+      sortName="arS0016"
   />
 <glyph
       name="lellah-ar"
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0015"
+      sortName="arS0017"
   />
 <glyph
       name="mohammad-ar"
@@ -15289,7 +15306,7 @@
       category="Symbol"
       direction="RTL"
       anchors="bottom, bottom.dot, top.far, top.near, top3"
-      sortName="arS0016"
+      sortName="arS0018"
       decompose="meem-ar.init, hah-ar.medi, damma-ar, shadda-ar, fatha-ar, fatha-ar, meem-ar.medi, dal-ar.fina"
   />
 <glyph
@@ -15299,7 +15316,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0017"
+      sortName="arS0019"
   />
 <glyph
       name="jallajalalouhou-ar"
@@ -15308,7 +15325,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0018"
+      sortName="arS0020"
   />
 <glyph
       name="rial"
@@ -15316,7 +15333,7 @@
       production="uniFDFC"
       script="arabic"
       category="Symbol"
-      sortName="arS0019"
+      sortName="arS0021"
   />
 <glyph
       name="basmalah-ar"
@@ -15325,7 +15342,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0020"
+      sortName="arS0022"
   />
 <glyph
       name="ray-ar"
@@ -15334,7 +15351,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0021"
+      sortName="arS0023"
   />
 <glyph
       name="afghani-ar"
@@ -15344,7 +15361,7 @@
       category="Symbol"
       direction="RTL"
       anchors="bottom, bottom.dot, top.far, top.near"
-      sortName="arS0022"
+      sortName="arS0024"
   />
 <glyph
       name="misraComma-ar"
@@ -15354,7 +15371,7 @@
       category="Symbol"
       direction="RTL"
       anchors="bottom, top.far, top.near"
-      sortName="arS0023"
+      sortName="arS0025"
   />
 <glyph
       name="sindhipostpositionmen-ar"
@@ -15364,7 +15381,7 @@
       category="Symbol"
       direction="RTL"
       anchors="bottom, bottom.dot, top.far, top.near"
-      sortName="arS0024"
+      sortName="arS0026"
   />
 <glyph
       name="sindhiampersand-ar"
@@ -15374,7 +15391,7 @@
       category="Symbol"
       direction="RTL"
       anchors="bottom, top.far, top.near"
-      sortName="arS0025"
+      sortName="arS0027"
   />
 <glyph
       name="numbermark-ar"
@@ -15383,7 +15400,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0026"
+      sortName="arS0028"
   />
 <glyph
       name="dotaboveSymbol-ar"
@@ -15392,7 +15409,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0027"
+      sortName="arS0029"
       decompose="dotabove-ar"
   />
 <glyph
@@ -15402,7 +15419,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0028"
+      sortName="arS0030"
       decompose="dotbelow-ar"
   />
 <glyph
@@ -15412,7 +15429,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0029"
+      sortName="arS0031"
       decompose="twodotshorizontalabove-ar"
   />
 <glyph
@@ -15422,7 +15439,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0030"
+      sortName="arS0032"
       decompose="twodotshorizontalbelow-ar"
   />
 <glyph
@@ -15432,7 +15449,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0031"
+      sortName="arS0033"
       decompose="threedotsupabove-ar"
   />
 <glyph
@@ -15442,7 +15459,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0032"
+      sortName="arS0034"
       decompose="threedotsupbelow-ar"
   />
 <glyph
@@ -15452,7 +15469,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0033"
+      sortName="arS0035"
       decompose="threedotsdownabove-ar"
   />
 <glyph
@@ -15462,7 +15479,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0034"
+      sortName="arS0036"
       decompose="threedotsdownbelow-ar"
   />
 <glyph
@@ -15472,7 +15489,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0035"
+      sortName="arS0037"
       decompose="fourdotsabove-ar"
   />
 <glyph
@@ -15482,7 +15499,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0036"
+      sortName="arS0038"
       decompose="fourdotsbelow-ar"
   />
 <glyph
@@ -15492,7 +15509,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0037"
+      sortName="arS0039"
       decompose="doubleverticalbarbelow-ar"
   />
 <glyph
@@ -15502,7 +15519,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0038"
+      sortName="arS0040"
       decompose="twodotsverticalabove-ar"
   />
 <glyph
@@ -15512,7 +15529,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0039"
+      sortName="arS0041"
       decompose="twodotsverticalbelow-ar"
   />
 <glyph
@@ -15522,7 +15539,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0040"
+      sortName="arS0042"
       decompose="ring-ar"
   />
 <glyph
@@ -15532,7 +15549,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0041"
+      sortName="arS0043"
       decompose="tahabove-ar"
   />
 <glyph
@@ -15542,7 +15559,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0042"
+      sortName="arS0044"
       decompose="tahbelow-ar"
   />
 <glyph
@@ -15552,7 +15569,7 @@
       script="arabic"
       category="Symbol"
       direction="RTL"
-      sortName="arS0043"
+      sortName="arS0045"
       decompose="wasla-ar"
   />
 <glyph

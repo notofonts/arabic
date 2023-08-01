@@ -1,17 +1,14 @@
 {
-glyphname = "cuberoot-ar";
+glyphname = radical;
 layers = (
 {
 layerId = master01;
 shapes = (
 {
 alignment = 1;
+pos = (538,0);
 ref = radical.rtlm;
-},
-{
-alignment = -1;
-pos = (193,-349);
-ref = "threeabove-ar";
+scale = (-1,1);
 }
 );
 width = 538;
@@ -21,16 +18,13 @@ layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
 alignment = 1;
+pos = (538,0);
 ref = radical.rtlm;
-},
-{
-alignment = -1;
-pos = (185,-337);
-ref = "threeabove-ar";
+scale = (-1,1);
 }
 );
 width = 538;
 }
 );
-unicode = 1542;
+unicode = 8730;
 }
