@@ -1008,6 +1008,7 @@ numberValues = (
 1300,
 0
 );
+visible = 1;
 },
 {
 axesValues = (
@@ -1105,6 +1106,12 @@ numberValues = (
 1300,
 0
 );
+userData = {
+GSOffsetHorizontal = 15;
+GSOffsetKeepCompatible = 1;
+GSOffsetVertical = 10;
+};
+visible = 1;
 }
 );
 instances = (
