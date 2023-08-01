@@ -682,7 +682,7 @@ code = "# GSUB feature: Localized Forms
     lookup locl_arabURD_arabKSH_1;
 
     language FAR ; # Farsi
-    sub [decimalseparator-ar thousandseparator-ar] by [decimalseparator-ar.locl decimalseparator-ar.1];
+    sub [decimalseparator-ar thousandseparator-ar] by [decimalseparator-ar.locl thousandseparator-ar.locl];
 ";
 tag = locl;
 },
