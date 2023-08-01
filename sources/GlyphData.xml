@@ -14697,11 +14697,18 @@
       sortName="Sn0005"
   />
 <glyph
-      name="uni0000"
+      name=".null"
       unicode="0000"
       unicode2="FEFF"
       category="Separator"
       sortName="S0006"
+  />
+<glyph
+      name="CR"
+      unicode="000D"
+      production="nonmarkingreturn"
+      category="Separator"
+      sortName="S0007"
   />
 <glyph
       name="period"

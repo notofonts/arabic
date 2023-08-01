@@ -237,6 +237,14 @@ name = dotdiagonal.small;
 );
 customParameters = (
 {
+name = glyphOrder;
+value = (
+.null,
+CR,
+space
+);
+},
+{
 name = fsType;
 value = (
 );
