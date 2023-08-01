@@ -2,13 +2,6 @@
 glyphname = "fourthroot-ar";
 layers = (
 {
-background = {
-shapes = (
-{
-ref = _980;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
@@ -17,7 +10,7 @@ ref = "radical-ar";
 {
 pos = (209,400);
 ref = "four-ar.ccmp";
-scale = (0.5,0.5);
+scale = (0.62,0.62);
 }
 );
 width = 538;
@@ -31,7 +24,7 @@ ref = "radical-ar";
 {
 pos = (194,419);
 ref = "four-ar.ccmp";
-scale = (0.5,0.5);
+scale = (0.62,0.62);
 }
 );
 width = 538;
