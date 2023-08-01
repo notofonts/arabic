@@ -653,8 +653,12 @@ code = "# GSUB feature: Localized Forms
 # Lookups: 4
 
   script latn; # Latin
-    sub [exclam period colon commareversed semicolonreversed]
-     by [exclam.locl period.locl colon.locl commareversed.locl semicolonreversed.locl]
+    sub [exclam period colon
+         commareversed semicolonreversed
+         guillemetleft guillemetright]
+     by [exclam.locl period.locl colon.locl
+         commareversed.locl semicolonreversed.locl
+         guillemetleft.locl guillemetright.locl]
     ;
 
   script arab; # Arabic
@@ -670,7 +674,7 @@ code = "# GSUB feature: Localized Forms
     lookup locl_arabURD_arabKSH_1;
 
     language FAR ; # Farsi
-    sub [decimalseparator-ar thousandseparator-ar guillemetleft guillemetright] by [decimalseparator-ar.locl decimalseparator-ar.1 guillemetleft.locl guillemetright.locl];
+    sub [decimalseparator-ar thousandseparator-ar] by [decimalseparator-ar.locl decimalseparator-ar.1];
 ";
 tag = locl;
 },
