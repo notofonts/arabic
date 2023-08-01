@@ -194,6 +194,7 @@ fourdotsbelow-ar
 #vinvertedbelow-ar
 fourbelow-ar
 tahbelow-ar
+tehabove-ar
 ";
 name = widemarks;
 },
@@ -449,6 +450,9 @@ lookup decomposition {
   sub behVabove-ar by behDotless-ar vabove-ar;
   sub behVbelow-ar by behDotless-ar vbelow-ar;
   sub behhamzaabove-ar by behDotless-ar hamzaabove-ar dotbelow-ar;
+  sub behMeemabove-ar by behDotless-ar dotbelow-ar meemabove-ar;
+  sub pehMeemabove-ar by behDotless-ar threedotsdownbelow-ar meemabove-ar;
+  sub tehTehabove-ar by behDotless-ar tehabove-ar;
   sub tehRing-ar by behDotless-ar twodotshorizontalabove-ar ringbelow-ar;
 
   # Jeem family
@@ -1008,7 +1012,12 @@ numberValues = (
 1300,
 0
 );
-visible = 1;
+userData = {
+GSOffsetHorizontal = -15;
+GSOffsetKeepCompatible = 1;
+GSOffsetProportional = 1;
+GSOffsetVertical = 10;
+};
 },
 {
 axesValues = (
@@ -1111,7 +1120,6 @@ GSOffsetHorizontal = 15;
 GSOffsetKeepCompatible = 1;
 GSOffsetVertical = 10;
 };
-visible = 1;
 }
 );
 instances = (
