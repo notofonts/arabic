@@ -1,0 +1,32 @@
+{
+glyphname = "hahVinvertedbelow-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "hah-ar";
+},
+{
+pos = (306,-6);
+ref = "vinvertedcenter-ar";
+}
+);
+width = 636;
+},
+{
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "hah-ar";
+},
+{
+pos = (296,-1);
+ref = "vinvertedcenter-ar";
+}
+);
+width = 655;
+}
+);
+unicode = 2186;
+}

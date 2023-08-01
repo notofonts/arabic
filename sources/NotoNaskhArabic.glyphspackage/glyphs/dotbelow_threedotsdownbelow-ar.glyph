@@ -1,0 +1,55 @@
+{
+glyphname = "dotbelow_threedotsdownbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom.dot;
+pos = (99,0);
+},
+{
+name = bottom;
+pos = (103,-342);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (28,0);
+ref = "dotbelow-ar";
+},
+{
+pos = (0,-1061);
+ref = "threedotsdownabove-ar.small";
+}
+);
+width = 188;
+},
+{
+anchors = (
+{
+name = _bottom.dot;
+pos = (105,0);
+},
+{
+name = bottom;
+pos = (104,-357);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+pos = (30,0);
+ref = "dotbelow-ar";
+},
+{
+pos = (0,-1061);
+ref = "threedotsdownabove-ar.small";
+}
+);
+width = 202;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+}

@@ -208,6 +208,8 @@ threedotsdowncenter-ar
 fourdotscenter-ar
 fourcenter-ar
 tahcenter-ar
+dotcenter_threedotsdownbelow-ar
+vinvertedcenter-ar
 ";
 name = dotcenter;
 },
@@ -221,6 +223,8 @@ threedotsdownbelow-ar
 fourdotsbelow-ar
 fourbelow-ar
 tahbelow-ar
+dotbelow_threedotsdownbelow-ar
+vinvertedbelow-ar
 ";
 name = dotcenter.below;
 },
@@ -475,6 +479,8 @@ lookup decomposition {
   sub jeemThreedotsabove-ar by hah-ar dotcenter-ar threedotsupabove-ar;
   sub tchehDotabove-ar by hah-ar threedotsdowncenter-ar dotabove-ar;
   sub tchehVabove-ar by hah-ar threedotsdowncenter-ar vabove-ar;
+  sub jeemThreedotsbelow-ar by hah-ar dotcenter_threedotsdownbelow-ar;
+  sub hahVinvertedbelow-ar by hah-ar vinvertedcenter-ar;
 
   # Dal family
   sub thal-ar by dal-ar dotabove-ar;
