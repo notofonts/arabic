@@ -14712,19 +14712,12 @@
       sortName="arP0000"
   />
 <glyph
-      name="period.locl"
-      production="period.locl"
-      script="latin"
-      category="Punctuation"
-      sortName="P0001"
-  />
-<glyph
       name="comma"
       unicode="002C"
       production="comma"
       script="arabic"
       category="Punctuation"
-      sortName="arP0002"
+      sortName="arP0001"
   />
 <glyph
       name="colon"
@@ -14732,7 +14725,7 @@
       production="colon"
       script="arabic"
       category="Punctuation"
-      sortName="arP0003"
+      sortName="arP0002"
   />
 <glyph
       name="semicolon"
@@ -14740,7 +14733,7 @@
       production="semicolon"
       script="arabic"
       category="Punctuation"
-      sortName="arP0004"
+      sortName="arP0003"
   />
 <glyph
       name="fullstop-ar"
@@ -14749,7 +14742,7 @@
       script="arabic"
       category="Punctuation"
       direction="RTL"
-      sortName="arP0005"
+      sortName="arP0004"
   />
 <glyph
       name="comma-ar"
@@ -14758,7 +14751,7 @@
       script="arabic"
       category="Punctuation"
       direction="RTL"
-      sortName="arP0006"
+      sortName="arP0005"
   />
 <glyph
       name="semicolon-ar"
@@ -14767,7 +14760,7 @@
       script="arabic"
       category="Punctuation"
       direction="RTL"
-      sortName="arP0007"
+      sortName="arP0006"
   />
 <glyph
       name="commareversed"
@@ -14775,7 +14768,7 @@
       production="uni2E41"
       script="arabic"
       category="Punctuation"
-      sortName="arP0008"
+      sortName="arP0007"
   />
 <glyph
       name="semicolonreversed"
@@ -14783,7 +14776,7 @@
       production="uni204F"
       script="arabic"
       category="Punctuation"
-      sortName="arP0009"
+      sortName="arP0008"
   />
 <glyph
       name="threedots-ar"
@@ -14792,7 +14785,7 @@
       script="arabic"
       category="Punctuation"
       direction="RTL"
-      sortName="arP0010"
+      sortName="arP0009"
   />
 <glyph
       name="endoftext-ar"
@@ -14801,7 +14794,7 @@
       script="arabic"
       category="Punctuation"
       direction="RTL"
-      sortName="arP0011"
+      sortName="arP0010"
   />
 <glyph
       name="dateseparator-ar"
@@ -14810,28 +14803,28 @@
       script="arabic"
       category="Punctuation"
       direction="RTL"
-      sortName="arP0012"
+      sortName="arP0011"
   />
 <glyph
       name="ellipsis"
       unicode="2026"
       production="ellipsis"
       category="Punctuation"
-      sortName="P0013"
+      sortName="P0012"
   />
 <glyph
       name="exclam"
       unicode="0021"
       production="exclam"
       category="Punctuation"
-      sortName="P0014"
+      sortName="P0013"
   />
 <glyph
       name="question"
       unicode="003F"
       production="question"
       category="Punctuation"
-      sortName="P0015"
+      sortName="P0014"
   />
 <glyph
       name="question-ar"
@@ -14840,56 +14833,56 @@
       script="arabic"
       category="Punctuation"
       direction="RTL"
-      sortName="arP0016"
+      sortName="arP0015"
   />
 <glyph
       name="periodcentered"
       unicode="00B7"
       production="periodcentered"
       category="Punctuation"
-      sortName="P0017"
+      sortName="P0016"
   />
 <glyph
       name="asterisk"
       unicode="002A"
       production="asterisk"
       category="Punctuation"
-      sortName="P0018"
+      sortName="P0017"
   />
 <glyph
       name="numbersign"
       unicode="0023"
       production="numbersign"
       category="Punctuation"
-      sortName="P0019"
+      sortName="P0018"
   />
 <glyph
       name="slash"
       unicode="002F"
       production="slash"
       category="Punctuation"
-      sortName="P0020"
+      sortName="P0019"
   />
 <glyph
       name="backslash"
       unicode="005C"
       production="backslash"
       category="Punctuation"
-      sortName="P0021"
+      sortName="P0020"
   />
 <glyph
       name="parenleft"
       unicode="0028"
       production="parenleft"
       category="Punctuation"
-      sortName="P0022"
+      sortName="P0021"
   />
 <glyph
       name="parenright"
       unicode="0029"
       production="parenright"
       category="Punctuation"
-      sortName="P0023"
+      sortName="P0022"
   />
 <glyph
       name="parenleft-ar"
@@ -14898,7 +14891,7 @@
       script="arabic"
       category="Punctuation"
       direction="RTL"
-      sortName="arP0024"
+      sortName="arP0023"
   />
 <glyph
       name="parenright-ar"
@@ -14907,42 +14900,42 @@
       script="arabic"
       category="Punctuation"
       direction="RTL"
-      sortName="arP0025"
+      sortName="arP0024"
   />
 <glyph
       name="braceleft"
       unicode="007B"
       production="braceleft"
       category="Punctuation"
-      sortName="P0026"
+      sortName="P0025"
   />
 <glyph
       name="bar"
       unicode="007C"
       production="bar"
       category="Punctuation"
-      sortName="P0027"
+      sortName="P0026"
   />
 <glyph
       name="braceright"
       unicode="007D"
       production="braceright"
       category="Punctuation"
-      sortName="P0028"
+      sortName="P0027"
   />
 <glyph
       name="bracketleft"
       unicode="005B"
       production="bracketleft"
       category="Punctuation"
-      sortName="P0029"
+      sortName="P0028"
   />
 <glyph
       name="bracketright"
       unicode="005D"
       production="bracketright"
       category="Punctuation"
-      sortName="P0030"
+      sortName="P0029"
   />
 <glyph
       name="hyphen"
@@ -14950,7 +14943,7 @@
       production="hyphen"
       category="Punctuation"
       subCategory="Dash"
-      sortName="Pd0031"
+      sortName="Pd0030"
   />
 <glyph
       name="hyphentwo"
@@ -14958,7 +14951,7 @@
       production="uni2010"
       category="Punctuation"
       subCategory="Dash"
-      sortName="Pd0032"
+      sortName="Pd0031"
   />
 <glyph
       name="nonbreakinghyphen"
@@ -14966,77 +14959,77 @@
       production="uni2011"
       category="Punctuation"
       subCategory="Dash"
-      sortName="Pd0033"
+      sortName="Pd0032"
   />
 <glyph
       name="quotedbl"
       unicode="0022"
       production="quotedbl"
       category="Punctuation"
-      sortName="P0034"
+      sortName="P0033"
   />
 <glyph
       name="quotesingle"
       unicode="0027"
       production="quotesingle"
       category="Punctuation"
-      sortName="P0035"
+      sortName="P0034"
   />
 <glyph
       name="quotedblleft"
       unicode="201C"
       production="quotedblleft"
       category="Punctuation"
-      sortName="P0036"
+      sortName="P0035"
   />
 <glyph
       name="quotedblright"
       unicode="201D"
       production="quotedblright"
       category="Punctuation"
-      sortName="P0037"
+      sortName="P0036"
   />
 <glyph
       name="quoteleft"
       unicode="2018"
       production="quoteleft"
       category="Punctuation"
-      sortName="P0038"
+      sortName="P0037"
   />
 <glyph
       name="quoteright"
       unicode="2019"
       production="quoteright"
       category="Punctuation"
-      sortName="P0039"
+      sortName="P0038"
   />
 <glyph
       name="guillemetleft"
       unicode="00AB"
       production="guillemotleft"
       category="Punctuation"
-      sortName="P0040"
+      sortName="P0039"
   />
 <glyph
       name="guillemetright"
       unicode="00BB"
       production="guillemotright"
       category="Punctuation"
-      sortName="P0041"
+      sortName="P0040"
   />
 <glyph
       name="guilsinglleft"
       unicode="2039"
       production="guilsinglleft"
       category="Punctuation"
-      sortName="P0042"
+      sortName="P0041"
   />
 <glyph
       name="guilsinglright"
       unicode="203A"
       production="guilsinglright"
       category="Punctuation"
-      sortName="P0043"
+      sortName="P0042"
   />
 <glyph
       name="asterisk-ar"
@@ -15045,7 +15038,7 @@
       script="arabic"
       category="Punctuation"
       direction="RTL"
-      sortName="arP0044"
+      sortName="arP0043"
   />
 <glyph
       name="hizb-ar"
@@ -15054,7 +15047,7 @@
       script="arabic"
       category="Punctuation"
       direction="RTL"
-      sortName="arP0045"
+      sortName="arP0044"
   />
 <glyph
       name="sajdah-ar"
@@ -15063,7 +15056,7 @@
       script="arabic"
       category="Punctuation"
       direction="RTL"
-      sortName="arP0046"
+      sortName="arP0045"
   />
 <glyph
       name="endofayah-ar"
@@ -15071,7 +15064,7 @@
       production="uni06DD"
       script="arabic"
       category="Punctuation"
-      sortName="arP0047"
+      sortName="arP0046"
   />
 <glyph
       name="disputedendofayah-ar"
@@ -15079,7 +15072,7 @@
       production="uni08E2"
       script="arabic"
       category="Punctuation"
-      sortName="arP0048"
+      sortName="arP0047"
   />
 <glyph
       name="year-ar"
@@ -15087,7 +15080,7 @@
       production="uni0601"
       script="arabic"
       category="Punctuation"
-      sortName="arP0049"
+      sortName="arP0048"
   />
 <glyph
       name="samvat-ar"
@@ -15095,7 +15088,7 @@
       production="uni0604"
       script="arabic"
       category="Punctuation"
-      sortName="arP0050"
+      sortName="arP0049"
   />
 <glyph
       name="pagenumber-ar"
@@ -15103,7 +15096,7 @@
       production="uni0603"
       script="arabic"
       category="Punctuation"
-      sortName="arP0051"
+      sortName="arP0050"
   />
 <glyph
       name="number-ar"
@@ -15111,7 +15104,7 @@
       production="uni0600"
       script="arabic"
       category="Punctuation"
-      sortName="arP0052"
+      sortName="arP0051"
   />
 <glyph
       name="footnotemarker-ar"
@@ -15119,7 +15112,7 @@
       production="uni0602"
       script="arabic"
       category="Punctuation"
-      sortName="arP0053"
+      sortName="arP0052"
   />
 <glyph
       name="piastre-ar"
@@ -15127,7 +15120,7 @@
       production="uni0891"
       script="arabic"
       category="Punctuation"
-      sortName="arP0054"
+      sortName="arP0053"
   />
 <glyph
       name="pound-ar"
@@ -15135,7 +15128,7 @@
       production="uni0890"
       script="arabic"
       category="Punctuation"
-      sortName="arP0055"
+      sortName="arP0054"
   />
 <glyph
       name="verseComma-ar"
@@ -15144,7 +15137,7 @@
       script="arabic"
       category="Punctuation"
       direction="RTL"
-      sortName="arP0056"
+      sortName="arP0055"
   />
 <glyph
       name="plus"

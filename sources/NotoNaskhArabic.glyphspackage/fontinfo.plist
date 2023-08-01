@@ -649,6 +649,32 @@ lookup decomposition {
 tag = ccmp;
 },
 {
+code = "# GSUB feature: Localized Forms
+# Lookups: 4
+
+  script latn; # Latin
+    sub [exclam period colon commareversed semicolonreversed]
+     by [exclam.locl period.locl colon.locl commareversed.locl semicolonreversed.locl]
+    ;
+
+  script arab; # Arabic
+    language SND ; # Sindhi
+    sub [six-persian seven-persian] by [six-ar seven-persian.locl];
+
+    language URD ; # Urdu
+    lookup locl_arabURD_arabKSH_1 {
+      sub [four-persian six-persian seven-persian] by [four-persian.locl six-ar seven-persian.locl];
+    } locl_arabURD_arabKSH_1;
+
+    language KSH ; # Kashmiri
+    lookup locl_arabURD_arabKSH_1;
+
+    language FAR ; # Farsi
+    sub [decimalseparator-ar thousandseparator-ar guillemetleft guillemetright] by [decimalseparator-ar.locl decimalseparator-ar.1 guillemetleft.locl guillemetright.locl];
+";
+tag = locl;
+},
+{
 automatic = 1;
 code = "sub radical by radical.rtlm;
 ";
@@ -823,29 +849,6 @@ code = "# GSUB feature: Standard Ligatures
     language FAR ; # Farsi
 ";
 tag = liga;
-},
-{
-code = "# GSUB feature: Localized Forms
-# Lookups: 4
-
-  script latn; # Latin
-  sub [exclam period] by [exclam.locl period.locl];
-
-  script arab; # Arabic
-    language SND ; # Sindhi
-    sub [six-persian seven-persian] by [six-ar seven-persian.locl];
-
-    language URD ; # Urdu
-	lookup locl_arabURD_arabKSH_1 {
-  		sub [four-persian six-persian seven-persian] by [four-persian.locl six-ar seven-persian.locl];
-	} locl_arabURD_arabKSH_1;
-
-    language KSH ; # Kashmiri
-    lookup locl_arabURD_arabKSH_1;
-
-    language FAR ; # Farsi
-    sub [decimalseparator-ar thousandseparator-ar guillemetleft guillemetright] by [decimalseparator-ar.locl decimalseparator-ar.1 guillemetleft.locl guillemetright.locl];";
-tag = locl;
 },
 {
 code = "sub zero-ar by zero-ar.tf;
