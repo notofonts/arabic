@@ -589,6 +589,8 @@ lookup decomposition {
   sub gafTwodotsbelow-ar by gaf-ar twodotshorizontalbelow-ar;
   sub ngoeh-ar by gaf-ar twodotshorizontalabove-ar.diagonal;
   sub gueh-ar by gaf-ar twodotsverticalbelow-ar;
+  sub gafInvertedstroke-ar by keheh-ar gafsarkashcenter-ar;
+  sub graf-ar by keheh-ar grafsarkashabove-ar;
 
   # Lam family
   sub lamDotabove-ar by lam-ar dotabove-ar;
