@@ -1,0 +1,40 @@
+{
+glyphname = "alefRightMiddleStrokeDotAbove-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "alef-ar";
+},
+{
+pos = (101,-418);
+ref = "strokeright-ar";
+},
+{
+pos = (46,-4);
+ref = "dotabove-ar";
+}
+);
+width = 238;
+},
+{
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "alef-ar";
+},
+{
+pos = (107,-423);
+ref = "strokeright-ar";
+},
+{
+pos = (62,15);
+ref = "dotabove-ar";
+}
+);
+width = 284;
+}
+);
+unicode = 2172;
+}
