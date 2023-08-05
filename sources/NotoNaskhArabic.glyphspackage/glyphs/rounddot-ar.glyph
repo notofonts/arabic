@@ -1,0 +1,56 @@
+{
+glyphname = "rounddot-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (127,-86);
+},
+{
+name = top.far;
+pos = (127,366);
+},
+{
+name = top.near;
+pos = (127,366);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (54,-688);
+ref = "rounddotabove-ar";
+}
+);
+width = 254;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (146,-81);
+},
+{
+name = top.far;
+pos = (146,430);
+},
+{
+name = top.near;
+pos = (146,430);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+pos = (68,-669);
+ref = "rounddotabove-ar";
+}
+);
+width = 286;
+}
+);
+metricLeft = "=hamza-ar";
+metricRight = "=hamza-ar*3";
+unicode = 2183;
+}
