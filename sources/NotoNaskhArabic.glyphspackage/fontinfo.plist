@@ -685,6 +685,9 @@ lookup decomposition {
   sub highhamzaWaw-ar by highhamza-ar waw-ar;
   sub uHamzaabove-ar by highhamza-ar u-ar;
   sub highhamzaYeh-ar by highhamza-ar alefMaksura-ar;
+
+  sub kashidaTwodotsbelow-ar by kashida-ar twodotshorizontalbelow-ar;
+
 } decomposition;
 ";
 tag = ccmp;
@@ -766,6 +769,7 @@ sub seen-ar by seen-ar.init;
 sub tah-ar by tah-ar.init;
 sub yeh-farsi by behDotless-ar.init twodotshorizontalbelow-ar;
 sub yehbarree-ar by behDotless-ar.init twodotshorizontalbelow-ar;
+sub kashida-ar by kashida-ar.init;
 
 lookup dotcenter_below;
 ";

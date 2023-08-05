@@ -1,23 +1,19 @@
 {
-glyphname = "kashida-ar";
+glyphname = "kashida-ar.wide";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (99,-100);
-},
-{
-name = bottom.dot;
-pos = (109,-37);
+pos = (235,-100);
 },
 {
 name = top.far;
-pos = (99,352);
+pos = (235,352);
 },
 {
 name = top.near;
-pos = (99,352);
+pos = (235,352);
 }
 );
 layerId = master01;
@@ -25,14 +21,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(210,0,ls),
-(216,0,o),
-(219,3,o),
-(219,8,cs),
-(219,68,ls),
-(219,73,o),
-(216,76,o),
-(210,76,cs),
+(400,0,ls),
+(406,0,o),
+(409,3,o),
+(409,8,cs),
+(409,68,ls),
+(409,73,o),
+(406,76,o),
+(400,76,cs),
 (0,76,ls),
 (-6,76,o),
 (-8,73,o),
@@ -44,25 +40,21 @@ nodes = (
 );
 }
 );
-width = 210;
+width = 400;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (99,-135);
-},
-{
-name = bottom.dot;
-pos = (119,-33);
+pos = (232,-135);
 },
 {
 name = top.far;
-pos = (99,361);
+pos = (232,361);
 },
 {
 name = top.near;
-pos = (99,361);
+pos = (232,361);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
@@ -70,14 +62,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(215,9,ls),
-(221,9,o),
-(224,12,o),
-(224,17,cs),
-(224,119,ls),
-(224,125,o),
-(221,127,o),
-(215,127,cs),
+(405,9,ls),
+(411,9,o),
+(414,12,o),
+(414,17,cs),
+(414,119,ls),
+(414,125,o),
+(411,127,o),
+(405,127,cs),
 (0,127,ls),
 (-6,127,o),
 (-8,125,o),
@@ -89,8 +81,9 @@ nodes = (
 );
 }
 );
-width = 210;
+width = 400;
 }
 );
-unicode = 1600;
+metricLeft = "=kashida-ar";
+metricRight = "=kashida-ar";
 }

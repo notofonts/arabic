@@ -1,5 +1,5 @@
 {
-glyphname = "kashida-ar";
+glyphname = "kashida-ar.init";
 layers = (
 {
 anchors = (
@@ -25,14 +25,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(210,0,ls),
-(216,0,o),
-(219,3,o),
-(219,8,cs),
-(219,68,ls),
-(219,73,o),
-(216,76,o),
-(210,76,cs),
+(210,0,l),
+(210,76,l),
 (0,76,ls),
 (-6,76,o),
 (-8,73,o),
@@ -44,7 +38,7 @@ nodes = (
 );
 }
 );
-width = 210;
+width = 250;
 },
 {
 anchors = (
@@ -70,14 +64,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(215,9,ls),
-(221,9,o),
-(224,12,o),
-(224,17,cs),
-(224,119,ls),
-(224,125,o),
-(221,127,o),
-(215,127,cs),
+(215,9,l),
+(215,127,l),
 (0,127,ls),
 (-6,127,o),
 (-8,125,o),
@@ -89,8 +77,9 @@ nodes = (
 );
 }
 );
-width = 210;
+width = 255;
 }
 );
-unicode = 1600;
+metricLeft = "=kashida-ar";
+metricRight = "=40";
 }
