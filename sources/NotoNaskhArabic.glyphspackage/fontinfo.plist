@@ -49,77 +49,85 @@ seven
 eight
 nine
 ";
-name = numbers;
+name = digits;
 },
 {
-code = "zero-ar.ccmp
-one-ar.ccmp
-two-ar.ccmp
-three-ar.ccmp
-four-ar.ccmp
-five-ar.ccmp
-six-ar.ccmp
-seven-ar.ccmp
-eight-ar.ccmp
-nine-ar.ccmp
+code = "zero-ar.small
+one-ar.small
+two-ar.small
+three-ar.small
+four-ar.small
+five-ar.small
+six-ar.small
+seven-ar.small
+eight-ar.small
+nine-ar.small
 #
-zero-ar.ccmp
-one-ar.ccmp
-two-ar.ccmp
-three-ar.ccmp
-four-persian.ccmp
-five-persian.ccmp
-six-persian.ccmp
-seven-ar.ccmp
-eight-ar.ccmp
-nine-ar.ccmp
+zero-ar.small
+one-ar.small
+two-ar.small
+three-ar.small
+four-persian.small
+five-persian.small
+six-persian.small
+seven-ar.small
+eight-ar.small
+nine-ar.small
 #
-six-persian.ccmp.locl
-seven-persian.ccmp.locl
+six-persian.small.locl
+seven-persian.small.locl
 # Latin
-zero.ccmp
-one.ccmp
-two.ccmp
-three.ccmp
-four.ccmp
-five.ccmp
-six.ccmp
-seven.ccmp
-eight.ccmp
-nine.ccmp
+zero.small
+one.small
+two.small
+three.small
+four.small
+five.small
+six.small
+seven.small
+eight.small
+nine.small
 ";
-name = numbers_small;
+name = digits.small;
 },
 {
-code = "zero-ar.ccmp
-one-ar.ccmp
-two-ar.ccmp
-three-ar.ccmp
-four-ar.ccmp
-five-ar.ccmp
-six-ar.ccmp
-seven-ar.ccmp
-eight-ar.ccmp
-nine-ar.ccmp
+code = "zero-ar.medium
+one-ar.medium
+two-ar.medium
+three-ar.medium
+four-ar.medium
+five-ar.medium
+six-ar.medium
+seven-ar.medium
+eight-ar.medium
+nine-ar.medium
 #
-four-persian.ccmp
-five-persian.ccmp
-six-persian.ccmp
-six-persian.ccmp.locl
-seven-persian.ccmp.locl
+zero-ar.medium
+one-ar.medium
+two-ar.medium
+three-ar.medium
+four-persian.medium
+five-persian.medium
+six-persian.medium
+seven-ar.medium
+eight-ar.medium
+nine-ar.medium
+#
+six-persian.medium.locl
+seven-persian.medium.locl
 # Latin
-zero.ccmp
-one.ccmp
-two.ccmp
-three.ccmp
-four.ccmp
-five.ccmp
-six.ccmp
-seven.ccmp
-eight.ccmp
-nine.ccmp
+zero.medium
+one.medium
+two.medium
+three.medium
+four.medium
+five.medium
+six.medium
+seven.medium
+eight.medium
+nine.medium
 ";
-name = numbers_small_uniq;
+name = digits.medium;
 },
 {
 code = "alef-ar.fina
@@ -238,6 +246,34 @@ code = "twodotshorizontalabove-ar.small
 threedotsupabove-ar.small
 ";
 name = dotdiagonal.small;
+},
+{
+code = "year-ar
+samvat-ar
+";
+name = substending.4;
+},
+{
+code = "@substending.4
+#endofayah-ar
+#disputedendofayah-ar
+number-ar
+pagenumber-ar
+#piastre-ar
+#pound-ar
+";
+name = substending.3;
+},
+{
+code = "@substending.3
+footnotemarker-ar
+";
+name = substending.2;
+},
+{
+code = "@substending.2
+";
+name = substending.1;
 }
 );
 customParameters = (
@@ -351,49 +387,43 @@ code = "lookup markligatures {
 name = MarkLigatures;
 },
 {
-code = "lookup number_to_medium {
-sub @numbers by @numbers_small;
-} number_to_medium;
+code = "lookup medium_digits {
+	sub @digits by @digits.medium;
+} medium_digits;
 
-lookup number_to_small {
-sub @numbers by @numbers_small;
-} number_to_small;
+lookup small_digits {
+	sub @digits by @digits.small;
+} small_digits;
 
-#markClass @numbers_medium <anchor 276 0> @YEAR_MARKS;
-markClass @numbers_small_uniq  <anchor 110 0> @YEAR_MARKS;
+lookup subtending_2 {
+	sub samvat-ar				by samvat-ar.2;
+	sub year-ar					by year-ar.2;
+	sub pagenumber-ar			by pagenumber-ar.2;
+	sub endofayah-ar			by endofayah-ar.2;
+#	sub disputedendofayah-ar	by disputedendofayah-ar.2;
+	sub footnotemarker-ar		by footnotemarker-ar.2;
+	sub number-ar				by number-ar.2;
+#	sub pound-ar				by pound-ar.2;
+#	sub piastre-ar				by piastre-ar.2;
+} subtending_2;
 
-lookup year_1of4 {
-	pos base year-ar <anchor ${year_width/5*12/10 - year_correction} 100> mark @YEAR_MARKS;
-} year_1of4;
-lookup year_2of4 {
-	pos base year-ar <anchor ${year_width/5*2*12/10 - year_correction} 100> mark @YEAR_MARKS;
-} year_2of4;
-lookup year_3of4 {
-	pos base year-ar <anchor ${year_width/5*3*12/10 - year_correction} 100> mark @YEAR_MARKS;
-} year_3of4;
-lookup year_4of4 {
-	pos base year-ar <anchor ${year_width/5*4*12/10 - year_correction} 100> mark @YEAR_MARKS;
-} year_4of4;
-lookup year_1of3 {
-	pos base year-ar <anchor ${year_width/4*11/10} 100> mark @YEAR_MARKS;
-} year_1of3;
-lookup year_2of3 {
-	pos base year-ar <anchor ${year_width/4*2*11/10} 100> mark @YEAR_MARKS;
-} year_2of3;
-lookup year_3of3 {
-	pos base year-ar <anchor ${year_width/4*3*11/10} 100> mark @YEAR_MARKS;
-} year_3of3;
-lookup year_1of2 {
-	pos base year-ar <anchor ${year_width/3} 100> mark @YEAR_MARKS;
-} year_1of2;
-lookup year_2of2 {
-	pos base year-ar <anchor ${year_width/3*2} 100> mark @YEAR_MARKS;
-} year_2of2;
-lookup year_1of1 {
-	pos base year-ar <anchor ${year_width/2} 100> mark @YEAR_MARKS;
-} year_1of1;
+lookup subtending_3 {
+	sub samvat-ar				by samvat-ar.3;
+	sub year-ar					by year-ar.3;
+	sub pagenumber-ar			by pagenumber-ar.3;
+	sub endofayah-ar			by endofayah-ar.3;
+#	sub disputedendofayah-ar	by disputedendofayah-ar.3;
+	sub number-ar				by number-ar.3;
+#	sub pound-ar				by pound-ar.3;
+#	sub piastre-ar				by piastre-ar.3;
+} subtending_3;
+
+lookup subtending_4 {
+	sub samvat-ar				by samvat-ar.4;
+	sub year-ar					by year-ar.4;
+} subtending_4;
 ";
-name = YearSignHelpers;
+name = Substending;
 }
 );
 features = (
@@ -884,6 +914,47 @@ lookup lam_alef {
       [alef-ar.fina alef-ar.short.fina]' lookup lam_alef_fina
   ;
 } lam_alef;
+
+lookup subtending_marks {
+ lookupflag 0;
+	     
+ sub  endofayah-ar' lookup subtending_3
+      @digits' lookup small_digits
+      @digits' lookup small_digits
+      @digits' lookup small_digits
+ ;
+     
+ sub  endofayah-ar' lookup subtending_2
+      @digits' lookup small_digits
+      @digits' lookup small_digits
+ ;
+	     
+ sub  endofayah-ar'
+      @digits' lookup small_digits
+ ;
+
+ sub  @substending.4' lookup subtending_4
+      @digits' lookup medium_digits
+      @digits' lookup medium_digits
+      @digits' lookup medium_digits
+      @digits' lookup medium_digits
+ ;
+	     
+ sub  @substending.3' lookup subtending_3
+      @digits' lookup medium_digits
+      @digits' lookup medium_digits
+      @digits' lookup medium_digits
+ ;
+
+ sub  @substending.2' lookup subtending_2
+      @digits' lookup medium_digits
+      @digits' lookup medium_digits
+ ;
+
+ sub  @substending.1'
+      @digits' lookup medium_digits
+ ;
+} subtending_marks;
 ";
 tag = rlig;
 },
@@ -942,21 +1013,6 @@ lookupflag IgnoreMarks RightToLeft;
 } dlig_RTL;
 ";
 tag = dlig;
-},
-{
-code = "
-# Year sign
-sub year-ar @numbers' lookup number_to_small @numbers' lookup number_to_small  @numbers' lookup number_to_small @numbers' lookup number_to_small;
-sub year-ar @numbers' lookup number_to_small @numbers' lookup number_to_small  @numbers' lookup number_to_small;
-sub year-ar @numbers' lookup number_to_medium @numbers' lookup number_to_medium;
-sub year-ar @numbers' lookup number_to_medium;
-
-pos year-ar @numbers_small' lookup year_1of4 @numbers_small' lookup year_2of4  @numbers_small' lookup year_3of4 @numbers_small' lookup year_4of4;
-pos year-ar @numbers_small' lookup year_1of3 @numbers_small' lookup year_2of3  @numbers_small' lookup year_3of3;
-pos year-ar @numbers_small' lookup year_1of2 @numbers_small' lookup year_2of2;
-pos year-ar @numbers_small' lookup year_1of1;
-";
-tag = rclt;
 }
 );
 fontMaster = (
@@ -1127,6 +1183,9 @@ pos = (0,738);
 locked = 1;
 name = bottom;
 pos = (0,-33);
+},
+{
+pos = (140,392);
 }
 );
 iconName = Bold;
