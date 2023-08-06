@@ -298,15 +298,15 @@ name = Languagesystems;
 },
 {
 code = "
-lookup rlig_arab_3 {
+lookup lam_alef_isol {
 # GSUB lookup 9, type 11 (Single)
   sub @rlig by @rlig2;
-} rlig_arab_3;
+} lam_alef_isol;
 
-lookup rlig_arab_4 {
+lookup lam_alef_fina {
 # GSUB lookup 10, type 11 (Single)
   sub @rlig3 by @rlig4;
-} rlig_arab_4;
+} lam_alef_fina;
 
 lookup dotcenter_below {
   sub @dotcenter by @dotcenter.below;
@@ -867,15 +867,23 @@ lookup kaf_dots {
   ;
 } kaf_dots;
 
-lookupflag 0;
-sub lam-ar [bar-ar doubleBar-ar]' by [bar-ar.wide doubleBar-ar.wide];
+lookup wide_bar {
+  lookupflag 0;
+  sub  lam-ar
+      [bar-ar doubleBar-ar]'
+   by [bar-ar.wide doubleBar-ar.wide]
+  ;
+} wide_bar;
 
-  lookup rlig_arab_2 {
-  # GSUB lookup 8, type 15 (Context)
-    lookupflag IgnoreMarks;
-    sub lam-ar.init' lookup rlig_arab_3 [alef-ar.fina alef-ar.short.fina]' lookup rlig_arab_3;
-    sub lam-ar.medi' lookup rlig_arab_4 [alef-ar.fina alef-ar.short.fina]' lookup rlig_arab_4;
-  } rlig_arab_2;
+lookup lam_alef {
+  lookupflag IgnoreMarks;
+  sub  lam-ar.init' lookup lam_alef_isol
+      [alef-ar.fina alef-ar.short.fina]' lookup lam_alef_isol
+  ;
+  sub  lam-ar.medi' lookup lam_alef_fina
+      [alef-ar.fina alef-ar.short.fina]' lookup lam_alef_fina
+  ;
+} lam_alef;
 ";
 tag = rlig;
 },
