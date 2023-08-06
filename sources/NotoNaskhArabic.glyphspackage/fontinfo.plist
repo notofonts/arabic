@@ -869,7 +869,6 @@ lookup kaf_dots {
 
 lookupflag 0;
 sub lam-ar [bar-ar doubleBar-ar]' by [bar-ar.wide doubleBar-ar.wide];
-sub lam-ar.init highhamza-ar' alef-ar.fina by hamzaabove-ar;
 
   lookup rlig_arab_2 {
   # GSUB lookup 8, type 15 (Context)
