@@ -1,5 +1,5 @@
 {
-glyphname = "yehFourbelow-farsi";
+glyphname = "yehTwoaboveFarsi-ar";
 layers = (
 {
 layerId = master01;
@@ -8,8 +8,8 @@ shapes = (
 ref = "alefMaksura-ar";
 },
 {
-pos = (181,-258);
-ref = "fourbelow-ar";
+pos = (105,-610);
+ref = "twoabove-ar";
 }
 );
 width = 618;
@@ -21,12 +21,12 @@ shapes = (
 ref = "alefMaksura-ar";
 },
 {
-pos = (210,-258);
-ref = "fourbelow-ar";
+pos = (88,-583);
+ref = "twoabove-ar";
 }
 );
 width = 636;
 }
 );
-unicode = 1911;
+unicode = 1909;
 }

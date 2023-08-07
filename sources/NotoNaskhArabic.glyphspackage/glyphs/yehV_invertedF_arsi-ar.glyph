@@ -1,5 +1,5 @@
 {
-glyphname = "yehTwoabove-farsi";
+glyphname = "yehVinvertedFarsi-ar";
 layers = (
 {
 layerId = master01;
@@ -8,8 +8,8 @@ shapes = (
 ref = "alefMaksura-ar";
 },
 {
-pos = (105,-610);
-ref = "twoabove-ar";
+pos = (73,-630);
+ref = "vinvertedabove-ar";
 }
 );
 width = 618;
@@ -21,12 +21,12 @@ shapes = (
 ref = "alefMaksura-ar";
 },
 {
-pos = (88,-583);
-ref = "twoabove-ar";
+pos = (66,-589);
+ref = "vinvertedabove-ar";
 }
 );
 width = 636;
 }
 );
-unicode = 1909;
+unicode = 1597;
 }

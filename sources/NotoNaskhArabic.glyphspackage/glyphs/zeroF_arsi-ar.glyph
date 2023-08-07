@@ -1,23 +1,24 @@
 {
-glyphname = "five-persian.tf";
+glyphname = "zeroFarsi-ar";
 layers = (
 {
 layerId = master01;
 shapes = (
 {
-ref = "five-persian";
+ref = "zero-ar";
 }
 );
-width = 454;
+width = 314;
 },
 {
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-ref = "five-persian";
+ref = "zero-ar";
 }
 );
-width = 479;
+width = 358;
 }
 );
+unicode = 1776;
 }

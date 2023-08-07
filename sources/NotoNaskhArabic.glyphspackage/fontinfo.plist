@@ -24,15 +24,15 @@ seven-ar
 eight-ar
 nine-ar
 # Persian
-zero-persian
-two-persian
-four-persian
-five-persian
-six-persian
-seven-persian
+zeroFarsi-ar
+twoFarsi-ar
+fourFarsi-ar
+fiveFarsi-ar
+sixFarsi-ar
+sevenFarsi-ar
 # sindi/urdu
-four-persian.locl
-seven-persian.locl
+fourFarsi-ar.locl
+sevenFarsi-ar.locl
 # Latin
 zero
 one
@@ -61,13 +61,13 @@ nine-ar.small
 #
 zero-ar.small
 two-ar.small
-four-persian.small
-five-persian.small
-six-persian.small
+fourFarsi-ar.small
+fiveFarsi-ar.small
+sixFarsi-ar.small
 seven-ar.small
 #
-six-persian.small.locl
-seven-persian.small.locl
+sixFarsi-ar.small.locl
+sevenFarsi-ar.small.locl
 # Latin
 zero.small
 one.small
@@ -96,13 +96,13 @@ nine-ar.medium
 #
 zero-ar.medium
 two-ar.medium
-four-persian.medium
-five-persian.medium
-six-persian.medium
+fourFarsi-ar.medium
+fiveFarsi-ar.medium
+sixFarsi-ar.medium
 seven-ar.medium
 #
-six-persian.medium.locl
-seven-persian.medium.locl
+sixFarsi-ar.medium.locl
+sevenFarsi-ar.medium.locl
 # Latin
 zero.medium
 one.medium
@@ -679,13 +679,13 @@ lookup decomposition {
   sub yeh-ar by alefMaksura-ar twodotshorizontalbelow-ar;
   sub yehHamzaabove-ar by alefMaksura-ar hamzaabove-ar;
   sub yehKashmiri-ar by alefMaksura-ar ring-ar;
-  sub yehVabove-ar by yeh-farsi vabove-ar;
-  sub yehVinverted-farsi by yeh-farsi vinvertedabove-ar;
-  sub yehTwodotsabove-farsi by yeh-farsi twodotshorizontalabove-ar;
-  sub yehThreedotsabove-farsi by yeh-farsi threedotsupabove-ar;
-  sub yehTwoabove-farsi by yeh-farsi twoabove-ar;
-  sub yehThreeabove-farsi by yeh-farsi threeabove-ar;
-  sub yehFourbelow-farsi by alefMaksura-ar fourbelow-ar;
+  sub yehVabove-ar by yehFarsi-ar vabove-ar;
+  sub yehVinvertedFarsi-ar by yehFarsi-ar vinvertedabove-ar;
+  sub yehTwodotsaboveFarsi-ar by yehFarsi-ar twodotshorizontalabove-ar;
+  sub yehThreedotsaboveFarsi-ar by yehFarsi-ar threedotsupabove-ar;
+  sub yehTwoaboveFarsi-ar by yehFarsi-ar twoabove-ar;
+  sub yehThreeaboveFarsi-ar by yehFarsi-ar threeabove-ar;
+  sub yehFourbelowFarsi-ar by alefMaksura-ar fourbelow-ar;
   sub e-ar by alefMaksura-ar twodotsverticalbelow-ar;
   sub yehThreedotsbelow-ar by alefMaksura-ar threedotsdownbelow-ar;
   sub yehTwodotsbelowHamzaabove-ar by alefMaksura-ar twodotshorizontalbelow-ar hamzaabove-ar;
@@ -726,11 +726,11 @@ code = "# GSUB feature: Localized Forms
 
   script arab; # Arabic
     language SND ; # Sindhi
-    sub [six-persian seven-persian] by [six-ar seven-persian.locl];
+    sub [sixFarsi-ar sevenFarsi-ar] by [six-ar sevenFarsi-ar.locl];
 
     language URD ; # Urdu
     lookup locl_arabURD_arabKSH_1 {
-      sub [four-persian six-persian seven-persian] by [four-persian.locl six-ar seven-persian.locl];
+      sub [fourFarsi-ar sixFarsi-ar sevenFarsi-ar] by [fourFarsi-ar.locl six-ar sevenFarsi-ar.locl];
     } locl_arabURD_arabKSH_1;
 
     language KSH ; # Kashmiri
@@ -755,7 +755,7 @@ sub kaf-ar by kafDotless-ar miniKeheh-ar;
 sub gaf-ar by keheh-ar gafsarkashabove-ar;
 sub noonThreedotsabove-ar by noonghunna-ar threedotsupabove-ar;
 sub noonAfrican-ar by noonghunna-ar;
-sub yeh-farsi by alefMaksura-ar;
+sub yehFarsi-ar by alefMaksura-ar;
 ";
 tag = isol;
 },
@@ -786,7 +786,7 @@ sub noonAfrican-ar by behDotless-ar.init dotabove-ar;
 sub sad-ar by sad-ar.init;
 sub seen-ar by seen-ar.init;
 sub tah-ar by tah-ar.init;
-sub yeh-farsi by behDotless-ar.init twodotshorizontalbelow-ar;
+sub yehFarsi-ar by behDotless-ar.init twodotshorizontalbelow-ar;
 sub yehbarree-ar by behDotless-ar.init twodotshorizontalbelow-ar;
 sub kashida-ar by kashida-ar.init;
 
@@ -820,7 +820,7 @@ sub noonAfrican-ar by behDotless-ar.medi dotabove-ar;
 sub sad-ar by sad-ar.medi;
 sub seen-ar by seen-ar.medi;
 sub tah-ar by tah-ar.medi;
-sub yeh-farsi by behDotless-ar.medi twodotshorizontalbelow-ar;
+sub yehFarsi-ar by behDotless-ar.medi twodotshorizontalbelow-ar;
 sub behDotless-ar.init.thin by behDotless-ar.medi.thin;
 
 lookup dotcenter_below;
@@ -862,7 +862,7 @@ sub tah-ar by tah-ar.fina;
 sub waw-ar by waw-ar.fina;
 sub wawDotcenter-ar by wawDotcenter-ar.fina;
 sub alefMaksura-ar by alefMaksura-ar.fina;
-sub yeh-farsi by alefMaksura-ar.fina;
+sub yehFarsi-ar by alefMaksura-ar.fina;
 sub yehbarree-ar by yehbarree-ar.fina;
 sub yehRohingya-ar by yehRohingya-ar.fina;
 ";
@@ -979,14 +979,14 @@ sub six-ar by six-ar.tf;
 sub seven-ar by seven-ar.tf;
 sub eight-ar by eight-ar.tf;
 sub nine-ar by nine-ar.tf;
-sub zero-persian by zero-ar.tf;
-sub two-persian by two-ar.tf;
-sub four-persian by four-persian.tf;
-sub five-persian by five-persian.tf;
-sub six-persian by six-persian.tf;
-sub seven-persian by seven-ar.tf;
-sub four-persian.locl by four-persian.locl.tf;
-sub seven-persian.locl by seven-persian.locl.tf;
+sub zeroFarsi-ar by zero-ar.tf;
+sub twoFarsi-ar by two-ar.tf;
+sub fourFarsi-ar by fourFarsi-ar.tf;
+sub fiveFarsi-ar by fiveFarsi-ar.tf;
+sub sixFarsi-ar by sixFarsi-ar.tf;
+sub sevenFarsi-ar by seven-ar.tf;
+sub fourFarsi-ar.locl by fourFarsi-ar.locl.tf;
+sub sevenFarsi-ar.locl by sevenFarsi-ar.locl.tf;
 ";
 tag = tnum;
 },
