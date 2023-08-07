@@ -25,15 +25,11 @@ eight-ar
 nine-ar
 # Persian
 zero-persian
-one-persian
 two-persian
-three-persian
 four-persian
 five-persian
 six-persian
 seven-persian
-eight-persian
-nine-persian
 # sindi/urdu
 four-persian.locl
 seven-persian.locl
@@ -64,15 +60,11 @@ eight-ar.small
 nine-ar.small
 #
 zero-ar.small
-one-ar.small
 two-ar.small
-three-ar.small
 four-persian.small
 five-persian.small
 six-persian.small
 seven-ar.small
-eight-ar.small
-nine-ar.small
 #
 six-persian.small.locl
 seven-persian.small.locl
@@ -103,15 +95,11 @@ eight-ar.medium
 nine-ar.medium
 #
 zero-ar.medium
-one-ar.medium
 two-ar.medium
-three-ar.medium
 four-persian.medium
 five-persian.medium
 six-persian.medium
 seven-ar.medium
-eight-ar.medium
-nine-ar.medium
 #
 six-persian.medium.locl
 seven-persian.medium.locl
@@ -992,15 +980,11 @@ sub seven-ar by seven-ar.tf;
 sub eight-ar by eight-ar.tf;
 sub nine-ar by nine-ar.tf;
 sub zero-persian by zero-ar.tf;
-sub one-persian by one-ar.tf;
 sub two-persian by two-ar.tf;
-sub three-persian by three-ar.tf;
 sub four-persian by four-persian.tf;
 sub five-persian by five-persian.tf;
 sub six-persian by six-persian.tf;
 sub seven-persian by seven-ar.tf;
-sub eight-persian by eight-ar.tf;
-sub nine-persian by nine-ar.tf;
 sub four-persian.locl by four-persian.locl.tf;
 sub seven-persian.locl by seven-persian.locl.tf;
 ";
