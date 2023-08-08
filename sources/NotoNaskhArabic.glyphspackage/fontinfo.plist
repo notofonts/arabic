@@ -970,24 +970,48 @@ code = "# GSUB feature: Standard Ligatures
 tag = liga;
 },
 {
-code = "sub zero-ar by zero-ar.tf;
-sub one-ar by one-ar.tf;
-sub two-ar by two-ar.tf;
-sub three-ar by three-ar.tf;
-sub four-ar by four-ar.tf;
-sub five-ar by five-ar.tf;
-sub six-ar by six-ar.tf;
-sub seven-ar by seven-ar.tf;
-sub eight-ar by eight-ar.tf;
-sub nine-ar by nine-ar.tf;
-sub zeroFarsi-ar by zero-ar.tf;
-sub twoFarsi-ar by two-ar.tf;
-sub fourFarsi-ar by fourFarsi-ar.tf;
-sub fiveFarsi-ar by fiveFarsi-ar.tf;
-sub sixFarsi-ar by sixFarsi-ar.tf;
-sub sevenFarsi-ar by seven-ar.tf;
-sub fourFarsi-ar.locl by fourFarsi-ar.locl.tf;
-sub sevenFarsi-ar.locl by sevenFarsi-ar.locl.tf;
+automatic = 1;
+code = "sub zero-ar by zero-ar.lf;
+sub one-ar by one-ar.lf;
+sub two-ar by two-ar.lf;
+sub three-ar by three-ar.lf;
+sub four-ar by four-ar.lf;
+sub five-ar by five-ar.lf;
+sub six-ar by six-ar.lf;
+sub seven-ar by seven-ar.lf;
+sub eight-ar by eight-ar.lf;
+sub nine-ar by nine-ar.lf;
+sub zeroFarsi-ar by zeroFarsi-ar.lf;
+sub twoFarsi-ar by twoFarsi-ar.lf;
+sub fourFarsi-ar by fourFarsi-ar.lf;
+sub fiveFarsi-ar by fiveFarsi-ar.lf;
+sub sixFarsi-ar by sixFarsi-ar.lf;
+sub sevenFarsi-ar by sevenFarsi-ar.lf;
+sub fourFarsi-ar.locl by fourFarsi-ar.locl.lf;
+sub sevenFarsi-ar.locl by sevenFarsi-ar.locl.lf;
+";
+tag = pnum;
+},
+{
+automatic = 1;
+code = "sub zero-ar.lf by zero-ar;
+sub one-ar.lf by one-ar;
+sub two-ar.lf by two-ar;
+sub three-ar.lf by three-ar;
+sub four-ar.lf by four-ar;
+sub five-ar.lf by five-ar;
+sub six-ar.lf by six-ar;
+sub seven-ar.lf by seven-ar;
+sub eight-ar.lf by eight-ar;
+sub nine-ar.lf by nine-ar;
+sub zeroFarsi-ar.lf by zeroFarsi-ar;
+sub twoFarsi-ar.lf by twoFarsi-ar;
+sub fourFarsi-ar.lf by fourFarsi-ar;
+sub fiveFarsi-ar.lf by fiveFarsi-ar;
+sub sixFarsi-ar.lf by sixFarsi-ar;
+sub sevenFarsi-ar.lf by sevenFarsi-ar;
+sub fourFarsi-ar.locl.lf by fourFarsi-ar.locl;
+sub sevenFarsi-ar.locl.lf by sevenFarsi-ar.locl;
 ";
 tag = tnum;
 },
