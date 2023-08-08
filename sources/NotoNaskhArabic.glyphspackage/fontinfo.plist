@@ -48,6 +48,41 @@ nine
 name = digits;
 },
 {
+code = "zero-ar.mark
+one-ar.mark
+two-ar.mark
+three-ar.mark
+four-ar.mark
+five-ar.mark
+six-ar.mark
+seven-ar.mark
+eight-ar.mark
+nine-ar.mark
+#
+zero-ar.mark
+two-ar.mark
+fourFarsi-ar.mark
+fiveFarsi-ar.mark
+sixFarsi-ar.mark
+seven-ar.mark
+#
+fourFarsi-ar.mark.locl
+sevenFarsi-ar.mark.locl
+# Latin
+zero.mark
+one.mark
+two.mark
+three.mark
+four.mark
+five.mark
+six.mark
+seven.mark
+eight.mark
+nine.mark
+";
+name = digits.mark;
+},
+{
 code = "zero-ar.small
 one-ar.small
 two-ar.small
@@ -243,12 +278,9 @@ name = substending.4;
 },
 {
 code = "@substending.4
-#endofayah-ar
 #disputedendofayah-ar
 number-ar
 pagenumber-ar
-#piastre-ar
-#pound-ar
 ";
 name = substending.3;
 },
@@ -376,7 +408,11 @@ code = "lookup markligatures {
 name = MarkLigatures;
 },
 {
-code = "lookup medium_digits {
+code = "lookup mark_digits {
+	sub @digits by @digits.mark;
+} mark_digits;
+
+lookup medium_digits {
 	sub @digits by @digits.medium;
 } medium_digits;
 
@@ -392,8 +428,8 @@ lookup subtending_2 {
 #	sub disputedendofayah-ar	by disputedendofayah-ar.2;
 	sub footnotemarker-ar		by footnotemarker-ar.2;
 	sub number-ar				by number-ar.2;
-#	sub pound-ar				by pound-ar.2;
-#	sub piastre-ar				by piastre-ar.2;
+	sub pound-ar				by pound-ar.2;
+	sub piastre-ar				by piastre-ar.2;
 } subtending_2;
 
 lookup subtending_3 {
@@ -403,8 +439,8 @@ lookup subtending_3 {
 	sub endofayah-ar			by endofayah-ar.3;
 #	sub disputedendofayah-ar	by disputedendofayah-ar.3;
 	sub number-ar				by number-ar.3;
-#	sub pound-ar				by pound-ar.3;
-#	sub piastre-ar				by piastre-ar.3;
+	sub pound-ar				by pound-ar.3;
+	sub piastre-ar				by piastre-ar.3;
 } subtending_3;
 
 lookup subtending_4 {
@@ -906,18 +942,33 @@ lookup lam_alef {
 
 lookup subtending_marks {
  lookupflag 0;
+
+ sub  [piastre-ar pound-ar]' lookup subtending_3
+      @digits' lookup mark_digits
+      @digits' lookup mark_digits
+      @digits' lookup mark_digits
+ ;
+
+ sub  [piastre-ar pound-ar]' lookup subtending_2
+      @digits' lookup mark_digits
+      @digits' lookup mark_digits
+ ;
 	     
+ sub  [piastre-ar pound-ar]'
+      @digits' lookup mark_digits
+ ;
+
  sub  endofayah-ar' lookup subtending_3
       @digits' lookup small_digits
       @digits' lookup small_digits
       @digits' lookup small_digits
  ;
-     
+
  sub  endofayah-ar' lookup subtending_2
       @digits' lookup small_digits
       @digits' lookup small_digits
  ;
-	     
+
  sub  endofayah-ar'
       @digits' lookup small_digits
  ;
@@ -1121,6 +1172,7 @@ numberValues = (
 0
 );
 userData = {
+GSCornerRadius = 5;
 GSOffsetHorizontal = -15;
 GSOffsetKeepCompatible = 1;
 GSOffsetProportional = 1;
@@ -1227,9 +1279,10 @@ numberValues = (
 0
 );
 userData = {
-GSOffsetHorizontal = 15;
+GSCornerRadius = 5;
+GSOffsetHorizontal = 5;
 GSOffsetKeepCompatible = 1;
-GSOffsetVertical = 10;
+GSOffsetVertical = 21;
 };
 }
 );

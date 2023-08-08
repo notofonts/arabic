@@ -17574,13 +17574,343 @@
       sortName="arMn0198"
   />
 <glyph
+      name="zero.mark"
+      production="zero.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0199"
+      decompose="zero"
+  />
+<glyph
+      name="one.mark"
+      production="one.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0200"
+      decompose="one"
+  />
+<glyph
+      name="two.mark"
+      production="two.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0201"
+      decompose="two"
+  />
+<glyph
+      name="three.mark"
+      production="three.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0202"
+      decompose="three"
+  />
+<glyph
+      name="four.mark"
+      production="four.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0203"
+      decompose="four"
+  />
+<glyph
+      name="five.mark"
+      production="five.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0204"
+      decompose="five"
+  />
+<glyph
+      name="six.mark"
+      production="six.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0205"
+      decompose="six"
+  />
+<glyph
+      name="seven.mark"
+      production="seven.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0206"
+      decompose="seven"
+  />
+<glyph
+      name="eight.mark"
+      production="eight.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0207"
+      decompose="eight"
+  />
+<glyph
+      name="nine.mark"
+      production="nine.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0208"
+      decompose="nine"
+  />
+<glyph
+      name="zero-ar.mark"
+      production="uni0660.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0209"
+      decompose="zero-ar"
+  />
+<glyph
+      name="one-ar.mark"
+      production="uni0661.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0210"
+      decompose="one-ar"
+  />
+<glyph
+      name="two-ar.mark"
+      production="uni0662.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0211"
+      decompose="two-ar"
+  />
+<glyph
+      name="three-ar.mark"
+      production="uni0663.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0212"
+      decompose="three-ar"
+  />
+<glyph
+      name="four-ar.mark"
+      production="uni0664.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0213"
+      decompose="four-ar"
+  />
+<glyph
+      name="five-ar.mark"
+      production="uni0665.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0214"
+      decompose="five-ar"
+  />
+<glyph
+      name="six-ar.mark"
+      production="uni0666.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0215"
+      decompose="six-ar"
+  />
+<glyph
+      name="seven-ar.mark"
+      production="uni0667.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0216"
+      decompose="seven-ar"
+  />
+<glyph
+      name="eight-ar.mark"
+      production="uni0668.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0217"
+      decompose="eight-ar"
+  />
+<glyph
+      name="nine-ar.mark"
+      production="uni0669.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0218"
+      decompose="nine-ar"
+  />
+<glyph
+      name="zeroFarsi-ar.mark"
+      production="uni06F0.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0219"
+      decompose="zeroFarsi-ar.alt"
+  />
+<glyph
+      name="zeroFarsi-ar.alt.mark"
+      production="uni06F0.alt.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0220"
+      decompose="zeroFarsi-ar.alt"
+  />
+<glyph
+      name="oneFarsi-ar.mark"
+      production="uni06F1.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0221"
+      decompose="oneFarsi-ar"
+  />
+<glyph
+      name="twoFarsi-ar.mark"
+      production="uni06F2.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0222"
+      decompose="twoFarsi-ar"
+  />
+<glyph
+      name="threeFarsi-ar.mark"
+      production="uni06F3.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0223"
+      decompose="threeFarsi-ar"
+  />
+<glyph
+      name="fourFarsi-ar.mark"
+      production="uni06F4.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0224"
+      decompose="fourFarsi-ar"
+  />
+<glyph
+      name="fourFarsi-ar.alt.mark"
+      production="uni06F4.alt.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0225"
+      decompose="fourFarsi-ar.alt"
+  />
+<glyph
+      name="fiveFarsi-ar.mark"
+      production="uni06F5.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0226"
+      decompose="fiveFarsi-ar"
+  />
+<glyph
+      name="sixFarsi-ar.mark"
+      production="uni06F6.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0227"
+      decompose="sixFarsi-ar"
+  />
+<glyph
+      name="sevenFarsi-ar.mark"
+      production="uni06F7.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0228"
+      decompose="sevenFarsi-ar"
+  />
+<glyph
+      name="sevenFarsi-ar.alt.mark"
+      production="uni06F7.alt.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0229"
+      decompose="sevenFarsi-ar.alt"
+  />
+<glyph
+      name="eightFarsi-ar.mark"
+      production="uni06F8.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0230"
+      decompose="eightFarsi-ar"
+  />
+<glyph
+      name="nineFarsi-ar.mark"
+      production="uni06F9.mark"
+      script="arabic"
+      category="Mark"
+      subCategory="Nonspacing"
+      anchors="_digits, digits"
+      sortName="arMn0231"
+      decompose="nineFarsi-ar"
+  />
+<glyph
       name="zero.medium"
       production="zero.medium"
       script="arabic"
       category="Mark"
       subCategory="Nonspacing"
       anchors="_digits, digits"
-      sortName="arMn0199"
+      sortName="arMn0232"
   />
 <glyph
       name="one.medium"
@@ -17589,7 +17919,7 @@
       category="Mark"
       subCategory="Nonspacing"
       anchors="_digits, digits"
-      sortName="arMn0200"
+      sortName="arMn0233"
   />
 <glyph
       name="two.medium"
@@ -17598,7 +17928,7 @@
       category="Mark"
       subCategory="Nonspacing"
       anchors="_digits, digits"
-      sortName="arMn0201"
+      sortName="arMn0234"
   />
 <glyph
       name="three.medium"
