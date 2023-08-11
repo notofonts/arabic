@@ -278,7 +278,6 @@ name = substending.4;
 },
 {
 code = "@substending.4
-#disputedendofayah-ar
 number-ar
 pagenumber-ar
 ";
@@ -425,7 +424,7 @@ lookup subtending_2 {
 	sub year-ar					by year-ar.2;
 	sub pagenumber-ar			by pagenumber-ar.2;
 	sub endofayah-ar			by endofayah-ar.2;
-#	sub disputedendofayah-ar	by disputedendofayah-ar.2;
+	sub disputedendofayah-ar	by disputedendofayah-ar.2;
 	sub footnotemarker-ar		by footnotemarker-ar.2;
 	sub number-ar				by number-ar.2;
 	sub pound-ar				by pound-ar.2;
@@ -437,7 +436,7 @@ lookup subtending_3 {
 	sub year-ar					by year-ar.3;
 	sub pagenumber-ar			by pagenumber-ar.3;
 	sub endofayah-ar			by endofayah-ar.3;
-#	sub disputedendofayah-ar	by disputedendofayah-ar.3;
+	sub disputedendofayah-ar	by disputedendofayah-ar.3;
 	sub number-ar				by number-ar.3;
 	sub pound-ar				by pound-ar.3;
 	sub piastre-ar				by piastre-ar.3;
@@ -958,18 +957,18 @@ lookup subtending_marks {
       @digits' lookup mark_digits
  ;
 
- sub  endofayah-ar' lookup subtending_3
+ sub  [endofayah-ar disputedendofayah-ar]' lookup subtending_3
       @digits' lookup small_digits
       @digits' lookup small_digits
       @digits' lookup small_digits
  ;
 
- sub  endofayah-ar' lookup subtending_2
+ sub  [endofayah-ar disputedendofayah-ar]' lookup subtending_2
       @digits' lookup small_digits
       @digits' lookup small_digits
  ;
 
- sub  endofayah-ar'
+ sub  [endofayah-ar disputedendofayah-ar]'
       @digits' lookup small_digits
  ;
 
