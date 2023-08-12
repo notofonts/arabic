@@ -1,0 +1,48 @@
+{
+glyphname = "wawbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (83,-19);
+},
+{
+name = bottom3;
+pos = (83,-266);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (0,-1001);
+ref = "wawabove-ar";
+}
+);
+width = 165;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (88,-18);
+},
+{
+name = bottom3;
+pos = (88,-265);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+pos = (0,-996);
+ref = "wawabove-ar";
+}
+);
+width = 176;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+unicode = 2259;
+}

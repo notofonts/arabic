@@ -1,0 +1,152 @@
+{
+glyphname = "largerounddotabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (114,739);
+},
+{
+name = top3;
+pos = (114,999);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(177,748,o),
+(228,799,o),
+(228,862,cs),
+(228,925,o),
+(177,976,o),
+(114,976,cs),
+(51,976,o),
+(0,925,o),
+(0,862,cs),
+(0,799,o),
+(51,748,o),
+(114,748,cs)
+);
+}
+);
+width = 228;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (125,735);
+},
+{
+name = top3;
+pos = (125,1007);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+closed = 1;
+nodes = (
+(195,736,o),
+(251,792,o),
+(251,861,cs),
+(251,931,o),
+(195,987,o),
+(125,987,cs),
+(56,987,o),
+(0,931,o),
+(0,861,cs),
+(0,792,o),
+(56,736,o),
+(125,736,cs)
+);
+}
+);
+width = 251;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (114,606);
+},
+{
+name = _top.tashkil;
+pos = (114,706);
+},
+{
+name = top.tashkil;
+pos = (114,944);
+}
+);
+associatedMasterId = master01;
+layerId = "51E85270-978E-45E6-9D8D-F5CEB6001BC2";
+name = "Text Regular";
+shapes = (
+{
+closed = 1;
+nodes = (
+(177,716,o),
+(228,767,o),
+(228,830,cs),
+(228,893,o),
+(177,944,o),
+(114,944,cs),
+(51,944,o),
+(0,893,o),
+(0,830,cs),
+(0,767,o),
+(51,716,o),
+(114,716,cs)
+);
+}
+);
+width = 228;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (126,606);
+},
+{
+name = _top.tashkil;
+pos = (126,706);
+},
+{
+name = top.tashkil;
+pos = (125,967);
+}
+);
+associatedMasterId = master01;
+layerId = "EB9C6FAF-A60D-4D67-A452-2612375DF00F";
+name = "Text Bold";
+shapes = (
+{
+closed = 1;
+nodes = (
+(195,716,o),
+(251,772,o),
+(251,841,cs),
+(251,911,o),
+(195,967,o),
+(125,967,cs),
+(56,967,o),
+(0,911,o),
+(0,841,cs),
+(0,772,o),
+(56,716,o),
+(125,716,cs)
+);
+}
+);
+width = 251;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+unicode = 2254;
+}

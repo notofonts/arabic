@@ -1172,8 +1172,11 @@ numberValues = (
 );
 userData = {
 GSCornerRadius = 5;
-GSOffsetHorizontal = -15;
+GSOffsetAutoStroke = 1;
+GSOffsetHorizontal = -10;
 GSOffsetKeepCompatible = 1;
+GSOffsetMakeStroke = 1;
+GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
@@ -1276,9 +1279,12 @@ numberValues = (
 );
 userData = {
 GSCornerRadius = 5;
-GSOffsetHorizontal = 5;
+GSOffsetAutoStroke = 1;
+GSOffsetHorizontal = -10;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
+GSOffsetPosition = 1;
+GSOffsetProportional = 1;
 GSOffsetVertical = 21;
 };
 }
