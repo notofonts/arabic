@@ -11,6 +11,7 @@ ref = "lam-ar.medi.rlig";
 ref = "alef-ar.fina.rlig.2";
 },
 {
+anchor = top.far;
 pos = (-46,-147);
 ref = "madda-ar";
 }
@@ -38,7 +39,8 @@ ref = "lam-ar.medi.rlig";
 ref = "alef-ar.fina.rlig.2";
 },
 {
-pos = (-49,34);
+anchor = top.far;
+pos = (-49,-144);
 ref = "madda-ar";
 }
 );
