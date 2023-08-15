@@ -1,0 +1,106 @@
+{
+glyphname = "arrubabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (307,689);
+},
+{
+name = _top3;
+pos = (307,689);
+},
+{
+name = _top_two;
+pos = (307,689);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (520,800);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (439,800);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (286,800);
+ref = "reh-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (181,800);
+ref = "beh-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,800);
+ref = "ain-ar.fina";
+scale = (0.38,0.38);
+}
+);
+width = 610;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (315,689);
+},
+{
+name = _top3;
+pos = (315,689);
+},
+{
+name = _top_two;
+pos = (315,689);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+pos = (518,800);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (436,800);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (286,800);
+ref = "reh-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (181,800);
+ref = "beh-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,800);
+ref = "ain-ar.fina";
+scale = (0.38,0.38);
+}
+);
+width = 626;
+}
+);
+unicode = 2260;
+}
