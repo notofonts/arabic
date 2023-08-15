@@ -8,12 +8,20 @@ name = bottom;
 pos = (166,-100);
 },
 {
+name = stroke;
+pos = (242,222);
+},
+{
+name = stroke.right;
+pos = (222,368);
+},
+{
 name = top.digit;
 pos = (64,572);
 },
 {
 name = top.far;
-pos = (89,563);
+pos = (89,566);
 },
 {
 name = top.near;
@@ -58,6 +66,14 @@ anchors = (
 {
 name = bottom;
 pos = (166,-110);
+},
+{
+name = stroke;
+pos = (237,233);
+},
+{
+name = stroke.right;
+pos = (246,384);
 },
 {
 name = top.digit;
