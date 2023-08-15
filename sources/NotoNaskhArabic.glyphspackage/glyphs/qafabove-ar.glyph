@@ -1,0 +1,32 @@
+{
+glyphname = "qafabove-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (-26,848);
+ref = "qaf-ar";
+scale = (0.38,0.38);
+}
+);
+width = 200;
+},
+{
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+pos = (-26,834);
+ref = "qaf-ar";
+scale = (0.38,0.38);
+}
+);
+width = 202;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+unicode = 2263;
+}

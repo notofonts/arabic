@@ -1,0 +1,32 @@
+{
+glyphname = "sadabove-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (-26,848);
+ref = "sad-ar";
+scale = (0.38,0.38);
+}
+);
+width = 371;
+},
+{
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+pos = (-26,834);
+ref = "sad-ar";
+scale = (0.38,0.38);
+}
+);
+width = 385;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+unicode = 2261;
+}
