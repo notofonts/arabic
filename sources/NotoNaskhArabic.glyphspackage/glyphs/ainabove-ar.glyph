@@ -1,12 +1,19 @@
 {
+color = 4;
 glyphname = "ainabove-ar";
 layers = (
 {
+anchors = (
+{
+name = _stop;
+pos = (105.5,1030);
+}
+);
 layerId = master01;
 shapes = (
 {
 alignment = -1;
-pos = (-28,857);
+pos = (-28,1157);
 ref = "ain-ar";
 scale = (0.38,0.38);
 }
@@ -14,11 +21,17 @@ scale = (0.38,0.38);
 width = 211;
 },
 {
+anchors = (
+{
+name = _stop;
+pos = (100.5,1030);
+}
+);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
 alignment = -1;
-pos = (-32,852);
+pos = (-32,1152);
 ref = "ain-ar";
 scale = (0.38,0.38);
 }

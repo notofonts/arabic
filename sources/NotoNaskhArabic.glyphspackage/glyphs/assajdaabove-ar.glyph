@@ -1,52 +1,49 @@
 {
+color = 4;
 glyphname = "assajdaabove-ar";
 layers = (
 {
 anchors = (
 {
-name = _top;
-pos = (503,712);
-},
-{
-name = _top3;
-pos = (503,712);
+name = _stop;
+pos = (505.5,1030);
 }
 );
 layerId = master01;
 shapes = (
 {
 alignment = -1;
-pos = (921,800);
+pos = (921,1049);
 ref = "alef-ar";
 scale = (0.38,0.38);
 },
 {
 alignment = -1;
-pos = (840,800);
+pos = (840,1049);
 ref = "lam-ar.init";
 scale = (0.38,0.38);
 },
 {
 alignment = -1;
-pos = (588,800);
+pos = (588,1049);
 ref = "seen-ar.medi";
 scale = (0.38,0.38);
 },
 {
 alignment = -1;
-pos = (335,800);
+pos = (335,1049);
 ref = "jeem-ar.medi";
 scale = (0.38,0.38);
 },
 {
 alignment = -1;
-pos = (155,800);
+pos = (155,1049);
 ref = "dal-ar.fina";
 scale = (0.38,0.38);
 },
 {
 alignment = -1;
-pos = (0,800);
+pos = (0,1049);
 ref = "tehMarbuta-ar";
 scale = (0.38,0.38);
 }
@@ -56,49 +53,45 @@ width = 1011;
 {
 anchors = (
 {
-name = _top;
-pos = (526,729);
-},
-{
-name = _top3;
-pos = (526,729);
+name = _stop;
+pos = (525.5,1030);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
 alignment = -1;
-pos = (943,800);
+pos = (943,1040);
 ref = "alef-ar";
 scale = (0.38,0.38);
 },
 {
 alignment = -1;
-pos = (860,800);
+pos = (860,1040);
 ref = "lam-ar.init";
 scale = (0.38,0.38);
 },
 {
 alignment = -1;
-pos = (595,800);
+pos = (595,1040);
 ref = "seen-ar.medi";
 scale = (0.38,0.38);
 },
 {
 alignment = -1;
-pos = (346,800);
+pos = (346,1040);
 ref = "jeem-ar.medi";
 scale = (0.38,0.38);
 },
 {
 alignment = -1;
-pos = (162,800);
+pos = (162,1040);
 ref = "dal-ar.fina";
 scale = (0.38,0.38);
 },
 {
 alignment = -1;
-pos = (0,800);
+pos = (0,1040);
 ref = "tehMarbuta-ar";
 scale = (0.38,0.38);
 }

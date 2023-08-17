@@ -1,26 +1,19 @@
 {
+color = 4;
 glyphname = "lamAlefabove-ar";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-pos = (112,-303);
-},
-{
-name = top.far;
-pos = (96,1057);
-},
-{
-name = top.near;
-pos = (96,1057);
+name = _stop;
+pos = (82,1030);
 }
 );
 layerId = master01;
 shapes = (
 {
 alignment = -1;
-pos = (-13,748);
+pos = (-13,1048);
 ref = "lam_alef-ar";
 scale = (0.38,0.38);
 }
@@ -30,23 +23,15 @@ width = 164;
 {
 anchors = (
 {
-name = bottom;
-pos = (117,-313);
-},
-{
-name = top.far;
-pos = (101,1047);
-},
-{
-name = top.near;
-pos = (101,1047);
+name = _stop;
+pos = (87.5,1030);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
 alignment = -1;
-pos = (-13,738);
+pos = (-13,1038);
 ref = "lam_alef-ar";
 scale = (0.38,0.38);
 }
