@@ -4,15 +4,11 @@ layers = (
 {
 anchors = (
 {
-name = _top;
+name = _top.far;
 pos = (118,741);
 },
 {
 name = top.far;
-pos = (118,948);
-},
-{
-name = top.near;
 pos = (118,948);
 }
 );
@@ -24,7 +20,7 @@ ref = "rightarrowheadabove-ar";
 },
 {
 alignment = -1;
-pos = (48,262);
+pos = (0,260);
 ref = _1037;
 }
 );
@@ -33,15 +29,11 @@ width = 201;
 {
 anchors = (
 {
-name = _top;
+name = _top.far;
 pos = (123,741);
 },
 {
 name = top.far;
-pos = (123,949);
-},
-{
-name = top.near;
 pos = (123,949);
 }
 );
@@ -53,7 +45,7 @@ ref = "rightarrowheadabove-ar";
 },
 {
 alignment = -1;
-pos = (53,254);
+pos = (0,246);
 ref = _1037;
 }
 );

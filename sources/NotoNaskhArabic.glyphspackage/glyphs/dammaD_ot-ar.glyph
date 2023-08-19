@@ -4,12 +4,12 @@ layers = (
 {
 anchors = (
 {
-name = _top;
+name = _top.far;
 pos = (138,748);
 },
 {
-name = top3;
-pos = (122,944);
+name = top.far;
+pos = (82,944);
 }
 );
 layerId = master01;
@@ -19,7 +19,8 @@ pos = (36,0);
 ref = "damma-ar";
 },
 {
-pos = (48,271);
+alignment = -1;
+pos = (0,260);
 ref = _1037;
 }
 );
@@ -28,11 +29,11 @@ width = 211;
 {
 anchors = (
 {
-name = _top;
+name = _top.far;
 pos = (143,740);
 },
 {
-name = top3;
+name = top.far;
 pos = (127,936);
 }
 );
@@ -43,7 +44,8 @@ pos = (36,0);
 ref = "damma-ar";
 },
 {
-pos = (53,254);
+alignment = -1;
+pos = (0,243);
 ref = _1037;
 }
 );

@@ -2,32 +2,52 @@
 glyphname = "fathatanCurly-ar";
 layers = (
 {
+anchors = (
+{
+name = _top.far;
+pos = (131,748);
+},
+{
+name = top.far;
+pos = (105,1016);
+}
+);
 layerId = master01;
 shapes = (
 {
-pos = (52,0);
+alignment = 1;
 ref = "fathaCurly-ar";
 },
 {
-pos = (0,110);
+pos = (-13,134);
 ref = "fathaCurly-ar";
 }
 );
-width = 284;
+width = 232;
 },
 {
+anchors = (
+{
+name = _top.far;
+pos = (134,737);
+},
+{
+name = top.far;
+pos = (108,1005);
+}
+);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-pos = (52,0);
+alignment = 1;
 ref = "fathaCurly-ar";
 },
 {
-pos = (0,110);
+pos = (-13,134);
 ref = "fathaCurly-ar";
 }
 );
-width = 294;
+width = 242;
 }
 );
 metricLeft = "=0";

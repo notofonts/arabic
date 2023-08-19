@@ -5,8 +5,13 @@ layers = (
 layerId = master01;
 shapes = (
 {
-pos = (15,0);
-ref = "shadda_fatha-ar";
+alignment = -1;
+pos = (41,0);
+ref = "shadda-ar";
+},
+{
+pos = (27,101);
+ref = "fatha-ar";
 }
 );
 width = 221;
@@ -15,8 +20,13 @@ width = 221;
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-pos = (14,0);
-ref = "shadda_fatha-ar";
+alignment = -1;
+pos = (26,0);
+ref = "shadda-ar";
+},
+{
+pos = (22,106);
+ref = "fatha-ar";
 }
 );
 width = 221;

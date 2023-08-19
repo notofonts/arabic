@@ -1,21 +1,20 @@
 {
-glyphname = "meembelow-ar";
+glyphname = "meemnear-ar";
 layers = (
 {
 anchors = (
 {
-name = _bottom;
-pos = (63,-37);
+name = _top.near;
+pos = (73,747);
 },
 {
-name = _bottom.meem;
-pos = (131,-105);
+name = top.far;
+pos = (63,1007);
 }
 );
 layerId = master01;
 shapes = (
 {
-pos = (0,-1019);
 ref = "meemabove-ar";
 }
 );
@@ -24,18 +23,17 @@ width = 131;
 {
 anchors = (
 {
-name = _bottom;
-pos = (68,-33);
+name = _top.near;
+pos = (72,738);
 },
 {
-name = _bottom.meem;
-pos = (141,-103);
+name = top.far;
+pos = (68,1002);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-pos = (0,-1008);
 ref = "meemabove-ar";
 }
 );
@@ -44,5 +42,4 @@ width = 141;
 );
 metricLeft = "=0";
 metricRight = "=0";
-unicode = 1773;
 }

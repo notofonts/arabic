@@ -15,14 +15,19 @@ alignment = 1;
 ref = "allah-ar.2";
 },
 {
-anchor = bottom_3;
-pos = (163,-62);
-ref = "kasra-ar";
+alignment = -1;
+pos = (456,-230);
+ref = "shadda-ar";
 },
 {
-anchor = top_2;
-pos = (457,-179);
-ref = "shadda_fatha-ar";
+alignment = -1;
+pos = (438,-115);
+ref = "fatha-ar";
+},
+{
+anchor = bottom_3;
+pos = (163,-60);
+ref = "kasra-ar";
 }
 );
 width = 1190;
@@ -39,14 +44,19 @@ alignment = 1;
 ref = "allah-ar.2";
 },
 {
+alignment = -1;
+pos = (482,-156);
+ref = "shadda-ar";
+},
+{
+alignment = -1;
+pos = (473,-55);
+ref = "fatha-ar";
+},
+{
 anchor = bottom_3;
 pos = (155,-74);
 ref = "kasra-ar";
-},
-{
-anchor = top_2;
-pos = (464,-101);
-ref = "shadda_fatha-ar";
 }
 );
 width = 1251;

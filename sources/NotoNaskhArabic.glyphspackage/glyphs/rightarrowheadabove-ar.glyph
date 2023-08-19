@@ -4,15 +4,11 @@ layers = (
 {
 anchors = (
 {
-name = _top;
+name = _top.far;
 pos = (81,741);
 },
 {
 name = top.far;
-pos = (81,948);
-},
-{
-name = top.near;
 pos = (81,948);
 }
 );
@@ -56,15 +52,11 @@ width = 164;
 {
 anchors = (
 {
-name = _top;
-pos = (85,741);
+name = _top.far;
+pos = (85,738);
 },
 {
 name = top.far;
-pos = (85,949);
-},
-{
-name = top.near;
 pos = (85,949);
 }
 );

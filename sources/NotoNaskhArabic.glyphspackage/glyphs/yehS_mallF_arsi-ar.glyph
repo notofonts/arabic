@@ -2,6 +2,20 @@
 glyphname = "yehSmallFarsi-ar";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (124,-94);
+},
+{
+name = top.far;
+pos = (124,240);
+},
+{
+name = top.near;
+pos = (124,240);
+}
+);
 layerId = master01;
 shapes = (
 {
@@ -14,6 +28,20 @@ scale = (0.38,0.38);
 width = 235;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (127,-85);
+},
+{
+name = top.far;
+pos = (127,260);
+},
+{
+name = top.near;
+pos = (127,260);
+}
+);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {

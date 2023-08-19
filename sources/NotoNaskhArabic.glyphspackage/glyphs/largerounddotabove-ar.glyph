@@ -4,11 +4,11 @@ layers = (
 {
 anchors = (
 {
-name = _top;
-pos = (114,739);
+name = _top.far;
+pos = (114,748);
 },
 {
-name = top3;
+name = top.far;
 pos = (114,999);
 }
 );
@@ -37,11 +37,11 @@ width = 228;
 {
 anchors = (
 {
-name = _top;
+name = _top.far;
 pos = (125,735);
 },
 {
-name = top3;
+name = top.far;
 pos = (125,1007);
 }
 );
@@ -70,16 +70,12 @@ width = 251;
 {
 anchors = (
 {
-name = _top;
+name = _top.far;
 pos = (114,606);
 },
 {
 name = _top.tashkil;
 pos = (114,706);
-},
-{
-name = top.tashkil;
-pos = (114,944);
 }
 );
 associatedMasterId = master01;
@@ -109,16 +105,12 @@ width = 228;
 {
 anchors = (
 {
-name = _top;
+name = _top.far;
 pos = (126,606);
 },
 {
 name = _top.tashkil;
 pos = (126,706);
-},
-{
-name = top.tashkil;
-pos = (125,967);
 }
 );
 associatedMasterId = master01;

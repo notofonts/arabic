@@ -4,23 +4,20 @@ layers = (
 {
 anchors = (
 {
-name = _top.near;
-pos = (106,696);
+name = _top.far;
+pos = (106,748);
 },
 {
 name = top.far;
-pos = (123,972);
-},
-{
-name = top.near;
 pos = (123,972);
 }
 );
 layerId = master01;
 shapes = (
 {
-alignment = 1;
-ref = "tahabove-ar";
+alignment = -1;
+pos = (0,-300);
+ref = "tahStop-ar";
 },
 {
 alignment = -1;
@@ -34,23 +31,20 @@ width = 222;
 {
 anchors = (
 {
-name = _top.near;
-pos = (119,699);
+name = _top.far;
+pos = (119,738);
 },
 {
 name = top.far;
-pos = (123,965);
-},
-{
-name = top.near;
 pos = (123,965);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = 1;
-ref = "tahabove-ar";
+alignment = -1;
+pos = (0,-300);
+ref = "tahStop-ar";
 },
 {
 alignment = -1;
@@ -59,7 +53,7 @@ ref = "dotabove-ar";
 scale = (0.38,0.38);
 }
 );
-width = 220;
+width = 238;
 }
 );
 unicode = 2253;

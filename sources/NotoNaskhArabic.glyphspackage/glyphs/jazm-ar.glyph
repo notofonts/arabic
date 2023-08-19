@@ -5,10 +5,10 @@ layers = (
 anchors = (
 {
 name = _top.far;
-pos = (81,738);
+pos = (81,748);
 },
 {
-name = top3;
+name = top.far;
 pos = (81,900);
 }
 );
@@ -52,7 +52,7 @@ name = _top.far;
 pos = (87,736);
 },
 {
-name = top3;
+name = top.far;
 pos = (87,898);
 }
 );

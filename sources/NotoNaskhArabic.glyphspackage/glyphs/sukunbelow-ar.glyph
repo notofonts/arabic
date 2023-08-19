@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = _bottom;
-pos = (42,6);
+pos = (50,-37);
 },
 {
 name = bottom;
-pos = (49,-209);
+pos = (49,-189);
 }
 );
 layerId = master01;
@@ -25,7 +25,7 @@ width = 102;
 anchors = (
 {
 name = _bottom;
-pos = (49,21);
+pos = (54,-33);
 },
 {
 name = bottom;

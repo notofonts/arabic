@@ -5,15 +5,15 @@ layers = (
 anchors = (
 {
 name = _top.far;
-pos = (101,738);
+pos = (89,748);
 },
 {
 name = top.far;
 pos = (88,872);
 },
 {
-name = top.near;
-pos = (88,872);
+name = top.meem;
+pos = (73,878);
 }
 );
 layerId = master01;
@@ -41,15 +41,15 @@ width = 182;
 anchors = (
 {
 name = _top.far;
-pos = (103,746);
+pos = (98,738);
 },
 {
 name = top.far;
 pos = (90,880);
 },
 {
-name = top.near;
-pos = (90,880);
+name = top.meem;
+pos = (65,878);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";

@@ -374,16 +374,10 @@ name = Prefix;
 code = "lookup markligatures {
   # This needs to be contextualised on not having tone marks following
   sub fathatan-ar shadda-ar by shadda_fathatan-ar;
-  sub dammatan-ar shadda-ar by shadda_dammatan-ar;
   sub kasratan-ar shadda-ar by shadda_kasratan-ar;
-  sub fatha-ar shadda-ar by shadda_fatha-ar;
-  sub damma-ar shadda-ar by shadda_damma-ar;
   sub kasra-ar shadda-ar by shadda_kasra-ar;
   sub shadda-ar fathatan-ar by shadda_fathatan-ar;
-  sub shadda-ar dammatan-ar by shadda_dammatan-ar;
   sub shadda-ar kasratan-ar by shadda_kasratan-ar;
-  sub shadda-ar fatha-ar by shadda_fatha-ar;
-  sub shadda-ar damma-ar by shadda_damma-ar;
   sub shadda-ar kasra-ar by shadda_kasra-ar;
   sub shadda-ar alefabove-ar by shadda_alefabove-ar;
   sub alefabove-ar shadda-ar by shadda_alefabove-ar;
@@ -512,8 +506,8 @@ lookup decomposition {
   sub behVabove-ar by behDotless-ar vabove-ar;
   sub behVbelow-ar by behDotless-ar vbelow-ar;
   sub behhamzaabove-ar by behDotless-ar hamzaabove-ar dotbelow-ar;
-  sub behMeemabove-ar by behDotless-ar dotbelow-ar meemabove-ar;
-  sub pehMeemabove-ar by behDotless-ar threedotsdownbelow-ar meemabove-ar;
+  sub behMeemabove-ar by behDotless-ar dotbelow-ar meemnear-ar;
+  sub pehMeemabove-ar by behDotless-ar threedotsdownbelow-ar meemnear-ar;
   sub tehTehabove-ar by behDotless-ar tehabove-ar;
   sub tehRing-ar by behDotless-ar twodotshorizontalabove-ar ringbelow-ar;
 

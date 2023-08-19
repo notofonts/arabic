@@ -17,7 +17,7 @@ pos = (887,0);
 ref = "hah-ar.medi";
 },
 {
-pos = (1085,-162);
+pos = (1097,-172);
 ref = "fatha-ar";
 },
 {
@@ -25,8 +25,13 @@ pos = (474,0);
 ref = "meem-ar.medi";
 },
 {
-pos = (577,-186);
-ref = "shadda_fatha-ar";
+alignment = 1;
+pos = (597,-186);
+ref = "shadda-ar";
+},
+{
+pos = (583,-85);
+ref = "fatha-ar";
 },
 {
 ref = "dal-ar.fina";
@@ -50,7 +55,7 @@ pos = (898,0);
 ref = "hah-ar.medi";
 },
 {
-pos = (1094,-150);
+pos = (1099,-142);
 ref = "fatha-ar";
 },
 {
@@ -58,8 +63,13 @@ pos = (485,0);
 ref = "meem-ar.medi";
 },
 {
-pos = (607,-207);
-ref = "shadda_fatha-ar";
+alignment = 1;
+pos = (622,-190);
+ref = "shadda-ar";
+},
+{
+pos = (618,-84);
+ref = "fatha-ar";
 },
 {
 ref = "dal-ar.fina";

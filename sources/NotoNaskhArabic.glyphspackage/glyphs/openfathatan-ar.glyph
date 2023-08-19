@@ -4,6 +4,62 @@ layers = (
 {
 anchors = (
 {
+name = _top.far;
+pos = (89,748);
+},
+{
+name = top.far;
+pos = (175,988);
+},
+{
+name = top.meem;
+pos = (63,878);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (87,116);
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+ref = "fatha-ar";
+}
+);
+width = 269;
+},
+{
+anchors = (
+{
+name = _top.far;
+pos = (98,738);
+},
+{
+name = top.far;
+pos = (177,996);
+},
+{
+name = top.meem;
+pos = (65,878);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+pos = (87,116);
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+ref = "fatha-ar";
+}
+);
+width = 275;
+},
+{
+anchors = (
+{
 name = _top;
 pos = (101,738);
 },
@@ -12,43 +68,21 @@ name = top.far;
 pos = (175,988);
 },
 {
-name = top.near;
-pos = (175,988);
+name = top.meem;
+pos = (83,868);
 }
 );
-layerId = master01;
+associatedMasterId = master01;
+layerId = "AA0340DA-A8F6-438D-93FD-D6542026422E";
+name = "20 Aug 23 at 01:04";
 shapes = (
 {
-closed = 1;
-nodes = (
-(70,769,o),
-(123,789,o),
-(159,806,cs),
-(175,813,o),
-(182,825,o),
-(182,841,c),
-(181,852,l),
-(148,839,o),
-(89,819,o),
-(5,791,c),
-(0,748,l)
-);
+pos = (87,116);
+ref = "fatha-ar";
 },
 {
-closed = 1;
-nodes = (
-(157,885,o),
-(210,905,o),
-(246,922,cs),
-(262,929,o),
-(269,941,o),
-(269,957,c),
-(268,968,l),
-(235,955,o),
-(176,935,o),
-(92,907,c),
-(87,864,l)
-);
+alignment = -1;
+ref = "fatha-ar";
 }
 );
 width = 269;
@@ -64,45 +98,24 @@ name = top.far;
 pos = (177,996);
 },
 {
-name = top.near;
-pos = (177,996);
+name = top.meem;
+pos = (75,868);
 }
 );
-layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+associatedMasterId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+layerId = "9B994DE2-5376-484D-9F25-613FF0E7C09B";
+name = "20 Aug 23 at 01:04";
 shapes = (
 {
-closed = 1;
-nodes = (
-(76,765,o),
-(131,788,o),
-(165,805,cs),
-(180,815,o),
-(188,828,o),
-(188,847,c),
-(187,860,l),
-(151,843,o),
-(96,822,o),
-(6,788,c),
-(0,738,l)
-);
+pos = (87,116);
+ref = "fatha-ar";
 },
 {
-closed = 1;
-nodes = (
-(163,881,o),
-(218,904,o),
-(252,921,cs),
-(267,931,o),
-(275,944,o),
-(275,963,c),
-(274,976,l),
-(238,959,o),
-(183,938,o),
-(93,904,c),
-(87,854,l)
-);
+alignment = -1;
+ref = "fatha-ar";
 }
 );
+visible = 1;
 width = 275;
 }
 );

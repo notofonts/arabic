@@ -19,8 +19,13 @@ pos = (2784,0);
 ref = "reh-ar.fina";
 },
 {
-pos = (2879,-200);
-ref = "shadda_fatha-ar";
+alignment = 1;
+pos = (2899,-200);
+ref = "shadda-ar";
+},
+{
+pos = (2885,-99);
+ref = "fatha-ar";
 },
 {
 pos = (2148,0);
@@ -60,7 +65,7 @@ pos = (528,0);
 ref = "yeh-ar.medi";
 },
 {
-pos = (646,-340);
+pos = (646,-350);
 ref = "jazm-ar";
 },
 {
@@ -89,8 +94,13 @@ pos = (2824,0);
 ref = "reh-ar.fina";
 },
 {
-pos = (2917,-141);
-ref = "shadda_fatha-ar";
+alignment = 1;
+pos = (2932,-124);
+ref = "shadda-ar";
+},
+{
+pos = (2928,-18);
+ref = "fatha-ar";
 },
 {
 pos = (2175,0);
