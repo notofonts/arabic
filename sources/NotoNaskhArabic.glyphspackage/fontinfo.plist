@@ -740,8 +740,14 @@ code = "# GSUB feature: Localized Forms
     ;
 
   script arab; # Arabic
-    language SND ; # Sindhi
-    sub [sixFarsi-ar sevenFarsi-ar] by [six-ar sevenFarsi-ar.locl];
+	language SND ; # Sindhi
+	sub [sixFarsi-ar sevenFarsi-ar
+		 meem-ar sindhipostpositionmen-ar
+		 comma-ar semicolon-ar]
+	 by [six-ar sevenFarsi-ar.locl
+		 meem-ar.locl sindhipostpositionmen-ar.locl
+		 commareversed semicolonreversed]
+	;
 
     language URD ; # Urdu
     lookup locl_arabURD_arabKSH_1 {
@@ -795,6 +801,7 @@ sub keheh-ar by kaf-ar.init;
 sub gaf-ar by kaf-ar.init gafsarkashabove-ar;
 sub lam-ar by lam-ar.init;
 sub meem-ar by meem-ar.init;
+sub meem-ar.locl by meem-ar.init;
 sub noonghunna-ar by behDotless-ar.init;
 sub noonThreedotsabove-ar by behDotless-ar.init threedotsdownbelow-ar;
 sub noonAfrican-ar by behDotless-ar.init dotabove-ar;
@@ -829,6 +836,7 @@ sub keheh-ar by kaf-ar.medi;
 sub gaf-ar by kaf-ar.medi gafsarkashabove-ar.wide;
 sub lam-ar by lam-ar.medi;
 sub meem-ar by meem-ar.medi;
+sub meem-ar.locl by meem-ar.medi;
 sub noonghunna-ar by behDotless-ar.medi;
 sub noonThreedotsabove-ar by behDotless-ar.medi threedotsdownbelow-ar;
 sub noonAfrican-ar by behDotless-ar.medi dotabove-ar;
@@ -866,6 +874,7 @@ sub gaf-ar by keheh-ar.fina gafsarkashabove-ar.wide;
 sub kirghizoe-ar by kirghizoe-ar.fina;
 sub lam-ar by lam-ar.fina;
 sub meem-ar by meem-ar.fina;
+sub meem-ar.locl by meem-ar.locl.fina;
 sub noonghunna-ar by noonghunna-ar.fina;
 sub noonAfrican-ar by noonghunna-ar.fina;
 sub noonThreedotsabove-ar by noonghunna-ar.fina threedotsupabove-ar;
