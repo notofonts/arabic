@@ -8,7 +8,7 @@ name = _digits;
 },
 {
 name = digits;
-pos = (559,0);
+pos = (449,0);
 }
 );
 layerId = master01;
@@ -16,9 +16,10 @@ shapes = (
 {
 alignment = 1;
 ref = eight;
+scale = (0.803,0.803);
 }
 );
-width = 559;
+width = 449;
 },
 {
 anchors = (
@@ -27,7 +28,7 @@ name = _digits;
 },
 {
 name = digits;
-pos = (559,0);
+pos = (488,0);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
@@ -35,9 +36,10 @@ shapes = (
 {
 alignment = 1;
 ref = eight;
+scale = (0.873,0.873);
 }
 );
-width = 559;
+width = 488;
 }
 );
 }
