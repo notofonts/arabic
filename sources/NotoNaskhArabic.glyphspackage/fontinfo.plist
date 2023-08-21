@@ -759,6 +759,11 @@ code = "# GSUB feature: Localized Forms
 
     language FAR ; # Farsi
     sub [decimalseparator-ar thousandseparator-ar] by [decimalseparator-ar.locl thousandseparator-ar.locl];
+
+	language RHG;
+	sub [fourFarsi-ar sixFarsi-ar sevenFarsi-ar]
+	 by [four-ar six-ar sevenFarsi-ar.locl]
+	;
 ";
 tag = locl;
 },
