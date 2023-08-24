@@ -728,6 +728,7 @@
       anchors="bottom, top, top.dot"
       accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar"
       sortName="arL0065"
+      decompose="ae-ar"
   />
   <glyph
       name="hehgoal-ar.fina"
@@ -772,7 +773,6 @@
       anchors="bottom, top, top.far, top.near"
       accents="alefabove-ar, alefbelow-ar, damma-ar, dammatan-ar, dotbelow-ar, fatha-ar, fathatan-ar, hamzaabove-ar, hamzabelow-ar, kasra-ar, kasratan-ar, madda-ar, shadda-ar, sukun-ar, twodotshorizontalbelow-ar"
       sortName="arL0069"
-      decompose="heh-ar"
   />
   <glyph
       name="hehDoachashmee-ar"
@@ -3156,7 +3156,7 @@
       direction="RTL"
       anchors="bottom, top.far, top.near"
       sortName="arP0192"
-      decompose="heh-ar, twodotshorizontalabove-ar"
+      decompose="ae-ar, twodotshorizontalabove-ar"
   />
   <glyph
       name="hehHamzaabove-ar"
@@ -3168,7 +3168,7 @@
       direction="RTL"
       anchors="bottom, top.far, top.near"
       sortName="arP0193"
-      decompose="heh-ar, hamzaabove-ar"
+      decompose="ae-ar, hamzaabove-ar"
   />
   <glyph
       name="hehgoalHamzaabove-ar"
@@ -3179,7 +3179,7 @@
       direction="RTL"
       anchors="bottom, top.far, top.near"
       sortName="arP0194"
-      decompose="heh-ar, hamzaabove-ar"
+      decompose="hehgoal-ar, hamzaabove-ar"
   />
   <glyph
       name="tehMarbutagoal-ar"
