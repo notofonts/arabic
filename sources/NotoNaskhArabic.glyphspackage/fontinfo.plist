@@ -342,13 +342,15 @@ featurePrefixes = (
 automatic = 1;
 code = "languagesystem DFLT dflt;
 
+languagesystem latn dflt;
+
 languagesystem arab dflt;
 languagesystem arab SND;
 languagesystem arab URD;
 languagesystem arab KSH;
 languagesystem arab FAR;
-
-languagesystem latn dflt;
+languagesystem arab RHG;
+languagesystem arab KUR;
 ";
 name = Languagesystems;
 },
@@ -751,14 +753,16 @@ code = "# GSUB feature: Localized Forms
 
     language URD ; # Urdu
     lookup locl_arabURD_arabKSH_1 {
-      sub [fourFarsi-ar sixFarsi-ar sevenFarsi-ar] by [fourFarsi-ar.locl six-ar sevenFarsi-ar.locl];
+    sub [fourFarsi-ar sixFarsi-ar sevenFarsi-ar] by [fourFarsi-ar.locl six-ar sevenFarsi-ar.locl];
     } locl_arabURD_arabKSH_1;
 
     language KSH ; # Kashmiri
     lookup locl_arabURD_arabKSH_1;
 
     language FAR ; # Farsi
-    sub [decimalseparator-ar thousandseparator-ar] by [decimalseparator-ar.locl thousandseparator-ar.locl];
+	sub [decimalseparator-ar thousandseparator-ar]
+	 by [decimalseparator-ar.locl thousandseparator-ar.locl]
+	;
 
 	language RHG;
 	sub [fourFarsi-ar sixFarsi-ar sevenFarsi-ar]
@@ -896,6 +900,20 @@ sub yehbarree-ar by yehbarree-ar.fina;
 sub yehRohingya-ar by yehRohingya-ar.fina;
 ";
 tag = fina;
+},
+{
+code = "script arab;
+	language SND ; # Sindhi
+	sub [hehDoachashmee-ar.medi hehDoachashmee-ar.fina]
+	 by [hehDoachashmee-ar.medi.locl hehDoachashmee-ar.fina.locl]
+	;
+
+	language KUR;
+	sub  hehDoachashmee-ar.fina
+	 by  hehDoachashmee-ar.fina.locl
+	;
+";
+tag = rlig;
 },
 {
 code = "lookup wide_beh {
@@ -1173,7 +1191,6 @@ GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
-visible = 1;
 },
 {
 axesValues = (
