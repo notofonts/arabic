@@ -1,5 +1,5 @@
 {
-.appVersion = "3213";
+.appVersion = "3214";
 .formatVersion = 3;
 axes = (
 {
@@ -12,10 +12,6 @@ classes = (
 automatic = 1;
 code = "hamza-ar highhamza-ar rounddot-ar raisedrounddot-ar alef-ar alef-ar.fina alef-ar.fina.rlig alef-ar.fina.rlig.2 alef-ar.short alef-ar.short.fina behDotless-ar behDotless-ar.fina behDotless-ar.medi behDotless-ar.medi.thin behDotless-ar.medi.wide behDotless-ar.init behDotless-ar.init.thin behDotless-ar.init.wide hah-ar hah-ar.fina hah-ar.medi hah-ar.init dal-ar dal-ar.fina reh-ar reh-ar.fina rehLoop-ar rehLoop-ar.fina seen-ar seen-ar.fina seen-ar.medi seen-ar.init sad-ar sad-ar.fina sad-ar.medi sad-ar.init tah-ar tah-ar.fina tah-ar.medi tah-ar.init ain-ar ain-ar.fina ain-ar.medi ain-ar.init fehDotless-ar fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.init qafDotless-ar qafDotless-ar.fina yehRohingya-ar yehRohingya-ar.fina kafDotless-ar kafDotless-ar.fina kaf-ar.medi kaf-ar.init keheh-ar keheh-ar.fina kafswash-ar kafswash-ar.fina kafswash-ar.medi kafswash-ar.init lam-ar lam-ar.fina lam-ar.medi lam-ar.medi.rlig lam-ar.init lam-ar.init.rlig meem-ar meem-ar.locl meem-ar.locl.fina meem-ar.fina meem-ar.medi meem-ar.init noonghunna-ar noonghunna-ar.fina heh-ar heh-ar.fina heh-ar.medi heh-ar.init hehgoal-ar hehgoal-ar.fina hehgoal-ar.medi hehgoal-ar.init ae-ar hehDoachashmee-ar hehDoachashmee-ar.fina hehDoachashmee-ar.fina.locl hehDoachashmee-ar.medi hehDoachashmee-ar.medi.locl waw-ar waw-ar.fina kirghizoe-ar kirghizoe-ar.fina wawDotcenter-ar wawDotcenter-ar.fina wawStraight-ar alefMaksura-ar alefMaksura-ar.fina yehbarree-ar yehbarree-ar.fina verticalTail-ar kashidaHamza-ar kashidaWaw-ar tailFragment-ar kashida-ar kashida-ar.init kashida-ar.wide aleflow-ar wawSmall-ar yehSmall-ar yehSmallFarsi-ar";
 name = ArabicLetters;
-},
-{
-code = "year-ar endofayah-ar number-ar footnotemarker-ar pagenumber-ar samvat-ar";
-name = ccmp;
 },
 {
 code = "zero-ar
