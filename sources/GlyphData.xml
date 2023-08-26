@@ -6219,7 +6219,7 @@
       anchors="bottom, bottom.dot, ring, top.far, top.near"
       accents="gafsarkashabove-ar, gafsarkashcenter-ar"
       sortName="arPo0060"
-      decompose="kaf-ar.medi, gafsarkashabove-ar.wide"
+      decompose="kaf-ar.medi, gafsarkashabove-ar"
   />
   <glyph
       name="gafRing-ar.medi"
@@ -6241,7 +6241,7 @@
       direction="RTL"
       anchors="bottom, bottom.dot, top.far, top.near"
       sortName="arPo0061"
-      decompose="kaf-ar.medi, gafsarkashabove-ar.wide, twodotshorizontalabove-ar.diagonal"
+      decompose="kaf-ar.medi, gafsarkashabove-ar, twodotshorizontalabove-ar.diagonal"
   />
   <glyph
       name="gafTwodotsbelow-ar.medi"
@@ -6263,7 +6263,7 @@
       direction="RTL"
       anchors="bottom, bottom.dot, top.far, top.near"
       sortName="arPo0062"
-      decompose="kaf-ar.medi, gafsarkashabove-ar.wide, twodotsverticalbelow-ar"
+      decompose="kaf-ar.medi, gafsarkashabove-ar, twodotsverticalbelow-ar"
   />
   <glyph
       name="gafThreedots-ar.medi"
@@ -7756,7 +7756,7 @@
       anchors="bottom, bottom.dot, ring, top.far, top.near"
       accents="gafsarkashabove-ar, gafsarkashcenter-ar"
       sortName="arPo0099"
-      decompose="keheh-ar.fina, gafsarkashabove-ar.wide"
+      decompose="keheh-ar.fina, gafsarkashabove-ar"
   />
   <glyph
       name="gafRing-ar.fina"
@@ -7778,7 +7778,7 @@
       direction="RTL"
       anchors="bottom, bottom.dot, top.far, top.near"
       sortName="arPo0100"
-      decompose="keheh-ar.fina, gafsarkashabove-ar.wide, twodotshorizontalabove-ar.diagonal"
+      decompose="keheh-ar.fina, gafsarkashabove-ar, twodotshorizontalabove-ar.diagonal"
   />
   <glyph
       name="gafTwodotsbelow-ar.fina"
@@ -7800,7 +7800,7 @@
       direction="RTL"
       anchors="bottom, bottom.dot, top.far, top.near"
       sortName="arPo0101"
-      decompose="keheh-ar.fina, gafsarkashabove-ar.wide, twodotsverticalbelow-ar"
+      decompose="keheh-ar.fina, gafsarkashabove-ar, twodotsverticalbelow-ar"
   />
   <glyph
       name="gafThreedots-ar.fina"

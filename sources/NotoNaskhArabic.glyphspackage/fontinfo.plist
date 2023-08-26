@@ -698,8 +698,11 @@ lookup decomposition {
   sub highhamzaYeh-ar by highhamza-ar alefMaksura-ar;
 
   sub kashidaTwodotsbelow-ar by kashida-ar twodotshorizontalbelow-ar;
-
 } decomposition;
+
+lookup decomposition2 {
+  sub gaf-ar by keheh-ar gafsarkashabove-ar;
+} decomposition2;
 ";
 tag = ccmp;
 },
@@ -757,7 +760,6 @@ code = "sub fehAfrican-ar by fehDotless-ar;
 sub qafAfrican-ar by qafDotless-ar;
 sub qafThreedotsaboveAfrican-ar by qafDotless-ar threedotsupabove-ar;
 sub kaf-ar by kafDotless-ar miniKeheh-ar;
-sub gaf-ar by keheh-ar gafsarkashabove-ar;
 sub noonThreedotsabove-ar by noonghunna-ar threedotsupabove-ar;
 sub noonAfrican-ar by noonghunna-ar;
 sub yehFarsi-ar by alefMaksura-ar;
@@ -782,7 +784,6 @@ sub hehgoal-ar by hehgoal-ar.init;
 sub kaf-ar by kaf-ar.init;
 sub kafswash-ar by kafswash-ar.init;
 sub keheh-ar by kaf-ar.init;
-sub gaf-ar by kaf-ar.init gafsarkashabove-ar;
 sub lam-ar by lam-ar.init;
 sub meem-ar by meem-ar.init;
 sub meem-ar.locl by meem-ar.init;
@@ -817,7 +818,6 @@ sub hehgoal-ar by hehgoal-ar.medi;
 sub kaf-ar by kaf-ar.medi;
 sub kafswash-ar by kafswash-ar.medi;
 sub keheh-ar by kaf-ar.medi;
-sub gaf-ar by kaf-ar.medi gafsarkashabove-ar.wide;
 sub lam-ar by lam-ar.medi;
 sub meem-ar by meem-ar.medi;
 sub meem-ar.locl by meem-ar.medi;
@@ -854,7 +854,6 @@ sub hehgoal-ar by hehgoal-ar.fina;
 sub kaf-ar by kafDotless-ar.fina miniKeheh-ar;
 sub kafswash-ar by kafswash-ar.fina;
 sub keheh-ar by keheh-ar.fina;
-sub gaf-ar by keheh-ar.fina gafsarkashabove-ar.wide;
 sub kirghizoe-ar by kirghizoe-ar.fina;
 sub lam-ar by lam-ar.fina;
 sub meem-ar by meem-ar.fina;
