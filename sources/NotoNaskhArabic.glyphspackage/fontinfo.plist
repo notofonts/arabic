@@ -154,34 +154,6 @@ nine.medium
 name = digits.medium;
 },
 {
-code = "alef-ar.fina
-alef-ar.short.fina
-lam-ar.init
-";
-name = rlig;
-},
-{
-code = "alef-ar.fina.rlig
-alef-ar.fina.rlig
-lam-ar.init.rlig
-";
-name = rlig2;
-},
-{
-code = "alef-ar.fina
-alef-ar.short.fina
-lam-ar.medi
-";
-name = rlig3;
-},
-{
-code = "alef-ar.fina.rlig.2
-alef-ar.fina.rlig.2
-lam-ar.medi.rlig
-";
-name = rlig4;
-},
-{
 code = "fathatan-ar
 shadda-ar
 hamzaabove-ar
@@ -358,13 +330,15 @@ name = Languagesystems;
 {
 code = "
 lookup lam_alef_isol {
-# GSUB lookup 9, type 11 (Single)
-  sub @rlig by @rlig2;
+	sub	[alef-ar.fina alef-ar.short.fina lam-ar.init]
+	 by	[alef-ar.fina.rlig alef-ar.fina.rlig lam-ar.init.rlig]
+	;
 } lam_alef_isol;
 
 lookup lam_alef_fina {
-# GSUB lookup 10, type 11 (Single)
-  sub @rlig3 by @rlig4;
+	sub	[alef-ar.fina alef-ar.short.fina lam-ar.medi]
+	 by	[alef-ar.fina.rlig.2 alef-ar.fina.rlig.2 lam-ar.medi.rlig]
+	;
 } lam_alef_fina;
 
 lookup dotcenter_below {
