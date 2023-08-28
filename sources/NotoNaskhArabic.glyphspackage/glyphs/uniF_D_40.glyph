@@ -1,0 +1,92 @@
+{
+glyphname = uniFD40;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (933,0);
+ref = "reh-ar";
+scale = (0.55,0.55);
+},
+{
+pos = (663,0);
+ref = "hah-ar.init";
+scale = (0.55,0.55);
+},
+{
+pos = (436,0);
+ref = "meem-ar.medi";
+scale = (0.55,0.55);
+},
+{
+pos = (261,0);
+ref = "kashida-ar";
+scale = (0.55,0.55);
+},
+{
+pos = (331,0);
+ref = "kashida-ar";
+scale = (0.55,0.55);
+},
+{
+pos = (12,0);
+ref = "heh-ar.fina";
+scale = (0.55,0.55);
+},
+{
+pos = (274,259);
+ref = "allah-ar";
+scale = (0.55,0.55);
+}
+);
+width = 1166;
+},
+{
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+pos = (933,0);
+ref = "reh-ar";
+scale = (0.55,0.55);
+},
+{
+pos = (663,0);
+ref = "hah-ar.init";
+scale = (0.55,0.55);
+},
+{
+pos = (436,0);
+ref = "meem-ar.medi";
+scale = (0.55,0.55);
+},
+{
+pos = (261,0);
+ref = "kashida-ar";
+scale = (0.55,0.55);
+},
+{
+pos = (331,0);
+ref = "kashida-ar";
+scale = (0.55,0.55);
+},
+{
+pos = (12,0);
+ref = "heh-ar.fina";
+scale = (0.55,0.55);
+},
+{
+pos = (274,259);
+ref = "allah-ar";
+scale = (0.55,0.55);
+}
+);
+width = 1166;
+}
+);
+metricLeft = "=49";
+metricRight = "=49";
+unicode = 64832;
+}

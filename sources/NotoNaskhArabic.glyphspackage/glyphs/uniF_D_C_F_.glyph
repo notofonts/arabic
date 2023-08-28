@@ -1,0 +1,200 @@
+{
+glyphname = uniFDCF;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (869,231);
+ref = "seen-ar.init";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (534,231);
+ref = "lam_alef-ar.fina";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (315,231);
+ref = "meem-ar.init";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (955,0);
+ref = "ain-ar.init";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (820,0);
+ref = "lam-ar.medi";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (622,0);
+ref = "yeh-ar.medi";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (460,0);
+ref = "behDotless-ar.medi";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (308,-308);
+ref = "dotabove-ar";
+scale = (0.55,0.55);
+},
+{
+pos = (351,0);
+ref = "kashida-ar";
+scale = (0.55,0.55);
+},
+{
+pos = (247,0);
+ref = "kashida-ar";
+scale = (0.55,0.55);
+},
+{
+pos = (141,0);
+ref = "kashida-ar";
+scale = (0.55,0.55);
+},
+{
+pos = (7,0);
+ref = "alef-ar.fina";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (74,231);
+ref = "heh-ar.fina";
+scale = (0.55,0.55);
+},
+{
+pos = (43,-265);
+ref = fatha.1;
+},
+{
+alignment = -1;
+pos = (375,94);
+ref = "damma-ar";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (135,94);
+ref = "damma-ar";
+scale = (0.55,0.55);
+}
+);
+width = 1267;
+},
+{
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+pos = (869,231);
+ref = "seen-ar.init";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (534,231);
+ref = "lam_alef-ar.fina";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (325,231);
+ref = "meem-ar.init";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (955,0);
+ref = "ain-ar.init";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (820,0);
+ref = "lam-ar.medi";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (622,0);
+ref = "yeh-ar.medi";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (462,0);
+ref = "behDotless-ar.medi";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (308,-308);
+ref = "dotabove-ar";
+scale = (0.55,0.55);
+},
+{
+pos = (351,0);
+ref = "kashida-ar";
+scale = (0.55,0.55);
+},
+{
+pos = (247,0);
+ref = "kashida-ar";
+scale = (0.55,0.55);
+},
+{
+pos = (161,0);
+ref = "kashida-ar";
+scale = (0.55,0.55);
+},
+{
+pos = (7,0);
+ref = "alef-ar.fina";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (84,231);
+ref = "heh-ar.fina";
+scale = (0.55,0.55);
+},
+{
+pos = (43,-265);
+ref = fatha.1;
+},
+{
+alignment = -1;
+pos = (375,94);
+ref = "damma-ar";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (135,94);
+ref = "damma-ar";
+scale = (0.55,0.55);
+}
+);
+width = 1275;
+}
+);
+metricLeft = "=49";
+metricRight = "=49";
+unicode = 64975;
+}

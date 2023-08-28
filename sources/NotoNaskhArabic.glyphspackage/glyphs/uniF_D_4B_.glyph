@@ -1,0 +1,112 @@
+{
+glyphname = uniFD4B;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (729,0);
+ref = "qaf-ar.init";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (469,0);
+ref = "dal-ar.fina";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (12,120);
+ref = "seen-ar";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (589,429);
+ref = "seen-ar.init";
+scale = (0.55,0.55);
+},
+{
+pos = (476,429);
+ref = "kashida-ar";
+scale = (0.55,0.55);
+},
+{
+pos = (390,429);
+ref = "kashida-ar";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (166,429);
+ref = "reh-ar.fina";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (32,429);
+ref = "ae-ar";
+scale = (0.55,0.55);
+}
+);
+width = 981;
+},
+{
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+pos = (742,0);
+ref = "qaf-ar.init";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (476,0);
+ref = "dal-ar.fina";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (12,114);
+ref = "seen-ar";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (588,438);
+ref = "seen-ar.init";
+scale = (0.55,0.55);
+},
+{
+pos = (475,438);
+ref = "kashida-ar";
+scale = (0.55,0.55);
+},
+{
+pos = (410,438);
+ref = "kashida-ar";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (193,438);
+ref = "reh-ar.fina";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (39,438);
+ref = "ae-ar";
+scale = (0.55,0.55);
+}
+);
+width = 998;
+}
+);
+metricLeft = "=49";
+metricRight = "=49";
+unicode = 64843;
+}
