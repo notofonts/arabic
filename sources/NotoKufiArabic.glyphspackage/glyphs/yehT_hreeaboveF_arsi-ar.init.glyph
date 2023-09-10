@@ -1,19 +1,19 @@
 {
-glyphname = "yehFourbelow-farsi.init";
+glyphname = "yehThreeaboveFarsi-ar.init";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{124, -392}";
+position = "{135, -66}";
 },
 {
 name = top.far;
-position = "{124, 539}";
+position = "{135, 880}";
 },
 {
 name = top.near;
-position = "{124, 539}";
+position = "{135, 880}";
 }
 );
 components = (
@@ -21,9 +21,8 @@ components = (
 name = "behDotless-ar.init";
 },
 {
-alignment = -1;
-name = "fourbelow-ar";
-transform = "{1, 0, 0, 1, 16, -17}";
+name = "threeabove-ar";
+transform = "{1, 0, 0, 1, 38, -188}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -33,15 +32,15 @@ width = 248;
 anchors = (
 {
 name = bottom;
-position = "{140, -439}";
+position = "{151, -73}";
 },
 {
 name = top.far;
-position = "{151, 546}";
+position = "{151, 916}";
 },
 {
 name = top.near;
-position = "{151, 546}";
+position = "{151, 916}";
 }
 );
 components = (
@@ -49,9 +48,8 @@ components = (
 name = "behDotless-ar.init";
 },
 {
-alignment = -1;
-name = "fourbelow-ar";
-transform = "{1, 0, 0, 1, 9, -17}";
+name = "threeabove-ar";
+transform = "{1, 0, 0, 1, 45, -163}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -61,15 +59,15 @@ width = 301;
 anchors = (
 {
 name = bottom;
-position = "{152, -456}";
+position = "{177, -78}";
 },
 {
 name = top.far;
-position = "{177, 558}";
+position = "{177, 944}";
 },
 {
 name = top.near;
-position = "{177, 558}";
+position = "{177, 944}";
 }
 );
 components = (
@@ -77,9 +75,8 @@ components = (
 name = "behDotless-ar.init";
 },
 {
-alignment = -1;
-name = "fourbelow-ar";
-transform = "{1, 0, 0, 1, 41, -17}";
+name = "threeabove-ar";
+transform = "{1, 0, 0, 1, 51, -129}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -89,15 +86,15 @@ width = 354;
 anchors = (
 {
 name = bottom;
-position = "{185, -462}";
+position = "{195, -96}";
 },
 {
 name = top.far;
-position = "{184, 580}";
+position = "{195, 967}";
 },
 {
 name = top.near;
-position = "{184, 580}";
+position = "{195, 967}";
 }
 );
 components = (
@@ -105,9 +102,8 @@ components = (
 name = "behDotless-ar.init";
 },
 {
-alignment = -1;
-name = "fourbelow-ar";
-transform = "{1, 0, 0, 1, 49, -17}";
+name = "threeabove-ar";
+transform = "{1, 0, 0, 1, 48, -126}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

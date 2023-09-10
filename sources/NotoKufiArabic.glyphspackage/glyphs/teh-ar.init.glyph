@@ -23,7 +23,7 @@ position = "{240, 757}";
 components = (
 {
 alignment = -1;
-name = beh_dotless_alt.init;
+name = "behDotless-ar.init.wide";
 },
 {
 alignment = -1;
@@ -56,7 +56,7 @@ position = "{216, 753}";
 components = (
 {
 alignment = -1;
-name = beh_dotless_alt.init;
+name = "behDotless-ar.init.wide";
 },
 {
 alignment = -1;
@@ -89,7 +89,7 @@ position = "{218, 711}";
 components = (
 {
 alignment = -1;
-name = beh_dotless_alt.init;
+name = "behDotless-ar.init.wide";
 },
 {
 alignment = -1;
@@ -122,7 +122,7 @@ position = "{234, 793}";
 components = (
 {
 alignment = -1;
-name = beh_dotless_alt.init;
+name = "behDotless-ar.init.wide";
 },
 {
 alignment = -1;
@@ -135,4 +135,5 @@ width = 424;
 }
 );
 note = uni062A.init;
+unicode = FE97;
 }

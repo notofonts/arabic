@@ -1,15 +1,15 @@
 {
-glyphname = "yehFourbelow-farsi";
+glyphname = "yehThreedotsaboveFarsi-ar";
 layers = (
 {
 components = (
 {
-name = "yeh-farsi";
+name = "alefMaksura-ar";
 },
 {
 alignment = -1;
-name = "fourbelow-ar";
-transform = "{1, 0, 0, 1, 299, -225}";
+name = "threedotsabove-ar";
+transform = "{1, 0, 0, 1, 238, -814}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -18,12 +18,12 @@ width = 795;
 {
 components = (
 {
-name = "yeh-farsi";
+name = "alefMaksura-ar";
 },
 {
 alignment = -1;
-name = "fourbelow-ar";
-transform = "{1, 0, 0, 1, 329, -215}";
+name = "threedotsabove-ar";
+transform = "{1, 0, 0, 1, 215, -790}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -32,12 +32,12 @@ width = 839;
 {
 components = (
 {
-name = "yeh-farsi";
+name = "alefMaksura-ar";
 },
 {
 alignment = -1;
-name = "fourbelow-ar";
-transform = "{1, 0, 0, 1, 329, -217}";
+name = "threedotsabove-ar";
+transform = "{1, 0, 0, 1, 256, -726}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -46,17 +46,17 @@ width = 883;
 {
 components = (
 {
-name = "yeh-farsi";
+name = "alefMaksura-ar";
 },
 {
 alignment = -1;
-name = "fourbelow-ar";
-transform = "{1, 0, 0, 1, 329, -217}";
+name = "threedotsabove-ar";
+transform = "{1, 0, 0, 1, 228, -685}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 912;
 }
 );
-unicode = 0777;
+unicode = 063F;
 }

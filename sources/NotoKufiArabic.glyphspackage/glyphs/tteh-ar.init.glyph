@@ -18,7 +18,7 @@ position = "{222, 890}";
 );
 components = (
 {
-name = beh_dotless_alt.init;
+name = "behDotless-ar.init.wide";
 },
 {
 name = "tahabove-ar";
@@ -45,7 +45,7 @@ position = "{217, 860}";
 );
 components = (
 {
-name = beh_dotless_alt.init;
+name = "behDotless-ar.init.wide";
 },
 {
 name = "tahabove-ar";
@@ -72,7 +72,7 @@ position = "{212, 810}";
 );
 components = (
 {
-name = beh_dotless_alt.init;
+name = "behDotless-ar.init.wide";
 },
 {
 name = "tahabove-ar";
@@ -99,7 +99,7 @@ position = "{225, 910}";
 );
 components = (
 {
-name = beh_dotless_alt.init;
+name = "behDotless-ar.init.wide";
 },
 {
 name = "tahabove-ar";
@@ -111,4 +111,5 @@ width = 424;
 }
 );
 note = uni0679.init;
+unicode = "FB68,FBA2";
 }

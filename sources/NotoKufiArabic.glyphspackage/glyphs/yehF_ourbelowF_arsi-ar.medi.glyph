@@ -1,117 +1,117 @@
 {
-glyphname = "yehFourbelow-farsi.fina";
+glyphname = "yehFourbelowFarsi-ar.medi";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{157, -319}";
+position = "{120, -407}";
 },
 {
 name = top.far;
-position = "{247, 278}";
+position = "{134, 540}";
 },
 {
 name = top.near;
-position = "{247, 278}";
+position = "{134, 540}";
 }
 );
 components = (
 {
-name = "yeh-farsi.fina";
+name = "behDotless-ar.medi";
 },
 {
 alignment = -1;
 name = "fourbelow-ar";
-transform = "{1, 0, 0, 1, 274, -220}";
+transform = "{1, 0, 0, 1, 29, -17}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-width = 923;
+width = 268;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{143, -349}";
+position = "{171, -443}";
 },
 {
 name = top.far;
-position = "{273, 300}";
+position = "{171, 572}";
 },
 {
 name = top.near;
-position = "{273, 300}";
+position = "{171, 572}";
 }
 );
 components = (
 {
-name = "yeh-farsi.fina";
+name = "behDotless-ar.medi";
 },
 {
 alignment = -1;
 name = "fourbelow-ar";
-transform = "{1, 0, 0, 1, 264, -220}";
+transform = "{1, 0, 0, 1, 39, -17}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-width = 964;
+width = 341;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{173, -325}";
+position = "{173, -463}";
 },
 {
 name = top.far;
-position = "{273, 300}";
+position = "{180, 584}";
 },
 {
 name = top.near;
-position = "{273, 300}";
+position = "{180, 584}";
 }
 );
 components = (
 {
-name = "yeh-farsi.fina";
+name = "behDotless-ar.medi";
 },
 {
 alignment = -1;
 name = "fourbelow-ar";
-transform = "{1, 0, 0, 1, 334, -215}";
+transform = "{1, 0, 0, 1, 62, -17}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-width = 1005;
+width = 394;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{166, -330}";
+position = "{191, -465}";
 },
 {
 name = top.far;
-position = "{273, 300}";
+position = "{197, 582}";
 },
 {
 name = top.near;
-position = "{273, 300}";
+position = "{197, 582}";
 }
 );
 components = (
 {
-name = "yeh-farsi.fina";
+name = "behDotless-ar.medi";
 },
 {
 alignment = -1;
 name = "fourbelow-ar";
-transform = "{1, 0, 0, 1, 304, -222}";
+transform = "{1, 0, 0, 1, 73, -17}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-width = 1052;
+width = 429;
 }
 );
 }

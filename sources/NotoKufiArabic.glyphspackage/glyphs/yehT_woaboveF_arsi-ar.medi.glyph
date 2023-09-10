@@ -1,11 +1,11 @@
 {
-glyphname = "yehThreeabove-farsi.medi";
+glyphname = "yehTwoaboveFarsi-ar.medi";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{134, -87}";
+position = "{134, -85}";
 },
 {
 name = top.far;
@@ -21,8 +21,8 @@ components = (
 name = "behDotless-ar.medi";
 },
 {
-name = "threeabove-ar";
-transform = "{1, 0, 0, 1, 48, -188}";
+name = "twoabove-ar";
+transform = "{1, 0, 0, 1, 48, -200}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -32,15 +32,15 @@ width = 268;
 anchors = (
 {
 name = bottom;
-position = "{171, -62}";
+position = "{171, -82}";
 },
 {
 name = top.far;
-position = "{171, 910}";
+position = "{171, 899}";
 },
 {
 name = top.near;
-position = "{171, 910}";
+position = "{171, 899}";
 }
 );
 components = (
@@ -48,8 +48,8 @@ components = (
 name = "behDotless-ar.medi";
 },
 {
-name = "threeabove-ar";
-transform = "{1, 0, 0, 1, 58, -160}";
+name = "twoabove-ar";
+transform = "{1, 0, 0, 1, 68, -160}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -59,15 +59,15 @@ width = 341;
 anchors = (
 {
 name = bottom;
-position = "{197, -82}";
+position = "{197, -75}";
 },
 {
 name = top.far;
-position = "{197, 947}";
+position = "{197, 933}";
 },
 {
 name = top.near;
-position = "{197, 947}";
+position = "{197, 933}";
 }
 );
 components = (
@@ -75,8 +75,8 @@ components = (
 name = "behDotless-ar.medi";
 },
 {
-name = "threeabove-ar";
-transform = "{1, 0, 0, 1, 58, -130}";
+name = "twoabove-ar";
+transform = "{1, 0, 0, 1, 88, -130}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -86,15 +86,15 @@ width = 394;
 anchors = (
 {
 name = bottom;
-position = "{215, -81}";
+position = "{215, -91}";
 },
 {
 name = top.far;
-position = "{215, 957}";
+position = "{215, 961}";
 },
 {
 name = top.near;
-position = "{215, 957}";
+position = "{215, 961}";
 }
 );
 components = (
@@ -102,8 +102,8 @@ components = (
 name = "behDotless-ar.medi";
 },
 {
-name = "threeabove-ar";
-transform = "{1, 0, 0, 1, 58, -124}";
+name = "twoabove-ar";
+transform = "{1, 0, 0, 1, 102, -121}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

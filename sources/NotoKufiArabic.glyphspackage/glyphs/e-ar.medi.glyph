@@ -19,7 +19,7 @@ position = "{222, 580}";
 components = (
 {
 alignment = -1;
-name = beh_dotless_alt.medi;
+name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
@@ -48,7 +48,7 @@ position = "{196, 530}";
 components = (
 {
 alignment = -1;
-name = beh_dotless_alt.medi;
+name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
@@ -77,7 +77,7 @@ position = "{170, 541}";
 components = (
 {
 alignment = -1;
-name = beh_dotless_alt.medi;
+name = "behDotless-ar.medi.wide";
 transform = "{1, 0, 0, 1, -10, 0}";
 },
 {
@@ -107,7 +107,7 @@ position = "{239, 593}";
 components = (
 {
 alignment = -1;
-name = beh_dotless_alt.medi;
+name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
@@ -120,4 +120,5 @@ width = 479.33333;
 }
 );
 note = uni06D0.medi;
+unicode = FBE7;
 }

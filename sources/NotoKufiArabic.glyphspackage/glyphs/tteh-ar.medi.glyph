@@ -18,7 +18,7 @@ position = "{222, 890}";
 );
 components = (
 {
-name = beh_dotless_alt.medi;
+name = "behDotless-ar.medi.wide";
 },
 {
 name = "tahabove-ar";
@@ -45,7 +45,7 @@ position = "{196, 870}";
 );
 components = (
 {
-name = beh_dotless_alt.medi;
+name = "behDotless-ar.medi.wide";
 },
 {
 name = "tahabove-ar";
@@ -72,7 +72,7 @@ position = "{180, 782}";
 );
 components = (
 {
-name = beh_dotless_alt.medi;
+name = "behDotless-ar.medi.wide";
 },
 {
 name = "tahabove-ar";
@@ -99,7 +99,7 @@ position = "{239, 883}";
 );
 components = (
 {
-name = beh_dotless_alt.medi;
+name = "behDotless-ar.medi.wide";
 },
 {
 name = "tahabove-ar";
@@ -111,4 +111,5 @@ width = 479;
 }
 );
 note = uni0679.medi;
+unicode = "FB69,FBA3";
 }

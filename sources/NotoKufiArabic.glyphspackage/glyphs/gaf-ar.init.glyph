@@ -23,7 +23,7 @@ name = "kaf-ar.init";
 },
 {
 alignment = -1;
-name = diagonal;
+name = "gafsarkashabove-ar";
 transform = "{1, 0, 0, 1, 21, 0}";
 }
 );
@@ -52,7 +52,7 @@ name = "kaf-ar.init";
 },
 {
 alignment = -1;
-name = diagonal;
+name = "gafsarkashabove-ar";
 transform = "{1, 0, 0, 1, 37, 0}";
 }
 );
@@ -81,7 +81,7 @@ name = "kaf-ar.init";
 },
 {
 alignment = -1;
-name = diagonal;
+name = "gafsarkashabove-ar";
 transform = "{1, 0, 0, 1, 53, 0}";
 }
 );
@@ -111,7 +111,7 @@ transform = "{1, 0, 0, 1, 13, 0}";
 },
 {
 alignment = -1;
-name = diagonal;
+name = "gafsarkashabove-ar";
 transform = "{1, 0, 0, 1, 23, 0}";
 }
 );
@@ -120,4 +120,5 @@ width = 646;
 }
 );
 note = uni06AF.init;
+unicode = FB94;
 }
