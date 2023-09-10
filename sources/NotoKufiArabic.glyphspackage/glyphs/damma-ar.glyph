@@ -1,0 +1,310 @@
+{
+glyphname = "damma-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.far;
+position = "{0, 761}";
+},
+{
+name = top.far;
+position = "{0, 1039}";
+},
+{
+name = top.near;
+position = "{0, 1039}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"28 780 OFFCURVE",
+"90 809 OFFCURVE",
+"126 857 CURVE SMOOTH",
+"144 880 OFFCURVE",
+"153 904 OFFCURVE",
+"153 928 CURVE SMOOTH",
+"153 976 OFFCURVE",
+"117 1010 OFFCURVE",
+"64 1010 CURVE SMOOTH",
+"9 1010 OFFCURVE",
+"-29 976 OFFCURVE",
+"-29 924 CURVE SMOOTH",
+"-29 898 OFFCURVE",
+"-20 871 OFFCURVE",
+"-1 843 CURVE",
+"-12 840 OFFCURVE",
+"-26 838 OFFCURVE",
+"-42 838 CURVE SMOOTH",
+"-61 838 OFFCURVE",
+"-85 847 OFFCURVE",
+"-113 865 CURVE",
+"-147 816 LINE",
+"-114 792 OFFCURVE",
+"-78 780 OFFCURVE",
+"-40 780 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"37 884 OFFCURVE",
+"30 903 OFFCURVE",
+"30 919 CURVE SMOOTH",
+"30 942 OFFCURVE",
+"45 953 OFFCURVE",
+"62 953 CURVE SMOOTH",
+"79 953 OFFCURVE",
+"92 941 OFFCURVE",
+"92 924 CURVE SMOOTH",
+"92 904 OFFCURVE",
+"80 879 OFFCURVE",
+"52 863 CURVE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 16 values pushed */
+19 7 0 25 12 5 96 0 1 63 0 1 32 0 1 0 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MDRP[01101]	/* MoveDirectRelPt */
+MDRP[11100]	/* MoveDirectRelPt */
+MDRP[01101]	/* MoveDirectRelPt */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.far;
+position = "{0, 758}";
+},
+{
+name = top.far;
+position = "{0, 1025}";
+},
+{
+name = top.near;
+position = "{0, 1025}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"20 780 OFFCURVE",
+"84 810 OFFCURVE",
+"121 856 CURVE SMOOTH",
+"139 878 OFFCURVE",
+"147 902 OFFCURVE",
+"147 926 CURVE SMOOTH",
+"147 970 OFFCURVE",
+"114 1005 OFFCURVE",
+"61 1005 CURVE SMOOTH",
+"8 1005 OFFCURVE",
+"-29 973 OFFCURVE",
+"-29 922 CURVE SMOOTH",
+"-29 892 OFFCURVE",
+"-18 864 OFFCURVE",
+"3 837 CURVE",
+"-11 832 OFFCURVE",
+"-28 830 OFFCURVE",
+"-47 830 CURVE SMOOTH",
+"-70 830 OFFCURVE",
+"-93 838 OFFCURVE",
+"-118 855 CURVE",
+"-147 813 LINE",
+"-116 791 OFFCURVE",
+"-82 780 OFFCURVE",
+"-45 780 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"30 875 OFFCURVE",
+"22 896 OFFCURVE",
+"22 917 CURVE SMOOTH",
+"22 944 OFFCURVE",
+"39 957 OFFCURVE",
+"59 957 CURVE SMOOTH",
+"80 957 OFFCURVE",
+"95 942 OFFCURVE",
+"95 922 CURVE SMOOTH",
+"95 899 OFFCURVE",
+"82 873 OFFCURVE",
+"47 854 CURVE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 19 values pushed */
+19 7 0 25 112 12 1 47 12 1 12 5 63 0 1 32 0 1 0 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MDRP[01101]	/* MoveDirectRelPt */
+MDRP[11100]	/* MoveDirectRelPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MDRP[01101]	/* MoveDirectRelPt */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.far;
+position = "{3, 759}";
+},
+{
+name = top.far;
+position = "{4, 1021}";
+},
+{
+name = top.near;
+position = "{4, 1021}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"18 786 OFFCURVE",
+"68 806 OFFCURVE",
+"105 850 CURVE SMOOTH",
+"123 872 OFFCURVE",
+"129 894 OFFCURVE",
+"129 917 CURVE SMOOTH",
+"129 955 OFFCURVE",
+"103 993 OFFCURVE",
+"54 993 CURVE SMOOTH",
+"5 993 OFFCURVE",
+"-26 961 OFFCURVE",
+"-26 915 CURVE SMOOTH",
+"-26 878 OFFCURVE",
+"-8 845 OFFCURVE",
+"26 818 CURVE",
+"10 810 OFFCURVE",
+"-10 807 OFFCURVE",
+"-28 807 CURVE SMOOTH",
+"-53 807 OFFCURVE",
+"-75 815 OFFCURVE",
+"-99 832 CURVE",
+"-112 815 LINE",
+"-91 798 OFFCURVE",
+"-64 786 OFFCURVE",
+"-27 786 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"13 855 OFFCURVE",
+"-4 881 OFFCURVE",
+"-4 911 CURVE SMOOTH",
+"-4 951 OFFCURVE",
+"18 972 OFFCURVE",
+"52 972 CURVE SMOOTH",
+"88 972 OFFCURVE",
+"107 946 OFFCURVE",
+"107 914 CURVE SMOOTH",
+"107 878 OFFCURVE",
+"80 845 OFFCURVE",
+"43 826 CURVE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.far;
+position = "{0, 756}";
+},
+{
+name = top.far;
+position = "{0, 1042}";
+},
+{
+name = top.near;
+position = "{0, 1042}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"33 779 OFFCURVE",
+"93 807 OFFCURVE",
+"130 856 CURVE SMOOTH",
+"148 879 OFFCURVE",
+"157 905 OFFCURVE",
+"157 929 CURVE SMOOTH",
+"157 980 OFFCURVE",
+"119 1013 OFFCURVE",
+"66 1013 CURVE SMOOTH",
+"10 1013 OFFCURVE",
+"-29 978 OFFCURVE",
+"-29 925 CURVE SMOOTH",
+"-29 902 OFFCURVE",
+"-20 875 OFFCURVE",
+"-3 846 CURVE",
+"-12 843 OFFCURVE",
+"-20 842 OFFCURVE",
+"-31 842 CURVE SMOOTH",
+"-50 842 OFFCURVE",
+"-86 856 OFFCURVE",
+"-110 872 CURVE",
+"-147 818 LINE",
+"-112 793 OFFCURVE",
+"-75 779 OFFCURVE",
+"-31 779 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"41 890 OFFCURVE",
+"35 907 OFFCURVE",
+"35 920 CURVE SMOOTH",
+"35 941 OFFCURVE",
+"49 950 OFFCURVE",
+"64 950 CURVE SMOOTH",
+"78 950 OFFCURVE",
+"90 940 OFFCURVE",
+"90 925 CURVE SMOOTH",
+"90 907 OFFCURVE",
+"79 883 OFFCURVE",
+"55 869 CURVE"
+);
+}
+);
+width = 0;
+}
+);
+note = uni064F;
+unicode = 064F;
+}

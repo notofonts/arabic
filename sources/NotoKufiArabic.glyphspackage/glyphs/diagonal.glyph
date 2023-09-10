@@ -1,0 +1,111 @@
+{
+export = 0;
+glyphname = diagonal;
+layers = (
+{
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"15 612 LINE",
+"100 737 OFFCURVE",
+"239 856 OFFCURVE",
+"382 908 CURVE",
+"353 985 LINE",
+"200 928 OFFCURVE",
+"34 769 OFFCURVE",
+"-12 685 CURVE"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 6 values pushed */
+4 0 10 9 3 8 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01100]	/* MoveDirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 382;
+},
+{
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"27 580 LINE",
+"81 675 OFFCURVE",
+"233 808 OFFCURVE",
+"352 851 CURVE",
+"323 918 LINE",
+"194 865 OFFCURVE",
+"45 728 OFFCURVE",
+"0 639 CURVE"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 6 values pushed */
+4 0 10 9 3 8 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01100]	/* MoveDirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 354;
+},
+{
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"14 553 LINE",
+"79 666 OFFCURVE",
+"201 782 OFFCURVE",
+"311 834 CURVE",
+"304 854 LINE",
+"189 800 OFFCURVE",
+"75 694 OFFCURVE",
+"2 572 CURVE"
+);
+}
+);
+width = 326;
+},
+{
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"11 629 LINE",
+"99 769 OFFCURVE",
+"223 867 OFFCURVE",
+"391 935 CURVE",
+"352 1029 LINE",
+"183 961 OFFCURVE",
+"36 827 OFFCURVE",
+"-33 704 CURVE"
+);
+}
+);
+width = 400.66667;
+}
+);
+note = diagonal;
+}

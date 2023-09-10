@@ -1,0 +1,141 @@
+{
+glyphname = "fatha-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.far;
+position = "{0, 774}";
+},
+{
+name = top.far;
+position = "{0, 928}";
+},
+{
+name = top.near;
+position = "{0, 928}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"-117 776 LINE",
+"117 864 LINE",
+"117 928 LINE",
+"-117 841 LINE"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 2 values pushed */
+1 3 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.far;
+position = "{0, 781}";
+},
+{
+name = top.far;
+position = "{0, 918}";
+},
+{
+name = top.near;
+position = "{0, 918}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"-117 776 LINE",
+"117 864 LINE",
+"117 918 LINE",
+"-117 831 LINE"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 2 values pushed */
+1 3 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.far;
+position = "{0, 781}";
+},
+{
+name = top.far;
+position = "{0, 908}";
+},
+{
+name = top.near;
+position = "{0, 908}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"-101 793 LINE",
+"103 870 LINE",
+"103 892 LINE",
+"-101 816 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.far;
+position = "{0, 781}";
+},
+{
+name = top.far;
+position = "{0, 935}";
+},
+{
+name = top.near;
+position = "{0, 935}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"-117 776 LINE",
+"117 864 LINE",
+"117 935 LINE",
+"-117 848 LINE"
+);
+}
+);
+width = 0;
+}
+);
+note = uni064E;
+unicode = 064E;
+}

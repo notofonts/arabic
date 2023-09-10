@@ -1,0 +1,104 @@
+{
+glyphname = "fatha-ar_shadda-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.far;
+position = "{0, 766}";
+},
+{
+name = top.far;
+position = "{0, 1201}";
+}
+);
+components = (
+{
+name = "shadda-ar";
+},
+{
+alignment = -1;
+name = "fatha-ar";
+transform = "{1, 0, 0, 1, -1, 241}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.far;
+position = "{0, 786}";
+},
+{
+name = top.far;
+position = "{0, 1201}";
+}
+);
+components = (
+{
+name = "shadda-ar";
+},
+{
+alignment = -1;
+name = "fatha-ar";
+transform = "{1, 0, 0, 1, -6, 258}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.far;
+position = "{0, 766}";
+},
+{
+name = top.far;
+position = "{-1, 1191}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "shadda-ar";
+},
+{
+alignment = -1;
+name = "fatha-ar";
+transform = "{1, 0, 0, 1, -8, 268}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.far;
+position = "{0, 776}";
+},
+{
+name = top.far;
+position = "{-2, 1208}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "shadda-ar";
+},
+{
+alignment = -1;
+name = "fatha-ar";
+transform = "{1, 0, 0, 1, 2, 255}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 0;
+}
+);
+note = uni0651064E;
+}

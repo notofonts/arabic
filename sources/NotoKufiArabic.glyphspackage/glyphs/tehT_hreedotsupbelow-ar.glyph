@@ -1,0 +1,143 @@
+{
+glyphname = "tehThreedotsupbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{411, -359}";
+},
+{
+name = top.far;
+position = "{408, 669}";
+},
+{
+name = top.near;
+position = "{408, 669}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar";
+},
+{
+alignment = -1;
+name = "threedotsupbelow-ar";
+transform = "{1, 0, 0, 1, 411, 0}";
+},
+{
+alignment = -1;
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 414, -85}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 867;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{389, -375}";
+},
+{
+name = top.far;
+position = "{389, 667}";
+},
+{
+name = top.near;
+position = "{389, 667}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar";
+},
+{
+alignment = -1;
+name = "threedotsupbelow-ar";
+transform = "{1, 0, 0, 1, 388, 0}";
+},
+{
+alignment = -1;
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 380, -95}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 778;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{367, -264}";
+},
+{
+name = top.far;
+position = "{344, 595}";
+},
+{
+name = top.near;
+position = "{344, 595}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar";
+},
+{
+alignment = -1;
+name = "threedotsupbelow-ar";
+transform = "{1, 0, 0, 1, 365, 0}";
+},
+{
+alignment = -1;
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 346, -105}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 689;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{436, -378}";
+},
+{
+name = top.far;
+position = "{438, 713}";
+},
+{
+name = top.near;
+position = "{438, 713}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar";
+},
+{
+alignment = -1;
+name = "threedotsupbelow-ar";
+transform = "{1, 0, 0, 1, 426, -40}";
+},
+{
+alignment = -1;
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 437, -78}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 926;
+}
+);
+note = uni0753;
+unicode = 0753;
+}

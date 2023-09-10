@@ -1,0 +1,232 @@
+{
+glyphname = "twodotshorizontalbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{5, -104}";
+},
+{
+name = bottom;
+position = "{3, -290}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"-37 -250 OFFCURVE",
+"-11 -223 OFFCURVE",
+"-11 -178 CURVE SMOOTH",
+"-11 -133 OFFCURVE",
+"-36 -106 OFFCURVE",
+"-77 -106 CURVE SMOOTH",
+"-118 -106 OFFCURVE",
+"-144 -134 OFFCURVE",
+"-144 -178 CURVE SMOOTH",
+"-144 -222 OFFCURVE",
+"-118 -250 OFFCURVE",
+"-77 -250 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"133 -250 OFFCURVE",
+"159 -222 OFFCURVE",
+"159 -178 CURVE SMOOTH",
+"159 -134 OFFCURVE",
+"134 -106 OFFCURVE",
+"93 -106 CURVE SMOOTH",
+"52 -106 OFFCURVE",
+"26 -134 OFFCURVE",
+"26 -178 CURVE SMOOTH",
+"26 -222 OFFCURVE",
+"52 -250 OFFCURVE",
+"93 -250 CURVE SMOOTH"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 6 values pushed */
+12 0 6 18 18 6 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[01101]	/* MoveDirectRelPt */
+SHP[0]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{0, -74}";
+},
+{
+name = bottom;
+position = "{-2, -248}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"-53 -200 OFFCURVE",
+"-32 -179 OFFCURVE",
+"-32 -140 CURVE SMOOTH",
+"-32 -101 OFFCURVE",
+"-53 -80 OFFCURVE",
+"-88 -80 CURVE SMOOTH",
+"-119 -80 OFFCURVE",
+"-144 -97 OFFCURVE",
+"-144 -140 CURVE SMOOTH",
+"-144 -183 OFFCURVE",
+"-119 -200 OFFCURVE",
+"-88 -200 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"121 -200 OFFCURVE",
+"141 -176 OFFCURVE",
+"141 -140 CURVE SMOOTH",
+"141 -104 OFFCURVE",
+"121 -80 OFFCURVE",
+"85 -80 CURVE SMOOTH",
+"50 -80 OFFCURVE",
+"29 -101 OFFCURVE",
+"29 -140 CURVE SMOOTH",
+"29 -179 OFFCURVE",
+"50 -200 OFFCURVE",
+"85 -200 CURVE SMOOTH"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 6 values pushed */
+0 12 18 6 6 18 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[01101]	/* MoveDirectRelPt */
+SHP[0]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{0, -81}";
+},
+{
+name = bottom;
+position = "{-7, -189}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"-45 -140 OFFCURVE",
+"-33 -133 OFFCURVE",
+"-33 -112 CURVE SMOOTH",
+"-33 -90 OFFCURVE",
+"-48 -84 OFFCURVE",
+"-59 -84 CURVE SMOOTH",
+"-75 -84 OFFCURVE",
+"-85 -92 OFFCURVE",
+"-85 -112 CURVE SMOOTH",
+"-85 -132 OFFCURVE",
+"-75 -140 OFFCURVE",
+"-59 -140 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"67 -140 OFFCURVE",
+"80 -132 OFFCURVE",
+"80 -112 CURVE SMOOTH",
+"80 -92 OFFCURVE",
+"67 -84 OFFCURVE",
+"53 -84 CURVE SMOOTH",
+"37 -84 OFFCURVE",
+"28 -92 OFFCURVE",
+"28 -112 CURVE SMOOTH",
+"28 -132 OFFCURVE",
+"37 -140 OFFCURVE",
+"53 -140 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{0, -123}";
+},
+{
+name = bottom;
+position = "{-2, -329}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"-54 -283 OFFCURVE",
+"-25 -253 OFFCURVE",
+"-25 -203 CURVE SMOOTH",
+"-25 -154 OFFCURVE",
+"-52 -123 OFFCURVE",
+"-98 -123 CURVE SMOOTH",
+"-146 -123 OFFCURVE",
+"-172 -156 OFFCURVE",
+"-172 -203 CURVE SMOOTH",
+"-172 -248 OFFCURVE",
+"-146 -283 OFFCURVE",
+"-98 -283 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"143 -283 OFFCURVE",
+"173 -253 OFFCURVE",
+"173 -203 CURVE SMOOTH",
+"173 -152 OFFCURVE",
+"145 -123 OFFCURVE",
+"100 -123 CURVE SMOOTH",
+"55 -123 OFFCURVE",
+"26 -154 OFFCURVE",
+"26 -203 CURVE SMOOTH",
+"26 -251 OFFCURVE",
+"55 -283 OFFCURVE",
+"100 -283 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+}
+);
+note = twodots.below;
+}

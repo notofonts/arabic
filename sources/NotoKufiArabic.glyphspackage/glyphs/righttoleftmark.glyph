@@ -1,0 +1,121 @@
+{
+glyphname = righttoleftmark;
+layers = (
+{
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"17 727 LINE",
+"-147 727 LINE",
+"-81 790 LINE",
+"-104 814 LINE",
+"-210 709 LINE",
+"-104 604 LINE",
+"-81 628 LINE",
+"-147 692 LINE",
+"-18 692 LINE",
+"-18 89 LINE",
+"17 89 LINE"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 6 values pushed */
+5 10 1 7 2 10 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 0;
+},
+{
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"17 727 LINE",
+"-147 727 LINE",
+"-81 790 LINE",
+"-104 814 LINE",
+"-210 709 LINE",
+"-104 604 LINE",
+"-81 628 LINE",
+"-147 692 LINE",
+"-18 692 LINE",
+"-18 89 LINE",
+"17 89 LINE"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 6 values pushed */
+5 10 1 7 2 10 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 0;
+},
+{
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"17 727 LINE",
+"-147 727 LINE",
+"-81 790 LINE",
+"-104 814 LINE",
+"-210 709 LINE",
+"-104 604 LINE",
+"-81 628 LINE",
+"-147 692 LINE",
+"-18 692 LINE",
+"-18 89 LINE",
+"17 89 LINE"
+);
+}
+);
+width = 0;
+},
+{
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"17 727 LINE",
+"-147 727 LINE",
+"-81 790 LINE",
+"-104 814 LINE",
+"-210 709 LINE",
+"-104 604 LINE",
+"-81 628 LINE",
+"-147 692 LINE",
+"-18 692 LINE",
+"-18 89 LINE",
+"17 89 LINE"
+);
+}
+);
+width = 0;
+}
+);
+note = uni200F;
+unicode = 200F;
+}

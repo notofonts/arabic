@@ -1,0 +1,122 @@
+{
+glyphname = "ghain-ar.init";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{284, -78}";
+},
+{
+name = top.far;
+position = "{309, 765}";
+},
+{
+name = top.near;
+position = "{309, 765}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "ain-ar.init";
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 298, 0}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 567;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{258, -78}";
+},
+{
+name = top.far;
+position = "{289, 740}";
+},
+{
+name = top.near;
+position = "{289, 740}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "ain-ar.init";
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 289, 0}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 515;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{232, -78}";
+},
+{
+name = top.far;
+position = "{269, 715}";
+},
+{
+name = top.near;
+position = "{269, 715}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "ain-ar.init";
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 280, 0}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 463;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{301, -78}";
+},
+{
+name = top.far;
+position = "{322, 782}";
+},
+{
+name = top.near;
+position = "{322, 782}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "ain-ar.init";
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 304, 0}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 601.66667;
+}
+);
+note = uni063A.init;
+}

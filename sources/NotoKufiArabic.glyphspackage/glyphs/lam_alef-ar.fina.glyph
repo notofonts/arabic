@@ -1,0 +1,351 @@
+{
+glyphname = "lam_alef-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bar_1;
+position = "{531, 489}";
+},
+{
+name = bottom_1;
+position = "{562, -85}";
+},
+{
+name = bottom_2;
+position = "{251, -90}";
+},
+{
+name = bottom_2_ligComponent_1;
+position = "{566, -78}";
+},
+{
+name = bottom_2_ligComponent_2;
+position = "{253, -78}";
+},
+{
+name = caret_1;
+position = "{374.5, 0}";
+},
+{
+name = top.far_1;
+position = "{524, 826}";
+},
+{
+name = top.far_2;
+position = "{146, 713}";
+},
+{
+name = top.near_1;
+position = "{521, 825}";
+},
+{
+name = top.near_2;
+position = "{152, 712}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"624 120 LINE",
+"624 760 LINE",
+"475 760 LINE",
+"475 120 LINE",
+"372 120 LINE",
+"253 625 LINE",
+"97 625 LINE",
+"226 120 LINE",
+"45 120 LINE",
+"45 0 LINE",
+"754 0 LINE SMOOTH",
+"757 0 OFFCURVE",
+"759 2 OFFCURVE",
+"759 5 CURVE SMOOTH",
+"759 116 LINE SMOOTH",
+"759 119 OFFCURVE",
+"757 120 OFFCURVE",
+"754 120 CURVE SMOOTH"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 28 values pushed */
+10 9 11 8 12 15 15 8 9 7 4 16 2 17 9 9 6 13 0 15 11 7 6 7 70 89 6 18 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+RTG[ ]	/* RoundToGrid */
+MIAP[1]	/* MoveIndirectAbsPt */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP2[ ]	/* SetRefPoint2 */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 749;
+},
+{
+anchors = (
+{
+name = bar_1;
+position = "{520, 513}";
+},
+{
+name = bottom_1;
+position = "{569, -71}";
+},
+{
+name = bottom_2;
+position = "{224, -78}";
+},
+{
+name = bottom_2_ligComponent_1;
+position = "{566, -78}";
+},
+{
+name = bottom_2_ligComponent_2;
+position = "{225, -78}";
+},
+{
+name = caret_1;
+position = "{354.5, 0}";
+},
+{
+name = top.far_1;
+position = "{533, 836}";
+},
+{
+name = top.far_2;
+position = "{146, 713}";
+},
+{
+name = top.near_1;
+position = "{522, 835}";
+},
+{
+name = top.near_2;
+position = "{144, 713}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"584 78 LINE",
+"584 760 LINE",
+"495 760 LINE",
+"495 78 LINE",
+"362 78 LINE",
+"233 625 LINE",
+"140 625 LINE",
+"269 78 LINE",
+"45 78 LINE",
+"45 0 LINE",
+"714 0 LINE SMOOTH",
+"717 0 OFFCURVE",
+"719 2 OFFCURVE",
+"719 5 CURVE SMOOTH",
+"719 74 LINE SMOOTH",
+"719 77 OFFCURVE",
+"717 78 OFFCURVE",
+"714 78 CURVE SMOOTH"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 29 values pushed */
+3 2 4 1 5 8 8 1 2 0 4 16 11 17 2 2 15 6 8 4 0 15 0 70 89 15 18 6 0 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+RTG[ ]	/* RoundToGrid */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP2[ ]	/* SetRefPoint2 */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 709;
+},
+{
+anchors = (
+{
+name = bar_1;
+position = "{516, 532}";
+},
+{
+name = bottom_1;
+position = "{576, -57}";
+},
+{
+name = bottom_2;
+position = "{197, -66}";
+},
+{
+name = bottom_2_ligComponent_1;
+position = "{566, -78}";
+},
+{
+name = bottom_2_ligComponent_2;
+position = "{197, -78}";
+},
+{
+name = caret_1;
+position = "{335, 0}";
+},
+{
+name = top.far_1;
+position = "{518, 830}";
+},
+{
+name = top.far_2;
+position = "{146, 713}";
+},
+{
+name = top.near_1;
+position = "{523, 845}";
+},
+{
+name = top.near_2;
+position = "{136, 714}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"544 24 LINE",
+"544 760 LINE",
+"520 760 LINE",
+"520 24 LINE",
+"351 24 LINE",
+"213 625 LINE",
+"187 625 LINE",
+"327 24 LINE",
+"45 24 LINE",
+"45 0 LINE",
+"674 0 LINE SMOOTH",
+"677 0 OFFCURVE",
+"679 2 OFFCURVE",
+"679 5 CURVE SMOOTH",
+"679 20 LINE SMOOTH",
+"679 23 OFFCURVE",
+"677 24 OFFCURVE",
+"674 24 CURVE SMOOTH"
+);
+}
+);
+width = 669;
+},
+{
+anchors = (
+{
+name = bar_1;
+position = "{552, 472}";
+},
+{
+name = bottom_1;
+position = "{557, -94}";
+},
+{
+name = bottom_2;
+position = "{269, -98}";
+},
+{
+name = bottom_2_ligComponent_1;
+position = "{566, -78}";
+},
+{
+name = bottom_2_ligComponent_2;
+position = "{272, -78}";
+},
+{
+name = caret_1;
+position = "{388, 0}";
+},
+{
+name = top.far_1;
+position = "{534, 817}";
+},
+{
+name = top.far_2;
+position = "{146, 713}";
+},
+{
+name = top.near_1;
+position = "{528, 818}";
+},
+{
+name = top.near_2;
+position = "{157, 711}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"653 148 LINE",
+"653 760 LINE",
+"462 760 LINE",
+"462 148 LINE",
+"379 148 LINE",
+"266 625 LINE",
+"68 625 LINE",
+"197 148 LINE",
+"45 148 LINE",
+"45 0 LINE",
+"781 0 LINE SMOOTH",
+"784 0 OFFCURVE",
+"786 2 OFFCURVE",
+"786 5 CURVE SMOOTH",
+"786 144 LINE SMOOTH",
+"786 147 OFFCURVE",
+"784 148 OFFCURVE",
+"781 148 CURVE SMOOTH"
+);
+}
+);
+width = 775.66667;
+}
+);
+note = uni06440627.fina;
+}

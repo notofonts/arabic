@@ -1,0 +1,308 @@
+{
+glyphname = "lamBar-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{342, -322}";
+},
+{
+name = top.far;
+position = "{244, 732}";
+},
+{
+name = top.near;
+position = "{244, 732}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"374 435 LINE",
+"527 435 LINE",
+"527 39 LINE SMOOTH",
+"527 -62 OFFCURVE",
+"480 -120 OFFCURVE",
+"377 -120 CURVE SMOOTH",
+"347 -120 LINE SMOOTH",
+"267 -120 OFFCURVE",
+"214 -58 OFFCURVE",
+"214 39 CURVE SMOOTH",
+"214 107 OFFCURVE",
+"227 190 OFFCURVE",
+"248 261 CURVE",
+"116 261 LINE",
+"84 198 OFFCURVE",
+"65 116 OFFCURVE",
+"65 40 CURVE SMOOTH",
+"65 -126 OFFCURVE",
+"166 -240 OFFCURVE",
+"337 -240 CURVE SMOOTH",
+"381 -240 LINE SMOOTH",
+"578 -240 OFFCURVE",
+"676 -148 OFFCURVE",
+"676 35 CURVE SMOOTH",
+"676 435 LINE",
+"748 435 LINE",
+"748 542 LINE",
+"676 542 LINE",
+"676 760 LINE",
+"527 760 LINE",
+"527 542 LINE",
+"374 542 LINE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 36 values pushed */
+4 8 8 1 29 22 15 15 0 29 6 4 33 32 7 31 0 31 72 89 4 0 18 0 18 0 11 2 11 25 70 89 11 27 2 0 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+RTG[ ]	/* RoundToGrid */
+MDAP[1]	/* MoveDirectAbsPt */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 776;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{342, -322}";
+},
+{
+name = top.far;
+position = "{244, 732}";
+},
+{
+name = top.near;
+position = "{244, 732}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"374 485 LINE",
+"502 485 LINE",
+"502 -3 LINE SMOOTH",
+"502 -110 OFFCURVE",
+"450 -162 OFFCURVE",
+"334 -162 CURVE SMOOTH",
+"285 -162 LINE SMOOTH",
+"202 -162 OFFCURVE",
+"155 -97 OFFCURVE",
+"155 16 CURVE SMOOTH",
+"155 116 OFFCURVE",
+"166 195 OFFCURVE",
+"189 252 CURVE",
+"106 252 LINE",
+"79 188 OFFCURVE",
+"65 99 OFFCURVE",
+"65 16 CURVE SMOOTH",
+"65 -144 OFFCURVE",
+"142 -240 OFFCURVE",
+"266 -240 CURVE SMOOTH",
+"338 -240 LINE SMOOTH",
+"510 -240 OFFCURVE",
+"587 -157 OFFCURVE",
+"587 4 CURVE SMOOTH",
+"587 485 LINE",
+"656 485 LINE",
+"656 542 LINE",
+"587 542 LINE",
+"587 760 LINE",
+"502 760 LINE",
+"502 542 LINE",
+"374 542 LINE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 39 values pushed */
+4 1 1 8 28 21 15 15 0 28 5 4 32 31 4 7 72 89 4 4 1 1 29 72 89 1 19 1 19 3 11 11 25 70 89 11 27 3 0 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+RTG[ ]	/* RoundToGrid */
+MDAP[1]	/* MoveDirectAbsPt */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+RTG[ ]	/* RoundToGrid */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 687;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{291, -322}";
+},
+{
+name = top.far;
+position = "{264, 732}";
+},
+{
+name = top.near;
+position = "{264, 732}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"372 527 LINE",
+"474 527 LINE",
+"474 -29 LINE SMOOTH",
+"474 -166 OFFCURVE",
+"420 -216 OFFCURVE",
+"302 -216 CURVE SMOOTH",
+"235 -216 LINE SMOOTH",
+"126 -216 OFFCURVE",
+"89 -140 OFFCURVE",
+"89 15 CURVE SMOOTH",
+"89 98 OFFCURVE",
+"104 186 OFFCURVE",
+"125 242 CURVE",
+"103 243 LINE",
+"77 178 OFFCURVE",
+"65 81 OFFCURVE",
+"65 7 CURVE SMOOTH",
+"65 -156 OFFCURVE",
+"116 -240 OFFCURVE",
+"231 -240 CURVE SMOOTH",
+"301 -240 LINE SMOOTH",
+"445 -240 OFFCURVE",
+"498 -169 OFFCURVE",
+"498 -27 CURVE SMOOTH",
+"498 527 LINE",
+"564 527 LINE",
+"564 547 LINE",
+"498 547 LINE",
+"498 760 LINE",
+"474 760 LINE",
+"474 547 LINE",
+"372 547 LINE"
+);
+}
+);
+width = 598;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{342, -322}";
+},
+{
+name = top.far;
+position = "{244, 732}";
+},
+{
+name = top.near;
+position = "{244, 732}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"374 402 LINE",
+"544 402 LINE",
+"544 67 LINE SMOOTH",
+"544 -31 OFFCURVE",
+"500 -92 OFFCURVE",
+"406 -92 CURVE SMOOTH",
+"388 -92 LINE SMOOTH",
+"310 -92 OFFCURVE",
+"253 -32 OFFCURVE",
+"253 54 CURVE SMOOTH",
+"253 101 OFFCURVE",
+"267 187 OFFCURVE",
+"287 267 CURVE",
+"123 267 LINE",
+"87 205 OFFCURVE",
+"65 128 OFFCURVE",
+"65 56 CURVE SMOOTH",
+"65 -114 OFFCURVE",
+"182 -240 OFFCURVE",
+"384 -240 CURVE SMOOTH",
+"410 -240 LINE SMOOTH",
+"623 -240 OFFCURVE",
+"735 -142 OFFCURVE",
+"735 56 CURVE SMOOTH",
+"735 402 LINE",
+"809 402 LINE",
+"809 542 LINE",
+"735 542 LINE",
+"735 760 LINE",
+"544 760 LINE",
+"544 542 LINE",
+"374 542 LINE"
+);
+}
+);
+width = 835.33333;
+}
+);
+note = uni076A;
+unicode = 076A;
+}

@@ -1,0 +1,230 @@
+{
+glyphname = "twodotshorizontalabove-ar.diagonal";
+layers = (
+{
+anchors = (
+{
+name = _top.near;
+position = "{171, 832}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"233 912 OFFCURVE",
+"259 941 OFFCURVE",
+"259 966 CURVE SMOOTH",
+"259 997 OFFCURVE",
+"228 1027 OFFCURVE",
+"197 1027 CURVE SMOOTH",
+"169 1027 OFFCURVE",
+"144 1001 OFFCURVE",
+"144 972 CURVE SMOOTH",
+"144 943 OFFCURVE",
+"174 912 OFFCURVE",
+"205 912 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"129 824 OFFCURVE",
+"155 853 OFFCURVE",
+"155 878 CURVE SMOOTH",
+"155 909 OFFCURVE",
+"124 939 OFFCURVE",
+"93 939 CURVE SMOOTH",
+"65 939 OFFCURVE",
+"40 913 OFFCURVE",
+"40 884 CURVE SMOOTH",
+"40 853 OFFCURVE",
+"70 824 OFFCURVE",
+"101 824 CURVE SMOOTH"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 12 values pushed */
+0 6 18 12 6 12 25 24 15 9 3 21 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01100]	/* MoveDirectRelPt */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 298;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{151, 807}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"207 890 OFFCURVE",
+"232 905 OFFCURVE",
+"232 928 CURVE SMOOTH",
+"232 945 OFFCURVE",
+"213 974 OFFCURVE",
+"189 974 CURVE SMOOTH",
+"170 974 OFFCURVE",
+"148 955 OFFCURVE",
+"148 937 CURVE SMOOTH",
+"148 920 OFFCURVE",
+"167 890 OFFCURVE",
+"190 890 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"106 807 OFFCURVE",
+"130 821 OFFCURVE",
+"130 845 CURVE SMOOTH",
+"130 866 OFFCURVE",
+"109 891 OFFCURVE",
+"88 891 CURVE SMOOTH",
+"68 891 OFFCURVE",
+"47 872 OFFCURVE",
+"47 854 CURVE SMOOTH",
+"47 837 OFFCURVE",
+"66 807 OFFCURVE",
+"89 807 CURVE SMOOTH"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 12 values pushed */
+15 21 9 3 21 3 25 24 6 12 18 0 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01100]	/* MoveDirectRelPt */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 275;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{139, 805}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"187 884 OFFCURVE",
+"205 894 OFFCURVE",
+"205 910 CURVE SMOOTH",
+"205 925 OFFCURVE",
+"190 942 OFFCURVE",
+"177 942 CURVE SMOOTH",
+"165 942 OFFCURVE",
+"148 927 OFFCURVE",
+"148 915 CURVE SMOOTH",
+"148 904 OFFCURVE",
+"161 884 OFFCURVE",
+"177 884 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"101 805 OFFCURVE",
+"116 822 OFFCURVE",
+"116 834 CURVE SMOOTH",
+"116 843 OFFCURVE",
+"102 863 OFFCURVE",
+"87 863 CURVE SMOOTH",
+"73 863 OFFCURVE",
+"58 850 OFFCURVE",
+"58 837 CURVE SMOOTH",
+"58 826 OFFCURVE",
+"72 805 OFFCURVE",
+"89 805 CURVE SMOOTH"
+);
+}
+);
+width = 252;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{159, 840}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"256 973 OFFCURVE",
+"293 1010 OFFCURVE",
+"293 1047 CURVE SMOOTH",
+"293 1085 OFFCURVE",
+"256 1133 OFFCURVE",
+"211 1133 CURVE SMOOTH",
+"174 1133 OFFCURVE",
+"135 1097 OFFCURVE",
+"135 1061 CURVE SMOOTH",
+"135 1020 OFFCURVE",
+"179 973 OFFCURVE",
+"219 973 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"114 849 OFFCURVE",
+"151 885 OFFCURVE",
+"151 921 CURVE SMOOTH",
+"151 959 OFFCURVE",
+"115 1009 OFFCURVE",
+"70 1009 CURVE SMOOTH",
+"33 1009 OFFCURVE",
+"-6 974 OFFCURVE",
+"-6 938 CURVE SMOOTH",
+"-6 898 OFFCURVE",
+"36 849 OFFCURVE",
+"78 849 CURVE SMOOTH"
+);
+}
+);
+width = 313.33333;
+}
+);
+note = twodots_alt1.above;
+}

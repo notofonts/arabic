@@ -1,0 +1,107 @@
+{
+export = 0;
+glyphname = "ng-ar.morocco";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{444, -78}";
+},
+{
+name = top.near;
+position = "{338, 980}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "keheh-ar";
+},
+{
+alignment = -1;
+name = "threedotsupabove-ar.diagonal";
+transform = "{1, 0, 0, 1, 233, -123}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 887;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{404, -78}";
+},
+{
+name = top.near;
+position = "{317, 925}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "keheh-ar";
+},
+{
+alignment = -1;
+name = "threedotsupabove-ar.diagonal";
+transform = "{1, 0, 0, 1, 239, -13}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 808;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{364, -78}";
+},
+{
+name = top.near;
+position = "{337, 880}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "keheh-ar";
+},
+{
+alignment = -1;
+name = "threedotsupabove-ar.diagonal";
+transform = "{1, 0, 0, 1, 245, -88}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 729;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{471, -78}";
+},
+{
+name = top.near;
+position = "{282, 1037}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "keheh-ar";
+},
+{
+alignment = -1;
+name = "threedotsupabove-ar.diagonal";
+transform = "{1, 0, 0, 1, 229, -196}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 940;
+}
+);
+note = uni06AD.morocco;
+}

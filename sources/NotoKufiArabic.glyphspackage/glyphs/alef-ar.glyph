@@ -1,0 +1,149 @@
+{
+glyphname = "alef-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{166, -52}";
+},
+{
+name = top.far;
+position = "{176, 830}";
+},
+{
+name = top.near;
+position = "{176, 830}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"100 0 LINE",
+"249 0 LINE",
+"249 760 LINE",
+"100 760 LINE"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 7 values pushed */
+3 5 4 3 18 0 0 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 349;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{146, -55}";
+},
+{
+name = top.far;
+position = "{146, 820}";
+},
+{
+name = top.near;
+position = "{146, 820}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"100 0 LINE",
+"189 0 LINE",
+"189 760 LINE",
+"100 760 LINE"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 7 values pushed */
+3 4 5 3 18 0 0 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 289;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{112, -51}";
+},
+{
+name = top.far;
+position = "{104, 830}";
+},
+{
+name = top.near;
+position = "{104, 830}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"98 0 LINE",
+"122 0 LINE",
+"122 760 LINE",
+"98 760 LINE"
+);
+}
+);
+width = 220;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{189, -48}";
+},
+{
+name = top.far;
+position = "{196, 837}";
+},
+{
+name = top.near;
+position = "{196, 837}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"100 0 LINE",
+"289 0 LINE",
+"289 760 LINE",
+"100 760 LINE"
+);
+}
+);
+width = 389;
+}
+);
+note = uni0627;
+unicode = 0627;
+}

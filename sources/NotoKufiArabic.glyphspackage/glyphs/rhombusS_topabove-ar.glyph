@@ -1,0 +1,181 @@
+{
+glyphname = "rhombusStopabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.near;
+position = "{0, 459}";
+},
+{
+name = _top2;
+position = "{0, 459}";
+},
+{
+name = top.near;
+position = "{0, 678}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 668 LINE",
+"-103 565 LINE",
+"0 462 LINE",
+"103 565 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"0 514 LINE",
+"-51 565 LINE",
+"0 616 LINE",
+"51 565 LINE"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 4 values pushed */
+5 3 7 1 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MDRP[01100]	/* MoveDirectRelPt */
+SHP[0]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{0, 478}";
+},
+{
+name = _top2;
+position = "{0, 478}";
+},
+{
+name = top.near;
+position = "{0, 657}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 647 LINE",
+"-82 565 LINE",
+"0 483 LINE",
+"82 565 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"0 514 LINE",
+"-51 565 LINE",
+"0 615 LINE",
+"51 565 LINE"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 7 values pushed */
+7 4 6 5 4 3 1 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01100]	/* MoveDirectRelPt */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{0, 499}";
+},
+{
+name = _top2;
+position = "{0, 499}";
+},
+{
+name = top.near;
+position = "{0, 636}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 626 LINE",
+"-61 565 LINE",
+"0 504 LINE",
+"61 565 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"0 518 LINE",
+"-47 565 LINE",
+"0 610 LINE",
+"47 565 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{0, 436}";
+},
+{
+name = _top2;
+position = "{0, 436}";
+},
+{
+name = top.near;
+position = "{0, 692}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 682 LINE",
+"-117 565 LINE",
+"0 448 LINE",
+"117 565 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"0 514 LINE",
+"-51 565 LINE",
+"0 617 LINE",
+"51 565 LINE"
+);
+}
+);
+width = 0;
+}
+);
+note = uni06EB;
+unicode = 06EB;
+}

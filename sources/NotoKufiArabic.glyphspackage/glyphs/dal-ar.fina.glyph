@@ -1,0 +1,234 @@
+{
+glyphname = "dal-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{230, -58}";
+},
+{
+name = top.far;
+position = "{146, 635}";
+},
+{
+name = top.near;
+position = "{146, 635}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"45 0 LINE",
+"660 0 LINE SMOOTH",
+"663 0 OFFCURVE",
+"665 2 OFFCURVE",
+"665 5 CURVE SMOOTH",
+"665 116 LINE SMOOTH",
+"665 119 OFFCURVE",
+"663 120 OFFCURVE",
+"660 120 CURVE SMOOTH",
+"529 120 LINE",
+"478 364 OFFCURVE",
+"374 505 OFFCURVE",
+"198 576 CURVE",
+"142 436 LINE",
+"230 400 OFFCURVE",
+"289 345 OFFCURVE",
+"329 269 CURVE SMOOTH",
+"349 231 OFFCURVE",
+"365 181 OFFCURVE",
+"379 120 CURVE",
+"45 120 LINE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 19 values pushed */
+1 9 9 5 0 3 17 12 18 9 0 16 0 70 89 16 18 5 6 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP2[ ]	/* SetRefPoint2 */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 655;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{230, -58}";
+},
+{
+name = top.far;
+position = "{171, 586}";
+},
+{
+name = top.near;
+position = "{171, 586}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"45 0 LINE",
+"574 0 LINE SMOOTH",
+"577 0 OFFCURVE",
+"579 2 OFFCURVE",
+"579 5 CURVE SMOOTH",
+"579 74 LINE SMOOTH",
+"579 77 OFFCURVE",
+"577 78 OFFCURVE",
+"574 78 CURVE SMOOTH",
+"463 78 LINE",
+"430 306 OFFCURVE",
+"331 465 OFFCURVE",
+"178 546 CURVE",
+"146 470 LINE",
+"234 410 OFFCURVE",
+"294 338 OFFCURVE",
+"333 246 CURVE SMOOTH",
+"354 197 OFFCURVE",
+"369 141 OFFCURVE",
+"378 78 CURVE",
+"45 78 LINE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 19 values pushed */
+1 8 8 4 0 3 16 12 17 8 0 15 0 70 89 15 18 4 5 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP2[ ]	/* SetRefPoint2 */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 569;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{230, -58}";
+},
+{
+name = top.far;
+position = "{198, 572}";
+},
+{
+name = top.near;
+position = "{198, 572}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"45 0 LINE",
+"488 0 LINE SMOOTH",
+"491 0 OFFCURVE",
+"493 2 OFFCURVE",
+"493 5 CURVE SMOOTH",
+"493 20 LINE SMOOTH",
+"493 23 OFFCURVE",
+"491 24 OFFCURVE",
+"488 24 CURVE SMOOTH",
+"398 24 LINE",
+"383 234 OFFCURVE",
+"294 425 OFFCURVE",
+"158 515 CURVE",
+"147 495 LINE",
+"247 420 OFFCURVE",
+"309 313 OFFCURVE",
+"348 179 CURVE SMOOTH",
+"364 125 OFFCURVE",
+"371 72 OFFCURVE",
+"374 24 CURVE",
+"45 24 LINE"
+);
+}
+);
+width = 483;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{285, -58}";
+},
+{
+name = top.far;
+position = "{203, 668}";
+},
+{
+name = top.near;
+position = "{203, 668}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"45 0 LINE",
+"717 0 LINE SMOOTH",
+"721 0 OFFCURVE",
+"722 2 OFFCURVE",
+"722 5 CURVE SMOOTH",
+"722 144 LINE SMOOTH",
+"722 147 OFFCURVE",
+"721 148 OFFCURVE",
+"717 148 CURVE SMOOTH",
+"573 148 LINE",
+"526 355 OFFCURVE",
+"430 521 OFFCURVE",
+"233 596 CURVE",
+"139 437 LINE",
+"221 397 OFFCURVE",
+"279 350 OFFCURVE",
+"311 305 CURVE SMOOTH",
+"336 269 OFFCURVE",
+"361 217 OFFCURVE",
+"380 148 CURVE",
+"45 148 LINE"
+);
+}
+);
+width = 712;
+}
+);
+note = uni062F.fina;
+}

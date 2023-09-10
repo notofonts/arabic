@@ -1,0 +1,88 @@
+{
+glyphname = "perthousand-ar";
+layers = (
+{
+components = (
+{
+name = "percent-ar";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"511 82 LINE",
+"570 82 LINE",
+"570 141 LINE",
+"511 141 LINE"
+);
+}
+);
+width = 620;
+},
+{
+components = (
+{
+name = "percent-ar";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"546 81 LINE",
+"651 81 LINE",
+"651 186 LINE",
+"546 186 LINE"
+);
+}
+);
+width = 701;
+},
+{
+components = (
+{
+name = "percent-ar";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"575 70 LINE",
+"701 70 LINE",
+"701 196 LINE",
+"575 196 LINE"
+);
+}
+);
+width = 751;
+},
+{
+components = (
+{
+name = "percent-ar";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"608 70 LINE",
+"748 70 LINE",
+"748 210 LINE",
+"608 210 LINE"
+);
+}
+);
+width = 798;
+}
+);
+leftMetricsKey = "percent-ar";
+rightMetricsKey = "percent-ar";
+unicode = 0609;
+}

@@ -1,0 +1,108 @@
+{
+glyphname = "fatha-ar_hamzaabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.near;
+position = "{0, 744}";
+},
+{
+name = top.near;
+position = "{0, 1148}";
+}
+);
+components = (
+{
+name = "fatha-ar";
+transform = "{1, 0, 0, 1, 0, -20}";
+},
+{
+name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, -10, 149}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{0, 842}";
+},
+{
+name = top.near;
+position = "{0, 1207}";
+}
+);
+components = (
+{
+name = "fatha-ar";
+transform = "{1, 0, 0, 1, 0, 86}";
+},
+{
+name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, -10, 257}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{0, 880}";
+},
+{
+name = top.near;
+position = "{0, 1206}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "fatha-ar";
+transform = "{1, 0, 0, 1, 0, 82}";
+},
+{
+alignment = -1;
+name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, 0, 258}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{0, 612}";
+},
+{
+name = top.near;
+position = "{0, 1062}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "fatha-ar";
+transform = "{1, 0, 0, 1, 10, -163}";
+},
+{
+alignment = -1;
+name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, 0, 29}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 0;
+}
+);
+note = uni0654064E;
+category = Mark;
+subCategory = Nonspacing;
+}

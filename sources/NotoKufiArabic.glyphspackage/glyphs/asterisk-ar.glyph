@@ -1,0 +1,164 @@
+{
+glyphname = "asterisk-ar";
+layers = (
+{
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"212 293 LINE",
+"279 445 LINE",
+"355 292 LINE",
+"466 351 LINE",
+"357 496 LINE",
+"523 508 LINE",
+"507 631 LINE",
+"325 580 LINE",
+"345 760 LINE",
+"217 760 LINE",
+"237 580 LINE",
+"59 631 LINE",
+"40 509 LINE",
+"205 496 LINE",
+"97 351 LINE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 27 values pushed */
+8 7 11 13 0 7 2 4 6 15 16 4 5 5 11 0 12 3 3 14 10 10 8 1 14 8 0 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP2[ ]	/* SetRefPoint2 */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 563;
+},
+{
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"195 308 LINE",
+"272 483 LINE",
+"358 308 LINE",
+"445 355 LINE",
+"325 514 LINE",
+"510 528 LINE",
+"497 622 LINE",
+"303 568 LINE",
+"324 760 LINE",
+"224 760 LINE",
+"245 568 LINE",
+"54 622 LINE",
+"40 528 LINE",
+"223 514 LINE",
+"105 355 LINE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 24 values pushed */
+6 5 2 0 5 13 11 9 6 16 15 2 3 3 9 13 12 8 8 6 0 12 6 0 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 550;
+},
+{
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"179 317 LINE",
+"272 515 LINE",
+"374 318 LINE",
+"434 349 LINE",
+"294 528 LINE",
+"505 548 LINE",
+"495 615 LINE",
+"285 548 LINE",
+"308 760 LINE",
+"239 760 LINE",
+"263 548 LINE",
+"57 619 LINE",
+"45 552 LINE",
+"251 527 LINE",
+"116 349 LINE"
+);
+}
+);
+width = 537;
+},
+{
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"246 266 LINE",
+"303 437 LINE",
+"364 262 LINE",
+"514 338 LINE",
+"388 493 LINE",
+"569 490 LINE",
+"549 661 LINE",
+"353 585 LINE",
+"396 779 LINE",
+"211 779 LINE",
+"257 585 LINE",
+"69 674 LINE",
+"40 488 LINE",
+"222 493 LINE",
+"87 344 LINE"
+);
+}
+);
+width = 609;
+}
+);
+note = uni066D;
+unicode = 066D;
+}

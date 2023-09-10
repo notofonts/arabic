@@ -1,0 +1,334 @@
+{
+glyphname = "seenabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.near;
+position = "{39, 488}";
+},
+{
+name = _top2;
+position = "{39, 488}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"227 595 LINE",
+"227 793 LINE",
+"167 793 LINE",
+"167 643 LINE",
+"142 643 LINE SMOOTH",
+"122 643 OFFCURVE",
+"110 649 OFFCURVE",
+"97 666 CURVE",
+"98 672 OFFCURVE",
+"99 678 OFFCURVE",
+"99 685 CURVE SMOOTH",
+"99 762 LINE",
+"39 762 LINE",
+"39 690 LINE SMOOTH",
+"39 661 OFFCURVE",
+"30 643 OFFCURVE",
+"1 643 CURVE SMOOTH",
+"-33 643 LINE",
+"-33 762 LINE",
+"-93 762 LINE",
+"-93 611 LINE SMOOTH",
+"-93 568 OFFCURVE",
+"-113 547 OFFCURVE",
+"-153 547 CURVE SMOOTH",
+"-165 547 LINE SMOOTH",
+"-197 547 OFFCURVE",
+"-218 572 OFFCURVE",
+"-218 611 CURVE SMOOTH",
+"-218 634 OFFCURVE",
+"-214 664 OFFCURVE",
+"-205 700 CURVE",
+"-257 700 LINE",
+"-271 672 OFFCURVE",
+"-278 642 OFFCURVE",
+"-278 611 CURVE SMOOTH",
+"-278 543 OFFCURVE",
+"-237 499 OFFCURVE",
+"-169 499 CURVE SMOOTH",
+"-151 499 LINE SMOOTH",
+"-78 499 OFFCURVE",
+"-39 531 OFFCURVE",
+"-34 595 CURVE",
+"14 595 LINE SMOOTH",
+"43 595 OFFCURVE",
+"66 605 OFFCURVE",
+"81 625 CURVE",
+"100 605 OFFCURVE",
+"121 595 OFFCURVE",
+"143 595 CURVE SMOOTH"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 18 values pushed */
+16 12 12 20 0 39 30 0 0 30 39 3 24 5 5 14 35 24 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+MDRP[01100]	/* MoveDirectRelPt */
+SHP[0]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP1[ ]	/* SetRefPoint1 */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+MDAP[1]	/* MoveDirectAbsPt */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[01101]	/* MoveDirectRelPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{39, 468}";
+},
+{
+name = _top2;
+position = "{39, 468}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"212 581 LINE",
+"212 775 LINE",
+"178 775 LINE",
+"178 613 LINE",
+"154 613 LINE SMOOTH",
+"127 613 OFFCURVE",
+"113 623 OFFCURVE",
+"102 643 CURVE",
+"102 647 OFFCURVE",
+"102 652 OFFCURVE",
+"102 656 CURVE",
+"102 744 LINE",
+"68 744 LINE",
+"68 659 LINE SMOOTH",
+"68 632 OFFCURVE",
+"55 613 OFFCURVE",
+"28 613 CURVE SMOOTH",
+"-16 613 LINE",
+"-16 744 LINE",
+"-50 744 LINE",
+"-50 580 LINE SMOOTH",
+"-50 537 OFFCURVE",
+"-70 517 OFFCURVE",
+"-117 517 CURVE SMOOTH",
+"-136 517 LINE SMOOTH",
+"-172 517 OFFCURVE",
+"-188 545 OFFCURVE",
+"-188 588 CURVE SMOOTH",
+"-188 629 OFFCURVE",
+"-184 660 OFFCURVE",
+"-175 682 CURVE",
+"-208 682 LINE",
+"-219 657 OFFCURVE",
+"-224 625 OFFCURVE",
+"-224 588 CURVE SMOOTH",
+"-224 521 OFFCURVE",
+"-192 485 OFFCURVE",
+"-144 485 CURVE SMOOTH",
+"-115 485 LINE SMOOTH",
+"-49 485 OFFCURVE",
+"-16 517 OFFCURVE",
+"-16 581 CURVE",
+"31 581 LINE SMOOTH",
+"56 581 OFFCURVE",
+"76 590 OFFCURVE",
+"89 609 CURVE",
+"106 590 OFFCURVE",
+"128 581 OFFCURVE",
+"154 581 CURVE SMOOTH"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 23 values pushed */
+25 25 32 27 4 4 36 0 112 0 128 0 2 32 14 0 0 14 32 3 39 20 7 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+MDRP[01100]	/* MoveDirectRelPt */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+MDAP[1]	/* MoveDirectAbsPt */
+MDAP[1]	/* MoveDirectAbsPt */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[01101]	/* MoveDirectRelPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{-1, 461}";
+},
+{
+name = _top2;
+position = "{0, 466}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"137 587 LINE",
+"137 777 LINE",
+"119 777 LINE",
+"119 605 LINE",
+"106 605 LINE SMOOTH",
+"77 605 OFFCURVE",
+"61 618 OFFCURVE",
+"51 630 CURVE",
+"52 636 OFFCURVE",
+"52 642 OFFCURVE",
+"52 647 CURVE",
+"52 746 LINE",
+"34 746 LINE",
+"34 648 LINE SMOOTH",
+"34 625 OFFCURVE",
+"17 605 OFFCURVE",
+"-6 605 CURVE SMOOTH",
+"-49 605 LINE",
+"-49 746 LINE",
+"-67 746 LINE",
+"-67 585 LINE SMOOTH",
+"-67 529 OFFCURVE",
+"-87 509 OFFCURVE",
+"-129 509 CURVE SMOOTH",
+"-155 509 LINE SMOOTH",
+"-206 509 OFFCURVE",
+"-213 545 OFFCURVE",
+"-213 592 CURVE SMOOTH",
+"-213 626 OFFCURVE",
+"-207 654 OFFCURVE",
+"-199 684 CURVE",
+"-217 684 LINE",
+"-225 654 OFFCURVE",
+"-231 626 OFFCURVE",
+"-231 592 CURVE SMOOTH",
+"-231 526 OFFCURVE",
+"-213 491 OFFCURVE",
+"-155 491 CURVE SMOOTH",
+"-129 491 LINE SMOOTH",
+"-76 491 OFFCURVE",
+"-49 519 OFFCURVE",
+"-49 587 CURVE",
+"-12 587 LINE SMOOTH",
+"11 587 OFFCURVE",
+"29 595 OFFCURVE",
+"42 613 CURVE",
+"56 596 OFFCURVE",
+"77 587 OFFCURVE",
+"105 587 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{39, 488}";
+},
+{
+name = _top2;
+position = "{39, 488}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"230 581 LINE",
+"230 782 LINE",
+"153 782 LINE",
+"153 640 LINE",
+"127 640 LINE SMOOTH",
+"109 640 OFFCURVE",
+"102 643 OFFCURVE",
+"87 658 CURVE",
+"89 665 OFFCURVE",
+"90 672 OFFCURVE",
+"90 681 CURVE",
+"90 751 LINE",
+"13 751 LINE",
+"13 687 LINE SMOOTH",
+"13 656 OFFCURVE",
+"7 640 OFFCURVE",
+"-24 640 CURVE SMOOTH",
+"-51 640 LINE",
+"-51 751 LINE",
+"-128 751 LINE",
+"-128 608 LINE SMOOTH",
+"-128 566 OFFCURVE",
+"-148 544 OFFCURVE",
+"-184 544 CURVE SMOOTH",
+"-191 544 LINE SMOOTH",
+"-220 544 OFFCURVE",
+"-245 567 OFFCURVE",
+"-245 608 CURVE SMOOTH",
+"-245 632 OFFCURVE",
+"-240 655 OFFCURVE",
+"-232 689 CURVE",
+"-296 689 LINE",
+"-313 659 OFFCURVE",
+"-321 630 OFFCURVE",
+"-321 603 CURVE SMOOTH",
+"-321 534 OFFCURVE",
+"-274 485 OFFCURVE",
+"-192 485 CURVE SMOOTH",
+"-182 485 LINE SMOOTH",
+"-104 485 OFFCURVE",
+"-61 517 OFFCURVE",
+"-53 581 CURVE",
+"-4 581 LINE SMOOTH",
+"28 581 OFFCURVE",
+"52 591 OFFCURVE",
+"69 612 CURVE",
+"86 591 OFFCURVE",
+"102 581 OFFCURVE",
+"129 581 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+}
+);
+note = uni06DC;
+unicode = 06DC;
+}

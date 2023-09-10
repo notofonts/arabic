@@ -1,0 +1,142 @@
+{
+glyphname = "ngoeh-ar.init";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{305, -78}";
+},
+{
+name = top.far;
+position = "{55, 1065}";
+},
+{
+name = top.near;
+position = "{55, 1065}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "kaf-ar.init";
+},
+{
+alignment = -1;
+name = diagonal;
+transform = "{1, 0, 0, 1, 21, 0}";
+},
+{
+alignment = -1;
+name = "twodotshorizontalabove-ar.diagonal";
+transform = "{1, 0, 0, 1, -40, 0}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 610;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{313, -78}";
+},
+{
+name = top.far;
+position = "{190, 1015}";
+},
+{
+name = top.near;
+position = "{190, 1015}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "kaf-ar.init";
+},
+{
+alignment = -1;
+name = diagonal;
+transform = "{1, 0, 0, 1, 37, 0}";
+},
+{
+alignment = -1;
+name = "twodotshorizontalabove-ar.diagonal";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 576;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{241, -78}";
+},
+{
+name = top.far;
+position = "{145, 906}";
+},
+{
+name = top.near;
+position = "{145, 906}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "kaf-ar.init";
+},
+{
+alignment = -1;
+name = diagonal;
+transform = "{1, 0, 0, 1, 53, 0}";
+},
+{
+alignment = -1;
+name = "twodotshorizontalabove-ar.diagonal";
+transform = "{1, 0, 0, 1, -2, -58}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 542;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{313, -78}";
+},
+{
+name = top.far;
+position = "{126, 1212}";
+},
+{
+name = top.near;
+position = "{126, 1212}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "kaf-ar.init";
+transform = "{1, 0, 0, 1, 13, 0}";
+},
+{
+alignment = -1;
+name = diagonal;
+transform = "{1, 0, 0, 1, 23, 0}";
+},
+{
+alignment = -1;
+name = "twodotshorizontalabove-ar.diagonal";
+transform = "{0.98481, -0.17365, 0.17365, 0.98481, -164, 100}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 646;
+}
+);
+note = uni06B1.init;
+}

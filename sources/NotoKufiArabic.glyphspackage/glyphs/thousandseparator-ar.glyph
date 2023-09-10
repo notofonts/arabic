@@ -1,0 +1,115 @@
+{
+glyphname = "thousandseparator-ar";
+layers = (
+{
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"172 140 LINE",
+"212 230 OFFCURVE",
+"241 308 OFFCURVE",
+"258 374 CURVE",
+"251 385 LINE",
+"114 385 LINE",
+"102 306 OFFCURVE",
+"86 224 OFFCURVE",
+"65 140 CURVE"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 6 values pushed */
+4 0 8 7 6 2 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 323;
+},
+{
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"132 140 LINE",
+"173 233 OFFCURVE",
+"202 311 OFFCURVE",
+"218 374 CURVE",
+"211 385 LINE",
+"114 385 LINE",
+"105 326 OFFCURVE",
+"81 207 OFFCURVE",
+"65 140 CURVE"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 6 values pushed */
+5 0 9 8 0 4 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 283;
+},
+{
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"82 141 LINE",
+"119 235 OFFCURVE",
+"143 313 OFFCURVE",
+"159 375 CURVE",
+"152 386 LINE",
+"131 386 LINE",
+"122 346 OFFCURVE",
+"84 191 OFFCURVE",
+"65 141 CURVE"
+);
+}
+);
+width = 225;
+},
+{
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"199 140 LINE",
+"238 228 OFFCURVE",
+"267 306 OFFCURVE",
+"285 374 CURVE",
+"278 385 LINE",
+"114 385 LINE",
+"100 292 OFFCURVE",
+"89 236 OFFCURVE",
+"65 140 CURVE"
+);
+}
+);
+width = 350;
+}
+);
+note = uni066C;
+unicode = 066C;
+}

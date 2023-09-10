@@ -1,0 +1,225 @@
+{
+glyphname = "sukunoval-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.near;
+position = "{123, 930}";
+},
+{
+name = top.near;
+position = "{125, 1250}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"190 968 OFFCURVE",
+"231 1019 OFFCURVE",
+"231 1102 CURVE SMOOTH",
+"231 1190 OFFCURVE",
+"186 1251 OFFCURVE",
+"123 1251 CURVE SMOOTH",
+"60 1251 OFFCURVE",
+"15 1190 OFFCURVE",
+"15 1102 CURVE SMOOTH",
+"15 1019 OFFCURVE",
+"56 968 OFFCURVE",
+"123 968 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"107 1060 OFFCURVE",
+"94 1077 OFFCURVE",
+"94 1108 CURVE SMOOTH",
+"94 1138 OFFCURVE",
+"107 1156 OFFCURVE",
+"124 1156 CURVE SMOOTH",
+"141 1156 OFFCURVE",
+"154 1138 OFFCURVE",
+"154 1108 CURVE SMOOTH",
+"154 1077 OFFCURVE",
+"141 1060 OFFCURVE",
+"124 1060 CURVE SMOOTH"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 2 values pushed */
+2 0 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 248;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{99, 970}";
+},
+{
+name = top.near;
+position = "{99, 1250}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"160 1008 OFFCURVE",
+"183 1067 OFFCURVE",
+"183 1131 CURVE SMOOTH",
+"183 1194 OFFCURVE",
+"160 1250 OFFCURVE",
+"100 1250 CURVE SMOOTH",
+"35 1250 OFFCURVE",
+"15 1182 OFFCURVE",
+"15 1125 CURVE SMOOTH",
+"15 1066 OFFCURVE",
+"37 1008 OFFCURVE",
+"98 1008 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"66 1057 OFFCURVE",
+"61 1103 OFFCURVE",
+"61 1128 CURVE SMOOTH",
+"61 1153 OFFCURVE",
+"66 1200 OFFCURVE",
+"99 1200 CURVE SMOOTH",
+"133 1200 OFFCURVE",
+"137 1153 OFFCURVE",
+"137 1128 CURVE SMOOTH",
+"137 1103 OFFCURVE",
+"133 1057 OFFCURVE",
+"99 1057 CURVE SMOOTH"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 2 values pushed */
+2 0 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 192;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{98, 1025}";
+},
+{
+name = top.near;
+position = "{98, 1242}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"142 1063 OFFCURVE",
+"159 1107 OFFCURVE",
+"159 1155 CURVE SMOOTH",
+"159 1201 OFFCURVE",
+"142 1242 OFFCURVE",
+"99 1242 CURVE SMOOTH",
+"52 1242 OFFCURVE",
+"37 1192 OFFCURVE",
+"37 1150 CURVE SMOOTH",
+"37 1106 OFFCURVE",
+"53 1063 OFFCURVE",
+"97 1063 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"64 1080 OFFCURVE",
+"59 1126 OFFCURVE",
+"59 1151 CURVE SMOOTH",
+"59 1176 OFFCURVE",
+"64 1223 OFFCURVE",
+"98 1223 CURVE SMOOTH",
+"134 1223 OFFCURVE",
+"138 1176 OFFCURVE",
+"138 1151 CURVE SMOOTH",
+"138 1126 OFFCURVE",
+"134 1080 OFFCURVE",
+"98 1080 CURVE SMOOTH"
+);
+}
+);
+width = 192;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{150, 930}";
+},
+{
+name = top.near;
+position = "{153, 1250}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"215 968 OFFCURVE",
+"263 1029 OFFCURVE",
+"263 1104 CURVE SMOOTH",
+"263 1180 OFFCURVE",
+"217 1250 OFFCURVE",
+"153 1250 CURVE SMOOTH",
+"85 1250 OFFCURVE",
+"37 1180 OFFCURVE",
+"37 1099 CURVE SMOOTH",
+"37 1029 OFFCURVE",
+"75 968 OFFCURVE",
+"149 968 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"129 1052 OFFCURVE",
+"116 1074 OFFCURVE",
+"116 1107 CURVE SMOOTH",
+"116 1135 OFFCURVE",
+"128 1164 OFFCURVE",
+"150 1164 CURVE SMOOTH",
+"166 1164 OFFCURVE",
+"184 1139 OFFCURVE",
+"184 1104 CURVE SMOOTH",
+"184 1072 OFFCURVE",
+"169 1052 OFFCURVE",
+"149 1052 CURVE SMOOTH"
+);
+}
+);
+width = 288;
+}
+);
+note = uni06E0;
+unicode = 06E0;
+}

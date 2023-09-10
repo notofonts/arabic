@@ -1,0 +1,143 @@
+{
+glyphname = "tehRing-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{434, -185}";
+},
+{
+name = top.far;
+position = "{402, 668}";
+},
+{
+name = top.near;
+position = "{402, 668}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar";
+},
+{
+alignment = -1;
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 406, -95}";
+},
+{
+alignment = -1;
+name = "sukun-ar";
+transform = "{1, 0, 0, 1, 435, -964}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 867;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{404, -208}";
+},
+{
+name = top.far;
+position = "{379, 663}";
+},
+{
+name = top.near;
+position = "{379, 663}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar";
+},
+{
+alignment = -1;
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 380, -95}";
+},
+{
+alignment = -1;
+name = "sukun-ar";
+transform = "{1, 0, 0, 1, 405, -976}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 778;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{374, -231}";
+},
+{
+name = top.far;
+position = "{353, 613}";
+},
+{
+name = top.near;
+position = "{353, 613}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar";
+},
+{
+alignment = -1;
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 354, -95}";
+},
+{
+alignment = -1;
+name = "sukun-ar";
+transform = "{1, 0, 0, 1, 374, -986}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 689;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{454, -170}";
+},
+{
+name = top.far;
+position = "{427, 681}";
+},
+{
+name = top.near;
+position = "{427, 681}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar";
+},
+{
+alignment = -1;
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 423, -95}";
+},
+{
+alignment = -1;
+name = "sukun-ar";
+transform = "{1, 0, 0, 1, 455, -956}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 926;
+}
+);
+note = uni067C;
+unicode = 067C;
+}

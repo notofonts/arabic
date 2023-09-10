@@ -1,0 +1,123 @@
+{
+glyphname = "lamVabove-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{342, -322}";
+},
+{
+name = top.far;
+position = "{588, 1057}";
+},
+{
+name = top.near;
+position = "{588, 1057}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "lam-ar";
+},
+{
+alignment = -1;
+name = smallv.arabic;
+transform = "{1, 0, 0, 1, 598, 187}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 776;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{342, -322}";
+},
+{
+name = top.far;
+position = "{523, 1057}";
+},
+{
+name = top.near;
+position = "{523, 1057}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "lam-ar";
+},
+{
+alignment = -1;
+name = smallv.arabic;
+transform = "{1, 0, 0, 1, 541, 187}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 687;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{312, -322}";
+},
+{
+name = top.far;
+position = "{468, 1037}";
+},
+{
+name = top.near;
+position = "{468, 1037}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "lam-ar";
+},
+{
+alignment = -1;
+name = smallv.arabic;
+transform = "{1, 0, 0, 1, 484, 187}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 598;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{342, -322}";
+},
+{
+name = top.far;
+position = "{631, 1057}";
+},
+{
+name = top.near;
+position = "{631, 1057}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "lam-ar";
+},
+{
+alignment = -1;
+name = smallv.arabic;
+transform = "{1, 0, 0, 1, 636, 187}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 835;
+}
+);
+note = uni06B5;
+unicode = 06B5;
+}

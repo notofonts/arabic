@@ -1,0 +1,118 @@
+{
+glyphname = "dalRing-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{241, -185}";
+},
+{
+name = top.far;
+position = "{146, 635}";
+},
+{
+name = top.near;
+position = "{146, 635}";
+}
+);
+components = (
+{
+name = "dal-ar.fina";
+},
+{
+alignment = -1;
+name = "sukun-ar";
+transform = "{1, 0, 0, 1, 253, -964}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 655;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{252, -208}";
+},
+{
+name = top.far;
+position = "{156, 612}";
+},
+{
+name = top.near;
+position = "{156, 612}";
+}
+);
+components = (
+{
+name = "dal-ar.fina";
+},
+{
+alignment = -1;
+name = "sukun-ar";
+transform = "{1, 0, 0, 1, 253, -976}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 569;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{251, -187}";
+},
+{
+name = top.far;
+position = "{183, 586}";
+},
+{
+name = top.near;
+position = "{183, 586}";
+}
+);
+components = (
+{
+name = "dal-ar.fina";
+},
+{
+alignment = -1;
+name = "sukun-ar";
+transform = "{1, 0, 0, 1, 253, -986}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 483;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{234, -170}";
+},
+{
+name = top.far;
+position = "{215, 650}";
+},
+{
+name = top.near;
+position = "{215, 650}";
+}
+);
+components = (
+{
+name = "dal-ar.fina";
+},
+{
+alignment = -1;
+name = "sukun-ar";
+transform = "{1, 0, 0, 1, 253, -956}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 712;
+}
+);
+note = uni0689.fina;
+}

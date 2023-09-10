@@ -1,0 +1,123 @@
+{
+glyphname = "rehVbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{141, -568}";
+},
+{
+name = top.far;
+position = "{254, 549}";
+},
+{
+name = top.near;
+position = "{254, 549}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "reh-ar";
+},
+{
+alignment = -1;
+name = smallv.arabic;
+transform = "{1, 0, 0, 1, 147, -1146}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 438;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{113, -548}";
+},
+{
+name = top.far;
+position = "{163, 541}";
+},
+{
+name = top.near;
+position = "{163, 541}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "reh-ar";
+},
+{
+alignment = -1;
+name = smallv.arabic;
+transform = "{1, 0, 0, 1, 121, -1146}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 325;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{95, -548}";
+},
+{
+name = top.far;
+position = "{122, 588}";
+},
+{
+name = top.near;
+position = "{122, 588}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "reh-ar";
+},
+{
+alignment = -1;
+name = smallv.arabic;
+transform = "{1, 0, 0, 1, 95, -1146}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 224;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{190, -581}";
+},
+{
+name = top.far;
+position = "{315, 554}";
+},
+{
+name = top.near;
+position = "{315, 554}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "reh-ar";
+},
+{
+alignment = -1;
+name = smallv.arabic;
+transform = "{1, 0, 0, 1, 194, -1146}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 513;
+}
+);
+note = uni0695;
+unicode = 0695;
+}

@@ -1,0 +1,248 @@
+{
+glyphname = "twodotshorizontalabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.near;
+position = "{0, 534}";
+},
+{
+name = top.far;
+position = "{0, 784}";
+},
+{
+name = top.near;
+position = "{0, 778}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"-36 581 OFFCURVE",
+"-10 608 OFFCURVE",
+"-10 653 CURVE SMOOTH",
+"-10 698 OFFCURVE",
+"-35 725 OFFCURVE",
+"-76 725 CURVE SMOOTH",
+"-117 725 OFFCURVE",
+"-143 698 OFFCURVE",
+"-143 653 CURVE SMOOTH",
+"-143 609 OFFCURVE",
+"-117 581 OFFCURVE",
+"-76 581 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"134 581 OFFCURVE",
+"160 609 OFFCURVE",
+"160 653 CURVE SMOOTH",
+"160 698 OFFCURVE",
+"135 725 OFFCURVE",
+"94 725 CURVE SMOOTH",
+"53 725 OFFCURVE",
+"27 698 OFFCURVE",
+"27 653 CURVE SMOOTH",
+"27 609 OFFCURVE",
+"53 581 OFFCURVE",
+"94 581 CURVE SMOOTH"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 6 values pushed */
+18 6 0 12 12 0 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[0]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[01101]	/* MoveDirectRelPt */
+SHP[0]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{0, 534}";
+},
+{
+name = top.far;
+position = "{0, 777}";
+},
+{
+name = top.near;
+position = "{0, 766}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"-53 580 OFFCURVE",
+"-32 601 OFFCURVE",
+"-32 640 CURVE SMOOTH",
+"-32 679 OFFCURVE",
+"-53 700 OFFCURVE",
+"-88 700 CURVE SMOOTH",
+"-119 700 OFFCURVE",
+"-144 683 OFFCURVE",
+"-144 640 CURVE SMOOTH",
+"-144 597 OFFCURVE",
+"-119 580 OFFCURVE",
+"-88 580 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"121 580 OFFCURVE",
+"141 604 OFFCURVE",
+"141 640 CURVE SMOOTH",
+"141 676 OFFCURVE",
+"121 700 OFFCURVE",
+"85 700 CURVE SMOOTH",
+"50 700 OFFCURVE",
+"29 679 OFFCURVE",
+"29 640 CURVE SMOOTH",
+"29 601 OFFCURVE",
+"50 580 OFFCURVE",
+"85 580 CURVE SMOOTH"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 6 values pushed */
+18 6 0 12 12 0 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[0]	/* ShiftPointByLastPoint */
+MDAP[1]	/* MoveDirectAbsPt */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[01101]	/* MoveDirectRelPt */
+SHP[0]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{0, 534}";
+},
+{
+name = top.far;
+position = "{0, 711}";
+},
+{
+name = top.near;
+position = "{0, 711}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"-35 594 OFFCURVE",
+"-26 604 OFFCURVE",
+"-26 621 CURVE SMOOTH",
+"-26 641 OFFCURVE",
+"-36 651 OFFCURVE",
+"-52 651 CURVE SMOOTH",
+"-64 651 OFFCURVE",
+"-79 645 OFFCURVE",
+"-79 621 CURVE SMOOTH",
+"-79 598 OFFCURVE",
+"-64 594 OFFCURVE",
+"-52 594 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"71 594 OFFCURVE",
+"79 605 OFFCURVE",
+"79 621 CURVE SMOOTH",
+"79 638 OFFCURVE",
+"70 651 OFFCURVE",
+"53 651 CURVE SMOOTH",
+"36 651 OFFCURVE",
+"26 641 OFFCURVE",
+"26 621 CURVE SMOOTH",
+"26 603 OFFCURVE",
+"36 594 OFFCURVE",
+"53 594 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{0, 534}";
+},
+{
+name = top.far;
+position = "{0, 840}";
+},
+{
+name = top.near;
+position = "{0, 840}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"-56 582 OFFCURVE",
+"-27 612 OFFCURVE",
+"-27 662 CURVE SMOOTH",
+"-27 711 OFFCURVE",
+"-54 742 OFFCURVE",
+"-100 742 CURVE SMOOTH",
+"-148 742 OFFCURVE",
+"-174 709 OFFCURVE",
+"-174 662 CURVE SMOOTH",
+"-174 617 OFFCURVE",
+"-148 582 OFFCURVE",
+"-100 582 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"141 582 OFFCURVE",
+"171 612 OFFCURVE",
+"171 662 CURVE SMOOTH",
+"171 713 OFFCURVE",
+"143 742 OFFCURVE",
+"98 742 CURVE SMOOTH",
+"53 742 OFFCURVE",
+"24 711 OFFCURVE",
+"24 662 CURVE SMOOTH",
+"24 614 OFFCURVE",
+"53 582 OFFCURVE",
+"98 582 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+}
+);
+note = twodots.above;
+}

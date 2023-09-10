@@ -1,0 +1,143 @@
+{
+glyphname = "sheenThreedotsbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{923, -398}";
+},
+{
+name = top.far;
+position = "{926, 867}";
+},
+{
+name = top.near;
+position = "{926, 867}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "seen-ar";
+},
+{
+alignment = -1;
+name = "threedotsupabove-ar";
+transform = "{1, 0, 0, 1, 916, -25}";
+},
+{
+alignment = -1;
+name = "threedotsdownbelow-ar";
+transform = "{1, 0, 0, 1, 913, -37}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 1411;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{831, -370}";
+},
+{
+name = top.far;
+position = "{831, 850}";
+},
+{
+name = top.near;
+position = "{831, 850}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "seen-ar";
+},
+{
+alignment = -1;
+name = "threedotsupabove-ar";
+transform = "{1, 0, 0, 1, 843, 0}";
+},
+{
+alignment = -1;
+name = "threedotsdownbelow-ar";
+transform = "{1, 0, 0, 1, 833, 0}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 1242;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{751, -310}";
+},
+{
+name = top.far;
+position = "{746, 733}";
+},
+{
+name = top.near;
+position = "{746, 733}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "seen-ar";
+},
+{
+alignment = -1;
+name = "threedotsupabove-ar";
+transform = "{1, 0, 0, 1, 750, -5}";
+},
+{
+alignment = -1;
+name = "threedotsdownbelow-ar";
+transform = "{1, 0, 0, 1, 753, 37}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 1073;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{964, -447}";
+},
+{
+name = top.far;
+position = "{989, 898}";
+},
+{
+name = top.near;
+position = "{989, 898}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "seen-ar";
+},
+{
+alignment = -1;
+name = "threedotsupabove-ar";
+transform = "{1, 0, 0, 1, 965, -42}";
+},
+{
+alignment = -1;
+name = "threedotsdownbelow-ar";
+transform = "{1, 0, 0, 1, 966, -62}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 1524;
+}
+);
+note = uni069C;
+unicode = 069C;
+}

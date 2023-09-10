@@ -1,0 +1,338 @@
+{
+glyphname = "sad-ar.medi";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{391, -78}";
+},
+{
+name = top.far;
+position = "{420, 586}";
+},
+{
+name = top.near;
+position = "{420, 586}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"911 0 LINE SMOOTH",
+"914 0 OFFCURVE",
+"916 2 OFFCURVE",
+"916 5 CURVE SMOOTH",
+"916 116 LINE SMOOTH",
+"916 119 OFFCURVE",
+"914 120 OFFCURVE",
+"911 120 CURVE SMOOTH",
+"781 120 LINE",
+"781 240 LINE SMOOTH",
+"781 420 OFFCURVE",
+"697 505 OFFCURVE",
+"533 505 CURVE SMOOTH",
+"414 505 OFFCURVE",
+"323 443 OFFCURVE",
+"262 320 CURVE",
+"262 495 LINE",
+"113 495 LINE",
+"113 120 LINE",
+"-5 120 LINE SMOOTH",
+"-8 120 OFFCURVE",
+"-10 119 OFFCURVE",
+"-10 116 CURVE SMOOTH",
+"-10 5 LINE SMOOTH",
+"-10 2 OFFCURVE",
+"-8 0 OFFCURVE",
+"-5 0 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"262 120 LINE",
+"262 198 LINE",
+"327 323 OFFCURVE",
+"405 385 OFFCURVE",
+"495 385 CURVE SMOOTH",
+"588 385 OFFCURVE",
+"632 340 OFFCURVE",
+"632 243 CURVE SMOOTH",
+"632 120 LINE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 32 values pushed */
+22 15 9 29 29 6 15 6 30 18 31 3 30 11 26 70 89 11 16 9 0 7 15 29 15 5 0 5 70 89 0 18 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+RTG[ ]	/* RoundToGrid */
+MIAP[1]	/* MoveIndirectAbsPt */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 906;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{391, -78}";
+},
+{
+name = top.far;
+position = "{420, 586}";
+},
+{
+name = top.near;
+position = "{420, 586}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"840 0 LINE SMOOTH",
+"843 0 OFFCURVE",
+"845 2 OFFCURVE",
+"845 5 CURVE SMOOTH",
+"845 74 LINE SMOOTH",
+"845 77 OFFCURVE",
+"843 78 OFFCURVE",
+"840 78 CURVE SMOOTH",
+"708 78 LINE",
+"708 241 LINE SMOOTH",
+"708 416 OFFCURVE",
+"630 495 OFFCURVE",
+"479 495 CURVE SMOOTH",
+"362 495 OFFCURVE",
+"265 419 OFFCURVE",
+"202 270 CURVE",
+"202 455 LINE",
+"117 455 LINE",
+"117 78 LINE",
+"-5 78 LINE SMOOTH",
+"-8 78 OFFCURVE",
+"-10 77 OFFCURVE",
+"-10 74 CURVE SMOOTH",
+"-10 5 LINE SMOOTH",
+"-10 2 OFFCURVE",
+"-8 0 OFFCURVE",
+"-5 0 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"202 78 LINE",
+"202 160 LINE",
+"272 331 OFFCURVE",
+"358 416 OFFCURVE",
+"461 416 CURVE SMOOTH",
+"569 416 OFFCURVE",
+"623 360 OFFCURVE",
+"623 237 CURVE SMOOTH",
+"623 78 LINE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 33 values pushed */
+23 16 9 30 30 6 16 6 31 19 32 3 31 9 0 12 12 27 70 89 12 16 7 15 30 16 5 0 5 70 89 0 18 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+RTG[ ]	/* RoundToGrid */
+MIAP[1]	/* MoveIndirectAbsPt */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 835;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{391, -78}";
+},
+{
+name = top.far;
+position = "{420, 586}";
+},
+{
+name = top.near;
+position = "{420, 586}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"769 0 LINE",
+"772 0 OFFCURVE",
+"774 2 OFFCURVE",
+"774 5 CURVE SMOOTH",
+"774 20 LINE SMOOTH",
+"774 23 OFFCURVE",
+"772 24 OFFCURVE",
+"769 24 CURVE SMOOTH",
+"631 24 LINE",
+"631 258 LINE SMOOTH",
+"631 411 OFFCURVE",
+"558 485 OFFCURVE",
+"432 485 CURVE SMOOTH",
+"319 485 OFFCURVE",
+"195 396 OFFCURVE",
+"141 197 CURVE",
+"141 415 LINE",
+"117 415 LINE",
+"117 24 LINE",
+"-5 24 LINE SMOOTH",
+"-8 24 OFFCURVE",
+"-10 23 OFFCURVE",
+"-10 20 CURVE SMOOTH",
+"-10 5 LINE SMOOTH",
+"-10 2 OFFCURVE",
+"-8 0 OFFCURVE",
+"-5 0 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"141 24 LINE",
+"141 131 LINE",
+"207 373 OFFCURVE",
+"321 461 OFFCURVE",
+"434 461 CURVE SMOOTH",
+"550 461 OFFCURVE",
+"607 395 OFFCURVE",
+"607 247 CURVE SMOOTH",
+"607 24 LINE"
+);
+}
+);
+width = 764;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{524, -78}";
+},
+{
+name = top.far;
+position = "{543, 586}";
+},
+{
+name = top.near;
+position = "{543, 586}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"958 0 LINE SMOOTH",
+"962 0 OFFCURVE",
+"963 2 OFFCURVE",
+"963 5 CURVE SMOOTH",
+"963 144 LINE SMOOTH",
+"963 147 OFFCURVE",
+"962 148 OFFCURVE",
+"958 148 CURVE SMOOTH",
+"830 148 LINE",
+"830 239 LINE SMOOTH",
+"830 423 OFFCURVE",
+"742 512 OFFCURVE",
+"569 512 CURVE SMOOTH",
+"448 512 OFFCURVE",
+"362 459 OFFCURVE",
+"302 353 CURVE",
+"302 522 LINE",
+"110 522 LINE",
+"110 148 LINE",
+"-5 148 LINE SMOOTH",
+"-8 148 OFFCURVE",
+"-10 147 OFFCURVE",
+"-10 144 CURVE SMOOTH",
+"-10 5 LINE SMOOTH",
+"-10 2 OFFCURVE",
+"-8 0 OFFCURVE",
+"-5 0 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"302 148 LINE",
+"302 223 LINE",
+"364 317 OFFCURVE",
+"436 364 OFFCURVE",
+"518 364 CURVE SMOOTH",
+"601 364 OFFCURVE",
+"638 327 OFFCURVE",
+"638 247 CURVE SMOOTH",
+"638 148 LINE"
+);
+}
+);
+width = 953;
+}
+);
+note = uni0635.medi;
+}

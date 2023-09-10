@@ -1,0 +1,203 @@
+{
+glyphname = "dal-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{289, -78}";
+},
+{
+name = top.far;
+position = "{193, 624}";
+},
+{
+name = top.near;
+position = "{203, 644}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"45 0 LINE",
+"530 0 LINE",
+"530 116 LINE",
+"482 359 OFFCURVE",
+"377 504 OFFCURVE",
+"198 576 CURVE",
+"142 436 LINE",
+"230 400 OFFCURVE",
+"289 345 OFFCURVE",
+"329 269 CURVE SMOOTH",
+"349 231 OFFCURVE",
+"365 181 OFFCURVE",
+"379 120 CURVE",
+"45 120 LINE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 17 values pushed */
+1 10 10 5 0 3 12 13 9 0 11 0 70 89 6 11 18 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MDRP[00100]	/* MoveDirectRelPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 595;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{268, -78}";
+},
+{
+name = top.far;
+position = "{169, 576}";
+},
+{
+name = top.near;
+position = "{169, 596}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"45 0 LINE",
+"464 0 LINE",
+"464 76 LINE",
+"429 308 OFFCURVE",
+"331 466 OFFCURVE",
+"178 546 CURVE",
+"146 470 LINE",
+"244 404 OFFCURVE",
+"307 322 OFFCURVE",
+"345 215 CURVE SMOOTH",
+"360 173 OFFCURVE",
+"371 128 OFFCURVE",
+"378 78 CURVE",
+"45 78 LINE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 20 values pushed */
+1 9 9 4 0 3 11 12 10 0 70 89 10 18 5 4 70 89 5 16 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+RTG[ ]	/* RoundToGrid */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 509;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{220, -78}";
+},
+{
+name = top.far;
+position = "{158, 562}";
+},
+{
+name = top.near;
+position = "{168, 582}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"45 0 LINE",
+"398 0 LINE",
+"398 24 LINE",
+"383 238 OFFCURVE",
+"292 426 OFFCURVE",
+"158 515 CURVE",
+"148 494 LINE",
+"248 422 OFFCURVE",
+"309 314 OFFCURVE",
+"348 179 CURVE SMOOTH",
+"364 125 OFFCURVE",
+"372 72 OFFCURVE",
+"374 24 CURVE",
+"45 24 LINE"
+);
+}
+);
+width = 443;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{322, -78}";
+},
+{
+name = top.far;
+position = "{228, 663}";
+},
+{
+name = top.near;
+position = "{238, 693}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"45 0 LINE",
+"574 0 LINE",
+"574 143 LINE",
+"521 373 OFFCURVE",
+"428 521 OFFCURVE",
+"234 596 CURVE",
+"139 437 LINE",
+"221 397 OFFCURVE",
+"279 350 OFFCURVE",
+"311 305 CURVE SMOOTH",
+"336 269 OFFCURVE",
+"361 217 OFFCURVE",
+"380 148 CURVE",
+"45 148 LINE"
+);
+}
+);
+width = 652;
+}
+);
+note = uni062F;
+unicode = 062F;
+}

@@ -1,0 +1,117 @@
+{
+glyphname = "yehFourbelow-farsi.medi";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{120, -407}";
+},
+{
+name = top.far;
+position = "{134, 540}";
+},
+{
+name = top.near;
+position = "{134, 540}";
+}
+);
+components = (
+{
+name = "behDotless-ar.medi";
+},
+{
+alignment = -1;
+name = "Fourbelow-ar";
+transform = "{1, 0, 0, 1, 29, -17}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 268;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{171, -443}";
+},
+{
+name = top.far;
+position = "{171, 572}";
+},
+{
+name = top.near;
+position = "{171, 572}";
+}
+);
+components = (
+{
+name = "behDotless-ar.medi";
+},
+{
+alignment = -1;
+name = "Fourbelow-ar";
+transform = "{1, 0, 0, 1, 39, -17}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 341;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{173, -463}";
+},
+{
+name = top.far;
+position = "{180, 584}";
+},
+{
+name = top.near;
+position = "{180, 584}";
+}
+);
+components = (
+{
+name = "behDotless-ar.medi";
+},
+{
+alignment = -1;
+name = "Fourbelow-ar";
+transform = "{1, 0, 0, 1, 62, -17}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 394;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{191, -465}";
+},
+{
+name = top.far;
+position = "{197, 582}";
+},
+{
+name = top.near;
+position = "{197, 582}";
+}
+);
+components = (
+{
+name = "behDotless-ar.medi";
+},
+{
+alignment = -1;
+name = "Fourbelow-ar";
+transform = "{1, 0, 0, 1, 73, -17}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 429;
+}
+);
+}

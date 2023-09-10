@@ -1,0 +1,143 @@
+{
+glyphname = "fehDotbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{758, -285}";
+},
+{
+name = top.far;
+position = "{759, 761}";
+},
+{
+name = top.near;
+position = "{759, 761}";
+}
+);
+components = (
+{
+alignment = -1;
+name = feh_dotless.isol;
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 764, 0}";
+},
+{
+alignment = -1;
+name = "dotbelow-ar";
+transform = "{1, 0, 0, 1, 750, 0}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 1075;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{741, -238}";
+},
+{
+name = top.far;
+position = "{731, 736}";
+},
+{
+name = top.near;
+position = "{731, 736}";
+}
+);
+components = (
+{
+alignment = -1;
+name = feh_dotless.isol;
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 738, 0}";
+},
+{
+alignment = -1;
+name = "dotbelow-ar";
+transform = "{1, 0, 0, 1, 750, 0}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 1012;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{734, -191}";
+},
+{
+name = top.far;
+position = "{749, 691}";
+},
+{
+name = top.near;
+position = "{749, 691}";
+}
+);
+components = (
+{
+alignment = -1;
+name = feh_dotless.isol;
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 761, -20}";
+},
+{
+alignment = -1;
+name = "dotbelow-ar";
+transform = "{1, 0, 0, 1, 735, 0}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 949;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{769, -316}";
+},
+{
+name = top.far;
+position = "{788, 778}";
+},
+{
+name = top.near;
+position = "{788, 778}";
+}
+);
+components = (
+{
+alignment = -1;
+name = feh_dotless.isol;
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 781, 0}";
+},
+{
+alignment = -1;
+name = "dotbelow-ar";
+transform = "{1, 0, 0, 1, 750, 0}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 1117;
+}
+);
+note = uni06A3;
+unicode = 06A3;
+}

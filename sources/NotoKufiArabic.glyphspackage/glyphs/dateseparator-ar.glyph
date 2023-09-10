@@ -1,0 +1,121 @@
+{
+glyphname = "dateseparator-ar";
+layers = (
+{
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"323 120 LINE",
+"268 120 LINE SMOOTH",
+"160 120 OFFCURVE",
+"74 24 OFFCURVE",
+"14 -172 CURVE",
+"115 -207 LINE",
+"152 -92 OFFCURVE",
+"184 0 OFFCURVE",
+"269 0 CURVE SMOOTH",
+"323 0 LINE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 11 values pushed */
+6 11 10 12 1 9 70 89 5 1 18 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MDRP[01110]	/* MoveDirectRelPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 323;
+},
+{
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"323 78 LINE",
+"268 78 LINE SMOOTH",
+"164 78 OFFCURVE",
+"89 -5 OFFCURVE",
+"41 -189 CURVE",
+"115 -207 LINE",
+"152 -62 OFFCURVE",
+"202 0 OFFCURVE",
+"269 0 CURVE SMOOTH",
+"323 0 LINE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 11 values pushed */
+5 10 9 11 1 8 70 89 4 1 18 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MDRP[01110]	/* MoveDirectRelPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 323;
+},
+{
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"323 24 LINE",
+"268 24 LINE SMOOTH",
+"164 24 OFFCURVE",
+"103 -48 OFFCURVE",
+"70 -200 CURVE",
+"91 -207 LINE",
+"136 -26 OFFCURVE",
+"201 0 OFFCURVE",
+"269 0 CURVE SMOOTH",
+"323 0 LINE"
+);
+}
+);
+width = 323;
+},
+{
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"347 148 LINE",
+"292 148 LINE SMOOTH",
+"181 148 OFFCURVE",
+"88 43 OFFCURVE",
+"20 -161 CURVE",
+"139 -207 LINE",
+"166 -107 OFFCURVE",
+"214 0 OFFCURVE",
+"304 0 CURVE SMOOTH",
+"347 0 LINE"
+);
+}
+);
+width = 347;
+}
+);
+note = uni060D;
+unicode = 060D;
+}

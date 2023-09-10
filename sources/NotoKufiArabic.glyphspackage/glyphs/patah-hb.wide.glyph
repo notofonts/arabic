@@ -1,0 +1,119 @@
+{
+export = 0;
+glyphname = "patah-hb.wide";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{171, 285}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"342 140 LINE",
+"342 265 LINE",
+"0 265 LINE",
+"0 140 LINE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 9 values pushed */
+2 5 0 4 1 0 71 89 1 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 342;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{171, 239}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"342 140 LINE",
+"342 219 LINE",
+"0 219 LINE",
+"0 140 LINE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 9 values pushed */
+2 5 0 4 1 0 70 89 1 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 342;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{171, 193}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"342 140 LINE",
+"342 164 LINE",
+"0 164 LINE",
+"0 140 LINE"
+);
+}
+);
+width = 342;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{171, 316}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"342 140 LINE",
+"342 296 LINE",
+"0 296 LINE",
+"0 140 LINE"
+);
+}
+);
+width = 342;
+}
+);
+note = patah.wide;
+}

@@ -1,0 +1,198 @@
+{
+glyphname = "yehSmall-ar";
+layers = (
+{
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"291 485 LINE",
+"291 533 LINE",
+"104 533 LINE SMOOTH",
+"88 533 OFFCURVE",
+"80 539 OFFCURVE",
+"80 551 CURVE SMOOTH",
+"80 560 OFFCURVE",
+"85 567 OFFCURVE",
+"95 574 CURVE SMOOTH",
+"104 580 OFFCURVE",
+"122 588 OFFCURVE",
+"147 597 CURVE SMOOTH",
+"203 618 OFFCURVE",
+"221 642 OFFCURVE",
+"221 691 CURVE SMOOTH",
+"221 707 LINE",
+"161 707 LINE",
+"161 693 LINE SMOOTH",
+"161 658 OFFCURVE",
+"153 650 OFFCURVE",
+"100 629 CURVE SMOOTH",
+"35 603 OFFCURVE",
+"20 582 OFFCURVE",
+"20 549 CURVE SMOOTH",
+"20 506 OFFCURVE",
+"53 485 OFFCURVE",
+"104 485 CURVE SMOOTH"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 13 values pushed */
+12 9 18 3 3 9 21 3 24 23 21 10 22 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01100]	/* MoveDirectRelPt */
+MDRP[01101]	/* MoveDirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 311;
+},
+{
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"267 485 LINE",
+"267 517 LINE",
+"80 517 LINE SMOOTH",
+"67 517 OFFCURVE",
+"56 524 OFFCURVE",
+"56 537 CURVE SMOOTH",
+"56 547 OFFCURVE",
+"60 555 OFFCURVE",
+"68 562 CURVE SMOOTH",
+"75 568 OFFCURVE",
+"94 577 OFFCURVE",
+"121 588 CURVE SMOOTH",
+"178 612 OFFCURVE",
+"197 628 OFFCURVE",
+"197 677 CURVE SMOOTH",
+"197 693 LINE",
+"161 693 LINE",
+"161 677 LINE SMOOTH",
+"161 642 OFFCURVE",
+"155 635 OFFCURVE",
+"100 611 CURVE SMOOTH",
+"37 584 OFFCURVE",
+"20 568 OFFCURVE",
+"20 537 CURVE SMOOTH",
+"20 501 OFFCURVE",
+"45 485 OFFCURVE",
+"80 485 CURVE SMOOTH"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 14 values pushed */
+12 9 19 3 3 9 24 3 26 25 19 11 22 0 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+MDRP[01100]	/* MoveDirectRelPt */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 287;
+},
+{
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"243 485 LINE",
+"243 499 LINE",
+"58 499 LINE SMOOTH",
+"44 499 OFFCURVE",
+"32 507 OFFCURVE",
+"32 524 CURVE SMOOTH",
+"32 534 OFFCURVE",
+"36 542 OFFCURVE",
+"46 550 CURVE SMOOTH",
+"53 556 OFFCURVE",
+"69 565 OFFCURVE",
+"95 576 CURVE SMOOTH",
+"156 602 OFFCURVE",
+"173 615 OFFCURVE",
+"173 663 CURVE SMOOTH",
+"173 679 LINE",
+"159 679 LINE",
+"159 663 LINE SMOOTH",
+"159 628 OFFCURVE",
+"151 615 OFFCURVE",
+"97 592 CURVE SMOOTH",
+"38 567 OFFCURVE",
+"18 553 OFFCURVE",
+"18 522 CURVE SMOOTH",
+"18 496 OFFCURVE",
+"37 485 OFFCURVE",
+"56 485 CURVE SMOOTH"
+);
+}
+);
+width = 263;
+},
+{
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"307 485 LINE",
+"307 544 LINE",
+"120 544 LINE SMOOTH",
+"103 544 OFFCURVE",
+"96 550 OFFCURVE",
+"96 560 CURVE SMOOTH",
+"96 568 OFFCURVE",
+"101 575 OFFCURVE",
+"112 581 CURVE SMOOTH",
+"124 588 OFFCURVE",
+"141 595 OFFCURVE",
+"164 603 CURVE SMOOTH",
+"220 623 OFFCURVE",
+"237 651 OFFCURVE",
+"237 700 CURVE SMOOTH",
+"237 716 LINE",
+"161 716 LINE",
+"161 704 LINE SMOOTH",
+"161 669 OFFCURVE",
+"151 661 OFFCURVE",
+"100 641 CURVE SMOOTH",
+"36 616 OFFCURVE",
+"20 588 OFFCURVE",
+"20 557 CURVE SMOOTH",
+"20 506 OFFCURVE",
+"57 485 OFFCURVE",
+"120 485 CURVE SMOOTH"
+);
+}
+);
+width = 327;
+}
+);
+note = uni06E6;
+unicode = 06E6;
+}

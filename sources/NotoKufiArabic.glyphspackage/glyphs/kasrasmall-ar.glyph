@@ -1,0 +1,131 @@
+{
+glyphname = "kasrasmall-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{0, -135}";
+},
+{
+name = bottom;
+position = "{0, -15}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"-47 -96 LINE",
+"47 -62 LINE",
+"47 -45 LINE",
+"-47 -79 LINE"
+);
+}
+);
+userData = {
+RMXScaler = {
+verticalShift = -400;
+};
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{0, -135}";
+},
+{
+name = bottom;
+position = "{0, -15}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"-61 -97 LINE",
+"61 -63 LINE",
+"61 -23 LINE",
+"-61 -57 LINE"
+);
+}
+);
+userData = {
+RMXScaler = {
+verticalShift = -400;
+};
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{0, -135}";
+},
+{
+name = bottom;
+position = "{0, -5}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"-66 -107 LINE",
+"65 -73 LINE",
+"65 -18 LINE",
+"-66 -52 LINE"
+);
+}
+);
+userData = {
+RMXScaler = {
+verticalShift = -400;
+};
+};
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{0, -115}";
+},
+{
+name = bottom;
+position = "{0, 5}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"-71 -97 LINE",
+"72 -63 LINE",
+"72 5 LINE",
+"-71 -29 LINE"
+);
+}
+);
+userData = {
+RMXScaler = {
+verticalShift = -400;
+};
+};
+width = 0;
+}
+);
+unicode = 061A;
+userData = {
+RMXScaler = {
+source = "fathasmall-ar";
+};
+};
+}

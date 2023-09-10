@@ -1,0 +1,115 @@
+{
+glyphname = "comma-ar";
+layers = (
+{
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"72 0 LINE",
+"209 0 LINE",
+"221 81 OFFCURVE",
+"237 162 OFFCURVE",
+"258 245 CURVE",
+"151 245 LINE",
+"110 155 OFFCURVE",
+"82 77 OFFCURVE",
+"65 11 CURVE"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 7 values pushed */
+0 3 7 8 2 6 18 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 323;
+},
+{
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"72 0 LINE",
+"169 0 LINE",
+"182 79 OFFCURVE",
+"198 160 OFFCURVE",
+"218 245 CURVE",
+"151 245 LINE",
+"113 160 OFFCURVE",
+"84 82 OFFCURVE",
+"65 11 CURVE"
+);
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 7 values pushed */
+3 0 8 7 2 6 18 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 283;
+},
+{
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"72 0 LINE",
+"93 0 LINE",
+"102 40 OFFCURVE",
+"141 195 OFFCURVE",
+"159 245 CURVE",
+"140 245 LINE",
+"103 151 OFFCURVE",
+"81 73 OFFCURVE",
+"65 11 CURVE"
+);
+}
+);
+width = 223;
+},
+{
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"72 0 LINE",
+"236 0 LINE",
+"247 82 OFFCURVE",
+"263 164 OFFCURVE",
+"285 245 CURVE",
+"151 245 LINE",
+"108 151 OFFCURVE",
+"80 73 OFFCURVE",
+"65 11 CURVE"
+);
+}
+);
+width = 349.66667;
+}
+);
+note = uni060C;
+unicode = 060C;
+}

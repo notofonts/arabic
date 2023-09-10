@@ -1,0 +1,122 @@
+{
+glyphname = "gaf-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{469, -78}";
+},
+{
+name = top.far;
+position = "{381, 936}";
+},
+{
+name = top.near;
+position = "{381, 936}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "keheh-ar.fina";
+},
+{
+alignment = -1;
+name = diagonal;
+transform = "{1, 0, 0, 1, 298, 0}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 937;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{429, -78}";
+},
+{
+name = top.far;
+position = "{351, 890}";
+},
+{
+name = top.near;
+position = "{351, 890}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "keheh-ar.fina";
+},
+{
+alignment = -1;
+name = diagonal;
+transform = "{1, 0, 0, 1, 267, 0}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 858;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{389, -78}";
+},
+{
+name = top.far;
+position = "{325, 829}";
+},
+{
+name = top.near;
+position = "{325, 829}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "keheh-ar.fina";
+},
+{
+alignment = -1;
+name = diagonal;
+transform = "{1, 0, 0, 1, 236, 0}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 779;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{496, -78}";
+},
+{
+name = top.far;
+position = "{339, 950}";
+},
+{
+name = top.near;
+position = "{339, 950}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "keheh-ar.fina";
+},
+{
+alignment = -1;
+name = diagonal;
+transform = "{1, 0, 0, 1, 319, 0}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 989.66667;
+}
+);
+note = uni06AF.fina;
+}
