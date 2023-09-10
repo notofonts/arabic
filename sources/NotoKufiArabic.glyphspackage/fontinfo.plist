@@ -20,16 +20,12 @@ name = abovemarks;
 copyright = "Copyright 2019-2022 Google LLC. All Rights Reserved.";
 customParameters = (
 {
-name = unicodeRanges;
+name = glyphOrder;
 value = (
-13,
-67
-);
-},
-{
-name = codePageRanges;
-value = (
-864
+.notdef,
+.null,
+CR,
+space
 );
 },
 {
@@ -120,13 +116,12 @@ feature fina;
 name = aalt;
 },
 {
-automatic = 1;
 code = "script arab;
 language URD;
 lookup locl_arab_0 {
-	sub four-persian by four-persian.urdu;
-	sub six-persian by six-ar;
-	sub seven-persian by seven-persian.urdu;
+       sub fourFarsi-ar by fourFarsi-ar.locl;
+       sub sixFarsi-ar by six-ar;
+       sub sevenFarsi-ar by sevenFarsi-ar.locl;
 } locl_arab_0;
 ";
 name = locl;
@@ -135,7 +130,7 @@ name = locl;
 code = "
 lookup liaadama { # See issue #26
   lookupflag UseMarkFilteringSet [hamzaabove-ar];
-  sub lam-ar kashida-ar' hamzaabove-ar' alef-ar by hamzabetween-ar;
+  sub lam-ar kashida-ar' hamzaabove-ar' alef-ar by hamzaabove-ar.between;
 } liaadama;
 
 lookup ccmp_arab_1 {
@@ -342,7 +337,7 @@ sub gueh-ar by gueh-ar.init;
 sub hah-ar by hah-ar.init;
 sub hahFourbelow-ar by hahFourbelow-ar.init;
 sub hahTahbelow-ar by hah-ar.init tahbelow-ar;
-sub hahTahTwodotshorizontalbelow-ar by hah-ar.init tahtwodotshorizontalbelow-ar;
+sub hahTahTwodotshorizontalbelow-ar by hah-ar.init twodotshorizontalbelow_tahabove-ar;
 sub hahThreedotsupbelow-ar by hah-ar.init threedotsupbelow-ar;
 sub heh-ar by heh-ar.init;
 sub hehDoachashmee-ar by hehDoachashmee-ar.init;
@@ -423,7 +418,7 @@ sub ghainDotbelow-ar by ghain-ar.medi dotbelow-ar;
 sub gueh-ar by gueh-ar.medi;
 sub hah-ar by hah-ar.medi;
 sub hahFourbelow-ar by hahFourbelow-ar.medi;
-sub hahTahTwodotshorizontalbelow-ar by hah-ar.medi tahtwodotshorizontalbelow-ar;
+sub hahTahTwodotshorizontalbelow-ar by hah-ar.medi twodotshorizontalbelow_tahabove-ar;
 sub hahThreedotsupbelow-ar by hah-ar.medi threedotsupbelow-ar;
 sub hahTahbelow-ar by hah-ar.medi tahbelow-ar;
 sub heh-ar by heh-ar.medi;
@@ -524,7 +519,7 @@ sub gueh-ar by gueh-ar.fina;
 sub hah-ar by hah-ar.fina;
 sub hahFourbelow-ar by hahFourbelow-ar.fina;
 sub hahTahbelow-ar by hah-ar.fina tahcenter-ar;
-sub hahTahTwodotshorizontalbelow-ar by hah-ar.fina tahtwodotshorizontalbelow-ar;
+sub hahTahTwodotshorizontalbelow-ar by hah-ar.fina twodotshorizontalbelow_tahabove-ar;
 sub hahThreedotsupbelow-ar by hah-ar.fina threedots-ar.center;
 sub heh-ar by heh-ar.fina;
 sub hehDoachashmee-ar by hehDoachashmee-ar.fina;

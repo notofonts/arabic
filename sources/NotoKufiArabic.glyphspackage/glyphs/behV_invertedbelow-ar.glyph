@@ -18,12 +18,11 @@ position = "{454, 494}";
 );
 components = (
 {
-alignment = -1;
 name = "behDotless-ar";
 },
 {
-name = circumflex.arabic;
-transform = "{1, 0, 0, 1, 441, -908}";
+name = "vinvertedbelow-ar";
+transform = "{1, 0, 0, 1, 435, 44}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -46,12 +45,11 @@ position = "{396, 505}";
 );
 components = (
 {
-alignment = -1;
 name = "behDotless-ar";
 },
 {
-name = circumflex.arabic;
-transform = "{1, 0, 0, 1, 411, -908}";
+name = "vinvertedbelow-ar";
+transform = "{1, 0, 0, 1, 392, 38}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -74,13 +72,11 @@ position = "{338, 516}";
 );
 components = (
 {
-alignment = -1;
 name = "behDotless-ar";
 },
 {
-alignment = -1;
-name = circumflex.arabic;
-transform = "{1, 0, 0, 1, 381, -908}";
+name = "vinvertedbelow-ar";
+transform = "{1, 0, 0, 1, 349, 35}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -103,13 +99,11 @@ position = "{473, 487}";
 );
 components = (
 {
-alignment = -1;
 name = "behDotless-ar";
 },
 {
-alignment = -1;
-name = circumflex.arabic;
-transform = "{1, 0, 0, 1, 461, -908}";
+name = "vinvertedbelow-ar";
+transform = "{1, 0, 0, 1, 462, 41}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

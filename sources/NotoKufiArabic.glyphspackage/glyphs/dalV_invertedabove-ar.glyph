@@ -18,12 +18,11 @@ position = "{198, 862}";
 );
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-name = circumflex.arabic;
-transform = "{1, 0, 0, 1, 202, 0}";
+name = "vinvertedabove-ar";
+transform = "{1, 0, 0, 1, 204, 142}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -46,12 +45,11 @@ position = "{175, 900}";
 );
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-name = circumflex.arabic;
-transform = "{1, 0, 0, 1, 175, 0}";
+name = "vinvertedabove-ar";
+transform = "{1, 0, 0, 1, 170, 94}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -74,13 +72,11 @@ position = "{178, 836}";
 );
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = circumflex.arabic;
-transform = "{1, 0, 0, 1, 178, -20}";
+name = "vinvertedabove-ar";
+transform = "{1, 0, 0, 1, 169, 80}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -103,13 +99,11 @@ position = "{213, 887}";
 );
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = circumflex.arabic;
-transform = "{1, 0, 0, 1, 220, 20}";
+name = "vinvertedabove-ar";
+transform = "{1, 0, 0, 1, 239, 191}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
