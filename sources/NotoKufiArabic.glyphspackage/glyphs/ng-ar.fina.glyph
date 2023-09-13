@@ -2,116 +2,68 @@
 glyphname = "ng-ar.fina";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{454, -78}";
-},
-{
-name = top.far;
-position = "{414, 933}";
-},
-{
-name = top.near;
-position = "{414, 933}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "kaf-ar.fina";
+name = "kafDotless-ar.fina";
 },
 {
-alignment = -1;
-name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 410, 24}";
+name = "miniKeheh-ar";
+transform = "{1, 0, 0, 1, 323, 0}";
+},
+{
+name = "threedotsupabove-ar.small";
+transform = "{1, 0, 0, 1, 308, 21}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 907;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{411, -78}";
-},
-{
-name = top.far;
-position = "{381, 862}";
-},
-{
-name = top.near;
-position = "{381, 862}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "kaf-ar.fina";
+name = "kafDotless-ar.fina";
 },
 {
-alignment = -1;
-name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 380, 0}";
+name = "miniKeheh-ar";
+transform = "{1, 0, 0, 1, 286, 0}";
+},
+{
+name = "threedotsupabove-ar.small";
+transform = "{1, 0, 0, 1, 296, -4}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 821;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{368, -78}";
-},
-{
-name = top.far;
-position = "{348, 791}";
-},
-{
-name = top.near;
-position = "{348, 791}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "kaf-ar.fina";
+name = "kafDotless-ar.fina";
 },
 {
-alignment = -1;
-name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 350, 56}";
+name = "miniKeheh-ar";
+transform = "{1, 0, 0, 1, 259, 1}";
+},
+{
+name = "threedotsupabove-ar.small";
+transform = "{1, 0, 0, 1, 264, -30}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 735;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{483, -78}";
-},
-{
-name = top.far;
-position = "{436, 990}";
-},
-{
-name = top.near;
-position = "{436, 990}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "kaf-ar.fina";
+name = "kafDotless-ar.fina";
 },
 {
-alignment = -1;
-name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 410, 40}";
+name = "miniKeheh-ar";
+transform = "{1, 0, 0, 1, 348, 0}";
+},
+{
+name = "threedotsupabove-ar.small";
+transform = "{1, 0, 0, 1, 308, -5}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

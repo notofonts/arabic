@@ -2,112 +2,52 @@
 glyphname = "kehehThreedotsbelow-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{357, -252}";
-},
-{
-name = top.far;
-position = "{325, 700}";
-},
-{
-name = top.near;
-position = "{325, 700}";
-}
-);
 components = (
 {
 name = "keheh-ar";
 },
 {
-alignment = -1;
 name = "threedotsdownbelow-ar";
-transform = "{1, 0, 0, 1, 356, 90}";
+transform = "{1, 0, 0, 1, 414, -67}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 729;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{399, -376}";
-},
-{
-name = top.far;
-position = "{335, 730}";
-},
-{
-name = top.near;
-position = "{335, 730}";
-}
-);
 components = (
 {
 name = "keheh-ar";
 },
 {
-alignment = -1;
 name = "threedotsdownbelow-ar";
-transform = "{1, 0, 0, 1, 398, 0}";
+transform = "{1, 0, 0, 1, 401, -68}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 808;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{418, -373}";
-},
-{
-name = top.far;
-position = "{366, 755}";
-},
-{
-name = top.near;
-position = "{366, 755}";
-}
-);
 components = (
 {
 name = "keheh-ar";
 },
 {
-alignment = -1;
 name = "threedotsdownbelow-ar";
-transform = "{1, 0, 0, 1, 406, 0}";
+transform = "{1, 0, 0, 1, 390, -98}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 887;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{454, -423}";
-},
-{
-name = top.far;
-position = "{354, 735}";
-},
-{
-name = top.near;
-position = "{354, 735}";
-}
-);
 components = (
 {
 name = "keheh-ar";
 },
 {
-alignment = -1;
 name = "threedotsdownbelow-ar";
-transform = "{1, 0, 0, 1, 456, -20}";
+transform = "{1, 0, 0, 1, 450, -98}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

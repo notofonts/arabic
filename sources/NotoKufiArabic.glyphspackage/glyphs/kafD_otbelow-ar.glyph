@@ -4,7 +4,11 @@ layers = (
 {
 components = (
 {
-name = "kaf-ar";
+name = "kafDotless-ar";
+},
+{
+name = "miniKeheh-ar";
+transform = "{1, 0, 0, 1, 259, 0}";
 },
 {
 name = "dotbelow-ar";
@@ -17,7 +21,11 @@ width = 704;
 {
 components = (
 {
-name = "kaf-ar";
+name = "kafDotless-ar";
+},
+{
+name = "miniKeheh-ar";
+transform = "{1, 0, 0, 1, 286, 0}";
 },
 {
 name = "dotbelow-ar";
@@ -30,7 +38,11 @@ width = 793;
 {
 components = (
 {
-name = "kaf-ar";
+name = "kafDotless-ar";
+},
+{
+name = "miniKeheh-ar";
+transform = "{1, 0, 0, 1, 323, 0}";
 },
 {
 name = "dotbelow-ar";
@@ -43,7 +55,11 @@ width = 882;
 {
 components = (
 {
-name = "kaf-ar";
+name = "kafDotless-ar";
+},
+{
+name = "miniKeheh-ar";
+transform = "{1, 0, 0, 1, 348, 1}";
 },
 {
 name = "dotbelow-ar";

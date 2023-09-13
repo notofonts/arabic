@@ -8,6 +8,10 @@ name = bottom;
 position = "{230, -58}";
 },
 {
+name = ring;
+position = "{260, 0}";
+},
+{
 name = top.far;
 position = "{146, 635}";
 },
@@ -74,6 +78,10 @@ anchors = (
 {
 name = bottom;
 position = "{230, -58}";
+},
+{
+name = ring;
+position = "{240, 0}";
 },
 {
 name = top.far;
@@ -144,6 +152,10 @@ name = bottom;
 position = "{230, -58}";
 },
 {
+name = ring;
+position = "{220, 0}";
+},
+{
 name = top.far;
 position = "{198, 572}";
 },
@@ -188,6 +200,10 @@ anchors = (
 {
 name = bottom;
 position = "{285, -58}";
+},
+{
+name = ring;
+position = "{250, 0}";
 },
 {
 name = top.far;

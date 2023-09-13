@@ -2,136 +2,68 @@
 glyphname = "behTwodotsbelowDotabove-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{435, -282}";
-},
-{
-name = top.far;
-position = "{411, 680}";
-},
-{
-name = top.near;
-position = "{411, 680}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "behDotless-ar";
 },
 {
-alignment = -1;
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 429, 0}";
+transform = "{1, 0, 0, 1, 429, 67}";
 },
 {
-alignment = -1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 420, -85}";
+transform = "{1, 0, 0, 1, 382, -97}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 867;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{412, -223}";
-},
-{
-name = top.far;
-position = "{369, 645}";
-},
-{
-name = top.near;
-position = "{369, 645}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "behDotless-ar";
 },
 {
-alignment = -1;
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 416, 0}";
+transform = "{1, 0, 0, 1, 391, 31}";
 },
 {
-alignment = -1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 396, -95}";
+transform = "{1, 0, 0, 1, 387, -97}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 778;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{359, -206}";
-},
-{
-name = top.far;
-position = "{361, 597}";
-},
-{
-name = top.near;
-position = "{361, 597}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "behDotless-ar";
 },
 {
-alignment = -1;
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 363, -30}";
+transform = "{1, 0, 0, 1, 348, 35}";
 },
 {
-alignment = -1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 372, -105}";
+transform = "{1, 0, 0, 1, 344, -112}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 689;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{450, -321}";
-},
-{
-name = top.far;
-position = "{459, 723}";
-},
-{
-name = top.near;
-position = "{459, 723}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "behDotless-ar";
 },
 {
-alignment = -1;
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 438, 0}";
+transform = "{1, 0, 0, 1, 461, 83}";
 },
 {
-alignment = -1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 436, -78}";
+transform = "{1, 0, 0, 1, 431, -98}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

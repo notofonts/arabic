@@ -8,12 +8,16 @@ name = bottom;
 position = "{322, -322}";
 },
 {
+name = ring;
+position = "{381, -240}";
+},
+{
 name = top.far;
-position = "{293, 537}";
+position = "{347, 469}";
 },
 {
 name = top.near;
-position = "{293, 537}";
+position = "{346, 472}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -99,12 +103,16 @@ name = bottom;
 position = "{322, -322}";
 },
 {
+name = ring;
+position = "{338, -240}";
+},
+{
 name = top.far;
-position = "{293, 537}";
+position = "{316, 419}";
 },
 {
 name = top.near;
-position = "{293, 537}";
+position = "{320, 417}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -190,12 +198,16 @@ name = bottom;
 position = "{291, -322}";
 },
 {
+name = ring;
+position = "{301, -240}";
+},
+{
 name = top.far;
-position = "{274, 491}";
+position = "{274, 363}";
 },
 {
 name = top.near;
-position = "{274, 491}";
+position = "{274, 355}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -248,15 +260,19 @@ width = 584;
 anchors = (
 {
 name = bottom;
-position = "{382, -312}";
+position = "{372, -302}";
+},
+{
+name = ring;
+position = "{410, -245}";
 },
 {
 name = top.far;
-position = "{293, 537}";
+position = "{371, 466}";
 },
 {
 name = top.near;
-position = "{293, 537}";
+position = "{367, 476}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

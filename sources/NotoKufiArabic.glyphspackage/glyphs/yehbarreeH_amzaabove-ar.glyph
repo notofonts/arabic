@@ -2,112 +2,52 @@
 glyphname = "yehbarreeHamzaabove-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{391, -327}";
-},
-{
-name = top.far;
-position = "{152, 526}";
-},
-{
-name = top.near;
-position = "{152, 526}";
-}
-);
 components = (
 {
 name = "yehbarree-ar";
 },
 {
-alignment = -1;
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 172, -522}";
+transform = "{1, 0, 0, 1, 332, -368}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 577;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{391, -283}";
-},
-{
-name = top.far;
-position = "{153, 441}";
-},
-{
-name = top.near;
-position = "{153, 441}";
-}
-);
 components = (
 {
 name = "yehbarree-ar";
 },
 {
-alignment = -1;
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 189, -549}";
+transform = "{1, 0, 0, 1, 283, -356}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 577;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{322, -239}";
-},
-{
-name = top.far;
-position = "{200, 415}";
-},
-{
-name = top.near;
-position = "{200, 415}";
-}
-);
 components = (
 {
 name = "yehbarree-ar";
 },
 {
-alignment = -1;
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 206, -576}";
+transform = "{1, 0, 0, 1, 278, -381}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 577;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{391, -356}";
-},
-{
-name = top.far;
-position = "{177, 554}";
-},
-{
-name = top.near;
-position = "{177, 554}";
-}
-);
 components = (
 {
 name = "yehbarree-ar";
 },
 {
-alignment = -1;
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 161, -504}";
+transform = "{1, 0, 0, 1, 317, -367}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

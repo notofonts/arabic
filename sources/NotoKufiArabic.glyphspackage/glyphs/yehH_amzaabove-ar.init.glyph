@@ -2,178 +2,56 @@
 glyphname = "yehHamzaabove-ar.init";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{184, -78}";
-},
-{
-name = top.far;
-position = "{164, 840}";
-},
-{
-name = top.near;
-position = "{164, 840}";
-}
-);
 components = (
 {
+name = "behDotless-ar.init";
+},
+{
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 170, -189}";
+transform = "{1, 0, 0, 1, 136, -173}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
-{
-closed = 1;
-nodes = (
-"269 0 LINE",
-"269 495 LINE",
-"120 495 LINE",
-"120 120 LINE",
-"-5 120 LINE SMOOTH",
-"-8 120 OFFCURVE",
-"-10 119 OFFCURVE",
-"-10 116 CURVE SMOOTH",
-"-10 5 LINE SMOOTH",
-"-10 2 OFFCURVE",
-"-8 0 OFFCURVE",
-"-5 0 CURVE SMOOTH"
-);
-}
-);
-width = 367;
+width = 354;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{178, -78}";
-},
-{
-name = top.far;
-position = "{188, 817}";
-},
-{
-name = top.near;
-position = "{188, 817}";
-}
-);
 components = (
 {
+name = "behDotless-ar.init";
+},
+{
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 222, -172}";
+transform = "{1, 0, 0, 1, 136, -210}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
-{
-closed = 1;
-nodes = (
-"276 0 LINE",
-"276 485 LINE",
-"187 485 LINE",
-"187 78 LINE",
-"-5 78 LINE SMOOTH",
-"-8 78 OFFCURVE",
-"-10 77 OFFCURVE",
-"-10 74 CURVE SMOOTH",
-"-10 5 LINE SMOOTH",
-"-10 2 OFFCURVE",
-"-8 0 OFFCURVE",
-"-5 0 CURVE SMOOTH"
-);
-}
-);
-width = 376;
+width = 301;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{122, -78}";
-},
-{
-name = top.far;
-position = "{192, 824}";
-},
-{
-name = top.near;
-position = "{192, 824}";
-}
-);
 components = (
 {
-alignment = -1;
+name = "behDotless-ar.init";
+},
+{
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 224, -155}";
+transform = "{1, 0, 0, 1, 136, -214}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
-{
-closed = 1;
-nodes = (
-"233 0 LINE",
-"233 475 LINE",
-"209 475 LINE",
-"209 24 LINE",
-"-5 24 LINE SMOOTH",
-"-8 24 OFFCURVE",
-"-10 23 OFFCURVE",
-"-10 20 CURVE SMOOTH",
-"-10 5 LINE SMOOTH",
-"-10 2 OFFCURVE",
-"-8 0 OFFCURVE",
-"-5 0 CURVE SMOOTH"
-);
-}
-);
-width = 335;
+width = 248;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{148, -78}";
-},
-{
-name = top.far;
-position = "{138, 855}";
-},
-{
-name = top.near;
-position = "{138, 855}";
-}
-);
 components = (
 {
-alignment = -1;
+name = "behDotless-ar.init";
+},
+{
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 135, -200}";
+transform = "{1, 0, 0, 1, 188, -139}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
-{
-closed = 1;
-nodes = (
-"264 0 LINE",
-"264 502 LINE",
-"75 502 LINE",
-"75 148 LINE",
-"-5 148 LINE SMOOTH",
-"-8 148 OFFCURVE",
-"-10 147 OFFCURVE",
-"-10 144 CURVE SMOOTH",
-"-10 5 LINE SMOOTH",
-"-10 2 OFFCURVE",
-"-8 0 OFFCURVE",
-"-5 0 CURVE SMOOTH"
-);
-}
-);
-width = 361;
+width = 389;
 }
 );
 note = uni0626.init;

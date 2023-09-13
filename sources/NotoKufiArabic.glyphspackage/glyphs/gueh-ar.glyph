@@ -2,136 +2,68 @@
 glyphname = "gueh-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{476, -465}";
-},
-{
-name = top.far;
-position = "{356, 890}";
-},
-{
-name = top.near;
-position = "{356, 890}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "keheh-ar";
 },
 {
-alignment = -1;
 name = "gafsarkashabove-ar";
 transform = "{1, 0, 0, 1, 298, 0}";
 },
 {
-alignment = -1;
 name = "twodotsverticalbelow-ar";
-transform = "{1, 0, 0, 1, 469, 0}";
+transform = "{1, 0, 0, 1, 390, -8}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 887;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{414, -410}";
-},
-{
-name = top.far;
-position = "{354, 890}";
-},
-{
-name = top.near;
-position = "{354, 890}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "keheh-ar";
 },
 {
-alignment = -1;
 name = "gafsarkashabove-ar";
-transform = "{1, 0, 0, 1, 267, 0}";
+transform = "{1, 0, 0, 1, 268, 0}";
 },
 {
-alignment = -1;
 name = "twodotsverticalbelow-ar";
-transform = "{1, 0, 0, 1, 419, 0}";
+transform = "{1, 0, 0, 1, 401, 2}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 808;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{365, -315}";
-},
-{
-name = top.far;
-position = "{324, 820}";
-},
-{
-name = top.near;
-position = "{324, 820}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "keheh-ar";
 },
 {
-alignment = -1;
 name = "gafsarkashabove-ar";
 transform = "{1, 0, 0, 1, 236, 0}";
 },
 {
-alignment = -1;
 name = "twodotsverticalbelow-ar";
-transform = "{1, 0, 0, 1, 369, 0}";
+transform = "{1, 0, 0, 1, 417, 23}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 729;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{497, -462}";
-},
-{
-name = top.far;
-position = "{419, 997}";
-},
-{
-name = top.near;
-position = "{419, 997}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "keheh-ar";
 },
 {
-alignment = -1;
 name = "gafsarkashabove-ar";
-transform = "{1, 0, 0, 1, 309, 0}";
+transform = "{1, 0, 0, 1, 320, 0}";
 },
 {
-alignment = -1;
 name = "twodotsverticalbelow-ar";
-transform = "{1, 0, 0, 1, 502, 60}";
+transform = "{1, 0, 0, 1, 451, 16}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

@@ -2,108 +2,52 @@
 glyphname = "rehv-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{98, -293}";
-},
-{
-name = top.far;
-position = "{259, 820}";
-},
-{
-name = top.near;
-position = "{259, 820}";
-}
-);
 components = (
 {
 name = "reh-ar";
 },
 {
 name = "vabove-ar";
-transform = "{1, 0, 0, 1, 267, 97}";
+transform = "{1, 0, 0, 1, 106, 97}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 438;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{98, -293}";
-},
-{
-name = top.far;
-position = "{183, 819}";
-},
-{
-name = top.near;
-position = "{183, 819}";
-}
-);
 components = (
 {
 name = "reh-ar";
 },
 {
 name = "vabove-ar";
-transform = "{1, 0, 0, 1, 190, 93}";
+transform = "{1, 0, 0, 1, 49, 93}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 325;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{98, -293}";
-},
-{
-name = top.far;
-position = "{140, 818}";
-},
-{
-name = top.near;
-position = "{140, 818}";
-}
-);
 components = (
 {
 name = "reh-ar";
 },
 {
 name = "vabove-ar";
-transform = "{1, 0, 0, 1, 162, 74}";
+transform = "{1, 0, 0, 1, 41, 74}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 276;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{171, -323}";
-},
-{
-name = top.far;
-position = "{330, 831}";
-},
-{
-name = top.near;
-position = "{330, 831}";
-}
-);
 components = (
 {
 name = "reh-ar";
 },
 {
 name = "vabove-ar";
-transform = "{1, 0, 0, 1, 321, 113}";
+transform = "{1, 0, 0, 1, 147, 113}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

@@ -2,20 +2,6 @@
 glyphname = "yehFarsi-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{391, -322}";
-},
-{
-name = top.far;
-position = "{226, 322}";
-},
-{
-name = top.near;
-position = "{226, 322}";
-}
-);
 components = (
 {
 name = "alefMaksura-ar";
@@ -25,20 +11,6 @@ layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 883;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{384, -319}";
-},
-{
-name = top.far;
-position = "{205, 302}";
-},
-{
-name = top.near;
-position = "{205, 302}";
-}
-);
 components = (
 {
 name = "alefMaksura-ar";
@@ -48,20 +20,6 @@ layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 839;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{377, -316}";
-},
-{
-name = top.far;
-position = "{185, 282}";
-},
-{
-name = top.near;
-position = "{185, 282}";
-}
-);
 components = (
 {
 name = "alefMaksura-ar";
@@ -71,20 +29,6 @@ layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 795;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{396, -324}";
-},
-{
-name = top.far;
-position = "{238, 335}";
-},
-{
-name = top.near;
-position = "{238, 335}";
-}
-);
 components = (
 {
 name = "alefMaksura-ar";

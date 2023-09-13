@@ -2,136 +2,56 @@
 glyphname = "teh-ar.init";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{162, -78}";
-},
-{
-name = ring;
-position = "{120, 64}";
-},
-{
-name = top.far;
-position = "{240, 757}";
-},
-{
-name = top.near;
-position = "{240, 757}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "behDotless-ar.init.wide";
+name = "behDotless-ar.init";
 },
 {
-alignment = -1;
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 235, 0}";
+transform = "{1, 0, 0, 1, 146, 52}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-width = 404;
+width = 354;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{167, -78}";
-},
-{
-name = ring;
-position = "{120, 47}";
-},
-{
-name = top.far;
-position = "{216, 753}";
-},
-{
-name = top.near;
-position = "{216, 753}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "behDotless-ar.init.wide";
+name = "behDotless-ar.init";
 },
 {
-alignment = -1;
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 227, 0}";
+transform = "{1, 0, 0, 1, 146, 3}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-width = 374;
+width = 301;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{192, -78}";
-},
-{
-name = ring;
-position = "{120, 14}";
-},
-{
-name = top.far;
-position = "{218, 711}";
-},
-{
-name = top.near;
-position = "{218, 711}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "behDotless-ar.init.wide";
+name = "behDotless-ar.init";
 },
 {
-alignment = -1;
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 217, 0}";
+transform = "{1, 0, 0, 1, 146, -6}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-width = 344;
+width = 248;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{219, -78}";
-},
-{
-name = ring;
-position = "{130, 64}";
-},
-{
-name = top.far;
-position = "{234, 793}";
-},
-{
-name = top.near;
-position = "{234, 793}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "behDotless-ar.init.wide";
+name = "behDotless-ar.init";
 },
 {
-alignment = -1;
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 240, 0}";
+transform = "{1, 0, 0, 1, 206, 85}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-width = 424;
+width = 389;
 }
 );
 note = uni062A.init;

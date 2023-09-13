@@ -2,20 +2,6 @@
 glyphname = "rehVinvertedabove-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{98, -293}";
-},
-{
-name = top.far;
-position = "{270, 804}";
-},
-{
-name = top.near;
-position = "{270, 804}";
-}
-);
 components = (
 {
 name = "reh-ar";
@@ -29,20 +15,6 @@ layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 438;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{98, -293}";
-},
-{
-name = top.far;
-position = "{181, 812}";
-},
-{
-name = top.near;
-position = "{181, 812}";
-}
-);
 components = (
 {
 name = "reh-ar";
@@ -56,20 +28,6 @@ layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 325;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{88, -293}";
-},
-{
-name = top.far;
-position = "{125, 770}";
-},
-{
-name = top.near;
-position = "{125, 770}";
-}
-);
 components = (
 {
 name = "reh-ar";
@@ -83,20 +41,6 @@ layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 276;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{171, -323}";
-},
-{
-name = top.far;
-position = "{329, 799}";
-},
-{
-name = top.near;
-position = "{329, 799}";
-}
-);
 components = (
 {
 name = "reh-ar";

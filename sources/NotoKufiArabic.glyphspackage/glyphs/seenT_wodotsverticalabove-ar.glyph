@@ -2,104 +2,56 @@
 glyphname = "seenTwodotsverticalabove-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{879, -78}";
-},
-{
-name = top.near;
-position = "{914, 877}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "seen-ar";
 },
 {
-alignment = -1;
 name = "twodotsverticalabove-ar";
-transform = "{1, 0, 0, 1, 928, -61}";
+transform = "{1, 0, 0, 1, 920, -86}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 1411;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{820, -78}";
-},
-{
-name = top.near;
-position = "{832, 855}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "seen-ar";
 },
 {
-alignment = -1;
 name = "twodotsverticalabove-ar";
-transform = "{1, 0, 0, 1, 842, -61}";
+transform = "{1, 0, 0, 1, 832, -81}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 1242;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{741, -68}";
-},
-{
-name = top.near;
-position = "{749, 799}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "seen-ar";
 },
 {
-alignment = -1;
 name = "twodotsverticalabove-ar";
-transform = "{1, 0, 0, 1, 756, -151}";
+transform = "{1, 0, 0, 1, 744, -176}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 1073;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{988, -78}";
-},
-{
-name = top.near;
-position = "{983, 895}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "seen-ar";
 },
 {
-alignment = -1;
 name = "twodotsverticalabove-ar";
-transform = "{1, 0, 0, 1, 985, -61}";
+transform = "{1, 0, 0, 1, 989, -16}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-width = 1523.66667;
+width = 1524;
 }
 );
 note = uni076D;

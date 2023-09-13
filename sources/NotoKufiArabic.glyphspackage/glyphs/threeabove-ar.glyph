@@ -2,6 +2,20 @@
 glyphname = "threeabove-ar";
 layers = (
 {
+anchors = (
+{
+name = _top.digit;
+position = "{147, 880}";
+},
+{
+name = top.far;
+position = "{93, 1072}";
+},
+{
+name = top.near;
+position = "{93, 1072}";
+}
+);
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 paths = (
 {
@@ -62,6 +76,20 @@ width = 41;
 width = 234;
 },
 {
+anchors = (
+{
+name = _top.digit;
+position = "{197, 854}";
+},
+{
+name = top.far;
+position = "{122, 1064}";
+},
+{
+name = top.near;
+position = "{122, 1065}";
+}
+);
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 paths = (
 {
@@ -122,6 +150,20 @@ width = 42;
 width = 257;
 },
 {
+anchors = (
+{
+name = _top.digit;
+position = "{232, 827}";
+},
+{
+name = top.far;
+position = "{109, 1072}";
+},
+{
+name = top.near;
+position = "{109, 1072}";
+}
+);
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 paths = (
 {
@@ -182,6 +224,20 @@ width = 37;
 width = 264;
 },
 {
+anchors = (
+{
+name = _top.digit;
+position = "{272, 811}";
+},
+{
+name = top.far;
+position = "{115, 1072}";
+},
+{
+name = top.near;
+position = "{115, 1072}";
+}
+);
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 paths = (
 {

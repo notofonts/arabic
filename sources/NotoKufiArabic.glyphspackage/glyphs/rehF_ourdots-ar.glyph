@@ -2,116 +2,52 @@
 glyphname = "rehFourdots-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{98, -293}";
-},
-{
-name = top.far;
-position = "{262, 906}";
-},
-{
-name = top.near;
-position = "{262, 906}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "reh-ar";
 },
 {
-alignment = -1;
 name = "fourdotsabove-ar";
-transform = "{1, 0, 0, 1, 262, -12}";
+transform = "{1, 0, 0, 1, 139, 23}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 438;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{98, -293}";
-},
-{
-name = top.far;
-position = "{191, 905}";
-},
-{
-name = top.near;
-position = "{191, 905}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "reh-ar";
 },
 {
-alignment = -1;
 name = "fourdotsabove-ar";
-transform = "{1, 0, 0, 1, 196, -12}";
+transform = "{1, 0, 0, 1, 61, -5}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 325;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{98, -293}";
-},
-{
-name = top.far;
-position = "{127, 780}";
-},
-{
-name = top.near;
-position = "{127, 780}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "reh-ar";
 },
 {
-alignment = -1;
 name = "fourdotsabove-ar";
-transform = "{1, 0, 0, 1, 134, -72}";
+transform = "{1, 0, 0, 1, 84, -61}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-width = 257;
+width = 276;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{171, -323}";
-},
-{
-name = top.far;
-position = "{310, 910}";
-},
-{
-name = top.near;
-position = "{310, 910}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "reh-ar";
 },
 {
-alignment = -1;
 name = "fourdotsabove-ar";
-transform = "{1, 0, 0, 1, 306, -12}";
+transform = "{1, 0, 0, 1, 174, 36}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

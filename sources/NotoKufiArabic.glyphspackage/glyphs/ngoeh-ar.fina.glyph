@@ -2,136 +2,68 @@
 glyphname = "ngoeh-ar.fina";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{469, -78}";
-},
-{
-name = top.far;
-position = "{366, 1075}";
-},
-{
-name = top.near;
-position = "{366, 1075}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "keheh-ar.fina";
 },
 {
-alignment = -1;
 name = "gafsarkashabove-ar";
 transform = "{1, 0, 0, 1, 298, 0}";
 },
 {
-alignment = -1;
 name = "twodotshorizontalabove-ar.diagonal";
-transform = "{1, 0, 0, 1, 233, 0}";
+transform = "{1, 0, 0, 1, 211, -41}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 937;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{429, -78}";
-},
-{
-name = top.far;
-position = "{415, 1008}";
-},
-{
-name = top.near;
-position = "{415, 1008}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "keheh-ar.fina";
 },
 {
-alignment = -1;
 name = "gafsarkashabove-ar";
-transform = "{1, 0, 0, 1, 267, 0}";
+transform = "{1, 0, 0, 1, 268, 0}";
 },
 {
-alignment = -1;
 name = "twodotshorizontalabove-ar.diagonal";
-transform = "{1, 0, 0, 1, 230, 0}";
+transform = "{1, 0, 0, 1, 218, 72}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 858;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{389, -78}";
-},
-{
-name = top.far;
-position = "{285, 916}";
-},
-{
-name = top.near;
-position = "{285, 916}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "keheh-ar.fina";
 },
 {
-alignment = -1;
 name = "gafsarkashabove-ar";
 transform = "{1, 0, 0, 1, 236, 0}";
 },
 {
-alignment = -1;
 name = "twodotshorizontalabove-ar.diagonal";
-transform = "{1, 0, 0, 1, 186, -54}";
+transform = "{1, 0, 0, 1, 188, -84}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 779;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{496, -78}";
-},
-{
-name = top.far;
-position = "{312, 1162}";
-},
-{
-name = top.near;
-position = "{312, 1162}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "keheh-ar.fina";
 },
 {
-alignment = -1;
 name = "gafsarkashabove-ar";
-transform = "{1, 0, 0, 1, 319, 0}";
+transform = "{1, 0, 0, 1, 320, 0}";
 },
 {
-alignment = -1;
 name = "twodotshorizontalabove-ar.diagonal";
-transform = "{1, 0, 0, 1, 235, 0}";
+transform = "{1, 0, 0, 1, 160, -42}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

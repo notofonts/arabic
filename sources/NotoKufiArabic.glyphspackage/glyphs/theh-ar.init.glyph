@@ -2,120 +2,56 @@
 glyphname = "theh-ar.init";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{202, -78}";
-},
-{
-name = top.far;
-position = "{215, 894}";
-},
-{
-name = top.near;
-position = "{215, 894}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "behDotless-ar.init.wide";
+name = "behDotless-ar.init";
 },
 {
-alignment = -1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 235, 0}";
+transform = "{1, 0, 0, 1, 146, 41}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-width = 404;
+width = 354;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{181, -78}";
-},
-{
-name = top.far;
-position = "{217, 860}";
-},
-{
-name = top.near;
-position = "{217, 860}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "behDotless-ar.init.wide";
+name = "behDotless-ar.init";
 },
 {
-alignment = -1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 225, 0}";
+transform = "{1, 0, 0, 1, 146, -8}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-width = 374;
+width = 301;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{160, -78}";
-},
-{
-name = top.far;
-position = "{199, 754}";
-},
-{
-name = top.near;
-position = "{199, 754}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "behDotless-ar.init.wide";
+name = "behDotless-ar.init";
 },
 {
-alignment = -1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 215, 0}";
+transform = "{1, 0, 0, 1, 146, -17}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-width = 344;
+width = 248;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{216, -78}";
-},
-{
-name = top.far;
-position = "{224, 927}";
-},
-{
-name = top.near;
-position = "{224, 927}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "behDotless-ar.init.wide";
+name = "behDotless-ar.init";
 },
 {
-alignment = -1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 222, 0}";
+transform = "{1, 0, 0, 1, 206, 74}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-width = 424;
+width = 389;
 }
 );
 note = uni062B.init;

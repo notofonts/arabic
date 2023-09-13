@@ -2,6 +2,16 @@
 glyphname = "gafsarkashabove-ar";
 layers = (
 {
+anchors = (
+{
+name = _top.near;
+position = "{44, 720}";
+},
+{
+name = top.near;
+position = "{70, 844}";
+}
+);
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 paths = (
 {
@@ -35,6 +45,16 @@ IUP[0]	/* InterpolateUntPts */";
 width = 382;
 },
 {
+anchors = (
+{
+name = _top.near;
+position = "{74, 710}";
+},
+{
+name = top.near;
+position = "{81, 823}";
+}
+);
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 paths = (
 {
@@ -68,6 +88,16 @@ IUP[0]	/* InterpolateUntPts */";
 width = 354;
 },
 {
+anchors = (
+{
+name = _top.near;
+position = "{89, 700}";
+},
+{
+name = top.near;
+position = "{59, 720}";
+}
+);
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 paths = (
 {
@@ -87,6 +117,16 @@ nodes = (
 width = 326;
 },
 {
+anchors = (
+{
+name = _top.near;
+position = "{22, 730}";
+},
+{
+name = top.near;
+position = "{62, 914}";
+}
+);
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 paths = (
 {

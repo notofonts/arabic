@@ -2,20 +2,6 @@
 glyphname = "kirghizyu-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{244, -293}";
-},
-{
-name = top.far;
-position = "{376, 846}";
-},
-{
-name = top.near;
-position = "{376, 846}";
-}
-);
 components = (
 {
 name = "waw-ar";
@@ -29,20 +15,6 @@ layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 627;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{244, -293}";
-},
-{
-name = top.far;
-position = "{295, 880}";
-},
-{
-name = top.near;
-position = "{295, 880}";
-}
-);
 components = (
 {
 name = "waw-ar";
@@ -56,20 +28,6 @@ layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 561;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{244, -293}";
-},
-{
-name = top.far;
-position = "{274, 812}";
-},
-{
-name = top.near;
-position = "{274, 812}";
-}
-);
 components = (
 {
 name = "waw-ar";
@@ -83,20 +41,6 @@ layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 495;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{279, -305}";
-},
-{
-name = top.far;
-position = "{430, 823}";
-},
-{
-name = top.near;
-position = "{430, 823}";
-}
-);
 components = (
 {
 name = "waw-ar";

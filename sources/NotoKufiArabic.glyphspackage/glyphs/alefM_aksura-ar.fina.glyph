@@ -8,6 +8,18 @@ name = bottom;
 position = "{391, -322}";
 },
 {
+name = ring;
+position = "{399, -180}";
+},
+{
+name = tail;
+position = "{230, 181}";
+},
+{
+name = top.digit;
+position = "{329, 385}";
+},
+{
 name = top.far;
 position = "{225, 322}";
 },
@@ -147,6 +159,18 @@ anchors = (
 {
 name = bottom;
 position = "{391, -322}";
+},
+{
+name = ring;
+position = "{389, -190}";
+},
+{
+name = tail;
+position = "{183, 181}";
+},
+{
+name = top.digit;
+position = "{299, 375}";
 },
 {
 name = top.far;
@@ -290,6 +314,18 @@ name = bottom;
 position = "{391, -322}";
 },
 {
+name = ring;
+position = "{369, -220}";
+},
+{
+name = tail;
+position = "{118, 181}";
+},
+{
+name = top.digit;
+position = "{269, 375}";
+},
+{
 name = top.far;
 position = "{225, 322}";
 },
@@ -391,6 +427,18 @@ anchors = (
 {
 name = bottom;
 position = "{391, -322}";
+},
+{
+name = ring;
+position = "{399, -172}";
+},
+{
+name = tail;
+position = "{263, 181}";
+},
+{
+name = top.digit;
+position = "{329, 365}";
 },
 {
 name = top.far;

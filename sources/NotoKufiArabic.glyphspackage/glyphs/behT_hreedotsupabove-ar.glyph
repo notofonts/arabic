@@ -2,136 +2,68 @@
 glyphname = "behThreedotsupabove-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{423, -281}";
-},
-{
-name = top.far;
-position = "{402, 813}";
-},
-{
-name = top.near;
-position = "{402, 813}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "behDotless-ar";
 },
 {
-alignment = -1;
 name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 413, 0}";
+transform = "{1, 0, 0, 1, 434, 42}";
 },
 {
-alignment = -1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 407, -85}";
+transform = "{1, 0, 0, 1, 382, -96}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 867;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{379, -250}";
-},
-{
-name = top.far;
-position = "{389, 776}";
-},
-{
-name = top.near;
-position = "{389, 776}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "behDotless-ar";
 },
 {
-alignment = -1;
 name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 384, 0}";
+transform = "{1, 0, 0, 1, 391, 16}";
 },
 {
-alignment = -1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 386, -94}";
+transform = "{1, 0, 0, 1, 382, -96}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 778;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{355, -189}";
-},
-{
-name = top.far;
-position = "{358, 646}";
-},
-{
-name = top.near;
-position = "{358, 646}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "behDotless-ar";
 },
 {
-alignment = -1;
 name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 355, 0}";
+transform = "{1, 0, 0, 1, 348, 40}";
 },
 {
-alignment = -1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 359, -103}";
+transform = "{1, 0, 0, 1, 344, -111}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 689;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{452, -302}";
-},
-{
-name = top.far;
-position = "{431, 848}";
-},
-{
-name = top.near;
-position = "{431, 848}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "behDotless-ar";
 },
 {
-alignment = -1;
 name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 432, 0}";
+transform = "{1, 0, 0, 1, 461, 54}";
 },
 {
-alignment = -1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 421, -79}";
+transform = "{1, 0, 0, 1, 431, -97}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

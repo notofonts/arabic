@@ -1,0 +1,91 @@
+{
+glyphname = "tail-ar";
+layers = (
+{
+anchors = (
+{
+name = _tail;
+position = "{188, 192}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"176 214 LINE",
+"0 143 LINE",
+"7 128 LINE",
+"188 192 LINE"
+);
+}
+);
+width = 188;
+},
+{
+anchors = (
+{
+name = _tail;
+position = "{285, 195}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"244 265 LINE",
+"0 168 LINE",
+"16 118 LINE",
+"285 195 LINE"
+);
+}
+);
+width = 285;
+},
+{
+anchors = (
+{
+name = _tail;
+position = "{377, 199}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"314 311 LINE",
+"0 179 LINE",
+"32 96 LINE",
+"377 199 LINE"
+);
+}
+);
+width = 377;
+},
+{
+anchors = (
+{
+name = _tail;
+position = "{438, 202}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"361 342 LINE",
+"0 186 LINE",
+"43 81 LINE",
+"438 202 LINE"
+);
+}
+);
+width = 438;
+}
+);
+leftMetricsKey = "=0";
+rightMetricsKey = "=0";
+}

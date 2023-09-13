@@ -2,116 +2,52 @@
 glyphname = "tahThreedots-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{428, -78}";
-},
-{
-name = top.far;
-position = "{494, 890}";
-},
-{
-name = top.near;
-position = "{494, 890}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "tah-ar";
 },
 {
-alignment = -1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 500, 0}";
+transform = "{1, 0, 0, 1, 547, 20}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 856;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{402, -78}";
-},
-{
-name = top.far;
-position = "{492, 860}";
-},
-{
-name = top.near;
-position = "{492, 860}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "tah-ar";
 },
 {
-alignment = -1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 500, 0}";
+transform = "{1, 0, 0, 1, 518, 11}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 803;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{406, -78}";
-},
-{
-name = top.far;
-position = "{458, 754}";
-},
-{
-name = top.near;
-position = "{458, 754}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "tah-ar";
 },
 {
-alignment = -1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 459, 0}";
+transform = "{1, 0, 0, 1, 484, -5}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-width = 750;
+width = 716;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{478, -78}";
-},
-{
-name = top.far;
-position = "{505, 930}";
-},
-{
-name = top.near;
-position = "{505, 930}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "tah-ar";
 },
 {
-alignment = -1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 500, 0}";
+transform = "{1, 0, 0, 1, 559, 8}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

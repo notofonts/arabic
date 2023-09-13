@@ -1,0 +1,251 @@
+{
+glyphname = "waw-ar.fina.alt";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{339, -373}";
+},
+{
+name = center;
+position = "{217, -119}";
+},
+{
+name = ring;
+position = "{317, -129}";
+},
+{
+name = top.far;
+position = "{314, 576}";
+},
+{
+name = top.near;
+position = "{354, 576}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 491, 0}";
+},
+{
+alignment = -1;
+name = "waw-ar.alt";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+userData = {
+assembly = "NPUSHB[ ]	/* 50 values pushed */
+37 25 50 15 44 21 32 32 6 31 31 11 15 25 4 53 2 54 29 34 70 89 29 15 12 41 41 10 47 18 21 64 21 32 70 89 21 18 0 10 1 9 3 10 6 31 70 89 6 18 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+RTG[ ]	/* RoundToGrid */
+MDAP[1]	/* MoveDirectAbsPt */
+SDS[ ]	/* SetDeltaShiftInGState */
+SDB[ ]	/* SetDeltaBaseInGState */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+SMD[ ]	/* SetMinimumDistance */
+RTG[ ]	/* RoundToGrid */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[11110]	/* MoveDirectRelPt */
+MDRP[01101]	/* MoveDirectRelPt */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP2[ ]	/* SetRefPoint2 */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 662;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{244, -342}";
+},
+{
+name = center;
+position = "{251, -111}";
+},
+{
+name = ring;
+position = "{321, -141}";
+},
+{
+name = top.far;
+position = "{289, 556}";
+},
+{
+name = top.near;
+position = "{319, 556}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 382, 0}";
+},
+{
+alignment = -1;
+name = "waw-ar.alt";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+userData = {
+assembly = "NPUSHB[ ]	/* 30 values pushed */
+37 20 50 9 44 16 32 32 0 25 25 5 9 20 4 53 54 23 34 70 89 23 15 6 41 12 47 72 89 12 
+PUSHW[ ]	/* 1 value pushed */
+-64 
+NPUSHB[ ]	/* 30 values pushed */
+9 12 72 41 12 41 12 4 17 17 40 70 89 17 18 0 4 16 4 2 13 3 4 28 0 25 70 89 0 18 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+RTG[ ]	/* RoundToGrid */
+MIAP[1]	/* MoveIndirectAbsPt */
+SDS[ ]	/* SetDeltaShiftInGState */
+SDB[ ]	/* SetDeltaBaseInGState */
+DELTAP1[ ]	/* DeltaExceptionP1 */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+RTG[ ]	/* RoundToGrid */
+MDAP[1]	/* MoveDirectAbsPt */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+RTG[ ]	/* RoundToGrid */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 553;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{245, -323}";
+},
+{
+name = center;
+position = "{270, -137}";
+},
+{
+name = ring;
+position = "{320, -137}";
+},
+{
+name = top.far;
+position = "{269, 536}";
+},
+{
+name = top.near;
+position = "{269, 536}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 343, 0}";
+},
+{
+alignment = -1;
+name = "waw-ar.alt";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 514;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{364, -407}";
+},
+{
+name = center;
+position = "{222, -127}";
+},
+{
+name = ring;
+position = "{322, -147}";
+},
+{
+name = top.far;
+position = "{324, 574}";
+},
+{
+name = top.near;
+position = "{364, 574}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "kashida-ar";
+transform = "{1, 0, 0, 1, 566, 0}";
+},
+{
+alignment = -1;
+name = "waw-ar.alt";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 737;
+}
+);
+note = uni06C4.fina;
+}

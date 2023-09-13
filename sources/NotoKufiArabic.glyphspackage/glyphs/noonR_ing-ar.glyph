@@ -2,136 +2,68 @@
 glyphname = "noonRing-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{356, -477}";
-},
-{
-name = top.far;
-position = "{348, 685}";
-},
-{
-name = top.near;
-position = "{348, 685}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = "sukun-ar";
-transform = "{1, 0, 0, 1, 366, -1245}";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 346, -74}";
 },
 {
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 354, -85}";
+name = "ringbelow-ar";
+transform = "{1, 0, 0, 1, 272, -1205}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 761;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{306, -470}";
-},
-{
-name = top.far;
-position = "{326, 650}";
-},
-{
-name = top.near;
-position = "{326, 650}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = "sukun-ar";
-transform = "{1, 0, 0, 1, 311, -1255}";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 325, -129}";
 },
 {
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 328, -95}";
+name = "ringbelow-ar";
+transform = "{1, 0, 0, 1, 229, -1216}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 672;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{256, -423}";
-},
-{
-name = top.far;
-position = "{294, 595}";
-},
-{
-name = top.near;
-position = "{294, 595}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = "sukun-ar";
-transform = "{1, 0, 0, 1, 256, -1226}";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 274, -191}";
 },
 {
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 302, -105}";
+name = "ringbelow-ar";
+transform = "{1, 0, 0, 1, 221, -1228}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 583;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{396, -458}";
-},
-{
-name = top.far;
-position = "{377, 718}";
-},
-{
-name = top.near;
-position = "{377, 718}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = "sukun-ar";
-transform = "{1, 0, 0, 1, 403, -1238}";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 367, -70}";
 },
 {
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 371, -78}";
+name = "ringbelow-ar";
+transform = "{1, 0, 0, 1, 301, -1203}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

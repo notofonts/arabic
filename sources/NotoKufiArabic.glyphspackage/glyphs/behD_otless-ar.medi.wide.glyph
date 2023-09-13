@@ -2,6 +2,28 @@
 glyphname = "behDotless-ar.medi.wide";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{196, -78}";
+},
+{
+name = ring;
+position = "{227, 0}";
+},
+{
+name = top.digit;
+position = "{150, 495}";
+},
+{
+name = top.far;
+position = "{176, 586}";
+},
+{
+name = top.near;
+position = "{176, 606}";
+}
+);
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 paths = (
 {
@@ -56,6 +78,28 @@ IUP[0]	/* InterpolateUntPts */";
 width = 444;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{194, -78}";
+},
+{
+name = ring;
+position = "{199, 0}";
+},
+{
+name = top.digit;
+position = "{157, 485}";
+},
+{
+name = top.far;
+position = "{174, 537}";
+},
+{
+name = top.near;
+position = "{174, 557}";
+}
+);
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 paths = (
 {
@@ -110,6 +154,28 @@ IUP[0]	/* InterpolateUntPts */";
 width = 391;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{179, -58}";
+},
+{
+name = ring;
+position = "{178, 0}";
+},
+{
+name = top.digit;
+position = "{167, 475}";
+},
+{
+name = top.far;
+position = "{179, 528}";
+},
+{
+name = top.near;
+position = "{179, 548}";
+}
+);
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 paths = (
 {
@@ -141,6 +207,28 @@ nodes = (
 width = 338;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{256, -78}";
+},
+{
+name = ring;
+position = "{244, 0}";
+},
+{
+name = top.digit;
+position = "{145, 502}";
+},
+{
+name = top.far;
+position = "{236, 609}";
+},
+{
+name = top.near;
+position = "{236, 639}";
+}
+);
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 paths = (
 {

@@ -2,140 +2,56 @@
 glyphname = "noonVabove-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{322, -322}";
-},
-{
-name = top.far;
-position = "{363, 967}";
-},
-{
-name = top.near;
-position = "{363, 967}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = smallv.arabic;
-transform = "{1, 0, 0, 1, 364, 70}";
-},
-{
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 359, -85}";
+name = "dotabove_vabove-ar";
+transform = "{1, 0, 0, 1, 184, -74}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 761;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{322, -322}";
-},
-{
-name = top.far;
-position = "{336, 890}";
-},
-{
-name = top.near;
-position = "{336, 890}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = smallv.arabic;
-transform = "{1, 0, 0, 1, 324, 38}";
-},
-{
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 328, -95}";
+name = "dotabove_vabove-ar";
+transform = "{1, 0, 0, 1, 176, -129}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 672;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{322, -322}";
-},
-{
-name = top.far;
-position = "{289, 843}";
-},
-{
-name = top.near;
-position = "{289, 843}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = smallv.arabic;
-transform = "{1, 0, 0, 1, 284, 6}";
-},
-{
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 297, -105}";
+name = "dotabove_vabove-ar";
+transform = "{1, 0, 0, 1, 151, -191}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 583;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{364, -297}";
-},
-{
-name = top.far;
-position = "{381, 968}";
-},
-{
-name = top.near;
-position = "{381, 968}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = smallv.arabic;
-transform = "{1, 0, 0, 1, 391, 91}";
-},
-{
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 380, -78}";
+name = "dotabove_vabove-ar";
+transform = "{1, 0, 0, 1, 189, -70}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-width = 820.33333;
+width = 820;
 }
 );
 note = uni0769;

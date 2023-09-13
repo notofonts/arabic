@@ -2,116 +2,52 @@
 glyphname = "zah-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{428, -78}";
-},
-{
-name = top.far;
-position = "{478, 755}";
-},
-{
-name = top.near;
-position = "{478, 755}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "tah-ar";
 },
 {
-alignment = -1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 482, 0}";
+transform = "{1, 0, 0, 1, 547, 19}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 856;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{422, -78}";
-},
-{
-name = top.far;
-position = "{470, 741}";
-},
-{
-name = top.near;
-position = "{470, 741}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "tah-ar";
 },
 {
-alignment = -1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 488, 0}";
+transform = "{1, 0, 0, 1, 523, 10}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 803;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{416, -78}";
-},
-{
-name = top.far;
-position = "{446, 720}";
-},
-{
-name = top.near;
-position = "{446, 720}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "tah-ar";
 },
 {
-alignment = -1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 464, 0}";
+transform = "{1, 0, 0, 1, 484, -6}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-width = 750;
+width = 716;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{452, -78}";
-},
-{
-name = top.far;
-position = "{493, 794}";
-},
-{
-name = top.near;
-position = "{493, 794}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "tah-ar";
 },
 {
-alignment = -1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 478, 0}";
+transform = "{1, 0, 0, 1, 559, 7}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

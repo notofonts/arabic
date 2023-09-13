@@ -2,120 +2,72 @@
 glyphname = "kafDotabove-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{441, -78}";
-},
-{
-name = top.far;
-position = "{419, 843}";
-},
-{
-name = top.near;
-position = "{419, 843}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "kaf-ar";
+name = "kafDotless-ar";
 },
 {
-alignment = -1;
+name = "miniKeheh-ar";
+transform = "{1, 0, 0, 1, 323, 0}";
+},
+{
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 402, 60}";
+transform = "{1, 0, 0, 1, 425, 20}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 882;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{397, -78}";
-},
-{
-name = top.far;
-position = "{387, 810}";
-},
-{
-name = top.near;
-position = "{387, 810}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "kaf-ar";
+name = "kafDotless-ar";
 },
 {
-alignment = -1;
+name = "miniKeheh-ar";
+transform = "{1, 0, 0, 1, 286, 0}";
+},
+{
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 382, 60}";
+transform = "{1, 0, 0, 1, 395, -5}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 793;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{353, -78}";
-},
-{
-name = top.far;
-position = "{349, 769}";
-},
-{
-name = top.near;
-position = "{349, 769}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "kaf-ar";
+name = "kafDotless-ar";
 },
 {
-alignment = -1;
+name = "miniKeheh-ar";
+transform = "{1, 0, 0, 1, 259, 0}";
+},
+{
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 362, 57}";
+transform = "{1, 0, 0, 1, 344, -32}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 704;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{470, -78}";
-},
-{
-name = top.far;
-position = "{433, 860}";
-},
-{
-name = top.near;
-position = "{433, 860}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "kaf-ar";
+name = "kafDotless-ar";
 },
 {
-alignment = -1;
+name = "miniKeheh-ar";
+transform = "{1, 0, 0, 1, 348, 1}";
+},
+{
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 415, 60}";
+transform = "{1, 0, 0, 1, 455, -5}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-width = 941.33333;
+width = 941;
 }
 );
 note = uni06AC;

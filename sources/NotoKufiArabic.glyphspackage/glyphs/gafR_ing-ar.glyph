@@ -2,120 +2,72 @@
 glyphname = "gafRing-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{444, -78}";
-},
-{
-name = top.far;
-position = "{444, 890}";
-},
-{
-name = top.near;
-position = "{444, 890}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "kafRing-ar";
+name = "keheh-ar.alt";
 },
 {
-alignment = -1;
 name = "gafsarkashabove-ar";
-transform = "{1, 0, 0, 1, 303, -15}";
+transform = "{1, 0, 0, 1, 298, 0}";
+},
+{
+name = "ringcenter-ar";
+transform = "{1, 0, 0, 1, 538, 591}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 887;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{404, -78}";
-},
-{
-name = top.far;
-position = "{404, 890}";
-},
-{
-name = top.near;
-position = "{404, 890}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "kafRing-ar";
+name = "keheh-ar.alt";
 },
 {
-alignment = -1;
 name = "gafsarkashabove-ar";
-transform = "{1, 0, 0, 1, 267, 0}";
+transform = "{1, 0, 0, 1, 268, 0}";
+},
+{
+name = "ringcenter-ar";
+transform = "{1, 0, 0, 1, 469, 616}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 808;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{364, -78}";
-},
-{
-name = top.far;
-position = "{330, 833}";
-},
-{
-name = top.near;
-position = "{330, 833}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "kafRing-ar";
+name = "keheh-ar.alt";
 },
 {
-alignment = -1;
 name = "gafsarkashabove-ar";
-transform = "{1.09195, 0, 0, 0.92401, 229, 63}";
+transform = "{1, 0, 0, 1, 236, 0}";
+},
+{
+name = "ringcenter-ar";
+transform = "{1, 0, 0, 1, 406, 616}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 729;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{471, -78}";
-},
-{
-name = top.far;
-position = "{407, 938}";
-},
-{
-name = top.near;
-position = "{407, 938}";
-}
-);
 components = (
 {
-alignment = -1;
-name = "kafRing-ar";
+name = "keheh-ar.alt";
 },
 {
-alignment = -1;
 name = "gafsarkashabove-ar";
-transform = "{1, 0, 0, 1.15503, 327, -150}";
+transform = "{1, 0, 0, 1, 320, 0}";
+},
+{
+name = "ringcenter-ar";
+transform = "{1, 0, 0, 1, 587, 595}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-width = 939.66667;
+width = 940;
 }
 );
 note = uni06B0;

@@ -2,6 +2,24 @@
 glyphname = "hah-ar.alt";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{195, -366}";
+},
+{
+name = center;
+position = "{485, -207}";
+},
+{
+name = top.far;
+position = "{224, 586}";
+},
+{
+name = top.near;
+position = "{274, 586}";
+}
+);
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 paths = (
 {
@@ -84,6 +102,24 @@ IUP[0]	/* InterpolateUntPts */";
 width = 683;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{195, -366}";
+},
+{
+name = center;
+position = "{439, -179}";
+},
+{
+name = top.far;
+position = "{205, 566}";
+},
+{
+name = top.near;
+position = "{235, 566}";
+}
+);
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 paths = (
 {
@@ -165,6 +201,24 @@ IUP[0]	/* InterpolateUntPts */";
 width = 644;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{195, -366}";
+},
+{
+name = center;
+position = "{366, -138}";
+},
+{
+name = top.far;
+position = "{186, 546}";
+},
+{
+name = top.near;
+position = "{206, 546}";
+}
+);
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 paths = (
 {
@@ -218,6 +272,24 @@ nodes = (
 width = 605;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{188, -436}";
+},
+{
+name = center;
+position = "{517, -237}";
+},
+{
+name = top.far;
+position = "{230, 599}";
+},
+{
+name = top.near;
+position = "{280, 599}";
+}
+);
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 paths = (
 {

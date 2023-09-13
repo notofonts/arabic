@@ -2,116 +2,52 @@
 glyphname = "beh-ar.init";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{187, -280}";
-},
-{
-name = top.far;
-position = "{167, 583}";
-},
-{
-name = top.near;
-position = "{167, 583}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "behDotless-ar.init";
 },
 {
-alignment = -1;
 name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 175, 0}";
+transform = "{1, 0, 0, 1, 127, 1}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 354;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{163, -243}";
-},
-{
-name = top.far;
-position = "{167, 536}";
-},
-{
-name = top.near;
-position = "{167, 536}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "behDotless-ar.init";
 },
 {
-alignment = -1;
 name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 167, 0}";
+transform = "{1, 0, 0, 1, 127, -19}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 301;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{139, -206}";
-},
-{
-name = top.far;
-position = "{146, 538}";
-},
-{
-name = top.near;
-position = "{146, 538}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "behDotless-ar.init";
 },
 {
-alignment = -1;
 name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 141, 0}";
+transform = "{1, 0, 0, 1, 127, 28}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 248;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{196, -285}";
-},
-{
-name = top.far;
-position = "{207, 594}";
-},
-{
-name = top.near;
-position = "{207, 594}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "behDotless-ar.init";
 },
 {
-alignment = -1;
 name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 180, 30}";
+transform = "{1, 0, 0, 1, 187, 16}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

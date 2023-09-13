@@ -4,12 +4,15 @@ layers = (
 {
 components = (
 {
-name = "kaf-ar";
+name = "kafDotless-ar";
 },
 {
-alignment = -1;
-name = twodots.small.above;
-transform = "{1, 0, 0, 1, 349, -21}";
+name = "miniKeheh-ar";
+transform = "{1, 0, 0, 1, 259, 0}";
+},
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 344, -20}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -18,12 +21,15 @@ width = 704;
 {
 components = (
 {
-name = "kaf-ar";
+name = "kafDotless-ar";
 },
 {
-alignment = -1;
-name = twodots.small.above;
-transform = "{1, 0, 0, 1, 387, -10}";
+name = "miniKeheh-ar";
+transform = "{1, 0, 0, 1, 286, 0}";
+},
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 390, 7}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -32,12 +38,15 @@ width = 793;
 {
 components = (
 {
-name = "kaf-ar";
+name = "kafDotless-ar";
 },
 {
-alignment = -1;
-name = twodots.small.above;
-transform = "{1, 0, 0, 1, 424, 6}";
+name = "miniKeheh-ar";
+transform = "{1, 0, 0, 1, 323, 0}";
+},
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 425, 32}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -46,12 +55,15 @@ width = 882;
 {
 components = (
 {
-name = "kaf-ar";
+name = "kafDotless-ar";
 },
 {
-alignment = -1;
-name = twodots.small.above;
-transform = "{1, 0, 0, 1, 440, 25}";
+name = "miniKeheh-ar";
+transform = "{1, 0, 0, 1, 348, 1}";
+},
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 455, 7}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

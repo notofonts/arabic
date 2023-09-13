@@ -8,6 +8,10 @@ name = bottom;
 position = "{431, -293}";
 },
 {
+name = top.digit;
+position = "{309, 325}";
+},
+{
 name = top.far;
 position = "{284, 186}";
 },
@@ -79,6 +83,10 @@ anchors = (
 {
 name = bottom;
 position = "{391, -293}";
+},
+{
+name = top.digit;
+position = "{249, 275}";
 },
 {
 name = top.far;
@@ -154,6 +162,10 @@ name = bottom;
 position = "{268, -239}";
 },
 {
+name = top.digit;
+position = "{219, 205}";
+},
+{
 name = top.far;
 position = "{204, 126}";
 },
@@ -204,6 +216,10 @@ anchors = (
 {
 name = bottom;
 position = "{455, -313}";
+},
+{
+name = top.digit;
+position = "{339, 335}";
 },
 {
 name = top.far;

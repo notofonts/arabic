@@ -2,116 +2,52 @@
 glyphname = "dul-ar.fina";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{228, -78}";
-},
-{
-name = top.far;
-position = "{177, 968}";
-},
-{
-name = top.near;
-position = "{177, 968}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "dal-ar.fina";
 },
 {
-alignment = -1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 177, 80}";
+transform = "{1, 0, 0, 1, 146, 90}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 655;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{285, -78}";
-},
-{
-name = top.far;
-position = "{174, 939}";
-},
-{
-name = top.near;
-position = "{174, 939}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "dal-ar.fina";
 },
 {
-alignment = -1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 177, 60}";
+transform = "{1, 0, 0, 1, 171, 41}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 569;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{216, -73}";
-},
-{
-name = top.far;
-position = "{177, 782}";
-},
-{
-name = top.near;
-position = "{177, 782}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "dal-ar.fina";
 },
 {
-alignment = -1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 177, 40}";
+transform = "{1, 0, 0, 1, 198, 27}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 483;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{275, -78}";
-},
-{
-name = top.far;
-position = "{219, 1027}";
-},
-{
-name = top.near;
-position = "{219, 1027}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "dal-ar.fina";
 },
 {
-alignment = -1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 207, 93}";
+transform = "{1, 0, 0, 1, 203, 123}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

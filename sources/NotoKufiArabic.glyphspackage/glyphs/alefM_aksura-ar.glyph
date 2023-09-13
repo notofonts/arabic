@@ -8,12 +8,24 @@ name = bottom;
 position = "{391, -322}";
 },
 {
+name = ring;
+position = "{399, -180}";
+},
+{
+name = tail;
+position = "{230, 181}";
+},
+{
+name = top.digit;
+position = "{329, 385}";
+},
+{
 name = top.far;
-position = "{227, 326}";
+position = "{225, 322}";
 },
 {
 name = top.near;
-position = "{179, 268}";
+position = "{225, 322}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -125,12 +137,24 @@ name = bottom;
 position = "{391, -322}";
 },
 {
+name = ring;
+position = "{389, -190}";
+},
+{
+name = tail;
+position = "{183, 181}";
+},
+{
+name = top.digit;
+position = "{299, 375}";
+},
+{
 name = top.far;
-position = "{215, 323}";
+position = "{225, 322}";
 },
 {
 name = top.near;
-position = "{152, 250}";
+position = "{225, 322}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -244,12 +268,24 @@ name = bottom;
 position = "{381, -322}";
 },
 {
+name = ring;
+position = "{369, -220}";
+},
+{
+name = tail;
+position = "{126, 181}";
+},
+{
+name = top.digit;
+position = "{269, 375}";
+},
+{
 name = top.far;
-position = "{198, 303}";
+position = "{225, 322}";
 },
 {
 name = top.near;
-position = "{150, 259}";
+position = "{226, 322}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -327,8 +363,20 @@ name = bottom;
 position = "{391, -322}";
 },
 {
+name = ring;
+position = "{399, -172}";
+},
+{
+name = tail;
+position = "{261, 181}";
+},
+{
+name = top.digit;
+position = "{329, 365}";
+},
+{
 name = top.far;
-position = "{256, 372}";
+position = "{225, 322}";
 },
 {
 name = top.near;

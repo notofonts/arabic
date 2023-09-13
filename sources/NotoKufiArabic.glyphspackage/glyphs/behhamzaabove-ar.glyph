@@ -4,11 +4,15 @@ layers = (
 {
 components = (
 {
-name = "beh-ar";
+name = "behDotless-ar";
+},
+{
+name = "dotbelow-ar";
+transform = "{1, 0, 0, 1, 348, 40}";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 334, -280}";
+transform = "{1, 0, 0, 1, 334, -308}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -17,11 +21,15 @@ width = 689;
 {
 components = (
 {
-name = "beh-ar";
+name = "behDotless-ar";
+},
+{
+name = "dotbelow-ar";
+transform = "{1, 0, 0, 1, 391, 16}";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 381, -259}";
+transform = "{1, 0, 0, 1, 372, -298}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -30,11 +38,15 @@ width = 778;
 {
 components = (
 {
-name = "beh-ar";
+name = "behDotless-ar";
+},
+{
+name = "dotbelow-ar";
+transform = "{1, 0, 0, 1, 434, 42}";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 394, -279}";
+transform = "{1, 0, 0, 1, 372, -310}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -43,11 +55,15 @@ width = 867;
 {
 components = (
 {
-name = "beh-ar";
+name = "behDotless-ar";
+},
+{
+name = "dotbelow-ar";
+transform = "{1, 0, 0, 1, 461, 54}";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 425, -283}";
+transform = "{1, 0, 0, 1, 413, -310}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

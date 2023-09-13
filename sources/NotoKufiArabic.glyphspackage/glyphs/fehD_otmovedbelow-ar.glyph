@@ -2,20 +2,6 @@
 glyphname = "fehDotmovedbelow-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{761, -286}";
-},
-{
-name = top.far;
-position = "{721, 549}";
-},
-{
-name = top.near;
-position = "{721, 549}";
-}
-);
 components = (
 {
 name = "fehDotless-ar";
@@ -29,20 +15,6 @@ layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 1075;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{742, -238}";
-},
-{
-name = top.far;
-position = "{732, 566}";
-},
-{
-name = top.near;
-position = "{732, 566}";
-}
-);
 components = (
 {
 name = "fehDotless-ar";
@@ -56,20 +28,6 @@ layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 1012;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{740, -200}";
-},
-{
-name = top.far;
-position = "{743, 553}";
-},
-{
-name = top.near;
-position = "{743, 553}";
-}
-);
 components = (
 {
 name = "fehDotless-ar";
@@ -83,20 +41,6 @@ layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 949;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{774, -318}";
-},
-{
-name = top.far;
-position = "{714, 538}";
-},
-{
-name = top.near;
-position = "{714, 538}";
-}
-);
 components = (
 {
 name = "fehDotless-ar";

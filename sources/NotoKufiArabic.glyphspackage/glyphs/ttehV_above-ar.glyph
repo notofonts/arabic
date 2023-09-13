@@ -8,11 +8,11 @@ name = "behDotless-ar";
 },
 {
 name = "tahabove-ar";
-transform = "{1, 0, 0, 1, 361, -241}";
+transform = "{1, 0, 0, 1, 361, -141}";
 },
 {
 name = "vabove-ar";
-transform = "{1, 0, 0, 1, 342, 86}";
+transform = "{1, 0, 0, 1, 221, 186}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -25,11 +25,11 @@ name = "behDotless-ar";
 },
 {
 name = "tahabove-ar";
-transform = "{1, 0, 0, 1, 397, -232}";
+transform = "{1, 0, 0, 1, 397, -132}";
 },
 {
 name = "vabove-ar";
-transform = "{1, 0, 0, 1, 383, 104}";
+transform = "{1, 0, 0, 1, 242, 204}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -38,13 +38,16 @@ width = 778;
 {
 components = (
 {
+alignment = -1;
 name = "behDotless-ar";
 },
 {
+alignment = -1;
 name = "tahabove-ar";
 transform = "{1, 0, 0, 1, 382, -217}";
 },
 {
+alignment = -1;
 name = "vabove-ar";
 transform = "{1, 0, 0, 1, 384, 128}";
 }
@@ -55,13 +58,16 @@ width = 867;
 {
 components = (
 {
+alignment = -1;
 name = "behDotless-ar";
 },
 {
+alignment = -1;
 name = "tahabove-ar";
 transform = "{1, 0, 0, 1, 421, -208}";
 },
 {
+alignment = -1;
 name = "vabove-ar";
 transform = "{1, 0, 0, 1, 434, 143}";
 }

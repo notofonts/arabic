@@ -2,140 +2,72 @@
 glyphname = "noonTwodotsbelow-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{371, -510}";
-},
-{
-name = top.far;
-position = "{351, 690}";
-},
-{
-name = top.near;
-position = "{351, 690}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = twodots.small.below;
-transform = "{1, 0, 0, 1, 380, -220}";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 346, -74}";
 },
 {
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 359, -85}";
+name = "twodotshorizontalbelow-ar";
+transform = "{1, 0, 0, 1, 317, -218}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 761;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{336, -440}";
-},
-{
-name = top.far;
-position = "{326, 640}";
-},
-{
-name = top.near;
-position = "{326, 640}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = twodots.small.below;
-transform = "{1, 0, 0, 1, 347, -220}";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 325, -129}";
 },
 {
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 328, -95}";
+name = "twodotshorizontalbelow-ar";
+transform = "{1, 0, 0, 1, 322, -248}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 672;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{281, -415}";
-},
-{
-name = top.far;
-position = "{284, 590}";
-},
-{
-name = top.near;
-position = "{284, 590}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = twodots.small.below;
-transform = "{1, 0, 0, 1, 284, -243}";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 274, -191}";
 },
 {
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 297, -105}";
+name = "twodotshorizontalbelow-ar";
+transform = "{1, 0, 0, 1, 291, -241}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 583;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{394, -557}";
-},
-{
-name = top.far;
-position = "{398, 723}";
-},
-{
-name = top.near;
-position = "{398, 723}";
-}
-);
 components = (
 {
-alignment = -1;
 name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = twodots.small.below;
-transform = "{1, 0, 0, 1, 402, -220}";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 367, -70}";
 },
 {
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 380, -78}";
+name = "twodotshorizontalbelow-ar";
+transform = "{1, 0, 0, 1, 372, -179}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-width = 820.33333;
+width = 820;
 }
 );
 note = uni0767;

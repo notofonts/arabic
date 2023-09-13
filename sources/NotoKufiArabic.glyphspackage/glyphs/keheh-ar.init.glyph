@@ -2,20 +2,6 @@
 glyphname = "keheh-ar.init";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{244, -78}";
-},
-{
-name = top.far;
-position = "{127, 825}";
-},
-{
-name = top.near;
-position = "{127, 825}";
-}
-);
 components = (
 {
 name = "kaf-ar.init";
@@ -25,20 +11,6 @@ layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 610;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{288, -78}";
-},
-{
-name = top.far;
-position = "{154, 765}";
-},
-{
-name = top.near;
-position = "{154, 765}";
-}
-);
 components = (
 {
 name = "kaf-ar.init";
@@ -48,20 +20,6 @@ layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 576;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{271, -78}";
-},
-{
-name = top.far;
-position = "{177, 757}";
-},
-{
-name = top.near;
-position = "{177, 757}";
-}
-);
 components = (
 {
 name = "kaf-ar.init";
@@ -71,20 +29,6 @@ layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 542;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{244, -78}";
-},
-{
-name = top.far;
-position = "{137, 835}";
-},
-{
-name = top.near;
-position = "{137, 835}";
-}
-);
 components = (
 {
 name = "kaf-ar.init";
