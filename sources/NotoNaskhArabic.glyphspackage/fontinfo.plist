@@ -1,5 +1,5 @@
 {
-.appVersion = "3214";
+.appVersion = "3218";
 .formatVersion = 3;
 axes = (
 {
@@ -756,17 +756,6 @@ code = "sub radical by radical.rtlm;
 tag = rtlm;
 },
 {
-code = "sub fehAfrican-ar by fehDotless-ar;
-sub qafAfrican-ar by qafDotless-ar;
-sub qafThreedotsaboveAfrican-ar by qafDotless-ar threedotsupabove-ar;
-sub kaf-ar by kafDotless-ar miniKeheh-ar;
-sub noonThreedotsabove-ar by noonghunna-ar threedotsupabove-ar;
-sub noonAfrican-ar by noonghunna-ar;
-sub yehFarsi-ar by alefMaksura-ar;
-";
-tag = isol;
-},
-{
 code = "sub ain-ar by ain-ar.init;
 sub ainThreedotsbelow-ar by ain-ar.init threedotsdownbelow-ar;
 sub alefMaksura-ar by behDotless-ar.init;
@@ -890,7 +879,18 @@ code = "script arab;
 tag = rlig;
 },
 {
-code = "lookup final_unconnected_heh {
+code = "lookup rlig_isol {
+	lookupflag 0;
+	sub fehAfrican-ar by fehDotless-ar;
+	sub qafAfrican-ar by qafDotless-ar;
+	sub qafThreedotsaboveAfrican-ar by qafDotless-ar threedotsupabove-ar;
+	sub kaf-ar by kafDotless-ar miniKeheh-ar;
+	sub noonThreedotsabove-ar by noonghunna-ar threedotsupabove-ar;
+	sub noonAfrican-ar by noonghunna-ar;
+	sub yehFarsi-ar by alefMaksura-ar;
+} rlig_isol;
+
+lookup final_unconnected_heh {
   lookupflag IgnoreMarks;
   sub  @ArabicLetters
        heh-ar'
