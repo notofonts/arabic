@@ -226,36 +226,9 @@ lookup liaadama { # See issue #26
 } liaadama;
 
 lookup ccmp_arab_1 {
-	lookupflag 0;
-  sub fathatan-ar shadda-ar by fathatan_shadda-ar;
-  sub fathatan-ar hamzaabove-ar by fathatan_hamzaabove-ar;
-  sub dammatan-ar shadda-ar by dammatan-ar_shadda-ar;
-  sub dammatan-ar hamzaabove-ar by dammatan-ar_hamzaabove-ar;
-  sub kasratan-ar shadda-ar by kasratan-ar_shadda-ar;
-  sub kasratan-ar hamzabelow-ar by kasratan_hamzabelow-ar;
-  sub fatha-ar shadda-ar by fatha-ar_shadda-ar;
-  sub fatha-ar hamzaabove-ar by fatha-ar_hamzaabove-ar;
-  sub damma-ar shadda-ar by damma-ar_shadda-ar;
-  sub damma-ar hamzaabove-ar by damma-ar_hamzaabove-ar;
-  sub kasra-ar shadda-ar by kasra-ar_shadda-ar;
-  sub kasra-ar hamzabelow-ar by kasra_hamzabelow-ar;
-  sub shadda-ar fathatan-ar by fathatan_shadda-ar;
-  sub shadda-ar dammatan-ar by dammatan-ar_shadda-ar;
-  sub shadda-ar kasratan-ar by kasratan-ar_shadda-ar;
-  sub shadda-ar fatha-ar by fatha-ar_shadda-ar;
-  sub shadda-ar damma-ar by damma-ar_shadda-ar;
-  sub shadda-ar kasra-ar by kasra-ar_shadda-ar;
-  sub shadda-ar alefabove-ar by shadda_alefabove-ar;
-  sub hamzaabove-ar fathatan-ar by fathatan_hamzaabove-ar;
-  sub hamzaabove-ar dammatan-ar by dammatan-ar_hamzaabove-ar;
-  sub hamzaabove-ar fatha-ar by fatha-ar_hamzaabove-ar;
-  sub hamzaabove-ar damma-ar by damma-ar_hamzaabove-ar;
-  sub hamzaabove-ar sukun-ar by hamzaabove-ar_sukun-ar;
-  sub hamzabelow-ar kasratan-ar by kasratan_hamzabelow-ar;
-  sub hamzabelow-ar kasra-ar by kasra_hamzabelow-ar;
-  sub sukun-ar hamzaabove-ar by hamzaabove-ar_sukun-ar;
-  sub alefabove-ar shadda-ar by shadda_alefabove-ar;
-
+  lookupflag 0;
+  sub kasratan-ar shadda-ar by shadda_kasra-ar;
+  sub shadda-ar kasratan-ar by shadda_kasratan-ar;
 } ccmp_arab_1;
 
 lookup decomposition {
@@ -686,8 +659,8 @@ lookup kaf_dots {
 lookup rlig_arab_0 {
 	lookupflag IgnoreMarks RightToLeft;
 	script arab;
-	sub alef-ar lam-ar.init lam-ar.medi shadda_alefabove-ar heh-ar.fina by allah-ar;
-	sub alef-ar lam-ar.init lam-ar.medi shadda_alefabove-ar hehgoal-ar.fina by allah-ar;
+	sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar heh-ar.fina by allah-ar;
+	sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar hehgoal-ar.fina by allah-ar;
 } rlig_arab_0;
 
 lookup rlig_arabic_0 {
