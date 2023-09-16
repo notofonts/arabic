@@ -694,7 +694,7 @@ lookup decomposition {
   # High hamza
   sub highhamzaAlef-ar by highhamza-ar alef-ar;
   sub highhamzaWaw-ar by highhamza-ar waw-ar;
-  sub uHamzaabove-ar by highhamza-ar u-ar;
+  sub uHamzaabove-ar by highhamza-ar waw-ar commaabove-ar;
   sub highhamzaYeh-ar by highhamza-ar alefMaksura-ar;
 
   sub kashidaTwodotsbelow-ar by kashida-ar twodotshorizontalbelow-ar;
