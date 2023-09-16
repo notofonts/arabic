@@ -53,8 +53,8 @@ threedotsdowncenter-ar
 fourdotscenter-ar
 fourcenter-ar
 tahcenter-ar
-#dotcenter_threedotsdownbelow-ar
-#vinvertedcenter-ar
+dotcenter_threedotsdownbelow-ar
+vinvertedcenter-ar
 ";
 name = dotcenter;
 },
@@ -68,8 +68,8 @@ threedotsdownbelow-ar
 fourdotsbelow-ar
 fourbelow-ar
 tahbelow-ar
-#dotbelow_threedotsdownbelow-ar
-#vinvertedbelow-ar
+dotbelow_threedotsdownbelow-ar
+vinvertedbelow-ar
 ";
 name = dotcenter.below;
 },
@@ -82,6 +82,8 @@ threedotsdowncenter-ar
 fourdotscenter-ar
 fourcenter-ar
 tahcenter-ar
+dotcenter_threedotsdownbelow-ar
+vinvertedcenter-ar
 ";
 name = dotcenter.hah.alt;
 },
@@ -284,8 +286,8 @@ lookup decomposition {
   sub behVabove-ar by behDotless-ar vabove-ar;
   sub behVbelow-ar by behDotless-ar vbelow-ar;
   sub behhamzaabove-ar by behDotless-ar hamzaabove-ar dotbelow-ar;
- #sub behMeemabove-ar by behDotless-ar dotbelow-ar meemnear-ar;
- #sub pehMeemabove-ar by behDotless-ar threedotsdownbelow-ar meemnear-ar;
+  sub behMeemabove-ar by behDotless-ar dotbelow-ar meemnear-ar;
+  sub pehMeemabove-ar by behDotless-ar threedotsdownbelow-ar meemnear-ar;
  #sub tehTehabove-ar by behDotless-ar tehabove-ar;
   sub tehRing-ar by behDotless-ar twodotshorizontalabove-ar ringbelow-ar;
 
@@ -309,8 +311,8 @@ lookup decomposition {
   sub jeemThreedotsabove-ar by hah-ar dotcenter-ar threedotsupabove-ar;
   sub tchehDotabove-ar by hah-ar threedotsdowncenter-ar dotabove-ar;
   sub tchehVabove-ar by hah-ar threedotsdowncenter-ar vabove-ar;
- #sub jeemThreedotsbelow-ar by hah-ar dotcenter_threedotsdownbelow-ar;
- #sub hahVinvertedbelow-ar by hah-ar vinvertedcenter-ar;
+  sub jeemThreedotsbelow-ar by hah-ar dotcenter_threedotsdownbelow-ar;
+  sub hahVinvertedbelow-ar by hah-ar vinvertedcenter-ar;
 
   # Dal family
   sub thal-ar by dal-ar dotabove-ar;
@@ -376,7 +378,7 @@ lookup decomposition {
   # Ain family
   sub ghain-ar by ain-ar dotabove-ar;
   sub ghainDotbelow-ar by ain-ar dotabove-ar dotcenter-ar;
- #sub ainThreedotsbelow-ar by ain-ar threedotsdowncenter-ar;
+  sub ainThreedotsbelow-ar by ain-ar.alt threedotsdowncenter-ar;
   sub ainThreedots-ar by ain-ar threedotsupabove-ar;
   sub ainTwodotshorizontalabove-ar by ain-ar twodotshorizontalabove-ar;
   sub ainThreedotsdownabove-ar by ain-ar threedotsdownabove-ar;
@@ -466,7 +468,7 @@ lookup decomposition {
   sub ve-ar by waw-ar threedotsupabove-ar;
   sub wawTwoabove-ar by waw-ar twoabove-ar;
   sub wawThreeabove-ar by waw-ar threeabove-ar;
- #sub wawDotcenter-ar by waw-ar dotcenter-ar;
+  sub wawDotcenter-ar by waw-ar.alt dotcenter-ar;
 
   # Yeh family
   sub yeh-ar by alefMaksura-ar twodotshorizontalbelow-ar;
@@ -484,7 +486,7 @@ lookup decomposition {
   sub yehTwodotsbelowHamzaabove-ar by alefMaksura-ar twodotshorizontalbelow-ar hamzaabove-ar;
   sub yehTwodotsbelowDotabove-ar by alefMaksura-ar twodotshorizontalbelow-ar dotabove-ar;
   sub yehTail-ar by alefMaksura-ar tail-ar;
- #sub yehTwodotsbelowNoonabove-ar by alefMaksura-ar twodotshorizontalbelow-ar noonabove-ar;
+  sub yehTwodotsbelowNoonabove-ar by alefMaksura-ar twodotshorizontalbelow-ar noonabove-ar;
  #sub yehthin-ar.init by behDotless-ar.init.thin twodotshorizontalbelow-ar.small;
 
   # Bari Ye family
@@ -498,7 +500,7 @@ lookup decomposition {
   sub uHamzaabove-ar by highhamza-ar waw-ar commaabove-ar;
   sub highhamzaYeh-ar by highhamza-ar alefMaksura-ar;
 
- #sub kashidaTwodotsbelow-ar by kashida-ar twodotshorizontalbelow-ar;
+  sub kashidaTwodotsbelow-ar by kashida-ar.wide twodotshorizontalbelow-ar;
 } decomposition;
 
 lookup decomposition2 {
@@ -509,7 +511,7 @@ name = ccmp;
 },
 {
 code = "sub ain-ar by ain-ar.init;
-#sub ainThreedotsbelow-ar by ain-ar.init threedotsdownbelow-ar;
+sub ain-ar.alt by ain-ar.init;
 sub alefMaksura-ar by behDotless-ar.init;
 sub behDotless-ar by behDotless-ar.init;
 sub fehDotless-ar by fehDotless-ar.init;
@@ -545,7 +547,7 @@ name = init;
 },
 {
 code = "sub ain-ar by ain-ar.medi;
-#sub ainThreedotsbelow-ar by ain-ar.medi threedotsdownbelow-ar;
+sub ain-ar.alt by ain-ar.medi;
 sub alefMaksura-ar by behDotless-ar.medi;
 sub behDotless-ar by behDotless-ar.medi;
 sub fehDotless-ar by fehDotless-ar.medi;
@@ -580,7 +582,7 @@ name = medi;
 {
 code = "sub ae-ar by heh-ar.fina;
 sub ain-ar by ain-ar.fina;
-#sub ainThreedotsbelow-ar by ain-ar.fina threedotsdowncenter-ar;
+sub ain-ar.alt by ain-ar.fina.alt;
 sub alef-ar by alef-ar.fina;
 sub alef-ar.short by alef-ar.short.fina;
 sub behDotless-ar by behDotless-ar.fina;

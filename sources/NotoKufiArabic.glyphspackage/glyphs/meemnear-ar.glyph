@@ -1,0 +1,134 @@
+{
+glyphname = "meemnear-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.near;
+position = "{119, 907}";
+},
+{
+name = top.far;
+position = "{121, 1269}";
+},
+{
+name = top.near;
+position = "{121, 1269}";
+}
+);
+components = (
+{
+name = "meemStopabove-ar";
+transform = "{1, 0, 0, 1, 119, 0}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+userData = {
+assembly = "PUSHB[ ]	/* 8 values pushed */
+15 2 25 25 20 31 9 20 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[11100]	/* MoveDirectRelPt */
+MDRP[01101]	/* MoveDirectRelPt */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MDRP[01101]	/* MoveDirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 238;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{106, 917}";
+},
+{
+name = top.far;
+position = "{108, 1269}";
+},
+{
+name = top.near;
+position = "{108, 1269}";
+}
+);
+components = (
+{
+name = "meemStopabove-ar";
+transform = "{1, 0, 0, 1, 106, 0}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+userData = {
+assembly = "PUSHB[ ]	/* 8 values pushed */
+21 8 25 25 3 31 15 3 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[11100]	/* MoveDirectRelPt */
+MDRP[01101]	/* MoveDirectRelPt */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+SHP[1]	/* ShiftPointByLastPoint */
+MDRP[01101]	/* MoveDirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 207;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{85, 912}";
+},
+{
+name = top.far;
+position = "{87, 1269}";
+},
+{
+name = top.near;
+position = "{87, 1269}";
+}
+);
+components = (
+{
+name = "meemStopabove-ar";
+transform = "{1, 0, 0, 1, 85, 0}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 177;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{128, 902}";
+},
+{
+name = top.far;
+position = "{130, 1269}";
+},
+{
+name = top.near;
+position = "{130, 1269}";
+}
+);
+components = (
+{
+name = "meemStopabove-ar";
+transform = "{1, 0, 0, 1, 129, 0}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 258;
+}
+);
+leftMetricsKey = "=0";
+note = uni06E2;
+rightMetricsKey = "=0";
+}

@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{0, -79}";
+position = "{11, -79}";
 },
 {
 name = bottom;
-position = "{-2, -405}";
+position = "{11, -305}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -93,7 +93,7 @@ position = "{0, -86}";
 },
 {
 name = bottom;
-position = "{-2, -298}";
+position = "{-2, -238}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -122,11 +122,11 @@ width = 0;
 anchors = (
 {
 name = _bottom;
-position = "{0, -94}";
+position = "{18, -94}";
 },
 {
 name = bottom;
-position = "{-2, -447}";
+position = "{18, -347}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
