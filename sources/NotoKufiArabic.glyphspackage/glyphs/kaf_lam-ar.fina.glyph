@@ -1,0 +1,58 @@
+{
+glyphname = "kaf_lam-ar.fina";
+layers = (
+{
+components = (
+{
+name = "kaf-ar.medi";
+transform = "{1, 0, 0, 1, 613, 0}";
+},
+{
+name = "lam-ar.fina";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 1205;
+},
+{
+components = (
+{
+name = "kaf-ar.medi";
+transform = "{1, 0, 0, 1, 692, 0}";
+},
+{
+name = "lam-ar.fina";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 1318;
+},
+{
+components = (
+{
+name = "kaf-ar.medi";
+transform = "{1, 0, 0, 1, 801, 0}";
+},
+{
+name = "lam-ar.fina";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 1461;
+},
+{
+components = (
+{
+name = "kaf-ar.medi";
+transform = "{1, 0, 0, 1, 874, 0}";
+},
+{
+name = "lam-ar.fina";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 1557;
+}
+);
+unicode = FC81;
+}

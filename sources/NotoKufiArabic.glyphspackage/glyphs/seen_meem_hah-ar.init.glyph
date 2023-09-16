@@ -1,0 +1,74 @@
+{
+glyphname = "seen_meem_hah-ar.init";
+layers = (
+{
+components = (
+{
+name = "seen-ar.init";
+transform = "{1, 0, 0, 1, 1099, 0}";
+},
+{
+name = "meem-ar.medi";
+transform = "{1, 0, 0, 1, 540, 0}";
+},
+{
+name = "hah-ar.medi";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 1840;
+},
+{
+components = (
+{
+name = "seen-ar.init";
+transform = "{1, 0, 0, 1, 1180, 0}";
+},
+{
+name = "meem-ar.medi";
+transform = "{1, 0, 0, 1, 574, 0}";
+},
+{
+name = "hah-ar.medi";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 2058;
+},
+{
+components = (
+{
+name = "seen-ar.init";
+transform = "{1, 0, 0, 1, 1261, 0}";
+},
+{
+name = "meem-ar.medi";
+transform = "{1, 0, 0, 1, 608, 0}";
+},
+{
+name = "hah-ar.medi";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 2265;
+},
+{
+components = (
+{
+name = "seen-ar.init";
+transform = "{1, 0, 0, 1, 1315, 0}";
+},
+{
+name = "meem-ar.medi";
+transform = "{1, 0, 0, 1, 631, 0}";
+},
+{
+name = "hah-ar.medi";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 2403;
+}
+);
+unicode = FD60;
+}
