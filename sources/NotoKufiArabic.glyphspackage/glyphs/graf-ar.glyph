@@ -1,5 +1,5 @@
 {
-glyphname = "gaf-ar";
+glyphname = "graf-ar";
 layers = (
 {
 components = (
@@ -7,33 +7,7 @@ components = (
 name = "keheh-ar";
 },
 {
-name = "gafsarkashabove-ar";
-transform = "{1, 0, 0, 1, 286, 0}";
-}
-);
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-width = 887;
-},
-{
-components = (
-{
-name = "keheh-ar";
-},
-{
-name = "gafsarkashabove-ar";
-transform = "{1, 0, 0, 1, 268, 0}";
-}
-);
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-width = 808;
-},
-{
-components = (
-{
-name = "keheh-ar";
-},
-{
-name = "gafsarkashabove-ar";
+name = "grafsarkashabove-ar";
 transform = "{1, 0, 0, 1, 238, 0}";
 }
 );
@@ -46,7 +20,33 @@ components = (
 name = "keheh-ar";
 },
 {
-name = "gafsarkashabove-ar";
+name = "grafsarkashabove-ar";
+transform = "{1, 0, 0, 1, 268, 0}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 808;
+},
+{
+components = (
+{
+name = "keheh-ar";
+},
+{
+name = "grafsarkashabove-ar";
+transform = "{1, 0, 0, 1, 286, 0}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 887;
+},
+{
+components = (
+{
+name = "keheh-ar";
+},
+{
+name = "grafsarkashabove-ar";
 transform = "{1, 0, 0, 1, 287, 0}";
 }
 );
@@ -54,6 +54,5 @@ layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 940;
 }
 );
-note = uni06AF;
-unicode = "06AF,FB92";
+unicode = 08C8;
 }

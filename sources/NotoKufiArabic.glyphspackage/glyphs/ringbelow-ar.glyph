@@ -5,17 +5,17 @@ layers = (
 anchors = (
 {
 name = _ring;
-position = "{80, 988}";
+position = "{80, -212}";
 },
 {
 name = bottom;
-position = "{80, 790}";
+position = "{80, -410}";
 }
 );
 components = (
 {
 name = "ring-ar";
-transform = "{1, 0, 0, 1, 81, 0}";
+transform = "{1, 0, 0, 1, 81, -1200}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -25,17 +25,17 @@ width = 160;
 anchors = (
 {
 name = _ring;
-position = "{109, 976}";
+position = "{109, -224}";
 },
 {
 name = bottom;
-position = "{111, 766}";
+position = "{111, -434}";
 }
 );
 components = (
 {
 name = "ring-ar";
-transform = "{1, 0, 0, 1, 110, 0}";
+transform = "{1, 0, 0, 1, 110, -1200}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -45,17 +45,17 @@ width = 221;
 anchors = (
 {
 name = _ring;
-position = "{109, 965}";
+position = "{109, -235}";
 },
 {
 name = bottom;
-position = "{111, 766}";
+position = "{111, -434}";
 }
 );
 components = (
 {
 name = "ring-ar";
-transform = "{1, 0, 0, 1, 110, 0}";
+transform = "{1, 0, 0, 1, 110, -1200}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -65,17 +65,17 @@ width = 221;
 anchors = (
 {
 name = _ring;
-position = "{109, 958}";
+position = "{109, -242}";
 },
 {
 name = bottom;
-position = "{111, 816}";
+position = "{111, -384}";
 }
 );
 components = (
 {
 name = "ring-ar";
-transform = "{1, 0, 0, 1, 110, 0}";
+transform = "{1, 0, 0, 1, 110, -1200}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

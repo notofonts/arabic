@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = _top.near;
-position = "{44, 720}";
+position = "{56, 720}";
 },
 {
 name = top.near;
-position = "{70, 844}";
+position = "{82, 844}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -17,14 +17,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"15 612 LINE",
-"100 737 OFFCURVE",
-"239 856 OFFCURVE",
-"382 908 CURVE",
-"353 985 LINE",
-"200 928 OFFCURVE",
-"34 769 OFFCURVE",
-"-12 685 CURVE"
+"27 612 LINE",
+"112 737 OFFCURVE",
+"251 856 OFFCURVE",
+"394 908 CURVE",
+"365 985 LINE",
+"212 928 OFFCURVE",
+"46 769 OFFCURVE",
+"0 685 CURVE"
 );
 }
 );
@@ -42,7 +42,7 @@ IP[ ]	/* InterpolatePts */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 382;
+width = 394;
 },
 {
 anchors = (
@@ -85,17 +85,17 @@ IP[ ]	/* InterpolatePts */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 354;
+width = 352;
 },
 {
 anchors = (
 {
 name = _top.near;
-position = "{89, 700}";
+position = "{87, 700}";
 },
 {
 name = top.near;
-position = "{59, 720}";
+position = "{57, 720}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -103,28 +103,28 @@ paths = (
 {
 closed = 1;
 nodes = (
-"14 553 LINE",
-"79 666 OFFCURVE",
-"201 782 OFFCURVE",
-"311 834 CURVE",
-"304 854 LINE",
-"189 800 OFFCURVE",
-"75 694 OFFCURVE",
-"2 572 CURVE"
+"12 553 LINE",
+"77 666 OFFCURVE",
+"199 782 OFFCURVE",
+"309 834 CURVE",
+"302 854 LINE",
+"187 800 OFFCURVE",
+"73 694 OFFCURVE",
+"0 572 CURVE"
 );
 }
 );
-width = 326;
+width = 309;
 },
 {
 anchors = (
 {
 name = _top.near;
-position = "{22, 730}";
+position = "{55, 730}";
 },
 {
 name = top.near;
-position = "{62, 914}";
+position = "{95, 914}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
@@ -132,19 +132,21 @@ paths = (
 {
 closed = 1;
 nodes = (
-"11 629 LINE",
-"99 769 OFFCURVE",
-"223 867 OFFCURVE",
-"391 935 CURVE",
-"352 1029 LINE",
-"183 961 OFFCURVE",
-"36 827 OFFCURVE",
-"-33 704 CURVE"
+"44 629 LINE",
+"132 769 OFFCURVE",
+"256 867 OFFCURVE",
+"424 935 CURVE",
+"385 1029 LINE",
+"216 961 OFFCURVE",
+"69 827 OFFCURVE",
+"0 704 CURVE"
 );
 }
 );
-width = 400.66667;
+width = 424;
 }
 );
+leftMetricsKey = "=0";
 note = diagonal;
+rightMetricsKey = "=0";
 }
