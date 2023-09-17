@@ -1,0 +1,144 @@
+{
+glyphname = "kashidaHamza-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{175, -96}";
+},
+{
+name = top.far;
+position = "{175, 369}";
+},
+{
+name = top.near;
+position = "{175, 369}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "kashida-ar.wide";
+},
+{
+alignment = -1;
+name = "kashida-ar.wide";
+transform = "{1, 0, 0, 1, 170, 0}";
+},
+{
+alignment = -1;
+name = "hamza-ar";
+transform = "{0.78252, 0.16633, -0.16633, 0.78252, -6, -75}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 341;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{192, -138}";
+},
+{
+name = top.far;
+position = "{192, 428}";
+},
+{
+name = top.near;
+position = "{192, 428}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "kashida-ar.wide";
+},
+{
+alignment = -1;
+name = "kashida-ar.wide";
+transform = "{1, 0, 0, 1, 119, 0}";
+},
+{
+alignment = -1;
+name = "hamza-ar";
+transform = "{0.78252, 0.16633, -0.16633, 0.78252, 20, -63}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 410;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{212, -128}";
+},
+{
+name = top.far;
+position = "{212, 438}";
+},
+{
+name = top.near;
+position = "{212, 438}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "kashida-ar.wide";
+},
+{
+alignment = -1;
+name = "kashida-ar.wide";
+transform = "{1, 0, 0, 1, 130, 0}";
+},
+{
+alignment = -1;
+name = "hamza-ar";
+transform = "{0.78252, 0.16633, -0.16633, 0.78252, 24, -55}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 441;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{233, -118}";
+},
+{
+name = top.far;
+position = "{233, 448}";
+},
+{
+name = top.near;
+position = "{233, 448}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "kashida-ar.wide";
+},
+{
+alignment = -1;
+name = "kashida-ar.wide";
+transform = "{1, 0, 0, 1, 110, 0}";
+},
+{
+alignment = -1;
+name = "hamza-ar";
+transform = "{0.78252, 0.16633, -0.16633, 0.78252, 44, -45}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 466;
+}
+);
+leftMetricsKey = "=-10";
+rightMetricsKey = "=-10";
+unicode = 0883;
+}
