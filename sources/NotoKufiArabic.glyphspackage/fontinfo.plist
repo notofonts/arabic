@@ -484,7 +484,7 @@ lookup decomposition {
   sub yehTwodotsbelowDotabove-ar by alefMaksura-ar twodotshorizontalbelow-ar dotabove-ar;
   sub yehTail-ar by alefMaksura-ar tail-ar;
   sub yehTwodotsbelowNoonabove-ar by alefMaksura-ar twodotshorizontalbelow-ar noonabove-ar;
- #sub yehthin-ar.init by behDotless-ar.init.thin twodotshorizontalbelow-ar.small;
+  sub yehthin-ar.init by behDotless-ar.init.thin twodotshorizontalbelow-ar.small;
 
   # Bari Ye family
   sub yehbarreeHamzaabove-ar by yehbarree-ar hamzaabove-ar;
@@ -570,7 +570,7 @@ sub sad-ar by sad-ar.medi;
 sub seen-ar by seen-ar.medi;
 sub tah-ar by tah-ar.medi;
 sub yehFarsi-ar by behDotless-ar.medi twodotshorizontalbelow-ar;
-#sub behDotless-ar.init.thin by behDotless-ar.medi.thin;
+sub behDotless-ar.init.thin by behDotless-ar.medi.thin;
 
 lookup dotcenter_below;
 ";
