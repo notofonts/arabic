@@ -2,6 +2,20 @@
 glyphname = "kashidaHamza-ar";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (185,-152);
+},
+{
+name = top.far;
+pos = (185,477);
+},
+{
+name = top.near;
+pos = (185,286);
+}
+);
 layerId = master01;
 shapes = (
 {
@@ -18,6 +32,20 @@ scale = (0.8,0.8);
 width = 400;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (185,-112);
+},
+{
+name = top.far;
+pos = (185,477);
+},
+{
+name = top.near;
+pos = (185,306);
+}
+);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
