@@ -1,0 +1,221 @@
+{
+glyphname = "rehLoop-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{175, -293}";
+},
+{
+name = top.far;
+position = "{298, 561}";
+},
+{
+name = top.near;
+position = "{298, 561}";
+}
+);
+components = (
+{
+name = "rehLoop-ar";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"513 0 LINE SMOOTH",
+"516 0 OFFCURVE",
+"518 2 OFFCURVE",
+"518 5 CURVE SMOOTH",
+"518 116 LINE SMOOTH",
+"518 119 OFFCURVE",
+"516 120 OFFCURVE",
+"513 120 CURVE SMOOTH",
+"367 120 LINE",
+"367 0 LINE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 24 values pushed */
+23 7 7 20 20 24 0 25 13 24 21 15 10 17 71 89 10 27 6 23 70 89 6 18 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+RTG[ ]	/* RoundToGrid */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+RTG[ ]	/* RoundToGrid */
+MIAP[1]	/* MoveIndirectAbsPt */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 508;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{107, -293}";
+},
+{
+name = top.far;
+position = "{233, 548}";
+},
+{
+name = top.near;
+position = "{233, 548}";
+}
+);
+components = (
+{
+name = "rehLoop-ar";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"409 0 LINE SMOOTH",
+"412 0 OFFCURVE",
+"414 2 OFFCURVE",
+"414 5 CURVE SMOOTH",
+"414 74 LINE SMOOTH",
+"414 77 OFFCURVE",
+"412 78 OFFCURVE",
+"409 78 CURVE SMOOTH",
+"269 78 LINE",
+"269 0 LINE"
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 24 values pushed */
+16 1 1 13 13 23 19 24 6 23 14 15 4 10 70 89 4 27 0 16 70 89 0 18 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+RTG[ ]	/* RoundToGrid */
+MIAP[1]	/* MoveIndirectAbsPt */
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+RTG[ ]	/* RoundToGrid */
+MIAP[1]	/* MoveIndirectAbsPt */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 404;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{80, -293}";
+},
+{
+name = top.far;
+position = "{190, 551}";
+},
+{
+name = top.near;
+position = "{190, 551}";
+}
+);
+components = (
+{
+name = "rehLoop-ar";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"329 0 LINE SMOOTH",
+"332 0 OFFCURVE",
+"334 2 OFFCURVE",
+"334 5 CURVE SMOOTH",
+"334 20 LINE SMOOTH",
+"334 23 OFFCURVE",
+"332 24 OFFCURVE",
+"329 24 CURVE SMOOTH",
+"207 24 LINE",
+"207 0 LINE"
+);
+}
+);
+width = 324;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{225, -323}";
+},
+{
+name = top.far;
+position = "{377, 570}";
+},
+{
+name = top.near;
+position = "{377, 570}";
+}
+);
+components = (
+{
+name = "rehLoop-ar";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"617 0 LINE SMOOTH",
+"621 0 OFFCURVE",
+"622 2 OFFCURVE",
+"622 5 CURVE SMOOTH",
+"622 144 LINE SMOOTH",
+"622 147 OFFCURVE",
+"621 148 OFFCURVE",
+"617 148 CURVE SMOOTH",
+"467 148 LINE",
+"467 0 LINE"
+);
+}
+);
+width = 612;
+}
+);
+leftMetricsKey = "=rehLoop-ar";
+note = uni0631.fina;
+}

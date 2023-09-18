@@ -604,7 +604,7 @@ sub noonghunna-ar by noonghunna-ar.fina;
 sub noonAfrican-ar by noonghunna-ar.fina;
 sub noonThreedotsabove-ar by noonghunna-ar.fina threedotsupabove-ar;
 sub reh-ar by reh-ar.fina;
-#sub rehLoop-ar by rehLoop-ar.fina;
+sub rehLoop-ar by rehLoop-ar.fina;
 sub sad-ar by sad-ar.fina;
 sub seen-ar by seen-ar.fina;
 sub tah-ar by tah-ar.fina;
@@ -755,8 +755,10 @@ horizontalStems = (
 iconName = Light;
 id = "410295A1-92BC-4707-ABFC-13885E60878B";
 userData = {
-GSOffsetHorizontal = 2.5;
+GSOffsetHorizontal = 12;
 GSOffsetKeepCompatible = 1;
+GSOffsetMakeStroke = 1;
+GSOffsetPosition = 0;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
@@ -836,10 +838,11 @@ horizontalStems = (
 );
 id = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 userData = {
-GSOffsetHorizontal = 1.5;
+GSOffsetHorizontal = 42;
 GSOffsetKeepCompatible = 1;
-GSOffsetProportional = 1;
-GSOffsetVertical = 15;
+GSOffsetMakeStroke = 1;
+GSOffsetPosition = 0;
+GSOffsetVertical = 39;
 };
 verticalStems = (
 78
@@ -919,10 +922,11 @@ horizontalStems = (
 iconName = SemiBold;
 id = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 userData = {
-GSOffsetHorizontal = 1.5;
+GSOffsetHorizontal = 74.5;
 GSOffsetKeepCompatible = 1;
-GSOffsetProportional = 1;
-GSOffsetVertical = 10;
+GSOffsetMakeStroke = 1;
+GSOffsetPosition = 0;
+GSOffsetVertical = 62;
 };
 verticalStems = (
 149
@@ -1004,10 +1008,11 @@ horizontalStems = (
 iconName = Bold;
 id = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 userData = {
-GSOffsetHorizontal = 1.5;
+GSOffsetHorizontal = 96;
 GSOffsetKeepCompatible = 1;
-GSOffsetProportional = 1;
-GSOffsetVertical = 10;
+GSOffsetMakeStroke = 1;
+GSOffsetPosition = 0;
+GSOffsetVertical = 87;
 };
 verticalStems = (
 189
