@@ -2,61 +2,30 @@
 glyphname = "wawTwodots-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (193,-252);
-},
-{
-name = top.far;
-pos = (246,582);
-},
-{
-name = top.near;
-pos = (246,582);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = "waw-ar";
 },
 {
-pos = (37,59);
+pos = (110,-365);
 ref = "twodotshorizontalabove-ar";
 }
 );
 width = 468;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (208,-245);
-},
-{
-name = top.far;
-pos = (270,619);
-},
-{
-name = top.near;
-pos = (270,619);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = -1;
-pos = (13,0);
 ref = "waw-ar";
 },
 {
-alignment = 1;
-pos = (78,42);
+pos = (131,-325);
 ref = "twodotshorizontalabove-ar";
 }
 );
-width = 509;
+width = 497;
 }
 );
 unicode = 1738;

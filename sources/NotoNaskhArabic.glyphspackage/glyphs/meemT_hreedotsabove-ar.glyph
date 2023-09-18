@@ -2,62 +2,26 @@
 glyphname = "meemThreedotsabove-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (294,-100);
-},
-{
-name = bottom.dot;
-pos = (293,-31);
-},
-{
-name = top.far;
-pos = (234,617);
-},
-{
-name = top.near;
-pos = (234,617);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = "meem-ar";
 },
 {
-pos = (18,74);
+pos = (109,-350);
 ref = "threedotsupabove-ar";
 }
 );
 width = 489;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (298,-110);
-},
-{
-name = bottom.dot;
-pos = (298,-38);
-},
-{
-name = top.far;
-pos = (223,662);
-},
-{
-name = top.near;
-pos = (223,662);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
 ref = "meem-ar";
 },
 {
-pos = (25,54);
+pos = (94,-312);
 ref = "threedotsupabove-ar";
 }
 );

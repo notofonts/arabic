@@ -2,76 +2,34 @@
 glyphname = "ngoeh-ar.init";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (198,-100);
-},
-{
-name = bottom.dot;
-pos = (197,-31);
-},
-{
-name = top.far;
-pos = (80,778);
-},
-{
-name = top.near;
-pos = (80,778);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = "kaf-ar.init";
 },
 {
-alignment = -1;
-pos = (171,-82);
-ref = "sarkash-ar";
+pos = (-28,-236);
+ref = "gafsarkashabove-ar";
 },
 {
-alignment = -1;
-pos = (83,19);
+pos = (-6,-114);
 ref = "twodotshorizontalabove-ar.diagonal";
 }
 );
 width = 415;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (214,-110);
-},
-{
-name = bottom.dot;
-pos = (212,-38);
-},
-{
-name = top.far;
-pos = (105,814);
-},
-{
-name = top.near;
-pos = (105,814);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = -1;
 ref = "kaf-ar.init";
 },
 {
-alignment = -1;
-pos = (236,0);
-ref = "sarkash-ar";
+pos = (29,-180);
+ref = "gafsarkashabove-ar";
 },
 {
-alignment = -1;
-pos = (25,-28);
+pos = (13,-70);
 ref = "twodotshorizontalabove-ar.diagonal";
 }
 );

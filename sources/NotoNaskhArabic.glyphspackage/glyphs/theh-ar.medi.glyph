@@ -2,62 +2,26 @@
 glyphname = "theh-ar.medi";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (190,-100);
-},
-{
-name = bottom.dot;
-pos = (190,-31);
-},
-{
-name = top.far;
-pos = (196,523);
-},
-{
-name = top.near;
-pos = (196,523);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "behDotless-ar.wide";
+ref = "behDotless-ar.medi.wide";
 },
 {
-pos = (-20,-20);
+pos = (71,-444);
 ref = "threedotsupabove-ar";
 }
 );
 width = 360;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (200,-110);
-},
-{
-name = bottom.dot;
-pos = (198,-38);
-},
-{
-name = top.far;
-pos = (188,570);
-},
-{
-name = top.near;
-pos = (188,570);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-ref = "behDotless-ar.wide";
+ref = "behDotless-ar.medi.wide";
 },
 {
-pos = (-10,-38);
+pos = (59,-404);
 ref = "threedotsupabove-ar";
 }
 );

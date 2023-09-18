@@ -1,0 +1,37 @@
+{
+glyphname = "hamzaattachedright-ar";
+layers = (
+{
+anchors = (
+{
+name = _stroke.right;
+pos = (20,358);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (0,-490);
+ref = "hamzaabove-ar";
+}
+);
+width = 128;
+},
+{
+anchors = (
+{
+name = _stroke.right;
+pos = (20,339);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+pos = (0,-490);
+ref = "hamzaabove-ar";
+}
+);
+width = 129;
+}
+);
+}

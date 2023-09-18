@@ -1,0 +1,82 @@
+{
+glyphname = "alefMokhassas-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.far;
+pos = (161,748);
+},
+{
+name = top.far;
+pos = (161,973);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "alefabove-ar";
+},
+{
+alignment = -1;
+pos = (142,129);
+ref = "fatha-ar";
+},
+{
+closed = 1;
+nodes = (
+(83,902,o),
+(37,853,o),
+(20,750,c),
+(26,748,l),
+(74,825,o),
+(109,864,o),
+(168,885,c),
+(159,924,l)
+);
+}
+);
+width = 324;
+},
+{
+anchors = (
+{
+name = _top.far;
+pos = (161,738);
+},
+{
+name = top.far;
+pos = (161,963);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "alefabove-ar";
+},
+{
+alignment = -1;
+pos = (142,114);
+ref = "fatha-ar";
+},
+{
+closed = 1;
+nodes = (
+(71,875,o),
+(41,842,o),
+(24,739,c),
+(30,738,l),
+(85,815,o),
+(124,846,o),
+(183,867,c),
+(156,905,l)
+);
+}
+);
+width = 330;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+unicode = 2205;
+}

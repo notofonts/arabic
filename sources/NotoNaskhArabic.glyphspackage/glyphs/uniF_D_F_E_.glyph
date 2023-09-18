@@ -1,0 +1,182 @@
+{
+glyphname = uniFDFE;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (1031,0);
+ref = "seen-ar.init";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (870,0);
+ref = "beh-ar.medi";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (501,0);
+ref = "hah-ar.medi";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (359,0);
+ref = "alef-ar.fina";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (262,0);
+ref = "behDotless-ar.init";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (242,-234);
+ref = "dotabove-ar";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (12,0);
+ref = "heh-ar.fina";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (968,296);
+ref = "waw-ar";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (824,365);
+ref = "teh-ar.init";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (597,365);
+ref = "ain-ar.medi";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (457,365);
+ref = "alef-ar.fina";
+scale = (0.55,0.55);
+},
+{
+pos = (241,0);
+ref = la.1;
+},
+{
+alignment = -1;
+pos = (1057,123);
+ref = "fatha-ar";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (-238,-117);
+ref = fatha.1;
+}
+);
+width = 1414;
+},
+{
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+pos = (1042,0);
+ref = "seen-ar.init";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (881,0);
+ref = "beh-ar.medi";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (524,0);
+ref = "hah-ar.medi";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (371,0);
+ref = "alef-ar.fina";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (262,0);
+ref = "behDotless-ar.init";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (242,-234);
+ref = "dotabove-ar";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (12,0);
+ref = "heh-ar.fina";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (1003,295);
+ref = "waw-ar";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (849,382);
+ref = "teh-ar.init";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (602,382);
+ref = "ain-ar.medi";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (444,382);
+ref = "alef-ar.fina";
+scale = (0.55,0.55);
+},
+{
+pos = (228,10);
+ref = la.1;
+},
+{
+alignment = -1;
+pos = (1075,95);
+ref = "fatha-ar";
+scale = (0.55,0.55);
+},
+{
+alignment = -1;
+pos = (-251,-107);
+ref = fatha.1;
+}
+);
+width = 1448;
+}
+);
+metricLeft = "=49";
+metricRight = "=49";
+unicode = 65022;
+}

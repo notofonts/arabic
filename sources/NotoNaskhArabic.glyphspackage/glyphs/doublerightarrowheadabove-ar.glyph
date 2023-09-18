@@ -4,63 +4,56 @@ layers = (
 {
 anchors = (
 {
-name = _top;
-pos = (-47,436);
+name = _top.far;
+pos = (148,748);
 },
 {
 name = top.far;
-pos = (77,627);
-},
-{
-name = top.near;
-pos = (77,627);
+pos = (148,948);
 }
 );
 layerId = master01;
 shapes = (
 {
 alignment = -1;
-pos = (-47,0);
+pos = (0,30);
 ref = "rightarrowheadabove-ar";
 },
 {
 alignment = -1;
-pos = (77,-16);
+pos = (133,0);
 ref = "rightarrowheadabove-ar";
 }
 );
-width = 0;
+width = 297;
 },
 {
 anchors = (
 {
-name = _top;
-pos = (-47,444);
+name = _top.far;
+pos = (138,738);
 },
 {
 name = top.far;
-pos = (77,636);
-},
-{
-name = top.near;
-pos = (77,636);
+pos = (138,938);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = -1;
-pos = (-47,0);
+pos = (0,20);
 ref = "rightarrowheadabove-ar";
 },
 {
 alignment = -1;
-pos = (77,-16);
+pos = (121,0);
 ref = "rightarrowheadabove-ar";
 }
 );
-width = 0;
+width = 291;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
 unicode = 2299;
 }

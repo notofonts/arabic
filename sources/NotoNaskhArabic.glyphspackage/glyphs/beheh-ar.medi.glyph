@@ -2,63 +2,26 @@
 glyphname = "beheh-ar.medi";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (203,-273);
-},
-{
-name = bottom.dot;
-pos = (190,-31);
-},
-{
-name = top.far;
-pos = (199,398);
-},
-{
-name = top.near;
-pos = (199,267);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "behDotless-ar.wide";
+ref = "behDotless-ar.medi.wide";
 },
 {
-pos = (17,15);
+pos = (95,-8);
 ref = "fourdotsbelow-ar";
 }
 );
 width = 360;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (225,-294);
-},
-{
-name = bottom.dot;
-pos = (198,-38);
-},
-{
-name = top.far;
-pos = (194,464);
-},
-{
-name = top.near;
-pos = (195,303);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-ref = "behDotless-ar.wide";
+ref = "behDotless-ar.medi.wide";
 },
 {
-alignment = 1;
-pos = (7,10);
+pos = (94,-4);
 ref = "fourdotsbelow-ar";
 }
 );

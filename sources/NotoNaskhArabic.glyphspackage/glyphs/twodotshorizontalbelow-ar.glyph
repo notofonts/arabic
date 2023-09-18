@@ -5,40 +5,43 @@ layers = (
 anchors = (
 {
 name = _bottom.dot;
-pos = (182,-28);
+pos = (136,-14);
 },
 {
 name = bottom;
-pos = (183,-226);
+pos = (137,-212);
 }
 );
 layerId = master01;
 shapes = (
 {
-ref = "_twodotshorizontalbelow-ar";
+pos = (0,-928);
+ref = "twodotshorizontalabove-ar";
 }
 );
-width = 425;
+width = 277;
 },
 {
 anchors = (
 {
 name = _bottom.dot;
-pos = (182,-48);
+pos = (143,-11);
 },
 {
 name = bottom;
-pos = (183,-246);
+pos = (144,-209);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-ref = "_twodotshorizontalbelow-ar";
+pos = (0,-918);
+ref = "twodotshorizontalabove-ar";
 }
 );
-width = 425;
+width = 264;
 }
 );
-unicode = 64437;
+metricLeft = "=0";
+metricRight = "=0";
 }

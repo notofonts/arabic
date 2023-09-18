@@ -2,62 +2,26 @@
 glyphname = "sheen-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (722,-100);
-},
-{
-name = bottom.dot;
-pos = (722,-31);
-},
-{
-name = top.far;
-pos = (716,531);
-},
-{
-name = top.near;
-pos = (716,531);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = "seen-ar";
 },
 {
-pos = (500,-12);
+pos = (591,-436);
 ref = "threedotsupabove-ar";
 }
 );
 width = 1013;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (742,-110);
-},
-{
-name = bottom.dot;
-pos = (742,-38);
-},
-{
-name = top.far;
-pos = (728,604);
-},
-{
-name = top.near;
-pos = (728,604);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
 ref = "seen-ar";
 },
 {
-pos = (530,-4);
+pos = (599,-370);
 ref = "threedotsupabove-ar";
 }
 );

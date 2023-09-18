@@ -8,8 +8,20 @@ name = bottom;
 pos = (166,-100);
 },
 {
+name = stroke;
+pos = (242,222);
+},
+{
+name = stroke.right;
+pos = (222,368);
+},
+{
+name = top.digit;
+pos = (64,572);
+},
+{
 name = top.far;
-pos = (89,563);
+pos = (89,566);
 },
 {
 name = top.near;
@@ -47,13 +59,25 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 300;
 },
 {
 anchors = (
 {
 name = bottom;
 pos = (166,-110);
+},
+{
+name = stroke;
+pos = (237,233);
+},
+{
+name = stroke.right;
+pos = (246,384);
+},
+{
+name = top.digit;
+pos = (64,572);
 },
 {
 name = top.far;
@@ -95,6 +119,61 @@ nodes = (
 );
 }
 );
+width = 300;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (166,-110);
+},
+{
+name = top.digit;
+pos = (64,572);
+},
+{
+name = top.far;
+pos = (89,565);
+},
+{
+name = top.near;
+pos = (89,565);
+}
+);
+associatedMasterId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+layerId = "92CE8B04-76EB-40B1-966E-AE45F0570C00";
+name = "24 Jul 23 at 01:17";
+shapes = (
+{
+closed = 1;
+nodes = (
+(354,125,l),
+(337,179,o),
+(315,237,o),
+(297,279,cs),
+(275,327,o),
+(246,383,o),
+(212,433,cs),
+(179,484,o),
+(140,529,o),
+(99,556,c),
+(56,543,o),
+(34,523,o),
+(34,480,cs),
+(34,441,o),
+(53,416,o),
+(79,389,c),
+(116,389,l),
+(156,351,o),
+(193,309,o),
+(226,262,cs),
+(259,215,o),
+(288,163,o),
+(314,102,c)
+);
+}
+);
+visible = 1;
 width = 0;
 }
 );

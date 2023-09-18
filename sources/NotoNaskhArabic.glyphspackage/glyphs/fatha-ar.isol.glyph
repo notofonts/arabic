@@ -2,20 +2,6 @@
 glyphname = "fatha-ar.isol";
 layers = (
 {
-anchors = (
-{
-name = _top;
-pos = (110,447);
-},
-{
-name = top.far;
-pos = (97,581);
-},
-{
-name = top.near;
-pos = (97,581);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -23,32 +9,19 @@ pos = (20,5);
 ref = "fatha-ar";
 }
 );
-width = 195;
+width = 221;
 },
 {
-anchors = (
-{
-name = _top;
-pos = (110,455);
-},
-{
-name = top.far;
-pos = (97,589);
-},
-{
-name = top.near;
-pos = (97,589);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-pos = (20,5);
+pos = (17,5);
 ref = "fatha-ar";
 }
 );
-width = 195;
+width = 221;
 }
 );
+metricWidth = "=space";
 unicode = 65142;
 }

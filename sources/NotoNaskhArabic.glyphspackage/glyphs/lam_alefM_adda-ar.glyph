@@ -1,33 +1,19 @@
 {
-category = Letter;
 glyphname = "lam_alefMadda-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (152,-100);
-},
-{
-name = top.far;
-pos = (95,688);
-},
-{
-name = top.near;
-pos = (95,688);
-},
-{
-name = top_two;
-pos = (96,696);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "lam_alef-ar";
+pos = (300,0);
+ref = "lam-ar.init.rlig";
 },
 {
-pos = (-3,70);
+ref = "alef-ar.fina.rlig";
+},
+{
+anchor = top.far;
+pos = (-71,-138);
 ref = "madda-ar";
 }
 );
@@ -45,31 +31,18 @@ y = 0;
 width = 518;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (152,-110);
-},
-{
-name = top.far;
-pos = (95,718);
-},
-{
-name = top.near;
-pos = (95,718);
-},
-{
-name = top_two;
-pos = (96,723);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-ref = "lam_alef-ar";
+pos = (300,0);
+ref = "lam-ar.init.rlig";
 },
 {
-pos = (-3,91);
+ref = "alef-ar.fina.rlig";
+},
+{
+anchor = top.far;
+pos = (-74,-107);
 ref = "madda-ar";
 }
 );
@@ -87,6 +60,5 @@ y = 0;
 width = 546;
 }
 );
-subCategory = Other;
 unicode = 65269;
 }

@@ -1,0 +1,40 @@
+{
+glyphname = "rounddotbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (73,-37);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (0,-932);
+ref = "rounddotabove-ar";
+}
+);
+width = 146;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (78,-33);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+pos = (0,-927);
+ref = "rounddotabove-ar";
+}
+);
+width = 155;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+unicode = 1628;
+}

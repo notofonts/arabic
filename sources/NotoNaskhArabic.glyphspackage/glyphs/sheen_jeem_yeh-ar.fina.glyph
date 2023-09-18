@@ -2,70 +2,40 @@
 glyphname = "sheen_jeem_yeh-ar.fina";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (295,-466);
-},
-{
-name = bottom.dot;
-pos = (294,-268);
-},
-{
-name = top.far;
-pos = (324,234);
-},
-{
-name = top.near;
-pos = (148,74);
-}
-);
 layerId = master01;
 shapes = (
 {
+alignment = 1;
 pos = (1353,0);
 ref = "sheen-ar.medi";
 },
 {
+alignment = 1;
 pos = (687,0);
 ref = "jeem-ar.medi";
 },
 {
+alignment = 1;
 ref = "yeh-ar.fina";
 }
 );
 width = 2016;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (309,-454);
-},
-{
-name = bottom.dot;
-pos = (308,-256);
-},
-{
-name = top.far;
-pos = (325,278);
-},
-{
-name = top.near;
-pos = (148,104);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
+alignment = 1;
 pos = (1347,0);
 ref = "sheen-ar.medi";
 },
 {
+alignment = 1;
 pos = (690,0);
 ref = "jeem-ar.medi";
 },
 {
+alignment = 1;
 ref = "yeh-ar.fina";
 }
 );

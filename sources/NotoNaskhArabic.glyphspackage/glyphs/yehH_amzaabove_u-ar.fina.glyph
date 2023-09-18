@@ -2,62 +2,30 @@
 glyphname = "yehHamzaabove_u-ar.fina";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (193,-252);
-},
-{
-name = bottom.dot;
-pos = (628,-31);
-},
-{
-name = top.far;
-pos = (245,582);
-},
-{
-name = top.near;
-pos = (256,346);
-}
-);
 layerId = master01;
 shapes = (
 {
+alignment = 1;
 pos = (468,0);
 ref = "yehHamzaabove-ar.medi";
 },
 {
+alignment = 1;
 ref = "u-ar.fina";
 }
 );
 width = 760;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (195,-245);
-},
-{
-name = bottom.dot;
-pos = (656,-38);
-},
-{
-name = top.far;
-pos = (264,625);
-},
-{
-name = top.near;
-pos = (269,399);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
+alignment = 1;
 pos = (488,0);
 ref = "yehHamzaabove-ar.medi";
 },
 {
+alignment = 1;
 ref = "u-ar.fina";
 }
 );

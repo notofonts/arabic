@@ -1,0 +1,32 @@
+{
+glyphname = "wawThreeabove-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "waw-ar";
+},
+{
+pos = (-1,-532);
+ref = "threeabove-ar";
+}
+);
+width = 468;
+},
+{
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "waw-ar";
+},
+{
+pos = (-10,-491);
+ref = "threeabove-ar";
+}
+);
+width = 497;
+}
+);
+unicode = 1913;
+}

@@ -1,0 +1,40 @@
+{
+glyphname = "yehTwodotsbelowNoonabove-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "alefMaksura-ar";
+},
+{
+pos = (138,-254);
+ref = "twodotshorizontalbelow-ar";
+},
+{
+pos = (60,-610);
+ref = "noonabove-ar";
+}
+);
+width = 618;
+},
+{
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "alefMaksura-ar";
+},
+{
+pos = (145,-245);
+ref = "twodotshorizontalbelow-ar";
+},
+{
+pos = (60,-580);
+ref = "noonabove-ar";
+}
+);
+width = 636;
+}
+);
+unicode = 2234;
+}

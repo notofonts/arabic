@@ -1,0 +1,90 @@
+{
+glyphname = "imaala-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (306,-45);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (522,-300);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (348,-300);
+ref = "meem-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (252,-300);
+ref = "alef-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (172,-300);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,-300);
+ref = "tehMarbuta-ar.fina";
+scale = (0.38,0.38);
+}
+);
+width = 612;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (329,-45);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+pos = (549,-300);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (369,-300);
+ref = "meem-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (260,-300);
+ref = "alef-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (177,-300);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,-300);
+ref = "tehMarbuta-ar.fina";
+scale = (0.38,0.38);
+}
+);
+width = 657;
+}
+);
+unicode = 2202;
+}

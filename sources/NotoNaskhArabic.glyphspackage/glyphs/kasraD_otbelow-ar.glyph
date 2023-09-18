@@ -2,37 +2,57 @@
 glyphname = "kasraDotbelow-ar";
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+pos = (91,-38);
+},
+{
+name = bottom;
+pos = (91,-201);
+}
+);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
-pos = (0,-659);
-ref = _fatha.small;
+alignment = 1;
+ref = "kasra-ar";
 },
 {
 alignment = -1;
-pos = (28,-830);
+pos = (67,-737);
 ref = _1037;
 }
 );
-width = 0;
+width = 182;
 },
 {
+anchors = (
+{
+name = _bottom;
+pos = (94,-36);
+},
+{
+name = bottom;
+pos = (94,-218);
+}
+);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = -1;
-pos = (0,-659);
-ref = _fatha.small;
+alignment = 1;
+ref = "kasra-ar";
 },
 {
 alignment = -1;
-pos = (28,-830);
+pos = (65,-763);
 ref = _1037;
 }
 );
-width = 0;
+width = 188;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
 unicode = 2294;
 }

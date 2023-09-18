@@ -2,45 +2,26 @@
 glyphname = "fathatan-ar.isol";
 layers = (
 {
-anchors = (
-{
-name = _top;
-pos = (108,460);
-},
-{
-name = top3;
-pos = (86,652);
-}
-);
 layerId = master01;
 shapes = (
 {
-pos = (23,10);
+pos = (14,0);
 ref = "fathatan-ar";
 }
 );
-width = 195;
+width = 221;
 },
 {
-anchors = (
-{
-name = _top;
-pos = (108,469);
-},
-{
-name = top3;
-pos = (86,660);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-pos = (23,10);
+pos = (10,0);
 ref = "fathatan-ar";
 }
 );
-width = 195;
+width = 221;
 }
 );
+metricWidth = "=space";
 unicode = 65136;
 }

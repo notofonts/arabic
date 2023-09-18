@@ -2,16 +2,6 @@
 glyphname = "kasra-ar.isol";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-pos = (98,-6);
-},
-{
-name = bottom;
-pos = (106,-109);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -19,19 +9,9 @@ pos = (20,0);
 ref = "kasra-ar";
 }
 );
-width = 195;
+width = 221;
 },
 {
-anchors = (
-{
-name = _bottom;
-pos = (101,3);
-},
-{
-name = bottom;
-pos = (106,-99);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
@@ -39,8 +19,9 @@ pos = (20,0);
 ref = "kasra-ar";
 }
 );
-width = 195;
+width = 221;
 }
 );
+metricWidth = "=space";
 unicode = 65146;
 }

@@ -1,0 +1,45 @@
+{
+glyphname = "disputedendofayah-ar.3";
+layers = (
+{
+anchors = (
+{
+name = digits;
+},
+{
+name = stop;
+pos = (427,1016);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (199,0);
+ref = "disputedendofayah-ar";
+}
+);
+width = 853;
+},
+{
+anchors = (
+{
+name = digits;
+},
+{
+name = stop;
+pos = (470,1069);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+pos = (230,0);
+ref = "disputedendofayah-ar";
+}
+);
+width = 940;
+}
+);
+}

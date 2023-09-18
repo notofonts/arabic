@@ -2,67 +2,27 @@
 glyphname = "lamVabove-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (268,-328);
-},
-{
-name = bottom.dot;
-pos = (268,-273);
-},
-{
-name = top.far;
-pos = (421,918);
-},
-{
-name = top.near;
-pos = (434,669);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = "lam-ar";
 },
 {
-alignment = -1;
-pos = (296,421);
-ref = "smallvabove-ar";
+pos = (323,-39);
+ref = "vabove-ar";
 }
 );
 width = 595;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (268,-311);
-},
-{
-name = bottom.dot;
-pos = (268,-256);
-},
-{
-name = top.far;
-pos = (417,917);
-},
-{
-name = top.near;
-pos = (432,912);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = -1;
 ref = "lam-ar";
 },
 {
-alignment = -1;
-pos = (292,402);
-ref = "smallvabove-ar";
+pos = (319,-24);
+ref = "vabove-ar";
 }
 );
 width = 612;

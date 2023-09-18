@@ -5,42 +5,44 @@ layers = (
 anchors = (
 {
 name = _bottom;
-pos = (1,-56);
+pos = (65,-37);
 },
 {
 name = bottom;
-pos = (6,-250);
+pos = (60,-244);
 }
 );
 layerId = master01;
 shapes = (
 {
-pos = (0,-671);
+pos = (0,-960);
 ref = "leftarrowheadabove-ar";
 }
 );
-width = 0;
+width = 136;
 },
 {
 anchors = (
 {
 name = _bottom;
-pos = (1,-63);
+pos = (70,-33);
 },
 {
 name = bottom;
-pos = (6,-257);
+pos = (62,-228);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-pos = (0,-685);
+pos = (0,-954);
 ref = "leftarrowheadabove-ar";
 }
 );
-width = 0;
+width = 141;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
 unicode = 2297;
 }

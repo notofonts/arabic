@@ -2,62 +2,26 @@
 glyphname = "peheh-ar.init";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (211,-100);
-},
-{
-name = bottom.dot;
-pos = (211,-31);
-},
-{
-name = top.far;
-pos = (175,665);
-},
-{
-name = top.near;
-pos = (175,665);
-}
-);
 layerId = master01;
 shapes = (
 {
-ref = "qafDotless-ar.init";
+ref = "fehDotless-ar.init";
 },
 {
-pos = (2,205);
+pos = (80,-242);
 ref = "fourdotsabove-ar";
 }
 );
 width = 420;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (222,-110);
-},
-{
-name = bottom.dot;
-pos = (224,-38);
-},
-{
-name = top.far;
-pos = (195,728);
-},
-{
-name = top.near;
-pos = (195,728);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-ref = "qafDotless-ar.init";
+ref = "fehDotless-ar.init";
 },
 {
-pos = (10,78);
+pos = (95,-237);
 ref = "fourdotsabove-ar";
 }
 );

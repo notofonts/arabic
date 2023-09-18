@@ -1,30 +1,18 @@
 {
-category = Letter;
 glyphname = "lam_alefHamzabelow-ar.fina";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (204,-238);
-},
-{
-name = top.far;
-pos = (80,580);
-},
-{
-name = top.near;
-pos = (89,580);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
-ref = "lam_alef-ar.fina";
+pos = (300,0);
+ref = "lam-ar.medi.rlig";
 },
 {
-pos = (112,-97);
+ref = "alef-ar.fina.rlig.2";
+},
+{
+pos = (107,-38);
 ref = "hamzabelow-ar";
 }
 );
@@ -42,27 +30,17 @@ y = 0;
 width = 610;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (201,-235);
-},
-{
-name = top.far;
-pos = (94,578);
-},
-{
-name = top.near;
-pos = (89,580);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-ref = "lam_alef-ar.fina";
+pos = (300,0);
+ref = "lam-ar.medi.rlig";
 },
 {
-pos = (112,-106);
+ref = "alef-ar.fina.rlig.2";
+},
+{
+pos = (109,-59);
 ref = "hamzabelow-ar";
 }
 );
@@ -80,6 +58,5 @@ y = 0;
 width = 631;
 }
 );
-subCategory = Other;
 unicode = 65274;
 }

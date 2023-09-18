@@ -1,0 +1,90 @@
+{
+glyphname = "tasheel-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (432,-45);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (758,-300);
+ref = "teh-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (506,-300);
+ref = "seen-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (361,-300);
+ref = "heh-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (225,-300);
+ref = "yeh-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,-300);
+ref = "lam-ar.fina";
+scale = (0.38,0.38);
+}
+);
+width = 863;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (446,-45);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+pos = (787,-300);
+ref = "teh-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (522,-300);
+ref = "seen-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (371,-300);
+ref = "heh-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (234,-300);
+ref = "yeh-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,-300);
+ref = "lam-ar.fina";
+scale = (0.38,0.38);
+}
+);
+width = 891;
+}
+);
+unicode = 2203;
+}

@@ -2,70 +2,34 @@
 glyphname = "behTwodotsbelowDotabove-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (379,-229);
-},
-{
-name = bottom.dot;
-pos = (378,-31);
-},
-{
-name = top.far;
-pos = (362,513);
-},
-{
-name = top.near;
-pos = (362,513);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = "behDotless-ar";
 },
 {
-pos = (196,-3);
+pos = (242,-17);
 ref = "twodotshorizontalbelow-ar";
 },
 {
-pos = (162,9);
+pos = (291,-418);
 ref = "dotabove-ar";
 }
 );
 width = 772;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (379,-236);
-},
-{
-name = bottom.dot;
-pos = (378,-38);
-},
-{
-name = top.far;
-pos = (362,553);
-},
-{
-name = top.near;
-pos = (362,553);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
 ref = "behDotless-ar";
 },
 {
-pos = (196,10);
+pos = (235,-27);
 ref = "twodotshorizontalbelow-ar";
 },
 {
-pos = (162,5);
+pos = (286,-377);
 ref = "dotabove-ar";
 }
 );

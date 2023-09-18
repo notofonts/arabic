@@ -2,64 +2,26 @@
 glyphname = "tteh-ar.fina";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (408,-100);
-},
-{
-name = bottom.dot;
-pos = (408,-31);
-},
-{
-name = top.far;
-pos = (392,553);
-},
-{
-name = top.near;
-pos = (375,277);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = "behDotless-ar.fina";
 },
 {
-pos = (216,-416);
+pos = (269,-419);
 ref = "tahabove-ar";
 }
 );
 width = 817;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (408,-110);
-},
-{
-name = bottom.dot;
-pos = (408,-38);
-},
-{
-name = top.far;
-pos = (389,573);
-},
-{
-name = top.near;
-pos = (385,307);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = -1;
 ref = "behDotless-ar.fina";
 },
 {
-pos = (212,-396);
+pos = (266,-392);
 ref = "tahabove-ar";
 }
 );

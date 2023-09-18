@@ -8,8 +8,20 @@ name = bottom;
 pos = (127,-70);
 },
 {
+name = bottom.attached;
+pos = (127,4);
+},
+{
 name = bottom.dot;
 pos = (127,-75);
+},
+{
+name = stroke;
+pos = (128,353);
+},
+{
+name = stroke.right;
+pos = (157,353);
 },
 {
 name = top.far;
@@ -51,8 +63,20 @@ name = bottom;
 pos = (151,-90);
 },
 {
+name = bottom.attached;
+pos = (150,13);
+},
+{
 name = bottom.dot;
 pos = (151,-81);
+},
+{
+name = stroke;
+pos = (147,343);
+},
+{
+name = stroke.right;
+pos = (192,343);
 },
 {
 name = top.far;

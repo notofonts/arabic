@@ -2,77 +2,35 @@
 glyphname = "tehRing-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (374,-120);
-},
-{
-name = bottom.dot;
-pos = (378,-31);
-},
-{
-name = top.far;
-pos = (355,513);
-},
-{
-name = top.near;
-pos = (355,513);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = "behDotless-ar";
 },
 {
-alignment = -1;
-pos = (289,-533);
-ref = "ring-ar";
+pos = (219,-434);
+ref = "twodotshorizontalabove-ar";
 },
 {
-alignment = 1;
-pos = (146,-10);
-ref = "twodotshorizontalabove-ar";
+pos = (316,-538);
+ref = "ringbelow-ar";
 }
 );
 width = 772;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (373,-132);
-},
-{
-name = bottom.dot;
-pos = (378,-38);
-},
-{
-name = top.far;
-pos = (353,547);
-},
-{
-name = top.near;
-pos = (353,547);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = -1;
 ref = "behDotless-ar";
 },
 {
-alignment = -1;
-pos = (256,-550);
-ref = "ring-ar";
+pos = (227,-397);
+ref = "twodotshorizontalabove-ar";
 },
 {
-alignment = 1;
-pos = (161,-30);
-ref = "twodotshorizontalabove-ar";
+pos = (311,-558);
+ref = "ringbelow-ar";
 }
 );
 width = 806;

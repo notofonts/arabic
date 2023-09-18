@@ -1,0 +1,114 @@
+{
+glyphname = "aththalathaabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _stop;
+pos = (349.5,1030);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (609,1050);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (528,1050);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (391,1050);
+ref = "theh-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (298,1050);
+ref = "lam-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (162,1050);
+ref = "theh-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1050);
+ref = "hehgoal-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (34,870);
+ref = "twodotshorizontalabove-ar";
+scale = (0.38,0.38);
+}
+);
+width = 699;
+},
+{
+anchors = (
+{
+name = _stop;
+pos = (360.5,1030);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+alignment = -1;
+pos = (613,1040);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (530,1040);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (394,1040);
+ref = "theh-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (301,1040);
+ref = "lam-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (164,1040);
+ref = "theh-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1040);
+ref = "hehgoal-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (38,877);
+ref = "twodotshorizontalabove-ar";
+scale = (0.38,0.38);
+}
+);
+width = 721;
+}
+);
+unicode = 2266;
+}

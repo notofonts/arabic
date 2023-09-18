@@ -2,62 +2,26 @@
 glyphname = "tcheheh-ar.medi";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (366,-250);
-},
-{
-name = bottom.dot;
-pos = (353,-8);
-},
-{
-name = top.far;
-pos = (299,576);
-},
-{
-name = top.near;
-pos = (298,365);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = "hah-ar.medi";
 },
 {
-pos = (180,38);
+pos = (258,15);
 ref = "fourdotsbelow-ar";
 }
 );
 width = 666;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (370,-244);
-},
-{
-name = bottom.dot;
-pos = (343,12);
-},
-{
-name = top.far;
-pos = (299,596);
-},
-{
-name = top.near;
-pos = (298,395);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
 ref = "hah-ar.medi";
 },
 {
-pos = (152,60);
+pos = (239,46);
 ref = "fourdotsbelow-ar";
 }
 );

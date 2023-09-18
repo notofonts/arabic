@@ -2,62 +2,26 @@
 glyphname = "behThreedotsupbelow-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (388,-282);
-},
-{
-name = bottom.dot;
-pos = (378,-31);
-},
-{
-name = top.far;
-pos = (365,468);
-},
-{
-name = top.near;
-pos = (365,277);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = "behDotless-ar";
 },
 {
-pos = (165,-3);
+pos = (250,-19);
 ref = "threedotsupbelow-ar";
 }
 );
 width = 772;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (390,-286);
-},
-{
-name = bottom.dot;
-pos = (378,-38);
-},
-{
-name = top.far;
-pos = (365,498);
-},
-{
-name = top.near;
-pos = (365,307);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
 ref = "behDotless-ar";
 },
 {
-pos = (156,-10);
+pos = (240,-20);
 ref = "threedotsupbelow-ar";
 }
 );

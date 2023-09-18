@@ -12,12 +12,16 @@ name = bottom.dot;
 pos = (197,-31);
 },
 {
+name = ring;
+pos = (281,483);
+},
+{
 name = top.far;
-pos = (110,577);
+pos = (164,626);
 },
 {
 name = top.near;
-pos = (110,577);
+pos = (82,575);
 }
 );
 layerId = master01;
@@ -106,12 +110,16 @@ name = bottom.dot;
 pos = (212,-38);
 },
 {
+name = ring;
+pos = (328,484);
+},
+{
 name = top.far;
-pos = (110,614);
+pos = (186,658);
 },
 {
 name = top.near;
-pos = (110,614);
+pos = (82,605);
 }
 );
 background = {

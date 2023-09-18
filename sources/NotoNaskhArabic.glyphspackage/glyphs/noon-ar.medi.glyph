@@ -2,62 +2,26 @@
 glyphname = "noon-ar.medi";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (160,-100);
-},
-{
-name = bottom.dot;
-pos = (160,-31);
-},
-{
-name = top.far;
-pos = (156,503);
-},
-{
-name = top.near;
-pos = (156,503);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = "behDotless-ar.medi";
 },
 {
-pos = (-44,-1);
+pos = (85,-428);
 ref = "dotabove-ar";
 }
 );
 width = 292;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (170,-110);
-},
-{
-name = bottom.dot;
-pos = (168,-38);
-},
-{
-name = top.far;
-pos = (150,549);
-},
-{
-name = top.near;
-pos = (150,549);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
 ref = "behDotless-ar.medi";
 },
 {
-pos = (-50,1);
+pos = (74,-381);
 ref = "dotabove-ar";
 }
 );

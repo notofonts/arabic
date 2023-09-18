@@ -2,22 +2,16 @@
 glyphname = "fourthroot-ar";
 layers = (
 {
-background = {
-shapes = (
-{
-ref = _980;
-}
-);
-};
 layerId = master01;
 shapes = (
 {
-ref = "radical-ar";
+alignment = 1;
+ref = radical.rtlm;
 },
 {
-pos = (209,400);
-ref = "four-ar.ccmp";
-scale = (0.5,0.5);
+pos = (159,400);
+ref = "four-ar.medium";
+scale = (0.62,0.62);
 }
 );
 width = 538;
@@ -26,12 +20,13 @@ width = 538;
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-ref = "radical-ar";
+alignment = 1;
+ref = radical.rtlm;
 },
 {
-pos = (194,419);
-ref = "four-ar.ccmp";
-scale = (0.5,0.5);
+pos = (144,396);
+ref = "four-ar.medium";
+scale = (0.62,0.62);
 }
 );
 width = 538;

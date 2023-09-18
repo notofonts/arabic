@@ -1,0 +1,35 @@
+{
+glyphname = "fathaattachedright-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.far;
+pos = (1,837);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "fatha-ar";
+}
+);
+width = 182;
+},
+{
+anchors = (
+{
+name = _top.far;
+pos = (5,836);
+}
+);
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "fatha-ar";
+}
+);
+width = 188;
+}
+);
+}

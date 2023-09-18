@@ -2,58 +2,26 @@
 glyphname = "hehgoalHamzaabove-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (191,-100);
-},
-{
-name = top.far;
-pos = (182,428);
-},
-{
-name = top.near;
-pos = (192,417);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
-ref = "heh-ar";
+ref = "hehgoal-ar";
 },
 {
-anchor = top.dot;
-pos = (126,-66);
+pos = (119,-312);
 ref = "hamzaabove-ar";
 }
 );
 width = 408;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (206,-110);
-},
-{
-name = top.far;
-pos = (186,460);
-},
-{
-name = top.near;
-pos = (198,459);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = -1;
-ref = "heh-ar";
+ref = "hehgoal-ar";
 },
 {
-anchor = top.dot;
-pos = (122,1);
+pos = (132,-237);
 ref = "hamzaabove-ar";
 }
 );

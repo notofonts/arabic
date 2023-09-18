@@ -2,30 +2,57 @@
 glyphname = "fathaDotabove-ar";
 layers = (
 {
+anchors = (
+{
+name = _top.far;
+pos = (89,748);
+},
+{
+name = top.far;
+pos = (88,922);
+}
+);
 layerId = master01;
 shapes = (
 {
-ref = _fatha.small;
+alignment = 1;
+ref = "fatha-ar";
 },
 {
+alignment = -1;
+pos = (58,286);
 ref = _1037;
 }
 );
-width = 0;
+width = 182;
 },
 {
+anchors = (
+{
+name = _top.far;
+pos = (98,738);
+},
+{
+name = top.far;
+pos = (90,927);
+}
+);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = -1;
-ref = _fatha.small;
+alignment = 1;
+ref = "fatha-ar";
 },
 {
+alignment = -1;
+pos = (55,285);
 ref = _1037;
 }
 );
-width = 0;
+width = 188;
 }
 );
+metricLeft = "=0";
+metricRight = "=0";
 unicode = 2293;
 }

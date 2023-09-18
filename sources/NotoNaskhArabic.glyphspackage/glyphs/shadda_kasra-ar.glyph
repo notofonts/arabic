@@ -4,44 +4,62 @@ layers = (
 {
 anchors = (
 {
-name = _top;
-pos = (89,727);
+name = _top.far;
+pos = (77,749);
 },
 {
-name = top3;
-pos = (87,969);
+name = bottom.meem;
+pos = (26,838);
+},
+{
+name = top.far;
+pos = (75,991);
 }
 );
 layerId = master01;
 shapes = (
 {
-pos = (20,363);
-ref = "kasra-ar_shadda-ar";
+pos = (3,100);
+ref = "shadda-ar";
+},
+{
+alignment = -1;
+pos = (0,889);
+ref = "kasra-ar";
 }
 );
-width = 195;
+width = 182;
 },
 {
 anchors = (
 {
-name = _top;
-pos = (89,728);
+name = _top.far;
+pos = (71,752);
 },
 {
-name = top3;
-pos = (87,969);
+name = bottom.meem;
+pos = (25,838);
+},
+{
+name = top.far;
+pos = (69,993);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-pos = (20,355);
-ref = "kasra-ar_shadda-ar";
+pos = (1,109);
+ref = "shadda-ar";
+},
+{
+alignment = -1;
+pos = (0,893);
+ref = "kasra-ar";
 }
 );
-width = 195;
+width = 188;
 }
 );
-subCategory = Spacing;
-unicode = 64610;
+metricLeft = "=0";
+metricRight = "=0";
 }

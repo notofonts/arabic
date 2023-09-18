@@ -2,66 +2,26 @@
 glyphname = "alefWavyhamzaabove-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (127,-100);
-},
-{
-name = bottom.dot;
-pos = (127,-48);
-},
-{
-name = top.far;
-pos = (123,856);
-},
-{
-name = top.near;
-pos = (123,856);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = "alef-ar";
 },
 {
-alignment = -1;
-pos = (85,190);
+pos = (10,-43);
 ref = "wavyhamzaabove-ar";
 }
 );
 width = 238;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (151,-110);
-},
-{
-name = bottom.dot;
-pos = (151,-48);
-},
-{
-name = top.far;
-pos = (138,893);
-},
-{
-name = top.near;
-pos = (138,893);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = -1;
 ref = "alef-ar";
 },
 {
-alignment = -1;
-pos = (106,197);
+pos = (28,-25);
 ref = "wavyhamzaabove-ar";
 }
 );

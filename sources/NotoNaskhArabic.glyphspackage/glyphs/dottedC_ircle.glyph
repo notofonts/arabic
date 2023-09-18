@@ -9,15 +9,19 @@ pos = (302,-144);
 },
 {
 name = bottom.dot;
-pos = (305,-152);
+pos = (302,-152);
+},
+{
+name = stop;
+pos = (302,461);
 },
 {
 name = top.far;
-pos = (302,462);
+pos = (302,461);
 },
 {
 name = top.near;
-pos = (302,459);
+pos = (302,461);
 }
 );
 layerId = master01;
@@ -305,11 +309,15 @@ pos = (302,-135);
 },
 {
 name = bottom.dot;
-pos = (305,-152);
+pos = (302,-152);
+},
+{
+name = stop;
+pos = (302,461);
 },
 {
 name = top.far;
-pos = (302,463);
+pos = (302,461);
 },
 {
 name = top.near;

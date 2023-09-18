@@ -1,0 +1,28 @@
+{
+glyphname = "fourdotsbelowSymbol-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+pos = (10,0);
+ref = "fourdotsbelow-ar";
+}
+);
+width = 221;
+},
+{
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+pos = (-4,0);
+ref = "fourdotsbelow-ar";
+}
+);
+width = 221;
+}
+);
+metricLeft = "=fourdotsaboveSymbol-ar";
+metricWidth = "=space";
+unicode = 64443;
+}

@@ -2,62 +2,26 @@
 glyphname = "seenTwodotsverticalabove-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (722,-100);
-},
-{
-name = bottom.dot;
-pos = (722,-31);
-},
-{
-name = top.far;
-pos = (707,582);
-},
-{
-name = top.near;
-pos = (707,582);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = "seen-ar";
 },
 {
-pos = (595,32);
+pos = (648,-439);
 ref = "twodotsverticalabove-ar";
 }
 );
 width = 1013;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (742,-110);
-},
-{
-name = bottom.dot;
-pos = (742,-38);
-},
-{
-name = top.far;
-pos = (717,644);
-},
-{
-name = top.near;
-pos = (717,644);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
 ref = "seen-ar";
 },
 {
-pos = (621,-29);
+pos = (657,-367);
 ref = "twodotsverticalabove-ar";
 }
 );

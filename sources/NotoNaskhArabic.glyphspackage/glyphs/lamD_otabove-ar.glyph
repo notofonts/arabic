@@ -2,62 +2,26 @@
 glyphname = "lamDotabove-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (268,-328);
-},
-{
-name = bottom.dot;
-pos = (268,-273);
-},
-{
-name = top.far;
-pos = (431,905);
-},
-{
-name = top.near;
-pos = (431,905);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = "lam-ar";
 },
 {
-pos = (231,392);
+pos = (360,-35);
 ref = "dotabove-ar";
 }
 );
 width = 595;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (268,-311);
-},
-{
-name = bottom.dot;
-pos = (268,-256);
-},
-{
-name = top.far;
-pos = (429,915);
-},
-{
-name = top.near;
-pos = (429,915);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
 ref = "lam-ar";
 },
 {
-pos = (227,367);
+pos = (351,-15);
 ref = "dotabove-ar";
 }
 );

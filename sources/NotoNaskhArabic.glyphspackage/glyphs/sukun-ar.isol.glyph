@@ -2,36 +2,16 @@
 glyphname = "sukun-ar.isol";
 layers = (
 {
-anchors = (
-{
-name = _top;
-pos = (100,449);
-},
-{
-name = top3;
-pos = (100,596);
-}
-);
 layerId = master01;
 shapes = (
 {
-pos = (34,0);
+pos = (59,0);
 ref = "sukun-ar";
 }
 );
-width = 195;
+width = 221;
 },
 {
-anchors = (
-{
-name = _top;
-pos = (100,458);
-},
-{
-name = top3;
-pos = (100,604);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
@@ -39,8 +19,9 @@ pos = (34,0);
 ref = "sukun-ar";
 }
 );
-width = 195;
+width = 221;
 }
 );
+metricWidth = "=space";
 unicode = 65150;
 }

@@ -2,90 +2,46 @@
 glyphname = "wasallam-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (340,-100);
-},
-{
-name = bottom.dot;
-pos = (339,-31);
-},
-{
-name = top.far;
-pos = (279,552);
-},
-{
-name = top.near;
-pos = (280,361);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
-pos = (786,0);
-ref = "seen-ar.init";
-},
-{
-alignment = -1;
-pos = (1343,0);
+pos = (1431,0);
 ref = "waw-ar";
 },
 {
-alignment = -1;
-pos = (537,0);
+pos = (773,0);
+ref = "seen-ar.init";
+},
+{
+pos = (528,0);
 ref = "lam-ar.medi";
 },
 {
-alignment = -1;
 ref = "meem-ar.fina";
 }
 );
-width = 1811;
+width = 1899;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (374,-110);
-},
-{
-name = bottom.dot;
-pos = (374,-38);
-},
-{
-name = top.far;
-pos = (298,526);
-},
-{
-name = top.near;
-pos = (300,385);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = -1;
-pos = (799,0);
-ref = "seen-ar.init";
-},
-{
-alignment = -1;
-pos = (1390,0);
+pos = (1500,0);
 ref = "waw-ar";
 },
 {
-alignment = -1;
+pos = (800,0);
+ref = "seen-ar.init";
+},
+{
 pos = (555,0);
 ref = "lam-ar.medi";
 },
 {
-alignment = -1;
 ref = "meem-ar.fina";
 }
 );
-width = 1886;
+width = 1997;
 }
 );
 unicode = 65016;

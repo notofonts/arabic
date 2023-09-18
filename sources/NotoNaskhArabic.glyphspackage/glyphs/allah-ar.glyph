@@ -55,18 +55,17 @@ pos = (237,547);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
-ref = "allah-ar.2";
-},
-{
-alignment = -1;
-pos = (928,0);
+pos = (952,0);
 ref = "alef-ar";
 },
 {
-alignment = -1;
-pos = (7,52);
-ref = "shadda-ar_alefabove-ar.small";
+alignment = 1;
+ref = "allah-ar.2";
+},
+{
+anchor = top_2;
+pos = (466,-174);
+ref = "shadda_alefabove-ar.small";
 }
 );
 width = 1190;
@@ -125,21 +124,20 @@ pos = (232,599);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = -1;
-ref = "allah-ar.2";
-},
-{
-alignment = -1;
-pos = (903,0);
+pos = (967,0);
 ref = "alef-ar";
 },
 {
-alignment = -1;
-pos = (2,104);
-ref = "shadda-ar_alefabove-ar.small";
+alignment = 1;
+ref = "allah-ar.2";
+},
+{
+anchor = top_2;
+pos = (461,-103);
+ref = "shadda_alefabove-ar.small";
 }
 );
-width = 1226;
+width = 1251;
 }
 );
 unicode = 65010;

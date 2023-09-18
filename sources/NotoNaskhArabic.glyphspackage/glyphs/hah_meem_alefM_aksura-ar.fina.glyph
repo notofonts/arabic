@@ -2,24 +2,6 @@
 glyphname = "hah_meem_alefMaksura-ar.fina";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (294,-315);
-},
-{
-name = bottom.dot;
-pos = (294,-268);
-},
-{
-name = top.far;
-pos = (324,234);
-},
-{
-name = top.near;
-pos = (148,74);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -37,24 +19,6 @@ ref = "alefMaksura-ar.fina";
 width = 1766;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (308,-311);
-},
-{
-name = bottom.dot;
-pos = (308,-256);
-},
-{
-name = top.far;
-pos = (325,278);
-},
-{
-name = top.near;
-pos = (148,104);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {

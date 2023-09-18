@@ -2,76 +2,34 @@
 glyphname = "gafThreedots-ar";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (450,-100);
-},
-{
-name = bottom.dot;
-pos = (450,-31);
-},
-{
-name = top.far;
-pos = (365,833);
-},
-{
-name = top.near;
-pos = (365,833);
-}
-);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = "keheh-ar";
 },
 {
-alignment = -1;
-pos = (473,-82);
-ref = "sarkash-ar";
+pos = (279,-236);
+ref = "gafsarkashabove-ar";
 },
 {
-alignment = -1;
-pos = (300,-21);
+pos = (301,-113);
 ref = "threedotsupabove-ar.diagonal";
 }
 );
 width = 722;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (442,-110);
-},
-{
-name = bottom.dot;
-pos = (442,-38);
-},
-{
-name = top.far;
-pos = (379,856);
-},
-{
-name = top.near;
-pos = (379,856);
-}
-);
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
 shapes = (
 {
-alignment = -1;
 ref = "keheh-ar";
 },
 {
-alignment = -1;
-pos = (525,1);
-ref = "sarkash-ar";
+pos = (327,-180);
+ref = "gafsarkashabove-ar";
 },
 {
-alignment = -1;
-pos = (310,-26);
+pos = (311,-70);
 ref = "threedotsupabove-ar.diagonal";
 }
 );
