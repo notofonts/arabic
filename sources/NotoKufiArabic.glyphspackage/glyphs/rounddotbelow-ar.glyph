@@ -5,87 +5,89 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{11, 125}";
+position = "{77, 125}";
 },
 {
 name = bottom;
-position = "{11, -39}";
+position = "{77, -39}";
 }
 );
 components = (
 {
 alignment = -1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 0, -620}";
+transform = "{1, 0, 0, 1, 66, -620}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-width = 0;
+width = 133;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{0, 100}";
+position = "{56, 100}";
 },
 {
 name = bottom;
-position = "{0, -40}";
+position = "{56, -40}";
 }
 );
 components = (
 {
 alignment = -1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 0, -620}";
+transform = "{1, 0, 0, 1, 56, -620}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-width = 0;
+width = 112;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{-11, 75}";
+position = "{16, 75}";
 },
 {
 name = bottom;
-position = "{-11, -41}";
+position = "{16, -41}";
 }
 );
 components = (
 {
 alignment = -1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 0, -620}";
+transform = "{1, 0, 0, 1, 27, -620}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-width = 0;
+width = 52;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{18, 152}";
+position = "{96, 152}";
 },
 {
 name = bottom;
-position = "{18, -61}";
+position = "{96, -61}";
 }
 );
 components = (
 {
 alignment = -1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 0, -620}";
+transform = "{1, 0, 0, 1, 78, -620}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-width = 0;
+width = 157;
 }
 );
+leftMetricsKey = "=0";
 note = uni065C;
+rightMetricsKey = "=0";
 unicode = 065C;
 }

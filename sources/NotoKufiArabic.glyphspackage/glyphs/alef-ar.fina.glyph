@@ -5,7 +5,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{180, -78}";
+position = "{166, -52}";
+},
+{
+name = stroke;
+position = "{176, 434}";
 },
 {
 name = top.far;
@@ -61,7 +65,11 @@ width = 369;
 anchors = (
 {
 name = bottom;
-position = "{142, -78}";
+position = "{146, -55}";
+},
+{
+name = stroke;
+position = "{146, 434}";
 },
 {
 name = top.far;
@@ -116,15 +124,19 @@ width = 316;
 anchors = (
 {
 name = bottom;
-position = "{124, -78}";
+position = "{114, -51}";
+},
+{
+name = stroke;
+position = "{112, 434}";
 },
 {
 name = top.far;
-position = "{116, 810}";
+position = "{112, 830}";
 },
 {
 name = top.near;
-position = "{116, 810}";
+position = "{112, 830}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -153,7 +165,11 @@ width = 263;
 anchors = (
 {
 name = bottom;
-position = "{215, -78}";
+position = "{189, -48}";
+},
+{
+name = stroke;
+position = "{196, 434}";
 },
 {
 name = top.far;
@@ -187,6 +203,7 @@ nodes = (
 width = 404;
 }
 );
+leftMetricsKey = "=alef-ar";
 note = uni0627.fina;
 unicode = FE8E;
 }

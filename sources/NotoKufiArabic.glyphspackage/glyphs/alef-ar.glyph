@@ -8,6 +8,10 @@ name = bottom;
 position = "{166, -52}";
 },
 {
+name = stroke;
+position = "{176, 434}";
+},
+{
 name = top.far;
 position = "{176, 830}";
 },
@@ -50,6 +54,10 @@ name = bottom;
 position = "{146, -55}";
 },
 {
+name = stroke;
+position = "{146, 434}";
+},
+{
 name = top.far;
 position = "{146, 820}";
 },
@@ -89,15 +97,19 @@ width = 289;
 anchors = (
 {
 name = bottom;
-position = "{112, -51}";
+position = "{114, -51}";
+},
+{
+name = stroke;
+position = "{112, 434}";
 },
 {
 name = top.far;
-position = "{104, 830}";
+position = "{112, 830}";
 },
 {
 name = top.near;
-position = "{104, 830}";
+position = "{112, 830}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -105,20 +117,24 @@ paths = (
 {
 closed = 1;
 nodes = (
-"98 0 LINE",
-"122 0 LINE",
-"122 760 LINE",
-"98 760 LINE"
+"100 0 LINE",
+"124 0 LINE",
+"124 760 LINE",
+"100 760 LINE"
 );
 }
 );
-width = 220;
+width = 224;
 },
 {
 anchors = (
 {
 name = bottom;
 position = "{189, -48}";
+},
+{
+name = stroke;
+position = "{196, 434}";
 },
 {
 name = top.far;
