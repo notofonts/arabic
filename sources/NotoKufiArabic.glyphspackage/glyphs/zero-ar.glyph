@@ -7,10 +7,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"100 181 LINE",
-"279 181 LINE",
-"279 408 LINE",
-"100 408 LINE"
+"260 214 LINE",
+"387 341 LINE",
+"226 501 LINE",
+"100 375 LINE"
 );
 }
 );
@@ -29,7 +29,7 @@ SHP[1]	/* ShiftPointByLastPoint */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 379;
+width = 487;
 },
 {
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -37,10 +37,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"100 190 LINE",
-"229 190 LINE",
-"229 377 LINE",
-"100 377 LINE"
+"201 218 LINE",
+"293 309 LINE",
+"192 410 LINE",
+"100 318 LINE"
 );
 }
 );
@@ -58,7 +58,7 @@ IP[ ]	/* InterpolatePts */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 329;
+width = 393;
 },
 {
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -66,14 +66,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"100 199 LINE",
-"159 199 LINE",
-"159 346 LINE",
-"100 346 LINE"
+"156 220 LINE",
+"197 262 LINE",
+"142 318 LINE",
+"100 276 LINE"
 );
 }
 );
-width = 259;
+width = 297;
 },
 {
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
@@ -81,16 +81,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"100 175 LINE",
-"312 175 LINE",
-"312 429 LINE",
-"100 429 LINE"
+"280 212 LINE",
+"430 362 LINE",
+"250 542 LINE",
+"100 392 LINE"
 );
 }
 );
-width = 412.33333;
+width = 530;
 }
 );
+leftMetricsKey = "=100";
 note = uni0660;
+rightMetricsKey = "=100";
 unicode = 0660;
 }
