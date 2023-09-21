@@ -6,10 +6,6 @@ anchors = (
 {
 name = _top.near;
 position = "{130, 459}";
-},
-{
-name = _top2;
-position = "{130, 459}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -82,10 +78,6 @@ width = 245;
 anchors = (
 {
 name = _top.near;
-position = "{110, 459}";
-},
-{
-name = _top2;
 position = "{110, 459}";
 }
 );
@@ -160,10 +152,6 @@ anchors = (
 {
 name = _top.near;
 position = "{90, 456}";
-},
-{
-name = _top2;
-position = "{90, 459}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -221,10 +209,6 @@ width = 171;
 anchors = (
 {
 name = _top.near;
-position = "{143, 459}";
-},
-{
-name = _top2;
 position = "{143, 459}";
 }
 );

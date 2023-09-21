@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = "ringattachedleft-ar";
 layers = (
 {
@@ -12,7 +11,7 @@ position = "{150, 431}";
 components = (
 {
 name = "ring-ar";
-transform = "{1, 0, 0, 1, 81, -498}";
+transform = "{1, 0, 0, 1, 0, -498}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -28,7 +27,7 @@ position = "{211, 454}";
 components = (
 {
 name = "ring-ar";
-transform = "{1, 0, 0, 1, 110, -467}";
+transform = "{1, 0, 0, 1, 0, -467}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -44,7 +43,7 @@ position = "{229, 457}";
 components = (
 {
 name = "ring-ar";
-transform = "{1, 0, 0, 1, 110, -464}";
+transform = "{1, 0, 0, 1, 0, -464}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -60,7 +59,7 @@ position = "{243, 457}";
 components = (
 {
 name = "ring-ar";
-transform = "{1, 0, 0, 1, 110, -464}";
+transform = "{1, 0, 0, 1, 0, -464}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

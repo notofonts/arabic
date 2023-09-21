@@ -82,7 +82,7 @@ SHP[1]	/* ShiftPointByLastPoint */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 160;
 },
 {
 anchors = (
@@ -163,7 +163,7 @@ SHP[1]	/* ShiftPointByLastPoint */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 142;
 },
 {
 anchors = (
@@ -230,7 +230,7 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 79;
 },
 {
 anchors = (
@@ -297,8 +297,9 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 192;
 }
 );
 note = threedots.rev.below;
+rightMetricsKey = "=0";
 }

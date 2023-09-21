@@ -41,7 +41,7 @@ MDRP[01101]	/* MoveDirectRelPt */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 77;
 },
 {
 anchors = (
@@ -83,7 +83,7 @@ MDRP[01101]	/* MoveDirectRelPt */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 56;
 },
 {
 anchors = (
@@ -116,7 +116,7 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 27;
 },
 {
 anchors = (
@@ -149,8 +149,9 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 91;
 }
 );
 note = onedot.below;
+rightMetricsKey = "=0";
 }

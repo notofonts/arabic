@@ -4,16 +4,12 @@ layers = (
 {
 anchors = (
 {
-name = _top.near;
-position = "{7, 604}";
-},
-{
-name = _top2;
-position = "{6, 605}";
+name = _top.far;
+position = "{138, 604}";
 },
 {
 name = top.near;
-position = "{14, 769}";
+position = "{145, 769}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -21,10 +17,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-76 749 LINE",
-"-131 630 LINE",
-"89 630 LINE",
-"149 749 LINE"
+"55 749 LINE",
+"0 630 LINE",
+"220 630 LINE",
+"280 749 LINE"
 );
 }
 );
@@ -37,21 +33,17 @@ MDRP[01101]	/* MoveDirectRelPt */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 280;
 },
 {
 anchors = (
 {
-name = _top.near;
-position = "{0, 625}";
-},
-{
-name = _top2;
-position = "{0, 623}";
+name = _top.far;
+position = "{104, 625}";
 },
 {
 name = top.near;
-position = "{1, 734}";
+position = "{105, 734}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -59,10 +51,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-69 714 LINE",
-"-104 635 LINE",
-"66 635 LINE",
-"106 714 LINE"
+"35 714 LINE",
+"0 635 LINE",
+"170 635 LINE",
+"210 714 LINE"
 );
 }
 );
@@ -75,21 +67,17 @@ MDRP[01101]	/* MoveDirectRelPt */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 210;
 },
 {
 anchors = (
 {
-name = _top.near;
-position = "{-10, 605}";
-},
-{
-name = _top2;
-position = "{-10, 605}";
+name = _top.far;
+position = "{72, 605}";
 },
 {
 name = top.near;
-position = "{-10, 689}";
+position = "{72, 689}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -97,28 +85,24 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-67 662 LINE",
-"-82 641 LINE",
-"38 641 LINE",
-"58 662 LINE"
+"15 662 LINE",
+"0 641 LINE",
+"120 641 LINE",
+"140 662 LINE"
 );
 }
 );
-width = 0;
+width = 140;
 },
 {
 anchors = (
 {
-name = _top.near;
-position = "{17, 604}";
-},
-{
-name = _top2;
-position = "{16, 627}";
+name = _top.far;
+position = "{161, 604}";
 },
 {
 name = top.near;
-position = "{23, 792}";
+position = "{167, 792}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
@@ -126,16 +110,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-75 772 LINE",
-"-144 627 LINE",
-"110 627 LINE",
-"183 772 LINE"
+"69 772 LINE",
+"0 627 LINE",
+"254 627 LINE",
+"327 772 LINE"
 );
 }
 );
-width = 0;
+width = 327;
 }
 );
+leftMetricsKey = "=0";
 note = uni0659;
+rightMetricsKey = "=0";
 unicode = 0659;
 }

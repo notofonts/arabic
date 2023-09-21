@@ -5,121 +5,85 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{0, -122}";
+position = "{117, -122}";
 },
 {
 name = bottom;
-position = "{0, -283}";
+position = "{117, -283}";
+}
+);
+components = (
+{
+name = "fatha-ar";
+transform = "{1, 0, 0, 1, 0, -1060}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
-{
-closed = 1;
-nodes = (
-"-117 -284 LINE",
-"117 -196 LINE",
-"117 -132 LINE",
-"-117 -219 LINE"
-);
-}
-);
-userData = {
-assembly = "PUSHB[ ]	/* 2 values pushed */
-3 1 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MDAP[1]	/* MoveDirectAbsPt */
-MDRP[01101]	/* MoveDirectRelPt */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 0;
+width = 234;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{0, -122}";
+position = "{117, -122}";
 },
 {
 name = bottom;
-position = "{0, -283}";
+position = "{117, -283}";
+}
+);
+components = (
+{
+name = "fatha-ar";
+transform = "{1, 0, 0, 1, 0, -1050}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
-{
-closed = 1;
-nodes = (
-"-117 -274 LINE",
-"117 -186 LINE",
-"117 -132 LINE",
-"-117 -219 LINE"
-);
-}
-);
-userData = {
-assembly = "PUSHB[ ]	/* 2 values pushed */
-3 1 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MDAP[1]	/* MoveDirectAbsPt */
-MDRP[01101]	/* MoveDirectRelPt */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 0;
+width = 234;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{0, -122}";
+position = "{101, -122}";
 },
 {
 name = bottom;
-position = "{0, -283}";
+position = "{101, -283}";
+}
+);
+components = (
+{
+name = "fatha-ar";
+transform = "{1, 0, 0, 1, 0, -1042}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
-{
-closed = 1;
-nodes = (
-"-101 -249 LINE",
-"103 -172 LINE",
-"103 -150 LINE",
-"-101 -226 LINE"
-);
-}
-);
-width = 0;
+width = 204;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{0, -122}";
+position = "{117, -122}";
 },
 {
 name = bottom;
-position = "{0, -283}";
+position = "{117, -283}";
+}
+);
+components = (
+{
+name = "fatha-ar";
+transform = "{1, 0, 0, 1, 0, -1067}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
-{
-closed = 1;
-nodes = (
-"-117 -291 LINE",
-"117 -203 LINE",
-"117 -132 LINE",
-"-117 -219 LINE"
-);
+width = 234;
 }
 );
-width = 0;
-}
-);
+leftMetricsKey = "=0";
 note = uni0650;
+rightMetricsKey = "=0";
 unicode = 0650;
 }

@@ -8,10 +8,6 @@ name = _bottom;
 position = "{0, -75}";
 },
 {
-name = _bottom2;
-position = "{0, -76}";
-},
-{
 name = bottom;
 position = "{0, -312}";
 }
@@ -67,16 +63,12 @@ SHP[1]	/* ShiftPointByLastPoint */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 102;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{0, -58}";
-},
-{
-name = _bottom2;
 position = "{0, -58}";
 },
 {
@@ -137,17 +129,13 @@ SHP[1]	/* ShiftPointByLastPoint */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 94;
 },
 {
 anchors = (
 {
 name = _bottom;
 position = "{0, -44}";
-},
-{
-name = _bottom2;
-position = "{0, -42}";
 },
 {
 name = bottom;
@@ -190,16 +178,12 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 86;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{0, -83}";
-},
-{
-name = _bottom2;
 position = "{0, -83}";
 },
 {
@@ -243,9 +227,10 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 107;
 }
 );
 note = uni0655;
+rightMetricsKey = "=0";
 unicode = 0655;
 }

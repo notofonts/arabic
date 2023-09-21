@@ -6,10 +6,6 @@ anchors = (
 {
 name = _top.near;
 position = "{0, 762}";
-},
-{
-name = _top2;
-position = "{0, 762}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -59,16 +55,12 @@ SHP[0]	/* ShiftPointByLastPoint */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 104;
 },
 {
 anchors = (
 {
 name = _top.near;
-position = "{0, 762}";
-},
-{
-name = _top2;
 position = "{0, 762}";
 }
 );
@@ -117,17 +109,13 @@ MDRP[01101]	/* MoveDirectRelPt */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 104;
 },
 {
 anchors = (
 {
 name = _top.near;
 position = "{0, 751}";
-},
-{
-name = _top2;
-position = "{0, 754}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -160,16 +148,12 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 90;
 },
 {
 anchors = (
 {
 name = _top.near;
-position = "{0, 762}";
-},
-{
-name = _top2;
 position = "{0, 762}";
 }
 );
@@ -203,8 +187,9 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 104;
 }
 );
 note = wasla;
+rightMetricsKey = "=0";
 }

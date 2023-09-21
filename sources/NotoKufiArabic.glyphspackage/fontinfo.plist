@@ -762,10 +762,9 @@ horizontalStems = (
 iconName = Light;
 id = "410295A1-92BC-4707-ABFC-13885E60878B";
 userData = {
-GSOffsetHorizontal = 12;
+GSOffsetHorizontal = 10;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
-GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
@@ -845,10 +844,10 @@ horizontalStems = (
 );
 id = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 userData = {
-GSOffsetHorizontal = 38;
+GSOffsetHorizontal = 26;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
-GSOffsetPosition = 1;
+GSOffsetProportional = 1;
 GSOffsetVertical = 42.5;
 };
 verticalStems = (
@@ -929,10 +928,11 @@ horizontalStems = (
 iconName = SemiBold;
 id = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 userData = {
-GSOffsetHorizontal = 60;
+GSOffsetCapStyle = 3;
+GSOffsetHorizontal = 30;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
-GSOffsetPosition = 1;
+GSOffsetProportional = 1;
 GSOffsetVertical = 70.5;
 };
 verticalStems = (
@@ -1015,10 +1015,11 @@ horizontalStems = (
 iconName = Bold;
 id = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 userData = {
-GSOffsetHorizontal = 74;
+GSOffsetCapStyle = 3;
+GSOffsetHorizontal = 34;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
-GSOffsetPosition = 1;
+GSOffsetProportional = 1;
 GSOffsetVertical = 89;
 };
 verticalStems = (

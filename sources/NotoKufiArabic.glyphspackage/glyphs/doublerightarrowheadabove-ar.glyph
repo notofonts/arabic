@@ -1,0 +1,143 @@
+{
+glyphname = "doublerightarrowheadabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.far;
+position = "{160, 750}";
+},
+{
+name = top.far;
+position = "{160, 1019}";
+},
+{
+name = top.near;
+position = "{160, 1019}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "rightarrowheadabove-ar";
+},
+{
+alignment = -1;
+name = "rightarrowheadabove-ar";
+transform = "{1, 0, 0, 1, 160, 0}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+userData = {
+assembly = "PUSHB[ ]	/* 2 values pushed */
+1 3 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 321;
+},
+{
+anchors = (
+{
+name = _top.far;
+position = "{150, 770}";
+},
+{
+name = top.far;
+position = "{150, 1019}";
+},
+{
+name = top.near;
+position = "{150, 1019}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "rightarrowheadabove-ar";
+},
+{
+alignment = -1;
+name = "rightarrowheadabove-ar";
+transform = "{1, 0, 0, 1, 140, 0}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+userData = {
+assembly = "PUSHB[ ]	/* 2 values pushed */
+1 3 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01101]	/* MoveDirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */";
+};
+width = 301;
+},
+{
+anchors = (
+{
+name = _top.far;
+position = "{125, 770}";
+},
+{
+name = top.far;
+position = "{125, 989}";
+},
+{
+name = top.near;
+position = "{125, 989}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "rightarrowheadabove-ar";
+},
+{
+alignment = -1;
+name = "rightarrowheadabove-ar";
+transform = "{1, 0, 0, 1, 100, 0}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 245;
+},
+{
+anchors = (
+{
+name = _top.far;
+position = "{166, 730}";
+},
+{
+name = top.far;
+position = "{166, 1019}";
+},
+{
+name = top.near;
+position = "{166, 1019}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "rightarrowheadabove-ar";
+},
+{
+alignment = -1;
+name = "rightarrowheadabove-ar";
+transform = "{1, 0, 0, 1, 170, 0}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 331;
+}
+);
+leftMetricsKey = "=0";
+note = uni064E;
+rightMetricsKey = "=0";
+unicode = 08FB;
+}

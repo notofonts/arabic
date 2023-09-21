@@ -5,172 +5,85 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{0, -122}";
+position = "{117, -122}";
 },
 {
 name = bottom;
-position = "{0, -405}";
+position = "{117, -405}";
+}
+);
+components = (
+{
+name = "fathatan-ar";
+transform = "{1, 0, 0, 1, 0, -1173}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
-{
-closed = 1;
-nodes = (
-"-117 -407 LINE",
-"117 -319 LINE",
-"117 -255 LINE",
-"-117 -342 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-117 -284 LINE",
-"117 -196 LINE",
-"117 -132 LINE",
-"-117 -219 LINE"
-);
-}
-);
-userData = {
-assembly = "NPUSHB[ ]	/* 17 values pushed */
-4 31 7 1 7 5 0 31 3 1 3 64 2 1 128 6 5 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MDAP[1]	/* MoveDirectAbsPt */
-SHP[1]	/* ShiftPointByLastPoint */
-SMD[ ]	/* SetMinimumDistance */
-MDRP[11101]	/* MoveDirectRelPt */
-SHP[0]	/* ShiftPointByLastPoint */
-SMD[ ]	/* SetMinimumDistance */
-MDRP[01101]	/* MoveDirectRelPt */
-DELTAP1[ ]	/* DeltaExceptionP1 */
-SHP[0]	/* ShiftPointByLastPoint */
-SRP0[ ]	/* SetRefPoint0 */
-MDRP[01101]	/* MoveDirectRelPt */
-DELTAP1[ ]	/* DeltaExceptionP1 */
-SHP[0]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 0;
+width = 234;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{0, -122}";
+position = "{117, -122}";
 },
 {
 name = bottom;
-position = "{0, -396}";
+position = "{117, -396}";
+}
+);
+components = (
+{
+name = "fathatan-ar";
+transform = "{1, 0, 0, 1, 0, -1163}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
-{
-closed = 1;
-nodes = (
-"-117 -387 LINE",
-"117 -299 LINE",
-"117 -245 LINE",
-"-117 -332 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-117 -274 LINE",
-"117 -186 LINE",
-"117 -132 LINE",
-"-117 -219 LINE"
-);
-}
-);
-userData = {
-assembly = "PUSHB[ ]	/* 6 values pushed */
-3 64 1 128 7 5 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MDAP[1]	/* MoveDirectAbsPt */
-MDRP[01101]	/* MoveDirectRelPt */
-SMD[ ]	/* SetMinimumDistance */
-MDRP[11110]	/* MoveDirectRelPt */
-SMD[ ]	/* SetMinimumDistance */
-MDRP[01101]	/* MoveDirectRelPt */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 0;
+width = 234;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{0, -122}";
+position = "{101, -114}";
 },
 {
 name = bottom;
-position = "{0, -387}";
+position = "{101, -379}";
+}
+);
+components = (
+{
+name = "fathatan-ar";
+transform = "{1, 0, 0, 1, 0, -1145}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
-{
-closed = 1;
-nodes = (
-"-101 -360 LINE",
-"103 -283 LINE",
-"103 -261 LINE",
-"-101 -337 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-101 -257 LINE",
-"103 -180 LINE",
-"103 -158 LINE",
-"-101 -234 LINE"
-);
-}
-);
-width = 0;
+width = 204;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{0, -112}";
+position = "{117, -122}";
 },
 {
 name = bottom;
-position = "{0, -411}";
+position = "{117, -421}";
+}
+);
+components = (
+{
+name = "fathatan-ar";
+transform = "{1, 0, 0, 1, 0, -1190}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
-{
-closed = 1;
-nodes = (
-"-117 -420 LINE",
-"117 -332 LINE",
-"117 -262 LINE",
-"-117 -349 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-117 -281 LINE",
-"117 -193 LINE",
-"117 -122 LINE",
-"-117 -209 LINE"
-);
+width = 234;
 }
 );
-width = 0;
-}
-);
+leftMetricsKey = "=0";
 note = uni064D;
+rightMetricsKey = "=0";
 unicode = 064D;
 }

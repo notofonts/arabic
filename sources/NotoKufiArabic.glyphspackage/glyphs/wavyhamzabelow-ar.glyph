@@ -87,7 +87,7 @@ MDRP[01101]	/* MoveDirectRelPt */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 97;
 },
 {
 anchors = (
@@ -173,7 +173,7 @@ MDRP[01101]	/* MoveDirectRelPt */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 94;
 },
 {
 anchors = (
@@ -242,7 +242,7 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 90;
 },
 {
 anchors = (
@@ -311,9 +311,10 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 99;
 }
 );
 note = wavyhamza_below;
+rightMetricsKey = "=0";
 unicode = 065F;
 }

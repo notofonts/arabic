@@ -60,7 +60,7 @@ IP[ ]	/* InterpolatePts */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 66;
 },
 {
 anchors = (
@@ -121,7 +121,7 @@ IP[ ]	/* InterpolatePts */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 56;
 },
 {
 anchors = (
@@ -171,7 +171,7 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 25;
 },
 {
 anchors = (
@@ -221,8 +221,9 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 73;
 }
 );
 note = twodots.vert.below;
+rightMetricsKey = "=0";
 }

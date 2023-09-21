@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = "strokeleft-ar";
 layers = (
 {
@@ -12,7 +11,7 @@ position = "{192, 832}";
 components = (
 {
 name = "fatha-ar";
-transform = "{1, 0, 0, 1, 101, -11}";
+transform = "{1, 0, 0, 1, 0, -11}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -28,7 +27,7 @@ position = "{191, 845}";
 components = (
 {
 name = "fatha-ar";
-transform = "{1, 0, 0, 1, 117, -10}";
+transform = "{1, 0, 0, 1, 0, -10}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -44,7 +43,7 @@ position = "{161, 850}";
 components = (
 {
 name = "fatha-ar";
-transform = "{1, 0, 0, 1, 117, -2}";
+transform = "{1, 0, 0, 1, 0, -2}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -60,7 +59,7 @@ position = "{141, 853}";
 components = (
 {
 name = "fatha-ar";
-transform = "{1, 0, 0, 1, 117, -2}";
+transform = "{1, 0, 0, 1, 0, -2}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

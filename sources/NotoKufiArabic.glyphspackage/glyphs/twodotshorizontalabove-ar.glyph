@@ -66,7 +66,7 @@ SHP[0]	/* ShiftPointByLastPoint */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 160;
 },
 {
 anchors = (
@@ -133,7 +133,7 @@ SHP[0]	/* ShiftPointByLastPoint */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 141;
 },
 {
 anchors = (
@@ -187,7 +187,7 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 79;
 },
 {
 anchors = (
@@ -241,8 +241,9 @@ nodes = (
 );
 }
 );
-width = 0;
+width = 171;
 }
 );
 note = twodots.above;
+rightMetricsKey = "=0";
 }
