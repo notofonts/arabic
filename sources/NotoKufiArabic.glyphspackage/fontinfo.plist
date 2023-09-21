@@ -218,6 +218,12 @@ lookup locl_arab_0 {
 name = locl;
 },
 {
+automatic = 1;
+code = "sub radical by radical.rtlm;
+";
+name = rtlm;
+},
+{
 code = "
 lookup liaadama { # See issue #26
   lookupflag UseMarkFilteringSet [hamzaabove-ar];
@@ -848,7 +854,6 @@ GSOffsetVertical = 42.5;
 verticalStems = (
 78
 );
-visible = 1;
 weightValue = 400;
 xHeight = 890;
 },
@@ -933,7 +938,6 @@ GSOffsetVertical = 70.5;
 verticalStems = (
 149
 );
-visible = 1;
 weight = Bold;
 weightValue = 700;
 xHeight = 890;
@@ -1020,7 +1024,6 @@ GSOffsetVertical = 89;
 verticalStems = (
 189
 );
-visible = 1;
 weightValue = 900;
 xHeight = 890;
 }
