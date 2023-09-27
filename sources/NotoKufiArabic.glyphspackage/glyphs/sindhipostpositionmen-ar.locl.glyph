@@ -1,0 +1,82 @@
+{
+glyphname = "sindhipostpositionmen-ar.locl";
+layers = (
+{
+components = (
+{
+name = "meem-ar.locl";
+},
+{
+alignment = -1;
+name = "alefbelow-ar";
+transform = "{1, 0, 0, 1, 630, 117}";
+},
+{
+alignment = -1;
+name = "alefbelow-ar";
+transform = "{1, 0, 0, 1, 754, 117}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 985;
+},
+{
+components = (
+{
+name = "meem-ar.locl";
+},
+{
+alignment = -1;
+name = "alefbelow-ar";
+transform = "{1, 0, 0, 1, 511, 97}";
+},
+{
+alignment = -1;
+name = "alefbelow-ar";
+transform = "{1, 0, 0, 1, 633, 97}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 891;
+},
+{
+components = (
+{
+name = "meem-ar.locl";
+},
+{
+alignment = -1;
+name = "alefbelow-ar";
+transform = "{1, 0, 0, 1, 422, 77}";
+},
+{
+alignment = -1;
+name = "alefbelow-ar";
+transform = "{1, 0, 0, 1, 499, 77}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 725;
+},
+{
+components = (
+{
+name = "meem-ar.locl";
+},
+{
+alignment = -1;
+name = "alefbelow-ar";
+transform = "{1, 0, 0, 1, 643, 100}";
+},
+{
+alignment = -1;
+name = "alefbelow-ar";
+transform = "{1, 0, 0, 1, 796, 100}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 1033;
+}
+);
+note = uni06FE;
+}

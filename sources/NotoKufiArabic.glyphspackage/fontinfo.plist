@@ -348,7 +348,10 @@ automatic = 1;
 code = "languagesystem DFLT dflt;
 
 languagesystem arab dflt;
+languagesystem arab SND;
 languagesystem arab URD;
+languagesystem arab KSH;
+languagesystem arab RHG;
 ";
 name = Languagesystems;
 },
@@ -427,13 +430,30 @@ feature fina;
 name = aalt;
 },
 {
-code = "script arab;
-language URD;
-lookup locl_arab_0 {
-       sub fourFarsi-ar by fourFarsi-ar.locl;
-       sub sixFarsi-ar by six-ar;
-       sub sevenFarsi-ar by sevenFarsi-ar.locl;
-} locl_arab_0;
+code = "script arab; # Arabic
+  language SND ; # Sindhi
+	sub [sixFarsi-ar sevenFarsi-ar
+		 meem-ar sindhipostpositionmen-ar
+		 comma-ar semicolon-ar]
+	 by [six-ar sevenFarsi-ar.locl
+		 meem-ar.locl sindhipostpositionmen-ar.locl
+		 commareversed semicolonreversed]
+	;
+
+  language URD ; # Urdu
+    lookup locl_arabURD_arabKSH_1 {
+      sub [fourFarsi-ar sixFarsi-ar sevenFarsi-ar]
+       by [fourFarsi-ar.locl six-ar sevenFarsi-ar.locl]
+      ;
+    } locl_arabURD_arabKSH_1;
+
+    language KSH ; # Kashmiri
+    lookup locl_arabURD_arabKSH_1;
+
+	language RHG;
+	sub [fourFarsi-ar sixFarsi-ar sevenFarsi-ar]
+	 by [four-ar six-ar sevenFarsi-ar.locl]
+	;
 ";
 name = locl;
 },
@@ -753,7 +773,7 @@ sub keheh-ar by kaf-ar.init;
 sub keheh-ar.alt by kaf-ar.init.alt;
 sub lam-ar by lam-ar.init;
 sub meem-ar by meem-ar.init;
-#sub meem-ar.locl by meem-ar.init;
+sub meem-ar.locl by meem-ar.init;
 sub noonghunna-ar by behDotless-ar.init;
 sub noonThreedotsabove-ar by behDotless-ar.init threedotsdownbelow-ar;
 sub noonAfrican-ar by behDotless-ar.init dotabove-ar;
@@ -788,7 +808,7 @@ sub keheh-ar by kaf-ar.medi;
 sub keheh-ar.alt by kaf-ar.medi.alt;
 sub lam-ar by lam-ar.medi;
 sub meem-ar by meem-ar.medi;
-#sub meem-ar.locl by meem-ar.medi;
+sub meem-ar.locl by meem-ar.medi;
 sub noonghunna-ar by behDotless-ar.medi;
 sub noonThreedotsabove-ar by behDotless-ar.medi threedotsdownbelow-ar;
 sub noonAfrican-ar by behDotless-ar.medi dotabove-ar;
@@ -825,7 +845,7 @@ sub keheh-ar by keheh-ar.fina;
 sub keheh-ar.alt by keheh-ar.fina.alt;
 sub lam-ar by lam-ar.fina;
 sub meem-ar by meem-ar.fina;
-#sub meem-ar.locl by meem-ar.locl.fina;
+sub meem-ar.locl by meem-ar.locl.fina;
 sub noonghunna-ar by noonghunna-ar.fina;
 sub noonAfrican-ar by noonghunna-ar.fina;
 sub noonThreedotsabove-ar by noonghunna-ar.fina threedotsupabove-ar;
