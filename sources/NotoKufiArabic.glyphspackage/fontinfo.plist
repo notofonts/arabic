@@ -692,13 +692,13 @@ fontMaster = (
 {
 alignmentZones = (
 "{1272, 15}",
-"{1272, 15}",
-"{890, 15}",
+"{714, 15}",
+"{528, 15}",
 "{0, -15}",
 "{-548, -15}"
 );
 ascender = 1272;
-capHeight = 1272;
+capHeight = 714;
 custom = Thin;
 customParameters = (
 {
@@ -756,6 +756,12 @@ Location = 100;
 }
 );
 descender = -548;
+guideLines = (
+{
+locked = 1;
+position = "{-1, 1096}";
+}
+);
 horizontalStems = (
 24
 );
@@ -765,24 +771,25 @@ userData = {
 GSOffsetHorizontal = 10;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
+GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
 verticalStems = (
 25
 );
-xHeight = 890;
+xHeight = 528;
 },
 {
 alignmentZones = (
 "{1272, 15}",
-"{1272, 15}",
-"{890, 15}",
+"{714, 15}",
+"{536, 15}",
 "{0, -15}",
 "{-548, -15}"
 );
 ascender = 1272;
-capHeight = 1272;
+capHeight = 714;
 customParameters = (
 {
 name = typoAscender;
@@ -839,6 +846,12 @@ Location = 400;
 }
 );
 descender = -548;
+guideLines = (
+{
+locked = 1;
+position = "{-1, 1096}";
+}
+);
 horizontalStems = (
 85
 );
@@ -847,6 +860,7 @@ userData = {
 GSOffsetHorizontal = 26;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
+GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 42.5;
 };
@@ -854,18 +868,18 @@ verticalStems = (
 78
 );
 weightValue = 400;
-xHeight = 890;
+xHeight = 536;
 },
 {
 alignmentZones = (
 "{1272, 15}",
-"{1272, 15}",
 "{890, 15}",
+"{714, 15}",
 "{0, -15}",
 "{-548, -15}"
 );
 ascender = 1272;
-capHeight = 1272;
+capHeight = 714;
 customParameters = (
 {
 name = typoAscender;
@@ -922,16 +936,22 @@ Location = 700;
 }
 );
 descender = -548;
+guideLines = (
+{
+locked = 1;
+position = "{-1, 1096}";
+}
+);
 horizontalStems = (
 120
 );
 iconName = SemiBold;
 id = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 userData = {
-GSOffsetCapStyle = 3;
 GSOffsetHorizontal = 30;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
+GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 70.5;
 };
@@ -945,13 +965,13 @@ xHeight = 890;
 {
 alignmentZones = (
 "{1272, 15}",
-"{1272, 15}",
-"{890, 15}",
+"{714, 15}",
+"{553, 15}",
 "{0, -15}",
 "{-548, -15}"
 );
 ascender = 1272;
-capHeight = 1272;
+capHeight = 714;
 custom = Black;
 customParameters = (
 {
@@ -1009,16 +1029,22 @@ Location = 900;
 }
 );
 descender = -548;
+guideLines = (
+{
+locked = 1;
+position = "{-1, 1096}";
+}
+);
 horizontalStems = (
 148
 );
 iconName = Bold;
 id = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 userData = {
-GSOffsetCapStyle = 3;
 GSOffsetHorizontal = 34;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
+GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 89;
 };
@@ -1026,7 +1052,7 @@ verticalStems = (
 189
 );
 weightValue = 900;
-xHeight = 890;
+xHeight = 553;
 }
 );
 instances = (

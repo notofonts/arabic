@@ -5,17 +5,17 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{267, 49}";
+position = "{267, -41}";
 },
 {
 name = bottom;
-position = "{260, -254}";
+position = "{260, -344}";
 }
 );
 components = (
 {
 name = "seenabove-ar";
-transform = "{1, 0, 0, 1, 0, -1189}";
+transform = "{1, 0, 0, 1, 0, -1429}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -49,17 +49,17 @@ width = 505;
 anchors = (
 {
 name = _bottom;
-position = "{227, 40}";
+position = "{227, -60}";
 },
 {
 name = bottom;
-position = "{238, -264}";
+position = "{238, -364}";
 }
 );
 components = (
 {
 name = "seenabove-ar";
-transform = "{1, 0, 0, 1, 0, -1164}";
+transform = "{1, 0, 0, 1, 0, -1434}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -91,17 +91,17 @@ width = 436;
 anchors = (
 {
 name = _bottom;
-position = "{208, 30}";
+position = "{208, -50}";
 },
 {
 name = bottom;
-position = "{192, -268}";
+position = "{192, -348}";
 }
 );
 components = (
 {
 name = "seenabove-ar";
-transform = "{1, 0, 0, 1, 0, -731}";
+transform = "{1, 0, 0, 1, 0, -1411}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -111,17 +111,17 @@ width = 368;
 anchors = (
 {
 name = _bottom;
-position = "{280, 52}";
+position = "{280, -58}";
 },
 {
 name = bottom;
-position = "{281, -251}";
+position = "{281, -361}";
 }
 );
 components = (
 {
 name = "seenabove-ar";
-transform = "{1, 0, 0, 1, 0, -1124}";
+transform = "{1, 0, 0, 1, 0, -1444}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

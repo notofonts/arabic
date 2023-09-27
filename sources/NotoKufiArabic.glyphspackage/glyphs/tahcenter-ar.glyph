@@ -5,13 +5,13 @@ layers = (
 anchors = (
 {
 name = _center;
-position = "{89, -92}";
+position = "{89, 0}";
 }
 );
 components = (
 {
-name = "tahStop-ar";
-transform = "{1, 0, 0, 1, 0, -785}";
+name = "tahabove-ar";
+transform = "{1, 0, 0, 1, 0, -803}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -21,13 +21,13 @@ width = 177;
 anchors = (
 {
 name = _center;
-position = "{104, -84}";
+position = "{104, 0}";
 }
 );
 components = (
 {
-name = "tahStop-ar";
-transform = "{1, 0, 0, 1, 0, -785}";
+name = "tahabove-ar";
+transform = "{1, 0, 0, 1, 0, -831}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -37,13 +37,13 @@ width = 207;
 anchors = (
 {
 name = _center;
-position = "{119, -85}";
+position = "{119, 0}";
 }
 );
 components = (
 {
-name = "tahStop-ar";
-transform = "{1, 0, 0, 1, 0, -785}";
+name = "tahabove-ar";
+transform = "{1, 0, 0, 1, 0, -837}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -53,13 +53,13 @@ width = 237;
 anchors = (
 {
 name = _center;
-position = "{131, -86}";
+position = "{131, 0}";
 }
 );
 components = (
 {
-name = "tahStop-ar";
-transform = "{1, 0, 0, 1, 0, -785}";
+name = "tahabove-ar";
+transform = "{1, 0, 0, 1, 0, -849}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";

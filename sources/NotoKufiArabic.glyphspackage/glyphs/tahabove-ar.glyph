@@ -5,21 +5,22 @@ layers = (
 anchors = (
 {
 name = _top.near;
-position = "{92, 547}";
+position = "{92, 657}";
 },
 {
 name = top.far;
-position = "{92, 814}";
+position = "{92, 924}";
 },
 {
 name = top.near;
-position = "{92, 814}";
+position = "{92, 924}";
 }
 );
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = "tahStop-ar";
+transform = "{1, 0, 0, 1, 0, -390}";
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
@@ -29,21 +30,22 @@ width = 177;
 anchors = (
 {
 name = _top.near;
-position = "{104, 530}";
+position = "{104, 660}";
 },
 {
 name = top.far;
-position = "{104, 856}";
+position = "{104, 986}";
 },
 {
 name = top.near;
-position = "{104, 856}";
+position = "{104, 986}";
 }
 );
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = "tahStop-ar";
+transform = "{1, 0, 0, 1, 0, -380}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
@@ -53,21 +55,22 @@ width = 207;
 anchors = (
 {
 name = _top.near;
-position = "{122, 531}";
+position = "{122, 669}";
 },
 {
 name = top.far;
-position = "{122, 872}";
+position = "{122, 1010}";
 },
 {
 name = top.near;
-position = "{122, 872}";
+position = "{122, 1010}";
 }
 );
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = "tahStop-ar";
+transform = "{1, 0, 0, 1, 0, -382}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
@@ -77,21 +80,22 @@ width = 237;
 anchors = (
 {
 name = _top.near;
-position = "{149, 532}";
+position = "{149, 682}";
 },
 {
 name = top.far;
-position = "{149, 863}";
+position = "{149, 1013}";
 },
 {
 name = top.near;
-position = "{149, 863}";
+position = "{149, 1013}";
 }
 );
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = "tahStop-ar";
+transform = "{1, 0, 0, 1, 0, -380}";
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
