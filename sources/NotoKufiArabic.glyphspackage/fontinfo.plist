@@ -2,6 +2,11 @@
 .appVersion = "3219";
 classes = (
 {
+automatic = 1;
+code = "hamza-ar highhamza-ar rounddot-ar raisedrounddot-ar alef-ar alef-ar.fina alef-ar.fina.rlig alef-ar.short alef-ar.short.fina behDotless-ar behDotless-ar.fina behDotless-ar.medi behDotless-ar.medi.thin behDotless-ar.medi.wide behDotless-ar.init behDotless-ar.init.thin behDotless-ar.init.wide hah-ar hah-ar.alt hah-ar.fina hah-ar.fina.alt hah-ar.medi hah-ar.init dal-ar dal-ar.fina reh-ar reh-ar.fina rehLoop-ar rehLoop-ar.fina seen-ar seen-ar.fina seen-ar.medi seen-ar.init sad-ar sad-ar.fina sad-ar.medi sad-ar.init tah-ar tah-ar.fina tah-ar.medi tah-ar.init ain-ar ain-ar.alt ain-ar.fina ain-ar.fina.alt ain-ar.medi ain-ar.init fehDotless-ar fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.init qafDotless-ar qafDotless-ar.fina yehRohingya-ar yehRohingya-ar.fina kafDotless-ar kafDotless-ar.fina kaf-ar.medi kaf-ar.medi.alt kaf-ar.init kaf-ar.init.alt keheh-ar keheh-ar.alt keheh-ar.fina keheh-ar.fina.alt kafswash-ar kafswash-ar.fina kafswash-ar.medi kafswash-ar.init lam-ar lam-ar.fina lam-ar.medi lam-ar.medi.rlig lam-ar.init lam-ar.init.rlig meem-ar meem-ar.locl meem-ar.locl.fina meem-ar.fina meem-ar.medi meem-ar.init noonghunna-ar noonghunna-ar.fina heh-ar heh-ar.fina heh-ar.medi heh-ar.init hehgoal-ar hehgoal-ar.fina hehgoal-ar.medi hehgoal-ar.init ae-ar hehDoachashmee-ar hehDoachashmee-ar.fina hehDoachashmee-ar.medi waw-ar waw-ar.alt waw-ar.fina waw-ar.fina.alt wawStraight-ar alefMaksura-ar alefMaksura-ar.fina yehbarree-ar yehbarree-ar.fina verticalTail-ar kashidaHamza-ar kashidaWaw-ar tailFragment-ar rehStroke-ar rehStroke-ar.fina kashida-ar kashida-ar.init kashida-ar.wide aleflow-ar wawSmall-ar yehSmall-ar yehSmallFarsi-ar";
+name = ArabicLetters;
+},
+{
 code = "zero-ar
 one-ar
 two-ar
@@ -876,6 +881,14 @@ code = "lookup rlig_isol {
 	sub noonAfrican-ar by noonghunna-ar;
 	sub yehFarsi-ar by alefMaksura-ar;
 } rlig_isol;
+
+lookup final_unconnected_heh {
+  lookupflag IgnoreMarks;
+  sub  @ArabicLetters
+       heh-ar'
+   by  ae-ar
+  ;
+} final_unconnected_heh;
 
 lookup rlig_hah {
 	lookupflag UseMarkFilteringSet @dotcenter.hah.alt;
