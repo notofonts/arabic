@@ -2,20 +2,14 @@
 glyphname = "six-ar";
 layers = (
 {
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"272 0 LINE",
-"421 0 LINE",
-"421 674 LINE",
-"0 674 LINE",
-"0 547 LINE",
-"272 547 LINE"
-);
+alignment = -1;
+name = "six-ar.lf";
+transform = "{1, 0, 0, 1, 75, 0}";
 }
 );
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 userData = {
 assembly = "NPUSHB[ ]	/* 14 values pushed */
 5 4 4 1 7 6 5 18 2 1 71 89 2 6 
@@ -35,23 +29,17 @@ SHP[1]	/* ShiftPointByLastPoint */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 521;
+width = 572;
 },
 {
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"310 0 LINE",
-"399 0 LINE",
-"399 674 LINE",
-"0 674 LINE",
-"0 593 LINE",
-"310 593 LINE"
-);
+alignment = -1;
+name = "six-ar.lf";
+transform = "{1, 0, 0, 1, 88, 0}";
 }
 );
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 userData = {
 assembly = "NPUSHB[ ]	/* 14 values pushed */
 5 4 4 1 7 6 5 18 2 1 70 89 2 6 
@@ -71,43 +59,32 @@ SHP[1]	/* ShiftPointByLastPoint */
 IUP[1]	/* InterpolateUntPts */
 IUP[0]	/* InterpolateUntPts */";
 };
-width = 499;
+width = 572;
 },
 {
+components = (
+{
+alignment = -1;
+name = "six-ar.lf";
+transform = "{1, 0, 0, 1, 50, 0}";
+}
+);
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
-{
-closed = 1;
-nodes = (
-"353 0 LINE",
-"377 0 LINE",
-"377 674 LINE",
-"0 674 LINE",
-"0 652 LINE",
-"353 652 LINE"
-);
-}
-);
-width = 477;
+width = 570;
 },
 {
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"245 0 LINE",
-"436 0 LINE",
-"436 674 LINE",
-"0 674 LINE",
-"0 516 LINE",
-"245 516 LINE"
-);
+alignment = -1;
+name = "six-ar.lf";
+transform = "{1, 0, 0, 1, 75, 0}";
 }
 );
-width = 536;
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 586;
 }
 );
+widthMetricsKey = "=zero";
 note = uni0666;
 unicode = 0666;
 }
