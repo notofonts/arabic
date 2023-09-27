@@ -428,45 +428,14 @@ features = (
 {
 automatic = 1;
 code = "feature locl;
+feature rtlm;
 feature init;
 feature medi;
 feature fina;
+feature tnum;
+feature pnum;
 ";
 name = aalt;
-},
-{
-code = "script arab; # Arabic
-  language SND ; # Sindhi
-	sub [sixFarsi-ar sevenFarsi-ar
-		 meem-ar sindhipostpositionmen-ar
-		 comma-ar semicolon-ar]
-	 by [six-ar sevenFarsi-ar.locl
-		 meem-ar.locl sindhipostpositionmen-ar.locl
-		 commareversed semicolonreversed]
-	;
-
-  language URD ; # Urdu
-    lookup locl_arabURD_arabKSH_1 {
-      sub [fourFarsi-ar sixFarsi-ar sevenFarsi-ar]
-       by [fourFarsi-ar.locl six-ar sevenFarsi-ar.locl]
-      ;
-    } locl_arabURD_arabKSH_1;
-
-    language KSH ; # Kashmiri
-    lookup locl_arabURD_arabKSH_1;
-
-	language RHG;
-	sub [fourFarsi-ar sixFarsi-ar sevenFarsi-ar]
-	 by [four-ar six-ar sevenFarsi-ar.locl]
-	;
-";
-name = locl;
-},
-{
-automatic = 1;
-code = "sub radical by radical.rtlm;
-";
-name = rtlm;
 },
 {
 code = "
@@ -475,11 +444,11 @@ lookup liaadama { # See issue #26
   sub lam-ar kashida-ar' hamzaabove-ar' alef-ar by hamzaabove-ar.between;
 } liaadama;
 
-lookup ccmp_arab_1 {
+lookup abovemarkligatures {
   lookupflag 0;
   sub kasratan-ar shadda-ar by shadda_kasra-ar;
   sub shadda-ar kasratan-ar by shadda_kasratan-ar;
-} ccmp_arab_1;
+} abovemarkligatures;
 
 lookup decomposition {
   # Alef family
@@ -758,6 +727,40 @@ lookup decomposition2 {
 name = ccmp;
 },
 {
+code = "script arab; # Arabic
+  language SND ; # Sindhi
+	sub [sixFarsi-ar sevenFarsi-ar
+		 meem-ar sindhipostpositionmen-ar
+		 comma-ar semicolon-ar]
+	 by [six-ar sevenFarsi-ar.locl
+		 meem-ar.locl sindhipostpositionmen-ar.locl
+		 commareversed semicolonreversed]
+	;
+
+  language URD ; # Urdu
+    lookup locl_arabURD_arabKSH_1 {
+      sub [fourFarsi-ar sixFarsi-ar sevenFarsi-ar]
+       by [fourFarsi-ar.locl six-ar sevenFarsi-ar.locl]
+      ;
+    } locl_arabURD_arabKSH_1;
+
+    language KSH ; # Kashmiri
+    lookup locl_arabURD_arabKSH_1;
+
+	language RHG;
+	sub [fourFarsi-ar sixFarsi-ar sevenFarsi-ar]
+	 by [four-ar six-ar sevenFarsi-ar.locl]
+	;
+";
+name = locl;
+},
+{
+automatic = 1;
+code = "sub radical by radical.rtlm;
+";
+name = rtlm;
+},
+{
 code = "sub ain-ar by ain-ar.init;
 sub ain-ar.alt by ain-ar.init;
 sub alefMaksura-ar by behDotless-ar.init;
@@ -898,13 +901,13 @@ lookup rlig_hah {
 	;
 } rlig_hah;
 
-lookup rlig_wide_beh {
+lookup wide_beh {
   lookupflag UseMarkFilteringSet @widemarks;
   sub [behDotless-ar.init behDotless-ar.medi]'
        @widemarks
    by [behDotless-ar.init.wide behDotless-ar.medi.wide]
   ;
-} rlig_wide_beh;
+} wide_beh;
 
 lookup kaf_dots {
   lookupflag 0;
