@@ -881,13 +881,6 @@ lookup kaf_dots {
   ;
 } kaf_dots;
 
-lookup rlig_arab_0 {
-	lookupflag IgnoreMarks RightToLeft;
-	script arab;
-	sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar heh-ar.fina by allah-ar;
-	sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar hehgoal-ar.fina by allah-ar;
-} rlig_arab_0;
-
 lookup lam_alef {
   lookupflag IgnoreMarks;
   sub  lam-ar.init' lookup lam_alef_isol
@@ -957,9 +950,17 @@ lookup subtending_marks {
 name = rlig;
 },
 {
+code = "lookup allah {
+lookupflag UseMarkFilteringSet [shadda-ar alefabove-ar];
+  sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar heh-ar.fina by allah-ar;
+  sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar hehgoal-ar.fina by allah-ar;
+} allah;";
+name = liga;
+},
+{
 code = "lookup dlig_RTL {
-lookupflag IgnoreMarks RightToLeft;
-	sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;
+lookupflag IgnoreMarks;
+	sub lam-ar.init lam-ar.medi heh-ar.fina by allah-ar.2;
 } dlig_RTL;
 ";
 name = dlig;
