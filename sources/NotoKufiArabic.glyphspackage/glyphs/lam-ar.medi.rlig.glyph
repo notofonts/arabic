@@ -1,0 +1,194 @@
+{
+glyphname = "lam-ar.medi.rlig";
+layers = (
+{
+anchors = (
+{
+name = bar;
+position = "{159, 489}";
+},
+{
+name = bottom;
+position = "{190, -85}";
+},
+{
+name = top.between;
+position = "{-19, 691}";
+},
+{
+name = top.far;
+position = "{152, 826}";
+},
+{
+name = top.near;
+position = "{149, 825}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"-327 120 LINE",
+"-327 0 LINE",
+"382 0 LINE SMOOTH",
+"385 0 OFFCURVE",
+"387 2 OFFCURVE",
+"387 5 CURVE SMOOTH",
+"387 116 LINE SMOOTH",
+"387 119 OFFCURVE",
+"385 120 OFFCURVE",
+"382 120 CURVE SMOOTH",
+"252 120 LINE",
+"252 760 LINE",
+"103 760 LINE",
+"103 120 LINE"
+);
+}
+);
+width = 377;
+},
+{
+anchors = (
+{
+name = bar;
+position = "{158, 513}";
+},
+{
+name = bottom;
+position = "{207, -71}";
+},
+{
+name = top.between;
+position = "{11, 654}";
+},
+{
+name = top.far;
+position = "{171, 836}";
+},
+{
+name = top.near;
+position = "{160, 835}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"-317 78 LINE",
+"-317 0 LINE",
+"352 0 LINE SMOOTH",
+"355 0 OFFCURVE",
+"357 2 OFFCURVE",
+"357 5 CURVE SMOOTH",
+"357 74 LINE SMOOTH",
+"357 77 OFFCURVE",
+"355 78 OFFCURVE",
+"352 78 CURVE SMOOTH",
+"222 78 LINE",
+"222 760 LINE",
+"133 760 LINE",
+"133 78 LINE"
+);
+}
+);
+width = 347;
+},
+{
+anchors = (
+{
+name = bar;
+position = "{164, 532}";
+},
+{
+name = bottom;
+position = "{224, -57}";
+},
+{
+name = top.between;
+position = "{31, 654}";
+},
+{
+name = top.far;
+position = "{166, 830}";
+},
+{
+name = top.near;
+position = "{171, 845}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"-307 24 LINE",
+"-307 0 LINE",
+"322 0 LINE SMOOTH",
+"325 0 OFFCURVE",
+"327 2 OFFCURVE",
+"327 5 CURVE SMOOTH",
+"327 20 LINE SMOOTH",
+"327 23 OFFCURVE",
+"325 24 OFFCURVE",
+"322 24 CURVE SMOOTH",
+"192 24 LINE",
+"192 760 LINE",
+"168 760 LINE",
+"168 24 LINE"
+);
+}
+);
+width = 317;
+},
+{
+anchors = (
+{
+name = bar;
+position = "{173, 472}";
+},
+{
+name = bottom;
+position = "{178, -94}";
+},
+{
+name = top.between;
+position = "{-33, 722}";
+},
+{
+name = top.far;
+position = "{155, 817}";
+},
+{
+name = top.near;
+position = "{149, 818}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"-334 148 LINE",
+"-334 0 LINE",
+"402 0 LINE SMOOTH",
+"405 0 OFFCURVE",
+"407 2 OFFCURVE",
+"407 5 CURVE SMOOTH",
+"407 144 LINE SMOOTH",
+"407 147 OFFCURVE",
+"405 148 OFFCURVE",
+"402 148 CURVE SMOOTH",
+"274 148 LINE",
+"274 760 LINE",
+"83 760 LINE",
+"83 148 LINE"
+);
+}
+);
+width = 397;
+}
+);
+note = uni06440627.fina;
+}
