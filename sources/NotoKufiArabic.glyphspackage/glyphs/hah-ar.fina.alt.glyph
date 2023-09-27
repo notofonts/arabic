@@ -81,35 +81,6 @@ nodes = (
 );
 }
 );
-userData = {
-assembly = "NPUSHB[ ]	/* 31 values pushed */
-38 3 34 8 8 41 16 3 4 42 27 43 8 34 72 89 8 15 8 15 19 31 18 19 13 70 89 19 16 0 28 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MIAP[1]	/* MoveIndirectAbsPt */
-MIAP[1]	/* MoveIndirectAbsPt */
-CALL[ ]	/* CallFunction */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-RTG[ ]	/* RoundToGrid */
-MIAP[1]	/* MoveIndirectAbsPt */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-MDAP[1]	/* MoveDirectAbsPt */
-MDAP[1]	/* MoveDirectAbsPt */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP2[ ]	/* SetRefPoint2 */
-SLOOP[ ]	/* SetLoopVariable */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
 width = 645;
 },
 {
@@ -192,38 +163,6 @@ nodes = (
 );
 }
 );
-userData = {
-assembly = "NPUSHB[ ]	/* 35 values pushed */
-39 3 35 7 21 7 41 16 3 5 42 28 43 35 7 31 19 31 25 70 89 31 18 19 12 70 89 19 16 0 41 70 89 0 28 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MIAP[1]	/* MoveIndirectAbsPt */
-CALL[ ]	/* CallFunction */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-RTG[ ]	/* RoundToGrid */
-MIAP[1]	/* MoveIndirectAbsPt */
-CALL[ ]	/* CallFunction */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-RTG[ ]	/* RoundToGrid */
-MIAP[1]	/* MoveIndirectAbsPt */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP2[ ]	/* SetRefPoint2 */
-SLOOP[ ]	/* SetLoopVariable */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
 width = 614;
 },
 {

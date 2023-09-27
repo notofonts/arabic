@@ -55,30 +55,6 @@ nodes = (
 );
 }
 );
-userData = {
-assembly = "NPUSHB[ ]	/* 19 values pushed */
-18 21 11 4 21 4 25 24 7 7 0 19 15 0 14 70 89 0 27 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MIAP[1]	/* MoveIndirectAbsPt */
-CALL[ ]	/* CallFunction */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-RTG[ ]	/* RoundToGrid */
-MIAP[1]	/* MoveIndirectAbsPt */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-MDAP[1]	/* MoveDirectAbsPt */
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
 width = 761;
 },
 {
@@ -135,30 +111,6 @@ nodes = (
 );
 }
 );
-userData = {
-assembly = "NPUSHB[ ]	/* 19 values pushed */
-8 3 15 18 3 18 22 23 5 5 0 16 15 0 11 70 89 0 27 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MIAP[1]	/* MoveIndirectAbsPt */
-CALL[ ]	/* CallFunction */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-RTG[ ]	/* RoundToGrid */
-MIAP[1]	/* MoveIndirectAbsPt */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-MDAP[1]	/* MoveDirectAbsPt */
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
 width = 672;
 },
 {

@@ -12,44 +12,6 @@ transform = "{1, 0, 0, 1, 434, 69}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-userData = {
-assembly = "NPUSHB[ ]	/* 37 values pushed */
-13 16 50 44 38 32 26 20 9 3 3 20 32 44 16 5 54 53 6 6 0 14 15 41 29 17 47 35 23 0 64 0 12 70 89 0 18 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MIAP[1]	/* MoveIndirectAbsPt */
-CALL[ ]	/* CallFunction */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-SMD[ ]	/* SetMinimumDistance */
-RTG[ ]	/* RoundToGrid */
-SRP0[ ]	/* SetRefPoint0 */
-MDRP[11110]	/* MoveDirectRelPt */
-SHP[0]	/* ShiftPointByLastPoint */
-SHP[0]	/* ShiftPointByLastPoint */
-MDRP[01101]	/* MoveDirectRelPt */
-SHP[0]	/* ShiftPointByLastPoint */
-SHP[0]	/* ShiftPointByLastPoint */
-MIAP[1]	/* MoveIndirectAbsPt */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-MDAP[1]	/* MoveDirectAbsPt */
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-SLOOP[ ]	/* SetLoopVariable */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
 width = 867;
 },
 {
@@ -63,48 +25,6 @@ transform = "{1, 0, 0, 1, 391, 37}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-userData = {
-assembly = "NPUSHB[ ]	/* 41 values pushed */
-13 16 50 44 38 32 26 20 9 3 3 20 32 44 16 5 54 53 29 35 35 47 17 23 23 41 47 16 64 7 7 15 16 16 13 70 89 16 18 15 15 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MIAP[1]	/* MoveIndirectAbsPt */
-MIAP[1]	/* MoveIndirectAbsPt */
-CALL[ ]	/* CallFunction */
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-IP[ ]	/* InterpolatePts */
-RTG[ ]	/* RoundToGrid */
-MDAP[1]	/* MoveDirectAbsPt */
-SMD[ ]	/* SetMinimumDistance */
-SRP0[ ]	/* SetRefPoint0 */
-MDRP[11110]	/* MoveDirectRelPt */
-MDRP[01101]	/* MoveDirectRelPt */
-SHP[1]	/* ShiftPointByLastPoint */
-MDAP[1]	/* MoveDirectAbsPt */
-MDRP[01101]	/* MoveDirectRelPt */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-MDAP[1]	/* MoveDirectAbsPt */
-MDRP[01101]	/* MoveDirectRelPt */
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-SLOOP[ ]	/* SetLoopVariable */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
 width = 778;
 },
 {

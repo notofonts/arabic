@@ -19,17 +19,6 @@ transform = "{1, 0, 0, 1, 0, -804}";
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-userData = {
-assembly = "PUSHB[ ]	/* 4 values pushed */
-5 3 7 1 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MDAP[1]	/* MoveDirectAbsPt */
-SHP[1]	/* ShiftPointByLastPoint */
-MDRP[01100]	/* MoveDirectRelPt */
-SHP[0]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
 width = 206;
 },
 {
@@ -50,17 +39,6 @@ transform = "{1, 0, 0, 1, 0, -804}";
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-userData = {
-assembly = "PUSHB[ ]	/* 7 values pushed */
-7 6 4 5 4 3 1 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MDAP[1]	/* MoveDirectAbsPt */
-MDRP[01100]	/* MoveDirectRelPt */
-SLOOP[ ]	/* SetLoopVariable */
-IP[ ]	/* InterpolatePts */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
 width = 164;
 },
 {

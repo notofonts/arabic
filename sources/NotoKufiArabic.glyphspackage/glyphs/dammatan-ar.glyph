@@ -64,26 +64,6 @@ nodes = (
 );
 }
 );
-userData = {
-assembly = "NPUSHB[ ]	/* 19 values pushed */
-4 23 7 7 0 29 16 9 5 96 0 1 63 0 1 32 0 1 0 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MDAP[1]	/* MoveDirectAbsPt */
-DELTAP1[ ]	/* DeltaExceptionP1 */
-DELTAP1[ ]	/* DeltaExceptionP1 */
-DELTAP1[ ]	/* DeltaExceptionP1 */
-SHP[0]	/* ShiftPointByLastPoint */
-MDRP[01101]	/* MoveDirectRelPt */
-MDRP[11100]	/* MoveDirectRelPt */
-MDRP[01101]	/* MoveDirectRelPt */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-MDAP[1]	/* MoveDirectAbsPt */
-IP[ ]	/* InterpolatePts */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
 width = 370;
 },
 {
@@ -149,26 +129,6 @@ nodes = (
 );
 }
 );
-userData = {
-assembly = "NPUSHB[ ]	/* 21 values pushed */
-3 24 6 6 0 29 112 17 1 47 17 1 17 9 63 0 1 32 0 1 0 
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MDAP[1]	/* MoveDirectAbsPt */
-DELTAP1[ ]	/* DeltaExceptionP1 */
-DELTAP1[ ]	/* DeltaExceptionP1 */
-MDRP[01101]	/* MoveDirectRelPt */
-MDRP[11100]	/* MoveDirectRelPt */
-DELTAP1[ ]	/* DeltaExceptionP1 */
-DELTAP1[ ]	/* DeltaExceptionP1 */
-MDRP[01101]	/* MoveDirectRelPt */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-MDAP[1]	/* MoveDirectAbsPt */
-IP[ ]	/* InterpolatePts */
-SHP[1]	/* ShiftPointByLastPoint */
-IUP[1]	/* InterpolateUntPts */
-IUP[0]	/* InterpolateUntPts */";
-};
 width = 351;
 },
 {
