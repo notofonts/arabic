@@ -2,6 +2,12 @@
 glyphname = "endofayah-ar";
 layers = (
 {
+anchors = (
+{
+name = digits;
+position = "{428, 143}";
+}
+);
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 paths = (
 {
@@ -259,6 +265,12 @@ IUP[0]	/* InterpolateUntPts */";
 width = 1123;
 },
 {
+anchors = (
+{
+name = digits;
+position = "{428, 143}";
+}
+);
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 paths = (
 {
@@ -523,6 +535,12 @@ IUP[0]	/* InterpolateUntPts */";
 width = 1123;
 },
 {
+anchors = (
+{
+name = digits;
+position = "{428, 143}";
+}
+);
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 paths = (
 {
@@ -724,6 +742,12 @@ nodes = (
 width = 1123;
 },
 {
+anchors = (
+{
+name = digits;
+position = "{428, 143}";
+}
+);
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 paths = (
 {

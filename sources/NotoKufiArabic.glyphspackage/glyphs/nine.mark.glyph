@@ -1,0 +1,85 @@
+{
+glyphname = nine.mark;
+layers = (
+{
+anchors = (
+{
+name = _digits;
+position = "{0, 0}";
+},
+{
+name = digits;
+position = "{449, 0}";
+}
+);
+components = (
+{
+alignment = 1;
+name = nine;
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 570;
+},
+{
+anchors = (
+{
+name = _digits;
+position = "{0, 0}";
+},
+{
+name = digits;
+position = "{499, 0}";
+}
+);
+components = (
+{
+alignment = 1;
+name = nine;
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 572;
+},
+{
+anchors = (
+{
+name = _digits;
+position = "{0, 0}";
+},
+{
+name = digits;
+position = "{499, 0}";
+}
+);
+components = (
+{
+alignment = 1;
+name = nine;
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 572;
+},
+{
+anchors = (
+{
+name = _digits;
+position = "{0, 0}";
+},
+{
+name = digits;
+position = "{512, 0}";
+}
+);
+components = (
+{
+alignment = 1;
+name = nine;
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 586;
+}
+);
+}

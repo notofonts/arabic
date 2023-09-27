@@ -2,6 +2,146 @@
 .appVersion = "3219";
 classes = (
 {
+code = "zero-ar
+one-ar
+two-ar
+three-ar
+four-ar
+five-ar
+six-ar
+seven-ar
+eight-ar
+nine-ar
+# Persian
+zeroFarsi-ar
+twoFarsi-ar
+fourFarsi-ar
+fiveFarsi-ar
+sixFarsi-ar
+sevenFarsi-ar
+# sindi/urdu
+fourFarsi-ar.locl
+sevenFarsi-ar.locl
+# Latin
+zero
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+";
+name = digits;
+},
+{
+code = "zero-ar.mark
+one-ar.mark
+two-ar.mark
+three-ar.mark
+four-ar.mark
+five-ar.mark
+six-ar.mark
+seven-ar.mark
+eight-ar.mark
+nine-ar.mark
+#
+zero-ar.mark
+two-ar.mark
+fourFarsi-ar.mark
+fiveFarsi-ar.mark
+sixFarsi-ar.mark
+seven-ar.mark
+#
+fourFarsi-ar.mark.locl
+sevenFarsi-ar.mark.locl
+# Latin
+zero.mark
+one.mark
+two.mark
+three.mark
+four.mark
+five.mark
+six.mark
+seven.mark
+eight.mark
+nine.mark
+";
+name = digits.mark;
+},
+{
+code = "zero-ar.small
+one-ar.small
+two-ar.small
+three-ar.small
+four-ar.small
+five-ar.small
+six-ar.small
+seven-ar.small
+eight-ar.small
+nine-ar.small
+#
+zero-ar.small
+two-ar.small
+fourFarsi-ar.small
+fiveFarsi-ar.small
+sixFarsi-ar.small
+seven-ar.small
+#
+fourFarsi-ar.small.locl
+sevenFarsi-ar.small.locl
+# Latin
+zero.small
+one.small
+two.small
+three.small
+four.small
+five.small
+six.small
+seven.small
+eight.small
+nine.small
+";
+name = digits.small;
+},
+{
+code = "zero-ar.medium
+one-ar.medium
+two-ar.medium
+three-ar.medium
+four-ar.medium
+five-ar.medium
+six-ar.medium
+seven-ar.medium
+eight-ar.medium
+nine-ar.medium
+#
+zero-ar.medium
+two-ar.medium
+fourFarsi-ar.medium
+fiveFarsi-ar.medium
+sixFarsi-ar.medium
+seven-ar.medium
+#
+fourFarsi-ar.medium.locl
+sevenFarsi-ar.medium.locl
+# Latin
+zero.medium
+one.medium
+two.medium
+three.medium
+four.medium
+five.medium
+six.medium
+seven.medium
+eight.medium
+nine.medium
+";
+name = digits.medium;
+},
+{
 code = "fathatan-ar
 shadda-ar
 hamzaabove-ar
@@ -98,6 +238,30 @@ code = "twodotshorizontalabove-ar.small
 threedotsupabove-ar.small
 ";
 name = dotdiagonal.small;
+},
+{
+code = "year-ar
+samvat-ar
+";
+name = substending.4;
+},
+{
+code = "@substending.4
+number-ar
+pagenumber-ar
+";
+name = substending.3;
+},
+{
+code = "@substending.3
+footnotemarker-ar
+";
+name = substending.2;
+},
+{
+code = "@substending.2
+";
+name = substending.1;
 }
 );
 copyright = "Copyright 2019-2022 Google LLC. All Rights Reserved.";
@@ -194,6 +358,49 @@ code = "lookup dotcenter_below {
 } dotcenter_below;
 ";
 name = Prefix;
+},
+{
+code = "lookup mark_digits {
+	sub @digits by @digits.mark;
+} mark_digits;
+
+lookup medium_digits {
+	sub @digits by @digits.medium;
+} medium_digits;
+
+lookup small_digits {
+	sub @digits by @digits.small;
+} small_digits;
+
+lookup subtending_2 {
+	sub samvat-ar				by samvat-ar.2;
+	sub year-ar					by year-ar.2;
+	sub pagenumber-ar			by pagenumber-ar.2;
+	sub endofayah-ar			by endofayah-ar.2;
+	sub disputedendofayah-ar	by disputedendofayah-ar.2;
+	sub footnotemarker-ar		by footnotemarker-ar.2;
+	sub number-ar				by number-ar.2;
+	sub pound-ar				by pound-ar.2;
+	sub piastre-ar				by piastre-ar.2;
+} subtending_2;
+
+lookup subtending_3 {
+	sub samvat-ar				by samvat-ar.3;
+	sub year-ar					by year-ar.3;
+	sub pagenumber-ar			by pagenumber-ar.3;
+	sub endofayah-ar			by endofayah-ar.3;
+	sub disputedendofayah-ar	by disputedendofayah-ar.3;
+	sub number-ar				by number-ar.3;
+	sub pound-ar				by pound-ar.3;
+	sub piastre-ar				by piastre-ar.3;
+} subtending_3;
+
+lookup subtending_4 {
+	sub samvat-ar				by samvat-ar.4;
+	sub year-ar					by year-ar.4;
+} subtending_4;
+";
+name = Substending;
 }
 );
 features = (
@@ -674,8 +881,61 @@ lookup rlig_arabic_0 {
 	sub lam-ar.medi [alef-ar.fina alef-ar.short.fina] by lam_alef-ar.fina;
 } rlig_arabic_0;
 
-script arab;
-lookup rlig_arabic_0;
+lookup subtending_marks {
+ lookupflag 0;
+
+ sub  [piastre-ar pound-ar]' lookup subtending_3
+      @digits' lookup mark_digits
+      @digits' lookup mark_digits
+      @digits' lookup mark_digits
+ ;
+
+ sub  [piastre-ar pound-ar]' lookup subtending_2
+      @digits' lookup mark_digits
+      @digits' lookup mark_digits
+ ;
+	     
+ sub  [piastre-ar pound-ar]'
+      @digits' lookup mark_digits
+ ;
+
+ sub  [endofayah-ar disputedendofayah-ar]' lookup subtending_3
+      @digits' lookup small_digits
+      @digits' lookup small_digits
+      @digits' lookup small_digits
+ ;
+
+ sub  [endofayah-ar disputedendofayah-ar]' lookup subtending_2
+      @digits' lookup small_digits
+      @digits' lookup small_digits
+ ;
+
+ sub  [endofayah-ar disputedendofayah-ar]'
+      @digits' lookup small_digits
+ ;
+
+ sub  @substending.4' lookup subtending_4
+      @digits' lookup medium_digits
+      @digits' lookup medium_digits
+      @digits' lookup medium_digits
+      @digits' lookup medium_digits
+ ;
+	     
+ sub  @substending.3' lookup subtending_3
+      @digits' lookup medium_digits
+      @digits' lookup medium_digits
+      @digits' lookup medium_digits
+ ;
+
+ sub  @substending.2' lookup subtending_2
+      @digits' lookup medium_digits
+      @digits' lookup medium_digits
+ ;
+
+ sub  @substending.1'
+      @digits' lookup medium_digits
+ ;
+} subtending_marks;
 ";
 name = rlig;
 },
@@ -919,8 +1179,8 @@ xHeight = 536;
 {
 alignmentZones = (
 "{1272, 15}",
-"{890, 15}",
 "{714, 15}",
+"{546, 15}",
 "{0, -15}",
 "{-548, -15}"
 );
@@ -1006,7 +1266,7 @@ verticalStems = (
 );
 weight = Bold;
 weightValue = 700;
-xHeight = 890;
+xHeight = 546;
 },
 {
 alignmentZones = (

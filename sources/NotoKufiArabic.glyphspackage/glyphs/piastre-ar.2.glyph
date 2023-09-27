@@ -1,0 +1,95 @@
+{
+glyphname = "piastre-ar.2";
+layers = (
+{
+anchors = (
+{
+name = digits;
+position = "{278, 0}";
+}
+);
+components = (
+{
+alignment = 1;
+name = "piastre-ar";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 1650;
+},
+{
+anchors = (
+{
+name = digits;
+position = "{278, 0}";
+}
+);
+components = (
+{
+alignment = 1;
+name = "piastre-ar";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 1650;
+},
+{
+anchors = (
+{
+name = digits;
+position = "{278, 0}";
+}
+);
+components = (
+{
+alignment = 1;
+name = "piastre-ar";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 1650;
+},
+{
+anchors = (
+{
+name = digits;
+position = "{258, 0}";
+}
+);
+components = (
+{
+alignment = 1;
+name = "piastre-ar";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 1650;
+},
+{
+associatedMasterId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+components = (
+{
+alignment = 1;
+name = "piastre-ar";
+}
+);
+layerId = "89AF6A39-4F7F-4BA2-A52F-7324B7E4C4C3";
+name = "20 Sep 23 at 17:34";
+width = 1650;
+},
+{
+associatedMasterId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+components = (
+{
+alignment = 1;
+name = "piastre-ar";
+}
+);
+layerId = "D3A890F3-CE33-4443-B765-CC1D7E0FED67";
+name = "20 Sep 23 at 17:43";
+width = 1650;
+}
+);
+leftMetricsKey = "=0";
+rightMetricsKey = "=0";
+}
