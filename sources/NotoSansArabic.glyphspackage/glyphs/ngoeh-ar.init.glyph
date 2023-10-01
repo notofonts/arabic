@@ -4,26 +4,31 @@ layers = (
 {
 components = (
 {
-name = "gaf-ar.init";
+name = "kaf-ar.init";
+},
+{
+name = "gafsarkashabove-ar";
+transform = "{1, 0, 0, 1, -86, 0}";
 },
 {
 name = "twodotshorizontalabove-ar.diagonal";
-transform = "{1, 0, 0, 1, -27, -9}";
+transform = "{1, 0, 0, 1, -53, -39}";
 }
 );
 layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
-width = 317;
+width = 322;
 },
 {
 components = (
 {
-alignment = -1;
-name = "gaf-ar.init";
+name = "kaf-ar.init";
 },
 {
-alignment = -1;
+name = "gafsarkashabove-ar";
+},
+{
 name = "twodotshorizontalabove-ar.diagonal";
-transform = "{0.7, 0, 0, 0.7, -92, 443}";
+transform = "{1, 0, 0, 1, -89, 251}";
 }
 );
 layerId = "A7E21968-E455-4749-BB19-379F5EDC3B9B";
@@ -32,13 +37,14 @@ width = 406;
 {
 components = (
 {
-alignment = -1;
-name = "gaf-ar.init";
+name = "kaf-ar.init";
 },
 {
-alignment = -1;
+name = "gafsarkashabove-ar";
+},
+{
 name = "twodotshorizontalabove-ar.diagonal";
-transform = "{1, 0, 0, 1, -1, -35}";
+transform = "{1, 0, 0, 1, 9, -65}";
 }
 );
 layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
@@ -47,13 +53,14 @@ width = 328;
 {
 components = (
 {
-alignment = -1;
-name = "gaf-ar.init";
+name = "kaf-ar.init";
 },
 {
-alignment = -1;
+name = "gafsarkashabove-ar";
+},
+{
 name = "twodotshorizontalabove-ar.diagonal";
-transform = "{0.806, 0, 0, 0.806, -62, 305}";
+transform = "{1, 0, 0, 1, -65, 157}";
 }
 );
 guideLines = (
@@ -67,13 +74,14 @@ width = 388;
 {
 components = (
 {
-alignment = -1;
-name = "gaf-ar.init";
+name = "kaf-ar.init";
 },
 {
-alignment = -1;
+name = "gafsarkashabove-ar";
+},
+{
 name = "twodotshorizontalabove-ar.diagonal";
-transform = "{1, 0, 0, 1, 14, -33}";
+transform = "{1, 0, 0, 1, 24, -73}";
 }
 );
 layerId = "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3";
@@ -82,11 +90,12 @@ width = 375;
 {
 components = (
 {
-alignment = -1;
-name = "gaf-ar.init";
+name = "kaf-ar.init";
 },
 {
-alignment = -1;
+name = "gafsarkashabove-ar";
+},
+{
 name = "twodotshorizontalabove-ar.diagonal";
 transform = "{1, 0, 0, 1, -5, -28}";
 }
@@ -97,13 +106,14 @@ width = 412;
 {
 components = (
 {
-alignment = -1;
-name = "gaf-ar.init";
+name = "kaf-ar.init";
 },
 {
-alignment = -1;
+name = "gafsarkashabove-ar";
+},
+{
 name = "twodotshorizontalabove-ar.diagonal";
-transform = "{0.7, 0, 0, 0.7, -38, 444}";
+transform = "{1, 0, 0, 1, -93, 187}";
 }
 );
 guideLines = (
@@ -117,17 +127,18 @@ width = 454;
 {
 components = (
 {
-alignment = -1;
-name = "gaf-ar.init";
+name = "kaf-ar.init";
 },
 {
-alignment = -1;
+name = "gafsarkashabove-ar";
+},
+{
 name = "twodotshorizontalabove-ar.diagonal";
-transform = "{0.7, 0, 0, 0.7, -28, 493}";
+transform = "{1, 0, 0, 1, -66, 301}";
 }
 );
 layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
-width = 485;
+width = 493;
 }
 );
 unicode = FB9C;

@@ -4,12 +4,14 @@ layers = (
 {
 components = (
 {
-alignment = -1;
-name = "dad-ar";
+name = "sad-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 755, -99}";
+},
+{
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 636, -10}";
 }
 );
@@ -19,12 +21,14 @@ width = 1057;
 {
 components = (
 {
-alignment = -1;
-name = "dad-ar";
+name = "sad-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 906, 37}";
+},
+{
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 760, -13}";
 }
 );
@@ -34,12 +38,14 @@ width = 1281;
 {
 components = (
 {
-alignment = -1;
-name = "dad-ar";
+name = "sad-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 749, -138}";
+},
+{
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 633, -12}";
 }
 );
@@ -49,12 +55,14 @@ width = 1013;
 {
 components = (
 {
-alignment = -1;
-name = "dad-ar";
+name = "sad-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 853, -14}";
+},
+{
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 717, -30}";
 }
 );
@@ -64,12 +72,14 @@ width = 1197;
 {
 components = (
 {
-alignment = -1;
-name = "dad-ar";
+name = "sad-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 989, -138}";
+},
+{
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 838, -12}";
 }
 );
@@ -79,12 +89,14 @@ width = 1283;
 {
 components = (
 {
-alignment = -1;
-name = "dad-ar";
+name = "sad-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 979, -89}";
+},
+{
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 828, -11}";
 }
 );
@@ -94,12 +106,14 @@ width = 1306;
 {
 components = (
 {
-alignment = -1;
-name = "dad-ar";
+name = "sad-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 1035, -14}";
+},
+{
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 856, -10}";
 }
 );
@@ -109,12 +123,14 @@ width = 1422;
 {
 components = (
 {
-alignment = -1;
-name = "dad-ar";
+name = "sad-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 1092, 31}";
+},
+{
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 883, -10}";
 }
 );

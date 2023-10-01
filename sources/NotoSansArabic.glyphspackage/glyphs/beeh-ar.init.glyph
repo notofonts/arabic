@@ -4,12 +4,10 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = "behDotless-ar.init";
 },
 {
-alignment = -1;
-name = "twodotsverticalbelowSymbol-ar";
+name = "twodotsverticalbelow-ar";
 transform = "{1, 0, 0, 1, 31, -6}";
 }
 );
@@ -22,9 +20,8 @@ components = (
 name = "behDotless-ar.init";
 },
 {
-alignment = -1;
-name = "twodotsverticalbelowSymbol-ar";
-transform = "{1, 0, 0, 1, 36, -5}";
+name = "twodotsverticalbelow-ar";
+transform = "{1, 0, 0, 1, 6, -3}";
 }
 );
 layerId = "A7E21968-E455-4749-BB19-379F5EDC3B9B";
@@ -33,12 +30,10 @@ width = 285;
 {
 components = (
 {
-alignment = -1;
 name = "behDotless-ar.init";
 },
 {
-alignment = -1;
-name = "twodotsverticalbelowSymbol-ar";
+name = "twodotsverticalbelow-ar";
 transform = "{1, 0, 0, 1, 8, -5}";
 }
 );
@@ -51,9 +46,8 @@ components = (
 name = "behDotless-ar.init";
 },
 {
-alignment = -1;
-name = "twodotsverticalbelowSymbol-ar";
-transform = "{1, 0, 0, 1, 33, -5}";
+name = "twodotsverticalbelow-ar";
+transform = "{1, 0, 0, 1, 14, -9}";
 }
 );
 layerId = "08F1692B-9525-48D2-9816-1987B1C44D50";
@@ -62,12 +56,10 @@ width = 259;
 {
 components = (
 {
-alignment = -1;
 name = "behDotless-ar.init";
 },
 {
-alignment = -1;
-name = "twodotsverticalbelowSymbol-ar";
+name = "twodotsverticalbelow-ar";
 transform = "{1, 0, 0, 1, 22, -5}";
 }
 );
@@ -85,12 +77,10 @@ width = 249;
 {
 components = (
 {
-alignment = -1;
 name = "behDotless-ar.init";
 },
 {
-alignment = -1;
-name = "twodotsverticalbelowSymbol-ar";
+name = "twodotsverticalbelow-ar";
 transform = "{1, 0, 0, 1, 31, -6}";
 }
 );
@@ -105,12 +95,10 @@ width = 269;
 {
 components = (
 {
-alignment = -1;
 name = "behDotless-ar.init";
 },
 {
-alignment = -1;
-name = "twodotsverticalbelowSymbol-ar";
+name = "twodotsverticalbelow-ar";
 transform = "{1, 0, 0, 1, 32, -2}";
 }
 );
@@ -120,12 +108,10 @@ width = 317;
 {
 components = (
 {
-alignment = -1;
 name = "behDotless-ar.init";
 },
 {
-alignment = -1;
-name = "twodotsverticalbelowSymbol-ar";
+name = "twodotsverticalbelow-ar";
 transform = "{1, 0, 0, 1, 23, -5}";
 }
 );

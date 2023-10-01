@@ -4,13 +4,15 @@ layers = (
 {
 components = (
 {
-alignment = -1;
-name = "gaf-ar";
+name = "keheh-ar";
 },
 {
-alignment = -1;
+name = "gafsarkashabove-ar";
+transform = "{1, 0, 0, 1, 333, 0}";
+},
+{
 name = "threedotsupabove-ar.diagonal";
-transform = "{1, 0, 0, 1, 387, -11}";
+transform = "{1, 0, 0, 1, 356, -41}";
 }
 );
 guideLines = (
@@ -24,13 +26,15 @@ width = 758;
 {
 components = (
 {
-alignment = -1;
-name = "gaf-ar";
+name = "keheh-ar";
 },
 {
-alignment = -1;
+name = "gafsarkashabove-ar";
+transform = "{1, 0, 0, 1, 359, 2}";
+},
+{
 name = "threedotsupabove-ar.diagonal";
-transform = "{0.7, 0, 0, 0.7, 333, 441}";
+transform = "{1, 0, 0, 1, 272, 253}";
 }
 );
 guideLines = (
@@ -44,13 +48,15 @@ width = 831;
 {
 components = (
 {
-alignment = -1;
-name = "gaf-ar";
+name = "keheh-ar";
 },
 {
-alignment = -1;
+name = "gafsarkashabove-ar";
+transform = "{1, 0, 0, 1, 347, 0}";
+},
+{
 name = "threedotsupabove-ar.diagonal";
-transform = "{1, 0, 0, 1, 369, -35}";
+transform = "{1, 0, 0, 1, 356, -65}";
 }
 );
 guideLines = (
@@ -64,13 +70,15 @@ width = 704;
 {
 components = (
 {
-alignment = -1;
-name = "gaf-ar";
+name = "keheh-ar";
 },
 {
-alignment = -1;
+name = "gafsarkashabove-ar";
+transform = "{1, 0, 0, 1, 351, 1}";
+},
+{
 name = "threedotsupabove-ar.diagonal";
-transform = "{0.806, 0, 0, 0.806, 362, 306}";
+transform = "{1, 0, 0, 1, 286, 158}";
 }
 );
 guideLines = (
@@ -84,13 +92,15 @@ width = 800;
 {
 components = (
 {
-alignment = -1;
-name = "gaf-ar";
+name = "keheh-ar";
 },
 {
-alignment = -1;
+name = "gafsarkashabove-ar";
+transform = "{1, 0, 0, 1, 467, 0}";
+},
+{
 name = "threedotsupabove-ar.diagonal";
-transform = "{1, 0, 0, 1, 521, -32}";
+transform = "{1, 0, 0, 1, 491, -73}";
 }
 );
 guideLines = (
@@ -104,13 +114,15 @@ width = 885;
 {
 components = (
 {
-alignment = -1;
-name = "gaf-ar";
+name = "keheh-ar";
 },
 {
-alignment = -1;
+name = "gafsarkashabove-ar";
+transform = "{1, 0, 0, 1, 467, 0}";
+},
+{
 name = "threedotsupabove-ar.diagonal";
-transform = "{1, 0, 0, 1, 447, -26}";
+transform = "{1, 0, 0, 1, 462, -28}";
 }
 );
 guideLines = (
@@ -124,13 +136,15 @@ width = 877;
 {
 components = (
 {
-alignment = -1;
-name = "gaf-ar";
+name = "keheh-ar";
 },
 {
-alignment = -1;
+name = "gafsarkashabove-ar";
+transform = "{1, 0, 0, 1, 437, 0}";
+},
+{
 name = "threedotsupabove-ar.diagonal";
-transform = "{0.7, 0, 0, 0.7, 423, 365}";
+transform = "{1, 0, 0, 1, 393, 187}";
 }
 );
 guideLines = (
@@ -144,13 +158,15 @@ width = 909;
 {
 components = (
 {
-alignment = -1;
-name = "gaf-ar";
+name = "keheh-ar";
 },
 {
-alignment = -1;
+name = "gafsarkashabove-ar";
+transform = "{1, 0, 0, 1, 466, 0}";
+},
+{
 name = "threedotsupabove-ar.diagonal";
-transform = "{0.7, 0, 0, 0.7, 492, 491}";
+transform = "{1, 0, 0, 1, 410, 301}";
 }
 );
 guideLines = (
@@ -159,7 +175,7 @@ position = "{833, 865}";
 }
 );
 layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
-width = 984;
+width = 992;
 }
 );
 unicode = 06B4;

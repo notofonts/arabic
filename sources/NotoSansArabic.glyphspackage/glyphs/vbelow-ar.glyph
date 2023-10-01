@@ -5,15 +5,15 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{108, 0}";
+position = "{112, 0}";
 },
 {
 name = _bottom.mark;
-position = "{108, 0}";
+position = "{112, 0}";
 },
 {
 name = bottom;
-position = "{108, -251}";
+position = "{112, -251}";
 }
 );
 layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
@@ -21,32 +21,32 @@ paths = (
 {
 closed = 1;
 nodes = (
-"132 -246 LINE",
-"114 -210 LINE",
-"98 -175 OFFCURVE",
-"57 -88 OFFCURVE",
-"41 -59 CURVE",
-"0 -81 LINE",
-"22 -120 OFFCURVE",
-"67 -215 OFFCURVE",
-"84 -251 CURVE"
+"136 -246 LINE",
+"118 -210 LINE",
+"102 -175 OFFCURVE",
+"61 -88 OFFCURVE",
+"45 -59 CURVE",
+"4 -81 LINE",
+"26 -120 OFFCURVE",
+"71 -215 OFFCURVE",
+"88 -251 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"147 -207 OFFCURVE",
-"195 -99 OFFCURVE",
-"206 -74 CURVE",
-"165 -57 LINE",
-"156 -76 OFFCURVE",
-"108 -189 OFFCURVE",
-"92 -231 CURVE",
-"132 -246 LINE"
+"151 -207 OFFCURVE",
+"199 -99 OFFCURVE",
+"210 -74 CURVE",
+"169 -57 LINE",
+"160 -76 OFFCURVE",
+"112 -189 OFFCURVE",
+"96 -231 CURVE",
+"136 -246 LINE"
 );
 }
 );
-width = 214;
+width = 218;
 },
 {
 anchors = (
@@ -99,15 +99,15 @@ width = 217;
 anchors = (
 {
 name = _bottom;
-position = "{68, 0}";
+position = "{69, 0}";
 },
 {
 name = _bottom.mark;
-position = "{68, 0}";
+position = "{69, 0}";
 },
 {
 name = bottom;
-position = "{72, -253}";
+position = "{73, -253}";
 }
 );
 layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
@@ -115,32 +115,32 @@ paths = (
 {
 closed = 1;
 nodes = (
-"84 -251 LINE",
-"77 -238 LINE",
-"64 -200 OFFCURVE",
-"30 -93 OFFCURVE",
-"19 -66 CURVE",
-"-4 -74 LINE",
-"13 -116 OFFCURVE",
-"45 -213 OFFCURVE",
-"60 -253 CURVE"
+"85 -251 LINE",
+"78 -238 LINE",
+"65 -200 OFFCURVE",
+"31 -93 OFFCURVE",
+"20 -66 CURVE",
+"-3 -74 LINE",
+"14 -116 OFFCURVE",
+"46 -213 OFFCURVE",
+"61 -253 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"97 -209 OFFCURVE",
-"128 -98 OFFCURVE",
-"136 -71 CURVE",
-"115 -63 LINE",
-"109 -84 OFFCURVE",
-"78 -199 OFFCURVE",
-"64 -245 CURVE",
-"84 -251 LINE"
+"98 -209 OFFCURVE",
+"129 -98 OFFCURVE",
+"137 -71 CURVE",
+"116 -63 LINE",
+"110 -84 OFFCURVE",
+"79 -199 OFFCURVE",
+"65 -245 CURVE",
+"85 -251 LINE"
 );
 }
 );
-width = 144;
+width = 142;
 },
 {
 anchors = (

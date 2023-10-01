@@ -4,12 +4,14 @@ layers = (
 {
 components = (
 {
-alignment = -1;
-name = "qaf-ar";
+name = "qafDotless-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 369, -55}";
+},
+{
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 224, -186}";
 }
 );
@@ -19,12 +21,14 @@ width = 687;
 {
 components = (
 {
-alignment = -1;
-name = "qaf-ar";
+name = "qafDotless-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 350, 17}";
+},
+{
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 235, -188}";
 }
 );
@@ -34,12 +38,14 @@ width = 772;
 {
 components = (
 {
-alignment = -1;
-name = "qaf-ar";
+name = "qafDotless-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 371, -67}";
+},
+{
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 243, -187}";
 }
 );
@@ -49,12 +55,14 @@ width = 679;
 {
 components = (
 {
-alignment = -1;
-name = "qaf-ar";
+name = "qafDotless-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 357, -9}";
+},
+{
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 234, -205}";
 }
 );
@@ -64,12 +72,14 @@ width = 740;
 {
 components = (
 {
-alignment = -1;
-name = "qaf-ar";
+name = "qafDotless-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 422, -67}";
+},
+{
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 284, -187}";
 }
 );
@@ -79,12 +89,14 @@ width = 774;
 {
 components = (
 {
-alignment = -1;
-name = "qaf-ar";
+name = "qafDotless-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 407, -47}";
+},
+{
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 250, -186}";
 }
 );
@@ -94,12 +106,14 @@ width = 774;
 {
 components = (
 {
-alignment = -1;
-name = "qaf-ar";
+name = "qafDotless-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 410, 2}";
+},
+{
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 268, -185}";
 }
 );
@@ -109,12 +123,14 @@ width = 832;
 {
 components = (
 {
-alignment = -1;
-name = "qaf-ar";
+name = "qafDotless-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 431, 17}";
+},
+{
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 279, -185}";
 }
 );

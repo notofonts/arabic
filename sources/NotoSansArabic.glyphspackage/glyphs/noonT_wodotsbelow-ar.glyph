@@ -4,12 +4,14 @@ layers = (
 {
 components = (
 {
-alignment = -1;
-name = "noon-ar";
+name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = "twodotshorizontalbelowSymbol-ar";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 188, -168}";
+},
+{
+name = "twodotshorizontalbelow-ar";
 transform = "{1, 0, 0, 1, 116, -230}";
 }
 );
@@ -19,12 +21,14 @@ width = 552;
 {
 components = (
 {
-alignment = -1;
-name = "noon-ar";
+name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = "twodotshorizontalbelowSymbol-ar";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 221, -57}";
+},
+{
+name = "twodotshorizontalbelow-ar";
 transform = "{1, 0, 0, 1, 152, -230}";
 }
 );
@@ -34,12 +38,14 @@ width = 657;
 {
 components = (
 {
-alignment = -1;
-name = "noon-ar";
+name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = "twodotshorizontalbelowSymbol-ar";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 201, -168}";
+},
+{
+name = "twodotshorizontalbelow-ar";
 transform = "{1, 0, 0, 1, 96, -230}";
 }
 );
@@ -49,12 +55,14 @@ width = 520;
 {
 components = (
 {
-alignment = -1;
-name = "noon-ar";
+name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = "twodotshorizontalbelowSymbol-ar";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 211, -135}";
+},
+{
+name = "twodotshorizontalbelow-ar";
 transform = "{1, 0, 0, 1, 136, -230}";
 }
 );
@@ -64,12 +72,14 @@ width = 615;
 {
 components = (
 {
-alignment = -1;
-name = "noon-ar";
+name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = "twodotshorizontalbelowSymbol-ar";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 271, -168}";
+},
+{
+name = "twodotshorizontalbelow-ar";
 transform = "{1, 0, 0, 1, 174, -230}";
 }
 );
@@ -79,12 +89,14 @@ width = 684;
 {
 components = (
 {
-alignment = -1;
-name = "noon-ar";
+name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = "twodotshorizontalbelowSymbol-ar";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 256, -168}";
+},
+{
+name = "twodotshorizontalbelow-ar";
 transform = "{1, 0, 0, 1, 172, -232}";
 }
 );
@@ -94,12 +106,14 @@ width = 685;
 {
 components = (
 {
-alignment = -1;
-name = "noon-ar";
+name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = "twodotshorizontalbelowSymbol-ar";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 252, -136}";
+},
+{
+name = "twodotshorizontalbelow-ar";
 transform = "{1, 0, 0, 1, 204, -231}";
 }
 );
@@ -109,12 +123,14 @@ width = 741;
 {
 components = (
 {
-alignment = -1;
-name = "noon-ar";
+name = "noonghunna-ar";
 },
 {
-alignment = -1;
-name = "twodotshorizontalbelowSymbol-ar";
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 268, -63}";
+},
+{
+name = "twodotshorizontalbelow-ar";
 transform = "{1, 0, 0, 1, 167, -231}";
 }
 );

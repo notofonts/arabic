@@ -5,20 +5,20 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{108, 0}";
+position = "{112, 0}";
 },
 {
 name = _bottom.mark;
-position = "{108, 0}";
+position = "{112, 0}";
 },
 {
 name = bottom;
-position = "{105, -249}";
+position = "{109, -249}";
 }
 );
 guideLines = (
 {
-position = "{128, -233}";
+position = "{132, -233}";
 }
 );
 layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
@@ -26,32 +26,32 @@ paths = (
 {
 closed = 1;
 nodes = (
-"74 -62 LINE",
-"92 -98 LINE",
-"108 -133 OFFCURVE",
-"149 -220 OFFCURVE",
-"165 -249 CURVE",
-"206 -227 LINE",
-"184 -188 OFFCURVE",
-"139 -93 OFFCURVE",
-"122 -57 CURVE"
+"78 -62 LINE",
+"96 -98 LINE",
+"112 -133 OFFCURVE",
+"153 -220 OFFCURVE",
+"169 -249 CURVE",
+"210 -227 LINE",
+"188 -188 OFFCURVE",
+"143 -93 OFFCURVE",
+"126 -57 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"59 -101 OFFCURVE",
-"11 -209 OFFCURVE",
-"0 -234 CURVE",
-"41 -251 LINE",
-"50 -232 OFFCURVE",
-"98 -119 OFFCURVE",
-"114 -77 CURVE",
-"74 -62 LINE"
+"63 -101 OFFCURVE",
+"15 -209 OFFCURVE",
+"4 -234 CURVE",
+"45 -251 LINE",
+"54 -232 OFFCURVE",
+"102 -119 OFFCURVE",
+"118 -77 CURVE",
+"78 -62 LINE"
 );
 }
 );
-width = 199;
+width = 203;
 },
 {
 anchors = (
@@ -104,15 +104,15 @@ width = 215;
 anchors = (
 {
 name = _bottom;
-position = "{68, 0}";
+position = "{69, 0}";
 },
 {
 name = _bottom.mark;
-position = "{68, 0}";
+position = "{69, 0}";
 },
 {
 name = bottom;
-position = "{62, -250}";
+position = "{63, -250}";
 }
 );
 layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
@@ -120,32 +120,32 @@ paths = (
 {
 closed = 1;
 nodes = (
-"48 -65 LINE",
-"55 -78 LINE",
-"68 -116 OFFCURVE",
-"102 -223 OFFCURVE",
-"113 -250 CURVE",
-"136 -242 LINE",
-"119 -200 OFFCURVE",
-"87 -103 OFFCURVE",
-"72 -63 CURVE"
+"49 -65 LINE",
+"56 -78 LINE",
+"69 -116 OFFCURVE",
+"103 -223 OFFCURVE",
+"114 -250 CURVE",
+"137 -242 LINE",
+"120 -200 OFFCURVE",
+"88 -103 OFFCURVE",
+"73 -63 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"35 -107 OFFCURVE",
-"4 -218 OFFCURVE",
-"-4 -245 CURVE",
-"17 -253 LINE",
-"23 -232 OFFCURVE",
-"54 -117 OFFCURVE",
-"68 -71 CURVE",
-"48 -65 LINE"
+"36 -107 OFFCURVE",
+"5 -218 OFFCURVE",
+"-3 -245 CURVE",
+"18 -253 LINE",
+"24 -232 OFFCURVE",
+"55 -117 OFFCURVE",
+"69 -71 CURVE",
+"49 -65 LINE"
 );
 }
 );
-width = 151;
+width = 149;
 },
 {
 anchors = (
@@ -198,20 +198,20 @@ width = 207;
 anchors = (
 {
 name = _bottom;
-position = "{108, 0}";
+position = "{88, 0}";
 },
 {
 name = _bottom.mark;
-position = "{108, 0}";
+position = "{88, 0}";
 },
 {
 name = bottom;
-position = "{105, -249}";
+position = "{85, -249}";
 }
 );
 guideLines = (
 {
-position = "{128, -233}";
+position = "{108, -233}";
 }
 );
 layerId = "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3";
@@ -219,28 +219,28 @@ paths = (
 {
 closed = 1;
 nodes = (
-"98 -62 LINE",
-"105 -75 LINE",
-"122 -115 OFFCURVE",
-"174 -222 OFFCURVE",
-"191 -249 CURVE",
-"210 -239 LINE",
-"185 -197 OFFCURVE",
-"140 -102 OFFCURVE",
-"122 -60 CURVE"
+"78 -62 LINE",
+"85 -75 LINE",
+"102 -115 OFFCURVE",
+"154 -222 OFFCURVE",
+"171 -249 CURVE",
+"190 -239 LINE",
+"165 -197 OFFCURVE",
+"120 -102 OFFCURVE",
+"102 -60 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"83 -106 OFFCURVE",
-"34 -219 OFFCURVE",
-"20 -246 CURVE",
-"40 -255 LINE",
-"52 -234 OFFCURVE",
-"102 -116 OFFCURVE",
-"118 -68 CURVE",
-"98 -62 LINE"
+"63 -106 OFFCURVE",
+"14 -219 OFFCURVE",
+"0 -246 CURVE",
+"20 -255 LINE",
+"32 -234 OFFCURVE",
+"82 -116 OFFCURVE",
+"98 -68 CURVE",
+"78 -62 LINE"
 );
 }
 );

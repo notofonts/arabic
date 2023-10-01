@@ -4,7 +4,11 @@ layers = (
 {
 anchors = (
 {
-name = bottom;
+name = bottom.dot;
+position = "{697, -19}";
+},
+{
+name = bottom.mark;
 position = "{379, -19}";
 },
 {
@@ -80,7 +84,11 @@ width = 884;
 {
 anchors = (
 {
-name = bottom;
+name = bottom.dot;
+position = "{487, -18}";
+},
+{
+name = bottom.mark;
 position = "{487, -18}";
 },
 {
@@ -156,7 +164,11 @@ width = 1018;
 {
 anchors = (
 {
-name = bottom;
+name = bottom.dot;
+position = "{650, -26}";
+},
+{
+name = bottom.mark;
 position = "{320, -26}";
 },
 {
@@ -237,7 +249,11 @@ width = 809;
 {
 anchors = (
 {
-name = bottom;
+name = bottom.dot;
+position = "{423, -25}";
+},
+{
+name = bottom.mark;
 position = "{423, -25}";
 },
 {
@@ -313,7 +329,11 @@ width = 965;
 {
 anchors = (
 {
-name = bottom;
+name = bottom.dot;
+position = "{830, -25}";
+},
+{
+name = bottom.mark;
 position = "{450, -25}";
 },
 {
@@ -389,7 +409,11 @@ width = 1078;
 {
 anchors = (
 {
-name = bottom;
+name = bottom.dot;
+position = "{850, -25}";
+},
+{
+name = bottom.mark;
 position = "{460, -25}";
 },
 {
@@ -465,7 +489,11 @@ width = 1098;
 {
 anchors = (
 {
-name = bottom;
+name = bottom.dot;
+position = "{856, -18}";
+},
+{
+name = bottom.mark;
 position = "{491, -18}";
 },
 {
@@ -541,7 +569,11 @@ width = 1115;
 {
 anchors = (
 {
-name = bottom;
+name = bottom.dot;
+position = "{862, -25}";
+},
+{
+name = bottom.mark;
 position = "{480, -25}";
 },
 {

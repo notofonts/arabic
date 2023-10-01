@@ -4,12 +4,10 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 87, -3}";
 }
 );
@@ -22,9 +20,8 @@ components = (
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
-transform = "{1, 0, 0, 1, 110, -5}";
+name = "dotbelow-ar";
+transform = "{1, 0, 0, 1, 56, -5}";
 }
 );
 guideLines = (
@@ -38,12 +35,10 @@ width = 468;
 {
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 81, -4}";
 }
 );
@@ -53,12 +48,10 @@ width = 307;
 {
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 75, -22}";
 }
 );
@@ -68,12 +61,10 @@ width = 442;
 {
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 132, -4}";
 }
 );
@@ -83,12 +74,10 @@ width = 400;
 {
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 150, -3}";
 }
 );
@@ -98,12 +87,10 @@ width = 477;
 {
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 148, -2}";
 }
 );
@@ -113,12 +100,10 @@ width = 517;
 {
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = "dotbelowSymbol-ar";
+name = "dotbelow-ar";
 transform = "{1, 0, 0, 1, 159, -2}";
 }
 );

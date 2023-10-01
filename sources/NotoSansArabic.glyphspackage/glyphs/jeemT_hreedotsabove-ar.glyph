@@ -4,12 +4,14 @@ layers = (
 {
 components = (
 {
-alignment = -1;
-name = "jeem-ar";
+name = "hah-ar";
 },
 {
-alignment = -1;
-name = "threedotsupaboveSymbol-ar";
+name = "dotcenter-ar";
+transform = "{1, 0, 0, 1, 275, -100}";
+},
+{
+name = "threedotsupabove-ar";
 transform = "{1, 0, 0, 1, 189, -93}";
 }
 );
@@ -19,12 +21,14 @@ width = 620;
 {
 components = (
 {
-alignment = -1;
-name = "jeem-ar";
+name = "hah-ar";
 },
 {
-alignment = -1;
-name = "threedotsupaboveSymbol-ar";
+name = "dotcenter-ar";
+transform = "{1, 0, 0, 1, 275, -66}";
+},
+{
+name = "threedotsupabove-ar";
 transform = "{1, 0, 0, 1, 169, -47}";
 }
 );
@@ -34,12 +38,14 @@ width = 639;
 {
 components = (
 {
-alignment = -1;
-name = "jeem-ar";
+name = "hah-ar";
 },
 {
-alignment = -1;
-name = "threedotsupaboveSymbol-ar";
+name = "dotcenter-ar";
+transform = "{1, 0, 0, 1, 334, -35}";
+},
+{
+name = "threedotsupabove-ar";
 transform = "{1, 0, 0, 1, 187, 49}";
 }
 );
@@ -49,13 +55,15 @@ width = 687;
 {
 components = (
 {
-alignment = -1;
-name = "jeem-ar";
+name = "hah-ar";
 },
 {
-alignment = -1;
-name = "threedotsupaboveSymbol-ar";
-transform = "{1, 0, 0, 1, 153, 103}";
+name = "dotcenter-ar";
+transform = "{1, 0, 0, 1, 321, -34}";
+},
+{
+name = "threedotsupabove-ar";
+transform = "{1, 0, 0, 1, 163, 103}";
 }
 );
 layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
@@ -64,12 +72,14 @@ width = 733;
 {
 components = (
 {
-alignment = -1;
-name = "jeem-ar";
+name = "hah-ar";
 },
 {
-alignment = -1;
-name = "threedotsupaboveSymbol-ar";
+name = "dotcenter-ar";
+transform = "{1, 0, 0, 1, 230, -68}";
+},
+{
+name = "threedotsupabove-ar";
 transform = "{1, 0, 0, 1, 109, -93}";
 }
 );
@@ -79,12 +89,14 @@ width = 500;
 {
 components = (
 {
-alignment = -1;
-name = "jeem-ar";
+name = "hah-ar";
 },
 {
-alignment = -1;
-name = "threedotsupaboveSymbol-ar";
+name = "dotcenter-ar";
+transform = "{1, 0, 0, 1, 229, -57}";
+},
+{
+name = "threedotsupabove-ar";
 transform = "{1, 0, 0, 1, 162, -47}";
 }
 );
@@ -94,12 +106,14 @@ width = 494;
 {
 components = (
 {
-alignment = -1;
-name = "jeem-ar";
+name = "hah-ar";
 },
 {
-alignment = -1;
-name = "threedotsupaboveSymbol-ar";
+name = "dotcenter-ar";
+transform = "{1, 0, 0, 1, 285, -36}";
+},
+{
+name = "threedotsupabove-ar";
 transform = "{1, 0, 0, 1, 151, 50}";
 }
 );
@@ -109,12 +123,14 @@ width = 578;
 {
 components = (
 {
-alignment = -1;
-name = "jeem-ar";
+name = "hah-ar";
 },
 {
-alignment = -1;
-name = "threedotsupaboveSymbol-ar";
+name = "dotcenter-ar";
+transform = "{1, 0, 0, 1, 314, -23}";
+},
+{
+name = "threedotsupabove-ar";
 transform = "{1, 0, 0, 1, 149, 107}";
 }
 );

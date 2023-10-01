@@ -4,12 +4,10 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = "waw-ar.alt";
 },
 {
-alignment = -1;
-name = "ring-ar";
+name = "ringcenter-ar";
 transform = "{1, 0, 0, 1, 35, -192}";
 }
 );
@@ -19,12 +17,10 @@ width = 362;
 {
 components = (
 {
-alignment = -1;
 name = "waw-ar.alt";
 },
 {
-alignment = -1;
-name = "ring-ar";
+name = "ringcenter-ar";
 transform = "{1, 0, 0, 1, 37, -197}";
 }
 );
@@ -34,12 +30,10 @@ width = 480;
 {
 components = (
 {
-alignment = -1;
 name = "waw-ar.alt";
 },
 {
-alignment = -1;
-name = "ring-ar";
+name = "ringcenter-ar";
 transform = "{1, 0, 0, 1, 35, -227}";
 }
 );
@@ -49,12 +43,10 @@ width = 383;
 {
 components = (
 {
-alignment = -1;
 name = "waw-ar.alt";
 },
 {
-alignment = -1;
-name = "ring-ar";
+name = "ringcenter-ar";
 transform = "{1, 0, 0, 1, 37, -196}";
 }
 );
@@ -64,12 +56,10 @@ width = 440;
 {
 components = (
 {
-alignment = -1;
 name = "waw-ar.alt";
 },
 {
-alignment = -1;
-name = "ring-ar";
+name = "ringcenter-ar";
 transform = "{1, 0, 0, 1, 35, -225}";
 }
 );
@@ -79,12 +69,10 @@ width = 453;
 {
 components = (
 {
-alignment = -1;
 name = "waw-ar.alt";
 },
 {
-alignment = -1;
-name = "ring-ar";
+name = "ringcenter-ar";
 transform = "{1, 0, 0, 1, 26, -182}";
 }
 );
@@ -94,12 +82,10 @@ width = 447;
 {
 components = (
 {
-alignment = -1;
 name = "waw-ar.alt";
 },
 {
-alignment = -1;
-name = "ring-ar";
+name = "ringcenter-ar";
 transform = "{1, 0, 0, 1, 32, -194}";
 }
 );
@@ -109,17 +95,15 @@ width = 498;
 {
 components = (
 {
-alignment = -1;
 name = "waw-ar.alt";
 },
 {
-alignment = -1;
-name = "ring-ar";
+name = "ringcenter-ar";
 transform = "{1, 0, 0, 1, 41, -196}";
 }
 );
 layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
-width = 600;
+width = 530;
 }
 );
 unicode = 06C4;

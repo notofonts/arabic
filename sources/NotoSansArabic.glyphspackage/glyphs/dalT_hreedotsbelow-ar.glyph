@@ -4,12 +4,10 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = "threedotsdownbelowSymbol-ar";
+name = "threedotsdownbelow-ar";
 transform = "{1, 0, 0, 1, 16, -5}";
 }
 );
@@ -22,9 +20,8 @@ components = (
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = "threedotsdownbelowSymbol-ar";
-transform = "{1, 0, 0, 1, 56, -5}";
+name = "threedotsdownbelow-ar";
+transform = "{1, 0, 0, 1, -4, -5}";
 }
 );
 layerId = "A7E21968-E455-4749-BB19-379F5EDC3B9B";
@@ -33,12 +30,10 @@ width = 468;
 {
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = "threedotsdownbelowSymbol-ar";
+name = "threedotsdownbelow-ar";
 transform = "{1, 0, 0, 1, -13, -5}";
 }
 );
@@ -51,9 +46,8 @@ components = (
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = "threedotsdownbelowSymbol-ar";
-transform = "{1, 0, 0, 1, 35, -5}";
+name = "threedotsdownbelow-ar";
+transform = "{1, 0, 0, 1, 17, -5}";
 }
 );
 layerId = "08F1692B-9525-48D2-9816-1987B1C44D50";
@@ -62,12 +56,10 @@ width = 442;
 {
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = "threedotsdownbelowSymbol-ar";
+name = "threedotsdownbelow-ar";
 transform = "{1, 0, 0, 1, 37, -5}";
 }
 );
@@ -77,12 +69,10 @@ width = 400;
 {
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = "threedotsdownbelowSymbol-ar";
+name = "threedotsdownbelow-ar";
 transform = "{1, 0, 0, 1, 81, -8}";
 }
 );
@@ -92,12 +82,10 @@ width = 477;
 {
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = "threedotsdownbelowSymbol-ar";
+name = "threedotsdownbelow-ar";
 transform = "{1, 0, 0, 1, 98, 1}";
 }
 );
@@ -107,12 +95,10 @@ width = 517;
 {
 components = (
 {
-alignment = -1;
 name = "dal-ar";
 },
 {
-alignment = -1;
-name = "threedotsdownbelowSymbol-ar";
+name = "threedotsdownbelow-ar";
 transform = "{1, 0, 0, 1, 83, -5}";
 }
 );

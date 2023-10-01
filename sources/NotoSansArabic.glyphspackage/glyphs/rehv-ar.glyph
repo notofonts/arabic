@@ -46,7 +46,6 @@ components = (
 name = "reh-ar";
 },
 {
-alignment = 1;
 name = "vabove-ar";
 transform = "{1, 0, 0, 1, 9, -55}";
 }
@@ -86,9 +85,8 @@ components = (
 name = "reh-ar";
 },
 {
-alignment = -1;
 name = "vabove-ar";
-transform = "{1, 0, 0, 1, 97, -136}";
+transform = "{1, 0, 0, 1, 107, -58}";
 }
 );
 layerId = "E1555194-BAFD-4DCC-A026-E2F9BA1917F2";

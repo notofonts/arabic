@@ -17,13 +17,12 @@ components = (
 name = "kaf-ar.init";
 },
 {
-alignment = -1;
-name = _part.Gaf.stroke;
-transform = "{1, 0, 0, 1, -98, -3}";
+name = "gafsarkashabove-ar";
+transform = "{1, 0, 0, 1, -86, 0}";
 }
 );
 layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
-width = 317;
+width = 322;
 },
 {
 anchors = (
@@ -38,13 +37,10 @@ position = "{41, 774}";
 );
 components = (
 {
-alignment = -1;
 name = "kaf-ar.init";
 },
 {
-alignment = -1;
-name = _part.Gaf.stroke;
-transform = "{1, 0, 0, 1, -60, 2}";
+name = "gafsarkashabove-ar";
 }
 );
 guideLines = (
@@ -68,13 +64,10 @@ position = "{95, 679}";
 );
 components = (
 {
-alignment = -1;
 name = "kaf-ar.init";
 },
 {
-alignment = -1;
-name = _part.Gaf.stroke;
-transform = "{1, 0, 0, 1, -27, 0}";
+name = "gafsarkashabove-ar";
 }
 );
 guideLines = (
@@ -98,13 +91,10 @@ position = "{73, 755}";
 );
 components = (
 {
-alignment = -1;
 name = "kaf-ar.init";
 },
 {
-alignment = -1;
-name = _part.Gaf.stroke;
-transform = "{1, 0, 0, 1, -64, 0}";
+name = "gafsarkashabove-ar";
 }
 );
 guideLines = (
@@ -128,13 +118,10 @@ position = "{110, 681}";
 );
 components = (
 {
-alignment = -1;
 name = "kaf-ar.init";
 },
 {
-alignment = -1;
-name = _part.Gaf.stroke;
-transform = "{1, 0, 0, 1, -52, 0}";
+name = "gafsarkashabove-ar";
 }
 );
 guideLines = (
@@ -158,13 +145,10 @@ position = "{127, 686}";
 );
 components = (
 {
-alignment = -1;
 name = "kaf-ar.init";
 },
 {
-alignment = -1;
-name = _part.Gaf.stroke;
-transform = "{1, 0, 0, 1, 4, 0}";
+name = "gafsarkashabove-ar";
 }
 );
 guideLines = (
@@ -191,13 +175,10 @@ position = "{75, 755}";
 );
 components = (
 {
-alignment = -1;
 name = "kaf-ar.init";
 },
 {
-alignment = -1;
-name = _part.Gaf.stroke;
-transform = "{1, 0, 0, 1, -25, 0}";
+name = "gafsarkashabove-ar";
 }
 );
 layerId = "E1555194-BAFD-4DCC-A026-E2F9BA1917F2";
@@ -216,17 +197,14 @@ position = "{107, 824}";
 );
 components = (
 {
-alignment = -1;
 name = "kaf-ar.init";
 },
 {
-alignment = -1;
-name = _part.Gaf.stroke;
-transform = "{1, 0, 0, 1, -52, 0}";
+name = "gafsarkashabove-ar";
 }
 );
 layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
-width = 485;
+width = 493;
 }
 );
 unicode = FB94;
