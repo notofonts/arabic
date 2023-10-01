@@ -1,0 +1,224 @@
+{
+glyphname = "yeh_meem_yeh-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = caret_1;
+position = "{1115, 0}";
+},
+{
+name = caret_2;
+position = "{625, 0}";
+}
+);
+components = (
+{
+name = "yeh-ar.medi";
+transform = "{1, 0, 0, 1, 1115, 0}";
+},
+{
+name = "meem-ar.medi";
+transform = "{1, 0, 0, 1, 625, 0}";
+},
+{
+name = "yeh-ar.fina";
+}
+);
+layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
+width = 1438;
+},
+{
+anchors = (
+{
+name = caret_1;
+position = "{1311, 0}";
+},
+{
+name = caret_2;
+position = "{706, 0}";
+}
+);
+components = (
+{
+name = "yeh-ar.medi";
+transform = "{1, 0, 0, 1, 1311, 0}";
+},
+{
+name = "meem-ar.medi";
+transform = "{1, 0, 0, 1, 706, 0}";
+},
+{
+name = "yeh-ar.fina";
+}
+);
+layerId = "A7E21968-E455-4749-BB19-379F5EDC3B9B";
+width = 1716;
+},
+{
+anchors = (
+{
+name = caret_1;
+position = "{1107, 0}";
+},
+{
+name = caret_2;
+position = "{612, 0}";
+}
+);
+components = (
+{
+name = "yeh-ar.medi";
+transform = "{1, 0, 0, 1, 1107, 0}";
+},
+{
+name = "meem-ar.medi";
+transform = "{1, 0, 0, 1, 612, 0}";
+},
+{
+name = "yeh-ar.fina";
+}
+);
+layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
+width = 1345;
+},
+{
+anchors = (
+{
+name = caret_1;
+position = "{1237, 0}";
+},
+{
+name = caret_2;
+position = "{673, 0}";
+}
+);
+components = (
+{
+name = "yeh-ar.medi";
+transform = "{1, 0, 0, 1, 1237, 0}";
+},
+{
+name = "meem-ar.medi";
+transform = "{1, 0, 0, 1, 673, 0}";
+},
+{
+name = "yeh-ar.fina";
+}
+);
+layerId = "08F1692B-9525-48D2-9816-1987B1C44D50";
+width = 1608;
+},
+{
+anchors = (
+{
+name = caret_1;
+position = "{1345, 0}";
+},
+{
+name = caret_2;
+position = "{756, 0}";
+}
+);
+components = (
+{
+name = "yeh-ar.medi";
+transform = "{1, 0, 0, 1, 1345, 0}";
+},
+{
+name = "meem-ar.medi";
+transform = "{1, 0, 0, 1, 756, 0}";
+},
+{
+name = "yeh-ar.fina";
+}
+);
+layerId = "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3";
+width = 1697;
+},
+{
+anchors = (
+{
+name = caret_1;
+position = "{1314, 0}";
+},
+{
+name = caret_2;
+position = "{736, 0}";
+}
+);
+components = (
+{
+name = "yeh-ar.medi";
+transform = "{1, 0, 0, 1, 1314, 0}";
+},
+{
+name = "meem-ar.medi";
+transform = "{1, 0, 0, 1, 736, 0}";
+},
+{
+name = "yeh-ar.fina";
+}
+);
+layerId = "6D0603BE-7277-4DA4-8C59-7934AF28E45B";
+width = 1687;
+},
+{
+anchors = (
+{
+name = caret_1;
+position = "{1424, 0}";
+},
+{
+name = caret_2;
+position = "{800, 0}";
+}
+);
+components = (
+{
+name = "yeh-ar.medi";
+transform = "{1, 0, 0, 1, 1424, 0}";
+},
+{
+name = "meem-ar.medi";
+transform = "{1, 0, 0, 1, 800, 0}";
+},
+{
+name = "yeh-ar.fina";
+}
+);
+layerId = "E1555194-BAFD-4DCC-A026-E2F9BA1917F2";
+width = 1833;
+},
+{
+anchors = (
+{
+name = caret_1;
+position = "{1533, 0}";
+},
+{
+name = caret_2;
+position = "{841, 0}";
+}
+);
+components = (
+{
+name = "yeh-ar.medi";
+transform = "{1, 0, 0, 1, 1533, 0}";
+},
+{
+name = "meem-ar.medi";
+transform = "{1, 0, 0, 1, 841, 0}";
+},
+{
+name = "yeh-ar.fina";
+}
+);
+layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
+width = 1978;
+}
+);
+leftMetricsKey = "yeh-ar.medi";
+rightMetricsKey = "yeh-ar.fina";
+unicode = FDB0;
+}

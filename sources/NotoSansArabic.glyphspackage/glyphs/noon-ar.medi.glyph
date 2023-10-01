@@ -1,0 +1,179 @@
+{
+glyphname = "noon-ar.medi";
+layers = (
+{
+anchors = (
+{
+name = ring;
+position = "{96.5, 47}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar.medi";
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 91, -157}";
+}
+);
+layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
+width = 263;
+},
+{
+anchors = (
+{
+name = ring;
+position = "{137, 79}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar.medi";
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 64, -21}";
+}
+);
+layerId = "A7E21968-E455-4749-BB19-379F5EDC3B9B";
+width = 325;
+},
+{
+anchors = (
+{
+name = ring;
+position = "{75.5, 34}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar.medi";
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 76, -177}";
+}
+);
+layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
+width = 218;
+},
+{
+anchors = (
+{
+name = ring;
+position = "{121.5, 67}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar.medi";
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 57, -89}";
+}
+);
+layerId = "08F1692B-9525-48D2-9816-1987B1C44D50";
+width = 299;
+},
+{
+anchors = (
+{
+name = ring;
+position = "{127.5, 37}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar.medi";
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 124, -187}";
+}
+);
+guideLines = (
+{
+position = "{113, 264}";
+}
+);
+layerId = "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3";
+width = 352;
+},
+{
+anchors = (
+{
+name = ring;
+position = "{127, 56}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar.medi";
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 80, -180}";
+}
+);
+layerId = "6D0603BE-7277-4DA4-8C59-7934AF28E45B";
+width = 343;
+},
+{
+anchors = (
+{
+name = ring;
+position = "{139, 78}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar.medi";
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 104, -96}";
+}
+);
+layerId = "E1555194-BAFD-4DCC-A026-E2F9BA1917F2";
+width = 384;
+},
+{
+anchors = (
+{
+name = ring;
+position = "{151.5, 87}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "behDotless-ar.medi";
+},
+{
+alignment = -1;
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 99, -56}";
+}
+);
+layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
+width = 410;
+}
+);
+unicode = FEE8;
+}
