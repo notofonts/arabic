@@ -434,6 +434,12 @@ lookup decomposition {
   # Waw family
   sub wawDotabove-ar by waw-ar dotabove-ar;
   sub wawTwodots-ar by waw-ar twodotshorizontalabove-ar;
+
+  # High hamza
+  sub highhamzaAlef-ar by highhamza-ar alef-ar;
+  sub highhamzaWaw-ar by highhamza-ar waw-ar;
+  sub uHamzaabove-ar by highhamza-ar waw-ar commaabove-ar;
+  sub highhamzaYeh-ar by highhamza-ar alefMaksura-ar;
 } decomposition;
 ";
 name = ccmp;
@@ -484,7 +490,6 @@ sub hahThreedotsupbelow-ar by hah-ar.init threedotsupbelow-ar;
 sub heh-ar by heh-ar.init;
 sub hehDoachashmee-ar by hehDoachashmee-ar.init;
 sub hehgoal-ar by hehgoal-ar.init;
-sub highhamzaYeh-ar by highhamzaYeh-ar.init;
 sub jeem-ar by jeem-ar.init;
 sub kaf-ar by kaf-ar.init;
 sub kafswash-ar by kafswash-ar.init;
@@ -571,7 +576,6 @@ sub hahTahbelow-ar by hah-ar.medi tahbelow-ar;
 sub heh-ar by heh-ar.medi;
 sub hehDoachashmee-ar by hehDoachashmee-ar.medi;
 sub hehgoal-ar by hehgoal-ar.medi;
-sub highhamzaYeh-ar by highhamzaYeh-ar.medi;
 sub jeem-ar by jeem-ar.medi;
 sub kaf-ar by kaf-ar.medi;
 sub kafswash-ar by kafswash-ar.medi;
@@ -668,9 +672,6 @@ sub heh-ar by heh-ar.fina;
 sub hehDoachashmee-ar by hehDoachashmee-ar.fina;
 sub hehgoal-ar by hehgoal-ar.fina;
 sub hehHamzaabove-ar by hehHamzaabove-ar.fina;
-sub highhamzaAlef-ar by highhamzaAlef-ar.fina;
-sub highhamzaWaw-ar by highhamzaWaw-ar.fina;
-sub highhamzaYeh-ar by highhamzaYeh-ar.fina;
 sub jeem-ar by jeem-ar.fina;
 sub kaf-ar by kaf-ar.fina;
 sub kafswash-ar by kafswash-ar.fina;
@@ -724,7 +725,6 @@ sub theh-ar by theh-ar.fina;
 sub tteh-ar by tteh-ar.fina;
 sub tteheh-ar by tteheh-ar.fina;
 sub u-ar by u-ar.fina;
-sub uHamzaabove-ar by uHamzaabove-ar.fina;
 sub ve-ar by ve-ar.fina;
 sub veh-ar by veh-ar.fina;
 sub waw-ar by waw-ar.fina;
