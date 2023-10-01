@@ -234,7 +234,9 @@ designerURL = "http://www.monotype.com/studio";
 familyName = "Noto Sans Arabic";
 featurePrefixes = (
 {
+automatic = 1;
 code = "languagesystem DFLT dflt;
+
 languagesystem arab dflt;
 languagesystem arab URD;
 languagesystem arab SND;
@@ -261,21 +263,9 @@ lookup liaadama { # See issue #26
 } liaadama;
 
 lookup ccmp_arab_1 {
-	lookupflag 0;
-  sub fathatan-ar shadda-ar by fathatan_shadda-ar;
-  sub dammatan-ar shadda-ar by shaddaDammatan-ar;
-  sub kasratan-ar shadda-ar by shaddaKasratan-ar;
-  sub fatha-ar shadda-ar by shaddaFatha-ar;
-  sub damma-ar shadda-ar by shaddaDamma-ar;
-  sub kasra-ar shadda-ar by shaddaKasra-ar;
-  sub shadda-ar fathatan-ar by fathatan_shadda-ar;
-  sub shadda-ar dammatan-ar by shaddaDammatan-ar;
-  sub shadda-ar kasratan-ar by shaddaKasratan-ar;
-  sub shadda-ar fatha-ar by shaddaFatha-ar;
-  sub shadda-ar damma-ar by shaddaDamma-ar;
-  sub shadda-ar kasra-ar by shaddaKasra-ar;
-  sub shadda-ar alefabove-ar by shaddaAlefabove-ar;
-  sub alefabove-ar shadda-ar by shaddaAlefabove-ar;
+  lookupflag 0;
+	sub shadda-ar kasratan-ar by shadda_kasratan-ar;
+	sub shadda-ar kasra-ar by shadda_kasra-ar;
 } ccmp_arab_1;
 
 lookup decomposition {
@@ -766,15 +756,15 @@ name = fina;
 },
 {
 code = "lookup rlig_arab_0 {
-	lookupflag IgnoreMarks RightToLeft;
+	lookupflag IgnoreMarks;
 	script arab;
-	sub alef-ar lam-ar.init lam-ar.medi shaddaAlefabove-ar heh-ar.fina by allah-ar;
-	sub alef-ar lam-ar.init lam-ar.medi shaddaAlefabove-ar hehgoal-ar.fina by allah-ar;
+	sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar heh-ar.fina by allah-ar;
+	sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar hehgoal-ar.fina by allah-ar;
 	
 } rlig_arab_0;
 
 lookup rlig_arabic_0 {
-	lookupflag IgnoreMarks RightToLeft;
+	lookupflag IgnoreMarks;
 	sub lam-ar.init alef-ar.fina by lam_alef-ar;
 	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
 	sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;
@@ -791,9 +781,6 @@ lookup rlig_arabic_0 {
 	sub lam-ar.init alefWasla-ar.fina by lam_alefWasla-ar;
 	sub lam-ar.medi alefWasla-ar.fina by lam_alefWasla-ar.fina;
 } rlig_arabic_0;
-
-script arab;
-lookup rlig_arabic_0;
 ";
 name = rlig;
 },
