@@ -18,7 +18,7 @@ name = _part.beh.fina;
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 285, -21}";
 },
 {
@@ -63,7 +63,7 @@ components = (
 name = _part.beh.fina;
 },
 {
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 404, -21}";
 },
 {
@@ -108,7 +108,7 @@ components = (
 name = _part.beh.fina;
 },
 {
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 269, -31}";
 },
 {
@@ -153,7 +153,7 @@ components = (
 name = _part.beh.fina;
 },
 {
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 363, -21}";
 },
 {
@@ -198,7 +198,7 @@ components = (
 name = _part.beh.fina;
 },
 {
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 339, -21}";
 },
 {
@@ -243,7 +243,7 @@ components = (
 name = _part.beh.fina;
 },
 {
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 344, -21}";
 },
 {
@@ -288,7 +288,7 @@ components = (
 name = _part.beh.fina;
 },
 {
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 384, -21}";
 },
 {
@@ -333,7 +333,7 @@ components = (
 name = _part.beh.fina;
 },
 {
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 404, -21}";
 },
 {
@@ -364,7 +364,4 @@ width = 957;
 }
 );
 unicode = 08B4;
-script = arabic;
-category = Letter;
-subCategory = Other;
 }

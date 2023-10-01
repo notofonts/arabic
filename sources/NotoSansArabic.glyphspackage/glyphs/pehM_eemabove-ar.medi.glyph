@@ -5,7 +5,7 @@ layers = (
 components = (
 {
 alignment = -1;
-name = "meemStopabove-ar";
+name = "meemabove-ar";
 transform = "{1, 0, 0, 1, 74, -700}";
 },
 {
@@ -14,7 +14,7 @@ name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
-name = "threedotsdownbelow-ar";
+name = "threedotsdownbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 7, -5}";
 }
 );
@@ -25,7 +25,7 @@ width = 323;
 components = (
 {
 alignment = -1;
-name = "meemStopabove-ar";
+name = "meemabove-ar";
 transform = "{1, 0, 0, 1, 118, -590}";
 },
 {
@@ -34,7 +34,7 @@ name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
-name = "threedotsdownbelow-ar";
+name = "threedotsdownbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 20, -5}";
 }
 );
@@ -44,14 +44,14 @@ width = 405;
 {
 components = (
 {
-name = "meemStopabove-ar";
+name = "meemabove-ar";
 transform = "{1, 0, 0, 1, 64, -700}";
 },
 {
 name = "behDotless-ar.medi.wide";
 },
 {
-name = "threedotsdownbelow-ar";
+name = "threedotsdownbelowSymbol-ar";
 transform = "{1, 0, 0, 1, -23, 0}";
 }
 );
@@ -62,7 +62,7 @@ width = 238;
 components = (
 {
 alignment = -1;
-name = "meemStopabove-ar";
+name = "meemabove-ar";
 transform = "{1, 0, 0, 1, 87, -630}";
 },
 {
@@ -71,7 +71,7 @@ name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
-name = "threedotsdownbelow-ar";
+name = "threedotsdownbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 23, -5}";
 }
 );
@@ -82,7 +82,7 @@ width = 371;
 components = (
 {
 alignment = -1;
-name = "meemStopabove-ar";
+name = "meemabove-ar";
 transform = "{1, 0, 0, 1, 109, -700}";
 },
 {
@@ -91,7 +91,7 @@ name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
-name = "threedotsdownbelow-ar";
+name = "threedotsdownbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 40, -17}";
 }
 );
@@ -102,7 +102,7 @@ width = 352;
 components = (
 {
 alignment = -1;
-name = "meemStopabove-ar";
+name = "meemabove-ar";
 transform = "{1, 0, 0, 1, 92, -700}";
 },
 {
@@ -111,7 +111,7 @@ name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
-name = "threedotsdownbelow-ar";
+name = "threedotsdownbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 35, -8}";
 }
 );
@@ -122,7 +122,7 @@ width = 373;
 components = (
 {
 alignment = -1;
-name = "meemStopabove-ar";
+name = "meemabove-ar";
 transform = "{1, 0, 0, 1, 118, -610}";
 },
 {
@@ -131,7 +131,7 @@ name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
-name = "threedotsdownbelow-ar";
+name = "threedotsdownbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 41, 1}";
 }
 );
@@ -142,7 +142,7 @@ width = 409;
 components = (
 {
 alignment = -1;
-name = "meemStopabove-ar";
+name = "meemabove-ar";
 transform = "{1, 0, 0, 1, 117, -530}";
 },
 {
@@ -151,7 +151,7 @@ name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
-name = "threedotsdownbelow-ar";
+name = "threedotsdownbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 30, -5}";
 }
 );
@@ -159,7 +159,4 @@ layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
 width = 445;
 }
 );
-script = arabic;
-category = Letter;
-subCategory = Other;
 }

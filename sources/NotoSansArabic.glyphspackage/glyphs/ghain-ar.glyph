@@ -9,7 +9,7 @@ name = "ain-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 145, 36}";
 }
 );
@@ -23,7 +23,7 @@ name = "ain-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 178, 152}";
 }
 );
@@ -37,7 +37,7 @@ name = "ain-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 116, 16}";
 }
 );
@@ -51,7 +51,7 @@ name = "ain-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 164, 110}";
 }
 );
@@ -71,7 +71,7 @@ name = "ain-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 183, 16}";
 }
 );
@@ -86,7 +86,7 @@ name = "ain-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 166, 36}";
 }
 );
@@ -101,7 +101,7 @@ name = "ain-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 186, 107}";
 }
 );
@@ -115,7 +115,7 @@ name = "ain-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 228, 152}";
 }
 );
@@ -125,5 +125,5 @@ width = 629;
 );
 leftKerningGroup = ain.isol;
 rightKerningGroup = ain.isol;
-unicode = 063A;
+unicode = "063A,FECD";
 }

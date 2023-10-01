@@ -9,12 +9,12 @@ name = "alefMaksura-ar";
 },
 {
 alignment = -1;
-name = "twodotshorizontalbelow-ar";
+name = "twodotshorizontalbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 177, -230}";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 92, -308}";
 }
 );
@@ -29,12 +29,12 @@ name = "alefMaksura-ar";
 },
 {
 alignment = -1;
-name = "twodotshorizontalbelow-ar";
+name = "twodotshorizontalbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 216, -230}";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 79, -244}";
 }
 );
@@ -49,12 +49,12 @@ name = "alefMaksura-ar";
 },
 {
 alignment = -1;
-name = "twodotshorizontalbelow-ar";
+name = "twodotshorizontalbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 151, -230}";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 83, -328}";
 }
 );
@@ -69,12 +69,12 @@ name = "alefMaksura-ar";
 },
 {
 alignment = -1;
-name = "twodotshorizontalbelow-ar";
+name = "twodotshorizontalbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 195, -230}";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 70, -244}";
 }
 );
@@ -89,12 +89,12 @@ name = "alefMaksura-ar";
 },
 {
 alignment = -1;
-name = "twodotshorizontalbelow-ar";
+name = "twodotshorizontalbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 214, -230}";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 123, -328}";
 }
 );
@@ -114,12 +114,12 @@ name = "alefMaksura-ar";
 },
 {
 alignment = -1;
-name = "twodotshorizontalbelow-ar";
+name = "twodotshorizontalbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 215, -232}";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 80, -308}";
 }
 );
@@ -139,12 +139,12 @@ name = "alefMaksura-ar";
 },
 {
 alignment = -1;
-name = "twodotshorizontalbelow-ar";
+name = "twodotshorizontalbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 216, -231}";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 86, -244}";
 }
 );
@@ -159,12 +159,12 @@ name = "alefMaksura-ar";
 },
 {
 alignment = -1;
-name = "twodotshorizontalbelow-ar";
+name = "twodotshorizontalbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 197, -231}";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 108, -244}";
 }
 );
@@ -173,7 +173,4 @@ width = 845;
 }
 );
 unicode = 08BA;
-script = arabic;
-category = Letter;
-subCategory = Other;
 }

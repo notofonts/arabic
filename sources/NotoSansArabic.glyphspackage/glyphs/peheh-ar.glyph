@@ -8,7 +8,7 @@ name = "fehDotless-ar";
 },
 {
 alignment = -1;
-name = "fourdotsabove-ar";
+name = "fourdotsaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 485, 38}";
 }
 );
@@ -23,7 +23,7 @@ name = "fehDotless-ar";
 },
 {
 alignment = -1;
-name = "fourdotsabove-ar";
+name = "fourdotsaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 576, 158}";
 }
 );
@@ -46,7 +46,7 @@ name = "fehDotless-ar";
 },
 {
 alignment = -1;
-name = "fourdotsabove-ar";
+name = "fourdotsaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 405, 18}";
 }
 );
@@ -61,7 +61,7 @@ name = "fehDotless-ar";
 },
 {
 alignment = -1;
-name = "fourdotsabove-ar";
+name = "fourdotsaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 548, 111}";
 }
 );
@@ -76,7 +76,7 @@ name = "fehDotless-ar";
 },
 {
 alignment = -1;
-name = "fourdotsabove-ar";
+name = "fourdotsaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 620, 18}";
 }
 );
@@ -91,7 +91,7 @@ name = "fehDotless-ar";
 },
 {
 alignment = -1;
-name = "fourdotsabove-ar";
+name = "fourdotsaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 616, 38}";
 }
 );
@@ -106,7 +106,7 @@ name = "fehDotless-ar";
 },
 {
 alignment = -1;
-name = "fourdotsabove-ar";
+name = "fourdotsaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 639, 129}";
 }
 );
@@ -121,7 +121,7 @@ name = "fehDotless-ar";
 },
 {
 alignment = -1;
-name = "fourdotsabove-ar";
+name = "fourdotsaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 632, 152}";
 }
 );
@@ -129,5 +129,5 @@ layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
 width = 1060;
 }
 );
-unicode = 06A6;
+unicode = "06A6,FB6E";
 }

@@ -8,7 +8,7 @@ name = "fehDotless-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 552, 38}";
 }
 );
@@ -23,7 +23,7 @@ name = "fehDotless-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 614, 158}";
 }
 );
@@ -43,7 +43,7 @@ name = "fehDotless-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 497, 18}";
 }
 );
@@ -58,7 +58,7 @@ name = "fehDotless-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 600, 113}";
 }
 );
@@ -73,7 +73,7 @@ name = "fehDotless-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 712, 18}";
 }
 );
@@ -88,7 +88,7 @@ name = "fehDotless-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 683, 38}";
 }
 );
@@ -103,7 +103,7 @@ name = "fehDotless-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 682, 129}";
 }
 );
@@ -118,7 +118,7 @@ name = "fehDotless-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 672, 152}";
 }
 );
@@ -126,5 +126,5 @@ layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
 width = 1060;
 }
 );
-unicode = 0641;
+unicode = "0641,FED1";
 }

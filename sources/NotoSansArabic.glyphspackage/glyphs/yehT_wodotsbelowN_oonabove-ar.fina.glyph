@@ -9,12 +9,12 @@ name = "alefMaksura-ar.fina";
 },
 {
 alignment = -1;
-name = "twodotshorizontalbelow-ar";
+name = "twodotshorizontalbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 181, -230}";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 92, -308}";
 }
 );
@@ -29,12 +29,12 @@ name = "alefMaksura-ar.fina";
 },
 {
 alignment = -1;
-name = "twodotshorizontalbelow-ar";
+name = "twodotshorizontalbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 200, -230}";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 79, -244}";
 }
 );
@@ -49,12 +49,12 @@ name = "alefMaksura-ar.fina";
 },
 {
 alignment = -1;
-name = "twodotshorizontalbelow-ar";
+name = "twodotshorizontalbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 144, -230}";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 83, -328}";
 }
 );
@@ -69,12 +69,12 @@ name = "alefMaksura-ar.fina";
 },
 {
 alignment = -1;
-name = "twodotshorizontalbelow-ar";
+name = "twodotshorizontalbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 180, -230}";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 70, -244}";
 }
 );
@@ -89,12 +89,12 @@ name = "alefMaksura-ar.fina";
 },
 {
 alignment = -1;
-name = "twodotshorizontalbelow-ar";
+name = "twodotshorizontalbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 213, -230}";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 123, -328}";
 }
 );
@@ -109,12 +109,12 @@ name = "alefMaksura-ar.fina";
 },
 {
 alignment = -1;
-name = "twodotshorizontalbelow-ar";
+name = "twodotshorizontalbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 185, -232}";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 80, -308}";
 }
 );
@@ -129,12 +129,12 @@ name = "alefMaksura-ar.fina";
 },
 {
 alignment = -1;
-name = "twodotshorizontalbelow-ar";
+name = "twodotshorizontalbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 239, -231}";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 86, -244}";
 }
 );
@@ -149,12 +149,12 @@ name = "alefMaksura-ar.fina";
 },
 {
 alignment = -1;
-name = "twodotshorizontalbelow-ar";
+name = "twodotshorizontalbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 215, -231}";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 108, -244}";
 }
 );
@@ -162,7 +162,4 @@ layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
 width = 841;
 }
 );
-script = arabic;
-category = Letter;
-subCategory = Other;
 }

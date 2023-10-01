@@ -9,12 +9,12 @@ name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 78, -3}";
 },
 {
 alignment = -1;
-name = "meemStopabove-ar";
+name = "meemabove-ar";
 transform = "{1, 0, 0, 1, 74, -700}";
 }
 );
@@ -29,12 +29,12 @@ name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 80, -5}";
 },
 {
 alignment = -1;
-name = "meemStopabove-ar";
+name = "meemabove-ar";
 transform = "{1, 0, 0, 1, 101, -590}";
 }
 );
@@ -49,12 +49,12 @@ name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 71, 1}";
 },
 {
 alignment = -1;
-name = "meemStopabove-ar";
+name = "meemabove-ar";
 transform = "{1, 0, 0, 1, 76, -700}";
 }
 );
@@ -69,12 +69,12 @@ name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 81, -22}";
 },
 {
 alignment = -1;
-name = "meemStopabove-ar";
+name = "meemabove-ar";
 transform = "{1, 0, 0, 1, 92, -630}";
 }
 );
@@ -89,12 +89,12 @@ name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 135, -16}";
 },
 {
 alignment = -1;
-name = "meemStopabove-ar";
+name = "meemabove-ar";
 transform = "{1, 0, 0, 1, 109, -700}";
 }
 );
@@ -109,12 +109,12 @@ name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 104, -3}";
 },
 {
 alignment = -1;
-name = "meemStopabove-ar";
+name = "meemabove-ar";
 transform = "{1, 0, 0, 1, 92, -700}";
 }
 );
@@ -129,12 +129,12 @@ name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 91, -2}";
 },
 {
 alignment = -1;
-name = "meemStopabove-ar";
+name = "meemabove-ar";
 transform = "{1, 0, 0, 1, 118, -610}";
 }
 );
@@ -149,12 +149,12 @@ name = "behDotless-ar.medi.wide";
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 106, -2}";
 },
 {
 alignment = -1;
-name = "meemStopabove-ar";
+name = "meemabove-ar";
 transform = "{1, 0, 0, 1, 117, -530}";
 }
 );
@@ -162,7 +162,4 @@ layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
 width = 445;
 }
 );
-script = arabic;
-category = Letter;
-subCategory = Other;
 }

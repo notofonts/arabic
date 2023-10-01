@@ -9,7 +9,7 @@ name = "behDotless-ar";
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 260, -23}";
 }
 );
@@ -24,7 +24,7 @@ name = "behDotless-ar";
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 403, -25}";
 }
 );
@@ -39,7 +39,7 @@ name = "behDotless-ar";
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 273, -24}";
 }
 );
@@ -54,7 +54,7 @@ name = "behDotless-ar";
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 351, -42}";
 }
 );
@@ -69,7 +69,7 @@ name = "behDotless-ar";
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 424, -24}";
 }
 );
@@ -84,7 +84,7 @@ name = "behDotless-ar";
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 410, -23}";
 }
 );
@@ -99,7 +99,7 @@ name = "behDotless-ar";
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 405, -22}";
 }
 );
@@ -114,7 +114,7 @@ name = "behDotless-ar";
 },
 {
 alignment = -1;
-name = "dotbelow-ar";
+name = "dotbelowSymbol-ar";
 transform = "{1, 0, 0, 1, 414, -22}";
 }
 );
@@ -127,5 +127,5 @@ layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
 width = 1068;
 }
 );
-unicode = 0628;
+unicode = "0628,FE8F";
 }

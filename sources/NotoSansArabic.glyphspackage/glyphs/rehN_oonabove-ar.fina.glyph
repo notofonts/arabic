@@ -8,7 +8,7 @@ name = "reh-ar.fina";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, -37, -177}";
 }
 );
@@ -21,7 +21,7 @@ components = (
 name = "reh-ar.fina";
 },
 {
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 1, -39}";
 }
 );
@@ -34,7 +34,7 @@ components = (
 name = "reh-ar.fina";
 },
 {
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, -21, -106}";
 }
 );
@@ -47,7 +47,7 @@ components = (
 name = "reh-ar.fina";
 },
 {
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, -28, -63}";
 }
 );
@@ -60,7 +60,7 @@ components = (
 name = "reh-ar.fina";
 },
 {
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 47, -107}";
 }
 );
@@ -73,7 +73,7 @@ components = (
 name = "reh-ar.fina";
 },
 {
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 26, -107}";
 }
 );
@@ -87,7 +87,7 @@ name = "reh-ar.fina";
 },
 {
 alignment = -1;
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 70, -136}";
 }
 );
@@ -100,7 +100,7 @@ components = (
 name = "reh-ar.fina";
 },
 {
-name = "noonabove-ar";
+name = "noonStopabove-ar";
 transform = "{1, 0, 0, 1, 52, -39}";
 }
 );
@@ -108,7 +108,4 @@ layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
 width = 460;
 }
 );
-script = arabic;
-category = Letter;
-subCategory = Other;
 }

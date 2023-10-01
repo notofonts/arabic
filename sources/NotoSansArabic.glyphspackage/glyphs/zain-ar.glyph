@@ -9,7 +9,7 @@ name = "reh-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 61, -112}";
 }
 );
@@ -24,7 +24,7 @@ name = "reh-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 39, -22}";
 }
 );
@@ -39,7 +39,7 @@ name = "reh-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 42, -111}";
 }
 );
@@ -54,7 +54,7 @@ name = "reh-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 22, -55}";
 }
 );
@@ -69,7 +69,7 @@ name = "reh-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 119, -112}";
 }
 );
@@ -84,7 +84,7 @@ name = "reh-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 101, -112}";
 }
 );
@@ -98,7 +98,7 @@ name = "reh-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 137, -59}";
 }
 );
@@ -113,7 +113,7 @@ name = "reh-ar";
 },
 {
 alignment = -1;
-name = "dotabove-ar";
+name = "dotaboveSymbol-ar";
 transform = "{1, 0, 0, 1, 87, -28}";
 }
 );
@@ -122,5 +122,5 @@ width = 435;
 }
 );
 rightKerningGroup = reh;
-unicode = 0632;
+unicode = "0632,FEAF";
 }
