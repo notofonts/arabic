@@ -252,7 +252,7 @@ name = aalt;
 code = "
 lookup liaadama { # See issue #26
   lookupflag UseMarkFilteringSet [hamzaabove-ar];
-  sub lam-ar kashida-ar' hamzaabove-ar' alef-ar by hamzabetween-ar;
+  sub lam-ar kashida-ar' hamzaabove-ar' alef-ar by hamzaabove-ar.between;
 } liaadama;
 
 lookup ccmp_arab_1 {
