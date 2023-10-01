@@ -45,13 +45,6 @@ kafThreedotsbelow-ar
 ng-ar
 lam-ar.init
 lam_alef-ar
-lam_alefHamzaabove-ar
-lam_alefHamzabelow-ar
-lam_alefWavyhamzaabove-ar.isol
-lam_alefWavyhamzabelow-ar.isol
-lam_alefMadda-ar
-lam_alefWasla-ar
-lam_alefWasla-ar.isol
 alef-ar
 alefWavyhamzaabove-ar
 highhamzaAlef-ar
@@ -136,8 +129,8 @@ hehAlefabove-ar.init
 name = kern_Hah;
 },
 {
-automatic = 1;
-code = "alef-ar alef-ar.fina alefHamzaabove-ar alefHamzaabove-ar.fina alefHamzabelow-ar alefHamzabelow-ar.fina alefMadda-ar alefMadda-ar.fina alefMaksura-ar alefWasla-ar alefWasla-ar.fina dal-ar dal-ar.fina ddal-ar hehgoalHamzaabove-ar jeh-ar lam_alef-ar lam_alef-ar.fina lam_alefHamzaabove-ar lam_alefHamzaabove-ar.fina lam_alefHamzabelow-ar lam_alefHamzabelow-ar.fina lam_alefMadda-ar lam_alefMadda-ar.fina lam_alefWasla-ar lam_alefWasla-ar.fina noonghunna-ar noonghunna-ar.fina reh-ar reh-ar.fina rreh-ar tehMarbuta-ar tehMarbutagoal-ar thal-ar thal-ar.fina waw-ar waw-ar.fina wawHamzaabove-ar wawHamzaabove-ar.fina zain-ar zain-ar.fina";
+code = "alef-ar alef-ar.fina alefHamzaabove-ar alefHamzaabove-ar.fina alefHamzabelow-ar alefHamzabelow-ar.fina alefMadda-ar alefMadda-ar.fina alefMaksura-ar alefWasla-ar alefWasla-ar.fina dal-ar dal-ar.fina ddal-ar hehgoalHamzaabove-ar jeh-ar lam_alef-ar lam_alef-ar.fina lam_alefHamzaabove-ar lam_alefHamzaabove-ar.fina lam_alefHamzabelow-ar lam_alefHamzabelow-ar.fina lam_alefMadda-ar lam_alefMadda-ar.fina noonghunna-ar noonghunna-ar.fina reh-ar reh-ar.fina rreh-ar tehMarbuta-ar tehMarbutagoal-ar thal-ar thal-ar.fina waw-ar waw-ar.fina wawHamzaabove-ar wawHamzaabove-ar.fina zain-ar zain-ar.fina
+";
 name = ArabicLetters;
 }
 );
@@ -270,17 +263,33 @@ lookup ccmp_arab_1 {
 
 lookup decomposition {
   # Alef family
-#  sub alefHamzaabove-ar by alef-ar.short hamzaabove-ar;
+  sub alefHamzaabove-ar by alef-ar.short hamzaabove-ar;
   sub alefHamzabelow-ar by alef-ar hamzabelow-ar;
-#  sub alefMadda-ar by alef-ar.short madda-ar;
-#  sub alefWavyhamzaabove-ar by alef-ar.short wavyhamzaabove-ar;
+  sub alefMadda-ar by alef-ar.short madda-ar;
+  sub alefWavyhamzaabove-ar by alef-ar.short wavyhamzaabove-ar;
   sub alefWavyhamzabelow-ar by alef-ar wavyhamzabelow-ar;
-
-# This is an isolated form and shouldn't go through any further interactions.
-#  sub alefFathatan-ar by alef-ar fathatan-ar;
-
-  sub highhamzaAlef-ar by highhamza-ar alef-ar;
-#  sub alefWasla-ar by alef-ar.short wasla-ar;
+  sub alefWasla-ar by alef-ar.short wasla-ar;
+  sub alefTwoabove-ar by alef-ar twoabove-ar;
+  sub alefThreeabove-ar by alef-ar threeabove-ar;
+  #sub alefFatha-ar by alef-ar fathaattached-ar;
+  #sub alefRightFatha-ar by alef-ar fathaattachedright-ar;
+  #sub alefRightMiddleStroke-ar by alef-ar strokeright-ar;
+  #sub alefLeftMiddleStroke-ar by alef-ar strokeleft-ar;
+  #sub alefKasra-ar by alef-ar kasraattached-ar;
+  #sub alefRightKasra-ar by alef-ar kasraattachedright-ar;
+  #sub alefRoundDotAbove-ar by alef-ar rounddotattachedabove-ar;
+  #sub alefRightRoundDot-ar by alef-ar rounddotattachedright-ar;
+  #sub alefLeftRoundDot-ar by alef-ar rounddotattachedleft-ar;
+  #sub alefRoundDotBelow-ar by alef-ar rounddotattachedbelow-ar;
+  #sub alefDotAbove-ar by alef-ar dotabove-ar;
+  #sub alefRightFathaDotAbove-ar by alef-ar fathaattachedright-ar dotabove-ar;
+  #sub alefRightMiddleStrokeDotAbove-ar by alef-ar strokeright-ar dotabove-ar;
+  #sub alefRightKasraDotAbove-ar by alef-ar kasraattachedright-ar dotabove-ar;
+  #sub alefRightFathaLeftRing-ar by alef-ar fathaattachedright-ar ringattachedleft-ar;
+  #sub alefRightMiddleStrokeLeftRing-ar by alef-ar strokeright-ar ringattachedleft-ar;
+  #sub alefRightKasraLeftRing-ar by alef-ar kasraattachedright-ar ringattachedleft-ar;
+  #sub alefRightHamza-ar by alef-ar hamzaattachedright-ar;
+  #sub alefLeftHamza-ar by alef-ar hamzaattachedleft-ar;
 
   # Ain family
   sub ainThreedots-ar by ain-ar threedotsupabove-ar;
@@ -626,16 +635,10 @@ code = "sub ae-ar by heh-ar.fina;
 sub ain-ar by ain-ar.fina;
 sub ainThreedotsbelow-ar by ain-ar.fina threedotsdowncenter-ar.small;
 sub alef-ar by alef-ar.fina;
-#sub alef-ar.short by alef-ar.short.fina;
+sub alef-ar.short by alef-ar.short.fina;
 sub alefFathatan-ar by alef-ar.fina fathatan-ar;
-sub alefHamzaabove-ar by alefHamzaabove-ar.fina;
-sub alefHamzabelow-ar by alefHamzabelow-ar.fina;
-sub alefMadda-ar by alefMadda-ar.fina;
 sub alefMaksura-ar by alefMaksura-ar.fina;
 sub alefMaksuraAlefabove-ar by alefMaksuraAlefabove-ar.fina;
-sub alefThreeabove-ar by alefThreeabove-ar.fina;
-sub alefTwoabove-ar by alefTwoabove-ar.fina;
-sub alefWasla-ar by alefWasla-ar.fina;
 sub beeh-ar by beeh-ar.fina;
 sub beh-ar by beh-ar.fina;
 sub behDotless-ar by behDotless-ar.fina;
@@ -765,21 +768,8 @@ code = "lookup rlig_arab_0 {
 
 lookup rlig_arabic_0 {
 	lookupflag IgnoreMarks;
-	sub lam-ar.init alef-ar.fina by lam_alef-ar;
-	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
-	sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;
-	sub lam-ar.medi alefHamzaabove-ar.fina by lam_alefHamzaabove-ar.fina;
-	sub lam-ar.init alefHamzabelow-ar.fina by lam_alefHamzabelow-ar;
-	sub lam-ar.medi alefHamzabelow-ar.fina by lam_alefHamzabelow-ar.fina;
-	sub lam-ar.medi alefWavyhamzaabove-ar.fina by lam_alefWavyhamzaabove-ar.fina;
-	sub lam-ar.medi alefWavyhamzabelow-ar.fina by lam_alefWavyhamzabelow-ar.fina;
-	sub lam-ar.init alefMadda-ar.fina by lam_alefMadda-ar;
-	sub lam-ar.medi alefMadda-ar.fina by lam_alefMadda-ar.fina;
-	sub lam-ar.medi hah-ar.medi alefMaksura-ar.fina by lam_hah_alefMaksura-ar.fina;
-	sub lam-ar.init alefMaksura-ar.fina by lam_alefMaksura-ar;
-	sub lam-ar.medi alefMaksura-ar.fina by lam_alefMaksura-ar.fina;
-	sub lam-ar.init alefWasla-ar.fina by lam_alefWasla-ar;
-	sub lam-ar.medi alefWasla-ar.fina by lam_alefWasla-ar.fina;
+	sub lam-ar.init [alef-ar.fina alef-ar.short.fina] by lam_alef-ar;
+	sub lam-ar.medi [alef-ar.fina alef-ar.short.fina] by lam_alef-ar.fina;
 } rlig_arabic_0;
 ";
 name = rlig;
