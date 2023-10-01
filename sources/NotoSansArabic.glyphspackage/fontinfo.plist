@@ -46,23 +46,20 @@ ng-ar
 lam-ar.init
 lam_alef-ar
 lam_alefHamzaabove-ar
-lam_alefHamzaabove-ar.isol
 lam_alefHamzabelow-ar
-lam_alefHamzabelow-ar.isol
 lam_alefWavyhamzaabove-ar.isol
 lam_alefWavyhamzabelow-ar.isol
 lam_alefMadda-ar
-lam_alefMadda-ar.isol
 lam_alefWasla-ar
 lam_alefWasla-ar.isol
-lam_alef-ar.isol
 alef-ar
 alefWavyhamzaabove-ar
 highhamzaAlef-ar
 alefTwoabove-ar
 alefThreeabove-ar
 ain-ar.init
-ghain-ar.init";
+ghain-ar.init
+";
 name = kern_Alef;
 },
 {
@@ -808,7 +805,6 @@ lookup rlig_arabic_0 {
 	sub lam-ar.medi alefMaksura-ar.fina by lam_alefMaksura-ar.fina;
 	sub lam-ar.init alefWasla-ar.fina by lam_alefWasla-ar;
 	sub lam-ar.medi alefWasla-ar.fina by lam_alefWasla-ar.fina;
-	sub lam-ar.init alefMaksura-ar.medi meem-ar.fina by lam_alefMaksura_meem-ar;
 } rlig_arabic_0;
 
 script arab;
