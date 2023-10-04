@@ -71,11 +71,11 @@ width = 209;
 anchors = (
 {
 name = _top;
-position = "{66, 458}";
+position = "{52, 458}";
 },
 {
 name = top;
-position = "{64, 732}";
+position = "{50, 721}";
 }
 );
 layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
@@ -83,18 +83,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"89 642 OFFCURVE",
-"108 662 OFFCURVE",
-"108 687 CURVE SMOOTH",
-"108 712 OFFCURVE",
-"89 732 OFFCURVE",
-"64 732 CURVE SMOOTH",
-"39 732 OFFCURVE",
-"20 712 OFFCURVE",
+"67 656 OFFCURVE",
+"80 670 OFFCURVE",
+"80 687 CURVE SMOOTH",
+"80 704 OFFCURVE",
+"67 718 OFFCURVE",
+"50 718 CURVE SMOOTH",
+"33 718 OFFCURVE",
+"20 704 OFFCURVE",
 "20 687 CURVE SMOOTH",
-"20 662 OFFCURVE",
-"39 642 OFFCURVE",
-"64 642 CURVE SMOOTH"
+"20 670 OFFCURVE",
+"33 656 OFFCURVE",
+"50 656 CURVE SMOOTH"
 );
 }
 );
