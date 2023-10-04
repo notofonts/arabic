@@ -4,12 +4,8 @@ layers = (
 {
 anchors = (
 {
-name = _top;
-position = "{117, 498}";
-},
-{
-name = top;
-position = "{121, 829}";
+name = _stop;
+position = "{137, 1030}";
 }
 );
 background = {
@@ -58,8 +54,9 @@ nodes = (
 };
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = "tahabove-ar";
+transform = "{1, 0, 0, 1, 0, 510}";
 }
 );
 layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
@@ -68,12 +65,8 @@ width = 274;
 {
 anchors = (
 {
-name = _top;
-position = "{130, 498}";
-},
-{
-name = top;
-position = "{144, 847}";
+name = _stop;
+position = "{152, 1030}";
 }
 );
 background = {
@@ -122,8 +115,9 @@ nodes = (
 };
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = "tahabove-ar";
+transform = "{1, 0, 0, 1, 0, 622}";
 }
 );
 layerId = "A7E21968-E455-4749-BB19-379F5EDC3B9B";
@@ -132,12 +126,8 @@ width = 303;
 {
 anchors = (
 {
-name = _top;
-position = "{121, 498}";
-},
-{
-name = top;
-position = "{125, 817}";
+name = _stop;
+position = "{129, 1030}";
 }
 );
 background = {
@@ -186,8 +176,9 @@ nodes = (
 };
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = "tahabove-ar";
+transform = "{1, 0, 0, 1, 0, 508}";
 }
 );
 layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
@@ -196,12 +187,8 @@ width = 257;
 {
 anchors = (
 {
-name = _top;
-position = "{125, 498}";
-},
-{
-name = top;
-position = "{136, 840}";
+name = _stop;
+position = "{146, 1030}";
 }
 );
 background = {
@@ -250,8 +237,9 @@ nodes = (
 };
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = "tahabove-ar";
+transform = "{1, 0, 0, 1, 0, 566}";
 }
 );
 layerId = "08F1692B-9525-48D2-9816-1987B1C44D50";
@@ -260,12 +248,8 @@ width = 291;
 {
 anchors = (
 {
-name = _top;
-position = "{131, 498}";
-},
-{
-name = top;
-position = "{135, 817}";
+name = _stop;
+position = "{137, 1030}";
 }
 );
 background = {
@@ -314,8 +298,9 @@ nodes = (
 };
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = "tahabove-ar";
+transform = "{1, 0, 0, 1, 0, 498}";
 }
 );
 guideLines = (
@@ -329,12 +314,8 @@ width = 274;
 {
 anchors = (
 {
-name = _top;
-position = "{133, 498}";
-},
-{
-name = top;
-position = "{138, 824}";
+name = _stop;
+position = "{151, 1030}";
 }
 );
 background = {
@@ -383,8 +364,9 @@ nodes = (
 };
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = "tahabove-ar";
+transform = "{1, 0, 0, 1, 0, 513}";
 }
 );
 guideLines = (
@@ -398,12 +380,8 @@ width = 301;
 {
 anchors = (
 {
-name = _top;
-position = "{133, 498}";
-},
-{
-name = top;
-position = "{149, 829}";
+name = _stop;
+position = "{157, 1030}";
 }
 );
 background = {
@@ -452,8 +430,9 @@ nodes = (
 };
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = "tahabove-ar";
+transform = "{1, 0, 0, 1, 0, 555}";
 }
 );
 guideLines = (
@@ -467,12 +446,8 @@ width = 314;
 {
 anchors = (
 {
-name = _top;
-position = "{133, 498}";
-},
-{
-name = top;
-position = "{157, 840}";
+name = _stop;
+position = "{165, 1030}";
 }
 );
 background = {
@@ -521,8 +496,9 @@ nodes = (
 };
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = "tahabove-ar";
+transform = "{1, 0, 0, 1, 0, 600}";
 }
 );
 guideLines = (
