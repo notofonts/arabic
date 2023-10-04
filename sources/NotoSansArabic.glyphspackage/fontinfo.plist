@@ -217,7 +217,20 @@ languagesystem arab SND;
 name = Languagesystems;
 },
 {
-code = "lookup dotcenter_below {
+code = "
+lookup lam_alef_isol {
+	sub	[alef-ar.fina alef-ar.short.fina lam-ar.init]
+	 by	[alef-ar.fina.rlig alef-ar.fina.rlig lam-ar.init.rlig]
+	;
+} lam_alef_isol;
+
+lookup lam_alef_fina {
+	sub	[alef-ar.fina alef-ar.short.fina lam-ar.medi]
+	 by	[alef-ar.fina.rlig.2 alef-ar.fina.rlig.2 lam-ar.medi.rlig]
+	;
+} lam_alef_fina;
+
+lookup dotcenter_below {
   sub @dotcenter by @dotcenter.below;
 } dotcenter_below;
 ";
@@ -680,6 +693,16 @@ lookup wide_hah {
   ;
 } wide_hah;
 
+lookup lam_alef {
+  lookupflag IgnoreMarks;
+  sub  lam-ar.init' lookup lam_alef_isol
+      [alef-ar.fina alef-ar.short.fina]' lookup lam_alef_isol
+  ;
+  sub  lam-ar.medi' lookup lam_alef_fina
+      [alef-ar.fina alef-ar.short.fina]' lookup lam_alef_fina
+  ;
+} lam_alef;
+
 lookup rlig_arab_0 {
 	lookupflag IgnoreMarks;
 	script arab;
@@ -687,11 +710,6 @@ lookup rlig_arab_0 {
 	sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar hehgoal-ar.fina by allah-ar;
 } rlig_arab_0;
 
-lookup rlig_arabic_0 {
-	lookupflag IgnoreMarks;
-	sub lam-ar.init [alef-ar.fina alef-ar.short.fina] by lam_alef-ar;
-	sub lam-ar.medi [alef-ar.fina alef-ar.short.fina] by lam_alef-ar.fina;
-} rlig_arabic_0;
 ";
 name = rlig;
 },
