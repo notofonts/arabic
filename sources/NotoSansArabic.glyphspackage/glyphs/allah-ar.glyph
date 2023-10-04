@@ -4,25 +4,44 @@ layers = (
 {
 anchors = (
 {
+name = bottom_4;
+position = "{203, 0}";
+},
+{
 name = caret_1;
-position = "{0, 0}";
+position = "{412, 0}";
 },
 {
 name = caret_2;
-position = "{-322, 0}";
+position = "{640, 0}";
 },
 {
 name = caret_3;
-position = "{803.25, 0}";
+position = "{847, 0}";
+},
+{
+name = top_4;
+position = "{203, 528}";
 }
 );
 components = (
 {
-name = "allah-ar.pt1";
+name = "alef-ar";
+transform = "{1, 0, 0, 1, 847, 0}";
 },
 {
-name = "shaddaAlefabove-ar";
+alignment = 1;
+name = "allah-ar.2";
+},
+{
+alignment = 1;
+anchor = top_2;
+name = "shadda-ar";
 transform = "{1, 0, 0, 1, 331, 18}";
+},
+{
+name = "alefabove-ar";
+transform = "{1, 0, 0, 1, 404, 228}";
 }
 );
 layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
@@ -31,25 +50,44 @@ width = 1071;
 {
 anchors = (
 {
+name = bottom_4;
+position = "{308, 0}";
+},
+{
 name = caret_1;
-position = "{0, 0}";
+position = "{546, 0}";
 },
 {
 name = caret_2;
-position = "{-375, 0}";
+position = "{852, 0}";
 },
 {
 name = caret_3;
-position = "{1068.75, 0}";
+position = "{1123, 0}";
+},
+{
+name = top_4;
+position = "{289, 646}";
 }
 );
 components = (
 {
-name = "allah-ar.pt1";
+name = "alef-ar";
+transform = "{1, 0, 0, 1, 1123, 0}";
 },
 {
-name = "shaddaAlefabove-ar";
-transform = "{1, 0, 0, 1, 502, 138}";
+alignment = 1;
+name = "allah-ar.2";
+},
+{
+alignment = 1;
+anchor = top_2;
+name = "shadda-ar";
+transform = "{1, 0, 0, 1, 505, 148}";
+},
+{
+name = "alefabove-ar";
+transform = "{1, 0, 0, 1, 553, 378}";
 }
 );
 layerId = "A7E21968-E455-4749-BB19-379F5EDC3B9B";
@@ -58,25 +96,44 @@ width = 1425;
 {
 anchors = (
 {
+name = bottom_4;
+position = "{213, 0}";
+},
+{
 name = caret_1;
-position = "{0, 0}";
+position = "{389, 0}";
 },
 {
 name = caret_2;
-position = "{-271, 0}";
+position = "{604, 0}";
 },
 {
 name = caret_3;
-position = "{728.25, 0}";
+position = "{771, 0}";
+},
+{
+name = top_4;
+position = "{223, 528}";
 }
 );
 components = (
 {
-name = "allah-ar.pt1";
+name = "alef-ar";
+transform = "{1, 0, 0, 1, 771, 0}";
 },
 {
-name = "shaddaAlefabove-ar";
+alignment = 1;
+name = "allah-ar.2";
+},
+{
+alignment = 1;
+anchor = top_2;
+name = "shadda-ar";
 transform = "{1, 0, 0, 1, 338, 28}";
+},
+{
+name = "alefabove-ar";
+transform = "{1, 0, 0, 1, 410, 254}";
 }
 );
 layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
@@ -85,25 +142,44 @@ width = 971;
 {
 anchors = (
 {
+name = bottom_4;
+position = "{272, 0}";
+},
+{
 name = caret_1;
-position = "{0, 0}";
+position = "{496, 0}";
 },
 {
 name = caret_2;
-position = "{-353, 0}";
+position = "{777, 0}";
 },
 {
 name = caret_3;
-position = "{970.5, 0}";
+position = "{1018, 0}";
+},
+{
+name = top_4;
+position = "{260, 604}";
 }
 );
 components = (
 {
-name = "allah-ar.pt1";
+name = "alef-ar";
+transform = "{1, 0, 0, 1, 1018, 0}";
 },
 {
-name = "shaddaAlefabove-ar";
-transform = "{1, 0, 0, 1, 441, 98}";
+alignment = 1;
+name = "allah-ar.2";
+},
+{
+alignment = 1;
+anchor = top_2;
+name = "shadda-ar";
+transform = "{1, 0, 0, 1, 452, 121}";
+},
+{
+name = "alefabove-ar";
+transform = "{1, 0, 0, 1, 511, 401}";
 }
 );
 layerId = "08F1692B-9525-48D2-9816-1987B1C44D50";
@@ -112,25 +188,44 @@ width = 1294;
 {
 anchors = (
 {
+name = bottom_4;
+position = "{273, 0}";
+},
+{
 name = caret_1;
-position = "{0, 0}";
+position = "{475, 0}";
 },
 {
 name = caret_2;
-position = "{-322, 0}";
+position = "{755, 0}";
 },
 {
 name = caret_3;
-position = "{885.75, 0}";
+position = "{960, 0}";
+},
+{
+name = top_4;
+position = "{263, 528}";
 }
 );
 components = (
 {
-name = "allah-ar.pt1";
+name = "alef-ar";
+transform = "{1, 0, 0, 1, 960, 0}";
 },
 {
-name = "shaddaAlefabove-ar";
-transform = "{1, 0, 0, 1, 454, -7}";
+alignment = 1;
+name = "allah-ar.2";
+},
+{
+alignment = 1;
+anchor = top_2;
+name = "shadda-ar";
+transform = "{1, 0, 0, 1, 454, 13}";
+},
+{
+name = "alefabove-ar";
+transform = "{1, 0, 0, 1, 536, 319}";
 }
 );
 layerId = "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3";
@@ -139,25 +234,44 @@ width = 1181;
 {
 anchors = (
 {
+name = bottom_4;
+position = "{253, 0}";
+},
+{
 name = caret_1;
-position = "{0, 0}";
+position = "{496, 0}";
 },
 {
 name = caret_2;
-position = "{-322, 0}";
+position = "{796, 0}";
 },
 {
 name = caret_3;
-position = "{963, 0}";
+position = "{1046, 0}";
+},
+{
+name = top_4;
+position = "{243, 528}";
 }
 );
 components = (
 {
-name = "allah-ar.pt1";
+name = "alef-ar";
+transform = "{1, 0, 0, 1, 1046, 0}";
 },
 {
-name = "shaddaAlefabove-ar";
-transform = "{1, 0, 0, 1, 464, -5}";
+alignment = 1;
+name = "allah-ar.2";
+},
+{
+alignment = 1;
+anchor = top_2;
+name = "shadda-ar";
+transform = "{1, 0, 0, 1, 464, 15}";
+},
+{
+name = "alefabove-ar";
+transform = "{1, 0, 0, 1, 540, 215}";
 }
 );
 layerId = "6D0603BE-7277-4DA4-8C59-7934AF28E45B";
@@ -166,25 +280,44 @@ width = 1284;
 {
 anchors = (
 {
+name = bottom_4;
+position = "{329, 0}";
+},
+{
 name = caret_1;
-position = "{0, 0}";
+position = "{566, 0}";
 },
 {
 name = caret_2;
-position = "{-322, 0}";
+position = "{910, 0}";
 },
 {
 name = caret_3;
-position = "{1102.5, 0}";
+position = "{1197, 0}";
+},
+{
+name = top_4;
+position = "{288, 600}";
 }
 );
 components = (
 {
-name = "allah-ar.pt1";
+name = "alef-ar";
+transform = "{1, 0, 0, 1, 1197, 0}";
 },
 {
-name = "shaddaAlefabove-ar";
-transform = "{1, 0, 0, 1, 546, 99}";
+alignment = 1;
+name = "allah-ar.2";
+},
+{
+alignment = 1;
+anchor = top_2;
+name = "shadda-ar";
+transform = "{1, 0, 0, 1, 546, 119}";
+},
+{
+name = "alefabove-ar";
+transform = "{1, 0, 0, 1, 596, 339}";
 }
 );
 layerId = "E1555194-BAFD-4DCC-A026-E2F9BA1917F2";
@@ -193,25 +326,44 @@ width = 1470;
 {
 anchors = (
 {
+name = bottom_4;
+position = "{388, 0}";
+},
+{
 name = caret_1;
-position = "{10, 0}";
+position = "{622, 0}";
 },
 {
 name = caret_2;
-position = "{-365, 0}";
+position = "{993, 0}";
 },
 {
 name = caret_3;
-position = "{1213, 0}";
+position = "{1305, 0}";
+},
+{
+name = top_4;
+position = "{323, 646}";
 }
 );
 components = (
 {
-name = "allah-ar.pt1";
+name = "alef-ar";
+transform = "{1, 0, 0, 1, 1305, 0}";
 },
 {
-name = "shaddaAlefabove-ar";
-transform = "{1, 0, 0, 1, 604, 110}";
+alignment = 1;
+name = "allah-ar.2";
+},
+{
+alignment = 1;
+anchor = top_2;
+name = "shadda-ar";
+transform = "{1, 0, 0, 1, 601, 151}";
+},
+{
+name = "alefabove-ar";
+transform = "{1, 0, 0, 1, 654, 411}";
 }
 );
 layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";

@@ -717,16 +717,24 @@ lookup lam_alef {
       [alef-ar.fina alef-ar.short.fina]' lookup lam_alef_fina
   ;
 } lam_alef;
-
-lookup rlig_arab_0 {
-	lookupflag IgnoreMarks;
-	script arab;
-	sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar heh-ar.fina by allah-ar;
-	sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar hehgoal-ar.fina by allah-ar;
-} rlig_arab_0;
-
 ";
 name = rlig;
+},
+{
+code = "lookup allah {
+lookupflag UseMarkFilteringSet [shadda-ar alefabove-ar];
+  sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar heh-ar.fina by allah-ar;
+  sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar hehgoal-ar.fina by allah-ar;
+} allah;";
+name = liga;
+},
+{
+code = "lookup dlig_RTL {
+lookupflag IgnoreMarks;
+	sub lam-ar.init lam-ar.medi heh-ar.fina by allah-ar.2;
+} dlig_RTL;
+";
+name = dlig;
 },
 {
 code = "lookupflag IgnoreMarks RightToLeft;
@@ -738,10 +746,6 @@ pos @kern_Reh @kern_Hah' -40;
 } kern;
 ";
 name = kern;
-},
-{
-code = "";
-name = dlig;
 }
 );
 fontMaster = (
