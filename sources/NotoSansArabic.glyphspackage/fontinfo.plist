@@ -108,6 +108,18 @@ dotbelow_threedotsdownbelow-ar
 vinvertedbelow-ar
 ";
 name = dotcenter.below;
+},
+{
+code = "twodotshorizontalabove-ar.diagonal
+threedotsupabove-ar.diagonal
+";
+name = dotdiagonal;
+},
+{
+code = "twodotshorizontalabove-ar.small
+threedotsupabove-ar.small
+";
+name = dotdiagonal.small;
 }
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/arabic)";
@@ -700,6 +712,14 @@ lookup wide_hah {
    by [hah-ar.wide hah-ar.fina.wide]
   ;
 } wide_hah;
+
+lookup kaf_dots {
+  lookupflag 0;
+  sub  miniKeheh-ar
+       @dotdiagonal'
+   by  @dotdiagonal.small
+  ;
+} kaf_dots;
 
 lookup lam_alef {
   lookupflag IgnoreMarks;
