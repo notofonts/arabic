@@ -567,6 +567,12 @@ code = "  script arab; # Arabic
 name = locl;
 },
 {
+automatic = 1;
+code = "sub radical by radical.rtlm;
+";
+name = rtlm;
+},
+{
 code = "sub ain-ar by ain-ar.init;
 sub ainThreedotsbelow-ar by ain-ar.init threedotsdownbelow-ar;
 sub alefMaksura-ar by behDotless-ar.init;
