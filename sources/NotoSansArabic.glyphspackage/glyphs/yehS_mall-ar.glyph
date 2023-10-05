@@ -4,16 +4,16 @@ layers = (
 {
 anchors = (
 {
-name = _bottom;
-position = "{151, 244}";
-},
-{
-name = _bottom.mark;
-position = "{151, 244}";
-},
-{
 name = bottom;
 position = "{168, -11}";
+},
+{
+name = top;
+position = "{151, 244}";
+},
+{
+name = top.mark;
+position = "{151, 244}";
 }
 );
 components = (
@@ -29,16 +29,16 @@ width = 321;
 {
 anchors = (
 {
-name = _bottom;
-position = "{151, 241}";
-},
-{
-name = _bottom.mark;
-position = "{151, 241}";
-},
-{
 name = bottom;
 position = "{168, -14}";
+},
+{
+name = top;
+position = "{151, 241}";
+},
+{
+name = top.mark;
+position = "{151, 241}";
 }
 );
 components = (
@@ -54,16 +54,16 @@ width = 317;
 {
 anchors = (
 {
-name = _bottom;
-position = "{151, 250}";
-},
-{
-name = _bottom.mark;
-position = "{151, 250}";
-},
-{
 name = bottom;
 position = "{168, -5}";
+},
+{
+name = top;
+position = "{151, 250}";
+},
+{
+name = top.mark;
+position = "{151, 250}";
 }
 );
 components = (
@@ -79,16 +79,16 @@ width = 313;
 {
 anchors = (
 {
-name = _bottom;
-position = "{151, 243}";
-},
-{
-name = _bottom.mark;
-position = "{151, 243}";
-},
-{
 name = bottom;
 position = "{168, -12}";
+},
+{
+name = top;
+position = "{151, 243}";
+},
+{
+name = top.mark;
+position = "{151, 243}";
 }
 );
 components = (
@@ -104,16 +104,16 @@ width = 320;
 {
 anchors = (
 {
-name = _bottom;
-position = "{151, 252}";
-},
-{
-name = _bottom.mark;
-position = "{151, 252}";
-},
-{
 name = bottom;
 position = "{168, -3}";
+},
+{
+name = top;
+position = "{151, 252}";
+},
+{
+name = top.mark;
+position = "{151, 252}";
 }
 );
 components = (
@@ -129,16 +129,16 @@ width = 333;
 {
 anchors = (
 {
-name = _bottom;
-position = "{151, 255}";
-},
-{
-name = _bottom.mark;
-position = "{151, 255}";
-},
-{
 name = bottom;
 position = "{168, 0}";
+},
+{
+name = top;
+position = "{151, 255}";
+},
+{
+name = top.mark;
+position = "{151, 255}";
 }
 );
 components = (
@@ -154,16 +154,16 @@ width = 351;
 {
 anchors = (
 {
-name = _bottom;
-position = "{151, 254}";
-},
-{
-name = _bottom.mark;
-position = "{151, 254}";
-},
-{
 name = bottom;
 position = "{168, -1}";
+},
+{
+name = top;
+position = "{151, 254}";
+},
+{
+name = top.mark;
+position = "{151, 254}";
 }
 );
 components = (
@@ -179,16 +179,16 @@ width = 351;
 {
 anchors = (
 {
-name = _bottom;
-position = "{151, 251}";
-},
-{
-name = _bottom.mark;
-position = "{151, 251}";
-},
-{
 name = bottom;
 position = "{168, -4}";
+},
+{
+name = top;
+position = "{151, 251}";
+},
+{
+name = top.mark;
+position = "{151, 251}";
 }
 );
 components = (

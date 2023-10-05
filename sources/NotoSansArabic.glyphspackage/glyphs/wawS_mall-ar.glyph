@@ -2,6 +2,20 @@
 glyphname = "wawSmall-ar";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{104, -11}";
+},
+{
+name = top;
+position = "{107, 244}";
+},
+{
+name = top.mark;
+position = "{107, 244}";
+}
+);
 layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
 paths = (
 {
@@ -48,6 +62,20 @@ nodes = (
 width = 181;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{110, -14}";
+},
+{
+name = top;
+position = "{123, 241}";
+},
+{
+name = top.mark;
+position = "{123, 241}";
+}
+);
 layerId = "A7E21968-E455-4749-BB19-379F5EDC3B9B";
 paths = (
 {
@@ -94,6 +122,20 @@ nodes = (
 width = 213;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{168, -5}";
+},
+{
+name = top;
+position = "{151, 250}";
+},
+{
+name = top.mark;
+position = "{151, 250}";
+}
+);
 layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
 paths = (
 {
@@ -140,6 +182,20 @@ nodes = (
 width = 205;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{105, -12}";
+},
+{
+name = top;
+position = "{118, 243}";
+},
+{
+name = top.mark;
+position = "{118, 243}";
+}
+);
 layerId = "08F1692B-9525-48D2-9816-1987B1C44D50";
 paths = (
 {
@@ -186,6 +242,20 @@ nodes = (
 width = 203;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{105, -3}";
+},
+{
+name = top;
+position = "{118, 252}";
+},
+{
+name = top.mark;
+position = "{118, 252}";
+}
+);
 layerId = "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3";
 paths = (
 {
@@ -232,6 +302,20 @@ nodes = (
 width = 205;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{100, 0}";
+},
+{
+name = top;
+position = "{100, 255}";
+},
+{
+name = top.mark;
+position = "{100, 255}";
+}
+);
 layerId = "6D0603BE-7277-4DA4-8C59-7934AF28E45B";
 paths = (
 {
@@ -278,6 +362,20 @@ nodes = (
 width = 181;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{113, -1}";
+},
+{
+name = top;
+position = "{116, 254}";
+},
+{
+name = top.mark;
+position = "{116, 254}";
+}
+);
 layerId = "E1555194-BAFD-4DCC-A026-E2F9BA1917F2";
 paths = (
 {
@@ -324,6 +422,20 @@ nodes = (
 width = 211;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{121, -4}";
+},
+{
+name = top;
+position = "{124, 251}";
+},
+{
+name = top.mark;
+position = "{124, 251}";
+}
+);
 layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
 paths = (
 {

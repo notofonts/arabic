@@ -127,11 +127,11 @@ width = 166;
 anchors = (
 {
 name = _top;
-position = "{64, 358}";
+position = "{64, 458}";
 },
 {
 name = top;
-position = "{56, 674}";
+position = "{56, 774}";
 }
 );
 guideLines = (
@@ -147,10 +147,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"73 501 LINE",
-"67 674 LINE",
-"45 674 LINE",
-"51 501 LINE"
+"73 601 LINE",
+"67 774 LINE",
+"45 774 LINE",
+"51 601 LINE"
 );
 }
 );
