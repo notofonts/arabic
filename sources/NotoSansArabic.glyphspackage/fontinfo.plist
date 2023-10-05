@@ -214,6 +214,7 @@ languagesystem arab SND;
 languagesystem arab URD;
 languagesystem arab KSH;
 languagesystem arab RHG;
+languagesystem arab KUR;
 ";
 name = Languagesystems;
 },
@@ -686,7 +687,6 @@ code = "script arab;
 	 by  hehDoachashmee-ar.fina.locl
 	;
 ";
-disabled = 1;
 name = rlig;
 },
 {
