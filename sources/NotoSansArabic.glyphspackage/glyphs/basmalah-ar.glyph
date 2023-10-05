@@ -4,213 +4,56 @@ layers = (
 {
 components = (
 {
-alignment = -1;
-name = fdfd.bsm;
-transform = "{0.6, 0, 0, 0.6, 5067, 0}";
+alignment = 1;
+name = "basmalah-ar.1";
+transform = "{0.8, 0, 0, 0.8, 5263, 0}";
 },
 {
-name = "allah-ar.2";
-transform = "{0.6, 0, 0, 0.6, 4177, -3}";
+alignment = 1;
+name = "basmalah-ar.2";
+transform = "{0.8, 0, 0, 0.8, 4318, 0}";
 },
 {
-alignment = -1;
-name = fdfd.alrhman;
-transform = "{0.6, 0, 0, 0.6, 2467, 0}";
+alignment = 1;
+name = "basmalah-ar.3";
+transform = "{0.8, 0, 0, 0.8, 2086, 0}";
 },
 {
-alignment = -1;
-name = fdfd.alrahem;
-transform = "{0.6, 0, 0, 0.6, 45, 0}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 6795, -68}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 4189, 35}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 2542, -114}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 5130, -35}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 104, -35}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 402, -98}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 3266, -98}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 6490, -98}";
-},
-{
-alignment = -1;
-name = "alefabove-ar";
-transform = "{0.6, 0, 0, 0.6, 2845, -145}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 4451, 148}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 4443, 272}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 3559, 100}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 3551, 224}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 1809, 100}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 1801, 224}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 1508, -35}";
+alignment = 1;
+name = "basmalah-ar.4";
+transform = "{0.8, 0, 0, 0.8, 0, 0}";
 }
 );
 guideLines = (
 {
-position = "{4195, 104}";
+position = "{5176, 77}";
+showMeasurement = 1;
 }
 );
 layerId = "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3";
-width = 6998;
+width = 9594;
 },
 {
 components = (
 {
-alignment = -1;
-name = fdfd.bsm;
-transform = "{0.6, 0, 0, 0.6, 5244, 0}";
+alignment = 1;
+name = "basmalah-ar.1";
+transform = "{0.8, 0, 0, 0.8, 5410, 0}";
 },
 {
-name = "allah-ar.2";
-transform = "{0.6, 0, 0, 0.6, 4288, -3}";
+alignment = 1;
+name = "basmalah-ar.2";
+transform = "{0.8, 0, 0, 0.8, 4383, 0}";
 },
 {
-alignment = -1;
-name = fdfd.alrhman;
-transform = "{0.6, 0, 0, 0.6, 2551, 0}";
+alignment = 1;
+name = "basmalah-ar.3";
+transform = "{0.8, 0, 0, 0.8, 2150, 0}";
 },
 {
-alignment = -1;
-name = fdfd.alrahem;
-transform = "{0.6, 0, 0, 0.6, 45, 0}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 7017, -93}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 4319, 5}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 2626, -139}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 5333, -35}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 132, -35}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 415, -98}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 3369, -98}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 6703, -98}";
-},
-{
-alignment = -1;
-name = "alefabove-ar";
-transform = "{0.6, 0, 0, 0.6, 2928, -95}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 4566, 148}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 4565, 268}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 3612, 70}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 3611, 190}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 1852, 70}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 1851, 190}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 1533, -35}";
+alignment = 1;
+name = "basmalah-ar.4";
+transform = "{0.8, 0, 0, 0.8, 0, 0}";
 }
 );
 guideLines = (
@@ -220,680 +63,199 @@ showMeasurement = 1;
 }
 );
 layerId = "6D0603BE-7277-4DA4-8C59-7934AF28E45B";
-width = 7220;
+width = 9779;
 },
 {
 components = (
 {
-alignment = -1;
-name = fdfd.bsm;
-transform = "{0.6, 0, 0, 0.6, 5690, 0}";
+alignment = 1;
+name = "basmalah-ar.1";
+transform = "{0.8, 0, 0, 0.8, 6045, 0}";
 },
 {
-name = "allah-ar.2";
-transform = "{0.6, 0, 0, 0.6, 4608, 0}";
+alignment = 1;
+name = "basmalah-ar.2";
+transform = "{0.8, 0, 0, 0.8, 4869, 0}";
 },
 {
-alignment = -1;
-name = fdfd.alrhman;
-transform = "{0.6, 0, 0, 0.6, 2758, 0}";
+alignment = 1;
+name = "basmalah-ar.3";
+transform = "{0.8, 0, 0, 0.8, 2406, 0}";
 },
 {
-alignment = -1;
-name = fdfd.alrahem;
-transform = "{0.6, 0, 0, 0.6, 45, 0}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 7662, -123}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 4629, -8}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 2735, -134}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 5833, -73}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 189, -73}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 463, -98}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 3490, -63}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 7281, -98}";
-},
-{
-alignment = -1;
-name = "alefabove-ar";
-transform = "{0.6, 0, 0, 0.6, 3046, -91}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 4931, 214}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 4926, 346}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 3858, 111}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 3853, 243}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 1944, 111}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 1939, 243}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 1574, -73}";
+alignment = 1;
+name = "basmalah-ar.4";
+transform = "{0.8, 0, 0, 0.8, 0, 0}";
 }
 );
 guideLines = (
 {
-angle = 180;
-position = "{4509, 84}";
+position = "{5176, 77}";
 showMeasurement = 1;
 }
 );
 layerId = "E1555194-BAFD-4DCC-A026-E2F9BA1917F2";
-width = 7885;
+width = 10879;
 },
 {
 components = (
 {
-alignment = -1;
-name = fdfd.bsm;
-transform = "{0.6, 0, 0, 0.6, 6240, 0}";
+alignment = 1;
+name = "basmalah-ar.1";
+transform = "{0.8, 0, 0, 0.8, 6522, 0}";
 },
 {
-name = "allah-ar.2";
-transform = "{0.6, 0, 0, 0.6, 5066, 0}";
+alignment = 1;
+name = "basmalah-ar.2";
+transform = "{0.8, 0, 0, 0.8, 5226, 0}";
 },
 {
-alignment = -1;
-name = fdfd.alrhman;
-transform = "{0.6, 0, 0, 0.6, 3102, 0}";
+alignment = 1;
+name = "basmalah-ar.3";
+transform = "{0.8, 0, 0, 0.8, 2588, 0}";
 },
 {
-alignment = -1;
-name = fdfd.alrahem;
-transform = "{0.6, 0, 0, 0.6, 45, 0}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 8337, -151}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 5112, -19}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 3031, -165}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 6408, -73}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 228, -73}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 509, -98}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 3896, -48}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 7935, -98}";
-},
-{
-alignment = -1;
-name = "alefabove-ar";
-transform = "{0.6, 0, 0, 0.6, 3354, -55}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 5436, 207}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 5434, 363}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 4273, 58}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 4271, 214}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 2115, 58}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 2113, 214}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 1640, -73}";
+alignment = 1;
+name = "basmalah-ar.4";
+transform = "{0.8, 0, 0, 0.8, 0, 0}";
 }
 );
 guideLines = (
 {
-position = "{5273, 17}";
+position = "{5176, 77}";
 showMeasurement = 1;
 }
 );
 layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
-width = 8581;
+width = 10896;
 },
 {
 components = (
 {
-alignment = -1;
-name = fdfd.bsm;
-transform = "{0.6, 0, 0, 0.6, 4198, 0}";
+alignment = 1;
+name = "basmalah-ar.1";
+transform = "{0.8, 0, 0, 0.8, 4089, 0}";
 },
 {
-name = "allah-ar.2";
-transform = "{0.6, 0, 0, 0.6, 3442, 0}";
+alignment = 1;
+name = "basmalah-ar.2";
+transform = "{0.8, 0, 0, 0.8, 3312, 0}";
 },
 {
-alignment = -1;
-name = fdfd.alrhman;
-transform = "{0.6, 0, 0, 0.6, 2027, 0}";
+alignment = 1;
+name = "basmalah-ar.3";
+transform = "{0.8, 0, 0, 0.8, 1599, 0}";
 },
 {
-alignment = -1;
-name = fdfd.alrahem;
-transform = "{0.6, 0, 0, 0.6, 45, 0}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 5552, -63}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 3474, 41}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 2075, -117}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 4261, -43}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 105, -43}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 325, -154}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 2647, -148}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 5331, -154}";
-},
-{
-alignment = -1;
-name = "alefabove-ar";
-transform = "{0.6, 0, 0, 0.6, 2289, -145}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 3654, 28}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 3650, 164}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 2860, -72}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 2856, 64}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 1424, -72}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 1420, 64}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 1227, -43}";
+alignment = 1;
+name = "basmalah-ar.4";
+transform = "{0.8, 0, 0, 0.8, 0, 0}";
 }
 );
 guideLines = (
 {
-position = "{3974, 7}";
+position = "{5176, 77}";
 showMeasurement = 1;
 }
 );
 layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
-width = 5731;
+width = 7452;
 },
 {
 components = (
 {
-alignment = -1;
-name = fdfd.bsm;
-transform = "{0.6, 0, 0, 0.6, 4615, 0}";
+alignment = 1;
+name = "basmalah-ar.1";
+transform = "{0.8, 0, 0, 0.8, 4395, 0}";
 },
 {
-name = "allah-ar.2";
-transform = "{0.6, 0, 0, 0.6, 3769, 0}";
+alignment = 1;
+name = "basmalah-ar.2";
+transform = "{0.8, 0, 0, 0.8, 3538, 0}";
 },
 {
-alignment = -1;
-name = fdfd.alrhman;
-transform = "{0.6, 0, 0, 0.6, 2246, 0}";
+alignment = 1;
+name = "basmalah-ar.3";
+transform = "{0.8, 0, 0, 0.8, 1742, 0}";
 },
 {
-alignment = -1;
-name = fdfd.alrahem;
-transform = "{0.6, 0, 0, 0.6, 45, 0}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 6079, -113}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 3793, 15}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 2311, -139}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 4739, -43}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 169, -43}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 359, -150}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 2894, -133}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 5819, -150}";
-},
-{
-alignment = -1;
-name = "alefabove-ar";
-transform = "{0.6, 0, 0, 0.6, 2505, -145}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 3977, 32}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 3982, 158}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 3110, -78}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 3115, 48}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 1596, -71}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 1601, 55}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 1351, -43}";
+alignment = 1;
+name = "basmalah-ar.4";
+transform = "{0.8, 0, 0, 0.8, 0, 0}";
 }
 );
 guideLines = (
 {
-position = "{3376, 7}";
+position = "{5176, 77}";
 showMeasurement = 1;
 }
 );
 layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
-width = 6257;
+width = 7864;
 },
 {
 components = (
 {
-alignment = -1;
-name = fdfd.bsm;
-transform = "{0.6, 0, 0, 0.6, 5306, 0}";
+alignment = 1;
+name = "basmalah-ar.1";
+transform = "{0.8, 0, 0, 0.8, 5238, 0}";
 },
 {
-name = "allah-ar.2";
-transform = "{0.6, 0, 0, 0.6, 4323, 0}";
+alignment = 1;
+name = "basmalah-ar.2";
+transform = "{0.8, 0, 0, 0.8, 4203, 0}";
 },
 {
-alignment = -1;
-name = fdfd.alrhman;
-transform = "{0.6, 0, 0, 0.6, 2741, 0}";
+alignment = 1;
+name = "basmalah-ar.3";
+transform = "{0.8, 0, 0, 0.8, 2093, 0}";
 },
 {
-alignment = -1;
-name = fdfd.alrahem;
-transform = "{0.6, 0, 0, 0.6, 45, 0}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 7056, -123}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 4351, 15}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 2687, -164}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 5423, -45}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 165, -45}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 423, -68}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 3379, -61}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 6722, -68}";
-},
-{
-alignment = -1;
-name = "alefabove-ar";
-transform = "{0.6, 0, 0, 0.6, 2915, -35}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 4599, 66}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 4595, 210}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 3592, -15}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 3588, 129}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 1819, -65}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 1815, 79}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 1566, -45}";
+alignment = 1;
+name = "basmalah-ar.4";
+transform = "{0.8, 0, 0, 0.8, 0, 0}";
 }
 );
 guideLines = (
 {
-position = "{4449, 27}";
+position = "{5176, 77}";
 showMeasurement = 1;
 }
 );
 layerId = "08F1692B-9525-48D2-9816-1987B1C44D50";
-width = 7262;
+width = 9326;
 },
 {
 components = (
 {
-alignment = -1;
-name = fdfd.bsm;
-transform = "{0.6, 0, 0, 0.6, 5643, 0}";
+alignment = 1;
+name = "basmalah-ar.1";
+transform = "{0.8, 0, 0, 0.8, 5744, 0}";
 },
 {
-name = "allah-ar.2";
-transform = "{0.6, 0, 0, 0.6, 4581, 0}";
+alignment = 1;
+name = "basmalah-ar.2";
+transform = "{0.8, 0, 0, 0.8, 4604, 0}";
 },
 {
-alignment = -1;
-name = fdfd.alrhman;
-transform = "{0.6, 0, 0, 0.6, 2727, 0}";
+alignment = 1;
+name = "basmalah-ar.3";
+transform = "{0.8, 0, 0, 0.8, 2304, 0}";
 },
 {
-alignment = -1;
-name = fdfd.alrahem;
-transform = "{0.6, 0, 0, 0.6, 45, 0}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 7529, -141}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 4611, 5}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 2802, -149}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 5788, -59}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 190, -59}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 441, -68}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 3578, -42}";
-},
-{
-alignment = -1;
-name = "jazm-ar";
-transform = "{0.6, 0, 0, 0.6, 7185, -68}";
-},
-{
-alignment = -1;
-name = "alefabove-ar";
-transform = "{0.6, 0, 0, 0.6, 3074, -45}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 4889, 68}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 4886, 212}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 3839, -27}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 3836, 117}";
-},
-{
-alignment = -1;
-name = "shadda-ar";
-transform = "{0.6, 0, 0, 0.6, 1894, -27}";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{0.6, 0, 0, 0.6, 1891, 117}";
-},
-{
-alignment = -1;
-name = "kasra-ar";
-transform = "{0.6, 0, 0, 0.6, 1593, -59}";
+alignment = 1;
+name = "basmalah-ar.4";
+transform = "{0.8, 0, 0, 0.8, 0, 0}";
 }
 );
 guideLines = (
 {
-position = "{5518, 77}";
-},
-{
-position = "{5478, 31}";
+position = "{5176, 77}";
 showMeasurement = 1;
-},
-{
-position = "{5882, 497}";
 }
 );
 layerId = "A7E21968-E455-4749-BB19-379F5EDC3B9B";
-width = 7736;
+width = 10202;
 }
 );
 unicode = FDFD;
