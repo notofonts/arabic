@@ -210,8 +210,10 @@ automatic = 1;
 code = "languagesystem DFLT dflt;
 
 languagesystem arab dflt;
-languagesystem arab URD;
 languagesystem arab SND;
+languagesystem arab URD;
+languagesystem arab KSH;
+languagesystem arab RHG;
 ";
 name = Languagesystems;
 },
@@ -538,20 +540,28 @@ lookup decomposition2 {
 name = ccmp;
 },
 {
-code = "script arab;
-language URD;
-lookup locl_arab_0 {
-	sub fourFarsi-ar by fourFarsi-ar.urdu;
-	sub sixFarsi-ar by six-ar;
-	sub sevenFarsi-ar by sevenFarsi-ar.urdu;
-} locl_arab_0;
+code = "  script arab; # Arabic
+	language SND ; # Sindhi
+	sub [sixFarsi-ar sevenFarsi-ar
+		 meem-ar sindhipostpositionmen-ar
+		 comma-ar semicolon-ar]
+	 by [six-ar sevenFarsi-ar.locl
+		 meem-ar.locl sindhipostpositionmen-ar.locl
+		 commareversed semicolonreversed]
+	;
 
-script arab;
-language SND;
-lookup locl_snd_0 {
-	sub sixFarsi-ar by six-ar;
-	sub sevenFarsi-ar by sevenFarsi-ar.urdu;
-} locl_snd_0;
+    language URD ; # Urdu
+    lookup locl_arabURD_arabKSH_1 {
+    sub [fourFarsi-ar sixFarsi-ar sevenFarsi-ar] by [fourFarsi-ar.locl six-ar sevenFarsi-ar.locl];
+    } locl_arabURD_arabKSH_1;
+
+    language KSH ; # Kashmiri
+    lookup locl_arabURD_arabKSH_1;
+
+	language RHG;
+	sub [fourFarsi-ar sixFarsi-ar sevenFarsi-ar]
+	 by [four-ar six-ar sevenFarsi-ar.locl]
+	;
 ";
 name = locl;
 },
@@ -663,6 +673,21 @@ sub yehbarree-ar by yehbarree-ar.fina;
 sub yehRohingya-ar by yehRohingya-ar.fina;
 ";
 name = fina;
+},
+{
+code = "script arab;
+	language SND ; # Sindhi
+	sub [hehDoachashmee-ar.medi hehDoachashmee-ar.fina]
+	 by [hehDoachashmee-ar.medi.locl hehDoachashmee-ar.fina.locl]
+	;
+
+	language KUR;
+	sub  hehDoachashmee-ar.fina
+	 by  hehDoachashmee-ar.fina.locl
+	;
+";
+disabled = 1;
+name = rlig;
 },
 {
 code = "lookup rlig_isol {
@@ -2854,8 +2879,8 @@ kerning = {
 "four-ar" = {
 "six-ar" = -40;
 };
-"fourFarsi-ar.urdu" = {
-"sevenFarsi-ar.urdu" = -70;
+"fourFarsi-ar.locl" = {
+"sevenFarsi-ar.locl" = -70;
 };
 "one-ar" = {
 "six-ar" = -35;
@@ -2894,11 +2919,11 @@ kerning = {
 "seven-ar" = -30;
 "six-ar" = -45;
 };
-"fourFarsi-ar.urdu" = {
+"fourFarsi-ar.locl" = {
 "@MMK_R_eight-ar" = -80;
 "@MMK_R_five-ar" = -80;
 "@MMK_R_zero-ar" = -80;
-"sevenFarsi-ar.urdu" = -70;
+"sevenFarsi-ar.locl" = -70;
 };
 "one-ar" = {
 "six-ar" = -20;
@@ -2949,8 +2974,8 @@ kerning = {
 "@MMK_R_seven-ar" = -40;
 "six-ar" = -50;
 };
-"fourFarsi-ar.urdu" = {
-"sevenFarsi-ar.urdu" = -80;
+"fourFarsi-ar.locl" = {
+"sevenFarsi-ar.locl" = -80;
 };
 "one-ar" = {
 "six-ar" = -25;
@@ -2991,8 +3016,8 @@ kerning = {
 "four-ar" = {
 "six-ar" = -55;
 };
-"fourFarsi-ar.urdu" = {
-"sevenFarsi-ar.urdu" = -70;
+"fourFarsi-ar.locl" = {
+"sevenFarsi-ar.locl" = -70;
 };
 "one-ar" = {
 "six-ar" = -30;
@@ -3033,8 +3058,8 @@ kerning = {
 "@MMK_R_zero-ar" = -30;
 "six-ar" = -45;
 };
-"fourFarsi-ar.urdu" = {
-"sevenFarsi-ar.urdu" = -50;
+"fourFarsi-ar.locl" = {
+"sevenFarsi-ar.locl" = -50;
 };
 "one-ar" = {
 "six-ar" = -20;
@@ -3075,8 +3100,8 @@ kerning = {
 "four-ar" = {
 "six-ar" = -50;
 };
-"fourFarsi-ar.urdu" = {
-"sevenFarsi-ar.urdu" = -70;
+"fourFarsi-ar.locl" = {
+"sevenFarsi-ar.locl" = -70;
 };
 "one-ar" = {
 "six-ar" = -25;
@@ -3115,8 +3140,8 @@ kerning = {
 "four-ar" = {
 "six-ar" = -55;
 };
-"fourFarsi-ar.urdu" = {
-"sevenFarsi-ar.urdu" = -50;
+"fourFarsi-ar.locl" = {
+"sevenFarsi-ar.locl" = -50;
 };
 };
 "A7E21968-E455-4749-BB19-379F5EDC3B9B" = {
@@ -3151,8 +3176,8 @@ kerning = {
 "four-ar" = {
 "six-ar" = -60;
 };
-"fourFarsi-ar.urdu" = {
-"sevenFarsi-ar.urdu" = -50;
+"fourFarsi-ar.locl" = {
+"sevenFarsi-ar.locl" = -50;
 };
 };
 };
