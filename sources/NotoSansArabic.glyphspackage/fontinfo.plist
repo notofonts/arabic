@@ -3,7 +3,7 @@
 classes = (
 {
 automatic = 1;
-code = "hamza-ar highhamza-ar alef-ar alef-ar.fina alef-ar.fina.rlig alef-ar.fina.rlig.2 alef-ar.short alef-ar.short.fina behDotless-ar behDotless-ar.fina behDotless-ar.medi behDotless-ar.medi.wide behDotless-ar.init behDotless-ar.init.wide hah-ar hah-ar.wide hah-ar.fina hah-ar.fina.wide hah-ar.medi hah-ar.init dal-ar dal-ar.fina reh-ar reh-ar.fina rehLoop-ar rehLoop-ar.fina seen-ar seen-ar.fina seen-ar.medi seen-ar.init sad-ar sad-ar.fina sad-ar.medi sad-ar.init tah-ar tah-ar.fina tah-ar.medi tah-ar.init ain-ar ain-ar.fina ain-ar.medi ain-ar.init fehDotless-ar fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.init qafDotless-ar qafDotless-ar.fina yehRohingya-ar yehRohingya-ar.fina kafDotless-ar kafDotless-ar.fina kaf-ar.medi kaf-ar.init keheh-ar keheh-ar.fina kafswash-ar kafswash-ar.fina kafswash-ar.medi kafswash-ar.init lam-ar lam-ar.fina lam-ar.medi lam-ar.medi.rlig lam-ar.init lam-ar.init.rlig meem-ar meem-ar.fina meem-ar.medi meem-ar.init noonghunna-ar noonghunna-ar.medi noonghunna-ar.init noonghunna-ar.fina heh-ar heh-ar.fina heh-ar.medi heh-ar.init hehgoal-ar hehgoal-ar.fina hehgoal-ar.medi hehgoal-ar.init ae-ar hehDoachashmee-ar hehDoachashmee-ar.fina hehDoachashmee-ar.medi waw-ar waw-ar.alt waw-ar.fina waw-ar.fina.alt wawStraight-ar alefMaksura-ar alefMaksura-ar.fina yehbarree-ar yehbarree-ar.fina tailFragment-ar kashida-ar aleflow-ar wawSmall-ar yehSmall-ar";
+code = "hamza-ar highhamza-ar rounddot-ar raisedrounddot-ar alef-ar alef-ar.fina alef-ar.fina.rlig alef-ar.fina.rlig.2 alef-ar.short alef-ar.short.fina behDotless-ar behDotless-ar.fina behDotless-ar.medi behDotless-ar.medi.thin behDotless-ar.medi.wide behDotless-ar.init behDotless-ar.init.thin behDotless-ar.init.wide hah-ar hah-ar.wide hah-ar.fina hah-ar.fina.wide hah-ar.medi hah-ar.init dal-ar dal-ar.fina reh-ar reh-ar.fina rehLoop-ar rehLoop-ar.fina seen-ar seen-ar.fina seen-ar.medi seen-ar.init sad-ar sad-ar.fina sad-ar.medi sad-ar.init tah-ar tah-ar.fina tah-ar.medi tah-ar.init ain-ar ain-ar.fina ain-ar.medi ain-ar.init fehDotless-ar fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.init qafDotless-ar qafDotless-ar.fina yehRohingya-ar yehRohingya-ar.fina kafDotless-ar kafDotless-ar.fina kaf-ar.medi kaf-ar.init keheh-ar keheh-ar.fina kafswash-ar kafswash-ar.fina kafswash-ar.medi kafswash-ar.init lam-ar lam-ar.fina lam-ar.medi lam-ar.medi.rlig lam-ar.init lam-ar.init.rlig meem-ar meem-ar.locl meem-ar.locl.fina meem-ar.fina meem-ar.medi meem-ar.init noonghunna-ar noonghunna-ar.medi noonghunna-ar.init noonghunna-ar.fina heh-ar heh-ar.fina heh-ar.medi heh-ar.init hehgoal-ar hehgoal-ar.fina hehgoal-ar.medi hehgoal-ar.init ae-ar hehDoachashmee-ar hehDoachashmee-ar.fina hehDoachashmee-ar.fina.locl hehDoachashmee-ar.medi hehDoachashmee-ar.medi.locl waw-ar waw-ar.alt waw-ar.fina waw-ar.fina.alt wawStraight-ar alefMaksura-ar alefMaksura-ar.fina yehbarree-ar yehbarree-ar.fina verticalTail-ar kashidaHamza-ar kashidaWaw-ar tailFragment-ar kashida-ar kashida-ar.init kashida-ar.wide aleflow-ar wawSmall-ar yehSmall-ar yehSmallFarsi-ar";
 name = ArabicLetters;
 },
 {
@@ -243,10 +243,12 @@ features = (
 {
 automatic = 1;
 code = "feature locl;
+feature rtlm;
 feature init;
 feature medi;
 feature fina;
-feature isol;
+feature pnum;
+feature tnum;
 ";
 name = aalt;
 },
@@ -777,6 +779,52 @@ pos @kern_Reh @kern_Hah' -40;
 } kern;
 ";
 name = kern;
+},
+{
+automatic = 1;
+code = "sub zero-ar by zero-ar.lf;
+sub one-ar by one-ar.lf;
+sub two-ar by two-ar.lf;
+sub three-ar by three-ar.lf;
+sub four-ar by four-ar.lf;
+sub five-ar by five-ar.lf;
+sub six-ar by six-ar.lf;
+sub seven-ar by seven-ar.lf;
+sub eight-ar by eight-ar.lf;
+sub nine-ar by nine-ar.lf;
+sub zeroFarsi-ar by zeroFarsi-ar.lf;
+sub twoFarsi-ar by twoFarsi-ar.lf;
+sub fourFarsi-ar by fourFarsi-ar.lf;
+sub fiveFarsi-ar by fiveFarsi-ar.lf;
+sub sixFarsi-ar by sixFarsi-ar.lf;
+sub sevenFarsi-ar by sevenFarsi-ar.lf;
+sub fourFarsi-ar.locl by fourFarsi-ar.locl.lf;
+sub sevenFarsi-ar.locl by sevenFarsi-ar.locl.lf;
+";
+name = pnum;
+},
+{
+automatic = 1;
+code = "sub zero-ar.lf by zero-ar;
+sub one-ar.lf by one-ar;
+sub two-ar.lf by two-ar;
+sub three-ar.lf by three-ar;
+sub four-ar.lf by four-ar;
+sub five-ar.lf by five-ar;
+sub six-ar.lf by six-ar;
+sub seven-ar.lf by seven-ar;
+sub eight-ar.lf by eight-ar;
+sub nine-ar.lf by nine-ar;
+sub zeroFarsi-ar.lf by zeroFarsi-ar;
+sub twoFarsi-ar.lf by twoFarsi-ar;
+sub fourFarsi-ar.lf by fourFarsi-ar;
+sub fiveFarsi-ar.lf by fiveFarsi-ar;
+sub sixFarsi-ar.lf by sixFarsi-ar;
+sub sevenFarsi-ar.lf by sevenFarsi-ar;
+sub fourFarsi-ar.locl.lf by fourFarsi-ar.locl;
+sub sevenFarsi-ar.locl.lf by sevenFarsi-ar.locl;
+";
+name = tnum;
 }
 );
 fontMaster = (
