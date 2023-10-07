@@ -1167,19 +1167,6 @@ position = "{0, 670}";
 },
 {
 position = "{1068, 19}";
-},
-{
-position = "{4235, 104}";
-},
-{
-position = "{3817, 71}";
-},
-{
-position = "{4836, 71}";
-showMeasurement = 1;
-},
-{
-position = "{3959, 19}";
 }
 );
 horizontalStems = (
@@ -1187,9 +1174,8 @@ horizontalStems = (
 );
 id = "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3";
 userData = {
-GSOffsetHorizontal = 12.5;
+GSOffsetHorizontal = 3;
 GSOffsetKeepCompatible = 1;
-GSOffsetMakeStroke = 1;
 GSOffsetPosition = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
@@ -1567,6 +1553,9 @@ position = "{145, 187}";
 {
 locked = 1;
 position = "{0, 670}";
+},
+{
+position = "{1068, 19}";
 }
 );
 horizontalStems = (
