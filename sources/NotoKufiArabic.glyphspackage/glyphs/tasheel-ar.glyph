@@ -1,0 +1,154 @@
+{
+glyphname = "tasheel-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{432, -45}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "teh-ar.init";
+transform = "{0.38, 0, 0, 0.38, 931, -344}";
+},
+{
+alignment = -1;
+name = "seen-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 627, -344}";
+},
+{
+alignment = -1;
+name = "heh-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 361, -344}";
+},
+{
+alignment = -1;
+name = "yeh-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 233, -344}";
+},
+{
+alignment = -1;
+name = "lam-ar.fina";
+transform = "{0.38, 0, 0, 0.38, 0, -344}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 1025;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{446, -45}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "teh-ar.init";
+transform = "{0.38, 0, 0, 0.38, 1072, -344}";
+},
+{
+alignment = -1;
+name = "seen-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 722, -344}";
+},
+{
+alignment = -1;
+name = "heh-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 412, -344}";
+},
+{
+alignment = -1;
+name = "yeh-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 263, -344}";
+},
+{
+alignment = -1;
+name = "lam-ar.fina";
+transform = "{0.38, 0, 0, 0.38, 0, -344}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 1186;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{446, -45}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "teh-ar.init";
+transform = "{0.38, 0, 0, 0.38, 1224, -350}";
+},
+{
+alignment = -1;
+name = "seen-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 828, -350}";
+},
+{
+alignment = -1;
+name = "heh-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 473, -350}";
+},
+{
+alignment = -1;
+name = "yeh-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 304, -350}";
+},
+{
+alignment = -1;
+name = "lam-ar.fina";
+transform = "{0.38, 0, 0, 0.38, 0, -350}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 1359;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{446, -45}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "teh-ar.init";
+transform = "{0.38, 0, 0, 0.38, 1337, -369}";
+},
+{
+alignment = -1;
+name = "seen-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 910, -369}";
+},
+{
+alignment = -1;
+name = "heh-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 514, -369}";
+},
+{
+alignment = -1;
+name = "yeh-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 332, -369}";
+},
+{
+alignment = -1;
+name = "lam-ar.fina";
+transform = "{0.38, 0, 0, 0.38, 0, -369}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 1485;
+}
+);
+unicode = 089B;
+}

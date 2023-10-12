@@ -1,0 +1,136 @@
+{
+glyphname = "vinvertedabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.near;
+position = "{-1, 502}";
+},
+{
+name = top.far;
+position = "{-1, 721}";
+},
+{
+name = top.near;
+position = "{-1, 721}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"-65 522 LINE",
+"0 651 LINE",
+"63 522 LINE",
+"151 522 LINE",
+"40 721 LINE",
+"-42 721 LINE",
+"-152 522 LINE"
+);
+}
+);
+width = 151;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{-1, 502}";
+},
+{
+name = top.far;
+position = "{-1, 721}";
+},
+{
+name = top.near;
+position = "{-1, 721}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"-65 522 LINE",
+"0 651 LINE",
+"63 522 LINE",
+"131 522 LINE",
+"20 721 LINE",
+"-22 721 LINE",
+"-132 522 LINE"
+);
+}
+);
+width = 131;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{-1, 502}";
+},
+{
+name = top.far;
+position = "{-1, 721}";
+},
+{
+name = top.near;
+position = "{-1, 721}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"-104 522 LINE",
+"1 678 LINE",
+"105 522 LINE",
+"132 522 LINE",
+"12 701 LINE",
+"-10 701 LINE",
+"-131 522 LINE"
+);
+}
+);
+width = 132;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{-1, 502}";
+},
+{
+name = top.far;
+position = "{-1, 721}";
+},
+{
+name = top.near;
+position = "{-1, 721}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"-55 522 LINE",
+"0 651 LINE",
+"53 522 LINE",
+"164 522 LINE",
+"63 721 LINE",
+"-65 721 LINE",
+"-165 522 LINE"
+);
+}
+);
+width = 164;
+}
+);
+note = uni065B;
+rightMetricsKey = "=0";
+unicode = 065B;
+}

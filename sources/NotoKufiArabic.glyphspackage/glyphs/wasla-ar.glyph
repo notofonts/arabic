@@ -1,0 +1,164 @@
+{
+glyphname = "wasla-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.near;
+position = "{140, 762}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 790 LINE",
+"244 790 LINE",
+"244 846 LINE SMOOTH",
+"244 910 OFFCURVE",
+"211 948 OFFCURVE",
+"158 948 CURVE SMOOTH",
+"107 948 OFFCURVE",
+"69 914 OFFCURVE",
+"46 846 CURVE",
+"0 846 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"101 846 LINE",
+"110 873 OFFCURVE",
+"131 891 OFFCURVE",
+"156 891 CURVE SMOOTH",
+"180 891 OFFCURVE",
+"193 879 OFFCURVE",
+"193 846 CURVE"
+);
+}
+);
+width = 244;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{140, 762}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 790 LINE",
+"244 790 LINE",
+"244 836 LINE SMOOTH",
+"244 900 OFFCURVE",
+"213 938 OFFCURVE",
+"158 938 CURVE SMOOTH",
+"107 938 OFFCURVE",
+"69 904 OFFCURVE",
+"46 836 CURVE",
+"0 836 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"101 836 LINE",
+"112 868 OFFCURVE",
+"134 891 OFFCURVE",
+"158 891 CURVE SMOOTH",
+"182 891 OFFCURVE",
+"193 875 OFFCURVE",
+"193 836 CURVE"
+);
+}
+);
+width = 244;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{123, 751}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 784 LINE",
+"213 784 LINE",
+"213 816 LINE SMOOTH",
+"213 875 OFFCURVE",
+"185 910 OFFCURVE",
+"140 910 CURVE SMOOTH",
+"96 910 OFFCURVE",
+"60 871 OFFCURVE",
+"41 802 CURVE",
+"0 802 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"60 802 LINE",
+"75 855 OFFCURVE",
+"103 892 OFFCURVE",
+"138 892 CURVE SMOOTH",
+"177 892 OFFCURVE",
+"195 865 OFFCURVE",
+"195 802 CURVE"
+);
+}
+);
+width = 213;
+},
+{
+anchors = (
+{
+name = _top.near;
+position = "{147, 762}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 790 LINE",
+"251 790 LINE",
+"251 853 LINE SMOOTH",
+"251 927 OFFCURVE",
+"213 964 OFFCURVE",
+"161 964 CURVE SMOOTH",
+"107 964 OFFCURVE",
+"69 927 OFFCURVE",
+"46 850 CURVE",
+"0 850 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"101 850 LINE",
+"109 881 OFFCURVE",
+"128 900 OFFCURVE",
+"156 900 CURVE SMOOTH",
+"178 900 OFFCURVE",
+"198 886 OFFCURVE",
+"198 850 CURVE"
+);
+}
+);
+width = 251;
+}
+);
+leftMetricsKey = "=0";
+note = wasla;
+rightMetricsKey = "=0";
+}

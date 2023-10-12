@@ -1,0 +1,147 @@
+{
+glyphname = "kashida-ar.init";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{88, -78}";
+},
+{
+name = top.far;
+position = "{88, 391}";
+},
+{
+name = top.near;
+position = "{88, 391}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"-5 24 LINE SMOOTH",
+"-8 24 OFFCURVE",
+"-10 23 OFFCURVE",
+"-10 20 CURVE SMOOTH",
+"-10 5 LINE SMOOTH",
+"-10 2 OFFCURVE",
+"-8 0 OFFCURVE",
+"-5 0 CURVE SMOOTH",
+"176 0 LINE",
+"176 24 LINE"
+);
+}
+);
+width = 261;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{148, -78}";
+},
+{
+name = top.far;
+position = "{148, 391}";
+},
+{
+name = top.near;
+position = "{148, 391}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"-5 78 LINE SMOOTH",
+"-8 78 OFFCURVE",
+"-10 77 OFFCURVE",
+"-10 74 CURVE SMOOTH",
+"-10 5 LINE SMOOTH",
+"-10 2 OFFCURVE",
+"-8 0 OFFCURVE",
+"-5 0 CURVE SMOOTH",
+"296 0 LINE",
+"296 78 LINE"
+);
+}
+);
+width = 381;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{148, -78}";
+},
+{
+name = top.far;
+position = "{148, 391}";
+},
+{
+name = top.near;
+position = "{148, 391}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"-5 120 LINE SMOOTH",
+"-8 120 OFFCURVE",
+"-10 119 OFFCURVE",
+"-10 116 CURVE SMOOTH",
+"-10 5 LINE SMOOTH",
+"-10 2 OFFCURVE",
+"-8 0 OFFCURVE",
+"-5 0 CURVE SMOOTH",
+"316 0 LINE",
+"316 120 LINE"
+);
+}
+);
+width = 401;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{178, -78}";
+},
+{
+name = top.far;
+position = "{178, 391}";
+},
+{
+name = top.near;
+position = "{178, 391}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"-5 148 LINE SMOOTH",
+"-8 148 OFFCURVE",
+"-10 147 OFFCURVE",
+"-10 144 CURVE SMOOTH",
+"-10 5 LINE SMOOTH",
+"-10 2 OFFCURVE",
+"-8 0 OFFCURVE",
+"-5 0 CURVE SMOOTH",
+"361 0 LINE",
+"361 148 LINE"
+);
+}
+);
+width = 446;
+}
+);
+leftMetricsKey = "=-10";
+rightMetricsKey = "=85";
+}

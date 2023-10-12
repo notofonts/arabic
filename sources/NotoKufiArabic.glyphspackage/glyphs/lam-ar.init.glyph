@@ -1,0 +1,171 @@
+{
+glyphname = "lam-ar.init";
+layers = (
+{
+anchors = (
+{
+name = bar;
+position = "{171, 489}";
+},
+{
+name = bottom;
+position = "{112, -78}";
+},
+{
+name = top.far;
+position = "{156, 830}";
+},
+{
+name = top.near;
+position = "{156, 830}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"269 0 LINE",
+"269 760 LINE",
+"120 760 LINE",
+"120 120 LINE",
+"-5 120 LINE SMOOTH",
+"-8.333 120 OFFCURVE",
+"-10 118.667 OFFCURVE",
+"-10 116 CURVE SMOOTH",
+"-10 5 LINE SMOOTH",
+"-10 1.667 OFFCURVE",
+"-8.333 0 OFFCURVE",
+"-5 0 CURVE SMOOTH"
+);
+}
+);
+width = 369;
+},
+{
+anchors = (
+{
+name = bar;
+position = "{140, 513}";
+},
+{
+name = bottom;
+position = "{112, -78}";
+},
+{
+name = top.far;
+position = "{156, 830}";
+},
+{
+name = top.near;
+position = "{156, 830}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"216 0 LINE",
+"216 760 LINE",
+"127 760 LINE",
+"127 78 LINE",
+"-5 78 LINE SMOOTH",
+"-8 78 OFFCURVE",
+"-10 77 OFFCURVE",
+"-10 74 CURVE SMOOTH",
+"-10 5 LINE SMOOTH",
+"-10 2 OFFCURVE",
+"-8 0 OFFCURVE",
+"-5 0 CURVE SMOOTH"
+);
+}
+);
+width = 316;
+},
+{
+anchors = (
+{
+name = bar;
+position = "{109, 532}";
+},
+{
+name = bottom;
+position = "{122, -78}";
+},
+{
+name = top.far;
+position = "{156, 830}";
+},
+{
+name = top.near;
+position = "{156, 830}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"173 0 LINE",
+"173 760 LINE",
+"149 760 LINE",
+"149 24 LINE",
+"-5 24 LINE SMOOTH",
+"-8 24 OFFCURVE",
+"-10 23 OFFCURVE",
+"-10 20 CURVE SMOOTH",
+"-10 5 LINE SMOOTH",
+"-10 2 OFFCURVE",
+"-8 0 OFFCURVE",
+"-5 0 CURVE SMOOTH"
+);
+}
+);
+width = 283;
+},
+{
+anchors = (
+{
+name = bar;
+position = "{192, 472}";
+},
+{
+name = bottom;
+position = "{158, -78}";
+},
+{
+name = top.far;
+position = "{206, 830}";
+},
+{
+name = top.near;
+position = "{206, 830}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"304 0 LINE",
+"304 760 LINE",
+"115 760 LINE",
+"115 148 LINE",
+"-5 148 LINE SMOOTH",
+"-8 148 OFFCURVE",
+"-10 147 OFFCURVE",
+"-10 144 CURVE SMOOTH",
+"-10 5 LINE SMOOTH",
+"-10 2 OFFCURVE",
+"-8 0 OFFCURVE",
+"-5 0 CURVE SMOOTH"
+);
+}
+);
+width = 404;
+}
+);
+note = uni0644.init;
+unicode = FEDF;
+}

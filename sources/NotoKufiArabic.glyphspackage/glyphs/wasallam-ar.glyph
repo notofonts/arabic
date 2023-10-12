@@ -1,0 +1,90 @@
+{
+glyphname = "wasallam-ar";
+layers = (
+{
+components = (
+{
+name = "waw-ar";
+transform = "{1, 0, 0, 1, 1669, 0}";
+},
+{
+name = "seen-ar.init";
+transform = "{1, 0, 0, 1, 928, 0}";
+},
+{
+name = "lam-ar.medi";
+transform = "{1, 0, 0, 1, 620, 0}";
+},
+{
+name = "meem-ar.fina";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 2164;
+},
+{
+components = (
+{
+name = "waw-ar";
+transform = "{1, 0, 0, 1, 1900, 0}";
+},
+{
+name = "seen-ar.init";
+transform = "{1, 0, 0, 1, 1022, 0}";
+},
+{
+name = "lam-ar.medi";
+transform = "{1, 0, 0, 1, 681, 0}";
+},
+{
+name = "meem-ar.fina";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 2461;
+},
+{
+components = (
+{
+name = "waw-ar";
+transform = "{1, 0, 0, 1, 2140, 0}";
+},
+{
+name = "seen-ar.init";
+transform = "{1, 0, 0, 1, 1136, 0}";
+},
+{
+name = "lam-ar.medi";
+transform = "{1, 0, 0, 1, 742, 0}";
+},
+{
+name = "meem-ar.fina";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 2767;
+},
+{
+components = (
+{
+name = "waw-ar";
+transform = "{1, 0, 0, 1, 2300, 0}";
+},
+{
+name = "seen-ar.init";
+transform = "{1, 0, 0, 1, 1212, 0}";
+},
+{
+name = "lam-ar.medi";
+transform = "{1, 0, 0, 1, 783, 0}";
+},
+{
+name = "meem-ar.fina";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 2981;
+}
+);
+unicode = FDF8;
+}

@@ -1,0 +1,89 @@
+{
+glyphname = "toneloopbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{161, -122}";
+},
+{
+name = bottom;
+position = "{161, -323}";
+}
+);
+components = (
+{
+name = "toneloopabove-ar";
+transform = "{1, 0, 0, 1, 0, -1060}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 322;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{148, -122}";
+},
+{
+name = bottom;
+position = "{148, -283}";
+}
+);
+components = (
+{
+name = "toneloopabove-ar";
+transform = "{1, 0, 0, 1, 0, -1050}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 296;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{101, -122}";
+},
+{
+name = bottom;
+position = "{101, -283}";
+}
+);
+components = (
+{
+name = "toneloopabove-ar";
+transform = "{1, 0, 0, 1, 0, -1042}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 233;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{166, -122}";
+},
+{
+name = bottom;
+position = "{166, -343}";
+}
+);
+components = (
+{
+name = "toneloopabove-ar";
+transform = "{1, 0, 0, 1, 0, -1067}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 332;
+}
+);
+leftMetricsKey = "=0";
+note = uni0650;
+rightMetricsKey = "=0";
+unicode = 08EF;
+}

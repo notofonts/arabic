@@ -1,0 +1,59 @@
+{
+glyphname = "kirghizyu-ar.fina";
+layers = (
+{
+components = (
+{
+name = "waw-ar.fina";
+},
+{
+name = "vinvertedabove-ar";
+transform = "{1, 0, 0, 1, 323, 84}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 662;
+},
+{
+components = (
+{
+name = "waw-ar.fina";
+},
+{
+name = "vinvertedabove-ar";
+transform = "{1, 0, 0, 1, 274, 64}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 553;
+},
+{
+components = (
+{
+name = "waw-ar.fina";
+},
+{
+name = "vinvertedabove-ar";
+transform = "{1, 0, 0, 1, 242, 44}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 514;
+},
+{
+components = (
+{
+name = "waw-ar.fina";
+},
+{
+name = "vinvertedabove-ar";
+transform = "{1, 0, 0, 1, 356, 97}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 735;
+}
+);
+note = uni06C9.fina;
+unicode = FBE3;
+}

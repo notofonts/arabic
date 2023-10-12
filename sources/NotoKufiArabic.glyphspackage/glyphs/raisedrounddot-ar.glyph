@@ -1,0 +1,108 @@
+{
+glyphname = "raisedrounddot-ar";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{104, 144}";
+},
+{
+name = top.far;
+position = "{104, 555}";
+},
+{
+name = top.near;
+position = "{104, 556}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "rounddot-ar";
+transform = "{1, 0, 0, 1, 0, 200}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 178;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{149, 149}";
+},
+{
+name = top.far;
+position = "{149, 620}";
+},
+{
+name = top.near;
+position = "{149, 620}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "rounddot-ar";
+transform = "{1, 0, 0, 1, 0, 201}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 273;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{164, 149}";
+},
+{
+name = top.far;
+position = "{164, 620}";
+},
+{
+name = top.near;
+position = "{164, 620}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "rounddot-ar";
+transform = "{1, 0, 0, 1, 0, 200}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 309;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{183, 149}";
+},
+{
+name = top.far;
+position = "{183, 620}";
+},
+{
+name = top.near;
+position = "{183, 620}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "rounddot-ar";
+transform = "{1, 0, 0, 1, 0, 200}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 348;
+}
+);
+leftMetricsKey = "=rounddot-ar";
+rightMetricsKey = "=rounddot-ar";
+unicode = 0888;
+}

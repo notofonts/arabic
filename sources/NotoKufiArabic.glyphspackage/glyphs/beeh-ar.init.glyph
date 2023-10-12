@@ -1,0 +1,59 @@
+{
+glyphname = "beeh-ar.init";
+layers = (
+{
+components = (
+{
+name = "behDotless-ar.init";
+},
+{
+name = "twodotsverticalbelow-ar";
+transform = "{1, 0, 0, 1, 126, 12}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 354;
+},
+{
+components = (
+{
+name = "behDotless-ar.init";
+},
+{
+name = "twodotsverticalbelow-ar";
+transform = "{1, 0, 0, 1, 127, -8}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 301;
+},
+{
+components = (
+{
+name = "behDotless-ar.init";
+},
+{
+name = "twodotsverticalbelow-ar";
+transform = "{1, 0, 0, 1, 129, 32}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 248;
+},
+{
+components = (
+{
+name = "behDotless-ar.init";
+},
+{
+name = "twodotsverticalbelow-ar";
+transform = "{1, 0, 0, 1, 187, 36}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 389;
+}
+);
+note = uni067B.init;
+unicode = FB54;
+}

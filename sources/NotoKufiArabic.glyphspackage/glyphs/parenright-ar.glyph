@@ -1,0 +1,49 @@
+{
+glyphname = "parenright-ar";
+layers = (
+{
+components = (
+{
+name = "parenleft-ar";
+transform = "{-1, 0, 0, -1, 454, 556}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 454;
+},
+{
+components = (
+{
+name = "parenleft-ar";
+transform = "{-1, 0, 0, -1, 428, 556}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 428;
+},
+{
+components = (
+{
+name = "parenleft-ar";
+transform = "{-1, 0, 0, -1, 430, 556}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 430;
+},
+{
+components = (
+{
+name = "parenleft-ar";
+transform = "{-1, 0, 0, -1, 476, 556}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 476;
+}
+);
+leftMetricsKey = "=30";
+note = uniFD3F;
+rightMetricsKey = "=40";
+unicode = FD3F;
+}

@@ -1,0 +1,171 @@
+{
+glyphname = "twoabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.digit;
+position = "{154, 880}";
+},
+{
+name = top.far;
+position = "{93, 1072}";
+},
+{
+name = top.near;
+position = "{93, 1072}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"105 756 LINE",
+"129 756 LINE",
+"40 999 LINE",
+"168 999 LINE",
+"168 1019 LINE",
+"17 1019 LINE",
+"17 1001 LINE"
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 39;
+verticalShift = 756;
+weight = -4;
+width = 41;
+};
+};
+width = 168;
+},
+{
+anchors = (
+{
+name = _top.digit;
+position = "{187, 854}";
+},
+{
+name = top.far;
+position = "{112, 1064}";
+},
+{
+name = top.near;
+position = "{112, 1065}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"107 720 LINE",
+"166 720 LINE",
+"79 962 LINE",
+"205 962 LINE",
+"205 1010 LINE",
+"19 1010 LINE",
+"19 972 LINE"
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 43;
+verticalShift = 720;
+weight = -143;
+width = 42;
+};
+};
+width = 205;
+},
+{
+anchors = (
+{
+name = _top.digit;
+position = "{205, 827}";
+},
+{
+name = top.far;
+position = "{109, 1072}";
+},
+{
+name = top.near;
+position = "{109, 1072}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"84 701 LINE",
+"171 701 LINE",
+"107 941 LINE",
+"203 941 LINE",
+"203 1011 LINE",
+"15 1011 LINE",
+"15 961 LINE"
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 46;
+verticalShift = 701;
+weight = -302;
+width = 33;
+};
+};
+width = 203;
+},
+{
+anchors = (
+{
+name = _top.digit;
+position = "{222, 811}";
+},
+{
+name = top.far;
+position = "{115, 1072}";
+},
+{
+name = top.near;
+position = "{115, 1072}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"81 700 LINE",
+"185 700 LINE",
+"125 933 LINE",
+"216 933 LINE",
+"216 1017 LINE",
+"14 1017 LINE",
+"14 960 LINE"
+);
+}
+);
+userData = {
+RMXScaler = {
+height = 47;
+verticalShift = 700;
+weight = -417;
+width = 32;
+};
+};
+width = 216;
+}
+);
+rightMetricsKey = "=0";
+userData = {
+RMXScaler = {
+source = "two-ar";
+};
+};
+}

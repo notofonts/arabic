@@ -1,0 +1,168 @@
+{
+glyphname = "alefMokhassas-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.far;
+position = "{137, 748}";
+},
+{
+name = top.far;
+position = "{137, 973}";
+}
+);
+components = (
+{
+name = "alefabove-ar";
+transform = "{1, 0, 0, 1, 12, -56}";
+},
+{
+alignment = -1;
+name = "fatha-ar";
+transform = "{1, 0, 0, 1, 118, 73}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"40 794 OFFCURVE",
+"55 847 OFFCURVE",
+"155 880 CURVE",
+"137 896 LINE",
+"54 869 OFFCURVE",
+"43 837 OFFCURVE",
+"5 773 CURVE",
+"22 755 LINE"
+);
+}
+);
+width = 322;
+},
+{
+anchors = (
+{
+name = _top.far;
+position = "{190, 738}";
+},
+{
+name = top.far;
+position = "{190, 963}";
+}
+);
+components = (
+{
+name = "alefabove-ar";
+transform = "{1, 0, 0, 1, 29, -50}";
+},
+{
+alignment = -1;
+name = "fatha-ar";
+transform = "{1, 0, 0, 1, 171, 64}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"86 802 OFFCURVE",
+"139 829 OFFCURVE",
+"200 851 CURVE",
+"190 902 LINE",
+"113 876 OFFCURVE",
+"63 845 OFFCURVE",
+"25 781 CURVE",
+"57 761 LINE"
+);
+}
+);
+width = 405;
+},
+{
+anchors = (
+{
+name = _top.far;
+position = "{190, 738}";
+},
+{
+name = top.far;
+position = "{190, 963}";
+}
+);
+components = (
+{
+name = "alefabove-ar";
+transform = "{1, 0, 0, 1, 29, -60}";
+},
+{
+alignment = -1;
+name = "fatha-ar";
+transform = "{1, 0, 0, 1, 171, 54}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"96 792 OFFCURVE",
+"139 819 OFFCURVE",
+"200 841 CURVE",
+"190 902 LINE",
+"113 876 OFFCURVE",
+"73 845 OFFCURVE",
+"35 781 CURVE",
+"67 751 LINE"
+);
+}
+);
+width = 405;
+},
+{
+anchors = (
+{
+name = _top.far;
+position = "{200, 738}";
+},
+{
+name = top.far;
+position = "{200, 963}";
+}
+);
+components = (
+{
+name = "alefabove-ar";
+transform = "{1, 0, 0, 1, 39, -63}";
+},
+{
+alignment = -1;
+name = "fatha-ar";
+transform = "{1, 0, 0, 1, 181, 51}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"123 789 OFFCURVE",
+"141 813 OFFCURVE",
+"202 835 CURVE",
+"192 903 LINE",
+"115 877 OFFCURVE",
+"91 849 OFFCURVE",
+"62 774 CURVE",
+"94 748 LINE"
+);
+}
+);
+width = 415;
+}
+);
+leftMetricsKey = "=0";
+rightMetricsKey = "=0";
+unicode = 089D;
+}

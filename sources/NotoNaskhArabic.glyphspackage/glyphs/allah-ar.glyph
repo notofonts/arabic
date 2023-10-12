@@ -4,14 +4,6 @@ layers = (
 {
 anchors = (
 {
-name = bottom;
-pos = (1055,-100);
-},
-{
-name = bottom.dot;
-pos = (1055,-48);
-},
-{
 name = bottom_1;
 pos = (1055,-100);
 },
@@ -28,27 +20,31 @@ name = bottom_4;
 pos = (252,-98);
 },
 {
-name = top.far;
+name = caret_1;
+pos = (960,0);
+},
+{
+name = caret_2;
+pos = (692,0);
+},
+{
+name = caret_3;
+pos = (453,0);
+},
+{
+name = top.far_1;
 pos = (1050,720);
 },
 {
-name = top.near;
-pos = (1050,720);
-},
-{
-name = top_1;
-pos = (1050,720);
-},
-{
-name = top_2;
+name = top.far_2;
 pos = (794,717);
 },
 {
-name = top_3;
+name = top.far_3;
 pos = (563,899);
 },
 {
-name = top_4;
+name = top.far_4;
 pos = (237,547);
 }
 );
@@ -73,14 +69,6 @@ width = 1190;
 {
 anchors = (
 {
-name = bottom;
-pos = (1054,-110);
-},
-{
-name = bottom.dot;
-pos = (1054,-48);
-},
-{
 name = bottom_1;
 pos = (1054,-110);
 },
@@ -97,27 +85,31 @@ name = bottom_4;
 pos = (250,-110);
 },
 {
-name = top.far;
+name = caret_1;
+pos = (972,0);
+},
+{
+name = caret_2;
+pos = (692,0);
+},
+{
+name = caret_3;
+pos = (453,0);
+},
+{
+name = top.far_1;
 pos = (1045,729);
 },
 {
-name = top.near;
-pos = (1045,729);
-},
-{
-name = top_1;
-pos = (1045,729);
-},
-{
-name = top_2;
+name = top.far_2;
 pos = (790,730);
 },
 {
-name = top_3;
+name = top.far_3;
 pos = (570,933);
 },
 {
-name = top_4;
+name = top.far_4;
 pos = (232,599);
 }
 );

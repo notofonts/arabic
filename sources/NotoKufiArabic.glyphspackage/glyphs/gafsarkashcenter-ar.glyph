@@ -1,0 +1,107 @@
+{
+glyphname = "gafsarkashcenter-ar";
+layers = (
+{
+anchors = (
+{
+name = _ring;
+position = "{110, 782}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"12 618 LINE",
+"77 707 OFFCURVE",
+"164 793 OFFCURVE",
+"251 834 CURVE",
+"244 854 LINE",
+"153 811 OFFCURVE",
+"65 726 OFFCURVE",
+"0 636 CURVE"
+);
+}
+);
+width = 251;
+},
+{
+anchors = (
+{
+name = _ring;
+position = "{96, 835}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"29 714 LINE",
+"94 773 OFFCURVE",
+"173 827 OFFCURVE",
+"240 851 CURVE",
+"211 918 LINE",
+"140 889 OFFCURVE",
+"63 834 OFFCURVE",
+"0 776 CURVE"
+);
+}
+);
+width = 240;
+},
+{
+anchors = (
+{
+name = _ring;
+position = "{33, 927}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"36 802 LINE",
+"88 848 OFFCURVE",
+"143 886 OFFCURVE",
+"204 908 CURVE",
+"175 985 LINE",
+"115 962 OFFCURVE",
+"53 920 OFFCURVE",
+"0 874 CURVE"
+);
+}
+);
+width = 204;
+},
+{
+anchors = (
+{
+name = _ring;
+position = "{39, 973}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"48 836 LINE",
+"103 877 OFFCURVE",
+"167 911 OFFCURVE",
+"240 939 CURVE",
+"192 1029 LINE",
+"122 1001 OFFCURVE",
+"58 962 OFFCURVE",
+"0 918 CURVE"
+);
+}
+);
+width = 240;
+}
+);
+leftMetricsKey = "=0";
+rightMetricsKey = "=0";
+}

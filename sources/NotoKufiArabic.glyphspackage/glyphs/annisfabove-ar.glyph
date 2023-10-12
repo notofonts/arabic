@@ -1,0 +1,154 @@
+{
+glyphname = "annisfabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _stop;
+position = "{467, 1030}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "alef-ar";
+transform = "{0.38, 0, 0, 0.38, 862, 1096}";
+},
+{
+alignment = -1;
+name = "lam-ar.init";
+transform = "{0.38, 0, 0, 0.38, 755, 1096}";
+},
+{
+alignment = -1;
+name = "noon-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 653, 1096}";
+},
+{
+alignment = -1;
+name = "sad-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 363, 1096}";
+},
+{
+alignment = -1;
+name = "feh-ar.fina";
+transform = "{0.38, 0, 0, 0.38, 0, 1096}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 947;
+},
+{
+anchors = (
+{
+name = _stop;
+position = "{470, 1030}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "alef-ar";
+transform = "{0.38, 0, 0, 0.38, 959, 1096}";
+},
+{
+alignment = -1;
+name = "lam-ar.init";
+transform = "{0.38, 0, 0, 0.38, 839, 1096}";
+},
+{
+alignment = -1;
+name = "noon-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 709, 1096}";
+},
+{
+alignment = -1;
+name = "sad-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 392, 1096}";
+},
+{
+alignment = -1;
+name = "feh-ar.fina";
+transform = "{0.38, 0, 0, 0.38, 0, 1096}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 1069;
+},
+{
+anchors = (
+{
+name = _stop;
+position = "{588, 1030}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "alef-ar";
+transform = "{0.38, 0, 0, 0.38, 1056, 1096}";
+},
+{
+alignment = -1;
+name = "lam-ar.init";
+transform = "{0.38, 0, 0, 0.38, 916, 1096}";
+},
+{
+alignment = -1;
+name = "noon-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 766, 1096}";
+},
+{
+alignment = -1;
+name = "sad-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 422, 1096}";
+},
+{
+alignment = -1;
+name = "feh-ar.fina";
+transform = "{0.38, 0, 0, 0.38, 0, 1096}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 1189;
+},
+{
+anchors = (
+{
+name = _stop;
+position = "{627, 1030}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "alef-ar";
+transform = "{0.38, 0, 0, 0.38, 1120, 1096}";
+},
+{
+alignment = -1;
+name = "lam-ar.init";
+transform = "{0.38, 0, 0, 0.38, 967, 1096}";
+},
+{
+alignment = -1;
+name = "noon-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 804, 1096}";
+},
+{
+alignment = -1;
+name = "sad-ar.medi";
+transform = "{0.38, 0, 0, 0.38, 442, 1096}";
+},
+{
+alignment = -1;
+name = "feh-ar.fina";
+transform = "{0.38, 0, 0, 0.38, 0, 1096}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 1268;
+}
+);
+unicode = 08DC;
+}

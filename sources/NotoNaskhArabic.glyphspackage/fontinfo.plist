@@ -991,26 +991,20 @@ lookup subtending_marks {
 tag = rlig;
 },
 {
-code = "# GSUB feature: Standard Ligatures
-# Lookups: 2
-
-#  lookup liga_arab_2 {
-#  # GSUB lookup 23, type 14 (Ligature)
-#    lookupflag IgnoreMarks;
-#    sub lam-ar.init lam-ar.medi heh-ar.fina by allah-ar.2;
-#    sub lam-ar.init lam-ar.medi hehgoal-ar.fina by allah-ar.2;
-#  } liga_arab_2;
-
-  script arab; # Arabic
-  sub alef-ar lam-ar.init lam-ar.medi shadda_alefabove-ar heh-ar.fina by allah-ar;
-  sub alef-ar lam-ar.init lam-ar.medi shadda_alefabove-ar hehgoal-ar.fina by allah-ar;
-#  lookup liga_arab_2;
-    language SND ; # Sindhi
-    language URD ; # Urdu
-    language KSH ; # Kashmiri
-    language FAR ; # Farsi
-";
+code = "lookup allah {
+lookupflag UseMarkFilteringSet [shadda-ar alefabove-ar];
+  sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar heh-ar.fina by allah-ar;
+  sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar hehgoal-ar.fina by allah-ar;
+} allah;";
 tag = liga;
+},
+{
+code = "lookup dlig_RTL {
+lookupflag IgnoreMarks;
+	sub lam-ar.init lam-ar.medi heh-ar.fina by allah-ar.2;
+} dlig_RTL;
+";
+tag = dlig;
 },
 {
 automatic = 1;
@@ -1057,14 +1051,6 @@ sub fourFarsi-ar.locl.lf by fourFarsi-ar.locl;
 sub sevenFarsi-ar.locl.lf by sevenFarsi-ar.locl;
 ";
 tag = tnum;
-},
-{
-code = "lookup dlig_RTL {
-lookupflag IgnoreMarks RightToLeft;
-	sub lam-ar.init lam-ar.medi heh-ar.fina by allah-ar.2;
-} dlig_RTL;
-";
-tag = dlig;
 }
 );
 fontMaster = (

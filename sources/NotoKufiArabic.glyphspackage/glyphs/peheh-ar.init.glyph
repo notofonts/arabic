@@ -1,0 +1,59 @@
+{
+glyphname = "peheh-ar.init";
+layers = (
+{
+components = (
+{
+name = "fehDotless-ar.init";
+},
+{
+name = "fourdotsabove-ar";
+transform = "{1, 0, 0, 1, 165, 5}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+width = 645;
+},
+{
+components = (
+{
+name = "fehDotless-ar.init";
+},
+{
+name = "fourdotsabove-ar";
+transform = "{1, 0, 0, 1, 181, -9}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+width = 585;
+},
+{
+components = (
+{
+name = "fehDotless-ar.init";
+},
+{
+name = "fourdotsabove-ar";
+transform = "{1, 0, 0, 1, 249, -36}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+width = 525;
+},
+{
+components = (
+{
+name = "fehDotless-ar.init";
+},
+{
+name = "fourdotsabove-ar";
+transform = "{1, 0, 0, 1, 175, -5}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+width = 685;
+}
+);
+note = uni06A6.init;
+unicode = FB70;
+}

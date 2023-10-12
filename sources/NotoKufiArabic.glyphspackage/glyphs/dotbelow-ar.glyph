@@ -1,0 +1,139 @@
+{
+glyphname = "dotbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{11, -79}";
+},
+{
+name = bottom;
+position = "{11, -305}";
+}
+);
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+paths = (
+{
+closed = 1;
+nodes = (
+"51 -250 OFFCURVE",
+"77 -222 OFFCURVE",
+"77 -178 CURVE SMOOTH",
+"77 -133 OFFCURVE",
+"52 -106 OFFCURVE",
+"11 -106 CURVE SMOOTH",
+"-32 -106 OFFCURVE",
+"-56 -134 OFFCURVE",
+"-56 -178 CURVE SMOOTH",
+"-56 -222 OFFCURVE",
+"-30 -250 OFFCURVE",
+"11 -250 CURVE SMOOTH"
+);
+}
+);
+width = 77;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{0, -59}";
+},
+{
+name = bottom;
+position = "{-2, -281}";
+}
+);
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+paths = (
+{
+closed = 1;
+nodes = (
+"36 -200 OFFCURVE",
+"56 -176 OFFCURVE",
+"56 -140 CURVE SMOOTH",
+"56 -104 OFFCURVE",
+"36 -80 OFFCURVE",
+"0 -80 CURVE SMOOTH",
+"-35 -80 OFFCURVE",
+"-56 -101 OFFCURVE",
+"-56 -140 CURVE SMOOTH",
+"-56 -179 OFFCURVE",
+"-35 -200 OFFCURVE",
+"0 -200 CURVE SMOOTH"
+);
+}
+);
+width = 56;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{0, -86}";
+},
+{
+name = bottom;
+position = "{-2, -238}";
+}
+);
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+paths = (
+{
+closed = 1;
+nodes = (
+"19 -168 OFFCURVE",
+"27 -157 OFFCURVE",
+"27 -140 CURVE SMOOTH",
+"27 -124 OFFCURVE",
+"18 -112 OFFCURVE",
+"0 -112 CURVE SMOOTH",
+"-16 -112 OFFCURVE",
+"-26 -121 OFFCURVE",
+"-26 -140 CURVE SMOOTH",
+"-26 -159 OFFCURVE",
+"-17 -168 OFFCURVE",
+"0 -168 CURVE SMOOTH"
+);
+}
+);
+width = 27;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{18, -94}";
+},
+{
+name = bottom;
+position = "{18, -347}";
+}
+);
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+paths = (
+{
+closed = 1;
+nodes = (
+"62 -284 OFFCURVE",
+"91 -254 OFFCURVE",
+"91 -203 CURVE SMOOTH",
+"91 -151 OFFCURVE",
+"64 -122 OFFCURVE",
+"18 -122 CURVE SMOOTH",
+"-31 -122 OFFCURVE",
+"-56 -155 OFFCURVE",
+"-56 -203 CURVE SMOOTH",
+"-56 -252 OFFCURVE",
+"-28 -284 OFFCURVE",
+"18 -284 CURVE SMOOTH"
+);
+}
+);
+width = 91;
+}
+);
+note = onedot.below;
+rightMetricsKey = "=0";
+}
