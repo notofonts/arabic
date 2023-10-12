@@ -5,4 +5,6 @@ includeSubsets:
 - from: Noto Sans
   name: GF_Latin_Core
 sources:
-- NotoSansArabic.glyphs
+- NotoSansArabic.glyphspackage
+glyphData:
+- GlyphData.xml

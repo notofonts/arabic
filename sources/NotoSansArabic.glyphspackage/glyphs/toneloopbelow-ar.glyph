@@ -1,0 +1,200 @@
+{
+glyphname = "toneloopbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{127, 0}";
+},
+{
+name = _bottom.mark;
+position = "{127, 0}";
+},
+{
+name = bottom;
+position = "{127, -225}";
+}
+);
+components = (
+{
+name = "toneloopabove-ar";
+transform = "{1, 0, 0, 1, 0, -911}";
+}
+);
+layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
+width = 256;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{152, 0}";
+},
+{
+name = _bottom.mark;
+position = "{152, 0}";
+},
+{
+name = bottom;
+position = "{152, -236}";
+}
+);
+components = (
+{
+name = "toneloopabove-ar";
+transform = "{1, 0, 0, 1, 0, -911}";
+}
+);
+layerId = "A7E21968-E455-4749-BB19-379F5EDC3B9B";
+width = 266;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{127, 0}";
+},
+{
+name = _bottom.mark;
+position = "{127, 0}";
+},
+{
+name = bottom;
+position = "{127, -236}";
+}
+);
+components = (
+{
+name = "toneloopabove-ar";
+transform = "{1, 0, 0, 1, 0, -911}";
+}
+);
+layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
+width = 239;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{143, 0}";
+},
+{
+name = _bottom.mark;
+position = "{143, 0}";
+},
+{
+name = bottom;
+position = "{143, -233}";
+}
+);
+components = (
+{
+name = "toneloopabove-ar";
+transform = "{1, 0, 0, 1, 0, -911}";
+}
+);
+layerId = "08F1692B-9525-48D2-9816-1987B1C44D50";
+width = 265;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{127, 0}";
+},
+{
+name = _bottom.mark;
+position = "{127, 0}";
+},
+{
+name = bottom;
+position = "{127, -236}";
+}
+);
+components = (
+{
+name = "toneloopabove-ar";
+transform = "{1, 0, 0, 1, 0, -911}";
+}
+);
+layerId = "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3";
+width = 259;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{127, 0}";
+},
+{
+name = _bottom.mark;
+position = "{127, 0}";
+},
+{
+name = bottom;
+position = "{127, -236}";
+}
+);
+components = (
+{
+name = "toneloopabove-ar";
+transform = "{1, 0, 0, 1, 0, -911}";
+}
+);
+layerId = "6D0603BE-7277-4DA4-8C59-7934AF28E45B";
+width = 282;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{142, 0}";
+},
+{
+name = _bottom.mark;
+position = "{142, 0}";
+},
+{
+name = bottom;
+position = "{142, -236}";
+}
+);
+components = (
+{
+name = "toneloopabove-ar";
+transform = "{1, 0, 0, 1, 0, -911}";
+}
+);
+layerId = "E1555194-BAFD-4DCC-A026-E2F9BA1917F2";
+width = 292;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{152, 0}";
+},
+{
+name = _bottom.mark;
+position = "{152, 0}";
+},
+{
+name = bottom;
+position = "{152, -236}";
+}
+);
+components = (
+{
+name = "toneloopabove-ar";
+transform = "{1, 0, 0, 1, 0, -911}";
+}
+);
+layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
+width = 290;
+}
+);
+leftMetricsKey = "=toneloopabove-ar";
+rightMetricsKey = "=toneloopabove-ar";
+unicode = 08EF;
+}
