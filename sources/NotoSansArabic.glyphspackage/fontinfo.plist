@@ -344,7 +344,7 @@ value = "https://scripts.sil.org/OFL";
 },
 {
 name = versionString;
-value = "Version 2.010";
+value = "Version 2.011";
 },
 {
 name = license;
@@ -365,7 +365,7 @@ Tag = wdth;
 }
 );
 date = "2021-06-01 07:42:49 +0000";
-designer = "Monotype Design Team, Nadine Chahine and Nizar Qandah";
+designer = "Monotype Design Team, Nadine Chahine, Nizar Qandah and Khaled Hosny";
 designerURL = "http://www.monotype.com/studio";
 familyName = "Noto Sans Arabic";
 featurePrefixes = (
@@ -3502,5 +3502,5 @@ arBar = 178;
 };
 };
 versionMajor = 2;
-versionMinor = 10;
+versionMinor = 11;
 }

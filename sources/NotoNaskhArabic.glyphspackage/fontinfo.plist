@@ -1472,13 +1472,13 @@ key = descriptions;
 values = (
 {
 language = dflt;
-value = "Monotype Design Team, David Williams, Mohamad Dakak and Nizar Qandah";
+value = "Monotype Design Team, David Williams, Mohamad Dakak, Nizar Qandah, Khaled Hosny";
 }
 );
 },
 {
 key = versionString;
-value = "Version 2.016";
+value = "Version 2.017";
 }
 );
 unitsPerEm = 1000;
@@ -1486,5 +1486,5 @@ userData = {
 UFOFormat = 2;
 };
 versionMajor = 2;
-versionMinor = 16;
+versionMinor = 17;
 }
