@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.9.2
+fontbakery version: 0.10.0
 
 <details><summary><b>[13] NotoNaskhArabicUI[wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
@@ -966,14 +966,14 @@ fontbakery version: 0.9.2
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+200C ZERO WIDTH NON-JOINER: try adding one of: limbu, hanunoo, kannada, myanmar, nko, gunjala-gondi, sundanese, khudawadi, dogra, tifinagh, kayah-li, takri, pahawh-hmong, buhid, gurmukhi, lepcha, tai-viet, warang-citi, brahmi, grantha, tagalog, tagbanwa, malayalam, modi, tai-tham, tibetan, tirhuta, yi, khojki, hatran, balinese, batak, hanifi-rohingya, new-tai-lue, cham, saurashtra, siddham, thaana, syriac, javanese, avestan, gujarati, psalter-pahlavi, sogdian, chakma, devanagari, telugu, kharoshthi, meetei-mayek, oriya, sharada, manichaean, sinhala, mandaic, phags-pa, duployan, buginese, mongolian, tai-le, tamil, thai, kaithi, khmer, syloti-nagri, rejang, bengali, newa, mahajani
- * U+200D ZERO WIDTH JOINER: try adding one of: limbu, hanunoo, kannada, myanmar, nko, gunjala-gondi, sundanese, khudawadi, dogra, tifinagh, kayah-li, old-hungarian, pahawh-hmong, takri, buhid, gurmukhi, lepcha, tai-viet, warang-citi, brahmi, grantha, tagalog, tagbanwa, malayalam, modi, tai-tham, tibetan, tirhuta, yi, khojki, balinese, batak, hanifi-rohingya, saurashtra, new-tai-lue, cham, siddham, thaana, syriac, javanese, avestan, gujarati, psalter-pahlavi, chakma, devanagari, telugu, kharoshthi, meetei-mayek, oriya, sharada, manichaean, sinhala, mandaic, phags-pa, duployan, buginese, mongolian, tai-le, tamil, thai, kaithi, syloti-nagri, rejang, bengali, newa, mahajani
- * U+200E LEFT-TO-RIGHT MARK: try adding one of: thaana, syriac, nko, phags-pa
- * U+200F RIGHT-TO-LEFT MARK: try adding one of: thaana, syriac, nko, phags-pa
- * U+2010 HYPHEN: try adding one of: kharoshthi, sora-sompeng, cham, sundanese, lisu, kaithi, kayah-li, syloti-nagri, yi, coptic
+ * U+200C ZERO WIDTH NON-JOINER: try adding one of: kharoshthi, phags-pa, mandaic, duployan, syloti-nagri, hanunoo, tai-viet, oriya, siddham, sinhala, syriac, tamil, malayalam, tibetan, myanmar, psalter-pahlavi, tagbanwa, balinese, devanagari, khudawadi, warang-citi, bengali, tai-tham, tirhuta, dogra, grantha, yi, gunjala-gondi, khojki, mahajani, lepcha, gurmukhi, brahmi, cham, hatran, khmer, manichaean, limbu, sharada, telugu, thai, sogdian, takri, modi, kannada, tifinagh, batak, meetei-mayek, saurashtra, buginese, nko, gujarati, rejang, sundanese, tagalog, kaithi, pahawh-hmong, new-tai-lue, javanese, newa, thaana, hanifi-rohingya, kayah-li, tai-le, buhid, mongolian, chakma, avestan
+ * U+200D ZERO WIDTH JOINER: try adding one of: kharoshthi, phags-pa, mandaic, duployan, syloti-nagri, hanunoo, tai-viet, oriya, siddham, sinhala, syriac, tamil, malayalam, tibetan, myanmar, psalter-pahlavi, tagbanwa, balinese, devanagari, khudawadi, warang-citi, bengali, tai-tham, tirhuta, dogra, grantha, old-hungarian, gunjala-gondi, khojki, yi, mahajani, lepcha, gurmukhi, brahmi, cham, manichaean, telugu, limbu, sharada, thai, takri, modi, kannada, tifinagh, batak, meetei-mayek, saurashtra, buginese, nko, gujarati, rejang, sundanese, tagalog, kaithi, pahawh-hmong, new-tai-lue, javanese, newa, thaana, hanifi-rohingya, kayah-li, tai-le, buhid, mongolian, chakma, avestan
+ * U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, thaana, phags-pa, syriac
+ * U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, thaana, phags-pa, syriac
+ * U+2010 HYPHEN: try adding one of: yi, kharoshthi, sundanese, syloti-nagri, kaithi, cham, lisu, sora-sompeng, coptic, kayah-li
  * U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, yi
  * U+204F REVERSED SEMICOLON: try adding adlam
- * U+25CC DOTTED CIRCLE: try adding one of: hanunoo, marchen, dogra, pahawh-hmong, gurmukhi, grantha, wancho, symbols, yi, bassa-vah, khojki, balinese, old-permic, math, chakma, mende-kikakui, sharada, zanabazar-square, kaithi, rejang, bengali, soyombo, limbu, ahom, kannada, sundanese, bhaiksuki, tai-viet, lao, tagalog, hebrew, malayalam, cham, thaana, javanese, psalter-pahlavi, sogdian, devanagari, sinhala, duployan, mongolian, syloti-nagri, mahajani, adlam, nko, takri, buhid, masaram-gondi, elbasan, osage, batak, hanifi-rohingya, siddham, miao, telugu, kharoshthi, meetei-mayek, oriya, manichaean, caucasian-albanian, phags-pa, buginese, music, thai, tai-le, newa, tibetan, myanmar, gunjala-gondi, khudawadi, tifinagh, kayah-li, lepcha, brahmi, tagbanwa, modi, tirhuta, new-tai-lue, syriac, gujarati, mandaic, tamil, khmer, coptic
+ * U+25CC DOTTED CIRCLE: try adding one of: phags-pa, mandaic, oriya, syriac, tibetan, myanmar, khudawadi, bengali, gunjala-gondi, telugu, gurmukhi, marchen, wancho, thai, modi, rejang, hanifi-rohingya, tai-viet, zanabazar-square, balinese, miao, tirhuta, elbasan, hebrew, adlam, khojki, khmer, kannada, batak, old-permic, meetei-mayek, buginese, nko, gujarati, sundanese, caucasian-albanian, tagbanwa, kharoshthi, duployan, sinhala, bassa-vah, malayalam, bhaiksuki, chakma, music, masaram-gondi, dogra, lepcha, brahmi, soyombo, osage, takri, coptic, ahom, tagalog, kaithi, pahawh-hmong, new-tai-lue, javanese, newa, kayah-li, mongolian, tai-le, lao, syloti-nagri, hanunoo, tamil, siddham, symbols, psalter-pahlavi, devanagari, grantha, yi, mahajani, cham, manichaean, limbu, sharada, sogdian, tifinagh, thaana, buhid, math, mende-kikakui
  * U+2E41 REVERSED COMMA: try adding adlam
 
 Or you can add the above codepoints to one of the subsets supported by the font: `arabic` [code: unreachable-subsetting]
@@ -1085,7 +1085,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'uni0602' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efd00dcced0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7efd00dcda90> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font:
+
+	- Contour 0 start point differs in glyph 'uni0602' between location wght=400 and location wght=700 [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1096,7 +1098,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 8 | 101 | 8 | 127 | 0 |
+| 0 | 5 | 8 | 102 | 8 | 127 | 0 |
 | 0% | 2% | 3% | 41% | 3% | 51% | 0% |
 
 **Note:** The following loglevels were omitted in this report:

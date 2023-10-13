@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.9.2
+fontbakery version: 0.10.0
 
 <details><summary><b>[12] NotoSansArabicUI[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
@@ -261,15 +261,15 @@ fontbakery version: 0.9.2
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, old-permic, malayalam, canadian-aboriginal, tifinagh, syriac, coptic, math
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, canadian-aboriginal, tai-le, old-permic, math, coptic, syriac
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -280,14 +280,14 @@ fontbakery version: 0.9.2
  * U+034F COMBINING GRAPHEME JOINER: not included in any glyphset definition
  * U+0605 ARABIC NUMBER MARK ABOVE: not included in any glyphset definition
  * U+08E2 ARABIC DISPUTED END OF AYAH: not included in any glyphset definition
- * U+200C ZERO WIDTH NON-JOINER: try adding one of: tagalog, modi, nko, chakma, khudawadi, balinese, limbu, myanmar, warang-citi, kharoshthi, mandaic, saurashtra, takri, javanese, syriac, telugu, batak, mahajani, tai-tham, sundanese, mongolian, dogra, sogdian, tamil, tai-viet, avestan, malayalam, kayah-li, manichaean, kaithi, siddham, tirhuta, gujarati, bengali, new-tai-lue, newa, psalter-pahlavi, thaana, yi, syloti-nagri, buhid, lepcha, hanunoo, tai-le, meetei-mayek, tagbanwa, khojki, duployan, gurmukhi, grantha, rejang, brahmi, tibetan, khmer, sinhala, sharada, devanagari, pahawh-hmong, oriya, phags-pa, cham, kannada, buginese, hatran, tifinagh, gunjala-gondi, thai, hanifi-rohingya
- * U+200D ZERO WIDTH JOINER: try adding one of: tagalog, modi, nko, chakma, khudawadi, balinese, limbu, myanmar, warang-citi, kharoshthi, mandaic, saurashtra, takri, javanese, syriac, telugu, batak, mahajani, tai-tham, sundanese, mongolian, dogra, tamil, tai-viet, avestan, malayalam, kayah-li, manichaean, kaithi, siddham, tirhuta, gujarati, bengali, new-tai-lue, newa, psalter-pahlavi, thaana, yi, syloti-nagri, buhid, lepcha, hanunoo, tai-le, old-hungarian, meetei-mayek, tagbanwa, khojki, duployan, gurmukhi, grantha, rejang, brahmi, tibetan, sinhala, sharada, devanagari, pahawh-hmong, oriya, phags-pa, cham, kannada, buginese, tifinagh, gunjala-gondi, thai, hanifi-rohingya
- * U+200E LEFT-TO-RIGHT MARK: try adding one of: thaana, syriac, nko, phags-pa
- * U+200F RIGHT-TO-LEFT MARK: try adding one of: thaana, syriac, nko, phags-pa
- * U+2010 HYPHEN: try adding one of: sundanese, sora-sompeng, kayah-li, kaithi, lisu, kharoshthi, cham, yi, syloti-nagri, coptic
+ * U+200C ZERO WIDTH NON-JOINER: try adding one of: javanese, khojki, malayalam, mandaic, duployan, siddham, sharada, batak, mongolian, takri, balinese, avestan, devanagari, khudawadi, manichaean, nko, sundanese, cham, buginese, saurashtra, buhid, grantha, limbu, syloti-nagri, mahajani, gunjala-gondi, rejang, tamil, telugu, gujarati, modi, bengali, phags-pa, hatran, psalter-pahlavi, gurmukhi, syriac, kharoshthi, thai, brahmi, sinhala, warang-citi, tifinagh, pahawh-hmong, tai-tham, kannada, hanunoo, tibetan, dogra, lepcha, myanmar, chakma, sogdian, khmer, hanifi-rohingya, tirhuta, yi, kaithi, tagalog, thaana, kayah-li, tai-le, oriya, newa, tagbanwa, meetei-mayek, tai-viet, new-tai-lue
+ * U+200D ZERO WIDTH JOINER: try adding one of: javanese, khojki, malayalam, mandaic, duployan, siddham, sharada, batak, mongolian, takri, balinese, avestan, devanagari, khudawadi, manichaean, nko, sundanese, cham, buginese, saurashtra, buhid, grantha, limbu, syloti-nagri, mahajani, gunjala-gondi, rejang, tamil, telugu, gujarati, modi, bengali, phags-pa, psalter-pahlavi, gurmukhi, syriac, kharoshthi, thai, brahmi, sinhala, warang-citi, tifinagh, pahawh-hmong, tai-tham, kannada, hanunoo, tibetan, dogra, lepcha, myanmar, chakma, yi, hanifi-rohingya, tirhuta, kaithi, tagalog, thaana, kayah-li, old-hungarian, tai-le, oriya, newa, tagbanwa, meetei-mayek, tai-viet, new-tai-lue
+ * U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, phags-pa, nko, thaana
+ * U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, phags-pa, nko, thaana
+ * U+2010 HYPHEN: try adding one of: kaithi, yi, syloti-nagri, kayah-li, sundanese, coptic, lisu, kharoshthi, cham, sora-sompeng
  * U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri
  * U+204F REVERSED SEMICOLON: try adding adlam
- * U+25CC DOTTED CIRCLE: try adding one of: chakma, zanabazar-square, takri, telugu, mahajani, mongolian, tamil, caucasian-albanian, elbasan, adlam, wancho, masaram-gondi, brahmi, bassa-vah, sharada, cham, mende-kikakui, gunjala-gondi, thai, tagalog, khudawadi, balinese, myanmar, mandaic, ahom, sundanese, dogra, tai-viet, manichaean, kaithi, yi, coptic, buhid, lepcha, tai-le, marchen, tagbanwa, duployan, miao, hebrew, soyombo, sinhala, pahawh-hmong, tifinagh, modi, nko, symbols, limbu, javanese, batak, math, music, sogdian, kayah-li, tirhuta, bengali, new-tai-lue, newa, hanunoo, gurmukhi, rejang, tibetan, devanagari, phags-pa, kannada, buginese, osage, hanifi-rohingya, old-permic, kharoshthi, syriac, siddham, malayalam, gujarati, thaana, psalter-pahlavi, syloti-nagri, bhaiksuki, meetei-mayek, khojki, grantha, lao, khmer, oriya
+ * U+25CC DOTTED CIRCLE: try adding one of: mandaic, siddham, math, takri, devanagari, bassa-vah, rejang, telugu, bengali, psalter-pahlavi, kharoshthi, masaram-gondi, khmer, tirhuta, kaithi, soyombo, khojki, sharada, mongolian, coptic, khudawadi, buginese, tamil, zanabazar-square, miao, modi, gurmukhi, sinhala, tifinagh, ahom, music, wancho, hanunoo, myanmar, hanifi-rohingya, thaana, tagalog, kayah-li, tai-le, oriya, tagbanwa, duployan, osage, batak, balinese, sundanese, cham, buhid, syloti-nagri, gujarati, kannada, chakma, sogdian, meetei-mayek, tai-viet, new-tai-lue, elbasan, javanese, malayalam, adlam, nko, manichaean, grantha, limbu, mahajani, gunjala-gondi, symbols, phags-pa, caucasian-albanian, syriac, thai, brahmi, pahawh-hmong, mende-kikakui, marchen, tibetan, dogra, lepcha, yi, hebrew, bhaiksuki, lao, newa, old-permic
  * U+2E41 REVERSED COMMA: try adding adlam
 
 Or you can add the above codepoints to one of the subsets supported by the font: `arabic`, `latin`, `latin-ext` [code: unreachable-subsetting]
@@ -342,25 +342,27 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 2 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c3308e50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c335bfd0>
+* ⚠ **WARN** Interpolation issues were found in the font:
 
-	- Contour 3 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c3308e50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c335bfd0>
+	- Contour 2 start point differs in glyph 'uni08A5' between location wght=400,wdth=100 and location wght=900,wdth=100
 
-	- Contour 2 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c3308e50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c3358710>
+	- Contour 3 start point differs in glyph 'uni08A5' between location wght=400,wdth=100 and location wght=900,wdth=100
 
-	- Contour 3 start point differs in glyph 'uni08A5.fina' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c3308e50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c3358710>
+	- Contour 2 start point differs in glyph 'uni08A5' between location wght=400,wdth=100 and location wght=900,wdth=62
 
-	- Contour 5 start point differs in glyph 'uniFD3E' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c3308e50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c335b650>
+	- Contour 3 start point differs in glyph 'uni08A5' between location wght=400,wdth=100 and location wght=900,wdth=62
 
-	- Contour 5 start point differs in glyph 'uniFD3E' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c3308e50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c3358510>
+	- Contour 5 start point differs in glyph 'uniFD3E' between location wght=400,wdth=100 and location wght=704,wdth=100
 
-	- Contour 2 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c3308e50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c335bfd0>
+	- Contour 5 start point differs in glyph 'uniFD3E' between location wght=400,wdth=100 and location wght=704,wdth=62
 
-	- Contour 3 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c3308e50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c335bfd0>
+	- Contour 2 start point differs in glyph 'uni08A5.fina' between location wght=400,wdth=100 and location wght=900,wdth=100
 
-	- Contour 2 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c3308e50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c3358710>
+	- Contour 3 start point differs in glyph 'uni08A5.fina' between location wght=400,wdth=100 and location wght=900,wdth=100
 
-	- Contour 3 start point differs in glyph 'uni08A5' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c3308e50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f72c3358710> [code: interpolation-issues]
+	- Contour 2 start point differs in glyph 'uni08A5.fina' between location wght=400,wdth=100 and location wght=900,wdth=62
+
+	- Contour 3 start point differs in glyph 'uni08A5.fina' between location wght=400,wdth=100 and location wght=900,wdth=62 [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -384,14 +386,14 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers), Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Dan (Latn, 1,099,244 speakers), Dutch (Latn, 31,709,104 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Nateni (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers), Lugbara (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Koonzime (Latn, 40,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Dan (Latn, 1,099,244 speakers), Belarusian (Cyrl, 10,064,517 speakers), Igbo (Latn, 27,823,640 speakers), Avokaya (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Kom (Latn, 360,685 speakers), Dutch (Latn, 31,709,104 speakers), Nateni (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ebira (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Ma’di (Latn, 584,000 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 3 | 9 | 99 | 8 | 130 | 0 |
+| 0 | 3 | 9 | 100 | 8 | 130 | 0 |
 | 0% | 1% | 4% | 40% | 3% | 52% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
