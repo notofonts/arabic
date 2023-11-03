@@ -1031,7 +1031,7 @@ lookupflag IgnoreMarks;
 name = dlig;
 },
 {
-code = "lookupflag IgnoreMarks RightToLeft;
+code = "lookupflag IgnoreMarks;
 
 lookup kern {
 pos @kern_Reh @kern_Alef' -25;
@@ -3162,7 +3162,7 @@ kerning = {
 "six-ar" = -75;
 };
 "@MMK_L_reh" = {
-"@MMK_R_ain.isol" = 150;
+"@MMK_R_ain.isol" = 0;
 };
 "@MMK_L_seven-ar" = {
 "@MMK_R_eight-ar" = -45;
@@ -3200,7 +3200,7 @@ kerning = {
 "six-ar" = -60;
 };
 "@MMK_L_reh" = {
-"@MMK_R_ain.isol" = 170;
+"@MMK_R_ain.isol" = 0;
 };
 "@MMK_L_seven-ar" = {
 "@MMK_R_eight-ar" = -45;
@@ -3256,7 +3256,7 @@ kerning = {
 "six-ar" = -65;
 };
 "@MMK_L_reh" = {
-"@MMK_R_ain.isol" = 180;
+"@MMK_R_ain.isol" = 50;
 };
 "@MMK_L_seven-ar" = {
 "@MMK_R_eight-ar" = -45;
@@ -3298,7 +3298,7 @@ kerning = {
 "six-ar" = -70;
 };
 "@MMK_L_reh" = {
-"@MMK_R_ain.isol" = 160;
+"@MMK_R_ain.isol" = 60;
 };
 "@MMK_L_seven-ar" = {
 "@MMK_R_eight-ar" = -50;
@@ -3340,7 +3340,7 @@ kerning = {
 "six-ar" = -50;
 };
 "@MMK_L_reh" = {
-"@MMK_R_ain.isol" = 160;
+"@MMK_R_ain.isol" = 0;
 };
 "@MMK_L_seven-ar" = {
 "@MMK_R_eight-ar" = -30;
@@ -3384,7 +3384,7 @@ kerning = {
 "six-ar" = -65;
 };
 "@MMK_L_reh" = {
-"@MMK_R_ain.isol" = 160;
+"@MMK_R_ain.isol" = 0;
 };
 "@MMK_L_seven-ar" = {
 "@MMK_R_eight-ar" = -45;
@@ -3423,7 +3423,7 @@ kerning = {
 "six-ar" = -70;
 };
 "@MMK_L_reh" = {
-"@MMK_R_ain.isol" = 200;
+"@MMK_R_ain.isol" = 30;
 };
 "@MMK_L_seven-ar" = {
 "@MMK_R_eight-ar" = -50;
@@ -3460,7 +3460,7 @@ kerning = {
 "six-ar" = -70;
 };
 "@MMK_L_reh" = {
-"@MMK_R_ain.isol" = 150;
+"@MMK_R_ain.isol" = 20;
 };
 "@MMK_L_seven-ar" = {
 "@MMK_R_eight-ar" = -50;
