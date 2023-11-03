@@ -7,44 +7,6 @@ code = "hamza-ar highhamza-ar rounddot-ar raisedrounddot-ar alef-ar alef-ar.fina
 name = ArabicLetters;
 },
 {
-code = "reh-ar
-reh-ar.fina
-";
-name = kern_Reh;
-},
-{
-code = "kafDotless-ar
-lam-ar.init
-lam_alef-ar
-alef-ar
-ain-ar.init
-";
-name = kern_Alef;
-},
-{
-code = "behDotless-ar.init
-dal-ar
-tah-ar
-tah-ar.fina
-fehDotless-ar.init
-qafDotless-ar
-fehDotless-ar
-";
-name = kern_tooth;
-},
-{
-code = "hah-ar.init
-kaf-ar.init
-meem-ar.init
-meem-ar
-heh-ar
-ae-ar
-heh-ar.init
-hehDoachashmee-ar.init
-";
-name = kern_Hah;
-},
-{
 code = "zero-ar
 one-ar
 two-ar
@@ -1029,17 +991,6 @@ lookupflag IgnoreMarks;
 } dlig_RTL;
 ";
 name = dlig;
-},
-{
-code = "lookupflag IgnoreMarks;
-
-lookup kern {
-pos @kern_Reh @kern_Alef' -25;
-pos @kern_Reh @kern_tooth' -30;
-pos @kern_Reh @kern_Hah' -40;
-} kern;
-";
-name = kern;
 },
 {
 automatic = 1;
@@ -3163,6 +3114,9 @@ kerning = {
 };
 "@MMK_L_reh" = {
 "@MMK_R_ain.isol" = 0;
+"@MMK_R_alef" = -25;
+"@MMK_R_hah" = -40;
+"@MMK_R_tooth" = -30;
 };
 "@MMK_L_seven-ar" = {
 "@MMK_R_eight-ar" = -45;
@@ -3201,6 +3155,9 @@ kerning = {
 };
 "@MMK_L_reh" = {
 "@MMK_R_ain.isol" = 0;
+"@MMK_R_alef" = -25;
+"@MMK_R_hah" = -40;
+"@MMK_R_tooth" = -30;
 };
 "@MMK_L_seven-ar" = {
 "@MMK_R_eight-ar" = -45;
@@ -3257,6 +3214,9 @@ kerning = {
 };
 "@MMK_L_reh" = {
 "@MMK_R_ain.isol" = 50;
+"@MMK_R_alef" = -25;
+"@MMK_R_hah" = -40;
+"@MMK_R_tooth" = -30;
 };
 "@MMK_L_seven-ar" = {
 "@MMK_R_eight-ar" = -45;
@@ -3299,6 +3259,9 @@ kerning = {
 };
 "@MMK_L_reh" = {
 "@MMK_R_ain.isol" = 60;
+"@MMK_R_alef" = -25;
+"@MMK_R_hah" = -40;
+"@MMK_R_tooth" = -30;
 };
 "@MMK_L_seven-ar" = {
 "@MMK_R_eight-ar" = -50;
@@ -3341,6 +3304,9 @@ kerning = {
 };
 "@MMK_L_reh" = {
 "@MMK_R_ain.isol" = 0;
+"@MMK_R_alef" = -25;
+"@MMK_R_hah" = -40;
+"@MMK_R_tooth" = -30;
 };
 "@MMK_L_seven-ar" = {
 "@MMK_R_eight-ar" = -30;
@@ -3385,6 +3351,9 @@ kerning = {
 };
 "@MMK_L_reh" = {
 "@MMK_R_ain.isol" = 0;
+"@MMK_R_alef" = -25;
+"@MMK_R_hah" = -40;
+"@MMK_R_tooth" = -30;
 };
 "@MMK_L_seven-ar" = {
 "@MMK_R_eight-ar" = -45;
@@ -3424,6 +3393,9 @@ kerning = {
 };
 "@MMK_L_reh" = {
 "@MMK_R_ain.isol" = 30;
+"@MMK_R_alef" = -25;
+"@MMK_R_hah" = -40;
+"@MMK_R_tooth" = -30;
 };
 "@MMK_L_seven-ar" = {
 "@MMK_R_eight-ar" = -50;
@@ -3461,6 +3433,9 @@ kerning = {
 };
 "@MMK_L_reh" = {
 "@MMK_R_ain.isol" = 20;
+"@MMK_R_alef" = -25;
+"@MMK_R_hah" = -40;
+"@MMK_R_tooth" = -30;
 };
 "@MMK_L_seven-ar" = {
 "@MMK_R_eight-ar" = -50;
