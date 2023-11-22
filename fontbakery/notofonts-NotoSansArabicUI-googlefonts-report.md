@@ -1,25 +1,83 @@
 ## FontBakery report
 
-fontbakery version: 0.10.3
+fontbakery version: 0.10.4
 
 <details><summary><b>[2] Experimental checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
-* 🔥 **FAIL** GF_Arabic_Core/ar_Arab (Arabic): [FAIL: Shaper didn't attach uni0670 to None, FAIL: Shaper didn't attach uni064E to space, FAIL: Shaper didn't attach uni064C to space, FAIL: Shaper didn't attach uni0651 to space, FAIL: Shaper didn't attach uni064D to space, FAIL: Shaper didn't attach uni064B to space, FAIL: Shaper didn't attach uni0652 to space, FAIL: Shaper didn't attach uni0650 to space, FAIL: Shaper didn't attach uni064F to space] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Arabic_Core/fa_Arab (Persian): [FAIL: Shaper didn't attach uni064C to space, FAIL: Shaper didn't attach uni0654 to space, FAIL: Shaper didn't attach uni0651 to space, FAIL: Shaper didn't attach uni064D to space, FAIL: Shaper didn't attach uni064B to space] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/br_Latn (Breton): [FAIL: Some base glyphs were missing: cʼh, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/haw_Latn (Hawaiian): [FAIL: Some base glyphs were missing: ʻ, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/mh_Latn (Marshallese): [FAIL: Some base glyphs were missing: Ḷ, ḷ, Ṃ, ṃ, Ṇ, ṇ, Ọ, ọ, FAIL: Some mark glyphs were missing: ◌̣, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/qu_Latn (Quechua): [FAIL: Some base glyphs were missing: chʼ, kʼ, pʼ, qʼ, tʼ, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/scn_Latn (Sicilian): [FAIL: Some base glyphs were missing: Ḍ, ḍ, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/teo_Latn (Teso): [FAIL: Some base glyphs were missing: Ɔ, Ɛ, Ɨ, Ʉ, ɔ, ɛ, ɨ, ʉ, ᵃ, ᵉ, ᵋ, ᵒ, ᵓ, ᵘ, ᶤ, ᶶ, ⁱ, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Arabic_Plus/ps_Arab (Pashto): [FAIL: Shaper didn't attach uni0670 to None, FAIL: Shaper didn't attach uni064C to space, FAIL: Shaper didn't attach uni064E to space, FAIL: Shaper didn't attach uni0654 to space, FAIL: Shaper didn't attach uni0651 to space, FAIL: Shaper didn't attach uni064D to space, FAIL: Shaper didn't attach uni064B to space, FAIL: Shaper didn't attach uni0652 to space, FAIL: Shaper didn't attach uni0650 to space, FAIL: Shaper didn't attach uni064F to space] [code: failed-language-shaping]
-* ⚠ **WARN** GF_Latin_Core/lg_Latn (Ganda): [WARN: No variant glyphs were found for Eng] [code: warning-language-shaping]
-* ⚠ **WARN** GF_Latin_Core/dyo_Latn (Jola-Fonyi): [WARN: No variant glyphs were found for Eng] [code: warning-language-shaping]
-* ⚠ **WARN** GF_Latin_Core/ny_Latn (Nyanja): [WARN: No variant glyphs were found for Eng] [code: warning-language-shaping]
-* ⚠ **WARN** GF_Latin_Core/wo_Latn (Wolof): [WARN: No variant glyphs were found for Eng] [code: warning-language-shaping]
-* ⚠ **WARN** GF_Arabic_Plus/ku_Arab (Kurdish (Arabic)): [WARN: No exemplar glyphs were defined for language Kurdish (Arabic)] [code: warning-language-shaping]
-* ⚠ **WARN** GF_Arabic_Plus/ms_Arab (Malay (Arabic)): [WARN: No exemplar glyphs were defined for language Malay (Arabic)] [code: warning-language-shaping]
+* 🔥 **FAIL** GF_Arabic_Core glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| ar_Arab (Arabic) | Shaper didn't attach uni0652 to space |
+|  ^  | Shaper didn't attach uni0651 to space |
+|  ^  | Shaper didn't attach uni064D to space |
+|  ^  | Shaper didn't attach uni0670 to space |
+|  ^  | Shaper didn't attach uni064E to space |
+|  ^  | Shaper didn't attach uni064B to space |
+|  ^  | Shaper didn't attach uni064C to space |
+|  ^  | Shaper didn't attach uni064F to space |
+|  ^  | Shaper didn't attach uni0650 to space |
+| fa_Arab (Persian) | Shaper didn't attach uni0651 to space |
+|  ^  | Shaper didn't attach uni064D to space |
+|  ^  | Shaper didn't attach uni0654 to space |
+|  ^  | Shaper didn't attach uni064B to space |
+|  ^  | Shaper didn't attach uni064C to space |
+
+ [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Core glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| br_Latn (Breton) | Some base glyphs were missing: CʼH, cʼh |
+|  ^  | Shaper produced a .notdef |
+| haw_Latn (Hawaiian) | Some base glyphs were missing: ʻ |
+|  ^  | Shaper produced a .notdef |
+| mh_Latn (Marshallese) | Some base glyphs were missing: Ḷ, ḷ, Ṃ, ṃ, Ṇ, ṇ, Ọ, ọ |
+|  ^  | Some mark glyphs were missing: ◌̣ |
+|  ^  | Shaper produced a .notdef |
+| qu_Latn (Quechua) | Some base glyphs were missing: CHʼ, Kʼ, Pʼ, Qʼ, Tʼ, chʼ, kʼ, pʼ, qʼ, tʼ |
+|  ^  | Shaper produced a .notdef |
+| scn_Latn (Sicilian) | Some base glyphs were missing: Ḍ, ḍ |
+|  ^  | Shaper produced a .notdef |
+| teo_Latn (Teso) | Some base glyphs were missing: Ɔ, Ɛ, Ɨ, Ʉ, ɔ, ɛ, ɨ, ʉ, ᵃ, ᵉ, ᵋ, ᵒ, ᵓ, ᵘ, ᶤ, ᶶ, ⁱ |
+|  ^  | Shaper produced a .notdef |
+
+ [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Arabic_Plus glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| ps_Arab (Pashto) | Shaper didn't attach uni0652 to space |
+|  ^  | Shaper didn't attach uni0651 to space |
+|  ^  | Shaper didn't attach uni064D to space |
+|  ^  | Shaper didn't attach uni0670 to space |
+|  ^  | Shaper didn't attach uni0654 to space |
+|  ^  | Shaper didn't attach uni064E to space |
+|  ^  | Shaper didn't attach uni064B to space |
+|  ^  | Shaper didn't attach uni064C to space |
+|  ^  | Shaper didn't attach uni064F to space |
+|  ^  | Shaper didn't attach uni0650 to space |
+
+ [code: failed-language-shaping]
+* ⚠ **WARN** GF_Latin_Core glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| lg_Latn (Ganda) | No variant glyphs were found for Eng |
+| dyo_Latn (Jola-Fonyi) | No variant glyphs were found for Eng |
+| ny_Latn (Nyanja) | No variant glyphs were found for Eng |
+| wo_Latn (Wolof) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Arabic_Plus glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| ku_Arab (Kurdish (Arabic)) | No exemplar glyphs were defined for language Kurdish (Arabic) |
+| ms_Arab (Malay (Arabic)) | No exemplar glyphs were defined for language Malay (Arabic) |
+
+ [code: warning-language-shaping]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that Arabic spacing symbols U+FBB2–FBC1 aren't classified as marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/arabic_spacing_symbols">com.google.fonts/check/arabic_spacing_symbols</a>)</summary><div>
 
 
@@ -432,18 +490,18 @@ fontbakery version: 0.10.3
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
  * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
  * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
  * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, old-permic, canadian-aboriginal, tai-le, syriac, math, malayalam
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, tai-le, tifinagh, old-permic, malayalam, coptic, math, syriac
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -451,14 +509,14 @@ fontbakery version: 0.10.3
  * U+034F COMBINING GRAPHEME JOINER: not included in any glyphset definition
  * U+0605 ARABIC NUMBER MARK ABOVE: not included in any glyphset definition
  * U+08E2 ARABIC DISPUTED END OF AYAH: not included in any glyphset definition
- * U+200C ZERO WIDTH NON-JOINER: try adding one of: lepcha, balinese, gujarati, limbu, warang-citi, sogdian, pahawh-hmong, hanunoo, kayah-li, gurmukhi, avestan, tamil, syloti-nagri, grantha, psalter-pahlavi, tagbanwa, myanmar, tifinagh, tagalog, kharoshthi, sinhala, thai, duployan, saurashtra, phags-pa, nko, sundanese, manichaean, devanagari, takri, cham, tirhuta, tai-tham, telugu, thaana, buginese, kaithi, hatran, gunjala-gondi, batak, kannada, bengali, newa, syriac, tai-le, khudawadi, javanese, new-tai-lue, tibetan, malayalam, yi, hanifi-rohingya, buhid, oriya, khojki, khmer, brahmi, siddham, tai-viet, sharada, rejang, mahajani, mandaic, mongolian, meetei-mayek, chakma, dogra, modi
- * U+200D ZERO WIDTH JOINER: try adding one of: lepcha, balinese, gujarati, limbu, warang-citi, pahawh-hmong, hanunoo, kayah-li, gurmukhi, avestan, tamil, syloti-nagri, grantha, psalter-pahlavi, tagbanwa, myanmar, tifinagh, tagalog, kharoshthi, sinhala, thai, duployan, saurashtra, phags-pa, nko, sundanese, manichaean, devanagari, takri, cham, tirhuta, tai-tham, telugu, thaana, buginese, kaithi, gunjala-gondi, batak, kannada, bengali, newa, syriac, tai-le, khudawadi, javanese, new-tai-lue, tibetan, malayalam, yi, hanifi-rohingya, buhid, oriya, khojki, old-hungarian, brahmi, siddham, tai-viet, sharada, rejang, mahajani, mandaic, mongolian, meetei-mayek, chakma, dogra, modi
- * U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, nko, thaana, syriac
- * U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, nko, thaana, syriac
- * U+2010 HYPHEN: try adding one of: coptic, kharoshthi, kaithi, lisu, kayah-li, sora-sompeng, syloti-nagri, sundanese, yi, cham
+ * U+200C ZERO WIDTH NON-JOINER: try adding one of: avestan, cham, tamil, khudawadi, mongolian, tagbanwa, tibetan, hanunoo, psalter-pahlavi, hatran, sundanese, hanifi-rohingya, khojki, rejang, brahmi, gunjala-gondi, tai-viet, tirhuta, myanmar, duployan, mandaic, syriac, sinhala, oriya, thaana, kaithi, javanese, manichaean, tai-tham, newa, warang-citi, kayah-li, nko, buhid, tagalog, dogra, sogdian, new-tai-lue, tai-le, syloti-nagri, kharoshthi, phags-pa, siddham, limbu, devanagari, balinese, thai, modi, bengali, khmer, yi, malayalam, gujarati, saurashtra, telugu, grantha, pahawh-hmong, lepcha, meetei-mayek, tifinagh, batak, kannada, takri, gurmukhi, mahajani, chakma, sharada, buginese
+ * U+200D ZERO WIDTH JOINER: try adding one of: avestan, cham, tamil, khudawadi, mongolian, tagbanwa, tibetan, hanunoo, psalter-pahlavi, sundanese, hanifi-rohingya, khojki, rejang, brahmi, gunjala-gondi, tai-viet, tirhuta, myanmar, duployan, mandaic, syriac, sinhala, oriya, thaana, kaithi, javanese, manichaean, tai-tham, newa, warang-citi, kayah-li, nko, buhid, tagalog, dogra, new-tai-lue, tai-le, syloti-nagri, kharoshthi, phags-pa, siddham, limbu, devanagari, balinese, thai, modi, bengali, yi, malayalam, gujarati, saurashtra, telugu, grantha, pahawh-hmong, lepcha, meetei-mayek, tifinagh, old-hungarian, batak, kannada, takri, gurmukhi, mahajani, chakma, sharada, buginese
+ * U+200E LEFT-TO-RIGHT MARK: try adding one of: thaana, syriac, nko, phags-pa
+ * U+200F RIGHT-TO-LEFT MARK: try adding one of: thaana, syriac, nko, phags-pa
+ * U+2010 HYPHEN: try adding one of: cham, syloti-nagri, kharoshthi, kaithi, sundanese, kayah-li, yi, sora-sompeng, coptic, lisu
  * U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, yi
  * U+204F REVERSED SEMICOLON: try adding adlam
- * U+25CC DOTTED CIRCLE: try adding one of: lepcha, bhaiksuki, tamil, psalter-pahlavi, tagbanwa, tagalog, sinhala, old-permic, nko, manichaean, thaana, gunjala-gondi, kannada, siddham, brahmi, rejang, math, masaram-gondi, soyombo, myanmar, kharoshthi, marchen, duployan, phags-pa, tirhuta, takri, syriac, elbasan, khudawadi, tibetan, coptic, khmer, sharada, miao, mongolian, chakma, dogra, adlam, balinese, gujarati, sogdian, hanunoo, syloti-nagri, tifinagh, symbols, lao, devanagari, cham, mende-kikakui, buginese, kaithi, zanabazar-square, batak, newa, bengali, new-tai-lue, malayalam, wancho, mahajani, mandaic, hebrew, music, meetei-mayek, thai, limbu, caucasian-albanian, kayah-li, pahawh-hmong, gurmukhi, grantha, sundanese, telugu, osage, tai-le, bassa-vah, javanese, yi, hanifi-rohingya, buhid, oriya, khojki, tai-viet, modi, ahom
+ * U+25CC DOTTED CIRCLE: try adding one of: tibetan, sundanese, tai-viet, symbols, mandaic, syriac, newa, kayah-li, osage, tai-le, limbu, devanagari, balinese, mahajani, sharada, buginese, khudawadi, mongolian, hanifi-rohingya, rejang, math, thaana, mende-kikakui, javanese, manichaean, nko, dogra, ahom, new-tai-lue, kharoshthi, thai, modi, khmer, yi, pahawh-hmong, meetei-mayek, wancho, tifinagh, bassa-vah, lao, takri, gurmukhi, chakma, cham, marchen, tamil, psalter-pahlavi, khojki, tirhuta, tagalog, phags-pa, bhaiksuki, telugu, zanabazar-square, grantha, adlam, kannada, coptic, hanunoo, miao, brahmi, elbasan, gunjala-gondi, myanmar, duployan, music, sinhala, oriya, kaithi, masaram-gondi, buhid, sogdian, syloti-nagri, hebrew, siddham, bengali, soyombo, malayalam, gujarati, lepcha, batak, old-permic, caucasian-albanian, tagbanwa
  * U+2E41 REVERSED COMMA: try adding adlam
 
 Or you can add the above codepoints to one of the subsets supported by the font: `arabic`, `latin`, `latin-ext` [code: unreachable-subsetting]
@@ -515,25 +573,37 @@ behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedots
 
 * ⚠ **WARN** Interpolation issues were found in the font:
 
-	- Contour 2 start point differs in glyph 'uni08A5' between location wght=400,wdth=100 and location wght=900,wdth=100
+	- Contour 2 start point differs in glyph 'uni08A5.fina' between location wght=704,wdth=100 and location wght=900,wdth=100
 
-	- Contour 3 start point differs in glyph 'uni08A5' between location wght=400,wdth=100 and location wght=900,wdth=100
+	- Contour 3 start point differs in glyph 'uni08A5.fina' between location wght=704,wdth=100 and location wght=900,wdth=100
 
-	- Contour 2 start point differs in glyph 'uni08A5' between location wght=400,wdth=100 and location wght=900,wdth=62
+	- Contour 2 start point differs in glyph 'uni08A5.fina' between location wght=900,wdth=100 and location wght=100,wdth=62
 
-	- Contour 3 start point differs in glyph 'uni08A5' between location wght=400,wdth=100 and location wght=900,wdth=62
+	- Contour 3 start point differs in glyph 'uni08A5.fina' between location wght=900,wdth=100 and location wght=100,wdth=62
 
-	- Contour 2 start point differs in glyph 'uni08A5.fina' between location wght=400,wdth=100 and location wght=900,wdth=100
+	- Contour 2 start point differs in glyph 'uni08A5.fina' between location wght=704,wdth=62 and location wght=900,wdth=62
 
-	- Contour 3 start point differs in glyph 'uni08A5.fina' between location wght=400,wdth=100 and location wght=900,wdth=100
+	- Contour 3 start point differs in glyph 'uni08A5.fina' between location wght=704,wdth=62 and location wght=900,wdth=62
 
-	- Contour 2 start point differs in glyph 'uni08A5.fina' between location wght=400,wdth=100 and location wght=900,wdth=62
+	- Contour 5 start point differs in glyph 'uniFD3E' between location wght=100,wdth=100 and location wght=704,wdth=100
 
-	- Contour 3 start point differs in glyph 'uni08A5.fina' between location wght=400,wdth=100 and location wght=900,wdth=62
+	- Contour 5 start point differs in glyph 'uniFD3E' between location wght=704,wdth=100 and location wght=900,wdth=100
 
-	- Contour 5 start point differs in glyph 'uniFD3E' between location wght=400,wdth=100 and location wght=704,wdth=100
+	- Contour 5 start point differs in glyph 'uniFD3E' between location wght=100,wdth=62 and location wght=704,wdth=62
 
-	- Contour 5 start point differs in glyph 'uniFD3E' between location wght=400,wdth=100 and location wght=704,wdth=62 [code: interpolation-issues]
+	- Contour 5 start point differs in glyph 'uniFD3E' between location wght=704,wdth=62 and location wght=900,wdth=62
+
+	- Contour 2 start point differs in glyph 'uni08A5' between location wght=704,wdth=100 and location wght=900,wdth=100
+
+	- Contour 3 start point differs in glyph 'uni08A5' between location wght=704,wdth=100 and location wght=900,wdth=100
+
+	- Contour 2 start point differs in glyph 'uni08A5' between location wght=900,wdth=100 and location wght=100,wdth=62
+
+	- Contour 3 start point differs in glyph 'uni08A5' between location wght=900,wdth=100 and location wght=100,wdth=62
+
+	- Contour 2 start point differs in glyph 'uni08A5' between location wght=704,wdth=62 and location wght=900,wdth=62
+
+	- Contour 3 start point differs in glyph 'uni08A5' between location wght=704,wdth=62 and location wght=900,wdth=62 [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -555,16 +625,16 @@ minus
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́
 
-Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Ejagham (Latn, 120,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lugbara (Latn, 2,200,000 speakers), Dan (Latn, 1,099,244 speakers), Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Ebira (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Igbo (Latn, 27,823,640 speakers), Kom (Latn, 360,685 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lugbara (Latn, 2,200,000 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Avokaya (Latn, 100,000 speakers), Navajo (Latn, 166,319 speakers), Aghem (Latn, 38,843 speakers), Dan (Latn, 1,099,244 speakers), Ebira (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers), Koonzime (Latn, 40,000 speakers), Kom (Latn, 360,685 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 6 | 9 | 101 | 8 | 131 | 0 |
+| 0 | 6 | 9 | 102 | 8 | 130 | 0 |
 | 0% | 2% | 4% | 40% | 3% | 51% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
