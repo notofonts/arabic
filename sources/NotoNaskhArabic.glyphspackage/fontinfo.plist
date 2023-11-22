@@ -1,5 +1,5 @@
 {
-.appVersion = "3221";
+.appVersion = "3225";
 .formatVersion = 3;
 axes = (
 {
@@ -1139,7 +1139,6 @@ over = -15;
 pos = -634;
 },
 {
-over = -20;
 }
 );
 name = Regular;
@@ -1246,7 +1245,6 @@ over = -15;
 pos = -634;
 },
 {
-over = -20;
 }
 );
 name = Bold;
@@ -1416,6 +1414,15 @@ value = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/a
 );
 },
 {
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Monotype Design Team, David Williams, Mohamad Dakak, Nizar Qandah, Khaled Hosny";
+}
+);
+},
+{
 key = designers;
 values = (
 {
@@ -1427,32 +1434,6 @@ value = "Monotype Design Team, David Williams, Mohamad Dakak and Nizar Qandah";
 {
 key = designerURL;
 value = "http://www.monotype.com/studio";
-},
-{
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = "Monotype Imaging Inc.";
-}
-);
-},
-{
-key = manufacturerURL;
-value = "http://www.google.com/get/noto/";
-},
-{
-key = vendorID;
-value = GOOG;
-},
-{
-key = trademarks;
-values = (
-{
-language = dflt;
-value = "Noto is a trademark of Google LLC.";
-}
-);
 },
 {
 key = licenses;
@@ -1468,17 +1449,34 @@ key = licenseURL;
 value = "https://scripts.sil.org/OFL";
 },
 {
-key = descriptions;
+key = manufacturers;
 values = (
 {
 language = dflt;
-value = "Monotype Design Team, David Williams, Mohamad Dakak, Nizar Qandah, Khaled Hosny";
+value = "Monotype Imaging Inc.";
 }
 );
 },
 {
+key = manufacturerURL;
+value = "http://www.google.com/get/noto/";
+},
+{
+key = trademarks;
+values = (
+{
+language = dflt;
+value = "Noto is a trademark of Google LLC.";
+}
+);
+},
+{
+key = vendorID;
+value = GOOG;
+},
+{
 key = versionString;
-value = "Version 2.017";
+value = "Version 2.018";
 }
 );
 unitsPerEm = 1000;
@@ -1486,5 +1484,5 @@ userData = {
 UFOFormat = 2;
 };
 versionMajor = 2;
-versionMinor = 17;
+versionMinor = 18;
 }
