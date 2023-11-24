@@ -4,7 +4,15 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+position = "{130, -100}";
+},
+{
 name = stop;
+position = "{130, 400}";
+},
+{
+name = top;
 position = "{130, 400}";
 }
 );
@@ -14,7 +22,15 @@ width = 260;
 {
 anchors = (
 {
+name = bottom;
+position = "{130, -100}";
+},
+{
 name = stop;
+position = "{130, 400}";
+},
+{
+name = top;
 position = "{130, 400}";
 }
 );
@@ -24,7 +40,15 @@ width = 260;
 {
 anchors = (
 {
+name = bottom;
+position = "{130, -100}";
+},
+{
 name = stop;
+position = "{130, 400}";
+},
+{
+name = top;
 position = "{130, 400}";
 }
 );
@@ -34,7 +58,15 @@ width = 260;
 {
 anchors = (
 {
+name = bottom;
+position = "{130, -100}";
+},
+{
 name = stop;
+position = "{130, 400}";
+},
+{
+name = top;
 position = "{130, 400}";
 }
 );
@@ -44,7 +76,15 @@ width = 260;
 {
 anchors = (
 {
+name = bottom;
+position = "{130, -100}";
+},
+{
 name = stop;
+position = "{130, 400}";
+},
+{
+name = top;
 position = "{130, 400}";
 }
 );
@@ -59,7 +99,15 @@ width = 260;
 {
 anchors = (
 {
+name = bottom;
+position = "{130, -100}";
+},
+{
 name = stop;
+position = "{130, 400}";
+},
+{
+name = top;
 position = "{130, 400}";
 }
 );
@@ -69,7 +117,15 @@ width = 260;
 {
 anchors = (
 {
+name = bottom;
+position = "{130, -100}";
+},
+{
 name = stop;
+position = "{130, 400}";
+},
+{
+name = top;
 position = "{130, 400}";
 }
 );
@@ -79,7 +135,15 @@ width = 260;
 {
 anchors = (
 {
+name = bottom;
+position = "{130, -100}";
+},
+{
 name = stop;
+position = "{130, 400}";
+},
+{
+name = top;
 position = "{130, 400}";
 }
 );
