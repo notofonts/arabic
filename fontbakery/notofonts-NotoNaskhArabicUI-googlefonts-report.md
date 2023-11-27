@@ -9,36 +9,36 @@ fontbakery version: 0.10.4
 
 | Language | FAIL messages |
 | :--- | :--- |
-| ar_Arab (Arabic) | Shaper didn't attach uni0652 to uni0020 |
+| ar_Arab (Arabic) | Shaper didn't attach uni064B to uni0020 |
+|  ^  | Shaper didn't attach uni0652 to uni0020 |
+|  ^  | Shaper didn't attach uni0650 to uni0020 |
 |  ^  | Shaper didn't attach uni0651 to uni0020 |
 |  ^  | Shaper didn't attach uni0670 to uni0020 |
 |  ^  | Shaper didn't attach uni064D to uni0020 |
-|  ^  | Shaper didn't attach uni064E to uni0020 |
 |  ^  | Shaper didn't attach uni064C to uni0020 |
-|  ^  | Shaper didn't attach uni0650 to uni0020 |
 |  ^  | Shaper didn't attach uni064F to uni0020 |
-|  ^  | Shaper didn't attach uni064B to uni0020 |
-| fa_Arab (Persian) | Shaper didn't attach uni0654 to uni0020 |
+|  ^  | Shaper didn't attach uni064E to uni0020 |
+| fa_Arab (Persian) | Shaper didn't attach uni064B to uni0020 |
+|  ^  | Shaper didn't attach uni0654 to uni0020 |
 |  ^  | Shaper didn't attach uni0651 to uni0020 |
 |  ^  | Shaper didn't attach uni064D to uni0020 |
 |  ^  | Shaper didn't attach uni064C to uni0020 |
-|  ^  | Shaper didn't attach uni064B to uni0020 |
 
  [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Arabic_Plus glyphset:
 
 | Language | FAIL messages |
 | :--- | :--- |
-| ps_Arab (Pashto) | Shaper didn't attach uni0652 to uni0020 |
+| ps_Arab (Pashto) | Shaper didn't attach uni064B to uni0020 |
+|  ^  | Shaper didn't attach uni0652 to uni0020 |
+|  ^  | Shaper didn't attach uni0650 to uni0020 |
 |  ^  | Shaper didn't attach uni0654 to uni0020 |
 |  ^  | Shaper didn't attach uni0651 to uni0020 |
 |  ^  | Shaper didn't attach uni0670 to uni0020 |
 |  ^  | Shaper didn't attach uni064D to uni0020 |
-|  ^  | Shaper didn't attach uni064E to uni0020 |
-|  ^  | Shaper didn't attach uni0650 to uni0020 |
 |  ^  | Shaper didn't attach uni064C to uni0020 |
 |  ^  | Shaper didn't attach uni064F to uni0020 |
-|  ^  | Shaper didn't attach uni064B to uni0020 |
+|  ^  | Shaper didn't attach uni064E to uni0020 |
 
  [code: failed-language-shaping]
 * ⚠ **WARN** GF_Arabic_Plus glyphset:
@@ -1013,14 +1013,14 @@ fontbakery version: 0.10.4
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+200C ZERO WIDTH NON-JOINER: try adding one of: mongolian, javanese, sharada, takri, yi, duployan, gurmukhi, kaithi, pahawh-hmong, manichaean, hanunoo, bengali, sinhala, syriac, sundanese, kharoshthi, mandaic, myanmar, thai, tagalog, tibetan, tifinagh, rejang, tai-tham, tagbanwa, avestan, tai-le, chakma, modi, devanagari, limbu, dogra, warang-citi, new-tai-lue, khmer, tirhuta, balinese, saurashtra, mahajani, cham, malayalam, telugu, psalter-pahlavi, kannada, khojki, meetei-mayek, oriya, tamil, siddham, grantha, hatran, brahmi, tai-viet, buhid, kayah-li, newa, batak, sogdian, syloti-nagri, thaana, phags-pa, gunjala-gondi, khudawadi, nko, hanifi-rohingya, gujarati, buginese, lepcha
- * U+200D ZERO WIDTH JOINER: try adding one of: mongolian, javanese, sharada, takri, yi, duployan, gurmukhi, kaithi, pahawh-hmong, manichaean, hanunoo, bengali, sinhala, syriac, sundanese, kharoshthi, mandaic, myanmar, thai, tagalog, tibetan, tifinagh, rejang, tai-tham, tagbanwa, avestan, tai-le, chakma, modi, devanagari, limbu, dogra, warang-citi, old-hungarian, new-tai-lue, tirhuta, balinese, saurashtra, mahajani, cham, malayalam, telugu, psalter-pahlavi, kannada, khojki, meetei-mayek, oriya, tamil, siddham, grantha, brahmi, tai-viet, buhid, kayah-li, newa, batak, syloti-nagri, thaana, phags-pa, gunjala-gondi, khudawadi, nko, hanifi-rohingya, gujarati, buginese, lepcha
- * U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, phags-pa, thaana, syriac
- * U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, phags-pa, thaana, syriac
- * U+2010 HYPHEN: try adding one of: lisu, cham, yi, kayah-li, kaithi, syloti-nagri, sora-sompeng, coptic, sundanese, kharoshthi
- * U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, yi
+ * U+200C ZERO WIDTH NON-JOINER: try adding one of: brahmi, chakma, gunjala-gondi, takri, hatran, dogra, tamil, gujarati, kaithi, khmer, limbu, mongolian, thaana, duployan, siddham, batak, tirhuta, tai-le, telugu, tai-viet, mahajani, oriya, hanifi-rohingya, kannada, gurmukhi, tagalog, warang-citi, kayah-li, lepcha, sundanese, malayalam, buhid, sharada, saurashtra, kharoshthi, khojki, syloti-nagri, balinese, psalter-pahlavi, grantha, myanmar, javanese, tagbanwa, avestan, tibetan, bengali, cham, buginese, hanunoo, khudawadi, mandaic, new-tai-lue, newa, phags-pa, thai, tifinagh, devanagari, pahawh-hmong, yi, modi, nko, sinhala, meetei-mayek, sogdian, syriac, manichaean, rejang, tai-tham
+ * U+200D ZERO WIDTH JOINER: try adding one of: brahmi, chakma, gunjala-gondi, takri, dogra, tamil, gujarati, kaithi, limbu, mongolian, thaana, tirhuta, duployan, siddham, batak, tai-le, telugu, tai-viet, mahajani, oriya, hanifi-rohingya, kannada, gurmukhi, tagalog, warang-citi, kayah-li, lepcha, sundanese, malayalam, buhid, sharada, saurashtra, kharoshthi, khojki, syloti-nagri, balinese, psalter-pahlavi, grantha, myanmar, javanese, tagbanwa, avestan, tibetan, bengali, cham, buginese, hanunoo, khudawadi, mandaic, new-tai-lue, newa, phags-pa, thai, tifinagh, devanagari, pahawh-hmong, yi, modi, nko, sinhala, meetei-mayek, syriac, manichaean, rejang, old-hungarian, tai-tham
+ * U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, nko, thaana, phags-pa
+ * U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, nko, thaana, phags-pa
+ * U+2010 HYPHEN: try adding one of: coptic, sora-sompeng, kayah-li, lisu, kaithi, sundanese, cham, yi, kharoshthi, syloti-nagri
+ * U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri
  * U+204F REVERSED SEMICOLON: try adding adlam
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, sharada, yi, pahawh-hmong, music, kharoshthi, thai, tagbanwa, miao, malayalam, telugu, khojki, meetei-mayek, lao, grantha, tai-viet, soyombo, syloti-nagri, old-permic, coptic, takri, syriac, sinhala, mandaic, hebrew, elbasan, math, marchen, new-tai-lue, khmer, balinese, mahajani, ahom, tamil, caucasian-albanian, brahmi, buhid, newa, zanabazar-square, batak, thaana, khudawadi, bhaiksuki, bengali, buginese, lepcha, bassa-vah, kaithi, manichaean, sundanese, myanmar, tagalog, tifinagh, tai-le, devanagari, dogra, masaram-gondi, cham, psalter-pahlavi, kannada, siddham, phags-pa, hanifi-rohingya, mongolian, symbols, duployan, gurmukhi, osage, hanunoo, tibetan, rejang, chakma, modi, limbu, tirhuta, oriya, wancho, mende-kikakui, kayah-li, adlam, sogdian, gunjala-gondi, nko, gujarati
+ * U+25CC DOTTED CIRCLE: try adding one of: gunjala-gondi, bassa-vah, gujarati, limbu, mongolian, thaana, tirhuta, siddham, mende-kikakui, gurmukhi, tagalog, sundanese, malayalam, khojki, psalter-pahlavi, myanmar, javanese, math, zanabazar-square, thai, nko, sogdian, tamil, batak, tai-le, tai-viet, kannada, kayah-li, lepcha, buhid, kharoshthi, osage, grantha, bengali, new-tai-lue, mandaic, newa, soyombo, lao, sinhala, caucasian-albanian, symbols, rejang, takri, marchen, ahom, telugu, old-permic, hanifi-rohingya, masaram-gondi, sharada, balinese, hebrew, khudawadi, buginese, adlam, coptic, modi, syriac, miao, brahmi, chakma, dogra, music, kaithi, khmer, duployan, mahajani, oriya, elbasan, syloti-nagri, bhaiksuki, tagbanwa, tibetan, phags-pa, cham, hanunoo, yi, tifinagh, devanagari, pahawh-hmong, meetei-mayek, manichaean, wancho
  * U+2E41 REVERSED COMMA: try adding adlam
 
 Or you can add the above codepoints to one of the subsets supported by the font: `arabic` [code: unreachable-subsetting]
