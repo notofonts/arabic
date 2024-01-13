@@ -990,10 +990,11 @@ tag = rlig;
 },
 {
 code = "lookup allah {
-lookupflag UseMarkFilteringSet [shadda-ar alefabove-ar];
-  sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar heh-ar.fina by allah-ar;
-  sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar hehgoal-ar.fina by allah-ar;
-} allah;";
+lookupflag UseMarkFilteringSet [shadda_alefabove-ar];
+  sub alef-ar lam-ar.init lam-ar.medi shadda_alefabove-ar heh-ar.fina by allah-ar;
+  sub alef-ar lam-ar.init lam-ar.medi shadda_alefabove-ar hehgoal-ar.fina by allah-ar;
+} allah;
+";
 tag = liga;
 },
 {
