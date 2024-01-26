@@ -120,6 +120,7 @@ ul {
             <table>
             <tr>
                 <th>💥 ERROR</th>
+                <th>☠ FATAL</th>
                 <th>🔥 FAIL</th>
                 <th>⚠️ WARN</th>
                 <th>⏩ SKIP</th>
@@ -128,16 +129,18 @@ ul {
             </tr>
             <tr>
                 <td>0</td>
-                <td>4</td>
-                <td>9</td>
+                <td>0</td>
+                <td>3</td>
+                <td>11</td>
                 <td>101</td>
                 <td>8</td>
                 <td>133</td>
             </tr>
             <tr>
                 <td>0%</td>
+                <td>0%</td>
                 <td>2%</td>
-                <td>5%</td>
+                <td>6%</td>
                 <td>55%</td>
                 <td>4%</td>
                 <td>72%</td>
@@ -150,6 +153,8 @@ ul {
 
     <ul>
     <li>💥 An <em>ERROR</em> is something wrong with FontBakery itself, possibly a bug.
+    <li>☠ A <em>FATAL</em> is an extremely severe issue that must be addressed
+    immediately.
     <li>🔥 A <em>FAIL</em> is a problem with the font that must be fixed.
     <li>⚠️ A <em>WARN</em> is something that you should consider addressing.
     <li>ℹ️ An <em>INFO</em> result simply prints something useful. Typically stats.
@@ -163,10 +168,10 @@ ul {
     <p>(but other kinds of bug reports and/or feature requests
        are also always welcome, of course!)</p>
 
-    <p>FontBakery version: 0.10.4</p>
+    <p>FontBakery version: 0.10.9</p>
     
 <h2>Section: Google Fonts</h2>
-<span class='section__emoji'>🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</span>
+<span class='section__emoji'>🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</span>
 <h3>Check for codepoints not covered by METADATA subsets.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/metadata/unreachable_subsetting</div>
 
@@ -176,32 +181,32 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh</li>
 <li>U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition</li>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, math, old-permic, tai-le, syriac, coptic, tifinagh, canadian-aboriginal</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, syriac, math, canadian-aboriginal, tai-le, coptic, tifinagh</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+0605 ARABIC NUMBER MARK ABOVE: not included in any glyphset definition</li>
 <li>U+08E2 ARABIC DISPUTED END OF AYAH: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: tirhuta, bengali, phags-pa, oriya, khmer, javanese, thai, tibetan, avestan, cham, meetei-mayek, yi, tai-le, takri, sinhala, kharoshthi, khojki, sharada, mahajani, grantha, batak, khudawadi, buhid, tai-viet, rejang, warang-citi, newa, limbu, gunjala-gondi, syriac, telugu, tifinagh, hatran, sogdian, syloti-nagri, tagbanwa, tagalog, thaana, gurmukhi, malayalam, kayah-li, myanmar, kannada, new-tai-lue, buginese, nko, pahawh-hmong, modi, tamil, tai-tham, dogra, brahmi, manichaean, gujarati, kaithi, mongolian, saurashtra, chakma, hanifi-rohingya, lepcha, psalter-pahlavi, siddham, balinese, hanunoo, mandaic, duployan, sundanese, devanagari</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: tirhuta, bengali, phags-pa, oriya, javanese, thai, tibetan, avestan, cham, meetei-mayek, yi, tai-le, takri, sinhala, kharoshthi, khojki, sharada, mahajani, grantha, batak, khudawadi, buhid, tai-viet, rejang, warang-citi, newa, limbu, gunjala-gondi, syriac, telugu, tifinagh, syloti-nagri, tagbanwa, tagalog, thaana, gurmukhi, malayalam, kayah-li, myanmar, kannada, new-tai-lue, buginese, nko, pahawh-hmong, modi, tamil, tai-tham, dogra, brahmi, manichaean, gujarati, kaithi, mongolian, saurashtra, chakma, hanifi-rohingya, lepcha, psalter-pahlavi, siddham, balinese, hanunoo, mandaic, duployan, old-hungarian, sundanese, devanagari</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, syriac, thaana, phags-pa</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, thaana, phags-pa</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, mongolian</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: malayalam, mongolian, tai-tham, kaithi, hanifi-rohingya, duployan, lepcha, yi, sinhala, sogdian, tirhuta, hatran, kharoshthi, tai-le, telugu, mandaic, rejang, sundanese, buginese, tagbanwa, warang-citi, grantha, nko, saurashtra, gujarati, oriya, tagalog, tai-viet, chakma, batak, devanagari, hanunoo, kannada, manichaean, new-tai-lue, siddham, pahawh-hmong, bengali, phags-pa, tifinagh, javanese, psalter-pahlavi, syriac, cham, takri, khmer, modi, buhid, newa, khudawadi, thai, khojki, gunjala-gondi, tamil, gurmukhi, sharada, mahajani, myanmar, avestan, tibetan, dogra, limbu, meetei-mayek, kayah-li, syloti-nagri, thaana, brahmi, balinese</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: malayalam, mongolian, tai-tham, kaithi, hanifi-rohingya, duployan, lepcha, yi, sinhala, tirhuta, kharoshthi, tai-le, telugu, emoji, mandaic, rejang, sundanese, buginese, tagbanwa, warang-citi, grantha, nko, old-hungarian, saurashtra, gujarati, oriya, tagalog, tai-viet, chakma, batak, devanagari, hanunoo, kannada, manichaean, new-tai-lue, siddham, pahawh-hmong, bengali, phags-pa, tifinagh, javanese, psalter-pahlavi, syriac, cham, takri, modi, buhid, newa, khudawadi, thai, khojki, gunjala-gondi, tamil, gurmukhi, sharada, mahajani, myanmar, avestan, tibetan, dogra, limbu, meetei-mayek, kayah-li, syloti-nagri, thaana, brahmi, balinese</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, thaana, nko, phags-pa</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, thaana, nko, phags-pa</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+204F REVERSED SEMICOLON: try adding adlam</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tai-viet, syriac, ahom, tagbanwa, nko, pahawh-hmong, kayah-li, caucasian-albanian, dogra, kaithi, chakma, miao, psalter-pahlavi, lepcha, balinese, devanagari, phags-pa, oriya, thai, yi, tai-le, masaram-gondi, takri, khojki, khudawadi, symbols, marchen, rejang, music, gunjala-gondi, tifinagh, telugu, thaana, soyombo, old-permic, modi, brahmi, hanifi-rohingya, hanunoo, adlam, lao, tirhuta, bengali, cham, batak, zanabazar-square, gurmukhi, new-tai-lue, kannada, tamil, manichaean, gujarati, elbasan, mandaic, sundanese, khmer, bhaiksuki, javanese, tibetan, meetei-mayek, sinhala, kharoshthi, bassa-vah, sharada, mahajani, grantha, mende-kikakui, wancho, buhid, hebrew, limbu, sogdian, osage, syloti-nagri, tagalog, malayalam, myanmar, buginese, coptic, mongolian, math, siddham, duployan, newa</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bassa-vah, hanifi-rohingya, lepcha, yi, tai-le, wancho, telugu, buginese, old-permic, tagbanwa, chakma, kannada, tifinagh, ahom, math, limbu, kayah-li, syloti-nagri, sogdian, tirhuta, kharoshthi, soyombo, rejang, tagalog, devanagari, pahawh-hmong, adlam, psalter-pahlavi, syriac, osage, cham, mende-kikakui, modi, thai, coptic, gunjala-gondi, tamil, gurmukhi, zanabazar-square, tibetan, bhaiksuki, dogra, meetei-mayek, thaana, marchen, malayalam, miao, mongolian, kaithi, duployan, music, grantha, nko, tai-viet, gujarati, oriya, hanunoo, siddham, bengali, javanese, newa, khudawadi, khojki, symbols, sharada, mahajani, myanmar, balinese, lao, sinhala, masaram-gondi, mandaic, sundanese, hebrew, batak, manichaean, new-tai-lue, elbasan, phags-pa, takri, khmer, buhid, caucasian-albanian, brahmi</li>
 <li>U+2E41 REVERSED COMMA: try adding adlam</li>
 <li>U+10EFD ARABIC SMALL LOW WORD SAKTA: not included in any glyphset definition</li>
 <li>U+10EFE ARABIC SMALL LOW WORD QASR: not included in any glyphset definition</li>
@@ -209,52 +214,29 @@ definitions.</p>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>arabic</code>, <code>latin</code>, <code>latin-ext</code> [code: unreachable-subsetting]</p>
 </span></li></ul></div></details>
+<h3>License URL matches License text on name table?</h3>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/name/license_url</div>
+
+<details><summary>⚠️ NotoKufiArabic[wght].ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OFL url is no longer &quot;<a href="https://scripts.sil.org/OFL">https://scripts.sil.org/OFL</a>&quot;. Use '<a href="https://openfontlicense.org">https://openfontlicense.org</a>' instead. [code: deprecated-ofl-url]</p>
+</span></li></ul></div></details>
 <h3><div style='color:#88c'>EXPERIMENTAL CHECK - Since 2023/Nov/02</div>Shapes languages in all GF glyphsets.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/glyphsets/shape_languages</div>
 
-<details><summary>🔥 NotoKufiArabic[wght].ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>GF_Arabic_Core glyphset:</p>
-<p>| Language | FAIL messages |
-| :--- | :--- |
-| ar_Arab (Arabic) | Shaper didn't attach uni0650 to space |
-|  ^  | Shaper didn't attach uni064D to space |
-| fa_Arab (Persian) | Shaper didn't attach uni064D to space |</p>
-<p>[code: failed-language-shaping]</p>
-</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>GF_Latin_Core glyphset:</p>
-<p>| Language | FAIL messages |
-| :--- | :--- |
-| br_Latn (Breton) | Some base glyphs were missing: CʼH, cʼh |
-|  ^  | Shaper produced a .notdef |
-| haw_Latn (Hawaiian) | Some base glyphs were missing: ʻ |
-|  ^  | Shaper produced a .notdef |
-| mh_Latn (Marshallese) | Some base glyphs were missing: Ḷ, ḷ, Ṃ, ṃ, Ṇ, ṇ, Ọ, ọ |
-|  ^  | Some mark glyphs were missing: ◌̣ |
-|  ^  | Shaper produced a .notdef |
-| qu_Latn (Quechua) | Some base glyphs were missing: CHʼ, Kʼ, Pʼ, Qʼ, Tʼ, chʼ, kʼ, pʼ, qʼ, tʼ |
-|  ^  | Shaper produced a .notdef |
-| scn_Latn (Sicilian) | Some base glyphs were missing: Ḍ, ḍ |
-|  ^  | Shaper produced a .notdef |
-| teo_Latn (Teso) | Some base glyphs were missing: Ɔ, Ɛ, Ɨ, Ʉ, ɔ, ɛ, ɨ, ʉ, ᵃ, ᵉ, ᵋ, ᵒ, ᵓ, ᵘ, ᶤ, ᶶ, ⁱ |
-|  ^  | Shaper produced a .notdef |</p>
-<p>[code: failed-language-shaping]</p>
-</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>GF_Arabic_Plus glyphset:</p>
-<p>| Language | FAIL messages |
-| :--- | :--- |
-| ps_Arab (Pashto) | Shaper didn't attach uni0650 to space |
-|  ^  | Shaper didn't attach uni064D to space |</p>
-<p>[code: failed-language-shaping]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GF_Latin_Core glyphset:</p>
-<p>| Language | FAIL messages |
-| :--- | :--- |
-| lg_Latn (Ganda) | No variant glyphs were found for Eng |
-| dyo_Latn (Jola-Fonyi) | No variant glyphs were found for Eng |
-| ny_Latn (Nyanja) | No variant glyphs were found for Eng |
-| wo_Latn (Wolof) | No variant glyphs were found for Eng |</p>
-<p>[code: warning-language-shaping]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GF_Arabic_Plus glyphset:</p>
-<p>| Language | FAIL messages |
-| :--- | :--- |
-| ku_Arab (Kurdish (Arabic)) | No exemplar glyphs were defined for language Kurdish (Arabic) |
-| ms_Arab (Malay (Arabic)) | No exemplar glyphs were defined for language Malay (Arabic) |</p>
+<details><summary>⚠️ NotoKufiArabic[wght].ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GF_Arabic_Plus glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ms_Arab (Malay (Arabic))</td>
+<td align="left">No exemplar glyphs were defined for language Malay (Arabic)</td>
+</tr>
+</tbody>
+</table>
 <p>[code: warning-language-shaping]</p>
 </span></li></ul></div></details>
 <h3>Glyphs are similiar to Google Fonts version?</h3>
@@ -505,7 +487,7 @@ minus
 <details><summary>⚠️ NotoKufiArabic[wght].ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Gulay (Latn, 250,478 speakers), Dan (Latn, 1,099,244 speakers), Ebira (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Sar (Latn, 500,000 speakers), Lugbara (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Mango (Latn, 77,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Navajo (Latn, 166,319 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Belarusian (Cyrl, 10,064,517 speakers). [code: soft-dotted]</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Ngbaka (Latn, 1,020,000 speakers), Dii (Latn, 71,000 speakers), Navajo (Latn, 166,319 speakers), Mango (Latn, 77,000 speakers), Yala (Latn, 200,000 speakers), Koonzime (Latn, 40,000 speakers), Ma’di (Latn, 584,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Aghem (Latn, 38,843 speakers), Fur (Latn, 1,230,163 speakers), Lugbara (Latn, 2,200,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), South Central Banda (Latn, 244,000 speakers), Sar (Latn, 500,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Cicipu (Latn, 44,000 speakers), Nzakara (Latn, 50,000 speakers), Ebira (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Bafut (Latn, 158,146 speakers), Nateni (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Gulay (Latn, 250,478 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ekpeye (Latn, 226,000 speakers), Mfumte (Latn, 79,000 speakers), Makaa (Latn, 221,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Zapotec (Latn, 490,000 speakers). [code: soft-dotted]</p>
 </span></li></ul></div></details>
                         </main>
                     </body>

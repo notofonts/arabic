@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attr-before{
+                color: red;
+                cursor: text;
+            }
+            .attr-after{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url(old-NotoNaskhArabic-Medium.ttf);
+    font-family: "old font";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	    @font-face{
+    src: url(new-NotoNaskhArabic-Medium.ttf);
+    font-family: "new font";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+	    .old-wght-400{
+    font-family: "old font", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+
+	  
+	    .new-wght-400{
+    font-family: "new font", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+
+	  
+	
+.cell{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 50pt;
+  line-height: 48.0px;
+}
+.cell-word{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Diffenator</b>
+</h2>
+	
+  
+    <div class="box">
+    <div class="box-title">Tables</div>
+      <div data-path="root" data-open="0" id="difftable"></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+      <div class="box">
+        <div class="box-title">Modified encoded Glyphs</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ࢪ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER REH WITH LOOP<br>
+            unicode: U+08AA<br>
+            changed pixels: 1.80%
+        </span>
+    </div>
+</div>
+            </div>
+          
+          </div>
+      </div>
+    
+
+    
+      <div class="box">
+        <div class="box-title">Misshapen Common words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Arabic words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+    
+    <div class="box">
+      <div class="box-title">Misshapen user strings</div>
+      <div class="box-text old-wght-400" style="font-size: 32pt">
+        
+      </div>
+    </div>
+    
+
+    
+
+    </div>
+  
+<script>var fontdiff = {"hmtx": {"metrics": {"uni08AA": {"1": [19, 10]}}}, "OS/2": {"usMaxContext": [6, 5]}, "head": {"modified": [3783505030, 3789111245], "checkSumAdjustment": [4221241830, 1649682454]}, "glyf": {"glyphs": {"uni0635.medi": {"Contour: 0": {"Node: 52": {"x": [622, 623]}}}, "uni0890": {"Contour: 1": {"Node: 36": {"y": [947, 948]}}}, "uni08E8": {"Contour: 0": {"Node: 18": {"x": [144, 145]}}, "Contour: 2": {"Node: 73": {"y": [1022, 1023]}, "Node: 75": {"y": [1007, 1008]}}}, "uni0890.3": {"Contour: 1": {"Node: 36": {"y": [947, 948]}}}, "uni0602": {"Contour: 0": {"Node: 1": {"x": [540, 541]}}}, "uniFD4D": {"Contour: 20": {"Node: 559": {"x": [845, 846]}}}, "alayh.2": {"Contour: 2": {"Node: 35": {"x": [207, 208]}}}, "uni0647.fina": {"Contour: 0": {"Node: 11": {"y": [121, 122]}, "Node: 23": {"y": [409, 410]}}}, "uni0667.medium": {"Contour: 0": {"Node: 1": {"y": [34, 35]}, "Node: 23": {"x": [283, 284]}}}, "kafDotlessar": {"Contour: 0": {"Node: 16": {"x": [438, 439]}, "Node: 29": {"y": [356, 357]}}}, "uni06BE.medi.locl": {"Contour: 0": {"Node: 20": {"x": [414, 415]}, "Node: 45": {"y": [30, 31]}}}, "uni06F7.locl.lf": {"Contour: 0": {"Node: 25": {"y": [145, 146]}}}, "three": {"Contour: 0": {"Node: 12": {"y": [146, 147]}, "Node: 21": {"y": [479, 480]}, "Node: 36": {"x": [361, 362]}}}, "threeabovear": {"Contour: 0": {"Node: 5": {"x": [37, 38]}}}, "eight": {"Contour: 1": {"Node: 29": {"y": [501, 502]}}}, "guillemotright": {"Contour: 1": {"Node: 24": {"y": [213, 214]}}}, "uni0649": {"Contour: 0": {"Node: 28": {"x": [386, 387]}}}, "uni066A": {"Contour: 2": {"Node: 36": {"y": [104, 105]}}}, "uni060A": {"Contour: 4": {"Node: 65": {"x": [637, 638]}}}, "uni06BA.fina": {"Contour: 0": {"Node: 17": {"y": [18, 17]}}}, "uni066E": {"Contour: 0": {"Node: 22": {"y": [287, 288]}}}, "sallaallahar": {"Contour: 2": {"Node: 367": {"x": [475, 476]}, "Node: 316": {"x": [890, 891]}, "Node: 390": {"x": [747, 748]}, "Node: 448": {"x": [323, 324]}, "Node: 438": {"y": [27, 28]}, "Node: 366": {"y": [228, 229]}, "Node: 197": {"x": [267, 268]}, "Node: 306": {"x": [870, 871]}, "Node: 257": {"y": [821, 822]}, "Node: 57": {"x": [120, 121]}, "Node: 81": {"x": [162, 163]}, "Node: 190": {"y": [641, 642]}, "Node: 245": {"x": [630, 631]}, "Node: 119": {"y": [355, 356]}, "Node: 97": {"x": [219, 220]}, "Node: 235": {"y": [411, 412]}}, "Contour: 3": {"Node: 479": {"x": [565, 566]}}}, "uni0649.fina": {"Contour: 0": {"Node: 43": {"y": [-69, -70]}}}, "uni0603.3": {"Contour: 1": {"Node: 56": {"x": [1360, 1361]}}}, "uni0651064D": {"Contour: 0": {"Node: 25": {"x": [140, 141]}}}, "uni0666": {"Contour: 0": {"Node: 21": {"y": [510, 511]}}}, "uni08AC.fina": {"Contour: 1": {"Node: 58": {"x": [340, 341]}}}, "uni0605": {"Contour: 0": {"Node: 6": {"x": [216, 217]}}}, "uniFDFF": {"Contour: 7": {"Node: 246": {"y": [-104, -105]}}}, "uni0645.locl": {"Contour: 0": {"Node: 14": {"y": [334, 335]}, "Node: 17": {"x": [469, 470]}, "Node: 3": {"y": [-44, -43]}}}, "uniFD49": {"Contour: 20": {"Node: 583": {"x": [837, 838]}}}, "uni0651": {"Contour: 0": {"Node: 25": {"x": [140, 141]}}}, "uni062D.medi": {"Contour: 0": {"Node: 45": {"y": [3, 4]}, "Node: 9": {"y": [157, 158]}}}, "uni08AC": {"Contour: 0": {"Node: 8": {"x": [102, 103]}}}, "uni089F": {"Contour: 0": {"Node: 10": {"x": [81, 82]}}}, "uni0645.locl.fina": {"Contour: 0": {"Node: 3": {"y": [-44, -43]}}, "Contour: 1": {"Node: 43": {"y": [115, 116]}}}, "uni0621": {"Contour: 0": {"Node: 36": {"y": [77, 78]}, "Node: 41": {"y": [96, 97]}}}, "uni062D": {"Contour: 0": {"Node: 22": {"x": [232, 233]}, "Node: 35": {"y": [159, 160]}}}, "colon": {"Contour: 0": {"Node: 4": {"y": [364, 365]}}}, "uni0631": {"Contour: 0": {"Node: 1": {"x": [94, 93]}}}, "uni08AA": {"Contour: 0": {"Node: 27": {"x": [286, 243], "y": [161, 251]}, "Node: 10": {"x": [130, 123]}, "Node: 37": {"x": [350, 387], "y": [238, 113]}, "Node: 22": {"x": [332, 344], "y": [26, 52]}, "Node: 19": {"x": [245, 264], "on": [1, 0], "y": [-14, -8]}, "Node: 24": {"x": [327, 288], "y": [78, 158]}, "Node: 13": {"x": [27, 10], "y": [-114, -80]}, "Node: 29": {"x": [262, 243], "y": [206, 302]}, "Node: 20": {"x": [271, 299], "on": [0, 1], "y": [0, -39]}, "Node: 28": {"x": [272, 243], "y": [186, 273]}, "Node: 26": {"x": [316, 262], "y": [111, 206]}, "Node: 30": {"x": [243, 282], "y": [251, 341]}, "Node: 23": {"x": [330, 331], "y": [46, 84]}, "Node: 12": {"x": [32, 10], "y": [-141, -116]}, "Node: 33": {"x": [282, 331], "y": [341, 288]}, "Node: 34": {"x": [310, 350], "on": [1, 0], "y": [355, 238]}, "Node: 46": {"x": [441, null], "y": [-210, null], "on": [1, null]}, "Node: 45": {"x": [419, null], "y": [-180, null], "on": [0, null]}, "Node: 18": {"x": [202, 184], "y": [6, 31]}, "Node: 32": {"x": [243, 315], "y": [302, 337]}, "Node: 16": {"x": [91, 106], "on": [1, 0], "y": [-10, 31]}, "Node: 35": {"x": [315, 357], "on": [0, 1], "y": [337, 218]}, "Node: 14": {"x": [19, 10], "y": [-75, -46]}, "Node: 31": {"x": [243, 310], "y": [273, 355]}, "Node: 4": {"x": [350, 351]}, "Node: 25": {"x": [324, 272], "y": [94, 186]}, "Node: 40": {"x": [387, 346], "on": [0, 1], "y": [113, -86]}, "Node: 43": {"x": [346, 441], "y": [-86, -210]}, "Node: 42": {"x": [387, 419], "y": [-10, -180]}, "Node: 21": {"x": [314, 328], "y": [18, 0]}, "Node: 17": {"x": [121, 139], "on": [0, 1], "y": [8, 31]}, "Node: 15": {"x": [62, 47], "y": [-21, 4]}, "Node: 36": {"x": [331, 369], "y": [288, 182]}, "Node: 41": {"x": [387, 373], "on": [1, 0], "y": [84, -116]}, "Node: 39": {"x": [369, 387], "y": [182, -10]}, "Node: 11": {"x": [72, 54], "y": [-183, -174]}, "Node: 38": {"x": [357, 387], "y": [218, 84]}, "Node: 44": {"x": [373, null], "y": [-116, null], "on": [0, null]}}, "Contour: 1": {"Node: 54": {"x": [72, 118], "y": [-69, -119]}, "Node: 46": {"x": [null, 247], "y": [null, -88], "on": [null, 1]}, "Node: 45": {"x": [null, 200], "y": [null, -119], "on": [null, 0]}, "Node: 50": {"x": [222, 116], "y": [-72, -52]}, "Node: 47": {"x": [138, 222], "on": [1, 0], "y": [-119, -72]}, "Node: 53": {"x": [116, 71], "y": [-52, -100]}, "Node: 52": {"x": [143, 53], "y": [-52, -84]}, "Node: 55": {"x": [53, null], "y": [-84, null], "on": [1, null]}, "Node: 57": {"x": [118, null], "y": [-119, null], "on": [0, null]}, "Node: 51": {"x": [169, 72], "y": [-52, -69]}, "Node: 56": {"x": [71, null], "y": [-100, null], "on": [0, null]}, "Node: 48": {"x": [200, 169], "y": [-119, -52]}, "Node: 44": {"x": [null, 138], "y": [null, -119], "on": [null, 1]}, "Node: 49": {"x": [247, 143], "y": [-88, -52]}}}, "uni0637.init": {"Contour: 0": {"Node: 9": {"x": [133, 134]}}}, "uni06F5.lf": {"Contour: 0": {"Node: 2": {"y": [96, 97]}, "Node: 15": {"y": [539, 540]}}}, "uni204F": {"Contour: 0": {"Node: 2": {"x": [185, 186]}, "Node: 4": {"x": [164, 165]}}}, "uni06D6": {"Contour: 0": {"Node: 10": {"x": [162, 163]}}}, "guillemotright.locl": {"Contour: 1": {"Node: 26": {"y": [301, 302]}}}, "uniFD46": {"Contour: 14": {"Node: 533": {"x": [154, 155]}}, "Contour: 9": {"Node: 431": {"x": [218, 219]}, "Node: 447": {"x": [790, 791]}}, "Contour: 2": {"Node: 302": {"x": [238, 239]}, "Node: 327": {"y": [262, 263]}, "Node: 49": {"y": [355, 356]}, "Node: 291": {"x": [722, 723]}, "Node: 187": {"y": [821, 822]}, "Node: 270": {"x": [1096, 1097]}, "Node: 165": {"y": [411, 412]}, "Node: 120": {"y": [641, 642]}}, "Contour: 12": {"Node: 513": {"y": [159, 160]}}, "Contour: 5": {"Node: 372": {"x": [950, 951]}}}, "uni066E.init.wide": {"Contour: 0": {"Node: 17": {"x": [225, 226]}}}, "uni0651064B": {"Contour: 2": {"Node: 47": {"x": [145, 146]}}, "Contour: 0": {"Node: 2": {"y": [955, 956]}}}, "fourdotsabovear": {"Contour: 0": {"Node: 9": {"x": [187, 188]}}}, "five": {"Contour: 0": {"Node: 31": {"y": [420, 421]}, "Node: 36": {"y": [289, 290]}, "Node: 38": {"y": [144, 145]}}}, "threedotsupabovear.diagonal": {"Contour: 2": {"Node: 20": {"y": [778, 779]}}, "Contour: 0": {"Node: 6": {"x": [81, 80]}, "Node: 1": {"x": [59, 60]}}}, "uni0633.init": {"Contour: 0": {"Node: 62": {"x": [413, 414]}, "Node: 25": {"x": [168, 169]}, "Node: 40": {"y": [237, 238]}}}, "uni0666.lf": {"Contour: 0": {"Node: 4": {"y": [352, 353]}, "Node: 6": {"y": [458, 459]}}}, "uni0648.fina.alt": {"Contour: 0": {"Node: 12": {"y": [-83, -84]}, "Node: 31": {"y": [199, 200]}}}, "alayh.1": {"Contour: 0": {"Node: 12": {"y": [23, 24]}, "Node: 31": {"x": [269, 270]}, "Node: 15": {"y": [39, 40]}}, "Contour: 1": {"Node: 53": {"y": [78, 79]}}}, "uni08EB": {"Contour: 0": {"Node: 9": {"x": [187, 188]}}}, "uni08F8": {"Contour: 0": {"Node: 4": {"x": [160, 161]}}}, "uni08CD": {"Contour: 1": {"Node: 26": {"x": [149, 150]}}, "Contour: 0": {"Node: 24": {"x": [172, 173]}}}, "uni0645.medi": {"Contour: 1": {"Node: 41": {"y": [115, 116]}}}, "uni06F4.medium": {"Contour: 0": {"Node: 51": {"x": [184, 185]}}}, "uni0639": {"Contour: 0": {"Node: 10": {"y": [237, 236]}, "Node: 26": {"y": [209, 210]}, "Node: 25": {"y": [285, 286]}, "Node: 3": {"y": [-137, -138]}}}, "uni06A1.init": {"Contour: 0": {"Node: 18": {"y": [319, 320]}}}, "uniFDFB": {"Contour: 1": {"Node: 50": {"x": [590, 591]}}, "Contour: 0": {"Node: 24": {"x": [326, 327]}, "Node: 3": {"y": [716, 717]}}, "Contour: 5": {"Node: 238": {"x": [950, 951]}, "Node: 149": {"y": [228, 229]}, "Node: 179": {"x": [771, 772]}, "Node: 211": {"x": [805, 806]}, "Node: 203": {"y": [407, 408]}, "Node: 208": {"y": [447, 448]}}}, "dotabovear": {"Contour: 0": {"Node: 3": {"y": [836, 837]}}}, "uniFDFC": {"Contour: 0": {"Node: 2": {"y": [-117, -118]}, "Node: 41": {"x": [506, 507]}, "Node: 13": {"x": [326, 327]}, "Node: 52": {"x": [619, 620]}, "Node: 58": {"y": [532, 533]}}}, "uni0631.fina": {"Contour: 0": {"Node: 1": {"x": [94, 93]}}}, "uni0668.medium": {"Contour: 0": {"Node: 19": {"x": [355, 356], "y": [44, 45]}}}, "uni0664": {"Contour: 0": {"Node: 39": {"x": [426, 427]}}}, "exclam": {"Contour: 1": {"Node: 12": {"y": [-45, -46]}}}, "uni066F.fina": {"Contour: 0": {"Node: 24": {"x": [310, 311]}}, "Contour: 1": {"Node: 51": {"y": [197, 196]}}}, "uni06C7": {"Contour: 0": {"Node: 30": {"x": [255, 256]}}}, "uniFD3E": {"Contour: 0": {"Node: 1": {"x": [447, 448]}, "Node: 4": {"y": [738, 739]}}}, "uni08F4": {"Contour: 2": {"Node: 41": {"y": [814, 815]}}, "Contour: 0": {"Node: 15": {"x": [111, 112]}}}, "uni061B": {"Contour: 0": {"Node: 14": {"x": [185, 186]}, "Node: 12": {"x": [164, 165]}}}, "twodotshorizontalabovear.small": {"Contour: 0": {"Node: 9": {"x": [187, 188]}}}, "uni0663.lf": {"Contour: 0": {"Node: 14": {"x": [182, 183]}}}, "uni0615": {"Contour: 0": {"Node: 24": {"x": [172, 173]}}, "Contour: 1": {"Node: 26": {"x": [149, 150]}}}, "uni06F6.medium": {"Contour: 0": {"Node: 3": {"y": [156, 157]}}}, "uni0639.medi": {"Contour: 1": {"Node: 44": {"y": [212, 213]}}}, "vbelowar": {"Contour: 0": {"Node: 9": {"x": [97, 96]}}}, "uni0645.init": {"Contour: 0": {"Node: 28": {"x": [387, 388]}}}, "uni06D7": {"Contour: 1": {"Node: 63": {"x": [304, 305]}}, "Contour: 0": {"Node: 18": {"x": [155, 156]}}}, "uni06F7.locl": {"Contour: 0": {"Node: 23": {"x": [99, 100]}}}, "uni06BE": {"Contour: 2": {"Node: 50": {"y": [75, 76]}}}, "uni06DD": {"Contour: 4": {"Node: 143": {"x": [722, 721]}}, "Contour: 5": {"Node: 181": {"y": [-40, -41]}}}, "uni0666.medium": {"Contour: 0": {"Node: 5": {"x": [224, 225]}}}, "uni06BE.fina": {"Contour: 2": {"Node: 66": {"x": [436, 437]}}}, "uni06C1.medi": {"Contour: 0": {"Node: 36": {"y": [-121, -122]}}}, "uniFD47": {"Contour: 12": {"Node: 431": {"y": [78, 79]}}, "Contour: 13": {"Node: 469": {"x": [970, 971]}}, "Contour: 11": {"Node: 390": {"y": [23, 24]}, "Node: 393": {"y": [39, 40]}, "Node: 409": {"x": [209, 210]}}}, "uni0600.3": {"Contour: 0": {"Node: 7": {"y": [62, 63]}}}, "uniFD3F": {"Contour: 0": {"Node: 10": {"x": [83, 84]}}}, "uni0612": {"Contour: 0": {"Node: 11": {"y": [883, 884]}}}, "uni0643.init": {"Contour: 0": {"Node: 36": {"y": [451, 452]}}}, "uni060E": {"Contour: 0": {"Node: 28": {"x": [434, 435]}}, "Contour: 1": {"Node: 33": {"x": [311, 312]}}}, "gafsarkashcenterar": {"Contour: 0": {"Node: 8": {"y": [864, 863]}}}, "uni0603": {"Contour: 0": {"Node: 39": {"x": [995, 996]}}}, "uni0635": {"Contour: 0": {"Node: 43": {"x": [539, 540]}}}, "uni0647.medi": {"Contour: 2": {"Node: 58": {"x": [311, 312]}}}, "uni0600": {"Contour: 0": {"Node: 7": {"y": [62, 63]}, "Node: 11": {"x": [924, 925]}}}, "uni08AD": {"Contour: 0": {"Node: 11": {"x": [111, 110]}}}, "uni0627.fina.rlig.2": {"Contour: 0": {"Node: 1": {"x": [288, 289]}}}, "twodotshorizontalabovear": {"Contour: 0": {"Node: 2": {"y": [806, 807]}}}, "uni0645": {"Contour: 0": {"Node: 34": {"x": [114, 115]}}}, "uni0637.medi": {"Contour: 0": {"Node: 10": {"x": [133, 134]}}}, "uni08EC": {"Contour: 0": {"Node: 7": {"y": [851, 852]}, "Node: 13": {"y": [857, 858]}}}, "uni0627": {"Contour: 0": {"Node: 8": {"y": [650, 651]}}}, "uni0667.lf": {"Contour: 0": {"Node: 27": {"y": [30, 31]}}}, "uni0645.fina": {"Contour: 0": {"Node: 6": {"y": [107, 106]}, "Node: 12": {"x": [210, 211]}, "Node: 42": {"x": [137, 138]}, "Node: 11": {"y": [241, 242]}, "Node: 44": {"y": [83, 84]}}}, "uniFDF2.2": {"Contour: 1": {"Node: 64": {"x": [305, 306]}, "Node: 70": {"x": [255, 256]}}}, "uni0660.lf": {"Contour: 0": {"Node: 5": {"y": [252, 253]}, "Node: 2": {"x": [105, 106]}}}, "uni0665.lf": {"Contour: 0": {"Node: 16": {"x": [308, 309]}}}, "uni06510670": {"Contour: 1": {"Node: 39": {"x": [140, 141]}}}, "uni066F": {"Contour: 0": {"Node: 13": {"x": [317, 318]}, "Node: 26": {"x": [310, 311]}}, "Contour: 1": {"Node: 46": {"x": [416, 417]}}}, "uni0639.init": {"Contour: 0": {"Node: 41": {"y": [53, 54]}}}, "uni0637": {"Contour: 0": {"Node: 22": {"y": [647, 648]}, "Node: 35": {"x": [571, 572]}, "Node: 11": {"y": [106, 107]}}}, "uni08E4": {"Contour: 0": {"Node: 20": {"y": [780, 781]}}}, "twodotsverticalabovear": {"Contour: 0": {"Node: 9": {"y": [884, 885]}}}, "uni0890.2": {"Contour: 1": {"Node: 36": {"y": [947, 948]}}}, "threedotsdownabovear.small": {"Contour: 0": {"Node: 5": {"y": [884, 885]}, "Node: 4": {"y": [862, 863]}}}, "uni0662.lf": {"Contour: 0": {"Node: 12": {"y": [563, 564]}}}, "uni0663.medium": {"Contour: 0": {"Node: 48": {"x": [227, 228]}}}, "uni06F4.lf": {"Contour: 0": {"Node: 33": {"y": [427, 428]}, "Node: 7": {"x": [108, 109]}}}, "uni06F4.locl.lf": {"Contour: 0": {"Node: 24": {"x": [373, 372]}, "Node: 25": {"x": [347, 348]}}}, "uni06F5.medium": {"Contour: 0": {"Node: 10": {"x": [115, 116]}}}, "uni0677": {"Contour: 1": {"Node: 86": {"x": [255, 256]}}}, "uni0633": {"Contour: 0": {"Node: 24": {"y": [158, 159]}, "Node: 56": {"x": [969, 970]}}}, "uni06E5": {"Contour: 0": {"Node: 7": {"x": [59, 58]}}}, "uni06D2": {"Contour: 0": {"Node: 16": {"x": [304, 305]}}}, "uni06A1.medi": {"Contour: 0": {"Node: 24": {"x": [321, 322]}}}, "uni0633.medi": {"Contour: 0": {"Node: 24": {"x": [168, 169]}}}, "uni0644": {"Contour: 0": {"Node: 25": {"y": [624, 625]}}}, "uni0637.fina": {"Contour: 0": {"Node: 23": {"x": [194, 195]}, "Node: 16": {"y": [135, 134]}, "Node: 3": {"x": [204, 203]}}}, "uni0648": {"Contour: 0": {"Node: 30": {"x": [255, 256]}}}, "uni0644.fina": {"Contour: 0": {"Node: 26": {"y": [624, 625]}}}, "uni060B": {"Contour: 1": {"Node: 28": {"y": [319, 320]}}, "Contour: 0": {"Node: 4": {"x": [183, 184]}, "Node: 3": {"y": [612, 613]}}}, "uni0648.alt": {"Contour: 0": {"Node: 28": {"x": [334, 335]}, "Node: 30": {"x": [361, 362]}, "Node: 42": {"x": [369, 370]}}}, "basmalah.1": {"Contour: 1": {"Node: 174": {"x": [576, 577]}}, "Contour: 0": {"Node: 118": {"x": [11700, 11701]}, "Node: 3": {"y": [-44, -43]}, "Node: 111": {"x": [11884, 11885]}, "Node: 81": {"x": [11942, 11943]}}}, "uni0664.lf": {"Contour: 0": {"Node: 19": {"y": [556, 557]}, "Node: 28": {"y": [394, 395]}, "Node: 1": {"x": [203, 204]}, "Node: 47": {"x": [304, 305]}}}, "uni0635.fina": {"Contour: 0": {"Node: 48": {"x": [1005, 1006]}, "Node: 55": {"x": [539, 540]}}}, "uni064D": {"Contour: 1": {"Node: 19": {"x": [106, 107]}}}, "uni061F": {"Contour: 1": {"Node: 38": {"x": [136, 137]}}}, "twodotshorizontalabove_tahabovear": {"Contour: 2": {"Node: 41": {"y": [767, 768]}, "Node: 42": {"x": [123, 124]}}}, "uni0633.fina": {"Contour: 0": {"Node: 22": {"x": [505, 506]}, "Node: 69": {"y": [14, 15]}}}, "uniFD4C": {"Contour: 4": {"Node: 478": {"y": [762, 763]}}, "Contour: 14": {"Node: 659": {"x": [800, 801]}}, "Contour: 2": {"Node: 124": {"y": [373, 374]}, "Node: 69": {"x": [273, 274]}, "Node: 263": {"y": [821, 822]}, "Node: 241": {"y": [411, 412]}, "Node: 251": {"x": [930, 931]}, "Node: 424": {"y": [103, 104]}, "Node: 159": {"x": [766, 767]}, "Node: 90": {"y": [377, 378]}, "Node: 130": {"y": [382, 383]}, "Node: 188": {"x": [153, 154]}, "Node: 92": {"y": [407, 408]}, "Node: 416": {"x": [632, 633]}, "Node: 195": {"y": [641, 642]}, "Node: 133": {"x": [1035, 1036]}}, "Contour: 12": {"Node: 608": {"x": [448, 449]}}, "Contour: 7": {"Node: 511": {"y": [407, 408]}, "Node: 512": {"x": [96, 97]}, "Node: 514": {"x": [102, 103]}}, "Contour: 3": {"Node: 439": {"x": [865, 866]}}, "Contour: 5": {"Node: 493": {"x": [118, 119]}}}, "uni065B": {"Contour: 0": {"Node: 21": {"y": [838, 837]}}}, "uni0891": {"Contour: 1": {"Node: 28": {"y": [947, 948]}}}, "uni060F": {"Contour: 1": {"Node: 69": {"x": [470, 471]}}}, "uni0661.medium": {"Contour: 0": {"Node: 2": {"y": [47, 48]}}}, "period.locl": {"Contour: 0": {"Node: 8": {"y": [23, 22]}}}, "uni2E41": {"Contour: 0": {"Node: 8": {"y": [-99, -98]}}}, "uni0604": {"Contour: 0": {"Node: 66": {"x": [2254, 2255]}, "Node: 32": {"y": [54, 55]}, "Node: 7": {"x": [1251, 1252]}, "Node: 75": {"y": [272, 273]}}}, "uni06AA": {"Contour: 0": {"Node: 43": {"x": [576, 577]}}}}}, "GDEF": {"table": {"MarkGlyphSetsDef": {"Coverage": {"3": {"glyphs": {"0": ["uni0651", "uni06510670"], "1": ["uni0670", null]}}}}}}};</script>
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
+  class Table {
+      constructor(data) {
+          this.data = {"root": data}
+          this.open("root")
+      }
+
+      createNode(key, label) {
+          let childElem = document.createElement("div")
+          let childKey = key
+          childElem.dataset.path = childKey
+          childElem.dataset.open = "0"
+          childElem.innerHTML = label
+          childElem.classList.add("node")
+          return childElem
+      }
+
+      close(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          let label = htmlParent.childNodes[0].nodeValue
+          htmlParent.replaceChildren()
+          htmlParent.textContent = label
+          htmlParent.dataset.open = "0"
+      }
+
+      open(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          htmlParent.dataset.open = "1"
+
+          // traverse to correct data level based on data-path
+          let path = key.split(".")
+          let data = this.data
+          for (var i=0; i<path.length; i++) {
+              data = data[path[i]];
+
+          }
+
+          // arrays containing two values are used as leaf nodes.
+          // The first item is the before value and the second
+          // is for after value.
+          if (Array.isArray(data)) {
+              let childElem = this.createNode("", "")
+              let before = document.createElement("span")
+              before.classList.add("attr-before")
+              before.textContent = String(data[0]) + " "
+              let after = document.createElement("span")
+              after.classList.add("attr-after")
+              after.textContent = String(data[1])
+              childElem.appendChild(before)
+              childElem.appendChild(after)
+              htmlParent.appendChild(childElem)
+              return
+          }
+          // Create next child nodes
+          for (var i in data) {
+              let childKey = key + "." + i
+              let childElem = this.createNode(childKey, i)
+              htmlParent.appendChild(childElem);
+              var that = this
+
+              // Toggle whether to open or close a node
+              childElem.addEventListener("click", function() {
+                  if (this.dataset.open === "0") {
+                      that.open(childKey)
+                      event.stopPropagation()
+                  } else {
+                      that.close(childKey)
+                      event.stopPropagation()
+                  }
+              })
+          }
+      }
+  }
+
+  let t = new Table(fontdiff, document.getElementById("difftable"))
+
+
+function wordBreaks() {
+  words = document.getElementsByClassName("cell-word")
+  res = []
+  prevTop = 0
+  for (i=0; i<words.length; i++) {
+      var word = words[i]
+      currentTop = word.getBoundingClientRect().top
+      if (currentTop > prevTop) {
+          res.push(i)
+      }
+      prevTop = currentTop
+  }
+  return res
+}
+
+async function insertBreaks() {
+  switchFonts()
+  await sleep(1)
+  breaksBefore = wordBreaks()
+  switchFonts()
+  await sleep(1)
+  breaksAfter = wordBreaks()
+
+
+  console.log(breaksBefore.length, breaksAfter.length)
+
+  if (breaksBefore.length >= breaksAfter.length) {
+    breaks = breaksBefore
+  } else {
+    breaks = breaksAfter
+  }
+
+  words = document.getElementsByClassName("cell-word")
+  breaks.forEach(function(i) {
+    if (i != 0) {
+      i = i
+    }
+    word = words[i]
+    spacer = document.createElement("div")
+    spacer.className = "spacer"
+    word.parentNode.insertBefore(spacer, word)
+  })
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+  
+insertBreaks()
+
+
+    </script>
+</html>

@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attr-before{
+                color: red;
+                cursor: text;
+            }
+            .attr-after{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url(old-NotoKufiArabic-Light.ttf);
+    font-family: "old font";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	    @font-face{
+    src: url(new-NotoKufiArabic-Light.ttf);
+    font-family: "new font";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+	    .old-wght-400{
+    font-family: "old font", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+
+	  
+	    .new-wght-400{
+    font-family: "new font", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+
+	  
+	
+.cell{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 50pt;
+  line-height: 48.0px;
+}
+.cell-word{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Diffenator</b>
+</h2>
+	
+  
+    <div class="box">
+    <div class="box-title">Tables</div>
+      <div data-path="root" data-open="0" id="difftable"></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+      <div class="box">
+        <div class="box-title">Modified encoded Glyphs</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﻩ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER HEH ISOLATED FORM<br>
+            unicode: U+FEE9<br>
+            changed pixels: 7.05%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﮖ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER GUEH ISOLATED FORM<br>
+            unicode: U+FB96<br>
+            changed pixels: 1.20%
+        </span>
+    </div>
+</div>
+            </div>
+          
+          </div>
+      </div>
+    
+
+    
+      <div class="box">
+        <div class="box-title">Misshapen Common words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Arabic words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+    
+    <div class="box">
+      <div class="box-title">Misshapen user strings</div>
+      <div class="box-text old-wght-400" style="font-size: 32pt">
+        
+      </div>
+    </div>
+    
+
+    
+
+    </div>
+  
+<script>var fontdiff = {"OS/2": {"usWinAscent": [1374, 1507]}, "head": {"modified": [3780030914, 3789111036], "checkSumAdjustment": [3395855883, 2536171615]}, "cmap": {"0xFEE9": ["uni0647", "uni06D5"], "0xFB96": ["uni06B2", "uni06B3"]}, "glyf": {"glyphs": {"uni0664.lf": {"Contour: 0": {"Node: 32": {"y": [202, 203]}}}, "threedotsupabovear.diagonal": {"Contour: 1": {"Node: 13": {"x": [135, 136]}}}, "uni0605": {"Contour: 0": {"Node: 20": {"x": [1223, 1224]}}}, "uni066B": {"Contour: 0": {"Node: 8": {"y": [57, 58]}}}, "uni062D.fina": {"Contour: 0": {"Node: 24": {"y": [127, 128]}}}, "uni089E": {"Contour: 0": {"Node: 19": {"y": [850, 851]}}}, "commaabovear": {"Contour: 0": {"Node: 16": {"y": [872, 873]}}}, "uni06A1.medi": {"Contour: 0": {"Node: 16": {"y": [301, 302]}}}, "uni0616": {"Contour: 0": {"Node: 4": {"y": [1165, 1166]}}}, "uni06D7": {"Contour: 0": {"Node: 2": {"y": [1263, 1264]}}}, "uniFD4D": {"Contour: 0": {"Node: 40": {"y": [412, 411]}}}, "uniFD4B": {"Contour: 1": {"Node: 83": {"x": [878, 879]}}}, "uni06AA.medi": {"Contour: 0": {"Node: 3": {"y": [183, 184]}}}, "uni08E8": {"Contour: 2": {"Node: 51": {"x": [171, 172]}}}, "uniFD44": {"Contour: 5": {"Node: 140": {"y": [216, 217]}}}, "uni06E1": {"Contour: 0": {"Node: 3": {"y": [910, 911]}}}, "uniFD48": {"Contour: 0": {"Node: 40": {"y": [412, 411]}}}, "uni061F": {"Contour: 0": {"Node: 26": {"y": [348, 347]}}}, "uni0663": {"Contour: 0": {"Node: 13": {"y": [542, 543]}}}, "uniFD4A": {"Contour: 14": {"Node: 566": {"x": [902, 901]}}}, "uni06AA": {"Contour: 0": {"Node: 12": {"y": [183, 184]}}}, "uni0639.medi": {"Contour: 0": {"Node: 18": {"y": [223, 224]}}, "Contour: 1": {"Node: 49": {"x": [232, 233]}}}, "uni08AC.fina": {"Contour: 2": {"Node: 46": {"y": [-178, -177]}, "Node: 48": {"y": [-124, -125]}}, "Contour: 1": {"Node: 43": {"x": [360, 361]}, "Node: 37": {"x": [462, 463]}}}, "uni089A": {"Contour: 1": {"Node: 22": {"y": [-181, -182]}}}, "uni0648.alt": {"Contour: 0": {"Node: 17": {"y": [-242, -243]}}}, "uni08C3": {"Contour: 0": {"Node: 27": {"x": [372, 373]}, "Node: 30": {"x": [397, 398]}}}, "uniFDFB": {"Contour: 7": {"Node: 320": {"y": [531, 530]}}, "Contour: 5": {"Node: 177": {"y": [406, 405]}}, "Contour: 4": {"Node: 82": {"x": [798, 797]}}}, "uni062D.fina.alt": {"Contour: 0": {"Node: 7": {"y": [127, 128]}}}, "uni06DA": {"Contour: 0": {"Node: 33": {"x": [162, 163]}}}, "uni06A1.fina": {"Contour: 0": {"Node: 16": {"x": [554, 555]}, "Node: 21": {"x": [708, 709]}}}, "uniFD42": {"Contour: 9": {"Node: 315": {"x": [798, 797]}}, "Contour: 5": {"Node: 140": {"y": [216, 217]}}}, "uni06AA.init": {"Contour: 0": {"Node: 3": {"y": [183, 184]}}}, "uni061D": {"Contour: 0": {"Node: 19": {"x": [401, 402]}}}, "uni08AC": {"Contour: 2": {"Node: 29": {"y": [-178, -177]}, "Node: 31": {"y": [-124, -125]}}, "Contour: 1": {"Node: 26": {"x": [320, 321]}, "Node: 20": {"x": [422, 423]}}}, "uni0639.fina.alt": {"Contour: 0": {"Node: 11": {"x": [386, 387]}}, "Contour: 1": {"Node: 44": {"x": [480, 481]}}}, "u10EFF": {"Contour: 0": {"Node: 18": {"y": [-90, -91]}}}, "threeabovear": {"Contour: 0": {"Node: 20": {"y": [965, 966]}, "Node: 9": {"y": [1007, 1008]}, "Node: 8": {"x": [114, 115]}}}, "uni0601": {"Contour: 0": {"Node: 11": {"x": [745, 746]}}}, "uniFDFC": {"Contour: 3": {"Node: 57": {"x": [932, 933]}}}, "uni06DB": {"Contour: 0": {"Node: 9": {"y": [1209, 1210]}}}, "six": {"Contour: 0": {"Node: 17": {"x": [152, 153]}}}, "twodotshorizontalabovear.diagonal": {"Contour: 0": {"Node: 1": {"x": [135, 136]}}}, "uniFD41": {"Contour: 13": {"Node: 378": {"y": [-128, -129]}}}, "uni062F.fina": {"Contour: 0": {"Node: 3": {"x": [352, 353]}}}, "uni06F4.locl.lf": {"Contour: 0": {"Node: 8": {"x": [338, 339]}}}, "uniFD46": {"Contour: 8": {"Node: 442": {"x": [585, 584]}, "Node: 409": {"x": [95, 94], "y": [66, 65]}}, "Contour: 2": {"Node: 75": {"y": [454, 453]}, "Node: 64": {"y": [430, 429]}}}, "sallaallahar": {"Contour: 2": {"Node: 147": {"y": [454, 453]}, "Node: 136": {"y": [430, 429]}}}, "uni060F": {"Contour: 0": {"Node: 48": {"y": [184, 185]}, "Node: 45": {"x": [288, 289]}}}, "uni065D": {"Contour: 0": {"Node: 15": {"x": [175, 176]}}}, "uni0653": {"Contour: 0": {"Node: 20": {"x": [122, 123]}}}, "uni06AA.fina": {"Contour: 0": {"Node: 12": {"y": [183, 184]}}}, "uni06C1.fina": {"Contour: 0": {"Node: 2": {"y": [155, 156]}}}, "uni066F.fina": {"Contour: 0": {"Node: 12": {"x": [207, 208]}}}, "threedotsupabovear.small": {"Contour: 0": {"Node: 11": {"x": [109, 110]}}}, "uni0639.alt": {"Contour: 0": {"Node: 27": {"x": [372, 373]}, "Node: 30": {"x": [397, 398]}}}, "uni0663.lf": {"Contour: 0": {"Node: 13": {"y": [542, 543]}}}, "nine": {"Contour: 0": {"Node: 17": {"x": [419, 420]}}}, "uni061B": {"Contour: 0": {"Node: 1": {"x": [96, 97]}}}, "uniFD47": {"Contour: 1": {"Node: 54": {"y": [412, 411]}, "Node: 82": {"x": [969, 968]}, "Node: 81": {"x": [959, 958]}}}, "uni0606": {"Contour: 0": {"Node: 20": {"y": [658, 659]}, "Node: 9": {"y": [700, 701]}}}, "uni0602": {"Contour: 1": {"Node: 24": {"x": [329, 330]}}}, "zero": {"Contour: 0": {"Node: 4": {"x": [168, 169]}}, "Contour: 1": {"Node: 16": {"x": [198, 199]}}}, "uni06F4": {"Contour: 0": {"Node: 12": {"x": [362, 363]}, "Node: 28": {"y": [548, 549]}}}, "uni0890.2": {"Contour: 0": {"Node: 23": {"y": [957, 958]}}}, "uni06DD": {"Contour: 0": {"Node: 41": {"x": [875, 876]}}}, "uni06A1": {"Contour: 0": {"Node: 16": {"x": [554, 555]}, "Node: 21": {"x": [708, 709]}}}, "uni0644.fina": {"Contour: 0": {"Node: 20": {"y": [-96, -97]}}}, "uni06D5": {"Contour: 0": {"Node: 13": {"y": [288, 289]}}, "Contour: 1": {"Node: 25": {"x": [248, 249]}}}, "uni064C": {"Contour: 1": {"Node: 31": {"x": [230, 231]}}}, "uni0639": {"Contour: 0": {"Node: 27": {"x": [372, 373]}, "Node: 30": {"x": [397, 398]}}}, "threedotsdownbelowar": {"Contour: 2": {"Node: 30": {"y": [-218, -219]}}}, "uni062D.init": {"Contour: 0": {"Node: 12": {"x": [275, 276]}, "Node: 17": {"x": [102, 103]}}}, "uni08C9": {"Contour: 0": {"Node: 30": {"x": [295, 296]}}}, "three": {"Contour: 0": {"Node: 30": {"x": [338, 339]}, "Node: 9": {"x": [377, 378]}}}, "uni0639.fina": {"Contour: 0": {"Node: 11": {"x": [386, 387]}}, "Contour: 1": {"Node: 51": {"x": [480, 481]}}}, "uni0649.fina": {"Contour: 0": {"Node: 27": {"x": [409, 410]}, "Node: 22": {"y": [7, 6]}, "Node: 57": {"y": [239, 240]}, "Node: 5": {"x": [83, 84]}}}, "uni0651064D": {"Contour: 0": {"Node: 17": {"x": [235, 236]}}}, "uniFD4C": {"Contour: 2": {"Node: 150": {"y": [454, 453]}, "Node: 173": {"y": [488, 489]}}, "Contour: 9": {"Node: 549": {"x": [885, 884], "y": [66, 65]}}}, "uniFD49": {"Contour: 0": {"Node: 40": {"y": [412, 411]}}}, "uni0891": {"Contour: 0": {"Node: 3": {"y": [957, 958]}}}, "uni06E8": {"Contour: 1": {"Node: 20": {"y": [1155, 1156]}, "Node: 18": {"y": [1218, 1219]}}}, "uni0604.4": {"Contour: 0": {"Node: 54": {"x": [2150, 2151]}, "Node: 20": {"y": [206, 207]}}}, "uni0890.3": {"Contour: 0": {"Node: 23": {"y": [957, 958]}}}, "uni06F4.lf": {"Contour: 0": {"Node: 12": {"x": [363, 364]}, "Node: 28": {"y": [548, 549]}}}, "uni0890": {"Contour: 0": {"Node: 23": {"y": [957, 958]}}}, "uni0654": {"Contour: 0": {"Node: 20": {"x": [75, 76]}}}}}};</script>
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
+  class Table {
+      constructor(data) {
+          this.data = {"root": data}
+          this.open("root")
+      }
+
+      createNode(key, label) {
+          let childElem = document.createElement("div")
+          let childKey = key
+          childElem.dataset.path = childKey
+          childElem.dataset.open = "0"
+          childElem.innerHTML = label
+          childElem.classList.add("node")
+          return childElem
+      }
+
+      close(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          let label = htmlParent.childNodes[0].nodeValue
+          htmlParent.replaceChildren()
+          htmlParent.textContent = label
+          htmlParent.dataset.open = "0"
+      }
+
+      open(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          htmlParent.dataset.open = "1"
+
+          // traverse to correct data level based on data-path
+          let path = key.split(".")
+          let data = this.data
+          for (var i=0; i<path.length; i++) {
+              data = data[path[i]];
+
+          }
+
+          // arrays containing two values are used as leaf nodes.
+          // The first item is the before value and the second
+          // is for after value.
+          if (Array.isArray(data)) {
+              let childElem = this.createNode("", "")
+              let before = document.createElement("span")
+              before.classList.add("attr-before")
+              before.textContent = String(data[0]) + " "
+              let after = document.createElement("span")
+              after.classList.add("attr-after")
+              after.textContent = String(data[1])
+              childElem.appendChild(before)
+              childElem.appendChild(after)
+              htmlParent.appendChild(childElem)
+              return
+          }
+          // Create next child nodes
+          for (var i in data) {
+              let childKey = key + "." + i
+              let childElem = this.createNode(childKey, i)
+              htmlParent.appendChild(childElem);
+              var that = this
+
+              // Toggle whether to open or close a node
+              childElem.addEventListener("click", function() {
+                  if (this.dataset.open === "0") {
+                      that.open(childKey)
+                      event.stopPropagation()
+                  } else {
+                      that.close(childKey)
+                      event.stopPropagation()
+                  }
+              })
+          }
+      }
+  }
+
+  let t = new Table(fontdiff, document.getElementById("difftable"))
+
+
+function wordBreaks() {
+  words = document.getElementsByClassName("cell-word")
+  res = []
+  prevTop = 0
+  for (i=0; i<words.length; i++) {
+      var word = words[i]
+      currentTop = word.getBoundingClientRect().top
+      if (currentTop > prevTop) {
+          res.push(i)
+      }
+      prevTop = currentTop
+  }
+  return res
+}
+
+async function insertBreaks() {
+  switchFonts()
+  await sleep(1)
+  breaksBefore = wordBreaks()
+  switchFonts()
+  await sleep(1)
+  breaksAfter = wordBreaks()
+
+
+  console.log(breaksBefore.length, breaksAfter.length)
+
+  if (breaksBefore.length >= breaksAfter.length) {
+    breaks = breaksBefore
+  } else {
+    breaks = breaksAfter
+  }
+
+  words = document.getElementsByClassName("cell-word")
+  breaks.forEach(function(i) {
+    if (i != 0) {
+      i = i
+    }
+    word = words[i]
+    spacer = document.createElement("div")
+    spacer.className = "spacer"
+    word.parentNode.insertBefore(spacer, word)
+  })
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+  
+insertBreaks()
+
+
+    </script>
+</html>

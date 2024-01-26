@@ -1,0 +1,2529 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attr-before{
+                color: red;
+                cursor: text;
+            }
+            .attr-after{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url(old-NotoNaskhArabicUI[wght].ttf);
+    font-family: "old font";
+    font-weight: 400 700;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	    @font-face{
+    src: url(new-NotoNaskhArabicUI-Medium.ttf);
+    font-family: "new font";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+	    .old-Medium{
+    font-family: "old font", "Adobe NotDef";
+    font-weight: 500.0;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 500.0;
+}
+	  
+
+	  
+	    .new-Medium{
+    font-family: "new font", "Adobe NotDef";
+    font-weight: 500;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 500;
+}
+	  
+
+	  
+	
+.cell{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 50pt;
+  line-height: 48.0px;
+}
+.cell-word{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Diffenator</b>
+</h2>
+	
+  
+    <div class="box">
+    <div class="box-title">Tables</div>
+      <div data-path="root" data-open="0" id="difftable"></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+      <div class="box">
+        <div class="box-title">Modified encoded Glyphs</div>
+        <div class="box-text old-Medium" style="font-size: 32pt">
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ٴ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER HIGH HAMZA<br>
+            unicode: U+0674<br>
+            changed pixels: 4.90%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﯓ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER NG ISOLATED FORM<br>
+            unicode: U+FBD3<br>
+            changed pixels: 3.23%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ڭ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER NG<br>
+            unicode: U+06AD<br>
+            changed pixels: 3.23%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ٵ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER HIGH HAMZA ALEF<br>
+            unicode: U+0675<br>
+            changed pixels: 3.15%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ٷ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER U WITH HAMZA ABOVE<br>
+            unicode: U+0677<br>
+            changed pixels: 2.68%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﯝ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER U WITH HAMZA ABOVE ISOLATED FORM<br>
+            unicode: U+FBDD<br>
+            changed pixels: 2.68%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ٸ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER HIGH HAMZA YEH<br>
+            unicode: U+0678<br>
+            changed pixels: 2.57%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ٶ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER HIGH HAMZA WAW<br>
+            unicode: U+0676<br>
+            changed pixels: 2.55%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ۵<br>
+        <span class="tooltiptext">
+            name: EXTENDED ARABIC-INDIC DIGIT FIVE<br>
+            unicode: U+06F5<br>
+            changed pixels: 2.51%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ࣲ<br>
+        <span class="tooltiptext">
+            name: ARABIC OPEN KASRATAN<br>
+            unicode: U+08F2<br>
+            changed pixels: 2.45%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﯔ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER NG FINAL FORM<br>
+            unicode: U+FBD4<br>
+            changed pixels: 1.89%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﭘ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER PEH INITIAL FORM<br>
+            unicode: U+FB58<br>
+            changed pixels: 1.64%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ‑<br>
+        <span class="tooltiptext">
+            name: NON-BREAKING HYPHEN<br>
+            unicode: U+2011<br>
+            changed pixels: 1.53%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ‐<br>
+        <span class="tooltiptext">
+            name: HYPHEN<br>
+            unicode: U+2010<br>
+            changed pixels: 1.53%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        6<br>
+        <span class="tooltiptext">
+            name: DIGIT SIX<br>
+            unicode: U+0036<br>
+            changed pixels: 1.53%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ݮ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER HAH WITH SMALL ARABIC LETTER TAH BELOW<br>
+            unicode: U+076E<br>
+            changed pixels: 1.52%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ࢫ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER WAW WITH DOT WITHIN<br>
+            unicode: U+08AB<br>
+            changed pixels: 1.46%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ْ<br>
+        <span class="tooltiptext">
+            name: ARABIC SUKUN<br>
+            unicode: U+0652<br>
+            changed pixels: 1.43%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ٬<br>
+        <span class="tooltiptext">
+            name: ARABIC THOUSANDS SEPARATOR<br>
+            unicode: U+066C<br>
+            changed pixels: 1.43%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﳘ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE HEH WITH MEEM INITIAL FORM<br>
+            unicode: U+FCD8<br>
+            changed pixels: 1.41%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﭶ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER NYEH ISOLATED FORM<br>
+            unicode: U+FB76<br>
+            changed pixels: 1.38%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ڃ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER NYEH<br>
+            unicode: U+0683<br>
+            changed pixels: 1.38%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        څ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER HAH WITH THREE DOTS ABOVE<br>
+            unicode: U+0685<br>
+            changed pixels: 1.38%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ࢥ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER QAF WITH DOT BELOW<br>
+            unicode: U+08A5<br>
+            changed pixels: 1.33%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﻤ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER MEEM MEDIAL FORM<br>
+            unicode: U+FEE4<br>
+            changed pixels: 1.33%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﻕ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER QAF ISOLATED FORM<br>
+            unicode: U+FED5<br>
+            changed pixels: 1.30%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        8<br>
+        <span class="tooltiptext">
+            name: DIGIT EIGHT<br>
+            unicode: U+0038<br>
+            changed pixels: 1.30%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﳃ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE QAF WITH MEEM INITIAL FORM<br>
+            unicode: U+FCC3<br>
+            changed pixels: 1.30%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ق<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER QAF<br>
+            unicode: U+0642<br>
+            changed pixels: 1.30%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﭭ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER VEH MEDIAL FORM<br>
+            unicode: U+FB6D<br>
+            changed pixels: 1.29%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﭠ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER TTEHEH INITIAL FORM<br>
+            unicode: U+FB60<br>
+            changed pixels: 1.27%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﰳ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE QAF WITH HAH ISOLATED FORM<br>
+            unicode: U+FC33<br>
+            changed pixels: 1.25%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﭤ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER TEHEH INITIAL FORM<br>
+            unicode: U+FB64<br>
+            changed pixels: 1.24%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﳝ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE YEH WITH MEEM INITIAL FORM<br>
+            unicode: U+FCDD<br>
+            changed pixels: 1.24%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ࣱ<br>
+        <span class="tooltiptext">
+            name: ARABIC OPEN DAMMATAN<br>
+            unicode: U+08F1<br>
+            changed pixels: 1.24%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﰯ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE FEH WITH KHAH ISOLATED FORM<br>
+            unicode: U+FC2F<br>
+            changed pixels: 1.23%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ځ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER HAH WITH HAMZA ABOVE<br>
+            unicode: U+0681<br>
+            changed pixels: 1.23%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﭺ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER TCHEH ISOLATED FORM<br>
+            unicode: U+FB7A<br>
+            changed pixels: 1.22%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        چ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER TCHEH<br>
+            unicode: U+0686<br>
+            changed pixels: 1.22%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﭰ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER PEHEH INITIAL FORM<br>
+            unicode: U+FB70<br>
+            changed pixels: 1.22%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ڿ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER TCHEH WITH DOT ABOVE<br>
+            unicode: U+06BF<br>
+            changed pixels: 1.22%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ݲ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER HAH WITH SMALL ARABIC LETTER TAH ABOVE<br>
+            unicode: U+0772<br>
+            changed pixels: 1.22%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﳑ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE MEEM WITH MEEM INITIAL FORM<br>
+            unicode: U+FCD1<br>
+            changed pixels: 1.21%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﳭ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE LAM WITH MEEM MEDIAL FORM<br>
+            unicode: U+FCED<br>
+            changed pixels: 1.21%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ࢢ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER JEEM WITH TWO DOTS ABOVE<br>
+            unicode: U+08A2<br>
+            changed pixels: 1.21%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ٢<br>
+        <span class="tooltiptext">
+            name: ARABIC-INDIC DIGIT TWO<br>
+            unicode: U+0662<br>
+            changed pixels: 1.21%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ۲<br>
+        <span class="tooltiptext">
+            name: EXTENDED ARABIC-INDIC DIGIT TWO<br>
+            unicode: U+06F2<br>
+            changed pixels: 1.21%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ڄ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER DYEH<br>
+            unicode: U+0684<br>
+            changed pixels: 1.21%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ݘ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER HAH WITH THREE DOTS POINTING UPWARDS BELOW<br>
+            unicode: U+0758<br>
+            changed pixels: 1.21%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﭲ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER DYEH ISOLATED FORM<br>
+            unicode: U+FB72<br>
+            changed pixels: 1.21%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﳌ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE LAM WITH MEEM INITIAL FORM<br>
+            unicode: U+FCCC<br>
+            changed pixels: 1.20%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ݗ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER HAH WITH TWO DOTS ABOVE<br>
+            unicode: U+0757<br>
+            changed pixels: 1.20%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ۔<br>
+        <span class="tooltiptext">
+            name: ARABIC FULL STOP<br>
+            unicode: U+06D4<br>
+            changed pixels: 1.17%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﳣ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE TEH WITH MEEM MEDIAL FORM<br>
+            unicode: U+FCE3<br>
+            changed pixels: 1.17%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ݫ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER REH WITH TWO DOTS VERTICALLY ABOVE<br>
+            unicode: U+076B<br>
+            changed pixels: 1.16%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ۯ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER REH WITH INVERTED V<br>
+            unicode: U+06EF<br>
+            changed pixels: 1.16%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﴻ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE ZAH WITH MEEM MEDIAL FORM<br>
+            unicode: U+FD3B<br>
+            changed pixels: 1.15%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﴺ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE TAH WITH MEEM MEDIAL FORM<br>
+            unicode: U+FD3A<br>
+            changed pixels: 1.15%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﰮ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE FEH WITH HAH ISOLATED FORM<br>
+            unicode: U+FC2E<br>
+            changed pixels: 1.14%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﰭ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE FEH WITH JEEM ISOLATED FORM<br>
+            unicode: U+FC2D<br>
+            changed pixels: 1.14%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﲀ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE KAF WITH ALEF FINAL FORM<br>
+            unicode: U+FC80<br>
+            changed pixels: 1.14%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ٰ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER SUPERSCRIPT ALEF<br>
+            unicode: U+0670<br>
+            changed pixels: 1.14%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﭱ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER PEHEH MEDIAL FORM<br>
+            unicode: U+FB71<br>
+            changed pixels: 1.13%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ڧ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER QAF WITH DOT ABOVE<br>
+            unicode: U+06A7<br>
+            changed pixels: 1.12%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﲹ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE ZAH WITH MEEM INITIAL FORM<br>
+            unicode: U+FCB9<br>
+            changed pixels: 1.11%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ۨ<br>
+        <span class="tooltiptext">
+            name: ARABIC SMALL HIGH NOON<br>
+            unicode: U+06E8<br>
+            changed pixels: 1.11%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ۚ<br>
+        <span class="tooltiptext">
+            name: ARABIC SMALL HIGH JEEM<br>
+            unicode: U+06DA<br>
+            changed pixels: 1.10%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﷺ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM<br>
+            unicode: U+FDFA<br>
+            changed pixels: 1.10%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﴳ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE TAH WITH MEEM INITIAL FORM<br>
+            unicode: U+FD33<br>
+            changed pixels: 1.10%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﺔ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER TEH MARBUTA FINAL FORM<br>
+            unicode: U+FE94<br>
+            changed pixels: 1.10%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ࢧ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER MEEM WITH THREE DOTS ABOVE<br>
+            unicode: U+08A7<br>
+            changed pixels: 1.09%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ڂ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER HAH WITH TWO DOTS VERTICAL ABOVE<br>
+            unicode: U+0682<br>
+            changed pixels: 1.07%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﭾ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER TCHEHEH ISOLATED FORM<br>
+            unicode: U+FB7E<br>
+            changed pixels: 1.07%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ۠<br>
+        <span class="tooltiptext">
+            name: ARABIC SMALL HIGH UPRIGHT RECTANGULAR ZERO<br>
+            unicode: U+06E0<br>
+            changed pixels: 1.07%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ڇ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER TCHEHEH<br>
+            unicode: U+0687<br>
+            changed pixels: 1.07%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﱠ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE SHADDA WITH FATHA ISOLATED FORM<br>
+            unicode: U+FC60<br>
+            changed pixels: 1.07%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﱢ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE SHADDA WITH KASRA ISOLATED FORM<br>
+            unicode: U+FC62<br>
+            changed pixels: 1.07%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ۟<br>
+        <span class="tooltiptext">
+            name: ARABIC SMALL HIGH ROUNDED ZERO<br>
+            unicode: U+06DF<br>
+            changed pixels: 1.07%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ۃ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER TEH MARBUTA GOAL<br>
+            unicode: U+06C3<br>
+            changed pixels: 1.07%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ࣴ<br>
+        <span class="tooltiptext">
+            name: ARABIC FATHA WITH RING<br>
+            unicode: U+08F4<br>
+            changed pixels: 1.07%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ٘<br>
+        <span class="tooltiptext">
+            name: ARABIC MARK NOON GHUNNA<br>
+            unicode: U+0658<br>
+            changed pixels: 1.07%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﷼<br>
+        <span class="tooltiptext">
+            name: RIAL SIGN<br>
+            unicode: U+FDFC<br>
+            changed pixels: 1.06%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ݯ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER HAH WITH SMALL ARABIC LETTER TAH AND TWO DOTS<br>
+            unicode: U+076F<br>
+            changed pixels: 1.06%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﳙ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE HEH WITH SUPERSCRIPT ALEF INITIAL FORM<br>
+            unicode: U+FCD9<br>
+            changed pixels: 1.05%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﹹ<br>
+        <span class="tooltiptext">
+            name: ARABIC DAMMA MEDIAL FORM<br>
+            unicode: U+FE79<br>
+            changed pixels: 1.05%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ݼ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER HAH WITH EXTENDED ARABIC-INDIC DIGIT FOUR BELOW<br>
+            unicode: U+077C<br>
+            changed pixels: 1.05%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﮕ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER GAF MEDIAL FORM<br>
+            unicode: U+FB95<br>
+            changed pixels: 1.05%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ج<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER JEEM<br>
+            unicode: U+062C<br>
+            changed pixels: 1.05%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﺝ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER JEEM ISOLATED FORM<br>
+            unicode: U+FE9D<br>
+            changed pixels: 1.05%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﳁ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE FEH WITH MEEM INITIAL FORM<br>
+            unicode: U+FCC1<br>
+            changed pixels: 1.04%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﺡ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER HAH ISOLATED FORM<br>
+            unicode: U+FEA1<br>
+            changed pixels: 1.04%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        خ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER KHAH<br>
+            unicode: U+062E<br>
+            changed pixels: 1.04%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﺥ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER KHAH ISOLATED FORM<br>
+            unicode: U+FEA5<br>
+            changed pixels: 1.04%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ح<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER HAH<br>
+            unicode: U+062D<br>
+            changed pixels: 1.04%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﭬ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER VEH INITIAL FORM<br>
+            unicode: U+FB6C<br>
+            changed pixels: 1.03%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﮗ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER GUEH FINAL FORM<br>
+            unicode: U+FB97<br>
+            changed pixels: 1.01%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ݧ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER NOON WITH TWO DOTS BELOW<br>
+            unicode: U+0767<br>
+            changed pixels: 1.00%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﯠ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER KIRGHIZ OE ISOLATED FORM<br>
+            unicode: U+FBE0<br>
+            changed pixels: 1.00%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ۅ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER KIRGHIZ OE<br>
+            unicode: U+06C5<br>
+            changed pixels: 1.00%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ݳ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER ALEF WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE<br>
+            unicode: U+0773<br>
+            changed pixels: 1.00%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﻗ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER QAF INITIAL FORM<br>
+            unicode: U+FED7<br>
+            changed pixels: 0.99%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ࢤ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER FEH WITH DOT BELOW AND THREE DOTS ABOVE<br>
+            unicode: U+08A4<br>
+            changed pixels: 0.99%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﯙ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER OE ISOLATED FORM<br>
+            unicode: U+FBD9<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﯗ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER U ISOLATED FORM<br>
+            unicode: U+FBD7<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ۈ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER YU<br>
+            unicode: U+06C8<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﯛ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER YU ISOLATED FORM<br>
+            unicode: U+FBDB<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ۇ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER U<br>
+            unicode: U+06C7<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﲚ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH MEEM INITIAL FORM<br>
+            unicode: U+FC9A<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﳟ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH MEEM MEDIAL FORM<br>
+            unicode: U+FCDF<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ۆ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER OE<br>
+            unicode: U+06C6<br>
+            changed pixels: 0.98%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﲟ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE BEH WITH MEEM INITIAL FORM<br>
+            unicode: U+FC9F<br>
+            changed pixels: 0.97%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﳡ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE BEH WITH MEEM MEDIAL FORM<br>
+            unicode: U+FCE1<br>
+            changed pixels: 0.97%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﳕ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE NOON WITH MEEM INITIAL FORM<br>
+            unicode: U+FCD5<br>
+            changed pixels: 0.97%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ݸ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER WAW WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE<br>
+            unicode: U+0778<br>
+            changed pixels: 0.97%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﰺ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE KAF WITH KHAH ISOLATED FORM<br>
+            unicode: U+FC3A<br>
+            changed pixels: 0.96%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ࣩ<br>
+        <span class="tooltiptext">
+            name: ARABIC CURLY KASRATAN<br>
+            unicode: U+08E9<br>
+            changed pixels: 0.96%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﯦ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER E INITIAL FORM<br>
+            unicode: U+FBE6<br>
+            changed pixels: 0.96%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﭪ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER VEH ISOLATED FORM<br>
+            unicode: U+FB6A<br>
+            changed pixels: 0.96%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﳮ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE NOON WITH MEEM MEDIAL FORM<br>
+            unicode: U+FCEE<br>
+            changed pixels: 0.96%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﶇ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE LAM WITH MEEM WITH HAH FINAL FORM<br>
+            unicode: U+FD87<br>
+            changed pixels: 0.96%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ڤ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER VEH<br>
+            unicode: U+06A4<br>
+            changed pixels: 0.96%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﻼ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE LAM WITH ALEF FINAL FORM<br>
+            unicode: U+FEFC<br>
+            changed pixels: 0.94%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﻺ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW FINAL FORM<br>
+            unicode: U+FEFA<br>
+            changed pixels: 0.94%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﻸ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE FINAL FORM<br>
+            unicode: U+FEF8<br>
+            changed pixels: 0.94%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ڨ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER QAF WITH THREE DOTS ABOVE<br>
+            unicode: U+06A8<br>
+            changed pixels: 0.93%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﶝ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE YEH WITH MEEM WITH MEEM INITIAL FORM<br>
+            unicode: U+FD9D<br>
+            changed pixels: 0.93%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ٯ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER DOTLESS QAF<br>
+            unicode: U+066F<br>
+            changed pixels: 0.93%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﭑ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER ALEF WASLA FINAL FORM<br>
+            unicode: U+FB51<br>
+            changed pixels: 0.93%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﶔ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE HEH WITH MEEM WITH MEEM INITIAL FORM<br>
+            unicode: U+FD94<br>
+            changed pixels: 0.93%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﲤ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE TEH WITH MEEM INITIAL FORM<br>
+            unicode: U+FCA4<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﳥ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE THEH WITH MEEM MEDIAL FORM<br>
+            unicode: U+FCE5<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﲨ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE JEEM WITH MEEM INITIAL FORM<br>
+            unicode: U+FCA8<br>
+            changed pixels: 0.92%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ڗ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER REH WITH TWO DOTS ABOVE<br>
+            unicode: U+0697<br>
+            changed pixels: 0.91%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ڕ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER REH WITH SMALL V BELOW<br>
+            unicode: U+0695<br>
+            changed pixels: 0.91%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ݹ<br>
+        <span class="tooltiptext">
+            name: ARABIC LETTER WAW WITH EXTENDED ARABIC-INDIC DIGIT THREE ABOVE<br>
+            unicode: U+0779<br>
+            changed pixels: 0.91%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ﲦ<br>
+        <span class="tooltiptext">
+            name: ARABIC LIGATURE THEH WITH MEEM INITIAL FORM<br>
+            unicode: U+FCA6<br>
+            changed pixels: 0.90%
+        </span>
+    </div>
+</div>
+            </div>
+          
+          </div>
+      </div>
+    
+
+    
+      <div class="box">
+        <div class="box-title">Misshapen Common words</div>
+        <div class="box-text old-Medium" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Arabic words</div>
+        <div class="box-text old-Medium" style="font-size: 32pt">
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        أَحَقُّ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=359, pos=(0, 0, 649, 0)<br>gid=1437, pos=(-319, 158, 0, 0)<br>gid=1430, pos=(-324, 162, 0, 0)<br>gid=137, pos=(0, 0, 642, 0)<br>gid=1426, pos=(-390, 148, 0, 0)<br>gid=7, pos=(0, 0, 253, 0)<br>gid=1426, pos=(-224, 336, 0, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=359, pos=(0, 0, 649, 0)<br>gid=1437, pos=(-319, 158, 0, 0)<br>gid=1430, pos=(-324, 162, 0, 0)<br>gid=137, pos=(0, 0, 642, 0)<br>gid=1426, pos=(-390, 148, 0, 0)<br>gid=7, pos=(0, 0, 253, 0)<br>gid=1426, pos=(-224, 336, 0, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.46%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        أسطر٬<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1260, pos=(0, 0, 189, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1260, pos=(0, 0, 189, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.43%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        أَفْخَمَ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=485, pos=(0, 0, 493, 0)<br>gid=1426, pos=(-350, 102, 0, 0)<br>gid=161, pos=(0, 0, 642, 0)<br>gid=1426, pos=(-393, 192, 0, 0)<br>gid=323, pos=(0, 0, 848, 0)<br>gid=1446, pos=(-297, 289, 0, 0)<br>gid=7, pos=(0, 0, 253, 0)<br>gid=1426, pos=(-224, 336, 0, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=485, pos=(0, 0, 493, 0)<br>gid=1426, pos=(-350, 102, 0, 0)<br>gid=161, pos=(0, 0, 642, 0)<br>gid=1426, pos=(-393, 192, 0, 0)<br>gid=323, pos=(0, 0, 848, 0)<br>gid=1446, pos=(-297, 289, 0, 0)<br>gid=7, pos=(0, 0, 253, 0)<br>gid=1426, pos=(-224, 336, 0, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.34%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        أُفُقٍ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=359, pos=(0, 0, 649, 0)<br>gid=1422, pos=(-465, -321, 0, 0)<br>gid=323, pos=(0, 0, 848, 0)<br>gid=1430, pos=(-305, 304, 0, 0)<br>gid=7, pos=(0, 0, 253, 0)<br>gid=1430, pos=(-208, 344, 0, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=359, pos=(0, 0, 649, 0)<br>gid=1422, pos=(-465, -321, 0, 0)<br>gid=323, pos=(0, 0, 848, 0)<br>gid=1430, pos=(-305, 304, 0, 0)<br>gid=7, pos=(0, 0, 253, 0)<br>gid=1430, pos=(-208, 344, 0, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.23%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        أجڭال<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=445, pos=(0, 0, 601, 0)<br>gid=3, pos=(0, 0, 253, 0)<br>gid=433, pos=(0, 0, 578, 0)<br>gid=113, pos=(0, 0, 642, 0)<br>gid=7, pos=(0, 0, 253, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=445, pos=(0, 0, 601, 0)<br>gid=3, pos=(0, 0, 253, 0)<br>gid=433, pos=(0, 0, 578, 0)<br>gid=113, pos=(0, 0, 642, 0)<br>gid=7, pos=(0, 0, 253, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.14%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        أَيَّامٍ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=485, pos=(0, 0, 493, 0)<br>gid=1422, pos=(-277, -102, 0, 0)<br>gid=3, pos=(0, 0, 253, 0)<br>gid=581, pos=(0, 0, 624, 0)<br>gid=1437, pos=(-486, -193, 0, 0)<br>gid=1426, pos=(-507, -197, 0, 0)<br>gid=7, pos=(0, 0, 253, 0)<br>gid=1426, pos=(-224, 336, 0, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=485, pos=(0, 0, 493, 0)<br>gid=1422, pos=(-277, -102, 0, 0)<br>gid=3, pos=(0, 0, 253, 0)<br>gid=581, pos=(0, 0, 624, 0)<br>gid=1437, pos=(-486, -193, 0, 0)<br>gid=1426, pos=(-507, -197, 0, 0)<br>gid=7, pos=(0, 0, 253, 0)<br>gid=1426, pos=(-224, 336, 0, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.05%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        آنفًا،<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1348, pos=(0, 0, 228, 0)<br>gid=3, pos=(0, 0, 253, 0)<br>gid=323, pos=(0, 0, 848, 0)<br>gid=1414, pos=(-316, 288, 0, 0)<br>gid=493, pos=(0, 0, 592, 0)<br>gid=19, pos=(0, 0, 239, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1348, pos=(0, 0, 228, 0)<br>gid=3, pos=(0, 0, 253, 0)<br>gid=323, pos=(0, 0, 848, 0)<br>gid=1414, pos=(-316, 288, 0, 0)<br>gid=493, pos=(0, 0, 592, 0)<br>gid=19, pos=(0, 0, 239, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.04%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        أُلوفٌ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=323, pos=(0, 0, 848, 0)<br>gid=1418, pos=(-319, 302, 0, 0)<br>gid=542, pos=(0, 0, 478, 0)<br>gid=445, pos=(0, 0, 601, 0)<br>gid=7, pos=(0, 0, 253, 0)<br>gid=1430, pos=(-208, 344, 0, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=323, pos=(0, 0, 848, 0)<br>gid=1418, pos=(-319, 302, 0, 0)<br>gid=542, pos=(0, 0, 478, 0)<br>gid=445, pos=(0, 0, 601, 0)<br>gid=7, pos=(0, 0, 253, 0)<br>gid=1430, pos=(-208, 344, 0, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        أحَدُكُمْ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=485, pos=(0, 0, 493, 0)<br>gid=1446, pos=(-326, 95, 0, 0)<br>gid=371, pos=(0, 0, 578, 0)<br>gid=1430, pos=(-410, 11, 0, 0)<br>gid=181, pos=(0, 0, 421, 0)<br>gid=1430, pos=(-273, 167, 0, 0)<br>gid=137, pos=(0, 0, 642, 0)<br>gid=1426, pos=(-390, 148, 0, 0)<br>gid=7, pos=(0, 0, 253, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=485, pos=(0, 0, 493, 0)<br>gid=1446, pos=(-326, 95, 0, 0)<br>gid=371, pos=(0, 0, 578, 0)<br>gid=1430, pos=(-410, 11, 0, 0)<br>gid=181, pos=(0, 0, 421, 0)<br>gid=1430, pos=(-273, 167, 0, 0)<br>gid=137, pos=(0, 0, 642, 0)<br>gid=1426, pos=(-390, 148, 0, 0)<br>gid=7, pos=(0, 0, 253, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.00%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        أخافُ<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=323, pos=(0, 0, 848, 0)<br>gid=1430, pos=(-305, 304, 0, 0)<br>gid=3, pos=(0, 0, 253, 0)<br>gid=161, pos=(0, 0, 642, 0)<br>gid=7, pos=(0, 0, 253, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=323, pos=(0, 0, 848, 0)<br>gid=1430, pos=(-305, 304, 0, 0)<br>gid=3, pos=(0, 0, 253, 0)<br>gid=161, pos=(0, 0, 642, 0)<br>gid=7, pos=(0, 0, 253, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.98%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        حَقٌّ،<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=1348, pos=(0, 0, 228, 0)<br>gid=359, pos=(0, 0, 649, 0)<br>gid=1437, pos=(-319, 158, 0, 0)<br>gid=1418, pos=(-338, 160, 0, 0)<br>gid=137, pos=(0, 0, 642, 0)<br>gid=1426, pos=(-390, 148, 0, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=1348, pos=(0, 0, 228, 0)<br>gid=359, pos=(0, 0, 649, 0)<br>gid=1437, pos=(-319, 158, 0, 0)<br>gid=1418, pos=(-338, 160, 0, 0)<br>gid=137, pos=(0, 0, 642, 0)<br>gid=1426, pos=(-390, 148, 0, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 0.97%
+        </div>
+        </span>
+    </div>
+</div>
+          
+        </div>
+      </div>
+    
+    
+    <div class="box">
+      <div class="box-title">Misshapen user strings</div>
+      <div class="box-text old-Medium" style="font-size: 32pt">
+        
+      </div>
+    </div>
+    
+
+    
+
+    </div>
+  
+<script>var fontdiff = {"hmtx": {"metrics": {"error": ["There are 1435 changes, check manually!", ""]}}, "head": {"checkSumAdjustment": [2138000556, 2945496217], "xMin": [-232, -233], "modified": [3742208940, 3789111196], "yMin": [-419, -406], "fontRevision": [2.014007568359375, 2.0160064697265625], "created": [3705257270, 3552643851], "xMax": [6093, 6144], "yMax": [1191, 1194]}, "GDEF": {"table": {"GlyphClassDef": {"classDefs": {"uniFEDF_uniFEE0_uniFEEA": [2, null], "uniFEB3_uniFBB6_uniFBB7": [2, null], "uniFEFC_uniFBB2": [2, null], "uni06B70675": [null, 2], "uniFEFB_uni065F": [2, null], "uni06B50773": [null, 2], "uni06B5_uni0773": [2, null], "uni064F0654": [null, 3], "uni06B70773": [null, 2], "uniFEFBFBB6": [null, 2], "uni0651_uni0670": [3, null], "uni06B7_uni0774": [2, null], "uniFEFC_uniFBB6": [2, null], "uniFEFCFBB2": [null, 2], "uni064E0651": [null, 3], "uniFEA4_uniFBB4_uniFBB3": [2, null], "uni064D_uni0651": [3, null], "uni064E0654": [null, 3], "uniFEFC0774": [null, 2], "uni06B8_uni0773": [2, null], "uni064B0654": [null, 3], "uniFEFBFBB7": [null, 2], "uni064C_uni0651": [3, null], "uni06B80773": [null, 2], "uni0650_uni0655": [3, null], "uniFEE0FB51": [null, 2], "uni06B50774": [null, 2], "uniFEA4FBB4FBB3": [null, 2], "uni064C_uni0654": [3, null], "uni06510670": [null, 3], "uniFEFC_uniFBB7": [2, null], "uni06B5_uni0675": [2, null], "uni06B6_uni0627": [2, null], "uni06B8_uni0774": [2, null], "uni06B60627": [null, 2], "uniFEFC0773": [null, 2], "uni06B6_uni0773": [2, null], "uniFEFB_uni065A": [2, null], "uniFEC4FBB4": [null, 2], "uni06540652": [null, 3], "uniFEE0065A.rlig": [null, 1], "uniFEA4_uniFBBD": [2, null], "uniFEA4FBBD": [null, 2], "uniFEFC_uni0774": [2, null], "uniFEFC065F": [null, 2], "uni064F_uni0651": [3, null], "uni06B70774": [null, 2], "uniFEFB065F": [null, 2], "uni06B60675": [null, 2], "uniFEFB_uniFBB6": [2, null], "uni064E_uni0651": [3, null], "uni06500655": [null, 3], "uniFEDF_uniFB51": [2, null], "uni06B7_uni0773": [2, null], "uni06500651": [null, 3], "uni0654_uni0652": [3, null], "uni064F_uni0654": [3, null], "uni064C0651": [null, 3], "uni06B80774": [null, 2], "uni064B_uni0654": [3, null], "uniFEFC_uni065F": [2, null], "uniFEDFFB51": [null, 2], "uni064F0651": [null, 3], "uniFEE0_uni065A.rlig": [1, null], "uniFEFCFBB6": [null, 2], "uni06B80675": [null, 2], "uniFEFC_uni065A": [2, null], "uni06B5_uni0774": [2, null], "uni064D0655": [null, 3], "uniFEFB_uni0654": [2, null], "uniFEFC_uni0675": [2, null], "uniFDF2.001": [1, 2], "uni06B6_uni0774": [2, null], "uni06B50675": [null, 2], "uni064C0654": [null, 3], "uniFEDFFEE0FEEA": [null, 2], "uniFEB3FBB6FBB7": [null, 2], "uniFEE0_uniFB51": [2, null], "uni06B7_uni0675": [2, null], "uni064B0651": [null, 3], "uni064D0651": [null, 3], "uni06B60774": [null, 2], "uniFEFCFBB7": [null, 2], "uni0650_uni0651": [3, null], "uni064B_uni0651": [3, null], "uniFEFC0675": [null, 2], "uniFEC4_uniFBB4": [2, null], "uniFEFB0654": [null, 2], "uni064D_uni0655": [3, null], "uni064E_uni0654": [3, null], "uniFEFC_uni0773": [2, null], "uniFEFC065A": [null, 2], "uni06B6_uni0675": [2, null], "uniFEFB065A": [null, 2], "uniFEFB_uniFBB7": [2, null], "uni06B8_uni0675": [2, null], "uni06B60773": [null, 2]}}, "Version": [65539, 65538], "MarkGlyphSetsDef": {"Coverage": {"0": {"glyphs": {"5": ["uni064D_uni0655", "uni064D0655"], "7": ["uni0650_uni0655", "uni06500655"]}}, "1": {"glyphs": {"3": ["uni064D_uni0655", "uni064D0655"], "5": ["uni0650_uni0655", "uni06500655"]}}, "2": {"glyphs": {"12": ["uni0654_uni0652", "uni06540652"], "14": ["uni064B_uni0654", "uni064B0654"], "15": ["uni064B_uni0651", "uni064B0651"], "17": ["uni064C_uni0654", "uni064C0654"], "18": ["uni064C_uni0651", "uni064C0651"], "19": ["uni064D_uni0651", "uni064D0651"], "21": ["uni064E_uni0654", "uni064E0654"], "22": ["uni064E_uni0651", "uni064E0651"], "24": ["uni064F_uni0654", "uni064F0654"], "25": ["uni064F_uni0651", "uni064F0651"], "26": ["uni0650_uni0651", "uni06500651"], "28": ["uni0651_uni0670", "uni06510670"]}}, "3": {"glyphs": {"10": ["uni0654_uni0652", "uni0670"], "11": ["uni064B", "uni06540652"], "12": ["uni064B_uni0654", "uni064B"], "13": ["uni064B_uni0651", "uni064B0654"], "14": ["uni064C", "uni064B0651"], "15": ["uni064C_uni0654", "uni064C"], "16": ["uni064C_uni0651", "uni064C0654"], "17": ["uni064D_uni0651", "uni064C0651"], "18": ["uni064E_uni0654", "uni064D0651"], "19": ["uni064E_uni0651", "uni064E0654"], "20": ["uni064F", "uni064E0651"], "21": ["uni064F_uni0654", "uni064F"], "22": ["uni064F_uni0651", "uni064F0654"], "23": ["uni0650_uni0651", "uni064F0651"], "24": ["uni0651", "uni06500651"], "25": ["uni0651_uni0670", "uni0651"], "26": ["uni0652", "uni06510670"], "27": ["uni0658", "uni0652"], "28": ["uni0657", "uni0658"], "29": ["uni0659", "uni0657"], "30": ["uni065D", "uni0659"], "31": ["uni06DF", "uni065D"], "32": ["uni06E0", "uni06DF"], "33": ["uni06E1", "uni06E0"], "34": ["uni06E4", "uni06E1"], "35": ["uni06E7", "uni06E4"], "36": ["uni06E8", "uni06E7"], "37": ["uni06EB", "uni06E8"], "38": ["uni06EC", "uni06EB"], "39": ["uni08E5", "uni06EC"], "40": ["uni08E8", "uni08E5"], "41": ["uni08EA", "uni08E8"], "42": ["uni08EC", "uni08EA"], "43": ["uni08ED", "uni08EC"], "44": ["uni08EF", "uni08ED"], "45": ["uni08F1", "uni08EF"], "46": ["uni08F4", "uni08F1"], "47": ["uni08F7", "uni08F4"], "48": ["uni08F8", "uni08F7"], "49": ["uni08FB", "uni08F8"], "50": ["uni08FC", "uni08FB"], "51": ["uni08FD", "uni08FC"], "52": ["uni08FE", "uni08FD"], "53": [null, "uni08FE"]}}}}, "VarStore": {"Format": [1, null], "VarRegionList": {"RegionAxisCount": [1, null], "RegionCount": [1, null], "Region": {"0": {"VarRegionAxis": {"0": {"StartCoord": [0.0, null], "PeakCoord": [1.0, null], "EndCoord": [1.0, null]}}}}}, "VarDataCount": [2, null], "VarData": {"0": {"ItemCount": [119, null], "NumShorts": [0, null], "VarRegionCount": [1, null], "VarRegionIndex": {"0": [0, null]}, "Item": {"0": {"0": [-92, null]}, "1": {"0": [-82, null]}, "2": {"0": [-43, null]}, "3": {"0": [-35, null]}, "4": {"0": [-33, null]}, "5": {"0": [-26, null]}, "6": {"0": [-25, null]}, "7": {"0": [-23, null]}, "8": {"0": [-21, null]}, "9": {"0": [-20, null]}, "10": {"0": [-19, null]}, "11": {"0": [-18, null]}, "12": {"0": [-17, null]}, "13": {"0": [-16, null]}, "14": {"0": [-15, null]}, "15": {"0": [-14, null]}, "16": {"0": [-13, null]}, "17": {"0": [-12, null]}, "18": {"0": [-11, null]}, "19": {"0": [-10, null]}, "20": {"0": [-9, null]}, "21": {"0": [-8, null]}, "22": {"0": [-7, null]}, "23": {"0": [-6, null]}, "24": {"0": [-5, null]}, "25": {"0": [-4, null]}, "26": {"0": [-3, null]}, "27": {"0": [-2, null]}, "28": {"0": [-1, null]}, "29": {"0": [1, null]}, "30": {"0": [2, null]}, "31": {"0": [3, null]}, "32": {"0": [4, null]}, "33": {"0": [5, null]}, "34": {"0": [6, null]}, "35": {"0": [7, null]}, "36": {"0": [8, null]}, "37": {"0": [9, null]}, "38": {"0": [10, null]}, "39": {"0": [11, null]}, "40": {"0": [12, null]}, "41": {"0": [13, null]}, "42": {"0": [14, null]}, "43": {"0": [15, null]}, "44": {"0": [16, null]}, "45": {"0": [17, null]}, "46": {"0": [18, null]}, "47": {"0": [19, null]}, "48": {"0": [20, null]}, "49": {"0": [21, null]}, "50": {"0": [22, null]}, "51": {"0": [23, null]}, "52": {"0": [24, null]}, "53": {"0": [25, null]}, "54": {"0": [26, null]}, "55": {"0": [27, null]}, "56": {"0": [28, null]}, "57": {"0": [29, null]}, "58": {"0": [30, null]}, "59": {"0": [31, null]}, "60": {"0": [32, null]}, "61": {"0": [33, null]}, "62": {"0": [34, null]}, "63": {"0": [35, null]}, "64": {"0": [36, null]}, "65": {"0": [37, null]}, "66": {"0": [38, null]}, "67": {"0": [39, null]}, "68": {"0": [40, null]}, "69": {"0": [41, null]}, "70": {"0": [42, null]}, "71": {"0": [43, null]}, "72": {"0": [44, null]}, "73": {"0": [45, null]}, "74": {"0": [46, null]}, "75": {"0": [47, null]}, "76": {"0": [48, null]}, "77": {"0": [49, null]}, "78": {"0": [50, null]}, "79": {"0": [51, null]}, "80": {"0": [52, null]}, "81": {"0": [53, null]}, "82": {"0": [54, null]}, "83": {"0": [55, null]}, "84": {"0": [56, null]}, "85": {"0": [57, null]}, "86": {"0": [58, null]}, "87": {"0": [59, null]}, "88": {"0": [60, null]}, "89": {"0": [61, null]}, "90": {"0": [62, null]}, "91": {"0": [63, null]}, "92": {"0": [64, null]}, "93": {"0": [65, null]}, "94": {"0": [66, null]}, "95": {"0": [67, null]}, "96": {"0": [69, null]}, "97": {"0": [70, null]}, "98": {"0": [71, null]}, "99": {"0": [72, null]}, "100": {"0": [73, null]}, "101": {"0": [74, null]}, "102": {"0": [75, null]}, "103": {"0": [77, null]}, "104": {"0": [78, null]}, "105": {"0": [79, null]}, "106": {"0": [80, null]}, "107": {"0": [81, null]}, "108": {"0": [82, null]}, "109": {"0": [84, null]}, "110": {"0": [86, null]}, "111": {"0": [87, null]}, "112": {"0": [88, null]}, "113": {"0": [89, null]}, "114": {"0": [95, null]}, "115": {"0": [96, null]}, "116": {"0": [101, null]}, "117": {"0": [102, null]}, "118": {"0": [123, null]}}}, "1": {"ItemCount": [2, null], "NumShorts": [1, null], "VarRegionCount": [1, null], "VarRegionIndex": {"0": [0, null]}, "Item": {"0": {"0": [-140, null]}, "1": {"0": [136, null]}}}}}}}, "maxp": {"maxPoints": [1100, 1031], "maxCompositePoints": [289, 266]}, "name": {"267/3/1/1033": ["Medium", null], "267/1/0/0": ["Medium", null], "3/3/1/1033": ["2.014;GOOG;NotoNaskhArabicUI-Regular", "2.016;GOOG;NotoNaskhArabicUI-Medium"], "269/1/0/0": ["Bold", null], "269/3/1/1033": ["Bold", null], "257/3/1/1033": ["Regular", null], "16/3/1/1033": [null, "Noto Naskh Arabic UI"], "17/3/1/1033": [null, "Medium"], "265/3/1/1033": ["SemiBold", null], "260/3/1/1033": ["Bold", null], "266/3/1/1033": ["Regular", null], "5/3/1/1033": ["Version 2.014", "Version 2.016"], "4/3/1/1033": ["Noto Naskh Arabic UI Regular", "Noto Naskh Arabic UI Medium"], "1/3/1/1033": ["Noto Naskh Arabic UI", "Noto Naskh Arabic UI Medium"], "6/3/1/1033": ["NotoNaskhArabicUI-Regular", "NotoNaskhArabicUI-Medium"], "268/3/1/1033": ["SemiBold", null], "256/3/1/1033": ["Weight", null], "25/3/1/1033": ["NotoNaskhArabicUI", null], "258/3/1/1033": ["Medium", null], "268/1/0/0": ["SemiBold", null], "266/1/0/0": ["Regular", null]}, "STAT": {"axis values": {"Regular": {"format": [3, null], "AxisIndex": [0, null], "Flags": [2, null], "Value": [400.0, null]}, "Medium": {"format": [1, null], "AxisIndex": [0, null], "Flags": [0, null], "Value": [500.0, null]}, "SemiBold": {"format": [1, null], "AxisIndex": [0, null], "Flags": [0, null], "Value": [600.0, null]}, "Bold": {"format": [1, null], "AxisIndex": [0, null], "Flags": [0, null], "Value": [700.0, null]}}, "design axis records": {"wght": {"order": [0, null], "AxisName": ["Weight", null]}}}, "gvar": {"tableTag": ["gvar", null], "version": [1, null], "reserved": [0, null], "axisCount": [1, null], "sharedTupleCount": [1, null], "offsetToSharedTuples": [3250, null], "glyphCount": [1614, null], "flags": [0, null], "offsetToGlyphVariationData": [3252, null]}, "post": {"extraNames": {"745": ["uniFEFC_uni0675", "uniFEFC0675"], "746": ["uniFEFC_uni0773", "uniFEFC0773"], "747": ["uniFEFC_uni0774", "uniFEFC0774"], "748": ["uniFEFC_uniFBB2", "uniFEFCFBB2"], "749": ["uniFEFB_uniFBB6", "uniFEFBFBB6"], "750": ["uniFEFC_uniFBB6", "uniFEFCFBB6"], "751": ["uniFEFB_uniFBB7", "uniFEFBFBB7"], "752": ["uniFEFC_uniFBB7", "uniFEFCFBB7"], "759": ["uniFEDF_uniFB51", "uniFEDFFB51"], "760": ["uniFEE0_uniFB51", "uniFEE0FB51"], "853": ["uniFEA4_uniFBBD", "uniFEA4FBBD"], "854": ["uniFEA4_uniFBB4_uniFBB3", "uniFEA4FBB4FBB3"], "894": ["uniFEB3_uniFBB6_uniFBB7", "uniFEB3FBB6FBB7"], "975": ["uniFEC4_uniFBB4", "uniFEC4FBB4"], "1071": ["uniFEDF_uniFEE0_uniFEEA", "uniFEDFFEE0FEEA"], "1084": ["uni06B5_uni0675", "uni06B50675"], "1085": ["uni06B5_uni0773", "uni06B50773"], "1086": ["uni06B5_uni0774", "uni06B50774"], "1087": ["uni06B6_uni0627", "uni06B60627"], "1088": ["uni06B6_uni0675", "uni06B60675"], "1089": ["uni06B6_uni0773", "uni06B60773"], "1090": ["uni06B6_uni0774", "uni06B60774"], "1091": ["uni06B7_uni0675", "uni06B70675"], "1092": ["uni06B7_uni0773", "uni06B70773"], "1093": ["uni06B7_uni0774", "uni06B70774"], "1094": ["uni06B8_uni0675", "uni06B80675"], "1095": ["uni06B8_uni0773", "uni06B80773"], "1096": ["uni06B8_uni0774", "uni06B80774"], "1229": ["uniFEFB_uni065F", "uniFEFB065F"], "1230": ["uniFEFC_uni065F", "uniFEFC065F"], "1231": ["uniFEFB_uni0654", "uniFEFB0654"], "1232": ["uniFEFB_uni065A", "uniFEFB065A"], "1233": ["uniFEFC_uni065A", "uniFEFC065A"], "1234": ["uniFEE0_uni065A.rlig", "uniFEE0065A.rlig"], "1411": ["uni0654_uni0652", "uni06540652"], "1414": ["uni064B_uni0654", "uni064B0654"], "1415": ["uni064B_uni0651", "uni064B0651"], "1418": ["uni064C_uni0654", "uni064C0654"], "1419": ["uni064C_uni0651", "uni064C0651"], "1422": ["uni064D_uni0655", "uni064D0655"], "1423": ["uni064D_uni0651", "uni064D0651"], "1426": ["uni064E_uni0654", "uni064E0654"], "1427": ["uni064E_uni0651", "uni064E0651"], "1430": ["uni064F_uni0654", "uni064F0654"], "1431": ["uni064F_uni0651", "uni064F0651"], "1434": ["uni0650_uni0655", "uni06500655"], "1435": ["uni0650_uni0651", "uni06500651"], "1437": ["uni0651_uni0670", "uni06510670"]}}, "fvar": {"axes": {"wght": {"minValue": [400.0, null], "maxValue": [700.0, null], "defaultValue": [400.0, null], "axisName": ["Weight", null]}}, "instances": {"Regular": {"coordinates": {"wght": [400.0, null]}, "flags": [0, null]}, "Medium": {"coordinates": {"wght": [500.0, null]}, "flags": [0, null]}, "SemiBold": {"coordinates": {"wght": [600.0, null]}, "flags": [0, null]}, "Bold": {"coordinates": {"wght": [700.0, null]}, "flags": [0, null]}}}, "glyf": {"glyphOrder": {"746": ["uniFEFC_uni0675", "uniFEFC0675"], "747": ["uniFEFC_uni0773", "uniFEFC0773"], "748": ["uniFEFC_uni0774", "uniFEFC0774"], "749": ["uniFEFC_uniFBB2", "uniFEFCFBB2"], "750": ["uniFEFB_uniFBB6", "uniFEFBFBB6"], "751": ["uniFEFC_uniFBB6", "uniFEFCFBB6"], "752": ["uniFEFB_uniFBB7", "uniFEFBFBB7"], "753": ["uniFEFC_uniFBB7", "uniFEFCFBB7"], "760": ["uniFEDF_uniFB51", "uniFEDFFB51"], "761": ["uniFEE0_uniFB51", "uniFEE0FB51"], "854": ["uniFEA4_uniFBBD", "uniFEA4FBBD"], "855": ["uniFEA4_uniFBB4_uniFBB3", "uniFEA4FBB4FBB3"], "895": ["uniFEB3_uniFBB6_uniFBB7", "uniFEB3FBB6FBB7"], "976": ["uniFEC4_uniFBB4", "uniFEC4FBB4"], "1072": ["uniFEDF_uniFEE0_uniFEEA", "uniFEDFFEE0FEEA"], "1085": ["uni06B5_uni0675", "uni06B50675"], "1086": ["uni06B5_uni0773", "uni06B50773"], "1087": ["uni06B5_uni0774", "uni06B50774"], "1088": ["uni06B6_uni0627", "uni06B60627"], "1089": ["uni06B6_uni0675", "uni06B60675"], "1090": ["uni06B6_uni0773", "uni06B60773"], "1091": ["uni06B6_uni0774", "uni06B60774"], "1092": ["uni06B7_uni0675", "uni06B70675"], "1093": ["uni06B7_uni0773", "uni06B70773"], "1094": ["uni06B7_uni0774", "uni06B70774"], "1095": ["uni06B8_uni0675", "uni06B80675"], "1096": ["uni06B8_uni0773", "uni06B80773"], "1097": ["uni06B8_uni0774", "uni06B80774"], "1230": ["uniFEFB_uni065F", "uniFEFB065F"], "1231": ["uniFEFC_uni065F", "uniFEFC065F"], "1232": ["uniFEFB_uni0654", "uniFEFB0654"], "1233": ["uniFEFB_uni065A", "uniFEFB065A"], "1234": ["uniFEFC_uni065A", "uniFEFC065A"], "1235": ["uniFEE0_uni065A.rlig", "uniFEE0065A.rlig"], "1412": ["uni0654_uni0652", "uni06540652"], "1415": ["uni064B_uni0654", "uni064B0654"], "1416": ["uni064B_uni0651", "uni064B0651"], "1419": ["uni064C_uni0654", "uni064C0654"], "1420": ["uni064C_uni0651", "uni064C0651"], "1423": ["uni064D_uni0655", "uni064D0655"], "1424": ["uni064D_uni0651", "uni064D0651"], "1427": ["uni064E_uni0654", "uni064E0654"], "1428": ["uni064E_uni0651", "uni064E0651"], "1431": ["uni064F_uni0654", "uni064F0654"], "1432": ["uni064F_uni0651", "uni064F0651"], "1435": ["uni0650_uni0655", "uni06500655"], "1436": ["uni0650_uni0651", "uni06500651"], "1438": ["uni0651_uni0670", "uni06510670"]}, "axisTags": {"0": ["wght", null]}, "glyphs": {"error": ["There are 1527 changes, check manually!", ""]}, "_reverseGlyphOrder": {"uniFEDF_uniFEE0_uniFEEA": [1072, null], "uniFEB3_uniFBB6_uniFBB7": [895, null], "uniFEFC_uniFBB2": [749, null], "uni06B70675": [null, 1092], "uniFEFB_uni065F": [1230, null], "uni06B50773": [null, 1086], "uni06B5_uni0773": [1086, null], "uni064F0654": [null, 1431], "uni06B70773": [null, 1093], "uniFEFBFBB6": [null, 750], "uni0651_uni0670": [1438, null], "uni06B7_uni0774": [1094, null], "uniFEFC_uniFBB6": [751, null], "uniFEFCFBB2": [null, 749], "uni064E0651": [null, 1428], "uniFEA4_uniFBB4_uniFBB3": [855, null], "uni064D_uni0651": [1424, null], "uni064E0654": [null, 1427], "uniFEFC0774": [null, 748], "uni06B8_uni0773": [1096, null], "uni064B0654": [null, 1415], "uniFEFBFBB7": [null, 752], "uni064C_uni0651": [1420, null], "uni06B80773": [null, 1096], "uni0650_uni0655": [1435, null], "uniFEE0FB51": [null, 761], "uni06B50774": [null, 1087], "uniFEA4FBB4FBB3": [null, 855], "uni064C_uni0654": [1419, null], "uni06510670": [null, 1438], "uniFEFC_uniFBB7": [753, null], "uni06B5_uni0675": [1085, null], "uni06B6_uni0627": [1088, null], "uni06B8_uni0774": [1097, null], "uni06B60627": [null, 1088], "uniFEFC0773": [null, 747], "uni06B6_uni0773": [1090, null], "uniFEFB_uni065A": [1233, null], "uniFEC4FBB4": [null, 976], "uni06540652": [null, 1412], "uniFEE0065A.rlig": [null, 1235], "uniFEA4_uniFBBD": [854, null], "uniFEA4FBBD": [null, 854], "uniFEFC_uni0774": [748, null], "uniFEFC065F": [null, 1231], "uni064F_uni0651": [1432, null], "uni06B70774": [null, 1094], "uniFEFB065F": [null, 1230], "uni06B60675": [null, 1089], "uniFEFB_uniFBB6": [750, null], "uni064E_uni0651": [1428, null], "uni06500655": [null, 1435], "uniFEDF_uniFB51": [760, null], "uni06B7_uni0773": [1093, null], "uni06500651": [null, 1436], "uni0654_uni0652": [1412, null], "uni064F_uni0654": [1431, null], "uni064C0651": [null, 1420], "uni06B80774": [null, 1097], "uni064B_uni0654": [1415, null], "uniFEFC_uni065F": [1231, null], "uniFEDFFB51": [null, 760], "uni064F0651": [null, 1432], "uniFEE0_uni065A.rlig": [1235, null], "uniFEFCFBB6": [null, 751], "uni06B80675": [null, 1095], "uniFEFC_uni065A": [1234, null], "uni06B5_uni0774": [1087, null], "uni064D0655": [null, 1423], "uniFEFB_uni0654": [1232, null], "uniFEFC_uni0675": [746, null], "uni06B6_uni0774": [1091, null], "uni06B50675": [null, 1085], "uni064C0654": [null, 1419], "uniFEDFFEE0FEEA": [null, 1072], "uniFEB3FBB6FBB7": [null, 895], "uniFEE0_uniFB51": [761, null], "uni06B7_uni0675": [1092, null], "uni064B0651": [null, 1416], "uni064D0651": [null, 1424], "uni06B60774": [null, 1091], "uniFEFCFBB7": [null, 753], "uni0650_uni0651": [1436, null], "uni064B_uni0651": [1416, null], "uniFEFC0675": [null, 746], "uniFEC4_uniFBB4": [976, null], "uniFEFB0654": [null, 1232], "uni064D_uni0655": [1423, null], "uni064E_uni0654": [1427, null], "uniFEFC_uni0773": [747, null], "uniFEFC065A": [null, 1234], "uni06B6_uni0675": [1089, null], "uniFEFB065A": [null, 1233], "uniFEFB_uniFBB7": [752, null], "uni06B8_uni0675": [1095, null], "uni06B60773": [null, 1090]}}, "gasp": {"tableTag": ["gasp", null], "version": [1, null], "gaspRange": {"65535": [15, null]}}, "hhea": {"minLeftSideBearing": [-232, -233], "xMaxExtent": [6093, 6144], "advanceWidthMax": [6137, 6186]}, "OS/2": {"usWeightClass": [400, 500], "xAvgCharWidth": [740, 748], "panose": {"bSerifStyle": [0, 11], "bStrokeVariation": [0, 5], "bProportion": [0, 2], "bFamilyType": [0, 2], "bArmStyle": [0, 4], "bWeight": [0, 6], "bContrast": [0, 4], "bXHeight": [0, 4], "bLetterForm": [0, 2], "bMidline": [0, 2]}}, "prep": {"tableTag": ["prep", null]}, "HVAR": {"tableTag": ["HVAR", null], "table": {"Version": [65536, null], "VarStore": {"Format": [1, null], "VarRegionList": {"RegionAxisCount": [1, null], "RegionCount": [1, null], "Region": {"0": {"VarRegionAxis": {"0": {"StartCoord": [0.0, null], "PeakCoord": [1.0, null], "EndCoord": [1.0, null]}}}}}, "VarDataCount": [1, null], "VarData": {"0": {"ItemCount": [1614, null], "NumShorts": [1, null], "VarRegionCount": [1, null], "VarRegionIndex": {"0": [0, null]}, "Item": {"error": ["There are 1614 changes, check manually!", ""]}}}}}}};</script>
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
+  class Table {
+      constructor(data) {
+          this.data = {"root": data}
+          this.open("root")
+      }
+
+      createNode(key, label) {
+          let childElem = document.createElement("div")
+          let childKey = key
+          childElem.dataset.path = childKey
+          childElem.dataset.open = "0"
+          childElem.innerHTML = label
+          childElem.classList.add("node")
+          return childElem
+      }
+
+      close(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          let label = htmlParent.childNodes[0].nodeValue
+          htmlParent.replaceChildren()
+          htmlParent.textContent = label
+          htmlParent.dataset.open = "0"
+      }
+
+      open(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          htmlParent.dataset.open = "1"
+
+          // traverse to correct data level based on data-path
+          let path = key.split(".")
+          let data = this.data
+          for (var i=0; i<path.length; i++) {
+              data = data[path[i]];
+
+          }
+
+          // arrays containing two values are used as leaf nodes.
+          // The first item is the before value and the second
+          // is for after value.
+          if (Array.isArray(data)) {
+              let childElem = this.createNode("", "")
+              let before = document.createElement("span")
+              before.classList.add("attr-before")
+              before.textContent = String(data[0]) + " "
+              let after = document.createElement("span")
+              after.classList.add("attr-after")
+              after.textContent = String(data[1])
+              childElem.appendChild(before)
+              childElem.appendChild(after)
+              htmlParent.appendChild(childElem)
+              return
+          }
+          // Create next child nodes
+          for (var i in data) {
+              let childKey = key + "." + i
+              let childElem = this.createNode(childKey, i)
+              htmlParent.appendChild(childElem);
+              var that = this
+
+              // Toggle whether to open or close a node
+              childElem.addEventListener("click", function() {
+                  if (this.dataset.open === "0") {
+                      that.open(childKey)
+                      event.stopPropagation()
+                  } else {
+                      that.close(childKey)
+                      event.stopPropagation()
+                  }
+              })
+          }
+      }
+  }
+
+  let t = new Table(fontdiff, document.getElementById("difftable"))
+
+
+function wordBreaks() {
+  words = document.getElementsByClassName("cell-word")
+  res = []
+  prevTop = 0
+  for (i=0; i<words.length; i++) {
+      var word = words[i]
+      currentTop = word.getBoundingClientRect().top
+      if (currentTop > prevTop) {
+          res.push(i)
+      }
+      prevTop = currentTop
+  }
+  return res
+}
+
+async function insertBreaks() {
+  switchFonts()
+  await sleep(1)
+  breaksBefore = wordBreaks()
+  switchFonts()
+  await sleep(1)
+  breaksAfter = wordBreaks()
+
+
+  console.log(breaksBefore.length, breaksAfter.length)
+
+  if (breaksBefore.length >= breaksAfter.length) {
+    breaks = breaksBefore
+  } else {
+    breaks = breaksAfter
+  }
+
+  words = document.getElementsByClassName("cell-word")
+  breaks.forEach(function(i) {
+    if (i != 0) {
+      i = i
+    }
+    word = words[i]
+    spacer = document.createElement("div")
+    spacer.className = "spacer"
+    word.parentNode.insertBefore(spacer, word)
+  })
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+  
+insertBreaks()
+
+
+    </script>
+</html>
