@@ -5,120 +5,120 @@ layers = (
 anchors = (
 {
 name = _top.near;
-position = "{100, 546}";
+pos = (100,546);
 },
 {
 name = top.far;
-position = "{100, 920}";
+pos = (100,920);
 },
 {
 name = top.near;
-position = "{100, 920}";
-}
-);
-components = (
-{
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 101, 0}";
-},
-{
-alignment = -1;
-name = "tahStop-ar";
-transform = "{1, 0, 0, 1, 0, -394}";
+pos = (100,920);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
+{
+pos = (101,0);
+ref = "dotabove-ar";
+},
+{
+alignment = -1;
+pos = (0,-394);
+ref = "tahStop-ar";
+}
+);
 width = 177;
 },
 {
 anchors = (
 {
 name = _top.near;
-position = "{103, 546}";
+pos = (103,546);
 },
 {
 name = top.far;
-position = "{103, 991}";
+pos = (103,991);
 },
 {
 name = top.near;
-position = "{103, 991}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 103, 0}";
-},
-{
-alignment = -1;
-name = "tahStop-ar";
-transform = "{1, 0, 0, 1, 0, -359}";
+pos = (103,991);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
+{
+alignment = -1;
+pos = (103,0);
+ref = "dotabove-ar";
+},
+{
+alignment = -1;
+pos = (0,-359);
+ref = "tahStop-ar";
+}
+);
 width = 207;
 },
 {
 anchors = (
 {
 name = _top.near;
-position = "{119, 546}";
+pos = (119,546);
 },
 {
 name = top.far;
-position = "{119, 1001}";
+pos = (119,1001);
 },
 {
 name = top.near;
-position = "{119, 1001}";
-}
-);
-components = (
-{
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 118, 0}";
-},
-{
-alignment = -1;
-name = "tahStop-ar";
-transform = "{1, 0, 0, 1, 0, -355}";
+pos = (119,1001);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
+{
+pos = (118,0);
+ref = "dotabove-ar";
+},
+{
+alignment = -1;
+pos = (0,-355);
+ref = "tahStop-ar";
+}
+);
 width = 237;
 },
 {
 anchors = (
 {
 name = _top.near;
-position = "{131, 546}";
+pos = (131,546);
 },
 {
 name = top.far;
-position = "{131, 1071}";
+pos = (131,1071);
 },
 {
 name = top.near;
-position = "{131, 1071}";
-}
-);
-components = (
-{
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 131, 0}";
-},
-{
-alignment = -1;
-name = "tahStop-ar";
-transform = "{1, 0, 0, 1, 0, -315}";
+pos = (131,1071);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
+{
+pos = (131,0);
+ref = "dotabove-ar";
+},
+{
+alignment = -1;
+pos = (0,-315);
+ref = "tahStop-ar";
+}
+);
 width = 262;
 }
 );
-leftMetricsKey = "=0";
-rightMetricsKey = "=0";
+metricLeft = "=0";
+metricRight = "=0";
 }

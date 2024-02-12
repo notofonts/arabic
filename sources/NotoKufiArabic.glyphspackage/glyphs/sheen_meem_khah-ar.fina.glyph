@@ -2,81 +2,81 @@
 glyphname = "sheen_meem_khah-ar.fina";
 layers = (
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
 alignment = 1;
-name = "sheen-ar.medi";
-transform = "{1, 0, 0, 1, 1142, 0}";
+pos = (1142,0);
+ref = "sheen-ar.medi";
 },
 {
-name = "meem-ar.medi";
-transform = "{1, 0, 0, 1, 583, 0}";
+pos = (583,0);
+ref = "meem-ar.medi";
 },
 {
 alignment = 1;
-name = "khah-ar.fina";
+ref = "khah-ar.fina";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 1942;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
 alignment = 1;
-name = "sheen-ar.medi";
-transform = "{1, 0, 0, 1, 1220, 0}";
+pos = (1220,0);
+ref = "sheen-ar.medi";
 },
 {
-name = "meem-ar.medi";
-transform = "{1, 0, 0, 1, 614, 0}";
+pos = (614,0);
+ref = "meem-ar.medi";
 },
 {
 alignment = 1;
-name = "khah-ar.fina";
+ref = "khah-ar.fina";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 2142;
 },
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
 alignment = 1;
-name = "sheen-ar.medi";
-transform = "{1, 0, 0, 1, 1298, 0}";
+pos = (1298,0);
+ref = "sheen-ar.medi";
 },
 {
-name = "meem-ar.medi";
-transform = "{1, 0, 0, 1, 645, 0}";
+pos = (645,0);
+ref = "meem-ar.medi";
 },
 {
 alignment = 1;
-name = "khah-ar.fina";
+ref = "khah-ar.fina";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 2342;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
 alignment = 1;
-name = "sheen-ar.medi";
-transform = "{1, 0, 0, 1, 1353, 0}";
+pos = (1353,0);
+ref = "sheen-ar.medi";
 },
 {
-name = "meem-ar.medi";
-transform = "{1, 0, 0, 1, 669, 0}";
+pos = (669,0);
+ref = "meem-ar.medi";
 },
 {
 alignment = 1;
-name = "khah-ar.fina";
+ref = "khah-ar.fina";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 2478;
 }
 );
-unicode = FD6A;
+unicode = 64874;
 }

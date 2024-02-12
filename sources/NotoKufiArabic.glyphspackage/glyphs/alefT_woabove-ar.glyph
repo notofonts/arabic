@@ -2,57 +2,57 @@
 glyphname = "alefTwoabove-ar";
 layers = (
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "alef-ar.short";
+ref = "alef-ar.short";
 },
 {
-name = "twoabove-ar";
-transform = "{1, 0, 0, 1, -52, -180}";
+pos = (-52,-180);
+ref = "twoabove-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 224;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "alef-ar.short";
+ref = "alef-ar.short";
 },
 {
-name = "twoabove-ar";
-transform = "{1, 0, 0, 1, -87, -154}";
+pos = (-87,-154);
+ref = "twoabove-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 289;
 },
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "alef-ar.short";
+ref = "alef-ar.short";
 },
 {
-name = "twoabove-ar";
-transform = "{1, 0, 0, 1, -105, -127}";
+pos = (-105,-127);
+ref = "twoabove-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 349;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "alef-ar.short";
+ref = "alef-ar.short";
 },
 {
-name = "twoabove-ar";
-transform = "{1, 0, 0, 1, -122, -111}";
+pos = (-122,-111);
+ref = "twoabove-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 391;
 }
 );
-unicode = 0773;
+unicode = 1907;
 }

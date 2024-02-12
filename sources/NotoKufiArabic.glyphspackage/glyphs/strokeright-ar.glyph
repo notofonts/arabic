@@ -5,66 +5,66 @@ layers = (
 anchors = (
 {
 name = _stroke;
-position = "{12, 842}";
-}
-);
-components = (
-{
-name = "fatha-ar";
-transform = "{1, 0, 0, 1, 0, -11}";
+pos = (12,842);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
+{
+pos = (0,-11);
+ref = "fatha-ar";
+}
+);
 width = 204;
 },
 {
 anchors = (
 {
 name = _stroke;
-position = "{46, 852}";
-}
-);
-components = (
-{
-name = "fatha-ar";
-transform = "{1, 0, 0, 1, 0, -13}";
+pos = (46,852);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
+{
+pos = (0,-13);
+ref = "fatha-ar";
+}
+);
 width = 234;
 },
 {
 anchors = (
 {
 name = _stroke;
-position = "{75, 890}";
-}
-);
-components = (
-{
-name = "fatha-ar";
+pos = (75,890);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
+{
+ref = "fatha-ar";
+}
+);
 width = 234;
 },
 {
 anchors = (
 {
 name = _stroke;
-position = "{95, 887}";
-}
-);
-components = (
-{
-name = "fatha-ar";
-transform = "{1, 0, 0, 1, 0, -3}";
+pos = (95,887);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
+{
+pos = (0,-3);
+ref = "fatha-ar";
+}
+);
 width = 234;
 }
 );
-leftMetricsKey = "=0";
-rightMetricsKey = "=0";
+metricLeft = "=0";
+metricRight = "=0";
 }

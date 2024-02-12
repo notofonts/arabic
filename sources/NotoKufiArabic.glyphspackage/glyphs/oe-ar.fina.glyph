@@ -2,58 +2,58 @@
 glyphname = "oe-ar.fina";
 layers = (
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "waw-ar.fina";
+ref = "waw-ar.fina";
 },
 {
-name = "vabove-ar";
-transform = "{1, 0, 0, 1, 160, 109}";
+pos = (160,109);
+ref = "vabove-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 662;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "waw-ar.fina";
+ref = "waw-ar.fina";
 },
 {
-name = "vabove-ar";
-transform = "{1, 0, 0, 1, 131, 89}";
+pos = (131,89);
+ref = "vabove-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 553;
 },
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "waw-ar.fina";
+ref = "waw-ar.fina";
 },
 {
-name = "vabove-ar";
-transform = "{1, 0, 0, 1, 119, 69}";
+pos = (119,69);
+ref = "vabove-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 514;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "waw-ar.fina";
+ref = "waw-ar.fina";
 },
 {
-name = "vabove-ar";
-transform = "{1, 0, 0, 1, 180, 122}";
+pos = (180,122);
+ref = "vabove-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 735;
 }
 );
 note = uni06C6.fina;
-unicode = FBDA;
+unicode = 64474;
 }

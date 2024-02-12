@@ -2,57 +2,57 @@
 glyphname = "kirghizoe-ar.fina";
 layers = (
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "waw-ar.fina.alt";
+ref = "waw-ar.fina.alt";
 },
 {
-name = "bar-ar.alt";
-transform = "{1, 0, 0, 1, 194, 0}";
+pos = (194,0);
+ref = "bar-ar.alt";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 514;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "waw-ar.fina.alt";
+ref = "waw-ar.fina.alt";
 },
 {
-name = "bar-ar.alt";
-transform = "{1, 0, 0, 1, 174, 0}";
+pos = (174,0);
+ref = "bar-ar.alt";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 553;
 },
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "waw-ar.fina.alt";
+ref = "waw-ar.fina.alt";
 },
 {
-name = "bar-ar.alt";
-transform = "{1, 0, 0, 1, 146, 0}";
+pos = (146,0);
+ref = "bar-ar.alt";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 662;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "waw-ar.fina.alt";
+ref = "waw-ar.fina.alt";
 },
 {
-name = "bar-ar.alt";
-transform = "{1, 0, 0, 1, 138, 0}";
+pos = (138,0);
+ref = "bar-ar.alt";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 737;
 }
 );
-unicode = FBE1;
+unicode = 64481;
 }

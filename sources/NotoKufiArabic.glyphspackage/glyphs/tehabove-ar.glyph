@@ -5,46 +5,44 @@ layers = (
 anchors = (
 {
 name = _top.near;
-position = "{160, 517}";
+pos = (160,517);
 },
 {
 name = top.far;
-position = "{160, 712}";
+pos = (160,712);
 },
 {
 name = top.near;
-position = "{160, 712}";
-}
-);
-components = (
-{
-alignment = -1;
-name = twodots.small.below;
-transform = "{1, 0, 0, 1, 162, 727}";
+pos = (160,712);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"286 517 LINE",
-"286 530 LINE",
-"99 530 LINE SMOOTH",
-"37 530 OFFCURVE",
-"13 566 OFFCURVE",
-"13 618 CURVE SMOOTH",
-"13 647 OFFCURVE",
-"16 670 OFFCURVE",
-"23 695 CURVE",
-"12 695 LINE",
-"4 673 OFFCURVE",
-"0 636 OFFCURVE",
-"0 616 CURVE SMOOTH",
-"0 556 OFFCURVE",
-"36 517 OFFCURVE",
-"95 517 CURVE SMOOTH"
+(286,517,l),
+(286,530,l),
+(99,530,ls),
+(37,530,o),
+(13,566,o),
+(13,618,cs),
+(13,647,o),
+(16,670,o),
+(23,695,c),
+(12,695,l),
+(4,673,o),
+(0,636,o),
+(0,616,cs),
+(0,556,o),
+(36,517,o),
+(95,517,cs)
 );
+},
+{
+alignment = -1;
+pos = (162,727);
+ref = twodots.small.below;
 }
 );
 width = 286;
@@ -53,46 +51,44 @@ width = 286;
 anchors = (
 {
 name = _top.near;
-position = "{188, 497}";
+pos = (188,497);
 },
 {
 name = top.far;
-position = "{188, 722}";
+pos = (188,722);
 },
 {
 name = top.near;
-position = "{188, 722}";
-}
-);
-components = (
-{
-alignment = -1;
-name = twodots.small.below;
-transform = "{1, 0, 0, 1, 188, 762}";
+pos = (188,722);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"333 497 LINE",
-"333 538 LINE",
-"97 538 LINE SMOOTH",
-"68 538 OFFCURVE",
-"47 565 OFFCURVE",
-"47 604 CURVE SMOOTH",
-"47 629 OFFCURVE",
-"50 654 OFFCURVE",
-"55 680 CURVE",
-"13 680 LINE",
-"5 659 OFFCURVE",
-"0 623 OFFCURVE",
-"0 600 CURVE SMOOTH",
-"0 536 OFFCURVE",
-"38 497 OFFCURVE",
-"99 497 CURVE SMOOTH"
+(333,497,l),
+(333,538,l),
+(97,538,ls),
+(68,538,o),
+(47,565,o),
+(47,604,cs),
+(47,629,o),
+(50,654,o),
+(55,680,c),
+(13,680,l),
+(5,659,o),
+(0,623,o),
+(0,600,cs),
+(0,536,o),
+(38,497,o),
+(99,497,cs)
 );
+},
+{
+alignment = -1;
+pos = (188,762);
+ref = twodots.small.below;
 }
 );
 width = 333;
@@ -101,46 +97,44 @@ width = 333;
 anchors = (
 {
 name = _top.near;
-position = "{236, 487}";
+pos = (236,487);
 },
 {
 name = top.far;
-position = "{236, 762}";
+pos = (236,762);
 },
 {
 name = top.near;
-position = "{236, 762}";
-}
-);
-components = (
-{
-alignment = -1;
-name = twodots.small.below;
-transform = "{1, 0, 0, 1, 236, 817}";
+pos = (236,762);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"388 487 LINE",
-"388 551 LINE",
-"136 551 LINE SMOOTH",
-"99 551 OFFCURVE",
-"83 579 OFFCURVE",
-"79 612 CURVE SMOOTH",
-"77 633 OFFCURVE",
-"79 656 OFFCURVE",
-"85 675 CURVE",
-"15 675 LINE",
-"5 656 OFFCURVE",
-"-1 630 OFFCURVE",
-"0 604 CURVE SMOOTH",
-"0 547 OFFCURVE",
-"31 487 OFFCURVE",
-"112 487 CURVE SMOOTH"
+(388,487,l),
+(388,551,l),
+(136,551,ls),
+(99,551,o),
+(83,579,o),
+(79,612,cs),
+(77,633,o),
+(79,656,o),
+(85,675,c),
+(15,675,l),
+(5,656,o),
+(-1,630,o),
+(0,604,cs),
+(0,547,o),
+(31,487,o),
+(112,487,cs)
 );
+},
+{
+alignment = -1;
+pos = (236,817);
+ref = twodots.small.below;
 }
 );
 width = 388;
@@ -149,51 +143,49 @@ width = 388;
 anchors = (
 {
 name = _top.near;
-position = "{285, 477}";
+pos = (285,477);
 },
 {
 name = top.far;
-position = "{285, 772}";
+pos = (285,772);
 },
 {
 name = top.near;
-position = "{285, 772}";
-}
-);
-components = (
-{
-alignment = -1;
-name = twodots.small.below;
-transform = "{1, 0, 0, 1, 285, 854}";
+pos = (285,772);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"461 477 LINE",
-"461 556 LINE",
-"168 556 LINE SMOOTH",
-"126 556 OFFCURVE",
-"104 583 OFFCURVE",
-"99 618 CURVE SMOOTH",
-"93 651 OFFCURVE",
-"101 689 OFFCURVE",
-"120 718 CURVE",
-"23 718 LINE",
-"8 677 OFFCURVE",
-"0 639 OFFCURVE",
-"0 605 CURVE SMOOTH",
-"0 529 OFFCURVE",
-"39 477 OFFCURVE",
-"129 477 CURVE SMOOTH"
+(461,477,l),
+(461,556,l),
+(168,556,ls),
+(126,556,o),
+(104,583,o),
+(99,618,cs),
+(93,651,o),
+(101,689,o),
+(120,718,c),
+(23,718,l),
+(8,677,o),
+(0,639,o),
+(0,605,cs),
+(0,529,o),
+(39,477,o),
+(129,477,cs)
 );
+},
+{
+alignment = -1;
+pos = (285,854);
+ref = twodots.small.below;
 }
 );
 width = 461;
 }
 );
-leftMetricsKey = "=0";
-rightMetricsKey = "=0";
+metricLeft = "=0";
+metricRight = "=0";
 }

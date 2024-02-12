@@ -2,58 +2,58 @@
 glyphname = "dalRing-ar";
 layers = (
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "dal-ar";
+ref = "dal-ar";
 },
 {
-name = "ringbelow-ar";
-transform = "{1, 0, 0, 1, 151, 235}";
+pos = (151,235);
+ref = "ringbelow-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 595;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "dal-ar";
+ref = "dal-ar";
 },
 {
-name = "ringbelow-ar";
-transform = "{1, 0, 0, 1, 131, 224}";
+pos = (131,224);
+ref = "ringbelow-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 509;
 },
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "dal-ar";
+ref = "dal-ar";
 },
 {
-name = "ringbelow-ar";
-transform = "{1, 0, 0, 1, 140, 212}";
+pos = (140,212);
+ref = "ringbelow-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 443;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "dal-ar";
+ref = "dal-ar";
 },
 {
-name = "ringbelow-ar";
-transform = "{1, 0, 0, 1, 141, 242}";
+pos = (141,242);
+ref = "ringbelow-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 652;
 }
 );
 note = uni0689;
-unicode = 0689;
+unicode = 1673;
 }

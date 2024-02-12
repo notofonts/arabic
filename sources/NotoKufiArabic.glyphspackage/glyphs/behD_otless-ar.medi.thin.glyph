@@ -5,42 +5,42 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{136, -58}";
+pos = (136,-58);
 },
 {
 name = top.far;
-position = "{136, 228}";
+pos = (136,228);
 },
 {
 name = top.near;
-position = "{136, 248}";
+pos = (136,248);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"273 0 LINE SMOOTH",
-"276 0 OFFCURVE",
-"278 2 OFFCURVE",
-"278 5 CURVE SMOOTH",
-"278 20 LINE SMOOTH",
-"278 23 OFFCURVE",
-"276 24 OFFCURVE",
-"273 24 CURVE SMOOTH",
-"150 24 LINE",
-"150 175 LINE",
-"126 175 LINE",
-"126 24 LINE",
-"-5 24 LINE SMOOTH",
-"-8 24 OFFCURVE",
-"-10 23 OFFCURVE",
-"-10 20 CURVE SMOOTH",
-"-10 5 LINE SMOOTH",
-"-10 2 OFFCURVE",
-"-8 0 OFFCURVE",
-"-5 0 CURVE SMOOTH"
+(273,0,ls),
+(276,0,o),
+(278,2,o),
+(278,5,cs),
+(278,20,ls),
+(278,23,o),
+(276,24,o),
+(273,24,cs),
+(150,24,l),
+(150,175,l),
+(126,175,l),
+(126,24,l),
+(-5,24,ls),
+(-8,24,o),
+(-10,23,o),
+(-10,20,cs),
+(-10,5,ls),
+(-10,2,o),
+(-8,0,o),
+(-5,0,cs)
 );
 }
 );
@@ -50,42 +50,42 @@ width = 268;
 anchors = (
 {
 name = bottom;
-position = "{166, -78}";
+pos = (166,-78);
 },
 {
 name = top.far;
-position = "{146, 237}";
+pos = (146,237);
 },
 {
 name = top.near;
-position = "{146, 257}";
+pos = (146,257);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"346 0 LINE SMOOTH",
-"349 0 OFFCURVE",
-"351 2 OFFCURVE",
-"351 5 CURVE SMOOTH",
-"351 74 LINE SMOOTH",
-"351 77 OFFCURVE",
-"349 78 OFFCURVE",
-"346 78 CURVE SMOOTH",
-"196 78 LINE",
-"196 185 LINE",
-"147 185 LINE",
-"147 78 LINE",
-"-5 78 LINE SMOOTH",
-"-8 78 OFFCURVE",
-"-10 77 OFFCURVE",
-"-10 74 CURVE SMOOTH",
-"-10 5 LINE SMOOTH",
-"-10 2 OFFCURVE",
-"-8 0 OFFCURVE",
-"-5 0 CURVE SMOOTH"
+(346,0,ls),
+(349,0,o),
+(351,2,o),
+(351,5,cs),
+(351,74,ls),
+(351,77,o),
+(349,78,o),
+(346,78,cs),
+(196,78,l),
+(196,185,l),
+(147,185,l),
+(147,78,l),
+(-5,78,ls),
+(-8,78,o),
+(-10,77,o),
+(-10,74,cs),
+(-10,5,ls),
+(-10,2,o),
+(-8,0,o),
+(-5,0,cs)
 );
 }
 );
@@ -95,42 +95,42 @@ width = 341;
 anchors = (
 {
 name = bottom;
-position = "{166, -78}";
+pos = (166,-78);
 },
 {
 name = top.far;
-position = "{146, 306}";
+pos = (146,306);
 },
 {
 name = top.near;
-position = "{146, 326}";
+pos = (146,326);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"399 0 LINE SMOOTH",
-"402 0 OFFCURVE",
-"404 2 OFFCURVE",
-"404 5 CURVE SMOOTH",
-"404 116 LINE SMOOTH",
-"404 119 OFFCURVE",
-"402 120 OFFCURVE",
-"399 120 CURVE SMOOTH",
-"229 120 LINE",
-"229 215 LINE",
-"160 215 LINE",
-"160 120 LINE",
-"-5 120 LINE SMOOTH",
-"-8 120 OFFCURVE",
-"-10 119 OFFCURVE",
-"-10 116 CURVE SMOOTH",
-"-10 5 LINE SMOOTH",
-"-10 2 OFFCURVE",
-"-8 0 OFFCURVE",
-"-5 0 CURVE SMOOTH"
+(399,0,ls),
+(402,0,o),
+(404,2,o),
+(404,5,cs),
+(404,116,ls),
+(404,119,o),
+(402,120,o),
+(399,120,cs),
+(229,120,l),
+(229,215,l),
+(160,215,l),
+(160,120,l),
+(-5,120,ls),
+(-8,120,o),
+(-10,119,o),
+(-10,116,cs),
+(-10,5,ls),
+(-10,2,o),
+(-8,0,o),
+(-5,0,cs)
 );
 }
 );
@@ -140,47 +140,47 @@ width = 394;
 anchors = (
 {
 name = bottom;
-position = "{226, -78}";
+pos = (226,-78);
 },
 {
 name = top.far;
-position = "{206, 369}";
+pos = (206,369);
 },
 {
 name = top.near;
-position = "{206, 399}";
+pos = (206,399);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"434 0 LINE SMOOTH",
-"438 0 OFFCURVE",
-"439 2 OFFCURVE",
-"439 5 CURVE SMOOTH",
-"439 144 LINE SMOOTH",
-"439 147 OFFCURVE",
-"438 148 OFFCURVE",
-"434 148 CURVE SMOOTH",
-"254 148 LINE",
-"254 262 LINE",
-"165 262 LINE",
-"165 148 LINE",
-"-5 148 LINE SMOOTH",
-"-8 148 OFFCURVE",
-"-10 147 OFFCURVE",
-"-10 144 CURVE SMOOTH",
-"-10 5 LINE SMOOTH",
-"-10 2 OFFCURVE",
-"-8 0 OFFCURVE",
-"-5 0 CURVE SMOOTH"
+(434,0,ls),
+(438,0,o),
+(439,2,o),
+(439,5,cs),
+(439,144,ls),
+(439,147,o),
+(438,148,o),
+(434,148,cs),
+(254,148,l),
+(254,262,l),
+(165,262,l),
+(165,148,l),
+(-5,148,ls),
+(-8,148,o),
+(-10,147,o),
+(-10,144,cs),
+(-10,5,ls),
+(-10,2,o),
+(-8,0,o),
+(-5,0,cs)
 );
 }
 );
 width = 429;
 }
 );
-rightMetricsKey = "=-10";
+metricRight = "=-10";
 }

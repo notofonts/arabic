@@ -5,30 +5,30 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{166, -52}";
+pos = (166,-52);
 },
 {
 name = stroke;
-position = "{176, 434}";
+pos = (176,434);
 },
 {
 name = top.far;
-position = "{176, 830}";
+pos = (176,830);
 },
 {
 name = top.near;
-position = "{176, 830}";
+pos = (176,830);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"100 0 LINE",
-"249 0 LINE",
-"249 760 LINE",
-"100 760 LINE"
+(100,0,l),
+(249,0,l),
+(249,760,l),
+(100,760,l)
 );
 }
 );
@@ -38,30 +38,30 @@ width = 349;
 anchors = (
 {
 name = bottom;
-position = "{146, -55}";
+pos = (146,-55);
 },
 {
 name = stroke;
-position = "{146, 434}";
+pos = (146,434);
 },
 {
 name = top.far;
-position = "{146, 820}";
+pos = (146,820);
 },
 {
 name = top.near;
-position = "{146, 820}";
+pos = (146,820);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"100 0 LINE",
-"189 0 LINE",
-"189 760 LINE",
-"100 760 LINE"
+(100,0,l),
+(189,0,l),
+(189,760,l),
+(100,760,l)
 );
 }
 );
@@ -71,30 +71,30 @@ width = 289;
 anchors = (
 {
 name = bottom;
-position = "{114, -51}";
+pos = (114,-51);
 },
 {
 name = stroke;
-position = "{112, 434}";
+pos = (112,434);
 },
 {
 name = top.far;
-position = "{112, 830}";
+pos = (112,830);
 },
 {
 name = top.near;
-position = "{112, 830}";
+pos = (112,830);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"100 0 LINE",
-"124 0 LINE",
-"124 760 LINE",
-"100 760 LINE"
+(100,0,l),
+(124,0,l),
+(124,760,l),
+(100,760,l)
 );
 }
 );
@@ -104,30 +104,30 @@ width = 224;
 anchors = (
 {
 name = bottom;
-position = "{189, -48}";
+pos = (189,-48);
 },
 {
 name = stroke;
-position = "{196, 434}";
+pos = (196,434);
 },
 {
 name = top.far;
-position = "{196, 837}";
+pos = (196,837);
 },
 {
 name = top.near;
-position = "{196, 837}";
+pos = (196,837);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"100 0 LINE",
-"289 0 LINE",
-"289 760 LINE",
-"100 760 LINE"
+(100,0,l),
+(289,0,l),
+(289,760,l),
+(100,760,l)
 );
 }
 );
@@ -135,5 +135,5 @@ width = 389;
 }
 );
 note = uni0627;
-unicode = "0627,FE8D";
+unicode = (1575,65165);
 }

@@ -5,150 +5,170 @@ layers = (
 anchors = (
 {
 name = _stop;
-position = "{409, 1030}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "seen-ar.init";
-transform = "{0.38, 0, 0, 0.38, 547, 1096}";
-},
-{
-alignment = -1;
-name = "kaf-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 322, 1096}";
-},
-{
-alignment = -1;
-name = "teh-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 193, 1096}";
-},
-{
-alignment = -1;
-name = "hehgoal-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 0, 1096}";
-},
-{
-alignment = -1;
-name = "twodotshorizontalabove-ar";
-transform = "{0.38, 0, 0, 0.38, 102, 1026}";
+pos = (409,1030);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
+{
+alignment = -1;
+pos = (547,1096);
+ref = "seen-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (322,1096);
+ref = "kaf-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (193,1096);
+ref = "teh-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1096);
+ref = "hehgoal-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (102,1026);
+ref = "twodotshorizontalabove-ar";
+scale = (0.38,0.38);
+}
+);
 width = 828;
 },
 {
 anchors = (
 {
 name = _stop;
-position = "{477, 1030}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "seen-ar.init";
-transform = "{0.38, 0, 0, 0.38, 634, 1096}";
-},
-{
-alignment = -1;
-name = "kaf-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 396, 1096}";
-},
-{
-alignment = -1;
-name = "teh-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 248, 1096}";
-},
-{
-alignment = -1;
-name = "hehgoal-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 0, 1096}";
-},
-{
-alignment = -1;
-name = "twodotshorizontalabove-ar";
-transform = "{0.38, 0, 0, 0.38, 130, 1071}";
+pos = (477,1030);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
+{
+alignment = -1;
+pos = (634,1096);
+ref = "seen-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (396,1096);
+ref = "kaf-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (248,1096);
+ref = "teh-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1096);
+ref = "hehgoal-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (130,1071);
+ref = "twodotshorizontalabove-ar";
+scale = (0.38,0.38);
+}
+);
 width = 968;
 },
 {
 anchors = (
 {
 name = _stop;
-position = "{545, 1030}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "seen-ar.init";
-transform = "{0.38, 0, 0, 0.38, 722, 1096}";
-},
-{
-alignment = -1;
-name = "kaf-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 471, 1096}";
-},
-{
-alignment = -1;
-name = "teh-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 302, 1096}";
-},
-{
-alignment = -1;
-name = "hehgoal-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 0, 1096}";
-},
-{
-alignment = -1;
-name = "twodotshorizontalabove-ar";
-transform = "{0.38, 0, 0, 0.38, 130, 1097}";
+pos = (545,1030);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
+{
+alignment = -1;
+pos = (722,1096);
+ref = "seen-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (471,1096);
+ref = "kaf-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (302,1096);
+ref = "teh-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1096);
+ref = "hehgoal-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (130,1097);
+ref = "twodotshorizontalabove-ar";
+scale = (0.38,0.38);
+}
+);
 width = 1103;
 },
 {
 anchors = (
 {
 name = _stop;
-position = "{590, 1030}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "seen-ar.init";
-transform = "{0.38, 0, 0, 0.38, 780, 1096}";
-},
-{
-alignment = -1;
-name = "kaf-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 520, 1096}";
-},
-{
-alignment = -1;
-name = "teh-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 338, 1096}";
-},
-{
-alignment = -1;
-name = "hehgoal-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 0, 1096}";
-},
-{
-alignment = -1;
-name = "twodotshorizontalabove-ar";
-transform = "{0.38, 0, 0, 0.38, 130, 1114}";
+pos = (590,1030);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
+{
+alignment = -1;
+pos = (780,1096);
+ref = "seen-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (520,1096);
+ref = "kaf-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (338,1096);
+ref = "teh-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1096);
+ref = "hehgoal-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (130,1114);
+ref = "twodotshorizontalabove-ar";
+scale = (0.38,0.38);
+}
+);
 width = 1193;
 }
 );
-unicode = 08DD;
+unicode = 2269;
 }

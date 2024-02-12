@@ -5,102 +5,106 @@ layers = (
 anchors = (
 {
 name = _top.far;
-position = "{89, 708}";
+pos = (89,708);
 },
 {
 name = top.far;
-position = "{111, 922}";
-}
-);
-components = (
-{
-alignment = 1;
-name = "tahabove-ar";
-},
-{
-alignment = -1;
-name = "dotabove-ar";
-transform = "{0.38, 0, 0, 0.38, 110, 647}";
+pos = (111,922);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
+{
+alignment = 1;
+ref = "tahabove-ar";
+},
+{
+alignment = -1;
+pos = (110,647);
+ref = "dotabove-ar";
+scale = (0.38,0.38);
+}
+);
 width = 177;
 },
 {
 anchors = (
 {
 name = _top.far;
-position = "{104, 714}";
+pos = (104,714);
 },
 {
 name = top.far;
-position = "{104, 986}";
-}
-);
-components = (
-{
-alignment = 1;
-name = "tahabove-ar";
-},
-{
-alignment = -1;
-name = "dotabove-ar";
-transform = "{0.38, 0, 0, 0.38, 120, 687}";
+pos = (104,986);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
+{
+alignment = 1;
+ref = "tahabove-ar";
+},
+{
+alignment = -1;
+pos = (120,687);
+ref = "dotabove-ar";
+scale = (0.38,0.38);
+}
+);
 width = 207;
 },
 {
 anchors = (
 {
 name = _top.far;
-position = "{119, 717}";
+pos = (119,717);
 },
 {
 name = top.far;
-position = "{150, 993}";
-}
-);
-components = (
-{
-alignment = 1;
-name = "tahabove-ar";
-},
-{
-alignment = -1;
-name = "dotabove-ar";
-transform = "{0.38, 0, 0, 0.38, 150, 697}";
+pos = (150,993);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
+{
+alignment = 1;
+ref = "tahabove-ar";
+},
+{
+alignment = -1;
+pos = (150,697);
+ref = "dotabove-ar";
+scale = (0.38,0.38);
+}
+);
 width = 237;
 },
 {
 anchors = (
 {
 name = _top.far;
-position = "{131, 721}";
+pos = (131,721);
 },
 {
 name = top.far;
-position = "{170, 1013}";
-}
-);
-components = (
-{
-alignment = 1;
-name = "tahabove-ar";
-},
-{
-alignment = -1;
-name = "dotabove-ar";
-transform = "{0.38, 0, 0, 0.38, 170, 717}";
+pos = (170,1013);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
+{
+alignment = 1;
+ref = "tahabove-ar";
+},
+{
+alignment = -1;
+pos = (170,717);
+ref = "dotabove-ar";
+scale = (0.38,0.38);
+}
+);
 width = 262;
 }
 );
-unicode = 08CD;
+unicode = 2253;
 }

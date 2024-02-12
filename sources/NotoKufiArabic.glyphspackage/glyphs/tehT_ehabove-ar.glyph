@@ -2,57 +2,57 @@
 glyphname = "tehTehabove-ar";
 layers = (
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "behDotless-ar";
+ref = "behDotless-ar";
 },
 {
-name = "tehabove-ar";
-transform = "{1, 0, 0, 1, 184, -83}";
+pos = (184,-83);
+ref = "tehabove-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 689;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "behDotless-ar";
+ref = "behDotless-ar";
 },
 {
-name = "tehabove-ar";
-transform = "{1, 0, 0, 1, 194, -48}";
+pos = (194,-48);
+ref = "tehabove-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 778;
 },
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "behDotless-ar";
+ref = "behDotless-ar";
 },
 {
-name = "tehabove-ar";
-transform = "{1, 0, 0, 1, 146, -38}";
+pos = (146,-38);
+ref = "tehabove-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 867;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "behDotless-ar";
+ref = "behDotless-ar";
 },
 {
-name = "tehabove-ar";
-transform = "{1, 0, 0, 1, 146, -29}";
+pos = (146,-29);
+ref = "tehabove-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 926;
 }
 );
-unicode = 08B8;
+unicode = 2232;
 }

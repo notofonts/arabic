@@ -5,33 +5,31 @@ layers = (
 anchors = (
 {
 name = _top.far;
-position = "{157, 744}";
+pos = (157,744);
 },
 {
 name = top.far;
-position = "{157, 968}";
+pos = (157,968);
 },
 {
 name = top.near;
-position = "{157, 968}";
-}
-);
-components = (
-{
-name = "sukun-ar";
-transform = "{1, 0, 0, 1, 46, -70}";
+pos = (157,968);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"0 761 LINE",
-"304 876 LINE",
-"304 939 LINE",
-"0 827 LINE"
+(0,761,l),
+(304,876,l),
+(304,939,l),
+(0,827,l)
 );
+},
+{
+pos = (46,-70);
+ref = "sukun-ar";
 }
 );
 width = 304;
@@ -40,33 +38,31 @@ width = 304;
 anchors = (
 {
 name = _top.far;
-position = "{150, 741}";
+pos = (150,741);
 },
 {
 name = top.far;
-position = "{150, 968}";
+pos = (150,968);
 },
 {
 name = top.near;
-position = "{150, 968}";
-}
-);
-components = (
-{
-name = "sukun-ar";
-transform = "{1, 0, 0, 1, 39, -70}";
+pos = (150,968);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"0 764 LINE",
-"300 876 LINE",
-"300 930 LINE",
-"0 819 LINE"
+(0,764,l),
+(300,876,l),
+(300,930,l),
+(0,819,l)
 );
+},
+{
+pos = (39,-70);
+ref = "sukun-ar";
 }
 );
 width = 300;
@@ -75,33 +71,31 @@ width = 300;
 anchors = (
 {
 name = _top.far;
-position = "{101, 761}";
+pos = (101,761);
 },
 {
 name = top.far;
-position = "{101, 938}";
+pos = (101,938);
 },
 {
 name = top.near;
-position = "{101, 938}";
-}
-);
-components = (
-{
-name = "sukun-ar";
-transform = "{1, 0, 0, 1, 21, -80}";
+pos = (101,938);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"0 793 LINE",
-"204 870 LINE",
-"204 892 LINE",
-"0 816 LINE"
+(0,793,l),
+(204,870,l),
+(204,892,l),
+(0,816,l)
 );
+},
+{
+pos = (21,-80);
+ref = "sukun-ar";
 }
 );
 width = 204;
@@ -110,40 +104,38 @@ width = 204;
 anchors = (
 {
 name = _top.far;
-position = "{157, 731}";
+pos = (157,731);
 },
 {
 name = top.far;
-position = "{157, 975}";
+pos = (157,975);
 },
 {
 name = top.near;
-position = "{157, 975}";
-}
-);
-components = (
-{
-name = "sukun-ar";
-transform = "{1, 0, 0, 1, 47, -70}";
+pos = (157,975);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"0 757 LINE",
-"314 875 LINE",
-"314 946 LINE",
-"0 829 LINE"
+(0,757,l),
+(314,875,l),
+(314,946,l),
+(0,829,l)
 );
+},
+{
+pos = (47,-70);
+ref = "sukun-ar";
 }
 );
 width = 314;
 }
 );
-leftMetricsKey = "=0";
+metricLeft = "=0";
+metricRight = "=0";
 note = uni064E;
-rightMetricsKey = "=0";
-unicode = 08F4;
+unicode = 2292;
 }

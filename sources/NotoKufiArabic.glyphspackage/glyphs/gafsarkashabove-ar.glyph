@@ -5,26 +5,26 @@ layers = (
 anchors = (
 {
 name = _top.near;
-position = "{56, 720}";
+pos = (56,720);
 },
 {
 name = top.near;
-position = "{82, 844}";
+pos = (82,844);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"27 612 LINE",
-"112 737 OFFCURVE",
-"251 856 OFFCURVE",
-"394 908 CURVE",
-"365 985 LINE",
-"212 928 OFFCURVE",
-"46 769 OFFCURVE",
-"0 685 CURVE"
+(27,612,l),
+(112,737,o),
+(251,856,o),
+(394,908,c),
+(365,985,l),
+(212,928,o),
+(46,769,o),
+(0,685,c)
 );
 }
 );
@@ -34,26 +34,26 @@ width = 394;
 anchors = (
 {
 name = _top.near;
-position = "{74, 710}";
+pos = (74,710);
 },
 {
 name = top.near;
-position = "{81, 823}";
+pos = (81,823);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"27 580 LINE",
-"81 675 OFFCURVE",
-"233 808 OFFCURVE",
-"352 851 CURVE",
-"323 918 LINE",
-"194 865 OFFCURVE",
-"45 728 OFFCURVE",
-"0 639 CURVE"
+(27,580,l),
+(81,675,o),
+(233,808,o),
+(352,851,c),
+(323,918,l),
+(194,865,o),
+(45,728,o),
+(0,639,c)
 );
 }
 );
@@ -63,26 +63,26 @@ width = 352;
 anchors = (
 {
 name = _top.near;
-position = "{87, 700}";
+pos = (87,700);
 },
 {
 name = top.near;
-position = "{57, 720}";
+pos = (57,720);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"12 553 LINE",
-"77 666 OFFCURVE",
-"199 782 OFFCURVE",
-"309 834 CURVE",
-"302 854 LINE",
-"187 800 OFFCURVE",
-"73 694 OFFCURVE",
-"0 572 CURVE"
+(12,553,l),
+(77,666,o),
+(199,782,o),
+(309,834,c),
+(302,854,l),
+(187,800,o),
+(73,694,o),
+(0,572,c)
 );
 }
 );
@@ -92,33 +92,33 @@ width = 309;
 anchors = (
 {
 name = _top.near;
-position = "{55, 730}";
+pos = (55,730);
 },
 {
 name = top.near;
-position = "{95, 914}";
+pos = (95,914);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"44 629 LINE",
-"132 769 OFFCURVE",
-"256 867 OFFCURVE",
-"424 935 CURVE",
-"385 1029 LINE",
-"216 961 OFFCURVE",
-"69 827 OFFCURVE",
-"0 704 CURVE"
+(44,629,l),
+(132,769,o),
+(256,867,o),
+(424,935,c),
+(385,1029,l),
+(216,961,o),
+(69,827,o),
+(0,704,c)
 );
 }
 );
 width = 424;
 }
 );
-leftMetricsKey = "=0";
+metricLeft = "=0";
+metricRight = "=0";
 note = diagonal;
-rightMetricsKey = "=0";
 }

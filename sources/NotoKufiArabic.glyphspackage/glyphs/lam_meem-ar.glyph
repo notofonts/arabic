@@ -2,57 +2,57 @@
 glyphname = "lam_meem-ar";
 layers = (
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "lam-ar.init";
-transform = "{1, 0, 0, 1, 620, 0}";
+pos = (620,0);
+ref = "lam-ar.init";
 },
 {
-name = "meem-ar.fina";
+ref = "meem-ar.fina";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 903;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "lam-ar.init";
-transform = "{1, 0, 0, 1, 681, 0}";
+pos = (681,0);
+ref = "lam-ar.init";
 },
 {
-name = "meem-ar.fina";
+ref = "meem-ar.fina";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 997;
 },
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "lam-ar.init";
-transform = "{1, 0, 0, 1, 742, 0}";
+pos = (742,0);
+ref = "lam-ar.init";
 },
 {
-name = "meem-ar.fina";
+ref = "meem-ar.fina";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 1111;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "lam-ar.init";
-transform = "{1, 0, 0, 1, 783, 0}";
+pos = (783,0);
+ref = "lam-ar.init";
 },
 {
-name = "meem-ar.fina";
+ref = "meem-ar.fina";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 1187;
 }
 );
-unicode = FC42;
+unicode = 64578;
 }

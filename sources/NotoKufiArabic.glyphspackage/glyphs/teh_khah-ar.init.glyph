@@ -2,65 +2,65 @@
 glyphname = "teh_khah-ar.init";
 layers = (
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
 alignment = 1;
-name = "teh-ar.init";
-transform = "{1, 0, 0, 1, 540, 0}";
+pos = (540,0);
+ref = "teh-ar.init";
 },
 {
 alignment = 1;
-name = "khah-ar.medi";
+ref = "khah-ar.medi";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 788;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
 alignment = 1;
-name = "teh-ar.init";
-transform = "{1, 0, 0, 1, 574, 0}";
+pos = (574,0);
+ref = "teh-ar.init";
 },
 {
 alignment = 1;
-name = "khah-ar.medi";
+ref = "khah-ar.medi";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 875;
 },
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
 alignment = 1;
-name = "teh-ar.init";
-transform = "{1, 0, 0, 1, 608, 0}";
+pos = (608,0);
+ref = "teh-ar.init";
 },
 {
 alignment = 1;
-name = "khah-ar.medi";
+ref = "khah-ar.medi";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 962;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
 alignment = 1;
-name = "teh-ar.init";
-transform = "{1, 0, 0, 1, 631, 0}";
+pos = (631,0);
+ref = "teh-ar.init";
 },
 {
 alignment = 1;
-name = "khah-ar.medi";
+ref = "khah-ar.medi";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 1020;
 }
 );
-unicode = FCA3;
+unicode = 64675;
 }

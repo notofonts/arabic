@@ -2,89 +2,89 @@
 glyphname = "qaf_lam_yeh-ar";
 layers = (
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "fehDotless-ar.init";
-transform = "{1, 0, 0, 1, 664, 0}";
+pos = (664,0);
+ref = "fehDotless-ar.init";
 },
 {
-name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 992, 42}";
+pos = (992,42);
+ref = "twodotshorizontalabove-ar";
 },
 {
-name = "lam-ar.medi";
-transform = "{1, 0, 0, 1, 356, 0}";
+pos = (356,0);
+ref = "lam-ar.medi";
 },
 {
-name = "yehbarree-ar.fina";
+ref = "yehbarree-ar.fina";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 1189;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "fehDotless-ar.init";
-transform = "{1, 0, 0, 1, 729, 0}";
+pos = (729,0);
+ref = "fehDotless-ar.init";
 },
 {
-name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 1040, 32}";
+pos = (1040,32);
+ref = "twodotshorizontalabove-ar";
 },
 {
-name = "lam-ar.medi";
-transform = "{1, 0, 0, 1, 388, 0}";
+pos = (388,0);
+ref = "lam-ar.medi";
 },
 {
-name = "yehbarree-ar.fina";
+ref = "yehbarree-ar.fina";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 1314;
 },
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "fehDotless-ar.init";
-transform = "{1, 0, 0, 1, 822, 0}";
+pos = (822,0);
+ref = "fehDotless-ar.init";
 },
 {
-name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 1116, 22}";
+pos = (1116,22);
+ref = "twodotshorizontalabove-ar";
 },
 {
-name = "lam-ar.medi";
-transform = "{1, 0, 0, 1, 428, 0}";
+pos = (428,0);
+ref = "lam-ar.medi";
 },
 {
-name = "yehbarree-ar.fina";
+ref = "yehbarree-ar.fina";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 1467;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "fehDotless-ar.init";
-transform = "{1, 0, 0, 1, 881, 0}";
+pos = (881,0);
+ref = "fehDotless-ar.init";
 },
 {
-name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 1204, 15}";
+pos = (1204,15);
+ref = "twodotshorizontalabove-ar";
 },
 {
-name = "lam-ar.medi";
-transform = "{1, 0, 0, 1, 452, 0}";
+pos = (452,0);
+ref = "lam-ar.medi";
 },
 {
-name = "yehbarree-ar.fina";
+ref = "yehbarree-ar.fina";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 1566;
 }
 );
-unicode = FDF1;
+unicode = 65009;
 }

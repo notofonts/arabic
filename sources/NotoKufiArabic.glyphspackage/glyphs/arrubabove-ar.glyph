@@ -5,150 +5,170 @@ layers = (
 anchors = (
 {
 name = _stop;
-position = "{304, 1030}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "alef-ar";
-transform = "{0.38, 0, 0, 0.38, 537, 1217}";
-},
-{
-alignment = -1;
-name = "lam-ar.init";
-transform = "{0.38, 0, 0, 0.38, 429, 1217}";
-},
-{
-alignment = -1;
-name = "reh-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 320, 1217}";
-},
-{
-alignment = -1;
-name = "beh-ar.init";
-transform = "{0.38, 0, 0, 0.38, 226, 1217}";
-},
-{
-alignment = -1;
-name = "ain-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 0, 1217}";
+pos = (304,1030);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
+{
+alignment = -1;
+pos = (537,1217);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (429,1217);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (320,1217);
+ref = "reh-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (226,1217);
+ref = "beh-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1217);
+ref = "ain-ar.fina";
+scale = (0.38,0.38);
+}
+);
 width = 622;
 },
 {
 anchors = (
 {
 name = _stop;
-position = "{313, 1030}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "alef-ar";
-transform = "{0.38, 0, 0, 0.38, 604, 1218}";
-},
-{
-alignment = -1;
-name = "lam-ar.init";
-transform = "{0.38, 0, 0, 0.38, 484, 1218}";
-},
-{
-alignment = -1;
-name = "reh-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 348, 1218}";
-},
-{
-alignment = -1;
-name = "beh-ar.init";
-transform = "{0.38, 0, 0, 0.38, 233, 1218}";
-},
-{
-alignment = -1;
-name = "ain-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 0, 1218}";
+pos = (313,1030);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
+{
+alignment = -1;
+pos = (604,1218);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (484,1218);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (348,1218);
+ref = "reh-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (233,1218);
+ref = "beh-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1218);
+ref = "ain-ar.fina";
+scale = (0.38,0.38);
+}
+);
 width = 714;
 },
 {
 anchors = (
 {
 name = _stop;
-position = "{408, 1030}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "alef-ar";
-transform = "{0.38, 0, 0, 0.38, 697, 1220}";
-},
-{
-alignment = -1;
-name = "lam-ar.init";
-transform = "{0.38, 0, 0, 0.38, 557, 1220}";
-},
-{
-alignment = -1;
-name = "reh-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 375, 1220}";
-},
-{
-alignment = -1;
-name = "beh-ar.init";
-transform = "{0.38, 0, 0, 0.38, 241, 1220}";
-},
-{
-alignment = -1;
-name = "ain-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 0, 1220}";
+pos = (408,1030);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
+{
+alignment = -1;
+pos = (697,1220);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (557,1220);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (375,1220);
+ref = "reh-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (241,1220);
+ref = "beh-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1220);
+ref = "ain-ar.fina";
+scale = (0.38,0.38);
+}
+);
 width = 830;
 },
 {
 anchors = (
 {
 name = _stop;
-position = "{451, 1030}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "alef-ar";
-transform = "{0.38, 0, 0, 0.38, 770, 1237}";
-},
-{
-alignment = -1;
-name = "lam-ar.init";
-transform = "{0.38, 0, 0, 0.38, 617, 1237}";
-},
-{
-alignment = -1;
-name = "reh-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 405, 1237}";
-},
-{
-alignment = -1;
-name = "beh-ar.init";
-transform = "{0.38, 0, 0, 0.38, 257, 1237}";
-},
-{
-alignment = -1;
-name = "ain-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 0, 1237}";
+pos = (451,1030);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
+{
+alignment = -1;
+pos = (770,1237);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (617,1237);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (405,1237);
+ref = "reh-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (257,1237);
+ref = "beh-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1237);
+ref = "ain-ar.fina";
+scale = (0.38,0.38);
+}
+);
 width = 918;
 }
 );
-unicode = 08D4;
+unicode = 2260;
 }

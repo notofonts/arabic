@@ -2,87 +2,79 @@
 glyphname = "perthousand-ar";
 layers = (
 {
-components = (
-{
-name = "percent-ar";
-}
-);
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"511 82 LINE",
-"570 82 LINE",
-"570 141 LINE",
-"511 141 LINE"
+(511,82,l),
+(570,82,l),
+(570,141,l),
+(511,141,l)
 );
+},
+{
+ref = "percent-ar";
 }
 );
 width = 620;
 },
 {
-components = (
-{
-name = "percent-ar";
-}
-);
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"546 81 LINE",
-"651 81 LINE",
-"651 186 LINE",
-"546 186 LINE"
+(546,81,l),
+(651,81,l),
+(651,186,l),
+(546,186,l)
 );
+},
+{
+ref = "percent-ar";
 }
 );
 width = 701;
 },
 {
-components = (
-{
-name = "percent-ar";
-}
-);
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"575 70 LINE",
-"701 70 LINE",
-"701 196 LINE",
-"575 196 LINE"
+(575,70,l),
+(701,70,l),
+(701,196,l),
+(575,196,l)
 );
+},
+{
+ref = "percent-ar";
 }
 );
 width = 751;
 },
 {
-components = (
-{
-name = "percent-ar";
-}
-);
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"608 70 LINE",
-"748 70 LINE",
-"748 210 LINE",
-"608 210 LINE"
+(608,70,l),
+(748,70,l),
+(748,210,l),
+(608,210,l)
 );
+},
+{
+ref = "percent-ar";
 }
 );
 width = 798;
 }
 );
-leftMetricsKey = "percent-ar";
-rightMetricsKey = "percent-ar";
-unicode = 0609;
+metricLeft = "percent-ar";
+metricRight = "percent-ar";
+unicode = 1545;
 }

@@ -5,38 +5,38 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{175, -78}";
+pos = (175,-78);
 },
 {
 name = bottomleft;
-position = "{20, -80}";
+pos = (20,-80);
 },
 {
 name = center;
-position = "{175, 445}";
+pos = (175,445);
 },
 {
 name = top.digit;
-position = "{100, 700}";
+pos = (100,700);
 },
 {
 name = top.near;
-position = "{185, 750}";
+pos = (185,750);
 },
 {
 name = topleft;
-position = "{20, 750}";
+pos = (20,750);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"100 0 LINE",
-"249 0 LINE",
-"249 700 LINE",
-"100 700 LINE"
+(100,0,l),
+(249,0,l),
+(249,700,l),
+(100,700,l)
 );
 }
 );
@@ -46,38 +46,38 @@ width = 349;
 anchors = (
 {
 name = bottom;
-position = "{145, -78}";
+pos = (145,-78);
 },
 {
 name = bottomleft;
-position = "{20, -80}";
+pos = (20,-80);
 },
 {
 name = center;
-position = "{145, 445}";
+pos = (145,445);
 },
 {
 name = top.digit;
-position = "{100, 700}";
+pos = (100,700);
 },
 {
 name = top.near;
-position = "{150, 750}";
+pos = (150,750);
 },
 {
 name = topleft;
-position = "{20, 749}";
+pos = (20,749);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"100 0 LINE",
-"189 0 LINE",
-"189 700 LINE",
-"100 700 LINE"
+(100,0,l),
+(189,0,l),
+(189,700,l),
+(100,700,l)
 );
 }
 );
@@ -87,38 +87,38 @@ width = 289;
 anchors = (
 {
 name = bottom;
-position = "{112, -78}";
+pos = (112,-78);
 },
 {
 name = bottomleft;
-position = "{17, -80}";
+pos = (17,-80);
 },
 {
 name = center;
-position = "{112, 445}";
+pos = (112,445);
 },
 {
 name = top.digit;
-position = "{102, 700}";
+pos = (102,700);
 },
 {
 name = top.near;
-position = "{114, 780}";
+pos = (114,780);
 },
 {
 name = topleft;
-position = "{17, 778}";
+pos = (17,778);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"100 0 LINE",
-"124 0 LINE",
-"124 700 LINE",
-"100 700 LINE"
+(100,0,l),
+(124,0,l),
+(124,700,l),
+(100,700,l)
 );
 }
 );
@@ -128,45 +128,45 @@ width = 224;
 anchors = (
 {
 name = bottom;
-position = "{195, -78}";
+pos = (195,-78);
 },
 {
 name = bottomleft;
-position = "{20, -80}";
+pos = (20,-80);
 },
 {
 name = center;
-position = "{195, 445}";
+pos = (195,445);
 },
 {
 name = top.digit;
-position = "{100, 700}";
+pos = (100,700);
 },
 {
 name = top.near;
-position = "{205, 750}";
+pos = (205,750);
 },
 {
 name = topleft;
-position = "{20, 751}";
+pos = (20,751);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"100 0 LINE",
-"291 0 LINE",
-"291 700 LINE",
-"100 700 LINE"
+(100,0,l),
+(291,0,l),
+(291,700,l),
+(100,700,l)
 );
 }
 );
 width = 391;
 }
 );
-leftMetricsKey = "=alef-ar";
+metricLeft = "=alef-ar";
+metricRight = "=alef-ar";
 note = alef_alt.isol;
-rightMetricsKey = "=alef-ar";
 }

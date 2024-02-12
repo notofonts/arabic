@@ -2,58 +2,58 @@
 glyphname = "tteh-ar.medi";
 layers = (
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "behDotless-ar.medi.wide";
+ref = "behDotless-ar.medi.wide";
 },
 {
-name = "tahabove-ar";
-transform = "{1, 0, 0, 1, 54, -63}";
+pos = (54,-63);
+ref = "tahabove-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 444;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "behDotless-ar.medi.wide";
+ref = "behDotless-ar.medi.wide";
 },
 {
-name = "tahabove-ar";
-transform = "{1, 0, 0, 1, 70, -103}";
+pos = (70,-103);
+ref = "tahabove-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 391;
 },
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "behDotless-ar.medi.wide";
+ref = "behDotless-ar.medi.wide";
 },
 {
-name = "tahabove-ar";
-transform = "{1, 0, 0, 1, 87, -109}";
+pos = (87,-109);
+ref = "tahabove-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 338;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "behDotless-ar.medi.wide";
+ref = "behDotless-ar.medi.wide";
 },
 {
-name = "tahabove-ar";
-transform = "{1, 0, 0, 1, 87, -43}";
+pos = (87,-43);
+ref = "tahabove-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 479;
 }
 );
 note = uni0679.medi;
-unicode = "FB69,FBA3";
+unicode = (64361,64419);
 }

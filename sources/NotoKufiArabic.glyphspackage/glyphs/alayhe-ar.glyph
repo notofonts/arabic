@@ -2,93 +2,93 @@
 glyphname = "alayhe-ar";
 layers = (
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "ain-ar.init";
-transform = "{1, 0, 0, 1, 1189, 0}";
+pos = (1189,0);
+ref = "ain-ar.init";
 },
 {
-name = "lam-ar.medi";
-transform = "{1, 0, 0, 1, 881, 0}";
+pos = (881,0);
+ref = "lam-ar.medi";
 },
 {
 alignment = 1;
-name = "yeh-ar.medi";
-transform = "{1, 0, 0, 1, 543, 0}";
+pos = (543,0);
+ref = "yeh-ar.medi";
 },
 {
-name = "heh-ar.fina";
+ref = "heh-ar.fina";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 1652;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "ain-ar.init";
-transform = "{1, 0, 0, 1, 1331, 0}";
+pos = (1331,0);
+ref = "ain-ar.init";
 },
 {
-name = "lam-ar.medi";
-transform = "{1, 0, 0, 1, 990, 0}";
+pos = (990,0);
+ref = "lam-ar.medi";
 },
 {
 alignment = 1;
-name = "yeh-ar.medi";
-transform = "{1, 0, 0, 1, 599, 0}";
+pos = (599,0);
+ref = "yeh-ar.medi";
 },
 {
-name = "heh-ar.fina";
+ref = "heh-ar.fina";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 1846;
 },
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "ain-ar.init";
-transform = "{1, 0, 0, 1, 1493, 0}";
+pos = (1493,0);
+ref = "ain-ar.init";
 },
 {
-name = "lam-ar.medi";
-transform = "{1, 0, 0, 1, 1099, 0}";
+pos = (1099,0);
+ref = "lam-ar.medi";
 },
 {
 alignment = 1;
-name = "yeh-ar.medi";
-transform = "{1, 0, 0, 1, 655, 0}";
+pos = (655,0);
+ref = "yeh-ar.medi";
 },
 {
-name = "heh-ar.fina";
+ref = "heh-ar.fina";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 2060;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "ain-ar.init";
-transform = "{1, 0, 0, 1, 1620, 0}";
+pos = (1620,0);
+ref = "ain-ar.init";
 },
 {
-name = "lam-ar.medi";
-transform = "{1, 0, 0, 1, 1191, 0}";
+pos = (1191,0);
+ref = "lam-ar.medi";
 },
 {
 alignment = 1;
-name = "yeh-ar.medi";
-transform = "{1, 0, 0, 1, 712, 0}";
+pos = (712,0);
+ref = "yeh-ar.medi";
 },
 {
-name = "heh-ar.fina";
+ref = "heh-ar.fina";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 2222;
 }
 );
-unicode = FDF7;
+unicode = 65015;
 }

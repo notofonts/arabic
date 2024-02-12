@@ -2,97 +2,97 @@
 glyphname = "akbar-ar";
 layers = (
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
 alignment = 1;
-name = "alefHamzaabove-ar";
-transform = "{1, 0, 0, 1, 1098, 0}";
+pos = (1098,0);
+ref = "alefHamzaabove-ar";
 },
 {
-name = "kaf-ar.init";
-transform = "{1, 0, 0, 1, 556, 0}";
+pos = (556,0);
+ref = "kaf-ar.init";
 },
 {
 alignment = 1;
-name = "beh-ar.medi";
-transform = "{1, 0, 0, 1, 288, 0}";
+pos = (288,0);
+ref = "beh-ar.medi";
 },
 {
-name = "reh-ar.fina";
+ref = "reh-ar.fina";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 1322;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
 alignment = 1;
-name = "alefHamzaabove-ar";
-transform = "{1, 0, 0, 1, 1276, 0}";
+pos = (1276,0);
+ref = "alefHamzaabove-ar";
 },
 {
-name = "kaf-ar.init";
-transform = "{1, 0, 0, 1, 700, 0}";
+pos = (700,0);
+ref = "kaf-ar.init";
 },
 {
 alignment = 1;
-name = "beh-ar.medi";
-transform = "{1, 0, 0, 1, 359, 0}";
+pos = (359,0);
+ref = "beh-ar.medi";
 },
 {
-name = "reh-ar.fina";
+ref = "reh-ar.fina";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 1565;
 },
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
 alignment = 1;
-name = "alefHamzaabove-ar";
-transform = "{1, 0, 0, 1, 1482, 0}";
+pos = (1482,0);
+ref = "alefHamzaabove-ar";
 },
 {
-name = "kaf-ar.init";
-transform = "{1, 0, 0, 1, 872, 0}";
+pos = (872,0);
+ref = "kaf-ar.init";
 },
 {
 alignment = 1;
-name = "beh-ar.medi";
-transform = "{1, 0, 0, 1, 478, 0}";
+pos = (478,0);
+ref = "beh-ar.medi";
 },
 {
-name = "reh-ar.fina";
+ref = "reh-ar.fina";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 1831;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
 alignment = 1;
-name = "alefHamzaabove-ar";
-transform = "{1, 0, 0, 1, 1619, 0}";
+pos = (1619,0);
+ref = "alefHamzaabove-ar";
 },
 {
-name = "kaf-ar.init";
-transform = "{1, 0, 0, 1, 986, 0}";
+pos = (986,0);
+ref = "kaf-ar.init";
 },
 {
 alignment = 1;
-name = "beh-ar.medi";
-transform = "{1, 0, 0, 1, 557, 0}";
+pos = (557,0);
+ref = "beh-ar.medi";
 },
 {
-name = "reh-ar.fina";
+ref = "reh-ar.fina";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 2010;
 }
 );
-unicode = FDF3;
+unicode = 65011;
 }

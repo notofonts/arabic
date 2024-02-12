@@ -2,58 +2,58 @@
 glyphname = "highhamzaWaw-ar";
 layers = (
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "highhamza-ar";
-transform = "{1, 0, 0, 1, 627, 0}";
+pos = (627,0);
+ref = "highhamza-ar";
 },
 {
-name = "waw-ar";
+ref = "waw-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 1153;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "highhamza-ar";
-transform = "{1, 0, 0, 1, 561, 0}";
+pos = (561,0);
+ref = "highhamza-ar";
 },
 {
-name = "waw-ar";
+ref = "waw-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 1051;
 },
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "highhamza-ar";
-transform = "{1, 0, 0, 1, 495, 0}";
+pos = (495,0);
+ref = "highhamza-ar";
 },
 {
-name = "waw-ar";
+ref = "waw-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 949;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "highhamza-ar";
-transform = "{1, 0, 0, 1, 681, 0}";
+pos = (681,0);
+ref = "highhamza-ar";
 },
 {
-name = "waw-ar";
+ref = "waw-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 1231;
 }
 );
 note = uni0676;
-unicode = 0676;
+unicode = 1654;
 }

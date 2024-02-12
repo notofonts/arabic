@@ -2,58 +2,58 @@
 glyphname = "lamVabove-ar";
 layers = (
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "lam-ar";
+ref = "lam-ar";
 },
 {
-name = "vabove-ar";
-transform = "{1, 0, 0, 1, 430, 308}";
+pos = (430,308);
+ref = "vabove-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 776;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "lam-ar";
+ref = "lam-ar";
 },
 {
-name = "vabove-ar";
-transform = "{1, 0, 0, 1, 401, 307}";
+pos = (401,307);
+ref = "vabove-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 687;
 },
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "lam-ar";
+ref = "lam-ar";
 },
 {
-name = "vabove-ar";
-transform = "{1, 0, 0, 1, 363, 297}";
+pos = (363,297);
+ref = "vabove-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 598;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "lam-ar";
+ref = "lam-ar";
 },
 {
-name = "vabove-ar";
-transform = "{1, 0, 0, 1, 455, 317}";
+pos = (455,317);
+ref = "vabove-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 835;
 }
 );
 note = uni06B5;
-unicode = 06B5;
+unicode = 1717;
 }

@@ -2,123 +2,115 @@
 glyphname = "pertenthousand-ar";
 layers = (
 {
-components = (
-{
-name = "percent-ar";
-}
-);
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"509 82 LINE",
-"568 82 LINE",
-"568 141 LINE",
-"509 141 LINE"
+(509,82,l),
+(568,82,l),
+(568,141,l),
+(509,141,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"638 82 LINE",
-"697 82 LINE",
-"697 141 LINE",
-"638 141 LINE"
+(638,82,l),
+(697,82,l),
+(697,141,l),
+(638,141,l)
 );
+},
+{
+ref = "percent-ar";
 }
 );
 width = 747;
 },
 {
-components = (
-{
-name = "percent-ar";
-}
-);
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"546 81 LINE",
-"651 81 LINE",
-"651 186 LINE",
-"546 186 LINE"
+(546,81,l),
+(651,81,l),
+(651,186,l),
+(546,186,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"726 81 LINE",
-"831 81 LINE",
-"831 186 LINE",
-"726 186 LINE"
+(726,81,l),
+(831,81,l),
+(831,186,l),
+(726,186,l)
 );
+},
+{
+ref = "percent-ar";
 }
 );
 width = 881;
 },
 {
-components = (
-{
-name = "percent-ar";
-}
-);
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"575 70 LINE",
-"701 70 LINE",
-"701 196 LINE",
-"575 196 LINE"
+(575,70,l),
+(701,70,l),
+(701,196,l),
+(575,196,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"785 70 LINE",
-"911 70 LINE",
-"911 196 LINE",
-"785 196 LINE"
+(785,70,l),
+(911,70,l),
+(911,196,l),
+(785,196,l)
 );
+},
+{
+ref = "percent-ar";
 }
 );
 width = 961;
 },
 {
-components = (
-{
-name = "percent-ar";
-}
-);
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"616 70 LINE",
-"756 70 LINE",
-"756 210 LINE",
-"616 210 LINE"
+(616,70,l),
+(756,70,l),
+(756,210,l),
+(616,210,l)
 );
 },
 {
 closed = 1;
 nodes = (
-"823 70 LINE",
-"963 70 LINE",
-"963 210 LINE",
-"823 210 LINE"
+(823,70,l),
+(963,70,l),
+(963,210,l),
+(823,210,l)
 );
+},
+{
+ref = "percent-ar";
 }
 );
 width = 1013;
 }
 );
-leftMetricsKey = "percent-ar";
-rightMetricsKey = "percent-ar";
-unicode = 060A;
+metricLeft = "percent-ar";
+metricRight = "percent-ar";
+unicode = 1546;
 }

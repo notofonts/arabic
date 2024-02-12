@@ -5,170 +5,194 @@ layers = (
 anchors = (
 {
 name = _stop;
-position = "{543, 1030}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "alef-ar";
-transform = "{0.38, 0, 0, 0.38, 1014, 1157}";
-},
-{
-alignment = -1;
-name = "lam-ar.init";
-transform = "{0.38, 0, 0, 0.38, 907, 1157}";
-},
-{
-alignment = -1;
-name = "seen-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 603, 1157}";
-},
-{
-alignment = -1;
-name = "jeem-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 397, 1157}";
-},
-{
-alignment = -1;
-name = "dal-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 214, 1157}";
-},
-{
-alignment = -1;
-name = "tehMarbuta-ar";
-transform = "{0.38, 0, 0, 0.38, 0, 1157}";
+pos = (543,1030);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
+{
+alignment = -1;
+pos = (1014,1157);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (907,1157);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (603,1157);
+ref = "seen-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (397,1157);
+ref = "jeem-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (214,1157);
+ref = "dal-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1157);
+ref = "tehMarbuta-ar";
+scale = (0.38,0.38);
+}
+);
 width = 1099;
 },
 {
 anchors = (
 {
 name = _stop;
-position = "{526, 1030}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "alef-ar";
-transform = "{0.38, 0, 0, 0.38, 1132, 1179}";
-},
-{
-alignment = -1;
-name = "lam-ar.init";
-transform = "{0.38, 0, 0, 0.38, 1012, 1179}";
-},
-{
-alignment = -1;
-name = "seen-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 661, 1179}";
-},
-{
-alignment = -1;
-name = "jeem-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 443, 1179}";
-},
-{
-alignment = -1;
-name = "dal-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 227, 1179}";
-},
-{
-alignment = -1;
-name = "tehMarbuta-ar";
-transform = "{0.38, 0, 0, 0.38, 0, 1179}";
+pos = (526,1030);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
+{
+alignment = -1;
+pos = (1132,1179);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (1012,1179);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (661,1179);
+ref = "seen-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (443,1179);
+ref = "jeem-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (227,1179);
+ref = "dal-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1179);
+ref = "tehMarbuta-ar";
+scale = (0.38,0.38);
+}
+);
 width = 1241;
 },
 {
 anchors = (
 {
 name = _stop;
-position = "{688, 1030}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "alef-ar";
-transform = "{0.38, 0, 0, 0.38, 1257, 1191}";
-},
-{
-alignment = -1;
-name = "lam-ar.init";
-transform = "{0.38, 0, 0, 0.38, 1116, 1191}";
-},
-{
-alignment = -1;
-name = "seen-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 720, 1191}";
-},
-{
-alignment = -1;
-name = "jeem-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 489, 1191}";
-},
-{
-alignment = -1;
-name = "dal-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 240, 1191}";
-},
-{
-alignment = -1;
-name = "tehMarbuta-ar";
-transform = "{0.38, 0, 0, 0.38, 0, 1191}";
+pos = (688,1030);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
+{
+alignment = -1;
+pos = (1257,1191);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (1116,1191);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (720,1191);
+ref = "seen-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (489,1191);
+ref = "jeem-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (240,1191);
+ref = "dal-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1191);
+ref = "tehMarbuta-ar";
+scale = (0.38,0.38);
+}
+);
 width = 1389;
 },
 {
 anchors = (
 {
 name = _stop;
-position = "{736, 1030}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "alef-ar";
-transform = "{0.38, 0, 0, 0.38, 1340, 1198}";
-},
-{
-alignment = -1;
-name = "lam-ar.init";
-transform = "{0.38, 0, 0, 0.38, 1186, 1198}";
-},
-{
-alignment = -1;
-name = "seen-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 759, 1198}";
-},
-{
-alignment = -1;
-name = "jeem-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 519, 1198}";
-},
-{
-alignment = -1;
-name = "dal-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 249, 1198}";
-},
-{
-alignment = -1;
-name = "tehMarbuta-ar";
-transform = "{0.38, 0, 0, 0.38, 0, 1198}";
+pos = (736,1030);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
+{
+alignment = -1;
+pos = (1340,1198);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (1186,1198);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (759,1198);
+ref = "seen-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (519,1198);
+ref = "jeem-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (249,1198);
+ref = "dal-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1198);
+ref = "tehMarbuta-ar";
+scale = (0.38,0.38);
+}
+);
 width = 1488;
 }
 );
-unicode = 08DB;
+unicode = 2267;
 }

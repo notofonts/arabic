@@ -2,58 +2,58 @@
 glyphname = "tehMarbutagoal-ar";
 layers = (
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "hehgoal-ar";
+ref = "hehgoal-ar";
 },
 {
-name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 306, 32}";
+pos = (306,32);
+ref = "twodotshorizontalabove-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 631;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "hehgoal-ar";
+ref = "hehgoal-ar";
 },
 {
-name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 279, 16}";
+pos = (279,16);
+ref = "twodotshorizontalabove-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 597;
 },
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "hehgoal-ar";
+ref = "hehgoal-ar";
 },
 {
-name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 282, 10}";
+pos = (282,10);
+ref = "twodotshorizontalabove-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 563;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "hehgoal-ar";
+ref = "hehgoal-ar";
 },
 {
-name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 324, 43}";
+pos = (324,43);
+ref = "twodotshorizontalabove-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 654;
 }
 );
 note = uni06C3;
-unicode = 06C3;
+unicode = 1731;
 }

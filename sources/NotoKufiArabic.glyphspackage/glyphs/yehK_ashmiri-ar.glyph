@@ -2,57 +2,57 @@
 glyphname = "yehKashmiri-ar";
 layers = (
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "alefMaksura-ar";
+ref = "alefMaksura-ar";
 },
 {
-name = "ring-ar";
-transform = "{1, 0, 0, 1, 300, -1350}";
+pos = (300,-1350);
+ref = "ring-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 795;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "alefMaksura-ar";
+ref = "alefMaksura-ar";
 },
 {
-name = "ring-ar";
-transform = "{1, 0, 0, 1, 281, -1378}";
+pos = (281,-1378);
+ref = "ring-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 839;
 },
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "alefMaksura-ar";
+ref = "alefMaksura-ar";
 },
 {
-name = "ring-ar";
-transform = "{1, 0, 0, 1, 281, -1378}";
+pos = (281,-1378);
+ref = "ring-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 883;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "alefMaksura-ar";
+ref = "alefMaksura-ar";
 },
 {
-name = "ring-ar";
-transform = "{1, 0, 0, 1, 281, -1378}";
+pos = (281,-1378);
+ref = "ring-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 912;
 }
 );
-unicode = 0620;
+unicode = 1568;
 }

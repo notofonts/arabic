@@ -2,89 +2,89 @@
 glyphname = "rasoul-ar";
 layers = (
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "reh-ar";
-transform = "{1, 0, 0, 1, 1853, 0}";
+pos = (1853,0);
+ref = "reh-ar";
 },
 {
-name = "seen-ar.init";
-transform = "{1, 0, 0, 1, 1112, 0}";
+pos = (1112,0);
+ref = "seen-ar.init";
 },
 {
-name = "waw-ar.fina";
-transform = "{1, 0, 0, 1, 598, 0}";
+pos = (598,0);
+ref = "waw-ar.fina";
 },
 {
-name = "lam-ar";
+ref = "lam-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 2129;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "reh-ar";
-transform = "{1, 0, 0, 1, 2118, 0}";
+pos = (2118,0);
+ref = "reh-ar";
 },
 {
-name = "seen-ar.init";
-transform = "{1, 0, 0, 1, 1240, 0}";
+pos = (1240,0);
+ref = "seen-ar.init";
 },
 {
-name = "waw-ar.fina";
-transform = "{1, 0, 0, 1, 687, 0}";
+pos = (687,0);
+ref = "waw-ar.fina";
 },
 {
-name = "lam-ar";
+ref = "lam-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 2443;
 },
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "reh-ar";
-transform = "{1, 0, 0, 1, 2442, 0}";
+pos = (2442,0);
+ref = "reh-ar";
 },
 {
-name = "seen-ar.init";
-transform = "{1, 0, 0, 1, 1438, 0}";
+pos = (1438,0);
+ref = "seen-ar.init";
 },
 {
-name = "waw-ar.fina";
-transform = "{1, 0, 0, 1, 776, 0}";
+pos = (776,0);
+ref = "waw-ar.fina";
 },
 {
-name = "lam-ar";
+ref = "lam-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 2880;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "reh-ar";
-transform = "{1, 0, 0, 1, 2658, 0}";
+pos = (2658,0);
+ref = "reh-ar";
 },
 {
-name = "seen-ar.init";
-transform = "{1, 0, 0, 1, 1570, 0}";
+pos = (1570,0);
+ref = "seen-ar.init";
 },
 {
-name = "waw-ar.fina";
-transform = "{1, 0, 0, 1, 835, 0}";
+pos = (835,0);
+ref = "waw-ar.fina";
 },
 {
-name = "lam-ar";
+ref = "lam-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 3171;
 }
 );
-unicode = FDF6;
+unicode = 65014;
 }

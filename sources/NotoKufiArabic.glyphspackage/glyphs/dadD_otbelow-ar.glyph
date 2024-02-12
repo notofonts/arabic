@@ -2,74 +2,74 @@
 glyphname = "dadDotbelow-ar";
 layers = (
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "sad-ar";
+ref = "sad-ar";
 },
 {
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 830, 40}";
+pos = (830,40);
+ref = "dotabove-ar";
 },
 {
-name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 800, 1}";
+pos = (800,1);
+ref = "dotbelow-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 1270;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "sad-ar";
+ref = "sad-ar";
 },
 {
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 835, 40}";
+pos = (835,40);
+ref = "dotabove-ar";
 },
 {
-name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 811, -19}";
+pos = (811,-19);
+ref = "dotbelow-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 1168;
 },
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "sad-ar";
+ref = "sad-ar";
 },
 {
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 790, 40}";
+pos = (790,40);
+ref = "dotabove-ar";
 },
 {
-name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 771, 8}";
+pos = (771,8);
+ref = "dotbelow-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 1066;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "sad-ar";
+ref = "sad-ar";
 },
 {
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 973, 40}";
+pos = (973,40);
+ref = "dotabove-ar";
 },
 {
-name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 936, 16}";
+pos = (936,16);
+ref = "dotbelow-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 1338;
 }
 );
 note = uni06FB;
-unicode = 06FB;
+unicode = 1787;
 }

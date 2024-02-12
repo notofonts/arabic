@@ -5,150 +5,170 @@ layers = (
 anchors = (
 {
 name = _stop;
-position = "{372, 1030}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "alef-ar";
-transform = "{0.38, 0, 0, 0.38, 595, 1188}";
-},
-{
-alignment = -1;
-name = "lam-ar.init";
-transform = "{0.38, 0, 0, 0.38, 487, 1188}";
-},
-{
-alignment = -1;
-name = "jeem-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 282, 1188}";
-},
-{
-alignment = -1;
-name = "zain-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 173, 1188}";
-},
-{
-alignment = -1;
-name = "hamza-ar";
-transform = "{0.38, 0, 0, 0.38, 0, 1188}";
+pos = (372,1030);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
+{
+alignment = -1;
+pos = (595,1188);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (487,1188);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (282,1188);
+ref = "jeem-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (173,1188);
+ref = "zain-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1188);
+ref = "hamza-ar";
+scale = (0.38,0.38);
+}
+);
 width = 680;
 },
 {
 anchors = (
 {
 name = _stop;
-position = "{381, 1030}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "alef-ar";
-transform = "{0.38, 0, 0, 0.38, 661, 1187}";
-},
-{
-alignment = -1;
-name = "lam-ar.init";
-transform = "{0.38, 0, 0, 0.38, 541, 1187}";
-},
-{
-alignment = -1;
-name = "jeem-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 323, 1187}";
-},
-{
-alignment = -1;
-name = "zain-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 186, 1187}";
-},
-{
-alignment = -1;
-name = "hamza-ar";
-transform = "{0.38, 0, 0, 0.38, 0, 1187}";
+pos = (381,1030);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
+{
+alignment = -1;
+pos = (661,1187);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (541,1187);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (323,1187);
+ref = "jeem-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (186,1187);
+ref = "zain-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1187);
+ref = "hamza-ar";
+scale = (0.38,0.38);
+}
+);
 width = 771;
 },
 {
 anchors = (
 {
 name = _stop;
-position = "{381, 1030}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "alef-ar";
-transform = "{0.38, 0, 0, 0.38, 661, 1191}";
-},
-{
-alignment = -1;
-name = "lam-ar.init";
-transform = "{0.38, 0, 0, 0.38, 541, 1191}";
-},
-{
-alignment = -1;
-name = "jeem-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 323, 1191}";
-},
-{
-alignment = -1;
-name = "zain-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 186, 1191}";
-},
-{
-alignment = -1;
-name = "hamza-ar";
-transform = "{0.38, 0, 0, 0.38, 0, 1191}";
+pos = (381,1030);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
+{
+alignment = -1;
+pos = (661,1191);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (541,1191);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (323,1191);
+ref = "jeem-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (186,1191);
+ref = "zain-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1191);
+ref = "hamza-ar";
+scale = (0.38,0.38);
+}
+);
 width = 771;
 },
 {
 anchors = (
 {
 name = _stop;
-position = "{381, 1030}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "alef-ar";
-transform = "{0.38, 0, 0, 0.38, 661, 1198}";
-},
-{
-alignment = -1;
-name = "lam-ar.init";
-transform = "{0.38, 0, 0, 0.38, 541, 1198}";
-},
-{
-alignment = -1;
-name = "jeem-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 323, 1198}";
-},
-{
-alignment = -1;
-name = "zain-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 186, 1198}";
-},
-{
-alignment = -1;
-name = "hamza-ar";
-transform = "{0.38, 0, 0, 0.38, 0, 1198}";
+pos = (381,1030);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
+{
+alignment = -1;
+pos = (661,1198);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (541,1198);
+ref = "lam-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (323,1198);
+ref = "jeem-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (186,1198);
+ref = "zain-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,1198);
+ref = "hamza-ar";
+scale = (0.38,0.38);
+}
+);
 width = 771;
 }
 );
-unicode = 0898;
+unicode = 2200;
 }

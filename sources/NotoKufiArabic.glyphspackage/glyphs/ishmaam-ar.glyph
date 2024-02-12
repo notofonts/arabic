@@ -5,150 +5,170 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{390, -45}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "alef-ar";
-transform = "{0.38, 0, 0, 0.38, 815, -344}";
-},
-{
-alignment = -1;
-name = "sheen-ar.init";
-transform = "{0.38, 0, 0, 0.38, 534, -344}";
-},
-{
-alignment = -1;
-name = "meem-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 321, -344}";
-},
-{
-alignment = -1;
-name = "alef-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 222, -344}";
-},
-{
-alignment = -1;
-name = "meem-ar";
-transform = "{0.38, 0, 0, 0.38, 0, -344}";
+pos = (390,-45);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
+{
+alignment = -1;
+pos = (815,-344);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (534,-344);
+ref = "sheen-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (321,-344);
+ref = "meem-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (222,-344);
+ref = "alef-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,-344);
+ref = "meem-ar";
+scale = (0.38,0.38);
+}
+);
 width = 901;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{416, -45}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "alef-ar";
-transform = "{0.38, 0, 0, 0.38, 931, -344}";
-},
-{
-alignment = -1;
-name = "sheen-ar.init";
-transform = "{0.38, 0, 0, 0.38, 597, -344}";
-},
-{
-alignment = -1;
-name = "meem-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 367, -344}";
-},
-{
-alignment = -1;
-name = "alef-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 247, -344}";
-},
-{
-alignment = -1;
-name = "meem-ar";
-transform = "{0.38, 0, 0, 0.38, 0, -344}";
+pos = (416,-45);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
+{
+alignment = -1;
+pos = (931,-344);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (597,-344);
+ref = "sheen-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (367,-344);
+ref = "meem-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (247,-344);
+ref = "alef-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,-344);
+ref = "meem-ar";
+scale = (0.38,0.38);
+}
+);
 width = 1040;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{416, -45}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "alef-ar";
-transform = "{0.38, 0, 0, 0.38, 1042, -350}";
-},
-{
-alignment = -1;
-name = "sheen-ar.init";
-transform = "{0.38, 0, 0, 0.38, 660, -350}";
-},
-{
-alignment = -1;
-name = "meem-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 412, -350}";
-},
-{
-alignment = -1;
-name = "alef-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 272, -350}";
-},
-{
-alignment = -1;
-name = "meem-ar";
-transform = "{0.38, 0, 0, 0.38, 0, -350}";
+pos = (416,-45);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
+{
+alignment = -1;
+pos = (1042,-350);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (660,-350);
+ref = "sheen-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (412,-350);
+ref = "meem-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (272,-350);
+ref = "alef-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,-350);
+ref = "meem-ar";
+scale = (0.38,0.38);
+}
+);
 width = 1174;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{416, -45}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "alef-ar";
-transform = "{0.38, 0, 0, 0.38, 1115, -374}";
-},
-{
-alignment = -1;
-name = "sheen-ar.init";
-transform = "{0.38, 0, 0, 0.38, 702, -374}";
-},
-{
-alignment = -1;
-name = "meem-ar.medi";
-transform = "{0.38, 0, 0, 0.38, 442, -374}";
-},
-{
-alignment = -1;
-name = "alef-ar.fina";
-transform = "{0.38, 0, 0, 0.38, 288, -374}";
-},
-{
-alignment = -1;
-name = "meem-ar";
-transform = "{0.38, 0, 0, 0.38, 0, -374}";
+pos = (416,-45);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
+{
+alignment = -1;
+pos = (1115,-374);
+ref = "alef-ar";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (702,-374);
+ref = "sheen-ar.init";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (442,-374);
+ref = "meem-ar.medi";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (288,-374);
+ref = "alef-ar.fina";
+scale = (0.38,0.38);
+},
+{
+alignment = -1;
+pos = (0,-374);
+ref = "meem-ar";
+scale = (0.38,0.38);
+}
+);
 width = 1263;
 }
 );
-unicode = 0899;
+unicode = 2201;
 }

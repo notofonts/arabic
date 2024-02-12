@@ -2,58 +2,58 @@
 glyphname = "dalVinvertedabove-ar";
 layers = (
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "dal-ar";
+ref = "dal-ar";
 },
 {
-name = "vinvertedabove-ar";
-transform = "{1, 0, 0, 1, 204, 142}";
+pos = (204,142);
+ref = "vinvertedabove-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 595;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "dal-ar";
+ref = "dal-ar";
 },
 {
-name = "vinvertedabove-ar";
-transform = "{1, 0, 0, 1, 170, 94}";
+pos = (170,94);
+ref = "vinvertedabove-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 509;
 },
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "dal-ar";
+ref = "dal-ar";
 },
 {
-name = "vinvertedabove-ar";
-transform = "{1, 0, 0, 1, 169, 80}";
+pos = (169,80);
+ref = "vinvertedabove-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 443;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "dal-ar";
+ref = "dal-ar";
 },
 {
-name = "vinvertedabove-ar";
-transform = "{1, 0, 0, 1, 239, 191}";
+pos = (239,191);
+ref = "vinvertedabove-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 652;
 }
 );
 note = uni06EE;
-unicode = 06EE;
+unicode = 1774;
 }

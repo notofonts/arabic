@@ -5,120 +5,120 @@ layers = (
 anchors = (
 {
 name = _top.far;
-position = "{101, 781}";
+pos = (101,781);
 },
 {
 name = top.far;
-position = "{117, 1060}";
+pos = (117,1060);
 },
 {
 name = top.near;
-position = "{117, 1060}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "fatha-ar";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{1, 0, 0, 1, 70, 97}";
+pos = (117,1060);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
+{
+alignment = -1;
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+pos = (70,97);
+ref = "fatha-ar";
+}
+);
 width = 274;
 },
 {
 anchors = (
 {
 name = _top.far;
-position = "{117, 781}";
+pos = (117,781);
 },
 {
 name = top.far;
-position = "{117, 1031}";
+pos = (117,1031);
 },
 {
 name = top.near;
-position = "{117, 1031}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "fatha-ar";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{1, 0, 0, 1, 80, 133}";
+pos = (117,1031);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
+{
+alignment = -1;
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+pos = (80,133);
+ref = "fatha-ar";
+}
+);
 width = 314;
 },
 {
 anchors = (
 {
 name = _top.far;
-position = "{117, 774}";
+pos = (117,774);
 },
 {
 name = top.far;
-position = "{117, 1041}";
+pos = (117,1041);
 },
 {
 name = top.near;
-position = "{117, 1041}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "fatha-ar";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{1, 0, 0, 1, 80, 133}";
+pos = (117,1041);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
+{
+alignment = -1;
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+pos = (80,133);
+ref = "fatha-ar";
+}
+);
 width = 314;
 },
 {
 anchors = (
 {
 name = _top.far;
-position = "{117, 781}";
+pos = (117,781);
 },
 {
 name = top.far;
-position = "{117, 1058}";
+pos = (117,1058);
 },
 {
 name = top.near;
-position = "{117, 1058}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "fatha-ar";
-},
-{
-alignment = -1;
-name = "fatha-ar";
-transform = "{1, 0, 0, 1, 80, 143}";
+pos = (117,1058);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
+{
+alignment = -1;
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+pos = (80,143);
+ref = "fatha-ar";
+}
+);
 width = 314;
 }
 );
-leftMetricsKey = "=0";
-rightMetricsKey = "=0";
-unicode = 08F0;
+metricLeft = "=0";
+metricRight = "=0";
+unicode = 2288;
 }

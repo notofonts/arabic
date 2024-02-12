@@ -2,58 +2,58 @@
 glyphname = "ddahal-ar";
 layers = (
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "dal-ar";
+ref = "dal-ar";
 },
 {
-name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 284, 26}";
+pos = (284,26);
+ref = "twodotshorizontalbelow-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 595;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "dal-ar";
+ref = "dal-ar";
 },
 {
-name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 268, -4}";
+pos = (268,-4);
+ref = "twodotshorizontalbelow-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 509;
 },
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "dal-ar";
+ref = "dal-ar";
 },
 {
-name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 220, 3}";
+pos = (220,3);
+ref = "twodotshorizontalbelow-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 443;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "dal-ar";
+ref = "dal-ar";
 },
 {
-name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 322, 45}";
+pos = (322,45);
+ref = "twodotshorizontalbelow-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 652;
 }
 );
 note = uni068D;
-unicode = "068D,FB82";
+unicode = (1677,64386);
 }

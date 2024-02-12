@@ -2,47 +2,51 @@
 glyphname = radical;
 layers = (
 {
-components = (
-{
-name = radical.rtlm;
-transform = "{-1, 0, 0, 1, 618, 0}";
-}
-);
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
+{
+pos = (618,0);
+ref = radical.rtlm;
+scale = (-1,1);
+}
+);
 width = 618;
 },
 {
-components = (
-{
-name = radical.rtlm;
-transform = "{-1, 0, 0, 1, 618, 0}";
-}
-);
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
+{
+pos = (618,0);
+ref = radical.rtlm;
+scale = (-1,1);
+}
+);
 width = 618;
 },
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = radical.rtlm;
-transform = "{-1, 0, 0, 1, 630, 0}";
+pos = (630,0);
+ref = radical.rtlm;
+scale = (-1,1);
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 630;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = radical.rtlm;
-transform = "{-1, 0, 0, 1, 700, 0}";
+pos = (700,0);
+ref = radical.rtlm;
+scale = (-1,1);
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 700;
 }
 );
-leftMetricsKey = "=22";
-rightMetricsKey = "=10";
-unicode = 221A;
+metricLeft = "=22";
+metricRight = "=10";
+unicode = 8730;
 }

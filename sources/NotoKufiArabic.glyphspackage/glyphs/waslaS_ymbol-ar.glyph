@@ -2,47 +2,47 @@
 glyphname = "waslaSymbol-ar";
 layers = (
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
 alignment = 1;
-name = "wasla-ar";
+ref = "wasla-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 213;
 },
 {
-components = (
-{
-alignment = 1;
-name = "wasla-ar";
-}
-);
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
+{
+alignment = 1;
+ref = "wasla-ar";
+}
+);
 width = 244;
 },
 {
-components = (
-{
-alignment = 1;
-name = "wasla-ar";
-}
-);
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
+{
+alignment = 1;
+ref = "wasla-ar";
+}
+);
 width = 244;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
 alignment = 1;
-name = "wasla-ar";
+ref = "wasla-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 251;
 }
 );
-leftMetricsKey = "=0";
-rightMetricsKey = "=0";
-unicode = FBC2;
+metricLeft = "=0";
+metricRight = "=0";
+unicode = 64450;
 }

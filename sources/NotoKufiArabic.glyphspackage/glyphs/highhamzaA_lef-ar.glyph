@@ -2,58 +2,58 @@
 glyphname = "highhamzaAlef-ar";
 layers = (
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "highhamza-ar";
-transform = "{1, 0, 0, 1, 349, 0}";
+pos = (349,0);
+ref = "highhamza-ar";
 },
 {
-name = "alef-ar";
+ref = "alef-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 875;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "highhamza-ar";
-transform = "{1, 0, 0, 1, 289, 0}";
+pos = (289,0);
+ref = "highhamza-ar";
 },
 {
-name = "alef-ar";
+ref = "alef-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 779;
 },
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "highhamza-ar";
-transform = "{1, 0, 0, 1, 224, 0}";
+pos = (224,0);
+ref = "highhamza-ar";
 },
 {
-name = "alef-ar";
+ref = "alef-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 678;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "highhamza-ar";
-transform = "{1, 0, 0, 1, 389, 0}";
+pos = (389,0);
+ref = "highhamza-ar";
 },
 {
-name = "alef-ar";
+ref = "alef-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 939;
 }
 );
 note = uni0675;
-unicode = 0675;
+unicode = 1653;
 }

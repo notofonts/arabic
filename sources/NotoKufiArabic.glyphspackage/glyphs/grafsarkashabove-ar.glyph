@@ -5,44 +5,42 @@ layers = (
 anchors = (
 {
 name = _top.near;
-position = "{87, 700}";
+pos = (87,700);
 },
 {
 name = top.near;
-position = "{57, 720}";
-}
-);
-components = (
-{
-name = "gafsarkashabove-ar";
+pos = (57,720);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"221 801 LINE",
-"197 795 OFFCURVE",
-"167 805 OFFCURVE",
-"154 833 CURVE SMOOTH",
-"136 869 OFFCURVE",
-"157 907 OFFCURVE",
-"188 922 CURVE SMOOTH",
-"204 930 OFFCURVE",
-"222 931 OFFCURVE",
-"232 930 CURVE",
-"232 952 LINE",
-"216 954 OFFCURVE",
-"199 950 OFFCURVE",
-"182 943 CURVE SMOOTH",
-"132 918 OFFCURVE",
-"113 868 OFFCURVE",
-"135 823 CURVE SMOOTH",
-"146 801 OFFCURVE",
-"166 781 OFFCURVE",
-"202 783 CURVE"
+(221,801,l),
+(197,795,o),
+(167,805,o),
+(154,833,cs),
+(136,869,o),
+(157,907,o),
+(188,922,cs),
+(204,930,o),
+(222,931,o),
+(232,930,c),
+(232,952,l),
+(216,954,o),
+(199,950,o),
+(182,943,cs),
+(132,918,o),
+(113,868,o),
+(135,823,cs),
+(146,801,o),
+(166,781,o),
+(202,783,c)
 );
+},
+{
+ref = "gafsarkashabove-ar";
 }
 );
 width = 309;
@@ -51,44 +49,42 @@ width = 309;
 anchors = (
 {
 name = _top.near;
-position = "{74, 710}";
+pos = (74,710);
 },
 {
 name = top.near;
-position = "{81, 823}";
-}
-);
-components = (
-{
-name = "gafsarkashabove-ar";
+pos = (81,823);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"247 866 LINE",
-"225 862 OFFCURVE",
-"201 870 OFFCURVE",
-"190 895 CURVE SMOOTH",
-"176 927 OFFCURVE",
-"190 951 OFFCURVE",
-"217 963 CURVE SMOOTH",
-"235 971 OFFCURVE",
-"252 974 OFFCURVE",
-"267 972 CURVE",
-"263 1020 LINE",
-"242 1021 OFFCURVE",
-"220 1017 OFFCURVE",
-"196 1007 CURVE SMOOTH",
-"141 982 OFFCURVE",
-"117 935 OFFCURVE",
-"140 883 CURVE SMOOTH",
-"152 854 OFFCURVE",
-"176 840 OFFCURVE",
-"210 838 CURVE"
+(247,866,l),
+(225,862,o),
+(201,870,o),
+(190,895,cs),
+(176,927,o),
+(190,951,o),
+(217,963,cs),
+(235,971,o),
+(252,974,o),
+(267,972,c),
+(263,1020,l),
+(242,1021,o),
+(220,1017,o),
+(196,1007,cs),
+(141,982,o),
+(117,935,o),
+(140,883,cs),
+(152,854,o),
+(176,840,o),
+(210,838,c)
 );
+},
+{
+ref = "gafsarkashabove-ar";
 }
 );
 width = 352;
@@ -97,44 +93,42 @@ width = 352;
 anchors = (
 {
 name = _top.near;
-position = "{56, 720}";
+pos = (56,720);
 },
 {
 name = top.near;
-position = "{82, 844}";
-}
-);
-components = (
-{
-name = "gafsarkashabove-ar";
+pos = (82,844);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"291 933 LINE",
-"270 931 OFFCURVE",
-"244 940 OFFCURVE",
-"234 965 CURVE SMOOTH",
-"224 992 OFFCURVE",
-"235 1016 OFFCURVE",
-"262 1027 CURVE SMOOTH",
-"279 1033 OFFCURVE",
-"298 1036 OFFCURVE",
-"317 1034 CURVE",
-"317 1089 LINE",
-"292 1092 OFFCURVE",
-"265 1088 OFFCURVE",
-"234 1076 CURVE SMOOTH",
-"172 1052 OFFCURVE",
-"144 1005 OFFCURVE",
-"164 952 CURVE SMOOTH",
-"177 918 OFFCURVE",
-"209 902 OFFCURVE",
-"245 904 CURVE"
+(291,933,l),
+(270,931,o),
+(244,940,o),
+(234,965,cs),
+(224,992,o),
+(235,1016,o),
+(262,1027,cs),
+(279,1033,o),
+(298,1036,o),
+(317,1034,c),
+(317,1089,l),
+(292,1092,o),
+(265,1088,o),
+(234,1076,cs),
+(172,1052,o),
+(144,1005,o),
+(164,952,cs),
+(177,918,o),
+(209,902,o),
+(245,904,c)
 );
+},
+{
+ref = "gafsarkashabove-ar";
 }
 );
 width = 394;
@@ -143,49 +137,47 @@ width = 394;
 anchors = (
 {
 name = _top.near;
-position = "{55, 730}";
+pos = (55,730);
 },
 {
 name = top.near;
-position = "{95, 914}";
-}
-);
-components = (
-{
-name = "gafsarkashabove-ar";
+pos = (95,914);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"321 985 LINE",
-"293 977 OFFCURVE",
-"265 985 OFFCURVE",
-"255 1008 CURVE SMOOTH",
-"246 1033 OFFCURVE",
-"253 1057 OFFCURVE",
-"280 1068 CURVE SMOOTH",
-"298 1075 OFFCURVE",
-"317 1078 OFFCURVE",
-"338 1077 CURVE",
-"337 1141 LINE",
-"308 1145 OFFCURVE",
-"277 1141 OFFCURVE",
-"242 1127 CURVE SMOOTH",
-"177 1101 OFFCURVE",
-"150 1049 OFFCURVE",
-"172 992 CURVE SMOOTH",
-"187 956 OFFCURVE",
-"225 940 OFFCURVE",
-"258 945 CURVE"
+(321,985,l),
+(293,977,o),
+(265,985,o),
+(255,1008,cs),
+(246,1033,o),
+(253,1057,o),
+(280,1068,cs),
+(298,1075,o),
+(317,1078,o),
+(338,1077,c),
+(337,1141,l),
+(308,1145,o),
+(277,1141,o),
+(242,1127,cs),
+(177,1101,o),
+(150,1049,o),
+(172,992,cs),
+(187,956,o),
+(225,940,o),
+(258,945,c)
 );
+},
+{
+ref = "gafsarkashabove-ar";
 }
 );
 width = 424;
 }
 );
-leftMetricsKey = "=0";
-rightMetricsKey = "=0";
+metricLeft = "=0";
+metricRight = "=0";
 }

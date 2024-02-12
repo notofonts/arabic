@@ -5,103 +5,103 @@ layers = (
 anchors = (
 {
 name = _top.near;
-position = "{83, 547}";
+pos = (83,547);
 },
 {
 name = top.far;
-position = "{83, 712}";
+pos = (83,712);
 },
 {
 name = top.near;
-position = "{83, 712}";
-}
-);
-components = (
-{
-alignment = -1;
-name = twodots.small.below;
-transform = "{1, 0, 0, 1, 85, 727}";
+pos = (83,712);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
+{
+alignment = -1;
+pos = (85,727);
+ref = twodots.small.below;
+}
+);
 width = 165;
 },
 {
 anchors = (
 {
 name = _top.near;
-position = "{101, 530}";
+pos = (101,530);
 },
 {
 name = top.far;
-position = "{101, 722}";
+pos = (101,722);
 },
 {
 name = top.near;
-position = "{101, 722}";
-}
-);
-components = (
-{
-alignment = -1;
-name = twodots.small.below;
-transform = "{1, 0, 0, 1, 101, 762}";
+pos = (101,722);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
+{
+alignment = -1;
+pos = (101,762);
+ref = twodots.small.below;
+}
+);
 width = 199;
 },
 {
 anchors = (
 {
 name = _top.near;
-position = "{122, 531}";
+pos = (122,531);
 },
 {
 name = top.far;
-position = "{122, 762}";
+pos = (122,762);
 },
 {
 name = top.near;
-position = "{122, 762}";
-}
-);
-components = (
-{
-alignment = -1;
-name = twodots.small.below;
-transform = "{1, 0, 0, 1, 122, 817}";
+pos = (122,762);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
+{
+alignment = -1;
+pos = (122,817);
+ref = twodots.small.below;
+}
+);
 width = 243;
 },
 {
 anchors = (
 {
 name = _top.near;
-position = "{149, 532}";
+pos = (149,532);
 },
 {
 name = top.far;
-position = "{149, 772}";
+pos = (149,772);
 },
 {
 name = top.near;
-position = "{149, 772}";
-}
-);
-components = (
-{
-alignment = -1;
-name = twodots.small.below;
-transform = "{1, 0, 0, 1, 149, 854}";
+pos = (149,772);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
+{
+alignment = -1;
+pos = (149,854);
+ref = twodots.small.below;
+}
+);
 width = 298;
 }
 );
-leftMetricsKey = "=0";
-rightMetricsKey = "=0";
+metricLeft = "=0";
+metricRight = "=0";
 }

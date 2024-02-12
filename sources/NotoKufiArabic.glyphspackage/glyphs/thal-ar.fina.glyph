@@ -2,58 +2,58 @@
 glyphname = "thal-ar.fina";
 layers = (
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "dal-ar.fina";
+ref = "dal-ar.fina";
 },
 {
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 146, 89}";
+pos = (146,89);
+ref = "dotabove-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 655;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "dal-ar.fina";
+ref = "dal-ar.fina";
 },
 {
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 176, 40}";
+pos = (176,40);
+ref = "dotabove-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 569;
 },
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "dal-ar.fina";
+ref = "dal-ar.fina";
 },
 {
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 198, 26}";
+pos = (198,26);
+ref = "dotabove-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 483;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "dal-ar.fina";
+ref = "dal-ar.fina";
 },
 {
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 203, 122}";
+pos = (203,122);
+ref = "dotabove-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 712;
 }
 );
 note = uni0630.fina;
-unicode = FEAC;
+unicode = 65196;
 }

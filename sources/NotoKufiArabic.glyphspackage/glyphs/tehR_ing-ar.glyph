@@ -2,74 +2,74 @@
 glyphname = "tehRing-ar";
 layers = (
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "behDotless-ar";
+ref = "behDotless-ar";
 },
 {
-name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 382, -85}";
+pos = (382,-85);
+ref = "twodotshorizontalabove-ar";
 },
 {
-name = "ringbelow-ar";
-transform = "{1, 0, 0, 1, 325, 235}";
+pos = (325,235);
+ref = "ringbelow-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 867;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "behDotless-ar";
+ref = "behDotless-ar";
 },
 {
-name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 382, -85}";
+pos = (382,-85);
+ref = "twodotshorizontalabove-ar";
 },
 {
-name = "ringbelow-ar";
-transform = "{1, 0, 0, 1, 280, 224}";
+pos = (280,224);
+ref = "ringbelow-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 778;
 },
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "behDotless-ar";
+ref = "behDotless-ar";
 },
 {
-name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 344, -100}";
+pos = (344,-100);
+ref = "twodotshorizontalabove-ar";
 },
 {
-name = "ringbelow-ar";
-transform = "{1, 0, 0, 1, 264, 212}";
+pos = (264,212);
+ref = "ringbelow-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 689;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "behDotless-ar";
+ref = "behDotless-ar";
 },
 {
-name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 431, -86}";
+pos = (431,-86);
+ref = "twodotshorizontalabove-ar";
 },
 {
-name = "ringbelow-ar";
-transform = "{1, 0, 0, 1, 355, 242}";
+pos = (355,242);
+ref = "ringbelow-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 926;
 }
 );
 note = uni067C;
-unicode = 067C;
+unicode = 1660;
 }

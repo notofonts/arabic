@@ -3,19 +3,19 @@ glyphname = commareversed;
 layers = (
 {
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"67 34 OFFCURVE",
-"103 -57 OFFCURVE",
-"135 -129 CURVE",
-"200 -129 LINE",
-"181 -53 OFFCURVE",
-"160 46 OFFCURVE",
-"150 116 CURVE",
-"56 116 LINE",
-"49 105 LINE"
+(67,34,o),
+(103,-57,o),
+(135,-129,c),
+(200,-129,l),
+(181,-53,o),
+(160,46,o),
+(150,116,c),
+(56,116,l),
+(49,105,l)
 );
 }
 );
@@ -27,19 +27,19 @@ width = 241;
 },
 {
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"89 30 OFFCURVE",
-"111 -60 OFFCURVE",
-"139 -129 CURVE",
-"161 -129 LINE",
-"132 -32 OFFCURVE",
-"116 40 OFFCURVE",
-"105 116 CURVE",
-"77 116 LINE",
-"74 104 LINE"
+(89,30,o),
+(111,-60,o),
+(139,-129,c),
+(161,-129,l),
+(132,-32,o),
+(116,40,o),
+(105,116,c),
+(77,116,l),
+(74,104,l)
 );
 }
 );
@@ -51,19 +51,19 @@ width = 199;
 },
 {
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"79 34 OFFCURVE",
-"114 -56 OFFCURVE",
-"147 -129 CURVE",
-"254 -129 LINE",
-"235 -50 OFFCURVE",
-"215 47 OFFCURVE",
-"205 116 CURVE",
-"68 116 LINE",
-"61 105 LINE"
+(79,34,o),
+(114,-56,o),
+(147,-129,c),
+(254,-129,l),
+(235,-50,o),
+(215,47,o),
+(205,116,c),
+(68,116,l),
+(61,105,l)
 );
 }
 );
@@ -76,19 +76,19 @@ width = 285;
 {
 associatedMasterId = "410295A1-92BC-4707-ABFC-13885E60878B";
 layerId = m004;
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"89 30 OFFCURVE",
-"111 -60 OFFCURVE",
-"139 -129 CURVE",
-"161 -129 LINE",
-"132 -32 OFFCURVE",
-"116 40 OFFCURVE",
-"105 116 CURVE",
-"77 116 LINE",
-"74 104 LINE"
+(89,30,o),
+(111,-60,o),
+(139,-129,c),
+(161,-129,l),
+(132,-32,o),
+(116,40,o),
+(105,116,c),
+(77,116,l),
+(74,104,l)
 );
 }
 );
@@ -100,19 +100,19 @@ width = 199;
 },
 {
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"77 63 OFFCURVE",
-"112 -65 OFFCURVE",
-"145 -139 CURVE",
-"281 -139 LINE",
-"262 -48 OFFCURVE",
-"242 66 OFFCURVE",
-"233 146 CURVE",
-"66 146 LINE",
-"59 135 LINE"
+(77,63,o),
+(112,-65,o),
+(145,-139,c),
+(281,-139,l),
+(262,-48,o),
+(242,66,o),
+(233,146,c),
+(66,146,l),
+(59,135,l)
 );
 }
 );
@@ -123,5 +123,5 @@ com.schriftgestaltung.Glyphs.subCategory = Other;
 width = 309;
 }
 );
-unicode = 2E41;
+unicode = 11841;
 }

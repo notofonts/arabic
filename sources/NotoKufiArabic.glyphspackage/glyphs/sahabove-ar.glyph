@@ -5,25 +5,23 @@ layers = (
 anchors = (
 {
 name = _stop;
-position = "{131, 1030}";
-}
-);
-components = (
-{
-name = "wasla-ar";
-transform = "{1, 0, 0, 1, 55, 310}";
+pos = (131,1030);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"70 1099 LINE",
-"55 1112 LINE",
-"0 1047 LINE",
-"15 1034 LINE"
+(70,1099,l),
+(55,1112,l),
+(0,1047,l),
+(15,1034,l)
 );
+},
+{
+pos = (55,310);
+ref = "wasla-ar";
 }
 );
 width = 268;
@@ -32,25 +30,23 @@ width = 268;
 anchors = (
 {
 name = _stop;
-position = "{142, 1030}";
-}
-);
-components = (
-{
-name = "wasla-ar";
-transform = "{1, 0, 0, 1, 55, 310}";
+pos = (142,1030);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"95 1110 LINE",
-"55 1144 LINE",
-"0 1079 LINE",
-"40 1045 LINE"
+(95,1110,l),
+(55,1144,l),
+(0,1079,l),
+(40,1045,l)
 );
+},
+{
+pos = (55,310);
+ref = "wasla-ar";
 }
 );
 width = 299;
@@ -59,25 +55,23 @@ width = 299;
 anchors = (
 {
 name = _stop;
-position = "{152, 1030}";
-}
-);
-components = (
-{
-name = "wasla-ar";
-transform = "{1, 0, 0, 1, 55, 310}";
+pos = (152,1030);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"95 1122 LINE",
-"55 1156 LINE",
-"0 1091 LINE",
-"40 1057 LINE"
+(95,1122,l),
+(55,1156,l),
+(0,1091,l),
+(40,1057,l)
 );
+},
+{
+pos = (55,310);
+ref = "wasla-ar";
 }
 );
 width = 299;
@@ -86,31 +80,29 @@ width = 299;
 anchors = (
 {
 name = _stop;
-position = "{152, 1030}";
-}
-);
-components = (
-{
-name = "wasla-ar";
-transform = "{1, 0, 0, 1, 55, 310}";
+pos = (152,1030);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"95 1125 LINE",
-"55 1159 LINE",
-"0 1094 LINE",
-"40 1060 LINE"
+(95,1125,l),
+(55,1159,l),
+(0,1094,l),
+(40,1060,l)
 );
+},
+{
+pos = (55,310);
+ref = "wasla-ar";
 }
 );
 width = 306;
 }
 );
-leftMetricsKey = "=0";
-rightMetricsKey = "=0";
-unicode = 08CC;
+metricLeft = "=0";
+metricRight = "=0";
+unicode = 2252;
 }

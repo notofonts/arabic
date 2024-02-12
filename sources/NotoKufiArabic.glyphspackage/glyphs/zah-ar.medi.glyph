@@ -2,58 +2,58 @@
 glyphname = "zah-ar.medi";
 layers = (
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "tah-ar.medi";
+ref = "tah-ar.medi";
 },
 {
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 533, 44}";
+pos = (533,44);
+ref = "dotabove-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 906;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "tah-ar.medi";
+ref = "tah-ar.medi";
 },
 {
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 455, 30}";
+pos = (455,30);
+ref = "dotabove-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 835;
 },
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "tah-ar.medi";
+ref = "tah-ar.medi";
 },
 {
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 430, 30}";
+pos = (430,30);
+ref = "dotabove-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 784;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "tah-ar.medi";
+ref = "tah-ar.medi";
 },
 {
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 540, 49}";
+pos = (540,49);
+ref = "dotabove-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 953;
 }
 );
 note = uni0638.medi;
-unicode = FEC8;
+unicode = 65224;
 }

@@ -2,74 +2,74 @@
 glyphname = "noonRing-ar";
 layers = (
 {
-components = (
+layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
+shapes = (
 {
-name = "noonghunna-ar";
+ref = "noonghunna-ar";
 },
 {
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 346, -74}";
+pos = (346,-74);
+ref = "dotabove-ar";
 },
 {
-name = "ringbelow-ar";
-transform = "{1, 0, 0, 1, 272, -5}";
+pos = (272,-5);
+ref = "ringbelow-ar";
 }
 );
-layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
 width = 761;
 },
 {
-components = (
+layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
+shapes = (
 {
-name = "noonghunna-ar";
+ref = "noonghunna-ar";
 },
 {
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 325, -129}";
+pos = (325,-129);
+ref = "dotabove-ar";
 },
 {
-name = "ringbelow-ar";
-transform = "{1, 0, 0, 1, 229, -16}";
+pos = (229,-16);
+ref = "ringbelow-ar";
 }
 );
-layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
 width = 672;
 },
 {
-components = (
+layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
+shapes = (
 {
-name = "noonghunna-ar";
+ref = "noonghunna-ar";
 },
 {
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 274, -191}";
+pos = (274,-191);
+ref = "dotabove-ar";
 },
 {
-name = "ringbelow-ar";
-transform = "{1, 0, 0, 1, 221, -28}";
+pos = (221,-28);
+ref = "ringbelow-ar";
 }
 );
-layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
 width = 583;
 },
 {
-components = (
+layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
+shapes = (
 {
-name = "noonghunna-ar";
+ref = "noonghunna-ar";
 },
 {
-name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 367, -70}";
+pos = (367,-70);
+ref = "dotabove-ar";
 },
 {
-name = "ringbelow-ar";
-transform = "{1, 0, 0, 1, 301, -3}";
+pos = (301,-3);
+ref = "ringbelow-ar";
 }
 );
-layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
 width = 820;
 }
 );
 note = uni06BC;
-unicode = 06BC;
+unicode = 1724;
 }

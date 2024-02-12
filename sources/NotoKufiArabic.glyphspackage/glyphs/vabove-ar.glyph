@@ -5,29 +5,29 @@ layers = (
 anchors = (
 {
 name = _top.near;
-position = "{162, 477}";
+pos = (162,477);
 },
 {
 name = top.far;
-position = "{162, 696}";
+pos = (162,696);
 },
 {
 name = top.near;
-position = "{162, 696}";
+pos = (162,696);
 }
 );
 layerId = "307C4A58-79B8-4138-817C-FBEE21722E1A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"226 696 LINE",
-"161 567 LINE",
-"98 696 LINE",
-"0 696 LINE",
-"111 497 LINE",
-"213 497 LINE",
-"323 696 LINE"
+(226,696,l),
+(161,567,l),
+(98,696,l),
+(0,696,l),
+(111,497,l),
+(213,497,l),
+(323,696,l)
 );
 }
 );
@@ -37,29 +37,29 @@ width = 323;
 anchors = (
 {
 name = _top.near;
-position = "{142, 477}";
+pos = (142,477);
 },
 {
 name = top.far;
-position = "{142, 696}";
+pos = (142,696);
 },
 {
 name = top.near;
-position = "{142, 696}";
+pos = (142,696);
 }
 );
 layerId = "15908E2C-AB74-4DC1-B0E7-8741EE8F4DA5";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"206 696 LINE",
-"141 567 LINE",
-"78 696 LINE",
-"0 696 LINE",
-"111 497 LINE",
-"173 497 LINE",
-"283 696 LINE"
+(206,696,l),
+(141,567,l),
+(78,696,l),
+(0,696,l),
+(111,497,l),
+(173,497,l),
+(283,696,l)
 );
 }
 );
@@ -69,29 +69,29 @@ width = 283;
 anchors = (
 {
 name = _top.near;
-position = "{122, 477}";
+pos = (122,477);
 },
 {
 name = top.far;
-position = "{122, 696}";
+pos = (122,696);
 },
 {
 name = top.near;
-position = "{122, 696}";
+pos = (122,696);
 }
 );
 layerId = "410295A1-92BC-4707-ABFC-13885E60878B";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"216 675 LINE",
-"122 519 LINE",
-"27 675 LINE",
-"0 675 LINE",
-"111 496 LINE",
-"133 496 LINE",
-"243 675 LINE"
+(216,675,l),
+(122,519,l),
+(27,675,l),
+(0,675,l),
+(111,496,l),
+(133,496,l),
+(243,675,l)
 );
 }
 );
@@ -101,37 +101,37 @@ width = 243;
 anchors = (
 {
 name = _top.near;
-position = "{175, 477}";
+pos = (175,477);
 },
 {
 name = top.far;
-position = "{175, 696}";
+pos = (175,696);
 },
 {
 name = top.near;
-position = "{175, 696}";
+pos = (175,696);
 }
 );
 layerId = "DCD2D043-4E01-4B5D-9248-443A06E88532";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"239 696 LINE",
-"174 567 LINE",
-"111 696 LINE",
-"0 696 LINE",
-"111 497 LINE",
-"239 497 LINE",
-"349 696 LINE"
+(239,696,l),
+(174,567,l),
+(111,696,l),
+(0,696,l),
+(111,497,l),
+(239,497,l),
+(349,696,l)
 );
 }
 );
 width = 349;
 }
 );
-leftMetricsKey = "=0";
+metricLeft = "=0";
+metricRight = "=0";
 note = uni065A;
-rightMetricsKey = "=0";
-unicode = 065A;
+unicode = 1626;
 }
