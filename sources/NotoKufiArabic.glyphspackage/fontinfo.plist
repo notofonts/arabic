@@ -1,5 +1,5 @@
 {
-.appVersion = "3221";
+.appVersion = "3227";
 classes = (
 {
 automatic = 1;
@@ -310,8 +310,8 @@ name = "Write DisplayStrings";
 value = 0;
 },
 {
-name = vendorID;
-value = GOOG;
+name = description;
+value = "Designed by Monotype Design Team and David Williams; engineering by Khaled Hosny";
 },
 {
 name = license;
@@ -322,12 +322,12 @@ name = licenseURL;
 value = "https://scripts.sil.org/OFL";
 },
 {
-name = description;
-value = "Designed by Monotype Design Team and David Williams; engineering by Khaled Hosny";
-},
-{
 name = trademark;
 value = "Noto is a trademark of Google LLC";
+},
+{
+name = vendorID;
+value = GOOG;
 },
 {
 name = versionString;
