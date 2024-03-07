@@ -337,6 +337,7 @@ code = "languagesystem DFLT dflt;
 
 languagesystem arab dflt;
 languagesystem arab SND;
+languagesystem arab FAR;
 languagesystem arab URD;
 languagesystem arab KSH;
 languagesystem arab RHG;
@@ -721,6 +722,8 @@ code = "  script arab; # Arabic
 		 meem-ar.locl sindhipostpositionmen-ar.locl
 		 commareversed semicolonreversed]
 	;
+    language FAR ; # Farsi
+	sub heh-ar hamzaabove-ar' by yehaboveFarsi-ar;
 
     language URD ; # Urdu
     lookup locl_arabURD_arabKSH_1 {
