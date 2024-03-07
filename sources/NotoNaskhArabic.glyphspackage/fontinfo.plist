@@ -1,5 +1,5 @@
 {
-.appVersion = "3225";
+.appVersion = "3243";
 .formatVersion = 3;
 axes = (
 {
@@ -741,6 +741,7 @@ code = "# GSUB feature: Localized Forms
 	sub [decimalseparator-ar thousandseparator-ar]
 	 by [decimalseparator-ar.locl thousandseparator-ar.locl]
 	;
+	sub heh-ar hamzaabove-ar' by yehaboveFarsi-ar;
 
 	language RHG;
 	sub [fourFarsi-ar sixFarsi-ar sevenFarsi-ar]
