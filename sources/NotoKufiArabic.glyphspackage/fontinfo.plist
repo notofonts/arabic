@@ -326,6 +326,7 @@ code = "languagesystem DFLT dflt;
 languagesystem arab dflt;
 languagesystem arab SND;
 languagesystem arab URD;
+languagesystem arab FAR;
 languagesystem arab KSH;
 languagesystem arab RHG;
 ";
@@ -714,6 +715,9 @@ code = "script arab; # Arabic
        by [fourFarsi-ar.locl six-ar sevenFarsi-ar.locl]
       ;
     } locl_arabURD_arabKSH_1;
+
+    language FAR ; # Farsi
+	sub heh-ar hamzaabove-ar' by yehaboveFarsi-ar;
 
     language KSH ; # Kashmiri
     lookup locl_arabURD_arabKSH_1;
