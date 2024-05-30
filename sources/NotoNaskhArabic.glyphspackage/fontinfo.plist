@@ -1474,10 +1474,6 @@ value = "Noto is a trademark of Google LLC.";
 {
 key = vendorID;
 value = GOOG;
-},
-{
-key = versionString;
-value = "Version 2.018";
 }
 );
 unitsPerEm = 1000;
@@ -1485,5 +1481,5 @@ userData = {
 UFOFormat = 2;
 };
 versionMajor = 2;
-versionMinor = 18;
+versionMinor = 19;
 }
