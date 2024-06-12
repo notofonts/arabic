@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.12.0
+fontbakery version: 0.12.7
 
 
 
@@ -12,7 +12,7 @@ These won't break the CI job for now, but will become effective after some time 
 <details><summary>[1] NotoNaskhArabicUI[wght].ttf</summary>
 <div>
 <details>
-    <summary>⚠️ <b>WARN</b> Validate location, size and resolution of article images. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
     <div>
 
 
@@ -21,7 +21,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* ⚠️ **WARN** <p>Family metadata at fonts/NotoNaskhArabicUI/googlefonts/variable does not have an article.</p>
+* ⚠️ **WARN** <p>Family metadata at fonts/NotoNaskhArabicUI/googlefonts/variable-ttf does not have an article.</p>
  [code: lacks-article]
 
 
@@ -41,254 +41,7 @@ These won't break the CI job for now, but will become effective after some time 
 <details><summary>[15] NotoNaskhArabicUI[wght].ttf</summary>
 <div>
 <details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
- [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Detect any interpolation issues in the font. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 0 point 40 has a kink between location wght=400 and location wght=700
-
-- Contour 0 in glyph 'uni08AA': becomes underweight between wght=400 and wght=700.
-
-- Contour 0 point 24 has a kink between location wght=400 and location wght=700
-
-- Contour 0 point 26 has a kink between location wght=400 and location wght=700
-
-- Contour 0 point 72 has a kink between location wght=400 and location wght=700
-</code></pre>
- [code: interpolation-issues]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- _1518
-
-- _531.001
-
-- _539
-
-- _540
-
-- _782
-
-- _786
-
-- _874
-
-- _986
-
-- _twodotstah
-
-- _uniFBB2.001
-
-- _uniFBB3.001
-
-- _vabove
-
-- alrahem
-
-- alrhman
-
-- bsm
-
-- dotamiddlear
-
-- threedotsdowncenterar
-
-- uni0644Final.rlig
-
-- uni06A1.init
-
-- uni06A1.medi
-
-- uni06B5.isol
-
-- uni06B6.isol
-
-- uni06B7.isol
-
-- uni06BA.init
-
-- uni06BA.medi
-
-- uni06BD.init
-
-- uni06BD.medi
-
-- uniFBB2.001
-
-- uniFBB5.001
-
-- uniFBB6.001
-
-- uniFBBB.001
-
-- uniFBBB.002
-
-- uniFBBE.001
-
-- uniFC5B.fina
-
-- uniFC5C.fina
-
-- uniFD3D.rlig
-
-- uniFDF2.001
-
-- uniFDFD.01
-
-- uniFEA4_uniFBB4_uniFBB3
-
-- uniFEA4_uniFBBD
-
-- uniFEB3_uniFBB6_uniFBB7
-
-- uniFEC4_uniFBB4
-</code></pre>
- [code: unreachable-glyphs]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Font has **proper** whitespace glyph names? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Glyph 0x0020 is called &quot;uni0020&quot;: Change to &quot;space&quot;</p>
- [code: not-recommended-0020]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, phags-pa, thaana, nko, hebrew</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: sharada, limbu, buginese, modi, old-permic, symbols, grantha, elbasan, kannada, miao, javanese, telugu, tai-le, syriac, devanagari, new-tai-lue, tai-viet, ahom, hanunoo, buhid, psalter-pahlavi, nko, khmer, kharoshthi, syloti-nagri, balinese, mongolian, chakma, bengali, hebrew, pahawh-hmong, math, sogdian, lao, thaana, malayalam, armenian, warang-citi, kaithi, gunjala-gondi, duployan, masaram-gondi, mahajani, meetei-mayek, soyombo, dogra, oriya, mandaic, coptic, gurmukhi, khojki, phags-pa, gujarati, takri, tai-tham, sundanese, yi, kayah-li, siddham, wancho, mende-kikakui, batak, saurashtra, tagalog, thai, osage, tamil, adlam, brahmi, tirhuta, canadian-aboriginal, khudawadi, lepcha, tifinagh, marchen, bhaiksuki, rejang, newa, bassa-vah, tibetan, zanabazar-square, sinhala, caucasian-albanian, music, tagbanwa, myanmar, hanifi-rohingya, manichaean, cham</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>arabic</code>, <code>cyrillic-ext</code>, <code>greek-ext</code>, <code>latin-ext</code></p>
- [code: unreachable-subsetting]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure variable fonts include an avar table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This variable font does not have an avar table.</p>
- [code: missing-avar]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
- [code: lacks-meta-table]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check that glyph for U+0675 ARABIC LETTER HIGH HAMZA is not a mark. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check that glyph for U+0675 ARABIC LETTER HIGH HAMZA is not a mark. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.arabic.html#"></a></summary>
     <div>
 
 
@@ -306,7 +59,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
     <div>
 
 
@@ -375,23 +128,30 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
+<td align="left">Shaper didn't attach uni0654 to uni0020</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Arabic_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ar_Arab (Arabic)</td>
 <td align="left">Shaper didn't attach uni0654 to None</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
+<td align="left">Shaper didn't attach uni0655 to None</td>
 </tr>
 <tr>
 <td align="left">^</td>
@@ -399,55 +159,38 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
+<td align="left">Shaper didn't attach uni0655 to uni0020</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
+<td align="left">Shaper didn't attach uni0654 to uni0640</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
+<td align="left">Shaper didn't attach uni0655 to uni0640</td>
 </tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* 🔥 **FAIL** <p>GF_Arabic_Core glyphset:</p>
+<table>
+<thead>
 <tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
 </tr>
+</thead>
+<tbody>
 <tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-<tr>
-<td align="left">^</td>
+<td align="left">fa_Arab (Persian)</td>
 <td align="left">Shaper didn't attach uni0654 to None</td>
 </tr>
 <tr>
 <td align="left">^</td>
 <td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
 </tr>
 </tbody>
 </table>
@@ -460,7 +203,7 @@ definitions.</p>
 <thead>
 <tr>
 <th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<th align="left">WARN messages</th>
 </tr>
 </thead>
 <tbody>
@@ -487,13 +230,13 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>This is a Noto font but it lacks an ARTICLE.en_us.html file</p>
+* 🔥 **FAIL** <p>This is a Noto font but it lacks an ARTICLE.en_us.html file.</p>
  [code: missing-article]
 
 
 
-* 🔥 **FAIL** <p>This is a Noto font but it lacks a DESCRIPTION.en_us.html file</p>
- [code: empty-description]
+* 🔥 **FAIL** <p>This is a Noto font but it lacks a DESCRIPTION.en_us.html file.</p>
+ [code: missing-description]
 
 
 
@@ -1437,6 +1180,253 @@ definitions.</p>
 
 </div>
 </details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Detect any interpolation issues in the font. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
+<pre><code>- Contour 0 point 40 in glyph 'uni0602' has a kink between location wght=400 and location wght=700
+
+- Contour 0 in glyph 'uni08AA': becomes underweight between wght=400 and wght=700.
+
+- Contour 0 point 24 in glyph 'uni08AA' has a kink between location wght=400 and location wght=700
+
+- Contour 0 point 72 in glyph 'uni06AA' has a kink between location wght=400 and location wght=700
+
+- Contour 0 point 26 in glyph 'uni0665' has a kink between location wght=400 and location wght=700
+</code></pre>
+ [code: interpolation-issues]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- _1518
+
+- _531.001
+
+- _539
+
+- _540
+
+- _782
+
+- _786
+
+- _874
+
+- _986
+
+- _twodotstah
+
+- _uniFBB2.001
+
+- _uniFBB3.001
+
+- _vabove
+
+- alrahem
+
+- alrhman
+
+- bsm
+
+- dotamiddlear
+
+- threedotsdowncenterar
+
+- uni0644Final.rlig
+
+- uni06A1.init
+
+- uni06A1.medi
+
+- uni06B5.isol
+
+- uni06B6.isol
+
+- uni06B7.isol
+
+- uni06BA.init
+
+- uni06BA.medi
+
+- uni06BD.init
+
+- uni06BD.medi
+
+- uniFBB2.001
+
+- uniFBB5.001
+
+- uniFBB6.001
+
+- uniFBBB.001
+
+- uniFBBB.002
+
+- uniFBBE.001
+
+- uniFC5B.fina
+
+- uniFC5C.fina
+
+- uniFD3D.rlig
+
+- uniFDF2.001
+
+- uniFDFD.01
+
+- uniFEA4_uniFBB4_uniFBB3
+
+- uniFEA4_uniFBBD
+
+- uniFEB3_uniFBB6_uniFBB7
+
+- uniFEC4_uniFBB4
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Font has **proper** whitespace glyph names? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Glyph 0x0020 is called &quot;uni0020&quot;: Change to &quot;space&quot;</p>
+ [code: not-recommended-0020]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: thaana, syriac, hebrew, phags-pa, nko</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: mongolian, grantha, elbasan, pahawh-hmong, mende-kikakui, brahmi, lao, duployan, kannada, chakma, manichaean, lepcha, tirhuta, modi, khojki, saurashtra, armenian, marchen, javanese, masaram-gondi, khudawadi, soyombo, sogdian, kaithi, kharoshthi, siddham, hanifi-rohingya, telugu, canadian-aboriginal, kayah-li, meetei-mayek, hanunoo, devanagari, gurmukhi, newa, phags-pa, tai-tham, thaana, hebrew, cham, dogra, myanmar, syriac, sundanese, caucasian-albanian, buginese, takri, warang-citi, bassa-vah, ahom, yi, osage, khmer, balinese, coptic, tagbanwa, gujarati, oriya, miao, sinhala, thai, sharada, gunjala-gondi, tagalog, math, wancho, zanabazar-square, rejang, old-permic, music, psalter-pahlavi, batak, limbu, tamil, symbols, tai-viet, mahajani, buhid, malayalam, bengali, nko, bhaiksuki, tai-le, syloti-nagri, tifinagh, tibetan, new-tai-lue, adlam, mandaic</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>arabic</code></p>
+ [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure variable fonts include an avar table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This variable font does not have an avar table.</p>
+ [code: missing-avar]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
+ [code: lacks-meta-table]
+
+
+
+</div>
+</details>
 </div>
 </details>
 
@@ -1447,8 +1437,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 7 | 9 | 96 | 7 | 130 | 0 | 
-| 0% | 0% | 3% | 4% | 39% | 3% | 52% | 0% | 
+| 0 | 0 | 7 | 9 | 94 | 7 | 131 | 0 | 
+| 0% | 0% | 3% | 4% | 38% | 3% | 53% | 0% | 
 
 
 

@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.12.0
+fontbakery version: 0.12.7
 
 
 
@@ -12,7 +12,7 @@ These won't break the CI job for now, but will become effective after some time 
 <details><summary>[1] NotoSansArabicUI[wdth,wght].ttf</summary>
 <div>
 <details>
-    <summary>⚠️ <b>WARN</b> Validate location, size and resolution of article images. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
     <div>
 
 
@@ -21,7 +21,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* ⚠️ **WARN** <p>Family metadata at fonts/NotoSansArabicUI/googlefonts/variable does not have an article.</p>
+* ⚠️ **WARN** <p>Family metadata at fonts/NotoSansArabicUI/googlefonts/variable-ttf does not have an article.</p>
  [code: lacks-article]
 
 
@@ -41,329 +41,7 @@ These won't break the CI job for now, but will become effective after some time 
 <details><summary>[15] NotoSansArabicUI[wdth,wght].ttf</summary>
 <div>
 <details>
-    <summary>⚠️ <b>WARN</b> Check GDEF mark glyph class doesn't have characters that are not marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following non-mark characters should not be in the GDEF mark glyph class:
-U+FBB2, U+FBB3, U+FBB4, U+FBB5, U+FBB6, U+FBB7, U+FBB8, U+FBB9, U+FBBA, U+FBBB, U+FBBD, U+FBBE, U+FBBF and U+FBC1</p>
- [code: non-mark-chars]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Detect any interpolation issues in the font. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 5 start point differs in glyph 'uniFD3E' between location wght=100,wdth=100 and location wght=704,wdth=100
-
-- Contour 5 in glyph 'uniFD3E': becomes underweight between wght=100,wdth=100 and wght=704,wdth=100.
-
-- Contour 5 start point differs in glyph 'uniFD3E' between location wght=704,wdth=100 and location wght=900,wdth=100
-
-- Contour 5 in glyph 'uniFD3E': becomes underweight between wght=704,wdth=100 and wght=900,wdth=100.
-
-- Contour 5 start point differs in glyph 'uniFD3E' between location wght=100,wdth=62 and location wght=704,wdth=62
-
-- Contour 5 in glyph 'uniFD3E': becomes underweight between wght=100,wdth=62 and wght=704,wdth=62.
-
-- Contour 5 start point differs in glyph 'uniFD3E' between location wght=704,wdth=62 and location wght=900,wdth=62
-
-- Contour 5 in glyph 'uniFD3E': becomes underweight between wght=704,wdth=62 and wght=900,wdth=62.
-
-- Contour 2 start point differs in glyph 'uni08A5.fina' between location wght=704,wdth=100 and location wght=900,wdth=100
-
-- Contour 2 in glyph 'uni08A5.fina': becomes underweight between wght=704,wdth=100 and wght=900,wdth=100.
-
-- Contour 3 start point differs in glyph 'uni08A5.fina' between location wght=704,wdth=100 and location wght=900,wdth=100
-
-- Contour 3 in glyph 'uni08A5.fina': becomes underweight between wght=704,wdth=100 and wght=900,wdth=100.
-
-- Contour 2 start point differs in glyph 'uni08A5.fina' between location wght=900,wdth=100 and location wght=100,wdth=62
-
-- Contour 2 in glyph 'uni08A5.fina': becomes underweight between wght=900,wdth=100 and wght=100,wdth=62.
-
-- Contour 3 start point differs in glyph 'uni08A5.fina' between location wght=900,wdth=100 and location wght=100,wdth=62
-
-- Contour 3 in glyph 'uni08A5.fina': becomes underweight between wght=900,wdth=100 and wght=100,wdth=62.
-
-- Contour 2 start point differs in glyph 'uni08A5.fina' between location wght=704,wdth=62 and location wght=900,wdth=62
-
-- Contour 2 in glyph 'uni08A5.fina': becomes underweight between wght=704,wdth=62 and wght=900,wdth=62.
-
-- Contour 3 start point differs in glyph 'uni08A5.fina' between location wght=704,wdth=62 and location wght=900,wdth=62
-
-- Contour 3 in glyph 'uni08A5.fina': becomes underweight between wght=704,wdth=62 and wght=900,wdth=62.
-
-- Contour 2 start point differs in glyph 'uni08A5' between location wght=704,wdth=100 and location wght=900,wdth=100
-
-- Contour 2 in glyph 'uni08A5': becomes underweight between wght=704,wdth=100 and wght=900,wdth=100.
-
-- Contour 3 start point differs in glyph 'uni08A5' between location wght=704,wdth=100 and location wght=900,wdth=100
-
-- Contour 3 in glyph 'uni08A5': becomes underweight between wght=704,wdth=100 and wght=900,wdth=100.
-
-- Contour 2 start point differs in glyph 'uni08A5' between location wght=900,wdth=100 and location wght=100,wdth=62
-
-- Contour 2 in glyph 'uni08A5': becomes underweight between wght=900,wdth=100 and wght=100,wdth=62.
-
-- Contour 3 start point differs in glyph 'uni08A5' between location wght=900,wdth=100 and location wght=100,wdth=62
-
-- Contour 3 in glyph 'uni08A5': becomes underweight between wght=900,wdth=100 and wght=100,wdth=62.
-
-- Contour 2 start point differs in glyph 'uni08A5' between location wght=704,wdth=62 and location wght=900,wdth=62
-
-- Contour 2 in glyph 'uni08A5': becomes underweight between wght=704,wdth=62 and wght=900,wdth=62.
-
-- Contour 3 start point differs in glyph 'uni08A5' between location wght=704,wdth=62 and location wght=900,wdth=62
-
-- Contour 3 in glyph 'uni08A5': becomes underweight between wght=704,wdth=62 and wght=900,wdth=62.
-</code></pre>
- [code: interpolation-issues]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The most common width is 572 among a set of 6 math glyphs.
-The following math glyphs have a different width, though:</p>
-<p>Width = 322:
-minus</p>
- [code: width-outliers]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- uni06060607.pt
-
-- uni06440622.isol
-
-- uni06440623.isol
-
-- uni06440625.isol
-
-- uni06440627.isol
-
-- uni06440671.001
-
-- uni06440671.isol
-
-- uni06440672.isol
-
-- uni06440673.isol
-
-- uni064406D2.fina
-
-- uni06B50627.isol
-
-- uni06B60627.isol
-
-- uni06B70627.isol
-
-- uni06B80627.isol
-
-- uniFDFD.001
-</code></pre>
- [code: unreachable-glyphs]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-characters length limit:
-behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedotsupbelowVabovear.medi, dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.init and seenThreedotsbelowthreedotsar.medi</p>
- [code: legacy-long-names]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̧̀ į̧́ į̧̂ į̧̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Avokaya (Latn, 100,000 speakers), Yala (Latn, 200,000 speakers), Igbo (Latn, 27,823,640 speakers), Dii (Latn, 71,000 speakers), Aghem (Latn, 38,843 speakers), Nateni (Latn, 100,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ma’di (Latn, 584,000 speakers), Dan (Latn, 1,099,244 speakers), Ngbaka (Latn, 1,020,000 speakers), South Central Banda (Latn, 244,000 speakers), Cicipu (Latn, 44,000 speakers), Lugbara (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Gulay (Latn, 250,478 speakers), Nzakara (Latn, 50,000 speakers), Mango (Latn, 77,000 speakers), Ekpeye (Latn, 226,000 speakers), Kom (Latn, 360,685 speakers), Zapotec (Latn, 490,000 speakers), Fur (Latn, 1,230,163 speakers), Bete-Bendi (Latn, 100,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Makaa (Latn, 221,000 speakers), Mfumte (Latn, 79,000 speakers), Bafut (Latn, 158,146 speakers), Ebira (Latn, 2,200,000 speakers), Sar (Latn, 500,000 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Mundani (Latn, 34,000 speakers), Basaa (Latn, 332,940 speakers).</p>
- [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
-<li>U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, coptic, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, math, tai-le, malayalam, old-permic, syriac, tifinagh, coptic</li>
-<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
-<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
-<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+034F COMBINING GRAPHEME JOINER: not included in any glyphset definition</li>
-<li>U+08E2 ARABIC DISPUTED END OF AYAH: not included in any glyphset definition</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: thaana, nko, syriac, hebrew, phags-pa</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tagalog, ahom, takri, dogra, psalter-pahlavi, gujarati, yi, modi, tai-tham, chakma, kharoshthi, sundanese, hebrew, osage, armenian, bassa-vah, bengali, sharada, miao, buginese, symbols, marchen, masaram-gondi, tirhuta, saurashtra, manichaean, brahmi, wancho, soyombo, balinese, khmer, tagbanwa, thai, coptic, myanmar, limbu, tifinagh, mandaic, tamil, gunjala-gondi, telugu, meetei-mayek, newa, adlam, grantha, syloti-nagri, caucasian-albanian, warang-citi, siddham, new-tai-lue, mongolian, bhaiksuki, tai-viet, sogdian, sinhala, kaithi, music, canadian-aboriginal, nko, thaana, hanunoo, khojki, mahajani, gurmukhi, kayah-li, rejang, malayalam, oriya, pahawh-hmong, mende-kikakui, zanabazar-square, cham, batak, duployan, syriac, elbasan, javanese, phags-pa, lao, khudawadi, lepcha, hanifi-rohingya, tibetan, old-permic, kannada, math, tai-le, devanagari, buhid</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>arabic</code>, <code>cyrillic-ext</code>, <code>greek-ext</code>, <code>latin</code>, <code>latin-ext</code></p>
- [code: unreachable-subsetting]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GF_Arabic_Plus glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ms_Arab (Malay (Arabic))</td>
-<td align="left">No exemplar glyphs were defined for language Malay (Arabic)</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure files are not too large. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Font file is 1.0Mb; ideally it should be less than 1.0Mb</p>
- [code: large-font]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
- [code: lacks-meta-table]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check that glyph for U+0675 ARABIC LETTER HIGH HAMZA is not a mark. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check that glyph for U+0675 ARABIC LETTER HIGH HAMZA is not a mark. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.arabic.html#"></a></summary>
     <div>
 
 
@@ -381,7 +59,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check that Arabic spacing symbols U+FBB2–FBC1 aren't classified as marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check that Arabic spacing symbols U+FBB2–FBC1 aren't classified as marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.arabic.html#"></a></summary>
     <div>
 
 
@@ -464,7 +142,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
     <div>
 
 
@@ -745,13 +423,335 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>This is a Noto font but it lacks an ARTICLE.en_us.html file</p>
+* 🔥 **FAIL** <p>This is a Noto font but it lacks an ARTICLE.en_us.html file.</p>
  [code: missing-article]
 
 
 
-* 🔥 **FAIL** <p>This is a Noto font but it lacks a DESCRIPTION.en_us.html file</p>
- [code: empty-description]
+* 🔥 **FAIL** <p>This is a Noto font but it lacks a DESCRIPTION.en_us.html file.</p>
+ [code: missing-description]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check GDEF mark glyph class doesn't have characters that are not marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+FBB2, U+FBB3, U+FBB4, U+FBB5, U+FBB6, U+FBB7, U+FBB8, U+FBB9, U+FBBA, U+FBBB, U+FBBD, U+FBBE, U+FBBF and U+FBC1</p>
+ [code: non-mark-chars]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Detect any interpolation issues in the font. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
+<pre><code>- Contour 2 start point differs in glyph 'uni08A5' between location wght=704,wdth=100 and location wght=900,wdth=100
+
+- Contour 2 in glyph 'uni08A5': becomes underweight between wght=704,wdth=100 and wght=900,wdth=100.
+
+- Contour 3 start point differs in glyph 'uni08A5' between location wght=704,wdth=100 and location wght=900,wdth=100
+
+- Contour 3 in glyph 'uni08A5': becomes underweight between wght=704,wdth=100 and wght=900,wdth=100.
+
+- Contour 2 start point differs in glyph 'uni08A5' between location wght=900,wdth=100 and location wght=100,wdth=62
+
+- Contour 2 in glyph 'uni08A5': becomes underweight between wght=900,wdth=100 and wght=100,wdth=62.
+
+- Contour 3 start point differs in glyph 'uni08A5' between location wght=900,wdth=100 and location wght=100,wdth=62
+
+- Contour 3 in glyph 'uni08A5': becomes underweight between wght=900,wdth=100 and wght=100,wdth=62.
+
+- Contour 2 start point differs in glyph 'uni08A5' between location wght=704,wdth=62 and location wght=900,wdth=62
+
+- Contour 2 in glyph 'uni08A5': becomes underweight between wght=704,wdth=62 and wght=900,wdth=62.
+
+- Contour 3 start point differs in glyph 'uni08A5' between location wght=704,wdth=62 and location wght=900,wdth=62
+
+- Contour 3 in glyph 'uni08A5': becomes underweight between wght=704,wdth=62 and wght=900,wdth=62.
+
+- Contour 5 start point differs in glyph 'uniFD3E' between location wght=100,wdth=100 and location wght=704,wdth=100
+
+- Contour 5 in glyph 'uniFD3E': becomes underweight between wght=100,wdth=100 and wght=704,wdth=100.
+
+- Contour 5 start point differs in glyph 'uniFD3E' between location wght=704,wdth=100 and location wght=900,wdth=100
+
+- Contour 5 in glyph 'uniFD3E': becomes underweight between wght=704,wdth=100 and wght=900,wdth=100.
+
+- Contour 5 start point differs in glyph 'uniFD3E' between location wght=100,wdth=62 and location wght=704,wdth=62
+
+- Contour 5 in glyph 'uniFD3E': becomes underweight between wght=100,wdth=62 and wght=704,wdth=62.
+
+- Contour 5 start point differs in glyph 'uniFD3E' between location wght=704,wdth=62 and location wght=900,wdth=62
+
+- Contour 5 in glyph 'uniFD3E': becomes underweight between wght=704,wdth=62 and wght=900,wdth=62.
+
+- Contour 2 start point differs in glyph 'uni08A5.fina' between location wght=704,wdth=100 and location wght=900,wdth=100
+
+- Contour 2 in glyph 'uni08A5.fina': becomes underweight between wght=704,wdth=100 and wght=900,wdth=100.
+
+- Contour 3 start point differs in glyph 'uni08A5.fina' between location wght=704,wdth=100 and location wght=900,wdth=100
+
+- Contour 3 in glyph 'uni08A5.fina': becomes underweight between wght=704,wdth=100 and wght=900,wdth=100.
+
+- Contour 2 start point differs in glyph 'uni08A5.fina' between location wght=900,wdth=100 and location wght=100,wdth=62
+
+- Contour 2 in glyph 'uni08A5.fina': becomes underweight between wght=900,wdth=100 and wght=100,wdth=62.
+
+- Contour 3 start point differs in glyph 'uni08A5.fina' between location wght=900,wdth=100 and location wght=100,wdth=62
+
+- Contour 3 in glyph 'uni08A5.fina': becomes underweight between wght=900,wdth=100 and wght=100,wdth=62.
+
+- Contour 2 start point differs in glyph 'uni08A5.fina' between location wght=704,wdth=62 and location wght=900,wdth=62
+
+- Contour 2 in glyph 'uni08A5.fina': becomes underweight between wght=704,wdth=62 and wght=900,wdth=62.
+
+- Contour 3 start point differs in glyph 'uni08A5.fina' between location wght=704,wdth=62 and location wght=900,wdth=62
+
+- Contour 3 in glyph 'uni08A5.fina': becomes underweight between wght=704,wdth=62 and wght=900,wdth=62.
+</code></pre>
+ [code: interpolation-issues]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The most common width is 572 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:</p>
+<p>Width = 322:
+minus</p>
+ [code: width-outliers]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- uni06060607.pt
+
+- uni06440622.isol
+
+- uni06440623.isol
+
+- uni06440625.isol
+
+- uni06440627.isol
+
+- uni06440671.001
+
+- uni06440671.isol
+
+- uni06440672.isol
+
+- uni06440673.isol
+
+- uni064406D2.fina
+
+- uni06B50627.isol
+
+- uni06B60627.isol
+
+- uni06B70627.isol
+
+- uni06B80627.isol
+
+- uniFDFD.001
+</code></pre>
+ [code: unreachable-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-characters length limit:
+behThreedotsupbelowVabovear.fina, behThreedotsupbelowVabovear.init, behThreedotsupbelowVabovear.medi, dalTwodotsverticalbelowTahabovear, dalTwodotsverticalbelowTahabovear.fina, seenThreedotsbelowthreedotsar.fina, seenThreedotsbelowthreedotsar.init and seenThreedotsbelowthreedotsar.medi</p>
+ [code: legacy-long-names]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̧̀ į̧́ į̧̂ į̧̃</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Koonzime (Latn, 40,000 speakers), Igbo (Latn, 27,823,640 speakers), Kpelle, Guinea (Latn, 622,000 speakers), South Central Banda (Latn, 244,000 speakers), Basaa (Latn, 332,940 speakers), Makaa (Latn, 221,000 speakers), Ekpeye (Latn, 226,000 speakers), Lugbara (Latn, 2,200,000 speakers), Dan (Latn, 1,099,244 speakers), Ebira (Latn, 2,200,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Kom (Latn, 360,685 speakers), Yala (Latn, 200,000 speakers), Mundani (Latn, 34,000 speakers), Mfumte (Latn, 79,000 speakers), Ejagham (Latn, 120,000 speakers), Mango (Latn, 77,000 speakers), Sar (Latn, 500,000 speakers), Aghem (Latn, 38,843 speakers), Zapotec (Latn, 490,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Bete-Bendi (Latn, 100,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Vute (Latn, 21,000 speakers), Nateni (Latn, 100,000 speakers), Dii (Latn, 71,000 speakers), Cicipu (Latn, 44,000 speakers), Ma’di (Latn, 584,000 speakers), Bafut (Latn, 158,146 speakers), Navajo (Latn, 166,319 speakers), Avokaya (Latn, 100,000 speakers), Nzakara (Latn, 50,000 speakers).</p>
+ [code: soft-dotted]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, coptic, syriac, math, tifinagh, canadian-aboriginal, malayalam, tai-le</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+034F COMBINING GRAPHEME JOINER: not included in any glyphset definition</li>
+<li>U+08E2 ARABIC DISPUTED END OF AYAH: not included in any glyphset definition</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, hebrew, phags-pa, thaana</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: nko, oriya, gunjala-gondi, ahom, syloti-nagri, mandaic, sinhala, buginese, thaana, bhaiksuki, soyombo, elbasan, siddham, bassa-vah, kaithi, marchen, tagbanwa, tifinagh, dogra, tai-le, tagalog, kharoshthi, telugu, devanagari, sogdian, symbols, khudawadi, hanifi-rohingya, malayalam, syriac, wancho, phags-pa, saurashtra, tibetan, batak, music, hebrew, duployan, modi, gujarati, zanabazar-square, sundanese, hanunoo, thai, newa, balinese, khmer, cham, math, old-permic, coptic, adlam, yi, masaram-gondi, canadian-aboriginal, takri, gurmukhi, new-tai-lue, tai-viet, lao, myanmar, mahajani, mende-kikakui, grantha, tai-tham, manichaean, chakma, bengali, tirhuta, lepcha, javanese, armenian, pahawh-hmong, tamil, kannada, khojki, buhid, psalter-pahlavi, osage, meetei-mayek, sharada, miao, mongolian, rejang, warang-citi, caucasian-albanian, kayah-li, limbu, brahmi</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>arabic</code>, <code>latin</code>, <code>latin-ext</code></p>
+ [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_Arabic_Plus glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">WARN messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ms_Arab (Malay (Arabic))</td>
+<td align="left">No exemplar glyphs were defined for language Malay (Arabic)</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure files are not too large. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Font file is 1.0Mb; ideally it should be less than 1.0Mb</p>
+ [code: large-font]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
+ [code: lacks-meta-table]
 
 
 
@@ -767,8 +767,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 5 | 11 | 94 | 7 | 132 | 0 | 
-| 0% | 0% | 2% | 4% | 38% | 3% | 53% | 0% | 
+| 0 | 0 | 5 | 11 | 92 | 7 | 133 | 0 | 
+| 0% | 0% | 2% | 4% | 37% | 3% | 54% | 0% | 
 
 
 

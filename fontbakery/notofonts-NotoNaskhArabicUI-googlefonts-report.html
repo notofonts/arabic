@@ -274,18 +274,18 @@ you're checking.</p>
         <td>0</td>
         <td>7</td>
         <td>9</td>
-        <td>96</td>
+        <td>94</td>
         <td>7</td>
-        <td>130</td>
+        <td>131</td>
     </tr>
     <tr>
         <td>0%</td>
         <td>0%</td>
         <td>3%</td>
         <td>4%</td>
-        <td>39%</td>
+        <td>38%</td>
         <td>3%</td>
-        <td>52%</td>
+        <td>53%</td>
     </tr>
 </table>
         
@@ -310,7 +310,7 @@ immediately.
 <p>(but other kinds of bug reports and/or feature requests
     are also always welcome, of course!)</p>
 
-<p>FontBakery version: 0.12.0</p>
+<p>FontBakery version: 0.12.7</p>
         
             
                 <h2>OpenType Specification Checks</h2>
@@ -664,15 +664,15 @@ immediately.
 
                             <span class='details_text'>
                             <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 0 point 40 has a kink between location wght=400 and location wght=700
+<pre><code>- Contour 0 point 40 in glyph 'uni0602' has a kink between location wght=400 and location wght=700
 
 - Contour 0 in glyph 'uni08AA': becomes underweight between wght=400 and wght=700.
 
-- Contour 0 point 24 has a kink between location wght=400 and location wght=700
+- Contour 0 point 24 in glyph 'uni08AA' has a kink between location wght=400 and location wght=700
 
-- Contour 0 point 26 has a kink between location wght=400 and location wght=700
+- Contour 0 point 72 in glyph 'uni06AA' has a kink between location wght=400 and location wght=700
 
-- Contour 0 point 72 has a kink between location wght=400 and location wght=700
+- Contour 0 point 26 in glyph 'uni0665' has a kink between location wght=400 and location wght=700
 </code></pre>
 
                             
@@ -684,6 +684,8 @@ immediately.
                 </ul>
             </div>
         </details>
+    
+
     
 
     
@@ -990,7 +992,7 @@ immediately.
     
     <div style='color:#88c'>EXPERIMENTAL CHECK - Since 2024/Mar/25</div>
     
-    Validate location, size and resolution of article images.
+    Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets.
 </h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/article/images&gt;</div>
 
@@ -1019,7 +1021,7 @@ immediately.
                             </span>
 
                             <span class='details_text'>
-                            <p>Family metadata at fonts/NotoNaskhArabicUI/googlefonts/variable does not have an article.</p>
+                            <p>Family metadata at fonts/NotoNaskhArabicUI/googlefonts/variable-ttf does not have an article.</p>
 
                             
                              [code: lacks-article]
@@ -1039,10 +1041,8 @@ immediately.
             
                 <h2>Metadata Checks</h2>
 <span class='section__emoji'>
-    ⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
+    ⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
 </span>
-
-    
 
     
 
@@ -1164,10 +1164,10 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, phags-pa, thaana, nko, hebrew</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: sharada, limbu, buginese, modi, old-permic, symbols, grantha, elbasan, kannada, miao, javanese, telugu, tai-le, syriac, devanagari, new-tai-lue, tai-viet, ahom, hanunoo, buhid, psalter-pahlavi, nko, khmer, kharoshthi, syloti-nagri, balinese, mongolian, chakma, bengali, hebrew, pahawh-hmong, math, sogdian, lao, thaana, malayalam, armenian, warang-citi, kaithi, gunjala-gondi, duployan, masaram-gondi, mahajani, meetei-mayek, soyombo, dogra, oriya, mandaic, coptic, gurmukhi, khojki, phags-pa, gujarati, takri, tai-tham, sundanese, yi, kayah-li, siddham, wancho, mende-kikakui, batak, saurashtra, tagalog, thai, osage, tamil, adlam, brahmi, tirhuta, canadian-aboriginal, khudawadi, lepcha, tifinagh, marchen, bhaiksuki, rejang, newa, bassa-vah, tibetan, zanabazar-square, sinhala, caucasian-albanian, music, tagbanwa, myanmar, hanifi-rohingya, manichaean, cham</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: thaana, syriac, hebrew, phags-pa, nko</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: mongolian, grantha, elbasan, pahawh-hmong, mende-kikakui, brahmi, lao, duployan, kannada, chakma, manichaean, lepcha, tirhuta, modi, khojki, saurashtra, armenian, marchen, javanese, masaram-gondi, khudawadi, soyombo, sogdian, kaithi, kharoshthi, siddham, hanifi-rohingya, telugu, canadian-aboriginal, kayah-li, meetei-mayek, hanunoo, devanagari, gurmukhi, newa, phags-pa, tai-tham, thaana, hebrew, cham, dogra, myanmar, syriac, sundanese, caucasian-albanian, buginese, takri, warang-citi, bassa-vah, ahom, yi, osage, khmer, balinese, coptic, tagbanwa, gujarati, oriya, miao, sinhala, thai, sharada, gunjala-gondi, tagalog, math, wancho, zanabazar-square, rejang, old-permic, music, psalter-pahlavi, batak, limbu, tamil, symbols, tai-viet, mahajani, buhid, malayalam, bengali, nko, bhaiksuki, tai-le, syloti-nagri, tifinagh, tibetan, new-tai-lue, adlam, mandaic</li>
 </ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>arabic</code>, <code>cyrillic-ext</code>, <code>greek-ext</code>, <code>latin-ext</code></p>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>arabic</code></p>
 
                             
                              [code: unreachable-subsetting]
@@ -1178,8 +1178,6 @@ definitions.</p>
                 </ul>
             </div>
         </details>
-    
-
     
 
     
@@ -1230,6 +1228,34 @@ definitions.</p>
                 
                         <li class='details_item'>
                             <span class='details_indicator'>
+                            ⚠️ WARN
+                            </span>
+
+                            <span class='details_text'>
+                            <p>GF_Arabic_Plus glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">WARN messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ms_Arab (Malay (Arabic))</td>
+<td align="left">No exemplar glyphs were defined for language Malay (Arabic)</td>
+</tr>
+</tbody>
+</table>
+
+                            
+                             [code: warning-language-shaping]
+                            
+                            </span>
+                        </li>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
                             🔥 FAIL
                             </span>
 
@@ -1249,79 +1275,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
 </tr>
 </tbody>
 </table>
@@ -1334,11 +1288,11 @@ definitions.</p>
                 
                         <li class='details_item'>
                             <span class='details_indicator'>
-                            ⚠️ WARN
+                            🔥 FAIL
                             </span>
 
                             <span class='details_text'>
-                            <p>GF_Arabic_Plus glyphset:</p>
+                            <p>GF_Arabic_Core glyphset:</p>
 <table>
 <thead>
 <tr>
@@ -1348,14 +1302,66 @@ definitions.</p>
 </thead>
 <tbody>
 <tr>
-<td align="left">ms_Arab (Malay (Arabic))</td>
-<td align="left">No exemplar glyphs were defined for language Malay (Arabic)</td>
+<td align="left">ar_Arab (Arabic)</td>
+<td align="left">Shaper didn't attach uni0654 to None</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0655 to None</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0654 to uni0020</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0655 to uni0020</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0654 to uni0640</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0655 to uni0640</td>
 </tr>
 </tbody>
 </table>
 
                             
-                             [code: warning-language-shaping]
+                             [code: failed-language-shaping]
+                            
+                            </span>
+                        </li>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            🔥 FAIL
+                            </span>
+
+                            <span class='details_text'>
+                            <p>GF_Arabic_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">fa_Arab (Persian)</td>
+<td align="left">Shaper didn't attach uni0654 to None</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0654 to uni0020</td>
+</tr>
+</tbody>
+</table>
+
+                            
+                             [code: failed-language-shaping]
                             
                             </span>
                         </li>
@@ -1419,7 +1425,7 @@ definitions.</p>
                             </span>
 
                             <span class='details_text'>
-                            <p>This is a Noto font but it lacks an ARTICLE.en_us.html file</p>
+                            <p>This is a Noto font but it lacks an ARTICLE.en_us.html file.</p>
 
                             
                              [code: missing-article]
@@ -1433,10 +1439,10 @@ definitions.</p>
                             </span>
 
                             <span class='details_text'>
-                            <p>This is a Noto font but it lacks a DESCRIPTION.en_us.html file</p>
+                            <p>This is a Noto font but it lacks a DESCRIPTION.en_us.html file.</p>
 
                             
-                             [code: empty-description]
+                             [code: missing-description]
                             
                             </span>
                         </li>
@@ -2598,8 +2604,6 @@ definitions.</p>
                 </ul>
             </div>
         </details>
-    
-
     
 
     
