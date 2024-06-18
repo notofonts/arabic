@@ -1,5 +1,5 @@
 {
-.appVersion = "3207";
+.appVersion = "3243";
 classes = (
 {
 code = "uni0660 uni0661 uni0662 uni0663 uni0664 uni0665 uni0666 uni0667 uni0668 uni0669 uni06F0 uni06F1 uni06F2 uni06F3 uni06F4 uni06F5 uni06F6 uni06F7 uni06F8 uni06F9 uni06F4.locl uni06F7.locl";
@@ -1023,10 +1023,6 @@ name = description;
 value = "Designed by Monotype Design Team, David Williams, Mohamad Dakak and Nizar Qandah";
 },
 {
-name = versionString;
-value = "Version 2.016";
-},
-{
 name = Axes;
 value = (
 {
@@ -1652,5 +1648,5 @@ userData = {
 UFOFormat = 2;
 };
 versionMajor = 2;
-versionMinor = 16;
+versionMinor = 17;
 }
