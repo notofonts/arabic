@@ -877,7 +877,15 @@ code = "script arab;
 tag = rlig;
 },
 {
-code = "lookup rlig_isol {
+code = "# Adobe’s pre-HarfBuzz composers don’t apply the dotcenter_below lookup
+# in init in medi features, help it by applying it contextually here.
+lookup rlig_adobe_dotcenter_below {
+	sub	[hah-ar.init hah-ar.medi]
+		@dotcenter' lookup dotcenter_below
+	;
+} rlig_adobe_dotcenter_below;
+
+lookup rlig_isol {
 	lookupflag 0;
 	sub fehAfrican-ar by fehDotless-ar;
 	sub qafAfrican-ar by qafDotless-ar;
