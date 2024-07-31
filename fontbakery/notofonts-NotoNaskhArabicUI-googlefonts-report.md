@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.12.7
+fontbakery version: 0.12.9
 
 
 
@@ -1210,15 +1210,15 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 0 in glyph 'uni08AA': becomes underweight between wght=400 and wght=700.
+<pre><code>- Contour 0 point 26 in glyph 'uni0665' has a kink between location wght=400 and location wght=700
+
+- Contour 0 point 72 in glyph 'uni06AA' has a kink between location wght=400 and location wght=700
+
+- Contour 0 in glyph 'uni08AA': becomes underweight between wght=400 and wght=700.
 
 - Contour 0 point 24 in glyph 'uni08AA' has a kink between location wght=400 and location wght=700
 
-- Contour 0 point 26 in glyph 'uni0665' has a kink between location wght=400 and location wght=700
-
 - Contour 0 point 40 in glyph 'uni0602' has a kink between location wght=400 and location wght=700
-
-- Contour 0 point 72 in glyph 'uni06AA' has a kink between location wght=400 and location wght=700
 </code></pre>
  [code: interpolation-issues]
 
@@ -1363,8 +1363,8 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, nko, thaana, phags-pa, hebrew</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: manichaean, elbasan, new-tai-lue, gurmukhi, meetei-mayek, sinhala, sogdian, modi, kannada, tai-viet, syriac, kharoshthi, thai, tagalog, javanese, takri, kaithi, coptic, tagbanwa, math, wancho, oriya, rejang, bengali, miao, tai-tham, mende-kikakui, thaana, chakma, bassa-vah, hanifi-rohingya, limbu, buginese, osage, cham, siddham, music, tifinagh, symbols, caucasian-albanian, mandaic, lao, duployan, khojki, masaram-gondi, tirhuta, telugu, saurashtra, old-permic, armenian, tamil, kayah-li, syloti-nagri, batak, mongolian, lepcha, adlam, sundanese, khudawadi, canadian-aboriginal, grantha, buhid, phags-pa, hebrew, yi, tibetan, hanunoo, tai-le, soyombo, khmer, psalter-pahlavi, bhaiksuki, dogra, warang-citi, newa, pahawh-hmong, nko, sharada, brahmi, zanabazar-square, myanmar, devanagari, mahajani, balinese, gujarati, malayalam, gunjala-gondi, ahom, marchen</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: thaana, nko, hebrew, syriac, phags-pa</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: mende-kikakui, warang-citi, buhid, javanese, mongolian, kayah-li, tirhuta, sinhala, siddham, wancho, telugu, modi, gujarati, miao, syloti-nagri, hanunoo, chakma, devanagari, sogdian, myanmar, bengali, malayalam, tibetan, hebrew, zanabazar-square, cham, tifinagh, grantha, sundanese, ahom, newa, batak, masaram-gondi, mandaic, brahmi, music, rejang, adlam, takri, manichaean, pahawh-hmong, lao, bhaiksuki, khojki, tamil, bassa-vah, saurashtra, oriya, canadian-aboriginal, tagalog, psalter-pahlavi, math, symbols, soyombo, old-permic, buginese, mahajani, dogra, nko, armenian, khudawadi, hanifi-rohingya, gurmukhi, phags-pa, kharoshthi, caucasian-albanian, osage, kaithi, limbu, tai-tham, marchen, gunjala-gondi, meetei-mayek, sharada, balinese, syriac, coptic, kannada, tai-le, duployan, thai, khmer, tai-viet, elbasan, lepcha, thaana, yi, tagbanwa, new-tai-lue</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>arabic</code></p>
  [code: unreachable-subsetting]
@@ -1437,8 +1437,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 7 | 9 | 94 | 7 | 131 | 0 | 
-| 0% | 0% | 3% | 4% | 38% | 3% | 53% | 0% | 
+| 0 | 0 | 7 | 9 | 98 | 7 | 131 | 0 | 
+| 0% | 0% | 3% | 4% | 39% | 3% | 52% | 0% | 
 
 
 
