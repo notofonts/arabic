@@ -437,10 +437,10 @@ lookup ccmp_arab_1 {
 lookup decomposition {
   # Alef family
   sub alefHamzaabove-ar by alef-ar.short hamzaabove-ar;
-  sub alefHamzabelow-ar by alef-ar.short hamzabelow-ar;
+  sub alefHamzabelow-ar by alef-ar hamzabelow-ar;
   sub alefMadda-ar by alef-ar.short madda-ar;
   sub alefWavyhamzaabove-ar by alef-ar.short wavyhamzaabove-ar;
-  sub alefWavyhamzabelow-ar by alef-ar.short wavyhamzabelow-ar;
+  sub alefWavyhamzabelow-ar by alef-ar wavyhamzabelow-ar;
   sub alefWasla-ar by alef-ar.short wasla-ar;
   sub alefTwoabove-ar by alef-ar twoabove-ar;
   sub alefThreeabove-ar by alef-ar threeabove-ar;
