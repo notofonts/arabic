@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = _top.far;
-pos = (74,748);
+pos = (87,748);
 },
 {
 name = top.far;
-pos = (74,944);
+pos = (87,970);
 }
 );
 layerId = master01;
@@ -20,17 +20,17 @@ pos = (175,1669);
 ref = "damma-ar";
 }
 );
-width = 175;
+width = 197;
 },
 {
 anchors = (
 {
 name = _top.far;
-pos = (79,740);
+pos = (93,740);
 },
 {
 name = top.far;
-pos = (79,936);
+pos = (93,966);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
@@ -41,7 +41,7 @@ pos = (185,1652);
 ref = "damma-ar";
 }
 );
-width = 185;
+width = 209;
 }
 );
 metricLeft = "=0";

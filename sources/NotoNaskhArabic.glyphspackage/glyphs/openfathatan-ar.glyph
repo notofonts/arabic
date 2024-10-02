@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = _top.far;
-pos = (89,748);
+pos = (91,748);
 },
 {
 name = top.far;
-pos = (175,988);
+pos = (175,990);
 },
 {
 name = top.meem;
@@ -27,17 +27,17 @@ alignment = -1;
 ref = "fatha-ar";
 }
 );
-width = 269;
+width = 291;
 },
 {
 anchors = (
 {
 name = _top.far;
-pos = (98,738);
+pos = (100,738);
 },
 {
 name = top.far;
-pos = (177,996);
+pos = (177,998);
 },
 {
 name = top.meem;
@@ -55,17 +55,17 @@ alignment = -1;
 ref = "fatha-ar";
 }
 );
-width = 275;
+width = 298;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (101,738);
+pos = (103,738);
 },
 {
 name = top.far;
-pos = (175,988);
+pos = (175,990);
 },
 {
 name = top.meem;
@@ -85,17 +85,17 @@ alignment = -1;
 ref = "fatha-ar";
 }
 );
-width = 269;
+width = 291;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (103,746);
+pos = (105,746);
 },
 {
 name = top.far;
-pos = (177,996);
+pos = (177,998);
 },
 {
 name = top.meem;
@@ -116,7 +116,7 @@ ref = "fatha-ar";
 }
 );
 visible = 1;
-width = 275;
+width = 298;
 }
 );
 metricLeft = "=0";
