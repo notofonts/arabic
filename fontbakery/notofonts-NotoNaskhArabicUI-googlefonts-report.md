@@ -1,18 +1,19 @@
 ## FontBakery report
 
-fontbakery version: 0.12.9
+fontbakery version: 0.12.10
 
 
 
-## Experimental checks
-
-These won't break the CI job for now, but will become effective after some time if nobody raises any concern.
 
 
-<details><summary>[1] NotoNaskhArabicUI[wght].ttf</summary>
+## Check results
+
+
+
+<details><summary>[16] NotoNaskhArabicUI[wght].ttf</summary>
 <div>
 <details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
 
 
@@ -21,25 +22,25 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* ⚠️ **WARN** <p>Family metadata at fonts/NotoNaskhArabicUI/googlefonts/variable-ttf does not have an article.</p>
- [code: lacks-article]
+* 💥 **ERROR** <p>Failed with AttributeError: 'NoneType' object has no attribute 'get'</p>
+<pre><code>  File &quot;/home/runner/work/arabic/arabic/venv/lib/python3.11/site-packages/fontbakery/checkrunner.py&quot;, line 213, in _run_check
+    subresults = list(subresults)
+                 ^^^^^^^^^^^^^^^^
+  File &quot;/home/runner/work/arabic/arabic/venv/lib/python3.11/site-packages/fontbakery/checks/googlefonts/glyphset.py&quot;, line 145, in com_google_fonts_check_glyphsets_shape_languages
+    reporter = shaperglot_checker.check(shaperglot_languages[language_code])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/runner/work/arabic/arabic/venv/lib/python3.11/site-packages/shaperglot/checker.py&quot;, line 53, in check
+    for check_object in self.lang.get(&quot;shaperglot_checks&quot;, []):
+                        ^^^^^^^^^^^^^
+
+</code></pre>
+ [code: failed-check]
 
 
 
 </div>
 </details>
-</div>
-</details>
 
-
-
-
-## All other checks
-
-
-
-<details><summary>[15] NotoNaskhArabicUI[wght].ttf</summary>
-<div>
 <details>
     <summary>🔥 <b>FAIL</b> Check that glyph for U+0675 ARABIC LETTER HIGH HAMZA is not a mark. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.arabic.html#"></a></summary>
     <div>
@@ -82,145 +83,6 @@ These won't break the CI job for now, but will become effective after some time 
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- uni0654
-
-- uni065B
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_Arabic_Plus glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ps_Arab (Pashto)</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Arabic_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ar_Arab (Arabic)</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0655 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0655 to uni0020</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0640</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0655 to uni0640</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Arabic_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fa_Arab (Persian)</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Arabic_Plus glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ms_Arab (Malay (Arabic))</td>
-<td align="left">No exemplar glyphs were defined for language Malay (Arabic)</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>🔥 <b>FAIL</b> Check for presence of an ARTICLE.en_us.html file <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.description.html#"></a></summary>
     <div>
 
@@ -237,6 +99,28 @@ These won't break the CI job for now, but will become effective after some time 
 
 * 🔥 **FAIL** <p>This is a Noto font but it lacks a DESCRIPTION.en_us.html file.</p>
  [code: missing-description]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- uni0654
+
+- uni065B
+</code></pre>
+ [code: unattached-dotted-circle-marks]
 
 
 
@@ -1348,6 +1232,24 @@ These won't break the CI job for now, but will become effective after some time 
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Family metadata at fonts/NotoNaskhArabicUI/googlefonts/variable-ttf does not have an article.</p>
+ [code: lacks-article]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
     <div>
 
@@ -1363,8 +1265,8 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, phags-pa, nko, hebrew, thaana</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: manichaean, phags-pa, thai, armenian, hanunoo, sharada, coptic, meetei-mayek, telugu, khudawadi, tai-tham, kayah-li, ahom, sogdian, old-permic, canadian-aboriginal, gujarati, kannada, osage, modi, kharoshthi, mongolian, miao, siddham, myanmar, rejang, sinhala, music, malayalam, takri, nko, hebrew, brahmi, tai-viet, kaithi, javanese, psalter-pahlavi, dogra, limbu, adlam, symbols, bhaiksuki, syriac, tamil, soyombo, chakma, math, mende-kikakui, thaana, gunjala-gondi, pahawh-hmong, buhid, saurashtra, warang-citi, zanabazar-square, syloti-nagri, tibetan, tagbanwa, khmer, batak, balinese, duployan, tirhuta, wancho, marchen, tagalog, grantha, lao, gurmukhi, newa, masaram-gondi, yi, sundanese, new-tai-lue, elbasan, khojki, cham, oriya, bengali, lepcha, tifinagh, mahajani, hanifi-rohingya, devanagari, mandaic, buginese, bassa-vah, caucasian-albanian, tai-le</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, hebrew, thaana, phags-pa</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, caucasian-albanian, modi, canadian-aboriginal, symbols, elbasan, tai-viet, gunjala-gondi, tai-tham, dogra, thaana, duployan, rejang, adlam, pahawh-hmong, music, gurmukhi, masaram-gondi, khojki, malayalam, khmer, manichaean, tai-le, takri, telugu, mahajani, tagalog, cham, mongolian, soyombo, coptic, bengali, bassa-vah, kharoshthi, sundanese, hanunoo, bhaiksuki, kayah-li, hanifi-rohingya, armenian, psalter-pahlavi, brahmi, tirhuta, oriya, gujarati, kannada, tibetan, wancho, old-permic, lepcha, balinese, limbu, mandaic, grantha, batak, math, nko, myanmar, tamil, meetei-mayek, sinhala, lao, sogdian, marchen, osage, tifinagh, miao, new-tai-lue, javanese, tagbanwa, kaithi, warang-citi, buhid, khudawadi, phags-pa, saurashtra, zanabazar-square, syloti-nagri, yi, thai, buginese, chakma, mende-kikakui, ahom, syriac, hebrew, sharada, newa, devanagari</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>arabic</code></p>
  [code: unreachable-subsetting]
@@ -1437,8 +1339,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 7 | 9 | 98 | 7 | 131 | 0 | 
-| 0% | 0% | 3% | 4% | 39% | 3% | 52% | 0% | 
+| 1 | 0 | 6 | 9 | 97 | 7 | 131 | 0 | 
+| 0% | 0% | 2% | 4% | 39% | 3% | 52% | 0% | 
 
 
 

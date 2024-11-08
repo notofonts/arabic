@@ -270,18 +270,18 @@ you're checking.</p>
         <th>✅ PASS</th>
     </tr>
     <tr>
+        <td>1</td>
         <td>0</td>
-        <td>0</td>
-        <td>7</td>
+        <td>6</td>
         <td>9</td>
-        <td>98</td>
+        <td>97</td>
         <td>7</td>
         <td>131</td>
     </tr>
     <tr>
         <td>0%</td>
         <td>0%</td>
-        <td>3%</td>
+        <td>2%</td>
         <td>4%</td>
         <td>39%</td>
         <td>3%</td>
@@ -310,7 +310,7 @@ immediately.
 <p>(but other kinds of bug reports and/or feature requests
     are also always welcome, of course!)</p>
 
-<p>FontBakery version: 0.12.9</p>
+<p>FontBakery version: 0.12.10</p>
         
             
                 <h2>OpenType Specification Checks</h2>
@@ -2499,145 +2499,12 @@ immediately.
             
         
             
-        
-            
-                <h2>Shaping Checks</h2>
-<span class='section__emoji'>
-    🔥⏩⏩⏩⏩
-</span>
-
-    <h3>
-    
-    Check that texts shape as per expectation
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/shaping/regression&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-
-
-    <h3>
-    
-    Check that no forbidden glyphs are found while shaping
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/shaping/forbidden&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-
-
-    <h3>
-    
-    Check that no collisions are found while shaping
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/shaping/collides&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-
-
-    <h3>
-    
-    Ensure dotted circle glyph is present and can attach marks.
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/dotted_circle&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-        <details>
-            <summary>
-                🔥
-                NotoNaskhArabicUI[wght].ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            🔥 FAIL
-                            </span>
-
-                            <span class='details_text'>
-                            <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- uni0654
-
-- uni065B
-</code></pre>
-
-                            
-                             [code: unattached-dotted-circle-marks]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
-    
-
-
-    <h3>
-    
-    Ensure soft_dotted characters lose their dot when combined with marks that replace the dot.
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_dotted&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-
-
-            
-        
-            
                 <h2>Article Checks</h2>
 <span class='section__emoji'>
     ⚠️
 </span>
 
     <h3>
-    
-    <div style='color:#88c'>EXPERIMENTAL CHECK - Since 2024/Mar/25</div>
     
     Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets.
 </h3>
@@ -2687,7 +2554,7 @@ immediately.
             
                 <h2>Metadata Checks</h2>
 <span class='section__emoji'>
-    ⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
+    ⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
 </span>
 
     <h3>
@@ -3039,24 +2906,6 @@ immediately.
     Ensure there is a regular style defined in METADATA.pb.
 </h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/metadata/has_regular&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-
-
-    <h3>
-    
-    The font has tags in the GF Tags spreadsheet
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/metadata/has_tags&gt;</div>
 
 
 
@@ -3485,8 +3334,8 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, phags-pa, nko, hebrew, thaana</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: manichaean, phags-pa, thai, armenian, hanunoo, sharada, coptic, meetei-mayek, telugu, khudawadi, tai-tham, kayah-li, ahom, sogdian, old-permic, canadian-aboriginal, gujarati, kannada, osage, modi, kharoshthi, mongolian, miao, siddham, myanmar, rejang, sinhala, music, malayalam, takri, nko, hebrew, brahmi, tai-viet, kaithi, javanese, psalter-pahlavi, dogra, limbu, adlam, symbols, bhaiksuki, syriac, tamil, soyombo, chakma, math, mende-kikakui, thaana, gunjala-gondi, pahawh-hmong, buhid, saurashtra, warang-citi, zanabazar-square, syloti-nagri, tibetan, tagbanwa, khmer, batak, balinese, duployan, tirhuta, wancho, marchen, tagalog, grantha, lao, gurmukhi, newa, masaram-gondi, yi, sundanese, new-tai-lue, elbasan, khojki, cham, oriya, bengali, lepcha, tifinagh, mahajani, hanifi-rohingya, devanagari, mandaic, buginese, bassa-vah, caucasian-albanian, tai-le</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, hebrew, thaana, phags-pa</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, caucasian-albanian, modi, canadian-aboriginal, symbols, elbasan, tai-viet, gunjala-gondi, tai-tham, dogra, thaana, duployan, rejang, adlam, pahawh-hmong, music, gurmukhi, masaram-gondi, khojki, malayalam, khmer, manichaean, tai-le, takri, telugu, mahajani, tagalog, cham, mongolian, soyombo, coptic, bengali, bassa-vah, kharoshthi, sundanese, hanunoo, bhaiksuki, kayah-li, hanifi-rohingya, armenian, psalter-pahlavi, brahmi, tirhuta, oriya, gujarati, kannada, tibetan, wancho, old-permic, lepcha, balinese, limbu, mandaic, grantha, batak, math, nko, myanmar, tamil, meetei-mayek, sinhala, lao, sogdian, marchen, osage, tifinagh, miao, new-tai-lue, javanese, tagbanwa, kaithi, warang-citi, buhid, khudawadi, phags-pa, saurashtra, zanabazar-square, syloti-nagri, yi, thai, buginese, chakma, mende-kikakui, ahom, syriac, hebrew, sharada, newa, devanagari</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>arabic</code></p>
 
@@ -3597,7 +3446,7 @@ definitions.</p>
             
                 <h2>Glyphset Checks</h2>
 <span class='section__emoji'>
-    🔥
+    💥
 </span>
 
     <h3>
@@ -3618,7 +3467,7 @@ definitions.</p>
     
         <details>
             <summary>
-                🔥
+                💥
                 NotoNaskhArabicUI[wght].ttf
                 
             </summary>
@@ -3627,140 +3476,25 @@ definitions.</p>
                 
                         <li class='details_item'>
                             <span class='details_indicator'>
-                            ⚠️ WARN
+                            💥 ERROR
                             </span>
 
                             <span class='details_text'>
-                            <p>GF_Arabic_Plus glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ms_Arab (Malay (Arabic))</td>
-<td align="left">No exemplar glyphs were defined for language Malay (Arabic)</td>
-</tr>
-</tbody>
-</table>
+                            <p>Failed with AttributeError: 'NoneType' object has no attribute 'get'</p>
+<pre><code>  File &quot;/home/runner/work/arabic/arabic/venv/lib/python3.11/site-packages/fontbakery/checkrunner.py&quot;, line 213, in _run_check
+    subresults = list(subresults)
+                 ^^^^^^^^^^^^^^^^
+  File &quot;/home/runner/work/arabic/arabic/venv/lib/python3.11/site-packages/fontbakery/checks/googlefonts/glyphset.py&quot;, line 145, in com_google_fonts_check_glyphsets_shape_languages
+    reporter = shaperglot_checker.check(shaperglot_languages[language_code])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/home/runner/work/arabic/arabic/venv/lib/python3.11/site-packages/shaperglot/checker.py&quot;, line 53, in check
+    for check_object in self.lang.get(&quot;shaperglot_checks&quot;, []):
+                        ^^^^^^^^^^^^^
+
+</code></pre>
 
                             
-                             [code: warning-language-shaping]
-                            
-                            </span>
-                        </li>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            🔥 FAIL
-                            </span>
-
-                            <span class='details_text'>
-                            <p>GF_Arabic_Plus glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ps_Arab (Pashto)</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-</tbody>
-</table>
-
-                            
-                             [code: failed-language-shaping]
-                            
-                            </span>
-                        </li>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            🔥 FAIL
-                            </span>
-
-                            <span class='details_text'>
-                            <p>GF_Arabic_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ar_Arab (Arabic)</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0655 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0655 to uni0020</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0640</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0655 to uni0640</td>
-</tr>
-</tbody>
-</table>
-
-                            
-                             [code: failed-language-shaping]
-                            
-                            </span>
-                        </li>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            🔥 FAIL
-                            </span>
-
-                            <span class='details_text'>
-                            <p>GF_Arabic_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">fa_Arab (Persian)</td>
-<td align="left">Shaper didn't attach uni0654 to None</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0654 to uni0020</td>
-</tr>
-</tbody>
-</table>
-
-                            
-                             [code: failed-language-shaping]
+                             [code: failed-check]
                             
                             </span>
                         </li>
@@ -3986,6 +3720,137 @@ definitions.</p>
         
             
         
+            
+        
+            
+        
+            
+                <h2>Shaping Checks</h2>
+<span class='section__emoji'>
+    🔥⏩⏩⏩⏩
+</span>
+
+    <h3>
+    
+    Check that texts shape as per expectation
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/shaping/regression&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Check that no forbidden glyphs are found while shaping
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/shaping/forbidden&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Check that no collisions are found while shaping
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/shaping/collides&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
+    <h3>
+    
+    Ensure dotted circle glyph is present and can attach marks.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/dotted_circle&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+        <details>
+            <summary>
+                🔥
+                NotoNaskhArabicUI[wght].ttf
+                
+            </summary>
+            <div>
+                <ul>
+                
+                        <li class='details_item'>
+                            <span class='details_indicator'>
+                            🔥 FAIL
+                            </span>
+
+                            <span class='details_text'>
+                            <p>The following glyphs could not be attached to the dotted circle glyph:</p>
+<pre><code>- uni0654
+
+- uni065B
+</code></pre>
+
+                            
+                             [code: unattached-dotted-circle-marks]
+                            
+                            </span>
+                        </li>
+                
+                </ul>
+            </div>
+        </details>
+    
+
+
+    <h3>
+    
+    Ensure soft_dotted characters lose their dot when combined with marks that replace the dot.
+</h3>
+<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_dotted&gt;</div>
+
+
+
+<div style="background-color:#ee8">
+
+    
+
+</div>
+
+
+    
+
+
             
         
             

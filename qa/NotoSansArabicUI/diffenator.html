@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Diffenator3</title>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+		crossorigin="anonymous"></script>
+	<style type="text/css">
+		@font-face {
+      font-family: "Font Before";
+      src: url();
+    }
+
+    @font-face {
+      font-family: "Font After";
+      src: url();
+    }
+
+    .font-before, .font-after {
+      font-variation-settings: "wght" 400, "wdth" 100;
+    }
+
+    .font-before {
+      font-family: "Font Before", "Adobe Notdef";
+    }
+
+    .font-after {
+      font-family: "Font After", "Adobe Notdef";
+    }
+
+	:root {
+	--node-pt-size: 40px;
+	}
+
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #b3d4f5 !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+    background-color: #ced9e4 !important;
+}
+.nav-item {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.nav-pills .nav-link{
+    background-color: #9fcaf5 !important;
+}
+h4 {
+    color: #6f7882 !important;
+}
+
+@font-face {
+    font-family: "Adobe NotDef";
+    src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+}
+
+.box-title {
+    width: 100%;
+    font-size: 8pt;
+    font-weight: 700;
+    border-top: 1px solid black;
+    padding-top: 5px;
+    margin-bottom: 10pt;
+    display: block;
+}
+
+.box {
+    margin-bottom: 20pt;
+    width: 100%;
+    float: left;
+}
+
+.box-text {}
+
+#ui-nav {
+    position: fixed;
+    right: 20px;
+    z-index: 100;
+}
+
+#font-toggle {}
+
+.ui-nav-item {
+    display: block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+    text-align: center;
+    color: white;
+    background-color: black;
+    display: block;
+    font-size: 14pt;
+    padding: 5px;
+    margin: 2px;
+}
+
+/* Stuff needed for the table differ */
+body {
+    font-family: Helvetica;
+}
+
+.node {
+    font-family: courier;
+    cursor: pointer;
+    position: relative;
+    left: 30px;
+    padding: 5px;
+    display: block;
+    border: 1px dashed grey;
+    background-color: #e9e9ee;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.attr-before {
+    color: green;
+    cursor: text;
+}
+
+.attr-after {
+    color: red;
+    cursor: text;
+}
+
+.leaf {
+    font-weight: bold;
+}
+
+.old .cell .new {
+    display: none;
+}
+
+.new .cell .old {
+    display: none;
+}
+
+.both .cell .old {
+    opacity: 0.75;
+    color: red;
+}
+
+.both .cell .new {
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    color: green;
+}
+
+.spacer {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+#ot-panel {
+    max-height: 400px;
+    overflow-y: scroll;
+    background: white;
+    padding: 10px;
+    display: none;
+   }
+
+   .cell{
+    z-index: -100;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 5pt;
+    margin: 5pt;
+    width: 50pt;
+    font-size: var(--node-pt-size);
+    line-height: calc(var(--node-pt-size) * 1.5);
+  }
+  .cell-word{
+    z-index: -100;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 5pt;
+    margin: 5pt;
+    font-size: var(--node-pt-size);
+    line-height: calc(var(--node-pt-size) * 1.5);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .cell-glyph{
+    z-index: -100;
+    float: left;
+    display: block;
+    text-align: center;
+    border-radius: 5pt;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 5pt;
+    margin: 5pt;
+    width: calc(var(--node-pt-size) * 2);
+    min-height: calc(var(--node-pt-size) * 2);
+    font-size: var(--node-pt-size);
+  }
+  .cell-glyph.font-before, .cell-word.font-before {
+    background: #eff6f2;
+  }
+  .cell-glyph.font-after, .cell-word.font-after {
+    background: #f7f4f4;
+  }
+
+  .cell-glyph:hover {
+    box-shadow: none;
+    background: #f0f0f5;
+  }
+  .cat-strings .cell {
+    clear: both;
+    position: static;
+    float: none;
+    text-align: left;
+  }
+  .codepoint {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10pt;
+    line-height: 10pt;
+  }
+  .box-title {
+    clear: both;
+  }
+  .node.closed::before {
+    content: "+";
+    margin-right: 5pt;
+  }
+  .node.open::before {
+    content: "-";
+    margin-right: 5pt;
+  }
+
+  .tooltip pre {
+    background-color: #6f7882;
+    padding: 5px;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+  .tooltip {
+    line-height: 1em;
+  }
+  .tooltip-inner {
+    max-width: 300px;
+  }
+
+  h1,h2,h3,h4,h5 {
+    clear: both;
+  }
+
+  #locationnav li {
+    white-space: wrap;
+  }
+
+  #userdefined div { width: 100%; }
+  
+/* The following rules are used in the WASM version, not in the CLI version.
+   But we keep them here so we can share them between the two versions. */
+
+   .modal-dialog {
+    max-width: 100% !important;
+    margin: 0 !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+  }
+
+  .fontdrop {
+    padding: 30px;
+    border-radius: 20px;
+    outline: 3px dashed #ffffffff;
+    outline-offset: -20px;
+  }
+
+  #fontbefore {
+    background-color: #ddffdddd;
+  }
+
+  #fontafter {
+    background-color: #ffdddddd;
+  }
+
+  .dragging {
+    background-image: linear-gradient(rgb(0 0 0/5%) 0 0);
+    outline: 5px dashed #ffffffff;
+  }
+
+  #diffkerns {
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+		</style>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+	integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+		<div id="ui-nav">
+		  <div class="ui-nav-item" id="fonttoggle">Old</div>
+		  <div class="ui-nav-item" id="fontanimate">Animate</div>
+		  <div id="axes">
+		  </div>
+		</div>
+	
+	<div class="row">
+		<div class="col-2">
+			<ul class="nav nav-pills" id="locationnav">
+			</ul>
+		</div>
+		<div class="col-9 mt-3">
+			<div id="title"></div>
+			<div id="cmapdiff"> </div>
+			<div id="main"></div>
+			<div id="userdefined">
+				<h4>User defined sample text</h4>
+				<div contenteditable="true" class="font-before cell-word">
+					You can type your own text here to see it previewed in the fonts.
+				</div>
+				<div style="clear: both"></div>
+			</div>
+			<div id="diffkerns"> </div>
+			<div id="difftable"> </div>
+		</div>
+	</div>
+	<script type="module">
+		function renderTableDiff(node, toplevel) {
+  var wrapper = $("<div> </div>");
+  if (!node) {
+    return wrapper;
+  }
+  if (Array.isArray(node) && node.length == 2) {
+    var before = $("<span/>");
+    before.addClass("attr-before");
+    before.html(" " + node[0] + " ");
+    var after = $("<span/>");
+    after.addClass("attr-after");
+    after.append(renderTableDiff(node[1], true).children());
+    wrapper.append(before);
+    wrapper.append(after);
+    return wrapper;
+  }
+  if (node.constructor != Object) {
+    var thing = $("<span/>");
+    thing.html(node);
+    wrapper.append(thing);
+    return wrapper;
+  }
+  for (const [key, value] of Object.entries(node)) {
+    var display = $("<div/>");
+    display.addClass("node");
+    if (!toplevel) {
+      display.hide();
+    }
+    display.append(key);
+    display.append(renderTableDiff(value, false).children());
+    if (display.children(".node").length > 0) {
+      display.addClass("closed");
+    }
+    wrapper.append(display);
+  }
+  return wrapper;
+}
+
+function addAGlyph(glyph, where) {
+  let title = "";
+  if (glyph.name) {
+    title = "name: " + glyph.name;
+  }
+  let cp =
+    "<br>U+" +
+    glyph.string.codePointAt(0).toString(16).padStart(4, "0").toUpperCase();
+  where.append(`
+        <div class="cell-glyph font-before">
+        <div data-toggle="tooltip" data-html="true" data-title="${glyph.differing_pixels} pixels"> ${glyph.string}
+        <div class="codepoint" data-toggle="tooltip" data-html="true" data-title="${title}">
+		${cp}
+        </div>
+        </div>
+    `);
+}
+
+function addAWord(diff, where) {
+  if (!diff.buffer_b) {
+    diff.buffer_b = diff.buffer_a;
+  }
+  where.append(`
+		<div class="cell-word font-before">
+		<span data-toggle="tooltip" data-html="true" data-title="Before: <pre>${diff.buffer_a}</pre>After: <pre>${diff.buffer_b}</pre><br>difference: ${diff.differing_pixels} pixels">
+		${diff.word}
+		</span>
+		</div>
+	`);
+}
+
+function diffTables(report) {
+  $("#difftable").empty();
+  $("#difftable").append(`<h4 class="mt-2 box-title">Table-level details</h4>`);
+  $("#difftable").append(
+    renderTableDiff({ tables: report["tables"] }, true).children()
+  );
+  $("#difftable .node").on("click", function (e) {
+    $(this).toggleClass("closed open");
+    $(this).children(".node").toggle();
+    e.stopPropagation();
+  });
+}
+function diffKerns(report) {
+  $("#diffkerns").empty();
+  $("#diffkerns").append(`<h4 class="mt-2">Modified Kerns</h4>`);
+  $("#diffkerns").append(
+    `<table class="table table-striped" id="diffkerns"><tr><th>Pair</th><th>Old</old><th>New</th></table>`
+  );
+  for (let [pair, value] of Object.entries(report["kerns"])) {
+    if (pair == "error") {
+      $("#diffkerns").append(`<p class="text-danger">Error: ${value}</p>`);
+      continue;
+    } else {
+      let row = $("<tr>");
+      row.append(`<td>${pair}</td>`);
+      row.append(`<td>${serializeKernBefore(value)}</td>`);
+      row.append(`<td>${serializeKernAfter(value)}</td>`);
+      $("#diffkerns table").append(row);
+    }
+  }
+}
+
+function serializeKernBefore(kern) {
+  if (Array.isArray(kern)) {
+    return serializeKern(kern[0], -1);
+  }
+  return serializeKern(kern, 0);
+}
+
+function serializeKernAfter(kern) {
+  if (Array.isArray(kern)) {
+    return serializeKern(kern[1], -1);
+  }
+  return serializeKern(kern, 1);
+}
+
+function serializeKern(kern, index) {
+  let string = "";
+  if (kern === null || kern === undefined) {
+    return "(null)";
+  }
+  if (kern.x) {
+    string += serializeKernValue(kern.x, index);
+  } else if (kern.y) {
+    string = "0";
+  }
+
+  if (kern.y) {
+    string += "," + serializeKernValue(kern.y, index);
+  }
+  if (!kern.x_placement && !kern.y_placement) {
+    return string;
+  }
+  string += "@";
+  if (kern.x_placement) {
+    string += serializeKernValue(kern.x_placement, index);
+  } else if (kern.y_placement) {
+    string += "0";
+  }
+  if (kern.y_placement) {
+    string += "," + serializeKernValue(kern.y_placement, index);
+  }
+  return string;
+}
+
+function serializeKernValue(kern, index) {
+  if (typeof kern == "number") {
+    return kern;
+  }
+  let string = "(";
+  let verybig = Object.entries(kern).length > 5;
+  for (let [key, value] of Object.entries(kern)) {
+    if (key == "default") {
+      string += value[index] + " ";
+    } else {
+      string += value[index] + "@" + key + " ";
+    }
+    if (verybig) {
+      string += "<br>";
+    }
+  }
+  return string.trim() + ")";
+}
+
+function cmapDiff(report) {
+  if (report.cmap_diff && (report.cmap_diff.new || report.cmap_diff.missing)) {
+    $("#cmapdiff").append(
+      `<h4 class="mt-2">Added and Removed Encoded Glyphs</h4>`
+    );
+    if (report["cmap_diff"]["new"]) {
+      $("#cmapdiff").append(`<h4 class="box-title">Added Glyphs</h4>`);
+      let added = $("<div>");
+      for (let glyph of report["cmap_diff"]["new"]) {
+        addAGlyph(glyph, added);
+      }
+      $("#cmapdiff").append(added);
+    }
+
+    if (report["cmap_diff"]["missing"]) {
+      $("#cmapdiff").append(`<h4 class="box-title">Removed Glyphs</h4>`);
+      let missing = $("<div>");
+      for (let glyph of report["cmap_diff"]["missing"]) {
+        addAGlyph(glyph, missing);
+      }
+      $("#cmapdiff").append(missing);
+    }
+  } else {
+    $("#cmapdiff").append(`<p>No changes to encoded glyphs</p>`);
+  }
+}
+
+function setupAnimation() {
+  $("#fonttoggle").click(function () {
+    if ($(this).text() == "Old") {
+      $(this).text("New");
+      $(".font-before").removeClass("font-before").addClass("font-after");
+    } else {
+      $(this).text("Old");
+      $(".font-after").removeClass("font-after").addClass("font-before");
+    }
+  });
+
+  let animationHandle;
+  function animate() {
+    $("#fonttoggle").click();
+    animationHandle = setTimeout(animate, 1000);
+  }
+  $("#fontanimate").click(function () {
+    if ($(this).text() == "Animate") {
+      $(this).text("Stop");
+      animate();
+    } else {
+      $(this).text("Animate");
+      clearTimeout(animationHandle);
+    }
+  });
+}
+
+export {
+  renderTableDiff,
+  addAGlyph,
+  addAWord,
+  cmapDiff,
+  diffTables,
+  diffKerns,
+  setupAnimation,
+};
+
+	var report = {"tables":{"GDEF":{"glyph_classes":{"uni06C5.isol":[null,"Base"],"uni061E":[null,"Base"],"uni0606":[null,"Base"],"uni0650.isol":[null,"Base"],"uni06C4":[null,"Base"],"uni06C5":[null,"Base"],"uni06C4.fina":[null,"Base"],"uni06C5.fina":[null,"Base"]}},"GPOS":{"lookup_list":{"2":{"2":{"classes":{"@CLASS_L_0":{"0":["uni0631","uni0695.fina"],"1":["uni0695.fina","uni06EF"],"2":["uni075B.fina","uni0699.fina"],"3":["uni06340631","uni06330631"],"4":["uni064A0631.fina","uni06360631"],"5":["uniFDF3","uni06330631.fina"],"8":["uni06360631.fina","uni0693"],"9":["uni0771","uniFDF6"],"10":["uni0631.isol","uni075B"],"11":["uni08B9.fina","uni06260631.fina"],"12":["uni076C.fina","uniFC5C"],"13":["uni0691.isol","uni0692"],"14":["uni075B","zainVInvertedabovear.fina"],"15":["uni0691","uni076C"],"16":["uni0697","uni08B9"],"17":["uni0693.fina","uni0697"],"18":["uni08B9","uni0632.isol"],"19":["zainVInvertedabovear","uni0694.fina"],"20":["uni0695","zainVInvertedabovear"],"21":["uni0696","uniFDF3"],"22":["uni0694","uni06340631"],"23":["uniFDF6","uni0691"],"24":["uni0698.fina","uni06350631.fina"],"25":["uni0698","uni0692.fina"],"26":["uni0699","uni0698.fina"],"27":["uni0692.fina","uni0698"],"28":["uni06350631.fina","uni0771"],"29":["uni06280631.fina","uni0771.fina"],"30":["uni06360631","uni06360631.fina"],"31":["uni0699.fina","uni0693.fina"],"32":["uni0632","uni0695"],"33":["uni0692","uni062A0631.fina"],"34":["uni0694.fina","uni0691.fina"],"35":["uni06330631","uni06460631.fina"],"36":["uni06330631.fina","uni076B.fina"],"37":["uniFC5C","uni0696"],"38":["uni06460631.fina","uni0631"],"39":["uni076C","uni075B.fina"],"40":["uni0696.fina","uni076C.fina"],"41":["uni06EF.fina","uni0696.fina"],"42":["uni076B.fina","uni0697.fina"],"43":["uni0697.fina","uni0698.isol"],"44":["uni076B","uni0694"],"45":["uni0698.isol","uni0631.isol"],"46":["uni06260631.fina","uni06280631.fina"],"47":["uni0771.fina","uni06EF.fina"],"48":["uni06350631","uni064A0631.fina"],"49":["uni06340631.fina","uni0632.fina"],"50":["uni0691.fina","uni06340631.fina"],"51":["zainVInvertedabovear.fina","uni08B9.fina"],"52":["uni0632.fina","uni076B"],"53":["uni06EF","uni06350631"],"54":["uni062A0631.fina","uni0632"],"55":["uni0693","uni0691.isol"],"56":["uni0632.isol","uni0699"]}}}},"3":{"0":{"bases":{"uni067C":{"anchor_0":{"x":{"wdth=62.5,wght=100":[324,334],"wght=100":[474,468],"wght=704.9927":[502,505],"default":[486,484],"wdth=62.5":[334,361],"wght=900":[525,544],"wdth=62.5,wght=900":[508,504],"wdth=62.5,wght=704.9927":[442,447]},"y":[-25,{"default":-150,"wdth=62.5,wght=100":-142,"wdth=62.5":-128,"wght=704.9927":-156,"wght=900":-161,"wdth=62.5,wght=704.9927":-134,"wdth=62.5,wght=900":-161,"wght=100":-154}]}},"uni0693":{"anchor_0":{"x":{"default":[137,249],"wdth=62.5":[120,171],"wght=704.9927":[185,282],"wght=900":[182,315],"wdth=62.5,wght=900":[162,245],"wght=100":[131,235],"wdth=62.5,wght=100":[97,150],"wdth=62.5,wght=704.9927":[140,194]},"y":{"wght=100":[-217,null],"wdth=62.5,wght=100":[-217,-218],"default":[-214,-217],"wdth=62.5,wght=900":[null,-236]}}},"uni06AB":{"anchor_0":{"x":{"wght=900":[474,879],"default":[410,799],"wdth=62.5":[337,666],"wdth=62.5,wght=704.9927":[384,705],"wdth=62.5,wght=100":[338,635],"wght=100":[408,807],"wght=704.9927":[428,800],"wdth=62.5,wght=900":[null,756]},"y":[-21,{"wdth=62.5,wght=100":522,"wdth=62.5,wght=704.9927":446,"wght=704.9927":400,"wght=900":409,"wdth=62.5":466,"default":457,"wght=100":511,"wdth=62.5,wght=900":410}]}},"uni067C.init":{"anchor_0":{"x":{"wdth=62.5,wght=900":[175,124],"wght=704.9927":[156,125],"wdth=62.5":[85,94],"wght=900":[195,127],"wght=100":[111,94],"wdth=62.5,wght=704.9927":[144,114],"default":[113,104],"wdth=62.5,wght=100":[97,84]},"y":[-5,{"wght=100":-130,"wght=704.9927":-132,"default":-126,"wdth=62.5":-104,"wght=900":-137,"wdth=62.5,wght=100":-118,"wdth=62.5,wght=704.9927":-110,"wdth=62.5,wght=900":-137}]}},"uni06AB.init":{"anchor_0":{"x":{"wght=704.9927":[197,345],"default":[163,334],"wdth=62.5,wght=900":[189,329],"wght=100":[157,296],"wght=900":[219,378],"wdth=62.5,wght=704.9927":[172,293],"wdth=62.5":[142,240],"wdth=62.5,wght=100":[137,255]},"y":[0,{"wght=100":509,"wght=900":409,"wdth=62.5,wght=100":521,"wdth=62.5,wght=900":409,"wdth=62.5,wght=704.9927":446,"wdth=62.5":470,"default":456,"wght=704.9927":400}]}},"uni067C.medi":{"anchor_0":{"x":{"wdth=62.5":[122,95],"wght=100":[174,null],"wght=704.9927":[179,120],"wdth=62.5,wght=100":[100,72],"wdth=62.5,wght=704.9927":[136,93],"wdth=62.5,wght=900":[145,94],"default":[170,102],"wght=900":[185,119]},"y":[-5,{"wdth=62.5,wght=704.9927":-102,"default":-125,"wdth=62.5":-96,"wdth=62.5,wght=900":-129,"wdth=62.5,wght=100":-110,"wght=100":-129,"wght=704.9927":-127,"wght=900":-133}]}},"uni06AB.medi":{"anchor_0":{"x":{"wght=900":[219,382],"wght=704.9927":[197,346],"wdth=62.5,wght=704.9927":[166,291],"default":[163,337],"wdth=62.5,wght=900":[179,329],"wdth=62.5":[148,242],"wght=100":[157,300],"wdth=62.5,wght=100":[107,253]},"y":[0,{"wdth=62.5,wght=704.9927":445,"wght=704.9927":400,"default":457,"wght=100":511,"wdth=62.5,wght=100":519,"wdth=62.5":468,"wght=900":409,"wdth=62.5,wght=900":409}]}},"uni0693.fina":{"anchor_0":{"x":{"wdth=62.5":[85,173],"wght=100":[131,234],"default":[83,241],"wdth=62.5,wght=704.9927":[128,194],"wght=704.9927":[163,283],"wdth=62.5,wght=100":[97,151],"wdth=62.5,wght=900":[149,245],"wght=900":[180,309]},"y":{"wdth=62.5,wght=704.9927":[-214,-217],"wdth=62.5,wght=900":[-214,-236],"wght=900":[-214,-219],"default":[-217,-226],"wdth=62.5":[null,-218],"wght=100":[null,-217],"wdth=62.5,wght=100":[null,-217],"wght=704.9927":[null,-217]}}},"uni06AB.fina":{"anchor_0":{"x":{"default":[410,804],"wdth=62.5":[337,665],"wdth=62.5,wght=100":[338,633],"wdth=62.5,wght=704.9927":[384,714],"wght=704.9927":[444,800],"wght=900":[474,870],"wght=100":[null,815],"wdth=62.5,wght=900":[null,754]},"y":[-21,{"wght=704.9927":400,"wght=100":513,"wght=900":411,"wdth=62.5,wght=100":522,"wdth=62.5":460,"wdth=62.5,wght=900":409,"default":457,"wdth=62.5,wght=704.9927":444}]}},"uni06C5.isol":[null,{"anchor_0":{"x":{"wdth=62.5":181,"default":224,"wdth=62.5,wght=100":182,"wdth=62.5,wght=704.9927":231,"wght=704.9927":261,"wdth=62.5,wght=900":258,"wght=900":288,"wght=100":217},"y":{"wdth=62.5,wght=704.9927":-278,"default":-240,"wght=900":-277,"wght=704.9927":-280,"wdth=62.5,wght=900":-271}}}],"uni0650.isol":[null,{"anchor_0":{"x":{"wdth=62.5,wght=704.9927":136,"wdth=62.5,wght=900":136,"default":145,"wght=900":136,"wdth=62.5":143},"y":{"wdth=62.5":-163,"wdth=62.5,wght=704.9927":-181,"wght=100":-180,"wdth=62.5,wght=900":-170,"wdth=62.5,wght=100":-180,"default":-150,"wght=704.9927":-180,"wght=900":-190}}}],"uni06C4":[null,{"anchor_0":{"x":{"wght=704.9927":128,"wght=100":142,"wdth=62.5,wght=704.9927":148,"wdth=62.5,wght=900":130,"default":135,"wght=900":126},"y":{"wght=900":-162,"default":-192,"wdth=62.5,wght=100":-218,"wdth=62.5":-186,"wdth=62.5,wght=900":-173,"wght=704.9927":-177,"wdth=62.5,wght=704.9927":-179,"wght=100":-223}}}],"uni06C5":[null,{"anchor_0":{"x":{"wght=100":217,"wdth=62.5,wght=100":182,"wght=704.9927":261,"wght=900":288,"wdth=62.5,wght=900":258,"wdth=62.5":181,"wdth=62.5,wght=704.9927":231,"default":224},"y":{"wdth=62.5,wght=704.9927":-278,"wdth=62.5,wght=900":-271,"wght=704.9927":-280,"default":-240,"wght=900":-277}}}],"uni06C4.fina":[null,{"anchor_0":{"x":{"wdth=62.5,wght=100":135,"wght=704.9927":128,"wght=100":142,"wght=900":126,"wdth=62.5":135,"wdth=62.5,wght=900":130,"wdth=62.5,wght=704.9927":148,"default":136},"y":{"default":-195,"wght=100":-206,"wdth=62.5,wght=100":-222,"wdth=62.5":-187,"wdth=62.5,wght=704.9927":-179,"wght=704.9927":-177,"wdth=62.5,wght=900":-173,"wght=900":-162}}}],"uni06420644064A":[null,{"anchor_0":{"x":{"default":439,"wdth=62.5,wght=704.9927":406,"wght=100":459,"wght=704.9927":444,"wght=900":443,"wdth=62.5":410,"wdth=62.5,wght=900":407,"wdth=62.5,wght=100":379},"y":{"wght=704.9927":-298,"default":-271,"wght=100":-276}}}],"uni06C5.fina":[null,{"anchor_0":{"x":{"wght=704.9927":264,"wdth=62.5,wght=900":247,"wdth=62.5":195,"wght=100":202,"default":235,"wght=900":283,"wdth=62.5,wght=100":182,"wdth=62.5,wght=704.9927":228},"y":{"wdth=62.5,wght=704.9927":-278,"wdth=62.5,wght=900":-271,"wght=900":-277,"wght=704.9927":-280,"default":-240}}}]}}},"4":{"0":{"bases":{"uni077A.init":{"anchor_0":{"x":{"wdth=62.5,wght=704.9927":[103,166],"wdth=62.5":[102,142],"wdth=62.5,wght=900":[114,188],"default":[87,149],"wght=900":[123,197],"wdth=62.5,wght=100":[65,105],"wght=100":[74,123],"wght=704.9927":[119,183]},"y":{"wdth=62.5,wght=704.9927":[691,466],"default":[617,404],"wght=900":[776,519],"wdth=62.5,wght=900":[731,509],"wght=704.9927":[711,464],"wght=100":[606,384],"wdth=62.5,wght=100":[null,363],"wdth=62.5":[null,403]}}},"uni077B.init":{"anchor_0":{"x":{"wght=704.9927":[159,183],"wdth=62.5,wght=900":[158,188],"wdth=62.5,wght=704.9927":[138,166],"wght=100":[83,123],"default":[123,149],"wdth=62.5":[134,142],"wght=900":[167,197],"wdth=62.5,wght=100":[78,105]},"y":{"wdth=62.5,wght=900":[739,509],"wght=100":[619,384],"wdth=62.5,wght=100":[622,363],"wdth=62.5,wght=704.9927":[700,466],"default":[625,404],"wght=704.9927":[722,464],"wdth=62.5":[622,403],"wght=900":[783,519]}}},"uni077A.medi":{"anchor_0":{"x":{"wdth=62.5,wght=704.9927":[102,193],"wdth=62.5,wght=900":[114,228],"default":[115,196],"wght=704.9927":[119,233],"wght=900":[123,236],"wdth=62.5,wght=100":[95,150],"wdth=62.5":[98,169],"wght=100":[104,205]},"y":{"wdth=62.5,wght=900":[628,410],"wght=704.9927":[584,345],"default":[520,283],"wdth=62.5,wght=704.9927":[610,361],"wght=900":[611,391],"wght=100":[null,276],"wdth=62.5,wght=100":[null,286],"wdth=62.5":[null,356]}}},"uni077B.medi":{"anchor_0":{"x":{"default":[151,196],"wdth=62.5":[130,169],"wdth=62.5,wght=900":[158,228],"wght=900":[167,236],"wdth=62.5,wght=704.9927":[137,193],"wght=704.9927":[159,233],"wght=100":[113,205],"wdth=62.5,wght=100":[108,150]},"y":{"wdth=62.5":[525,356],"wdth=62.5,wght=100":[525,286],"wdth=62.5,wght=704.9927":[619,361],"default":[528,283],"wght=704.9927":[595,345],"wdth=62.5,wght=900":[636,410],"wght=100":[533,276],"wght=900":[618,391]}}},"uni06C5.isol":[null,{"anchor_0":{"x":{"default":232,"wght=704.9927":253,"wdth=62.5,wght=900":238,"wdth=62.5":189,"wdth=62.5,wght=704.9927":221,"wght=900":268,"wdth=62.5,wght=100":197},"y":{"wght=704.9927":383,"wdth=62.5,wght=100":317,"wdth=62.5,wght=900":412,"default":337,"wght=100":317,"wght=900":412,"wdth=62.5,wght=704.9927":384}}}],"uni061E":[null,{"anchor_0":{"x":{"wght=900":266,"wdth=62.5,wght=900":219,"wght=704.9927":150,"default":145,"wdth=62.5,wght=704.9927":191},"y":{"wdth=62.5,wght=100":163,"wdth=62.5,wght=704.9927":253,"default":205,"wdth=62.5,wght=900":294,"wdth=62.5":200,"wght=100":163,"wght=704.9927":232,"wght=900":260}}}],"uni0606":[null,{"anchor_0":{"x":{"wdth=62.5,wght=900":406,"default":356,"wdth=62.5,wght=704.9927":380,"wght=704.9927":391,"wght=100":318,"wght=900":415,"wdth=62.5":345,"wdth=62.5,wght=100":313},"y":{"wght=900":816,"wdth=62.5,wght=704.9927":793,"wdth=62.5,wght=900":834,"default":694,"wdth=62.5,wght=100":691,"wght=704.9927":771,"wght=100":699,"wdth=62.5":691}}}],"uni06C4":[null,{"anchor_0":{"x":{"wdth=62.5":189,"wdth=62.5,wght=704.9927":221,"wght=900":268,"default":232,"wdth=62.5,wght=100":197,"wdth=62.5,wght=900":238,"wght=704.9927":253},"y":{"wdth=62.5,wght=900":412,"wght=704.9927":383,"wght=900":412,"wdth=62.5,wght=100":317,"default":337,"wght=100":317,"wdth=62.5,wght=704.9927":384}}}],"uni06C5":[null,{"anchor_0":{"x":{"wdth=62.5,wght=100":197,"wdth=62.5,wght=900":238,"wdth=62.5,wght=704.9927":221,"default":232,"wdth=62.5":189,"wght=900":268,"wght=704.9927":253},"y":{"wght=900":412,"wght=704.9927":383,"wdth=62.5,wght=100":317,"wdth=62.5,wght=900":412,"wght=100":317,"wdth=62.5,wght=704.9927":384,"default":337}}}],"uni08AB":[null,{"anchor_0":{"x":{"wdth=62.5,wght=100":197,"default":232,"wght=704.9927":253,"wght=900":268,"wdth=62.5,wght=704.9927":221,"wdth=62.5,wght=900":238,"wdth=62.5":189},"y":{"wght=900":412,"default":337,"wght=704.9927":383,"wdth=62.5,wght=100":317,"wght=100":317,"wdth=62.5,wght=900":412,"wdth=62.5,wght=704.9927":384}}}],"uni08AB.fina":[null,{"anchor_0":{"x":{"default":232,"wdth=62.5":192,"wght=900":275,"wdth=62.5,wght=100":196,"wght=704.9927":253,"wdth=62.5,wght=900":239,"wght=100":214},"y":{"wght=900":432,"default":331,"wdth=62.5,wght=100":312,"wght=100":312,"wght=704.9927":403,"wdth=62.5,wght=704.9927":400,"wdth=62.5,wght=900":436}}}],"uni06C4.fina":[null,{"anchor_0":{"x":{"default":232,"wdth=62.5":192,"wght=704.9927":253,"wght=100":214,"wdth=62.5,wght=100":196,"wdth=62.5,wght=900":239,"wght=900":275},"y":{"wght=100":312,"wdth=62.5,wght=704.9927":400,"wdth=62.5,wght=900":436,"wdth=62.5,wght=100":312,"default":331,"wght=704.9927":403,"wght=900":432}}}],"uni06420644064A":[null,{"anchor_0":{"x":{"wdth=62.5":148,"wght=100":215,"default":195,"wdth=62.5,wght=704.9927":161,"wght=900":185,"wght=704.9927":189,"wdth=62.5,wght=100":185,"wdth=62.5,wght=900":165},"y":{"wdth=62.5,wght=704.9927":106,"wdth=62.5,wght=900":142,"default":39,"wght=704.9927":108,"wght=900":142}}}],"uni06C5.fina":[null,{"anchor_0":{"x":{"default":232,"wght=704.9927":253,"wght=100":214,"wght=900":275,"wdth=62.5,wght=100":196,"wdth=62.5,wght=900":239,"wdth=62.5":192},"y":{"wght=704.9927":403,"wght=100":312,"wdth=62.5,wght=100":312,"wdth=62.5,wght=704.9927":400,"wdth=62.5,wght=900":436,"wght=900":432,"default":331}}}]}}},"5":{"0":{"ligatures":{"uniFDFD":{"anchor_0_10":[{"x":{"wdth=62.5,wght=100":771,"wght=900":1128,"wght=100":957,"wght=704.9927":1069,"wdth=62.5":885,"wdth=62.5,wght=900":1038,"wdth=62.5,wght=704.9927":1002,"default":975},"y":0},null],"anchor_0_11":{"x":{"default":[820,3645],"wght=900":[973,4342],"wdth=62.5,wght=100":[646,2944],"wdth=62.5":[748,3187],"wght=100":[802,3608],"wdth=62.5,wght=900":[883,3943],"wght=704.9927":[914,3932],"wdth=62.5,wght=704.9927":[847,3705]},"y":[0,{"wght=900":-128,"default":-130,"wdth=62.5,wght=704.9927":-128,"wdth=62.5,wght=900":-128}]},"anchor_0_12":[{"x":{"wght=704.9927":758,"wght=900":817,"default":664,"wght=100":646,"wdth=62.5,wght=100":520,"wdth=62.5":610,"wdth=62.5,wght=704.9927":691,"wdth=62.5,wght=900":727},"y":0},null],"anchor_0_1":[null,{"x":{"wght=100":5477,"wdth=62.5,wght=900":6093,"default":5672,"wdth=62.5,wght=704.9927":5731,"wght=900":6761,"wght=704.9927":6163,"wdth=62.5":4977,"wdth=62.5,wght=100":4530},"y":3}],"anchor_0_17":[null,{"x":{"wdth=62.5":610,"wght=704.9927":758,"wght=900":817,"default":664,"wdth=62.5,wght=704.9927":691,"wght=100":646,"wdth=62.5,wght=100":520,"wdth=62.5,wght=900":727},"y":0}]},"uni06350644064A":{"anchor_0_1":{"x":{"wdth=62.5,wght=900":[646,1315],"default":[704,1333],"wdth=62.5":[606,1097],"wght=704.9927":[728,1423],"wght=900":[744,1461],"wdth=62.5,wght=704.9927":[630,1234],"wght=100":[697,1328],"wdth=62.5,wght=100":[577,1060]},"y":{"default":[0,-18],"wght=704.9927":[-2,null],"wdth=62.5,wght=704.9927":[-3,-16],"wdth=62.5,wght=900":[-4,null],"wght=900":[-4,null],"wdth=62.5":[null,-12]}},"anchor_0_2":{"x":{"wdth=62.5,wght=100":[379,577],"wght=900":[443,744],"wdth=62.5":[410,606],"wght=100":[459,697],"default":[439,704],"wght=704.9927":[444,728],"wdth=62.5,wght=900":[407,646],"wdth=62.5,wght=704.9927":[406,630]},"y":{"default":[-271,0],"wght=100":[-276,null],"wght=704.9927":[-298,-2],"wdth=62.5,wght=900":[null,-4],"wdth=62.5,wght=704.9927":[null,-3],"wght=900":[null,-4]}},"anchor_0_3":[null,{"x":{"wght=704.9927":444,"default":439,"wdth=62.5,wght=100":379,"wdth=62.5":410,"wght=100":459,"wdth=62.5,wght=900":407,"wdth=62.5,wght=704.9927":406,"wght=900":443},"y":{"default":-271,"wght=704.9927":-298,"wght=100":-276}}]}}}},"6":{"0":{"ligatures":{"uniFDFD":{"anchor_0_10":[{"x":{"wdth=62.5":882,"default":960,"wdth=62.5,wght=100":780,"wght=900":1089,"wdth=62.5,wght=704.9927":988,"wdth=62.5,wght=900":1023,"wght=100":948,"wght=704.9927":1047},"y":154},null],"anchor_0_11":{"x":{"wght=704.9927":[892,3965],"wdth=62.5,wght=900":[868,3931],"wght=900":[934,4349],"wdth=62.5":[745,3211],"wdth=62.5,wght=100":[655,2941],"wdth=62.5,wght=704.9927":[833,3688],"default":[805,3693],"wght=100":[793,3632]},"y":[154,{"wght=900":251,"wdth=62.5,wght=900":251,"wdth=62.5,wght=704.9927":237,"default":211,"wght=704.9927":235}]},"anchor_0_12":[{"x":{"default":649,"wght=704.9927":736,"wdth=62.5":607,"wght=900":778,"wght=100":637,"wdth=62.5,wght=704.9927":677,"wdth=62.5,wght=900":712,"wdth=62.5,wght=100":529},"y":154},null],"anchor_0_1":[null,{"x":{"wght=100":5468,"wdth=62.5":4974,"wdth=62.5,wght=900":6078,"wght=704.9927":6142,"wdth=62.5,wght=100":4539,"default":5657,"wdth=62.5,wght=704.9927":5716,"wght=900":6722},"y":157}],"anchor_0_17":[null,{"x":{"wdth=62.5,wght=704.9927":677,"default":649,"wdth=62.5,wght=100":529,"wdth=62.5,wght=900":712,"wght=704.9927":736,"wdth=62.5":607,"wght=900":778,"wght=100":637},"y":154}]},"uni06350644064A":{"anchor_0_1":{"x":{"wght=704.9927":[732,1599],"wght=900":[738,1643],"wdth=62.5":[591,1247],"wdth=62.5,wght=900":[640,1454],"wght=100":[691,1487],"wdth=62.5,wght=100":[571,1184],"default":[693,1500],"wdth=62.5,wght=704.9927":[634,1375]},"y":{"wdth=62.5,wght=704.9927":[738,432],"default":[714,369],"wdth=62.5":[694,364],"wght=900":[729,473],"wdth=62.5,wght=900":[739,473],"wght=704.9927":[732,435],"wght=100":[null,319],"wdth=62.5,wght=100":[null,320]}},"anchor_0_2":{"x":{"default":[195,693],"wdth=62.5":[148,591],"wght=900":[185,738],"wdth=62.5,wght=704.9927":[161,634],"wght=100":[215,691],"wght=704.9927":[189,732],"wdth=62.5,wght=100":[185,571],"wdth=62.5,wght=900":[165,640]},"y":{"wdth=62.5,wght=704.9927":[106,738],"wght=704.9927":[108,732],"wdth=62.5,wght=900":[142,739],"default":[39,714],"wght=900":[142,729],"wdth=62.5":[null,694]}},"anchor_0_3":[null,{"x":{"default":195,"wght=704.9927":189,"wght=900":185,"wdth=62.5,wght=900":165,"wdth=62.5,wght=100":185,"wdth=62.5":148,"wght=100":215,"wdth=62.5,wght=704.9927":161},"y":{"wght=900":142,"wdth=62.5,wght=704.9927":106,"wdth=62.5,wght=900":142,"default":39,"wght=704.9927":108}}]}}}}}},"STAT":{"offset_to_axis_value_offsets":{"axis_value_offsets":{"1":{"value_name_id":["259","260"]},"2":{"value_name_id":["260","262"]},"4":{"value_name_id":["262","266"]},"5":{"value_name_id":["263","268"]},"6":{"value_name_id":["264","270"]},"7":{"value_name_id":["265","272"]},"8":{"value_name_id":["266","274"]},"9":{"value_name_id":["267","276"]},"10":{"value_name_id":["268","277"]},"11":{"value_name_id":["269","278"]},"12":{"value_name_id":["270","279"]}}}},"fvar":{"axis_instance_arrays_offset":{"instances":{"0":{"post_script_name_id":[null,"259"]},"1":{"subfamily_name_id":["259","260"],"post_script_name_id":[null,"261"]},"2":{"subfamily_name_id":["260","262"],"post_script_name_id":[null,"263"]},"3":{"subfamily_name_id":["261","264"],"post_script_name_id":[null,"265"]},"4":{"subfamily_name_id":["262","266"],"post_script_name_id":[null,"267"]},"5":{"subfamily_name_id":["263","268"],"post_script_name_id":[null,"269"]},"6":{"subfamily_name_id":["264","270"],"post_script_name_id":[null,"271"]},"7":{"subfamily_name_id":["265","272"],"post_script_name_id":[null,"273"]},"8":{"subfamily_name_id":["266","274"],"post_script_name_id":[null,"275"]}}},"instance_size":[12,14]},"head":{"checksum_adjustment":[1668703313,4178398257],"modified":[3801052044,3813907907]},"name":{"259":{"en":["ExtraLight","NotoSansArabicUI-Thin"],"en-US":["ExtraLight","NotoSansArabicUI-Thin"]},"260":{"en":["Light","ExtraLight"],"en-US":["Light","ExtraLight"]},"261":{"en":["Regular","NotoSansArabicUI-ExtraLight"],"en-US":["Regular","NotoSansArabicUI-ExtraLight"]},"262":{"en":["Medium","Light"],"en-US":["Medium","Light"]},"263":{"en":["SemiBold","NotoSansArabicUI-Light"],"en-US":["SemiBold","NotoSansArabicUI-Light"]},"264":{"en":["Bold","Regular"],"en-US":["Bold","Regular"]},"265":{"en":["ExtraBold","NotoSansArabicUI-Regular"],"en-US":["ExtraBold","NotoSansArabicUI-Regular"]},"266":{"en":["Black","Medium"],"en-US":["Black","Medium"]},"267":{"en-US":["ExtraCondensed","NotoSansArabicUI-Medium"],"en":[null,"NotoSansArabicUI-Medium"]},"268":{"en-US":["Condensed","SemiBold"],"en":[null,"SemiBold"]},"269":{"en-US":["SemiCondensed","NotoSansArabicUI-SemiBold"],"en":[null,"NotoSansArabicUI-SemiBold"]},"270":{"en-US":["Normal","Bold"],"en":[null,"Bold"]},"271":[null,{"en":"NotoSansArabicUI-Bold","en-US":"NotoSansArabicUI-Bold"}],"272":[null,{"en":"ExtraBold","en-US":"ExtraBold"}],"273":[null,{"en":"NotoSansArabicUI-ExtraBold","en-US":"NotoSansArabicUI-ExtraBold"}],"274":[null,{"en":"Black","en-US":"Black"}],"275":[null,{"en":"NotoSansArabicUI-Black","en-US":"NotoSansArabicUI-Black"}],"276":[null,{"en-US":"ExtraCondensed"}],"277":[null,{"en-US":"Condensed"}],"278":[null,{"en-US":"SemiCondensed"}],"279":[null,{"en-US":"Normal"}]}},"cmap_diff":{}};
+		function buildLocation_statichtml(loc) {
+  // Set font styles to appropriate axis locations
+  let rule = document.styleSheets[0].cssRules[2].style;
+  let cssSetting = "";
+  let textLocation = "Default";
+  if (loc.coords) {
+    cssSetting = Object.entries(loc.coords)
+      .map(function ([axis, value]) {
+        return `"${axis}" ${value}`;
+      })
+      .join(", ");
+    textLocation = Object.entries(loc.coords)
+      .map(function ([axis, value]) {
+        return `${axis}=${value}`;
+      })
+      .join(" ");
+    rule.setProperty("font-variation-settings", cssSetting);
+  }
+
+  $("#main").empty();
+
+  $("#title").html(`<h4 class="mt-2">${textLocation}</h2>`);
+
+  if (loc.glyphs) {
+    $("#main").append("<h4>Modified Glyphs</h4>");
+    let glyphs = $("<div>");
+    for (let glyph of loc.glyphs) {
+      addAGlyph(glyph, glyphs);
+    }
+    $("#main").append(glyphs);
+  }
+
+  if (loc.words) {
+    $("#main").append("<h4>Modified Words</h4>");
+    for (let [script, words] of Object.entries(loc.words)) {
+      let scriptTitle = $(`<h6>${script}</h6>`);
+      $("#main").append(scriptTitle);
+      let worddiv = $("<div>");
+      for (let word of words) {
+        addAWord(word, worddiv);
+      }
+      $("#main").append(worddiv);
+    }
+  }
+  $('[data-toggle="tooltip"]').tooltip();
+}
+
+$(function () {
+  if (report["tables"]) {
+    diffTables(report);
+  }
+  if (report["kerns"]) {
+    diffKerns(report);
+  }
+  cmapDiff(report);
+  $('[data-toggle="tooltip"]').tooltip();
+  if (!report["locations"]) {
+    $("#title").html("<h4 class='mt-2'>No differences found</h4>");
+    $("#ui-nav").hide();
+    return;
+  }
+
+  for (var [index, loc] of report["locations"].entries()) {
+    var loc_nav = $(`<li class="nav-item">
+		<a class="nav-link text-secondary" href="#" data-index="${index}">${loc.location.replaceAll(
+      ",",
+      ",\u200b"
+    )}</a>
+	</li>`);
+    $("#locationnav").append(loc_nav);
+  }
+  $("#locationnav li a").on("click", function (e) {
+    $("#locationnav li a").removeClass("active");
+    $(this).addClass("active");
+    buildLocation_statichtml(report.locations[$(this).data("index")]);
+  });
+  $("#locationnav li a").eq(0).click();
+
+  document.styleSheets[0].cssRules[0].style.setProperty(
+    "src",
+    "url(old-NotoSansArabicUI[wdth,wght].ttf)"
+  );
+  document.styleSheets[0].cssRules[1].style.setProperty(
+    "src",
+    "url(new-NotoSansArabicUI[wdth,wght].ttf)"
+  );
+  setupAnimation();
+});
+
+	</script>
+</body>
+
+</html>
