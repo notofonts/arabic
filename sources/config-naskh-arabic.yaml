@@ -2,11 +2,12 @@ buildVariable: true
 category:
 - SERIF
 familyName: Noto Naskh Arabic
+glyphData:
+- GlyphData.xml
 googleFonts: true
 includeSubsets:
 - from: Noto Serif
   name: GF_Latin_Core
+recipeProvider: noto
 sources:
 - NotoNaskhArabic.glyphspackage
-glyphData:
-- GlyphData.xml

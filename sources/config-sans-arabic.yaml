@@ -1,10 +1,11 @@
 buildVariable: true
 familyName: Noto Sans Arabic
+glyphData:
+- GlyphData.xml
 googleFonts: true
 includeSubsets:
 - from: Noto Sans
   name: GF_Latin_Core
+recipeProvider: noto
 sources:
 - NotoSansArabic.glyphspackage
-glyphData:
-- GlyphData.xml
