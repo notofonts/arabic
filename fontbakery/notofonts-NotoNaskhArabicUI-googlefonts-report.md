@@ -1,6 +1,8 @@
 ## FontBakery report
 
-fontbakery version: 0.12.10
+fontbakery version: 0.13.2
+
+
 
 
 
@@ -10,57 +12,10 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[16] NotoNaskhArabicUI[wght].ttf</summary>
+<details><summary>[14] NotoNaskhArabicUI[wght].ttf</summary>
 <div>
 <details>
-    <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 💥 **ERROR** <p>Failed with AttributeError: 'NoneType' object has no attribute 'get'</p>
-<pre><code>  File &quot;/home/runner/work/arabic/arabic/venv/lib/python3.11/site-packages/fontbakery/checkrunner.py&quot;, line 213, in _run_check
-    subresults = list(subresults)
-                 ^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/arabic/arabic/venv/lib/python3.11/site-packages/fontbakery/checks/googlefonts/glyphset.py&quot;, line 145, in com_google_fonts_check_glyphsets_shape_languages
-    reporter = shaperglot_checker.check(shaperglot_languages[language_code])
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/arabic/arabic/venv/lib/python3.11/site-packages/shaperglot/checker.py&quot;, line 53, in check
-    for check_object in self.lang.get(&quot;shaperglot_checks&quot;, []):
-                        ^^^^^^^^^^^^^
-
-</code></pre>
- [code: failed-check]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check that glyph for U+0675 ARABIC LETTER HIGH HAMZA is not a mark. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.arabic.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The arabic letter high hamza (U+0675) should have roughly the same size the arabic letter hamza (U+0621), but a different glyph outline area was detected.</p>
- [code: glyph-area]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
     <div>
 
 
@@ -83,7 +38,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check for presence of an ARTICLE.en_us.html file <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.description.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check for presence of an ARTICLE.en_us.html file <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-description-has-article">googlefonts/description/has_article</a></summary>
     <div>
 
 
@@ -106,7 +61,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -128,7 +83,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
     <div>
 
 
@@ -1048,7 +1003,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check font can render its own name. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure font can render its own name. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-render-own-name">googlefonts/render_own_name</a></summary>
     <div>
 
 
@@ -1066,7 +1021,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#gpos-kerning-info">gpos_kerning_info</a></summary>
     <div>
 
 
@@ -1084,7 +1039,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Detect any interpolation issues in the font. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Detect any interpolation issues in the font. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#interpolation-issues">interpolation_issues</a></summary>
     <div>
 
 
@@ -1094,15 +1049,15 @@ fontbakery version: 0.12.10
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 0 point 72 in glyph 'uni06AA' has a kink between location wght=400 and location wght=700
+<pre><code>- Contour 0 in glyph 'uni08AA': becomes underweight between wght=400 and wght=700.
+
+- Contour 0 point 24 in glyph 'uni08AA' has a kink between location wght=400 and location wght=700
 
 - Contour 0 point 40 in glyph 'uni0602' has a kink between location wght=400 and location wght=700
 
+- Contour 0 point 72 in glyph 'uni06AA' has a kink between location wght=400 and location wght=700
+
 - Contour 0 point 26 in glyph 'uni0665' has a kink between location wght=400 and location wght=700
-
-- Contour 0 in glyph 'uni08AA': becomes underweight between wght=400 and wght=700.
-
-- Contour 0 point 24 in glyph 'uni08AA' has a kink between location wght=400 and location wght=700
 </code></pre>
  [code: interpolation-issues]
 
@@ -1112,7 +1067,43 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure variable fonts include an avar table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#mandatory-avar-table">mandatory_avar_table</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This variable font does not have an avar table. Most variable fonts should include an avar table to correctly define axes progression rates.</p>
+ [code: missing-avar]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
     <div>
 
 
@@ -1214,25 +1205,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Font has **proper** whitespace glyph names? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>Glyph 0x0020 is called &quot;uni0020&quot;: Change to &quot;space&quot;</p>
- [code: not-recommended-0020]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
 
@@ -1250,7 +1223,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
     <div>
 
 
@@ -1265,8 +1238,8 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, hebrew, thaana, phags-pa</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, caucasian-albanian, modi, canadian-aboriginal, symbols, elbasan, tai-viet, gunjala-gondi, tai-tham, dogra, thaana, duployan, rejang, adlam, pahawh-hmong, music, gurmukhi, masaram-gondi, khojki, malayalam, khmer, manichaean, tai-le, takri, telugu, mahajani, tagalog, cham, mongolian, soyombo, coptic, bengali, bassa-vah, kharoshthi, sundanese, hanunoo, bhaiksuki, kayah-li, hanifi-rohingya, armenian, psalter-pahlavi, brahmi, tirhuta, oriya, gujarati, kannada, tibetan, wancho, old-permic, lepcha, balinese, limbu, mandaic, grantha, batak, math, nko, myanmar, tamil, meetei-mayek, sinhala, lao, sogdian, marchen, osage, tifinagh, miao, new-tai-lue, javanese, tagbanwa, kaithi, warang-citi, buhid, khudawadi, phags-pa, saurashtra, zanabazar-square, syloti-nagri, yi, thai, buginese, chakma, mende-kikakui, ahom, syriac, hebrew, sharada, newa, devanagari</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, syriac, thaana, nko, hebrew</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tagalog, tamil, coptic, ahom, yi, javanese, osage, tai-tham, new-tai-lue, khmer, modi, sharada, takri, adlam, telugu, elbasan, khojki, psalter-pahlavi, thaana, syloti-nagri, dogra, kannada, khudawadi, devanagari, syriac, rejang, brahmi, tirhuta, phags-pa, meetei-mayek, buginese, zanabazar-square, music, hanifi-rohingya, armenian, oriya, mende-kikakui, soyombo, batak, canadian-aboriginal, nko, newa, bengali, myanmar, limbu, symbols, warang-citi, bassa-vah, kharoshthi, buhid, lepcha, lao, malayalam, old-permic, tifinagh, chakma, kayah-li, kaithi, sinhala, tibetan, thai, gunjala-gondi, gujarati, mandaic, hebrew, tai-viet, caucasian-albanian, mahajani, manichaean, wancho, marchen, saurashtra, tai-le, duployan, bhaiksuki, pahawh-hmong, hanunoo, cham, miao, siddham, gurmukhi, tagbanwa, mongolian, sogdian, balinese, sundanese, masaram-gondi, math, grantha</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>arabic</code></p>
  [code: unreachable-subsetting]
@@ -1277,7 +1250,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
     <div>
 
 
@@ -1286,8 +1259,26 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
+* ⚠️ **WARN** <p>GF_TransLatin_Pinyin glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">WARN messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0654 to uni25CC when shaping the text '◌ٔ'</td>
+<td align="left">ur_Arab (Urdu) and ur_Arab (Urdu)</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
 
 
 
@@ -1295,25 +1286,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure variable fonts include an avar table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This variable font does not have an avar table.</p>
- [code: missing-avar]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
     <div>
 
 
@@ -1339,8 +1312,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 1 | 0 | 6 | 9 | 97 | 7 | 131 | 0 | 
-| 0% | 0% | 2% | 4% | 39% | 3% | 52% | 0% | 
+| 0 | 0 | 5 | 9 | 90 | 6 | 126 | 0 | 
+| 0% | 0% | 2% | 4% | 38% | 3% | 53% | 0% | 
 
 
 

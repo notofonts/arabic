@@ -1,66 +1,54 @@
 ## FontBakery report
 
-fontbakery version: 0.12.10
+fontbakery version: 0.13.2
 
 
 
 
 
-## Check results
+## Experimental checks
+
+These won't break the CI job for now, but will become effective after some time if nobody raises any concern.
+
+
+<details><summary>[1] NotoNaskhArabic[wght].ttf</summary>
+<div>
+<details>
+    <summary>🔥 <b>FAIL</b> Check base characters have non-zero advance width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#base-has-width">base_has_width</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs had zero advance width:
+- u10EFD (U+10EFD)</p>
+<pre><code>- u10EFE (U+10EFE)
+
+- u10EFF (U+10EFF)
+</code></pre>
+ [code: zero-width-bases]
+
+
+
+</div>
+</details>
+</div>
+</details>
+
+
+
+
+## All other checks
 
 
 
 <details><summary>[13] NotoNaskhArabic[wght].ttf</summary>
 <div>
 <details>
-    <summary>💥 <b>ERROR</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 💥 **ERROR** <p>Failed with AttributeError: 'NoneType' object has no attribute 'get'</p>
-<pre><code>  File &quot;/home/runner/work/arabic/arabic/venv/lib/python3.11/site-packages/fontbakery/checkrunner.py&quot;, line 213, in _run_check
-    subresults = list(subresults)
-                 ^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/arabic/arabic/venv/lib/python3.11/site-packages/fontbakery/checks/googlefonts/glyphset.py&quot;, line 145, in com_google_fonts_check_glyphsets_shape_languages
-    reporter = shaperglot_checker.check(shaperglot_languages[language_code])
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/arabic/arabic/venv/lib/python3.11/site-packages/shaperglot/checker.py&quot;, line 53, in check
-    for check_object in self.lang.get(&quot;shaperglot_checks&quot;, []):
-                        ^^^^^^^^^^^^^
-
-</code></pre>
- [code: failed-check]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check that glyph for U+0675 ARABIC LETTER HIGH HAMZA is not a mark. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.arabic.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The arabic letter high hamza (U+0675) should have roughly the same size the arabic letter hamza (U+0621), but a different glyph outline area was detected.</p>
- [code: glyph-area]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check for presence of an ARTICLE.en_us.html file <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.description.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check for presence of an ARTICLE.en_us.html file <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-description-has-article">googlefonts/description/has_article</a></summary>
     <div>
 
 
@@ -83,7 +71,25 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Detect any interpolation issues in the font. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check if uppercase glyphs are vertically centered. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#caps-vertically-centered">caps_vertically_centered</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Uppercase glyphs are not vertically centered in the em box.</p>
+ [code: vertical-metrics-not-centered]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Detect any interpolation issues in the font. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#interpolation-issues">interpolation_issues</a></summary>
     <div>
 
 
@@ -105,7 +111,25 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure variable fonts include an avar table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#mandatory-avar-table">mandatory_avar_table</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This variable font does not have an avar table. Most variable fonts should include an avar table to correctly define axes progression rates.</p>
+ [code: missing-avar]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#math-signs-width">math_signs_width</a></summary>
     <div>
 
 
@@ -126,7 +150,27 @@ minus</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
+<pre><code>* uni089D (U+089D): L&lt;&lt;26.0,748.0&gt;--&lt;20.0,750.0&gt;&gt; has the same coordinates as a previous segment.
+</code></pre>
+ [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
     <div>
 
 
@@ -158,7 +202,7 @@ minus</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#valid-glyphnames">valid_glyphnames</a></summary>
     <div>
 
 
@@ -177,7 +221,7 @@ twodotshorizontalabove_tahabovear, twodotshorizontalabovear.diagonal, twodotshor
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
 
@@ -195,7 +239,7 @@ twodotshorizontalabove_tahabovear, twodotshorizontalabovear.diagonal, twodotshor
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
     <div>
 
 
@@ -213,20 +257,20 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, syriac, tifinagh, tai-le, old-permic, canadian-aboriginal, math, todhri, malayalam, coptic, duployan</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, tifinagh, syriac, tai-le, canadian-aboriginal, coptic, hebrew, todhri, malayalam, duployan, math</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+08E2 ARABIC DISPUTED END OF AYAH: not included in any glyphset definition</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: hebrew, syriac, phags-pa, thaana, nko</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, phags-pa, yi</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, phags-pa, nko, thaana, hebrew</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: oriya, takri, tagbanwa, khojki, siddham, cham, mongolian, tai-tham, hanifi-rohingya, gunjala-gondi, bassa-vah, syriac, buhid, old-permic, miao, warang-citi, coptic, caucasian-albanian, limbu, symbols, zanabazar-square, newa, bhaiksuki, hanunoo, kayah-li, tai-viet, sogdian, tamil, duployan, sinhala, lao, buginese, tai-le, kharoshthi, gujarati, thaana, tirhuta, kannada, batak, meetei-mayek, gurmukhi, bengali, yi, malayalam, kaithi, marchen, modi, devanagari, osage, nko, soyombo, new-tai-lue, sharada, masaram-gondi, tagalog, mende-kikakui, pahawh-hmong, armenian, syloti-nagri, music, ahom, chakma, phags-pa, math, brahmi, elbasan, saurashtra, psalter-pahlavi, khudawadi, grantha, thai, lepcha, tibetan, hebrew, khmer, javanese, tifinagh, telugu, myanmar, adlam, canadian-aboriginal, rejang, mahajani, manichaean, mandaic, wancho, balinese, dogra, sundanese</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: modi, marchen, masaram-gondi, sogdian, osage, tai-tham, sinhala, batak, miao, syriac, khudawadi, mahajani, manichaean, saurashtra, symbols, limbu, tagbanwa, javanese, music, balinese, rejang, thai, hebrew, old-permic, cham, wancho, tagalog, tamil, gunjala-gondi, myanmar, oriya, kayah-li, math, buhid, gujarati, mende-kikakui, siddham, khmer, malayalam, tibetan, tifinagh, tirhuta, buginese, lao, meetei-mayek, elbasan, bengali, mandaic, dogra, tai-viet, grantha, lepcha, brahmi, takri, kaithi, psalter-pahlavi, warang-citi, soyombo, bhaiksuki, zanabazar-square, telugu, ahom, sundanese, tai-le, canadian-aboriginal, kannada, khojki, pahawh-hmong, devanagari, phags-pa, nko, kharoshthi, armenian, chakma, sharada, duployan, coptic, newa, syloti-nagri, new-tai-lue, caucasian-albanian, hanunoo, mongolian, gurmukhi, hanifi-rohingya, adlam, thaana, yi, bassa-vah</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>arabic</code>, <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -237,7 +281,139 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_TransLatin_Arabic glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">WARN messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŀ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŀ</td>
+<td align="left">ca_Latn (Catalan)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ſ</td>
+<td align="left">de_Latn (German) and fr_Latn (French)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʻ</td>
+<td align="left">en_Latn (English)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŋ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǯ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŋ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǯ</td>
+<td align="left">fi_Latn (Finnish)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŋ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŋ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ĳ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ĳ</td>
+<td align="left">nl_Latn (Dutch)</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
     <div>
 
 
@@ -248,8 +424,6 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̧̀ į̧́ į̧̂ į̧̃</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), Zapotec (Latn, 490,000 speakers), Cicipu (Latn, 44,000 speakers), Dan (Latn, 1,099,244 speakers), Southern Kisi (Latn, 360,000 speakers), Avokaya (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Heiltsuk (Latn, 300 speakers), Vute (Latn, 21,000 speakers), Lugbara (Latn, 2,200,000 speakers), Han (Latn, 6 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Kaska (Latn, 125 speakers), Mango (Latn, 77,000 speakers), Sar (Latn, 500,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Nzakara (Latn, 50,000 speakers), Fur (Latn, 1,230,163 speakers), Mfumte (Latn, 79,000 speakers), Ebira (Latn, 2,200,000 speakers), Makaa (Latn, 221,000 speakers), Gulay (Latn, 250,478 speakers), South Central Banda (Latn, 244,000 speakers), Bafut (Latn, 158,146 speakers), Ngbaka (Latn, 1,020,000 speakers), Aghem (Latn, 38,843 speakers), Ekpeye (Latn, 226,000 speakers), Yala (Latn, 200,000 speakers), Igbo (Latn, 27,823,640 speakers), Dii (Latn, 71,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Ma’di (Latn, 584,000 speakers), Basaa (Latn, 332,940 speakers), Mundani (Latn, 34,000 speakers), Koonzime (Latn, 40,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -258,53 +432,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
-<pre><code>- uni0627 + uni0644.init
-
-- uni0644.init + uni0644.medi
-
-- uni0644.medi + uni06510670
-
-- uni06510670 + uni0647.fina
-
-- uni06510670 + uni06C1.fina
-</code></pre>
- [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure variable fonts include an avar table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This variable font does not have an avar table.</p>
- [code: missing-avar]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
     <div>
 
 
@@ -330,8 +458,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 1 | 0 | 2 | 10 | 94 | 7 | 137 | 0 | 
-| 0% | 0% | 1% | 4% | 37% | 3% | 55% | 0% | 
+| 0 | 0 | 2 | 12 | 86 | 6 | 130 | 0 | 
+| 0% | 0% | 1% | 5% | 36% | 3% | 55% | 0% | 
 
 
 
