@@ -1,5 +1,5 @@
 {
-.appVersion = "3243";
+.appVersion = "3431";
 .formatVersion = 3;
 axes = (
 {
@@ -670,7 +670,7 @@ lookup decomposition {
   # Yeh family
   sub yeh-ar by alefMaksura-ar twodotshorizontalbelow-ar;
   sub yehHamzaabove-ar by alefMaksura-ar hamzaabove-ar;
-  sub yehKashmiri-ar by alefMaksura-ar ring-ar;
+#  sub yehKashmiri-ar by alefMaksura-ar ring-ar;
   sub yehVabove-ar by yehFarsi-ar vabove-ar;
   sub yehVinvertedFarsi-ar by yehFarsi-ar vinvertedabove-ar;
   sub yehTwodotsaboveFarsi-ar by yehFarsi-ar twodotshorizontalabove-ar;
@@ -780,6 +780,7 @@ sub heh-ar by heh-ar.init;
 sub hehDoachashmee-ar by heh-ar.init;
 sub hehgoal-ar by hehgoal-ar.init;
 sub alefMaksura-ar by behDotless-ar.init;
+sub yehKashmiri-ar by behDotless-ar.init ring-ar;
 sub yehFarsi-ar by behDotless-ar.init twodotshorizontalbelow-ar;
 sub yehbarree-ar by behDotless-ar.init twodotshorizontalbelow-ar;
 sub kashida-ar by kashida-ar.init;
@@ -814,6 +815,7 @@ sub heh-ar by heh-ar.medi;
 sub hehDoachashmee-ar by hehDoachashmee-ar.medi;
 sub hehgoal-ar by hehgoal-ar.medi;
 sub alefMaksura-ar by behDotless-ar.medi;
+sub yehKashmiri-ar by behDotless-ar.medi ring-ar;
 sub yehFarsi-ar by behDotless-ar.medi twodotshorizontalbelow-ar;
 sub yehbarree-ar by behDotless-ar.medi twodotshorizontalbelow-ar;
 
@@ -856,6 +858,7 @@ sub waw-ar by waw-ar.fina;
 sub waw-ar.alt by waw-ar.fina.alt;
 #sub wawStraight-ar by wawStraight-ar.fina;
 sub alefMaksura-ar by alefMaksura-ar.fina;
+sub yehKashmiri-ar by yehKashmiri-ar.fina;
 sub yehFarsi-ar by alefMaksura-ar.fina;
 sub yehbarree-ar by yehbarree-ar.fina;
 sub yehRohingya-ar by yehRohingya-ar.fina;
