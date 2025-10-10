@@ -1,5 +1,5 @@
 {
-.appVersion = "3221";
+.appVersion = "3431";
 classes = (
 {
 automatic = 1;
@@ -293,6 +293,14 @@ name = description;
 value = "Designed by Monotype Design Team, Nadine Chahine and Nizar Qandah";
 },
 {
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
+},
+{
+name = licenseURL;
+value = "https://openfontlicense.org";
+},
+{
 name = trademark;
 value = "Noto is a trademark of Google LLC";
 },
@@ -301,16 +309,8 @@ name = vendorID;
 value = GOOG;
 },
 {
-name = licenseURL;
-value = "https://openfontlicense.org";
-},
-{
 name = versionString;
 value = "Version 2.012";
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 },
 {
 name = Axes;
@@ -674,7 +674,7 @@ lookup decomposition {
   # Yeh family
   sub yeh-ar by alefMaksura-ar twodotshorizontalbelow-ar;
   sub yehHamzaabove-ar by alefMaksura-ar hamzaabove-ar;
-  sub yehKashmiri-ar by alefMaksura-ar ring-ar;
+#  sub yehKashmiri-ar by alefMaksura-ar ring-ar; # Only takes ring in medi and init, see #245
   sub yehVabove-ar by yehFarsi-ar vabove-ar;
   sub yehVinvertedFarsi-ar by yehFarsi-ar vinvertedabove-ar;
   sub yehTwodotsaboveFarsi-ar by yehFarsi-ar twodotshorizontalabove-ar;
@@ -768,6 +768,7 @@ sub heh-ar by heh-ar.init;
 sub hehDoachashmee-ar by heh-ar.init;
 sub hehgoal-ar by hehgoal-ar.init;
 sub alefMaksura-ar by behDotless-ar.init;
+sub yehKashmiri-ar by behDotless-ar.init ring-ar; 
 sub yehFarsi-ar by behDotless-ar.init twodotshorizontalbelow-ar;
 sub yehbarree-ar by behDotless-ar.init twodotshorizontalbelow-ar;
 sub kashida-ar by kashida-ar.init;
@@ -802,6 +803,7 @@ sub heh-ar by heh-ar.medi;
 sub hehDoachashmee-ar by hehDoachashmee-ar.medi;
 sub hehgoal-ar by hehgoal-ar.medi;
 sub alefMaksura-ar by behDotless-ar.medi;
+sub yehKashmiri-ar by behDotless-ar.medi ring-ar; 
 sub yehFarsi-ar by behDotless-ar.medi twodotshorizontalbelow-ar;
 sub yehbarree-ar by behDotless-ar.medi twodotshorizontalbelow-ar;
 
@@ -844,6 +846,7 @@ sub waw-ar by waw-ar.fina;
 sub waw-ar.alt by waw-ar.fina.alt;
 #sub wawStraight-ar by wawStraight-ar.fina;
 sub alefMaksura-ar by alefMaksura-ar.fina;
+sub yehKashmiri-ar by yehKashmiri-ar.fina;
 sub yehFarsi-ar by alefMaksura-ar.fina;
 sub yehbarree-ar by yehbarree-ar.fina;
 sub yehRohingya-ar by yehRohingya-ar.fina;
@@ -1881,7 +1884,7 @@ value = "Noto Sans Arabic ExtLt";
 );
 interpolationWeight = 39;
 instanceInterpolations = {
-"6D0603BE-7277-4DA4-8C59-7934AF28E45B" = 0.20312;
+"6D0603BE-7277-4DA4-8C59-7934AF28E45B" = 0.20313;
 "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3" = 0.79688;
 };
 name = ExtraLight;
@@ -2850,7 +2853,7 @@ value = "Noto Sans Arabic ExtCond ExtLt";
 interpolationWeight = 39;
 interpolationWidth = 70;
 instanceInterpolations = {
-"9B455188-434F-489F-9A18-4C18DBE88840" = 0.20312;
+"9B455188-434F-489F-9A18-4C18DBE88840" = 0.20313;
 "D3B47D5E-6A85-4361-9DF6-638C8B7E2782" = 0.79688;
 };
 name = "ExtraCondensed ExtraLight";
