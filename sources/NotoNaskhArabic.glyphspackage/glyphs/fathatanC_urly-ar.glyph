@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = _top.far;
-pos = (131,748);
+pos = (131,708);
 },
 {
 name = top.far;
-pos = (105,1016);
+pos = (105,1006);
 }
 );
 layerId = master01;
@@ -19,7 +19,7 @@ alignment = 1;
 ref = "fathaCurly-ar";
 },
 {
-pos = (-13,134);
+pos = (-15,153);
 ref = "fathaCurly-ar";
 }
 );
@@ -29,7 +29,7 @@ width = 232;
 anchors = (
 {
 name = _top.far;
-pos = (134,737);
+pos = (134,697);
 },
 {
 name = top.far;
@@ -43,7 +43,7 @@ alignment = 1;
 ref = "fathaCurly-ar";
 },
 {
-pos = (-13,134);
+pos = (-15,153);
 ref = "fathaCurly-ar";
 }
 );

@@ -5,17 +5,17 @@ layers = (
 anchors = (
 {
 name = _bottom;
-pos = (116,-37);
+pos = (116,-47);
 },
 {
 name = bottom;
-pos = (116,-167);
+pos = (116,-177);
 }
 );
 layerId = master01;
 shapes = (
 {
-pos = (0,-932);
+pos = (0,-942);
 ref = "fathaCurly-ar";
 }
 );
@@ -25,11 +25,11 @@ width = 232;
 anchors = (
 {
 name = _bottom;
-pos = (121,-33);
+pos = (121,-43);
 },
 {
 name = bottom;
-pos = (121,-174);
+pos = (121,-214);
 }
 );
 layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
