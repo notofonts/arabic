@@ -5,28 +5,33 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "alef-ar";
 transform = "{1, 0, 0, 1, 960, 0}";
 },
 {
+alignment = -1;
 name = "wasla-ar";
 transform = "{1, 0, 0, 1, 879, 196}";
 },
 {
-alignment = 1;
+alignment = -1;
 name = "allah-ar.2";
 },
 {
+alignment = -1;
 anchor = bottom_3;
 name = "kasra-ar";
 transform = "{1, 0, 0, 1, 131, 0}";
 },
 {
+alignment = -1;
 anchor = top_2;
 name = "shadda-ar";
 transform = "{1, 0, 0, 1, 454, 13}";
 },
 {
+alignment = -1;
 name = "fatha-ar";
 transform = "{1, 0, 0, 1, 438, 219}";
 }
@@ -37,28 +42,33 @@ width = 1181;
 {
 components = (
 {
+alignment = -1;
 name = "alef-ar";
 transform = "{1, 0, 0, 1, 1046, 0}";
 },
 {
+alignment = -1;
 name = "wasla-ar";
 transform = "{1, 0, 0, 1, 975, 196}";
 },
 {
-alignment = 1;
+alignment = -1;
 name = "allah-ar.2";
 },
 {
+alignment = -1;
 anchor = bottom_3;
 name = "kasra-ar";
 transform = "{1, 0, 0, 1, 111, 0}";
 },
 {
+alignment = -1;
 anchor = top_2;
 name = "shadda-ar";
 transform = "{1, 0, 0, 1, 464, 15}";
 },
 {
+alignment = -1;
 name = "fatha-ar";
 transform = "{1, 0, 0, 1, 456, 215}";
 }

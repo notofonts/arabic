@@ -4,9 +4,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "alef-ar";
 },
 {
+alignment = -1;
 name = "dotabove-ar";
 transform = "{1, 0, 0, 1, 55, 251}";
 }
@@ -17,9 +19,11 @@ width = 221;
 {
 components = (
 {
+alignment = -1;
 name = "alef-ar";
 },
 {
+alignment = -1;
 name = "dotabove-ar";
 transform = "{1, 0, 0, 1, 40, 251}";
 }

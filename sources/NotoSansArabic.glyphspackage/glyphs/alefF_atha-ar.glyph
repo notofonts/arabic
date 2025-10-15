@@ -4,9 +4,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "alef-ar";
 },
 {
+alignment = -1;
 name = "fathaattached-ar";
 transform = "{1, 0, 0, 1, -52, 74}";
 }
@@ -17,9 +19,11 @@ width = 221;
 {
 components = (
 {
+alignment = -1;
 name = "alef-ar";
 },
 {
+alignment = -1;
 name = "fathaattached-ar";
 transform = "{1, 0, 0, 1, -42, 69}";
 }
