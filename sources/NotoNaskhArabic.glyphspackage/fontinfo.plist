@@ -14,6 +14,20 @@ code = "hamza-ar highhamza-ar rounddot-ar raisedrounddot-ar alef-ar alef-ar.fina
 name = ArabicLetters;
 },
 {
+code = "zero
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+";
+name = digits.latin;
+},
+{
 code = "zero-ar
 one-ar
 two-ar
@@ -35,17 +49,7 @@ sevenFarsi-ar
 fourFarsi-ar.locl
 sevenFarsi-ar.locl
 # Latin
-zero
-one
-two
-three
-four
-five
-six
-seven
-eight
-nine
-";
+@digits.latin";
 name = digits;
 },
 {
@@ -996,6 +1000,18 @@ lookup subtending_marks {
       @digits' lookup medium_digits
  ;
 } subtending_marks;
+
+# the default riyal glyph is optimized for the size of
+# Arabic digits. Latin digits are larger, and we switch
+# to a larger riyal glyph for them.
+lookup suadi_riyal {
+	sub	 @digits.latin
+		 space
+		 riyalSaudi'
+	by	 riyalSaudi.alt
+	;
+} suadi_riyal;
+
 ";
 tag = rlig;
 },
