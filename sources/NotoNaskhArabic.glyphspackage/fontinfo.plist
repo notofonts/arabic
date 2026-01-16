@@ -1,5 +1,5 @@
 {
-.appVersion = "3431";
+.appVersion = "3414";
 .formatVersion = 3;
 axes = (
 {
@@ -1004,13 +1004,17 @@ lookup subtending_marks {
 # the default riyal glyph is optimized for the size of
 # Arabic digits. Latin digits are larger, and we switch
 # to a larger riyal glyph for them.
-lookup suadi_riyal {
+lookup saudi_riyal {
 	sub	 @digits.latin
 		 space
 		 riyalSaudi'
 	by	 riyalSaudi.alt
 	;
-} suadi_riyal;
+	sub	 @digits.latin
+		 riyalSaudi'
+	by	 riyalSaudi.alt
+	;
+} saudi_riyal;
 
 ";
 tag = rlig;
@@ -1508,5 +1512,5 @@ userData = {
 UFOFormat = 2;
 };
 versionMajor = 2;
-versionMinor = 20;
+versionMinor = 21;
 }
