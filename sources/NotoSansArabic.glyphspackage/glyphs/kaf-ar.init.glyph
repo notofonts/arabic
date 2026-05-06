@@ -1,64 +1,65 @@
 {
 glyphname = "kaf-ar.init";
+kernRight = hah;
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{142, 0}";
+pos = (142,0);
 },
 {
 name = ring;
-position = "{241, 544}";
+pos = (241,544);
 },
 {
 name = top;
-position = "{135, 583}";
+pos = (135,583);
 },
 {
 name = top.gaf;
-position = "{116, 653}";
+pos = (116,653);
 }
 );
-guideLines = (
+guides = (
 {
-position = "{303, 639}";
+pos = (303,639);
 }
 );
 layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"72 -5 LINE SMOOTH",
-"222 -5 OFFCURVE",
-"268 74 OFFCURVE",
-"268 146 CURVE SMOOTH",
-"268 286 OFFCURVE",
-"132 394 OFFCURVE",
-"63 486 CURVE",
-"56 461 LINE",
-"118 513 OFFCURVE",
-"179 550 OFFCURVE",
-"327 633 CURVE",
-"292 693 LINE",
-"105 591 OFFCURVE",
-"54 544 OFFCURVE",
-"32 519 CURVE SMOOTH",
-"20 506 OFFCURVE",
-"13 460 OFFCURVE",
-"13 438 CURVE SMOOTH",
-"13 423 OFFCURVE",
-"34 407 OFFCURVE",
-"125 303 CURVE SMOOTH",
-"166 257 OFFCURVE",
-"198 201 OFFCURVE",
-"198 153 CURVE SMOOTH",
-"198 105 OFFCURVE",
-"182 69 OFFCURVE",
-"85 69 CURVE SMOOTH",
-"10 69 LINE",
-"0 -5 LINE"
+(72,-5,ls),
+(222,-5,o),
+(268,74,o),
+(268,146,cs),
+(268,286,o),
+(132,394,o),
+(63,486,c),
+(56,461,l),
+(118,513,o),
+(179,550,o),
+(327,633,c),
+(292,693,l),
+(105,591,o),
+(54,544,o),
+(32,519,cs),
+(20,506,o),
+(13,460,o),
+(13,438,cs),
+(13,423,o),
+(34,407,o),
+(125,303,cs),
+(166,257,o),
+(198,201,o),
+(198,153,cs),
+(198,105,o),
+(182,69,o),
+(85,69,cs),
+(10,69,l),
+(0,-5,l)
 );
 }
 );
@@ -68,55 +69,55 @@ width = 322;
 anchors = (
 {
 name = bottom;
-position = "{189, 0}";
+pos = (189,0);
 },
 {
 name = ring;
-position = "{320, 516}";
+pos = (320,516);
 },
 {
 name = top;
-position = "{156, 637}";
+pos = (156,637);
 },
 {
 name = top.gaf;
-position = "{159, 707}";
+pos = (159,707);
 }
 );
 layerId = "A7E21968-E455-4749-BB19-379F5EDC3B9B";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"101 -5 LINE SMOOTH",
-"290 -5 OFFCURVE",
-"350 106 OFFCURVE",
-"350 193 CURVE SMOOTH",
-"350 297 OFFCURVE",
-"270 407 OFFCURVE",
-"166 520 CURVE",
-"158 432 LINE",
-"203 478 OFFCURVE",
-"268 521 OFFCURVE",
-"414 601 CURVE",
-"331 735 LINE",
-"174 648 OFFCURVE",
-"101 592 OFFCURVE",
-"55 544 CURVE SMOOTH",
-"41 529 OFFCURVE",
-"34 468 OFFCURVE",
-"34 438 CURVE SMOOTH",
-"34 416 OFFCURVE",
-"56 395 OFFCURVE",
-"117 315 CURVE SMOOTH",
-"148 275 OFFCURVE",
-"174 232 OFFCURVE",
-"174 193 CURVE SMOOTH",
-"174 166 OFFCURVE",
-"161 157 OFFCURVE",
-"115 157 CURVE SMOOTH",
-"10 157 LINE",
-"0 -5 LINE"
+(101,-5,ls),
+(290,-5,o),
+(350,106,o),
+(350,193,cs),
+(350,297,o),
+(270,407,o),
+(166,520,c),
+(158,432,l),
+(203,478,o),
+(268,521,o),
+(414,601,c),
+(331,735,l),
+(174,648,o),
+(101,592,o),
+(55,544,cs),
+(41,529,o),
+(34,468,o),
+(34,438,cs),
+(34,416,o),
+(56,395,o),
+(117,315,cs),
+(148,275,o),
+(174,232,o),
+(174,193,cs),
+(174,166,o),
+(161,157,o),
+(115,157,cs),
+(10,157,l),
+(0,-5,l)
 );
 }
 );
@@ -126,60 +127,60 @@ width = 406;
 anchors = (
 {
 name = bottom;
-position = "{137, 0}";
+pos = (137,0);
 },
 {
 name = ring;
-position = "{256, 592}";
+pos = (256,592);
 },
 {
 name = top;
-position = "{152, 636}";
+pos = (152,636);
 },
 {
 name = top.gaf;
-position = "{116, 672}";
+pos = (116,672);
 }
 );
-guideLines = (
+guides = (
 {
-position = "{183, 796}";
+pos = (183,796);
 }
 );
 layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"81 -5 LINE SMOOTH",
-"228 -5 OFFCURVE",
-"260 65 OFFCURVE",
-"259 144 CURVE SMOOTH",
-"258 269 OFFCURVE",
-"152 371 OFFCURVE",
-"47 508 CURVE",
-"47 496 LINE",
-"115 554 OFFCURVE",
-"215 630 OFFCURVE",
-"328 701 CURVE",
-"316 720 LINE",
-"199 647 OFFCURVE",
-"122 590 OFFCURVE",
-"46 528 CURVE SMOOTH",
-"37 521 OFFCURVE",
-"31 513 OFFCURVE",
-"31 497 CURVE SMOOTH",
-"31 489 OFFCURVE",
-"46 474 OFFCURVE",
-"150 341 CURVE SMOOTH",
-"209 266 OFFCURVE",
-"236 203 OFFCURVE",
-"236 146 CURVE SMOOTH",
-"236 91 OFFCURVE",
-"229 17 OFFCURVE",
-"82 17 CURVE SMOOTH",
-"4 17 LINE",
-"0 -5 LINE"
+(81,-5,ls),
+(228,-5,o),
+(260,65,o),
+(259,144,cs),
+(258,269,o),
+(152,371,o),
+(47,508,c),
+(47,496,l),
+(115,554,o),
+(215,630,o),
+(328,701,c),
+(316,720,l),
+(199,647,o),
+(122,590,o),
+(46,528,cs),
+(37,521,o),
+(31,513,o),
+(31,497,cs),
+(31,489,o),
+(46,474,o),
+(150,341,cs),
+(209,266,o),
+(236,203,o),
+(236,146,cs),
+(236,91,o),
+(229,17,o),
+(82,17,cs),
+(4,17,l),
+(0,-5,l)
 );
 }
 );
@@ -189,55 +190,55 @@ width = 328;
 anchors = (
 {
 name = bottom;
-position = "{172, 0}";
+pos = (172,0);
 },
 {
 name = ring;
-position = "{293, 529}";
+pos = (293,529);
 },
 {
 name = top;
-position = "{154, 610}";
+pos = (154,610);
 },
 {
 name = top.gaf;
-position = "{123, 671}";
+pos = (123,671);
 }
 );
 layerId = "08F1692B-9525-48D2-9816-1987B1C44D50";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"86 -5 LINE SMOOTH",
-"264 -5 OFFCURVE",
-"313 98 OFFCURVE",
-"313 181 CURVE SMOOTH",
-"313 286 OFFCURVE",
-"244 370 OFFCURVE",
-"121 509 CURVE",
-"113 444 LINE",
-"165 493 OFFCURVE",
-"247 543 OFFCURVE",
-"396 623 CURVE",
-"332 730 LINE",
-"164 639 OFFCURVE",
-"80 578 OFFCURVE",
-"40 536 CURVE SMOOTH",
-"27 521 OFFCURVE",
-"20 468 OFFCURVE",
-"20 441 CURVE SMOOTH",
-"20 420 OFFCURVE",
-"58 381 OFFCURVE",
-"96 336 CURVE SMOOTH",
-"133 292 OFFCURVE",
-"170 241 OFFCURVE",
-"170 195 CURVE SMOOTH",
-"170 165 OFFCURVE",
-"155 123 OFFCURVE",
-"91 123 CURVE SMOOTH",
-"10 123 LINE",
-"0 -5 LINE"
+(86,-5,ls),
+(264,-5,o),
+(313,98,o),
+(313,181,cs),
+(313,286,o),
+(244,370,o),
+(121,509,c),
+(113,444,l),
+(165,493,o),
+(247,543,o),
+(396,623,c),
+(332,730,l),
+(164,639,o),
+(80,578,o),
+(40,536,cs),
+(27,521,o),
+(20,468,o),
+(20,441,cs),
+(20,420,o),
+(58,381,o),
+(96,336,cs),
+(133,292,o),
+(170,241,o),
+(170,195,cs),
+(170,165,o),
+(155,123,o),
+(91,123,cs),
+(10,123,l),
+(0,-5,l)
 );
 }
 );
@@ -247,55 +248,55 @@ width = 388;
 anchors = (
 {
 name = bottom;
-position = "{157, 0}";
+pos = (157,0);
 },
 {
 name = ring;
-position = "{297, 587}";
+pos = (297,587);
 },
 {
 name = top;
-position = "{152, 636}";
+pos = (152,636);
 },
 {
 name = top.gaf;
-position = "{141, 670}";
+pos = (141,670);
 }
 );
 layerId = "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"73 -5 LINE SMOOTH",
-"209 -5 OFFCURVE",
-"298 34 OFFCURVE",
-"298 146 CURVE SMOOTH",
-"298 268 OFFCURVE",
-"149 392 OFFCURVE",
-"37 499 CURVE",
-"37 490 LINE",
-"95 542 OFFCURVE",
-"226 620 OFFCURVE",
-"375 686 CURVE",
-"365 708 LINE",
-"221 642 OFFCURVE",
-"104 573 OFFCURVE",
-"36 521 CURVE SMOOTH",
-"26 514 OFFCURVE",
-"21 506 OFFCURVE",
-"21 488 CURVE SMOOTH",
-"21 476 OFFCURVE",
-"54 463 OFFCURVE",
-"161 351 CURVE SMOOTH",
-"228 281 OFFCURVE",
-"275 207 OFFCURVE",
-"275 146 CURVE SMOOTH",
-"275 54 OFFCURVE",
-"209 19 OFFCURVE",
-"74 19 CURVE SMOOTH",
-"4 19 LINE",
-"0 -5 LINE"
+(73,-5,ls),
+(209,-5,o),
+(298,34,o),
+(298,146,cs),
+(298,268,o),
+(149,392,o),
+(37,499,c),
+(37,490,l),
+(95,542,o),
+(226,620,o),
+(375,686,c),
+(365,708,l),
+(221,642,o),
+(104,573,o),
+(36,521,cs),
+(26,514,o),
+(21,506,o),
+(21,488,cs),
+(21,476,o),
+(54,463,o),
+(161,351,cs),
+(228,281,o),
+(275,207,o),
+(275,146,cs),
+(275,54,o),
+(209,19,o),
+(74,19,cs),
+(4,19,l),
+(0,-5,l)
 );
 }
 );
@@ -305,55 +306,55 @@ width = 375;
 anchors = (
 {
 name = bottom;
-position = "{163, 0}";
+pos = (163,0);
 },
 {
 name = ring;
-position = "{334, 545}";
+pos = (334,545);
 },
 {
 name = top;
-position = "{202, 616}";
+pos = (202,616);
 },
 {
 name = top.gaf;
-position = "{164, 653}";
+pos = (164,653);
 }
 );
 layerId = "6D0603BE-7277-4DA4-8C59-7934AF28E45B";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"91 -5 LINE SMOOTH",
-"325 -5 OFFCURVE",
-"351 85 OFFCURVE",
-"351 144 CURVE SMOOTH",
-"351 251 OFFCURVE",
-"259 347 OFFCURVE",
-"91 481 CURVE",
-"76 443 LINE",
-"153 501 OFFCURVE",
-"209 531 OFFCURVE",
-"422 633 CURVE",
-"388 707 LINE",
-"217 621 OFFCURVE",
-"102 570 OFFCURVE",
-"49 513 CURVE SMOOTH",
-"35 498 OFFCURVE",
-"28 469 OFFCURVE",
-"28 439 CURVE SMOOTH",
-"28 421 OFFCURVE",
-"112 369 OFFCURVE",
-"187 294 CURVE SMOOTH",
-"259 222 OFFCURVE",
-"276 180 OFFCURVE",
-"276 149 CURVE SMOOTH",
-"276 115 OFFCURVE",
-"260 77 OFFCURVE",
-"104 77 CURVE SMOOTH",
-"10 77 LINE",
-"0 -5 LINE"
+(91,-5,ls),
+(325,-5,o),
+(351,85,o),
+(351,144,cs),
+(351,251,o),
+(259,347,o),
+(91,481,c),
+(76,443,l),
+(153,501,o),
+(209,531,o),
+(422,633,c),
+(388,707,l),
+(217,621,o),
+(102,570,o),
+(49,513,cs),
+(35,498,o),
+(28,469,o),
+(28,439,cs),
+(28,421,o),
+(112,369,o),
+(187,294,cs),
+(259,222,o),
+(276,180,o),
+(276,149,cs),
+(276,115,o),
+(260,77,o),
+(104,77,cs),
+(10,77,l),
+(0,-5,l)
 );
 }
 );
@@ -363,60 +364,60 @@ width = 412;
 anchors = (
 {
 name = bottom;
-position = "{197, 0}";
+pos = (197,0);
 },
 {
 name = ring;
-position = "{345, 500}";
+pos = (345,500);
 },
 {
 name = top;
-position = "{152, 636}";
+pos = (152,636);
 },
 {
 name = top.gaf;
-position = "{166, 670}";
+pos = (166,670);
 }
 );
-guideLines = (
+guides = (
 {
-position = "{536, 681}";
+pos = (536,681);
 }
 );
 layerId = "E1555194-BAFD-4DCC-A026-E2F9BA1917F2";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"120 -5 LINE SMOOTH",
-"341 -5 OFFCURVE",
-"391 93 OFFCURVE",
-"391 156 CURVE SMOOTH",
-"391 220 OFFCURVE",
-"366 320 OFFCURVE",
-"139 493 CURVE",
-"126 419 LINE",
-"198 471 OFFCURVE",
-"316 529 OFFCURVE",
-"462 592 CURVE",
-"405 714 LINE",
-"227 636 OFFCURVE",
-"88 560 OFFCURVE",
-"43 518 CURVE SMOOTH",
-"27 504 OFFCURVE",
-"22 460 OFFCURVE",
-"22 430 CURVE SMOOTH",
-"22 411 OFFCURVE",
-"113 339 OFFCURVE",
-"171 285 CURVE SMOOTH",
-"225 234 OFFCURVE",
-"237 198 OFFCURVE",
-"237 182 CURVE SMOOTH",
-"237 149 OFFCURVE",
-"209 135 OFFCURVE",
-"153 135 CURVE SMOOTH",
-"10 135 LINE",
-"0 -5 LINE"
+(120,-5,ls),
+(341,-5,o),
+(391,93,o),
+(391,156,cs),
+(391,220,o),
+(366,320,o),
+(139,493,c),
+(126,419,l),
+(198,471,o),
+(316,529,o),
+(462,592,c),
+(405,714,l),
+(227,636,o),
+(88,560,o),
+(43,518,cs),
+(27,504,o),
+(22,460,o),
+(22,430,cs),
+(22,411,o),
+(113,339,o),
+(171,285,cs),
+(225,234,o),
+(237,198,o),
+(237,182,cs),
+(237,149,o),
+(209,135,o),
+(153,135,cs),
+(10,135,l),
+(0,-5,l)
 );
 }
 );
@@ -426,66 +427,65 @@ width = 454;
 anchors = (
 {
 name = bottom;
-position = "{219, 0}";
+pos = (219,0);
 },
 {
 name = ring;
-position = "{379, 516}";
+pos = (379,516);
 },
 {
 name = top;
-position = "{185, 637}";
+pos = (185,637);
 },
 {
 name = top.gaf;
-position = "{191, 705}";
+pos = (191,705);
 }
 );
-guideLines = (
+guides = (
 {
-position = "{382, 683}";
+pos = (382,683);
 }
 );
 layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"131 -5 LINE SMOOTH",
-"321 -5 OFFCURVE",
-"402 85 OFFCURVE",
-"402 181 CURVE SMOOTH",
-"402 279 OFFCURVE",
-"308 412 OFFCURVE",
-"148 524 CURVE",
-"158 432 LINE",
-"217 480 OFFCURVE",
-"329 535 OFFCURVE",
-"493 602 CURVE",
-"427 750 LINE",
-"289 696 OFFCURVE",
-"89 595 OFFCURVE",
-"43 544 CURVE SMOOTH",
-"29 529 OFFCURVE",
-"22 468 OFFCURVE",
-"22 438 CURVE SMOOTH",
-"22 415 OFFCURVE",
-"83 369 OFFCURVE",
-"136 320 CURVE SMOOTH",
-"179 281 OFFCURVE",
-"217 239 OFFCURVE",
-"217 204 CURVE SMOOTH",
-"217 174 OFFCURVE",
-"204 163 OFFCURVE",
-"164 163 CURVE SMOOTH",
-"10 163 LINE",
-"0 -5 LINE"
+(131,-5,ls),
+(321,-5,o),
+(402,85,o),
+(402,181,cs),
+(402,279,o),
+(308,412,o),
+(148,524,c),
+(158,432,l),
+(217,480,o),
+(329,535,o),
+(493,602,c),
+(427,750,l),
+(289,696,o),
+(89,595,o),
+(43,544,cs),
+(29,529,o),
+(22,468,o),
+(22,438,cs),
+(22,415,o),
+(83,369,o),
+(136,320,cs),
+(179,281,o),
+(217,239,o),
+(217,204,cs),
+(217,174,o),
+(204,163,o),
+(164,163,cs),
+(10,163,l),
+(0,-5,l)
 );
 }
 );
 width = 493;
 }
 );
-leftKerningGroup = hah;
-unicode = FEDB;
+unicode = 65243;
 }

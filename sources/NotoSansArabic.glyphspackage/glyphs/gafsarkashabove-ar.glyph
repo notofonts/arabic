@@ -5,26 +5,26 @@ layers = (
 anchors = (
 {
 name = _top.gaf;
-position = "{219, 653}";
+pos = (219,653);
 },
 {
 name = top;
-position = "{188, 707}";
+pos = (188,707);
 }
 );
 layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"207 648 OFFCURVE",
-"276 691 OFFCURVE",
-"364 739 CURVE",
-"329 799 LINE",
-"240 749 OFFCURVE",
-"175 711 OFFCURVE",
-"95 661 CURVE",
-"131 602 LINE"
+(207,648,o),
+(276,691,o),
+(364,739,c),
+(329,799,l),
+(240,749,o),
+(175,711,o),
+(95,661,c),
+(131,602,l)
 );
 }
 );
@@ -34,26 +34,26 @@ width = 600;
 anchors = (
 {
 name = _top.gaf;
-position = "{225, 705}";
+pos = (225,705);
 },
 {
 name = top;
-position = "{97, 804}";
+pos = (97,804);
 }
 );
 layerId = "A7E21968-E455-4749-BB19-379F5EDC3B9B";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"164 660 OFFCURVE",
-"248 715 OFFCURVE",
-"367 783 CURVE",
-"296 902 LINE",
-"175 826 OFFCURVE",
-"97 777 OFFCURVE",
-"28 730 CURVE",
-"97 615 LINE"
+(164,660,o),
+(248,715,o),
+(367,783,c),
+(296,902,l),
+(175,826,o),
+(97,777,o),
+(28,730,c),
+(97,615,l)
 );
 }
 );
@@ -63,26 +63,26 @@ width = 523;
 anchors = (
 {
 name = _top.gaf;
-position = "{140, 670}";
+pos = (140,670);
 },
 {
 name = top;
-position = "{105, 714}";
+pos = (105,714);
 }
 );
 layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"111 647 OFFCURVE",
-"183 700 OFFCURVE",
-"300 777 CURVE",
-"288 795 LINE",
-"172 719 OFFCURVE",
-"100 666 OFFCURVE",
-"23 607 CURVE",
-"36 590 LINE"
+(111,647,o),
+(183,700,o),
+(300,777,c),
+(288,795,l),
+(172,719,o),
+(100,666,o),
+(23,607,c),
+(36,590,l)
 );
 }
 );
@@ -92,26 +92,26 @@ width = 546;
 anchors = (
 {
 name = _top.gaf;
-position = "{184, 670}";
+pos = (184,670);
 },
 {
 name = top;
-position = "{143, 760}";
+pos = (143,760);
 }
 );
 layerId = "08F1692B-9525-48D2-9816-1987B1C44D50";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"165 664 OFFCURVE",
-"256 723 OFFCURVE",
-"366 785 CURVE",
-"311 876 LINE",
-"200 809 OFFCURVE",
-"112 754 OFFCURVE",
-"39 707 CURVE",
-"94 619 LINE"
+(165,664,o),
+(256,723,o),
+(366,785,c),
+(311,876,l),
+(200,809,o),
+(112,754,o),
+(39,707,c),
+(94,619,l)
 );
 }
 );
@@ -121,26 +121,26 @@ width = 547;
 anchors = (
 {
 name = _top.gaf;
-position = "{184, 670}";
+pos = (184,670);
 },
 {
 name = top;
-position = "{149, 714}";
+pos = (149,714);
 }
 );
 layerId = "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"123 639 OFFCURVE",
-"223 697 OFFCURVE",
-"370 773 CURVE",
-"361 792 LINE",
-"212 717 OFFCURVE",
-"109 658 OFFCURVE",
-"39 609 CURVE",
-"50 591 LINE"
+(123,639,o),
+(223,697,o),
+(370,773,c),
+(361,792,l),
+(212,717,o),
+(109,658,o),
+(39,609,c),
+(50,591,l)
 );
 }
 );
@@ -150,26 +150,26 @@ width = 600;
 anchors = (
 {
 name = _top.gaf;
-position = "{162, 653}";
+pos = (162,653);
 },
 {
 name = top;
-position = "{147, 721}";
+pos = (147,721);
 }
 );
 layerId = "6D0603BE-7277-4DA4-8C59-7934AF28E45B";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"113 623 OFFCURVE",
-"216 683 OFFCURVE",
-"362 760 CURVE",
-"334 821 LINE",
-"190 746 OFFCURVE",
-"78 679 OFFCURVE",
-"0 631 CURVE",
-"36 575 LINE"
+(113,623,o),
+(216,683,o),
+(362,760,c),
+(334,821,l),
+(190,746,o),
+(78,679,o),
+(0,631,c),
+(36,575,l)
 );
 }
 );
@@ -179,26 +179,26 @@ width = 600;
 anchors = (
 {
 name = _top.gaf;
-position = "{184, 670}";
+pos = (184,670);
 },
 {
 name = top;
-position = "{105, 775}";
+pos = (105,775);
 }
 );
 layerId = "E1555194-BAFD-4DCC-A026-E2F9BA1917F2";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"141 650 OFFCURVE",
-"233 702 OFFCURVE",
-"394 780 CURVE",
-"348 868 LINE",
-"191 788 OFFCURVE",
-"96 736 OFFCURVE",
-"7 683 CURVE",
-"56 601 LINE"
+(141,650,o),
+(233,702,o),
+(394,780,c),
+(348,868,l),
+(191,788,o),
+(96,736,o),
+(7,683,c),
+(56,601,l)
 );
 }
 );
@@ -208,26 +208,26 @@ width = 488;
 anchors = (
 {
 name = _top.gaf;
-position = "{225, 705}";
+pos = (225,705);
 },
 {
 name = top;
-position = "{127, 824}";
+pos = (127,824);
 }
 );
 layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"159 675 OFFCURVE",
-"267 725 OFFCURVE",
-"439 805 CURVE",
-"387 932 LINE",
-"220 852 OFFCURVE",
-"95 791 OFFCURVE",
-"20 749 CURVE",
-"80 633 LINE"
+(159,675,o),
+(267,725,o),
+(439,805,c),
+(387,932,l),
+(220,852,o),
+(95,791,o),
+(20,749,c),
+(80,633,l)
 );
 }
 );

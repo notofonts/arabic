@@ -2,111 +2,111 @@
 glyphname = "hahFourbelow-ar";
 layers = (
 {
-components = (
+layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
+shapes = (
 {
-name = "hah-ar.wide";
+ref = "hah-ar.wide";
 },
 {
-name = "fourcenter-ar";
-transform = "{1, 0, 0, 1, 172, -86}";
+pos = (172,-86);
+ref = "fourcenter-ar";
 }
 );
-layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
 width = 514;
 },
 {
-components = (
+layerId = "A7E21968-E455-4749-BB19-379F5EDC3B9B";
+shapes = (
 {
-name = "hah-ar.wide";
+ref = "hah-ar.wide";
 },
 {
-name = "fourcenter-ar";
-transform = "{1, 0, 0, 1, 262, -23}";
+pos = (262,-23);
+ref = "fourcenter-ar";
 }
 );
-layerId = "A7E21968-E455-4749-BB19-379F5EDC3B9B";
 width = 654;
 },
 {
-components = (
+layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
+shapes = (
 {
-name = "hah-ar.wide";
+ref = "hah-ar.wide";
 },
 {
-name = "fourcenter-ar";
-transform = "{1, 0, 0, 1, 176, -96}";
+pos = (176,-96);
+ref = "fourcenter-ar";
 }
 );
-layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
 width = 500;
 },
 {
-components = (
+layerId = "08F1692B-9525-48D2-9816-1987B1C44D50";
+shapes = (
 {
-name = "hah-ar.wide";
+ref = "hah-ar.wide";
 },
 {
-name = "fourcenter-ar";
-transform = "{1, 0, 0, 1, 221, -39}";
+pos = (221,-39);
+ref = "fourcenter-ar";
 }
 );
-layerId = "08F1692B-9525-48D2-9816-1987B1C44D50";
 width = 578;
 },
 {
-components = (
+layerId = "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3";
+shapes = (
 {
-name = "hah-ar.wide";
+ref = "hah-ar.wide";
 },
 {
-name = "fourcenter-ar";
-transform = "{1, 0, 0, 1, 252, -86}";
+pos = (252,-86);
+ref = "fourcenter-ar";
 }
 );
-layerId = "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3";
 width = 620;
 },
 {
-components = (
+layerId = "6D0603BE-7277-4DA4-8C59-7934AF28E45B";
+shapes = (
 {
-name = "hah-ar.wide";
+ref = "hah-ar.wide";
 },
 {
-name = "fourcenter-ar";
-transform = "{1, 0, 0, 1, 239, -66}";
+pos = (239,-66);
+ref = "fourcenter-ar";
 }
 );
-layerId = "6D0603BE-7277-4DA4-8C59-7934AF28E45B";
 width = 659;
 },
 {
-components = (
+layerId = "E1555194-BAFD-4DCC-A026-E2F9BA1917F2";
+shapes = (
 {
-name = "hah-ar.wide";
+ref = "hah-ar.wide";
 },
 {
-name = "fourcenter-ar";
-transform = "{1, 0, 0, 1, 278, -41}";
+pos = (278,-41);
+ref = "fourcenter-ar";
 }
 );
-layerId = "E1555194-BAFD-4DCC-A026-E2F9BA1917F2";
 width = 687;
 },
 {
-components = (
+layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
+shapes = (
 {
-name = "hah-ar.wide";
+ref = "hah-ar.wide";
 },
 {
-name = "fourcenter-ar";
-transform = "{1, 0, 0, 1, 301, -22}";
+pos = (301,-22);
+ref = "fourcenter-ar";
 }
 );
-layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
 width = 733;
 }
 );
-leftMetricsKey = "hah-ar";
-rightMetricsKey = "hah-ar";
-unicode = 077C;
+metricLeft = "hah-ar";
+metricRight = "hah-ar";
+unicode = 1916;
 }

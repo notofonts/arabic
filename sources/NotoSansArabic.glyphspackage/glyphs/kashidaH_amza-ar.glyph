@@ -5,196 +5,212 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{192, -152}";
+pos = (192,-152);
 },
 {
 name = top;
-position = "{192, 286}";
-}
-);
-components = (
-{
-name = "kashida-ar.wide";
-},
-{
-alignment = -1;
-name = "hamza-ar";
-transform = "{0.78252, 0.16633, -0.16633, 0.78252, 41, -49}";
+pos = (192,286);
 }
 );
 layerId = "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3";
+shapes = (
+{
+ref = "kashida-ar.wide";
+},
+{
+alignment = -1;
+angle = 12.00002;
+pos = (41,-49);
+ref = "hamza-ar";
+scale = (0.8,0.8);
+}
+);
 width = 370;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{210, -152}";
+pos = (210,-152);
 },
 {
 name = top;
-position = "{210, 291}";
-}
-);
-components = (
-{
-name = "kashida-ar.wide";
-},
-{
-alignment = -1;
-name = "hamza-ar";
-transform = "{0.78252, 0.16633, -0.16633, 0.78252, 62, -25}";
+pos = (210,291);
 }
 );
 layerId = "6D0603BE-7277-4DA4-8C59-7934AF28E45B";
+shapes = (
+{
+ref = "kashida-ar.wide";
+},
+{
+alignment = -1;
+angle = 12.00002;
+pos = (62,-25);
+ref = "hamza-ar";
+scale = (0.8,0.8);
+}
+);
 width = 370;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{235, -152}";
+pos = (235,-152);
 },
 {
 name = top;
-position = "{235, 342}";
-}
-);
-components = (
-{
-name = "kashida-ar.wide";
-},
-{
-alignment = -1;
-name = "hamza-ar";
-transform = "{0.78252, 0.16633, -0.16633, 0.78252, 71, -45}";
+pos = (235,342);
 }
 );
 layerId = "E1555194-BAFD-4DCC-A026-E2F9BA1917F2";
+shapes = (
+{
+ref = "kashida-ar.wide";
+},
+{
+alignment = -1;
+angle = 12.00002;
+pos = (71,-45);
+ref = "hamza-ar";
+scale = (0.8,0.8);
+}
+);
 width = 389;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{250, -152}";
+pos = (250,-152);
 },
 {
 name = top;
-position = "{250, 356}";
-}
-);
-components = (
-{
-name = "kashida-ar.wide";
-},
-{
-alignment = -1;
-name = "hamza-ar";
-transform = "{0.78252, 0.16633, -0.16633, 0.78252, 74, -65}";
+pos = (250,356);
 }
 );
 layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
+shapes = (
+{
+ref = "kashida-ar.wide";
+},
+{
+alignment = -1;
+angle = 12.00002;
+pos = (74,-65);
+ref = "hamza-ar";
+scale = (0.8,0.8);
+}
+);
 width = 400;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{165, -152}";
+pos = (165,-152);
 },
 {
 name = top;
-position = "{170, 254}";
-}
-);
-components = (
-{
-name = "kashida-ar.wide";
-},
-{
-alignment = -1;
-name = "hamza-ar";
-transform = "{0.78252, 0.16633, -0.16633, 0.78252, 46, -42}";
+pos = (170,254);
 }
 );
 layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
+shapes = (
+{
+ref = "kashida-ar.wide";
+},
+{
+alignment = -1;
+angle = 12.00002;
+pos = (46,-42);
+ref = "hamza-ar";
+scale = (0.8,0.8);
+}
+);
 width = 310;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{181, -152}";
+pos = (181,-152);
 },
 {
 name = top;
-position = "{181, 286}";
-}
-);
-components = (
-{
-name = "kashida-ar.wide";
-},
-{
-alignment = -1;
-name = "hamza-ar";
-transform = "{0.78252, 0.16633, -0.16633, 0.78252, 57, -35}";
+pos = (181,286);
 }
 );
 layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
+shapes = (
+{
+ref = "kashida-ar.wide";
+},
+{
+alignment = -1;
+angle = 12.00002;
+pos = (57,-35);
+ref = "hamza-ar";
+scale = (0.8,0.8);
+}
+);
 width = 312;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{188, -152}";
+pos = (188,-152);
 },
 {
 name = top;
-position = "{188, 324}";
-}
-);
-components = (
-{
-name = "kashida-ar.wide";
-},
-{
-alignment = -1;
-name = "hamza-ar";
-transform = "{0.78252, 0.16633, -0.16633, 0.78252, 35, -55}";
+pos = (188,324);
 }
 );
 layerId = "08F1692B-9525-48D2-9816-1987B1C44D50";
+shapes = (
+{
+ref = "kashida-ar.wide";
+},
+{
+alignment = -1;
+angle = 12.00002;
+pos = (35,-55);
+ref = "hamza-ar";
+scale = (0.8,0.8);
+}
+);
 width = 345;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{205, -152}";
+pos = (205,-152);
 },
 {
 name = top;
-position = "{205, 379}";
-}
-);
-components = (
-{
-name = "kashida-ar.wide";
-},
-{
-alignment = -1;
-name = "hamza-ar";
-transform = "{0.78252, 0.16633, -0.16633, 0.78252, 35, -35}";
+pos = (205,379);
 }
 );
 layerId = "A7E21968-E455-4749-BB19-379F5EDC3B9B";
+shapes = (
+{
+ref = "kashida-ar.wide";
+},
+{
+alignment = -1;
+angle = 12.00002;
+pos = (35,-35);
+ref = "hamza-ar";
+scale = (0.8,0.8);
+}
+);
 width = 365;
 }
 );
-widthMetricsKey = "=kashida-ar.wide";
-rightMetricsKey = "=kashida-ar.wide";
-unicode = 0883;
+metricRight = "=kashida-ar.wide";
+metricWidth = "=kashida-ar.wide";
+unicode = 2179;
 }

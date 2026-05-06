@@ -5,204 +5,204 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{152, 458}";
+pos = (152,458);
 },
 {
 name = top;
-position = "{123, 801}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "fatha-ar";
-},
-{
-alignment = -1;
-name = "toneonedotabove-ar";
-transform = "{1, 0, 0, 1, 62, 28}";
+pos = (123,801);
 }
 );
 layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
+shapes = (
+{
+alignment = -1;
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+pos = (62,28);
+ref = "toneonedotabove-ar";
+}
+);
 width = 284;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{167, 458}";
+pos = (167,458);
 },
 {
 name = top;
-position = "{139, 826}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "fatha-ar";
-},
-{
-alignment = -1;
-name = "toneonedotabove-ar";
-transform = "{1, 0, 0, 1, 64, 28}";
+pos = (139,826);
 }
 );
 layerId = "A7E21968-E455-4749-BB19-379F5EDC3B9B";
+shapes = (
+{
+alignment = -1;
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+pos = (64,28);
+ref = "toneonedotabove-ar";
+}
+);
 width = 302;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{142, 458}";
+pos = (142,458);
 },
 {
 name = top;
-position = "{127, 801}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "fatha-ar";
-},
-{
-alignment = -1;
-name = "toneonedotabove-ar";
-transform = "{1, 0, 0, 1, 66, 28}";
+pos = (127,801);
 }
 );
 layerId = "D3B47D5E-6A85-4361-9DF6-638C8B7E2782";
+shapes = (
+{
+alignment = -1;
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+pos = (66,28);
+ref = "toneonedotabove-ar";
+}
+);
 width = 264;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{155, 457}";
+pos = (155,457);
 },
 {
 name = top;
-position = "{133, 817}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "fatha-ar";
-},
-{
-alignment = -1;
-name = "toneonedotabove-ar";
-transform = "{1, 0, 0, 1, 60, 28}";
+pos = (133,817);
 }
 );
 layerId = "08F1692B-9525-48D2-9816-1987B1C44D50";
+shapes = (
+{
+alignment = -1;
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+pos = (60,28);
+ref = "toneonedotabove-ar";
+}
+);
 width = 294;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{152, 458}";
+pos = (152,458);
 },
 {
 name = top;
-position = "{130, 801}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "fatha-ar";
-},
-{
-alignment = -1;
-name = "toneonedotabove-ar";
-transform = "{1, 0, 0, 1, 89, 28}";
+pos = (130,801);
 }
 );
 layerId = "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3";
+shapes = (
+{
+alignment = -1;
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+pos = (89,28);
+ref = "toneonedotabove-ar";
+}
+);
 width = 304;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{152, 458}";
+pos = (152,458);
 },
 {
 name = top;
-position = "{132, 801}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "fatha-ar";
-},
-{
-alignment = -1;
-name = "toneonedotabove-ar";
-transform = "{1, 0, 0, 1, 71, 28}";
+pos = (132,801);
 }
 );
 layerId = "6D0603BE-7277-4DA4-8C59-7934AF28E45B";
+shapes = (
+{
+alignment = -1;
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+pos = (71,28);
+ref = "toneonedotabove-ar";
+}
+);
 width = 304;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{161, 458}";
+pos = (161,458);
 },
 {
 name = top;
-position = "{136, 816}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "fatha-ar";
-},
-{
-alignment = -1;
-name = "toneonedotabove-ar";
-transform = "{1, 0, 0, 1, 66, 28}";
+pos = (136,816);
 }
 );
 layerId = "E1555194-BAFD-4DCC-A026-E2F9BA1917F2";
+shapes = (
+{
+alignment = -1;
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+pos = (66,28);
+ref = "toneonedotabove-ar";
+}
+);
 width = 316;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{167, 458}";
+pos = (167,458);
 },
 {
 name = top;
-position = "{145, 826}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "fatha-ar";
-},
-{
-alignment = -1;
-name = "toneonedotabove-ar";
-transform = "{1, 0, 0, 1, 70, 28}";
+pos = (145,826);
 }
 );
 layerId = "8594390A-478C-48BC-BAB2-0B8797A53DFB";
+shapes = (
+{
+alignment = -1;
+ref = "fatha-ar";
+},
+{
+alignment = -1;
+pos = (70,28);
+ref = "toneonedotabove-ar";
+}
+);
 width = 324;
 }
 );
-leftMetricsKey = "=fatha-ar";
-rightMetricsKey = "=fatha-ar";
-unicode = 08F5;
+metricLeft = "=fatha-ar";
+metricRight = "=fatha-ar";
+unicode = 2293;
 }
