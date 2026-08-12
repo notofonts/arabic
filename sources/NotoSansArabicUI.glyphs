@@ -1,7 +1,7 @@
 {
 .appVersion = "3512";
 DisplayStrings = (
-"/gaf-ar.medi"
+"/alef-ar.fina.wide/alefFathatan-ar.fina"
 );
 classes = (
 {
@@ -46251,7 +46251,7 @@ unicode = FE73;
 {
 export = 0;
 glyphname = "alef-ar.fina.wide";
-lastChange = "2016-07-29 16:49:39 +0000";
+lastChange = "2026-08-12 12:59:06 +0000";
 layers = (
 {
 anchors = (
@@ -46262,6 +46262,10 @@ position = "{128, 0}";
 {
 name = top;
 position = "{103, 694}";
+},
+{
+name = top.digit;
+position = "{67, 694}";
 }
 );
 layerId = "9B455188-434F-489F-9A18-4C18DBE88840";
@@ -46429,7 +46433,7 @@ position = "{103, 714}";
 },
 {
 name = top.digit;
-position = "{92, 714}";
+position = "{86, 714}";
 }
 );
 layerId = "A2AC38AA-6CC4-4B2B-B5AB-64A49772F2D3";
