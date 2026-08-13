@@ -787,6 +787,8 @@ sub alefMaksura-ar by behDotless-ar.init;
 sub yehKashmiri-ar by behDotless-ar.init ring-ar;
 sub yehFarsi-ar by behDotless-ar.init twodotshorizontalbelow-ar;
 sub yehbarree-ar by behDotless-ar.init twodotshorizontalbelow-ar;
+sub noonRingabove-ar by behDotless-ar.init ringabove-ar;
+sub yehFourdotsbelow-ar by behDotless-ar.init fourdotsbelow-ar;
 sub kashida-ar by kashida-ar.init;
 
 lookup dotcenter_below;
@@ -822,6 +824,8 @@ sub alefMaksura-ar by behDotless-ar.medi;
 sub yehKashmiri-ar by behDotless-ar.medi ring-ar;
 sub yehFarsi-ar by behDotless-ar.medi twodotshorizontalbelow-ar;
 sub yehbarree-ar by behDotless-ar.medi twodotshorizontalbelow-ar;
+sub noonRingabove-ar by behDotless-ar.medi ringabove-ar;
+sub yehFourdotsbelow-ar by behDotless-ar.medi fourdotsbelow-ar;
 
 lookup dotcenter_below;
 ";
@@ -866,6 +870,8 @@ sub yehKashmiri-ar by yehKashmiri-ar.fina;
 sub yehFarsi-ar by alefMaksura-ar.fina;
 sub yehbarree-ar by yehbarree-ar.fina;
 sub yehRohingya-ar by yehRohingya-ar.fina;
+sub noonRingabove-ar by behDotless-ar.fina ringabove-ar;
+sub yehFourdotsbelow-ar by behDotless-ar.fina fourdotsbelow-ar;
 ";
 tag = fina;
 },
