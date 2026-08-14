@@ -517,6 +517,7 @@ lookup decomposition {
   sub dalTwodotsverticalbelowTah-ar by dal-ar tahabove-ar twodotsverticalbelow-ar;
   sub dalVinvertedbelow-ar by dal-ar vinvertedbelow-ar;
   sub dalThreedotsbelow-ar by dal-ar threedotsdownbelow-ar;
+  sub dalTwodotsverticalbelow-ar by dal-ar twodotsverticalbelow-ar;
 
   # Reh family
   sub zain-ar by reh-ar dotabove-ar;
@@ -562,6 +563,7 @@ lookup decomposition {
   sub tahTwodotsabove-ar by tah-ar twodotshorizontalabove-ar;
   sub tahDotbelow-ar by tah-ar dotbelow-ar;
   sub tahThreedotsbelow-ar by tah-ar threedotsdownbelow-ar;
+  sub tahTwodotsverticalbelow-ar by tah-ar twodotsverticalbelow-ar;
 
   # Ain family
   sub ghain-ar by ain-ar dotabove-ar;
@@ -596,6 +598,7 @@ lookup decomposition {
   sub kafDotabove-ar by kaf-ar dotabove-ar;
   sub kafTwodotshorizontalabove-ar by kaf-ar twodotshorizontalabove-ar.diagonal;
   sub kafDotbelow-ar by kaf-ar dotbelow-ar;
+  sub kafTwodotsverticalbelow-ar by kaf-ar twodotsverticalbelow-ar;
   sub kafRing-ar by keheh-ar.alt ringcenter-ar;
   sub kehehDotabove-ar by keheh-ar dotabove-ar;
   sub kehehTwodotshorizontalabove-ar by keheh-ar twodotshorizontalabove-ar.diagonal;
@@ -635,6 +638,7 @@ lookup decomposition {
   sub noonTahabove-ar by noonghunna-ar dotabove_tahabove-ar;
   sub noonVabove-ar by noonghunna-ar dotabove_vabove-ar;
   sub noonVinvertedabove-ar by noonghunna-ar vinvertedabove-ar;
+  sub noonRingabove-ar by noonghunna-ar ringabove-ar;
 
   # Heh family
   sub tehMarbuta-ar by ae-ar twodotshorizontalabove-ar;
@@ -676,6 +680,7 @@ lookup decomposition {
   sub yehTail-ar by alefMaksura-ar tail-ar;
   sub yehTwodotsbelowNoonabove-ar by alefMaksura-ar twodotshorizontalbelow-ar noonabove-ar;
   sub yehthin-ar.init by behDotless-ar.init.thin twodotshorizontalbelow-ar.small;
+  sub yehFourdotsbelow-ar by alefMaksura-ar fourdotsbelow-ar;
 
   # Bari Ye family
   sub yehbarreeHamzaabove-ar by yehbarree-ar hamzaabove-ar;
