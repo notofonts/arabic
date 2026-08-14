@@ -1,0 +1,40 @@
+{
+glyphname = "kafTwodotsverticalbelow-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "kafDotless-ar";
+},
+{
+pos = (157,0);
+ref = "miniKeheh-ar";
+},
+{
+pos = (205,-4);
+ref = "twodotsverticalbelow-ar";
+}
+);
+width = 558;
+},
+{
+layerId = "26E2967D-790C-4793-AF2A-2D0AD74EDC69";
+shapes = (
+{
+ref = "kafDotless-ar";
+},
+{
+pos = (190,30);
+ref = "miniKeheh-ar";
+},
+{
+pos = (234,-12);
+ref = "twodotsverticalbelow-ar";
+}
+);
+width = 618;
+}
+);
+unicode = 69316;
+}
